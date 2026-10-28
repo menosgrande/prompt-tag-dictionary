@@ -340,3 +340,18 @@ body{font-size:13px;line-height:1.35}
  .tag-label-wrap .vote-caption{max-width:58px;font-size:8px;}
  .tag-label-wrap .vote-button{min-width:13px;min-height:16px;font-size:10px;}
 }
+
+
+/* Inline feedback follows each corresponding tag field */
+.tag-row > .tag-feedback{display:none;}
+.tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{display:flex;align-items:center;gap:4px;min-width:0;flex-wrap:wrap;}
+.tag-label-wrap > .tag-english,.tag-japanese-wrap > .tag-japanese{display:inline;min-width:0;}
+.tag-category-wrap > .tag-category{display:inline;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.category-vote-prefix{font-size:9px;color:var(--muted);white-space:nowrap;}
+.inline-vote-group{display:inline-flex;align-items:center;gap:2px;flex:0 0 auto;}
+.inline-vote-group .vote-button{min-width:14px;min-height:17px;padding:0 2px;font-size:10px;}
+@media(max-width:720px){
+ .tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{gap:2px;}
+ .category-vote-prefix{font-size:7px;}
+ .inline-vote-group .vote-button{min-width:11px;min-height:14px;padding:0 1px;font-size:9px;}
+}
