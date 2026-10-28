@@ -535,6 +535,38 @@
     state.page = Math.min(Math.max(0, state.page), pageCount - 1);
     const start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
     root.replaceChildren();
+
+    // Display shared tag prefixes as a visual tree only. Data, selection keys and
+    // prompt output always keep the complete original tag string.
+    const prefixTreeEnabled = !state.columnSort && ["relevance", "english"].includes($("#sort-order").value);
+    const pageTagIndexes = new Map(items.map((item, index) => [norm(item.tag), index]));
+    const prefixParents = new Map();
+    if (prefixTreeEnabled) {
+      items.forEach((item, index) => {
+        const words = norm(item.tag).split(/\\s+/).filter(Boolean);
+        for (let length = words.length - 1; length > 0; length--) {
+          const parentIndex = pageTagIndexes.get(words.slice(0, length).join(" "));
+          if (parentIndex !== undefined && parentIndex < index) {
+            prefixParents.set(index, parentIndex);
+            break;
+          }
+        }
+      });
+    }
+    const prefixChildren = new Map();
+    prefixParents.forEach((parentIndex, childIndex) => {
+      if (!prefixChildren.has(parentIndex)) prefixChildren.set(parentIndex, []);
+      prefixChildren.get(parentIndex).push(childIndex);
+    });
+    const lastPrefixChild = new Set([...prefixChildren.values()].map(children => children[children.length - 1]));
+    const prefixDepth = index => {
+      let depth = 0, cursor = index;
+      while (prefixParents.has(cursor) && depth < 8) {
+        cursor = prefixParents.get(cursor);
+        depth++;
+      }
+      return depth;
+    };
     document.querySelectorAll("[data-column-sort]").forEach(button => {
       const key = button.dataset.columnSort;
       const label = button.dataset.label;
@@ -544,18 +576,36 @@
     $("#results-title").textContent = state.query ? "検索結果" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
-    items.forEach(t => {
+    items.forEach((t, index) => {
       const row = document.createElement("div"); row.className = "tag-row";
+      const parentIndex = prefixParents.get(index);
       const check = document.createElement("input");
       check.type = "checkbox"; check.className = "tag-check";
       check.checked = state.selected.has(norm(t.tag));
       check.setAttribute("aria-label", (check.checked ? "選択解除 " : "選択 ") + t.tag);
       check.addEventListener("change", () => toggleSelected(t));
-      const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
-      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      english.title = t.tag;
-      japanese.title = t.ja || "";
+      const english = document.createElement("span"); english.className = "tag-english";
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
+      if (parentIndex !== undefined) {
+        const parent = items[parentIndex];
+        const parentWordCount = norm(parent.tag).split(/\\s+/).filter(Boolean).length;
+        const displayWords = String(t.tag).replace(/_/g, " ").trim().split(/\\s+/).filter(Boolean);
+        english.textContent = displayWords.slice(parentWordCount).join(" ") || t.tag;
+        row.classList.add("tag-row-branch");
+        tagLabel.classList.add("tag-prefix-child");
+        tagLabel.style.marginInlineStart = (Math.min(prefixDepth(index), 8) * 10) + "px";
+        const marker = document.createElement("span");
+        marker.className = "tag-branch-marker";
+        marker.textContent = lastPrefixChild.has(index) ? "└─" : "├─";
+        marker.setAttribute("aria-hidden", "true");
+        tagLabel.append(marker);
+      } else {
+        english.textContent = t.tag;
+      }
+      english.title = t.tag;
+      english.setAttribute("aria-label", t.tag);
+      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
+      japanese.title = t.ja || "";
       tagLabel.append(english);
       const japaneseWrap = document.createElement("div"); japaneseWrap.className = "tag-japanese-wrap";
       japaneseWrap.append(japanese);
