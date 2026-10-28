@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "dataset": {
+    "path": "data/tags.json",
+    "recordFormat": ["tag", "ja", "major", "minor"],
+    "recordLevelProvenance": "unavailable for the existing bundled rows",
+    "lastAudited": "2026-10-28"
+  },
+  "inputs": [
+    {
+      "name": "tags-full.json",
+      "role": "English tag list, as described in README",
+      "originUrl": null,
+      "retrievedAt": null,
+      "status": "file-level identity was known in working context, but original URL/date and per-tag lineage were not retained"
+    },
+    {
+      "name": "tags-ja-progress.json",
+      "role": "Japanese translation data, as described in README",
+      "originUrl": null,
+      "retrievedAt": null,
+      "status": "original URL/date and per-tag lineage were not retained"
+    },
+    {
+      "name": "Perchance source JavaScript/text",
+      "role": "additional tags and classification candidates",
+      "originUrl": null,
+      "retrievedAt": null,
+      "status": "the exact source revision and per-tag contribution were not retained"
+    },
+    {
+      "name": "boorutan/booru-japanese-tag",
+      "role": "translation reference, according to README",
+      "originUrl": "https://github.com/boorutan/booru-japanese-tag",
+      "retrievedAt": null,
+      "status": "used as a reference for filling missing translations; no per-row source attribution was retained"
+    },
+    {
+      "name": "PYU224/tagdb-updater",
+      "role": "translation reference, according to README",
+      "originUrl": "https://github.com/PYU224/tagdb-updater",
+      "retrievedAt": null,
+      "status": "used as a reference for filling missing translations; no per-row source attribution was retained"
+    }
+  ],
+  "limitations": [
+    "The existing bundled dataset cannot be fully reconstructed from source files that are not present in this repository.",
+    "No source or translation confidence is inferred for historical rows.",
+    "New JSON imports record filenames as provenance; that filename does not independently prove translation quality or license compatibility.",
+    "Unknown provenance must remain unknown rather than being guessed."
+  ]
+}
