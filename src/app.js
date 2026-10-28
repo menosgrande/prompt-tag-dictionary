@@ -766,6 +766,7 @@
     }
     const preferIncoming = $("#prefer-import").checked;
     state.tags = mergeTags(state.tags, incoming, $("#replace-import").checked, { preferIncoming });
+    $("#replace-import").checked = false;
     $("#prefer-import").checked = false;
     if ($("#save-import").checked) saveData();
     const keys = new Set(state.tags.map(t => norm(t.tag)));
