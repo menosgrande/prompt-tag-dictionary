@@ -1,21 +1,26 @@
 # Category audit — full dataset candidate pass
 
+## Coverage
+
 - Source rows: **11,047**
-- Existing categories retained but not semantically verified: **4,322**
-- Rows without source categories: **6,725**
-- Missing-category rows with major/minor candidates: **1,779**
-- Missing-category rows left unclassified: **4,946**
-- Low-confidence records (ambiguous or unmatched): **4,996**
+- Rows with existing category fields: **4,322**
+- Rows without category fields: **6,725**
+- Missing-category candidate inventory: `data/category-audit-candidates-01.jsonl` through `data/category-audit-candidates-12.jsonl` (all 11,047 source rows are represented; 1,000 source rows per part except the final part).
+- Existing-category mismatch candidates: **414** entries in `data/category-audit-existing-flags.jsonl`.
 
-The complete review inventory is stored as JSONL in `data/category-audit-candidates-*.jsonl` (1,000 source rows per part; first line in part 1 contains metadata). Each record is `[tag, ja, current, proposal, status, confidence, reason]`.
+## What this pass does
 
-## Method and limitations
+1. Creates keyword-based candidate categories for rows without source categories, using English tags and existing Japanese translations.
+2. Separately flags existing categories whose major category conflicts with obvious tag keywords (clothing, hair, eyes, pose/action, composition/viewpoint, style/quality, lighting).
+3. Preserves all canonical categories. These are review candidates, not corrections.
 
-This is a deterministic keyword pass against English tags and existing Japanese translations, **not an LLM semantic review**. It creates candidates for review; it does not establish that a proposed category is correct. Existing categories are preserved and marked unverified. Every proposed detail remains `要確認`. Ambiguous or unmatched records remain `未分類`. Canonical `data/tags.json` is unchanged.
+## Limitations
 
-## Next review order
+This is a deterministic keyword audit, **not an LLM semantic review**. Compound tags, proper nouns, and tags that intentionally combine attributes can trigger false positives or remain unclassified. Every suggested category detail is marked `要確認`; ambiguous candidates remain `未分類`. Existing classifications have not been proven correct merely because they were retained.
 
-1. Validate candidate categories against the actual tag meaning.
-2. Audit existing categories for false positives, not just missing categories.
-3. Resolve taxonomy boundaries: anatomy vs clothing vs adult content; pose vs action; composition vs viewpoint; and catch-all `その他`.
-4. Only after review, create a separate diff that applies approved category changes.
+## Next review steps
+
+- Manually validate the flagged existing-category mismatches.
+- Prioritize common/high-utility tags and tags where current and candidate categories disagree.
+- Review taxonomy boundaries: anatomy vs clothing vs adult content; pose vs action; composition vs viewpoint; and catch-all `その他`.
+- Apply only reviewed changes to `data/tags.json` in a separate diff.
