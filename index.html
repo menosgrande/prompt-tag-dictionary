@@ -35,7 +35,7 @@
     <section class="panel results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><span id="result-count" class="count">—</span></div>
       <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日語">日語 ↕</button><button type="button" data-column-sort="element1" data-label="要素1">要素1 ↕</button><button type="button" data-column-sort="element2" data-label="要素2">要素2 ↕</button><button type="button" data-column-sort="element3" data-label="詳細分類">詳細分類 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
       <div id="empty-state" class="empty-state" hidden><strong>一致するタグがありません</strong><p>検索語を変えるか、タグデータを読み込んでください。</p></div>
-      <div class="pagination"><span id="page-summary">—</span></div>
+      <div class="pagination"><button id="page-prev" class="button button-quiet" type="button" aria-label="前のページ" disabled>前へ</button><span id="page-summary">—</span><button id="page-next" class="button button-quiet" type="button" aria-label="次のページ" disabled>次へ</button></div>
     </section>
     <aside class="panel builder-panel"><div class="panel-heading"><div><span class="eyebrow">PROMPT BUILDER</span><h2>選択したタグ</h2></div><button id="clear-selected" class="text-button">全解除</button></div>
       <div id="selected-list" class="selected-list"></div>
