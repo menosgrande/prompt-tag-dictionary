@@ -223,10 +223,34 @@
     if (detail && detail !== "—" && choices.includes(detail)) return [major, minor, detail];
     const guess = inferDetail(t, major, minor);
     return [major, minor, choices.includes(guess) ? guess : choices.includes("その他") ? "その他" : choices[0]];
-  }  function cleanTag(obj) {
+  }  const UNKNOWN_SOURCE = "unknown";
+  const SEED_SOURCE = "seed:data/tags.json";
+  let lastMergeStats = null;
+
+  function normalizeSource(value) {
+    const source = String(value ?? "").trim();
+    // "import" was the old generic default, not a trustworthy file origin.
+    return !source || source === "import" ? UNKNOWN_SOURCE : source;
+  }
+  function sourceList(item) {
+    const values = [
+      ...(Array.isArray(item?.sources) ? item.sources : []),
+      item?.source
+    ].map(normalizeSource).filter(source => source !== UNKNOWN_SOURCE);
+    const unique = [...new Set(values)];
+    return unique.length ? unique : [UNKNOWN_SOURCE];
+  }
+  function combineSources(...lists) {
+    const known = [...new Set(lists.flat().map(normalizeSource).filter(source => source !== UNKNOWN_SOURCE))];
+    return known.length ? known : [UNKNOWN_SOURCE];
+  }
+  function cleanTag(obj) {
     let item;
     if (typeof obj === "string") item = { tag: obj };
-    else if (Array.isArray(obj)) item = { tag: obj[0], ja: obj[1] || "", category: obj.length >= 5 ? [obj[2], obj[3], obj[4]] : obj.length >= 4 ? [obj[2], obj[3]] : undefined };
+    else if (Array.isArray(obj)) item = {
+      tag: obj[0], ja: obj[1] || "",
+      category: obj.length >= 5 ? [obj[2], obj[3], obj[4]] : obj.length >= 4 ? [obj[2], obj[3]] : undefined
+    };
     else item = obj || {};
     const tag = String(item.tag ?? item.t ?? item.english ?? item.name ?? "").trim();
     if (!tag) return null;
@@ -236,37 +260,84 @@
       ...(Array.isArray(item.keywords) ? item.keywords : []),
       ...(Array.isArray(item.search) ? item.search : [])
     ].map(String).filter(Boolean))];
+    const sources = sourceList(item);
     return {
       tag, ja: String(item.ja ?? item.japanese ?? item.gloss ?? item.j ?? ""),
       category, aliases, explanation: String(item.explanation ?? item.description ?? ""),
       related: Array.isArray(item.related) ? item.related : [],
-      preview: String(item.preview ?? item.image ?? ""), source: String(item.source ?? "import")
+      preview: String(item.preview ?? item.image ?? ""),
+      source: sources[0] || UNKNOWN_SOURCE, sources
     };
   }
-  function mergeTags(base, incoming, replace = false) {
+  function isClassified(item) {
+    return Boolean(item?.category?.[0] && item.category[0] !== "未分類");
+  }
+  function sameCategory(a, b) {
+    return JSON.stringify(a || []) === JSON.stringify(b || []);
+  }
+  function mergeTags(base, incoming, replace = false, options = {}) {
     const map = new Map();
-    if (!replace) base.forEach(t => map.set(norm(t.tag), t));
-    incoming.forEach(raw => {
-      const t = cleanTag(raw);
-      if (!t) return;
-      const key = norm(t.tag), prev = map.get(key);
-      if (prev) {
-        map.set(key, {
-          ...prev, ...t, ja: t.ja || prev.ja,
-          category: t.category[0] === "未分類" ? prev.category : t.category,
-          aliases: [...new Set([...(prev.aliases || []), ...(t.aliases || [])])],
-          explanation: t.explanation || prev.explanation,
-          related: t.related.length ? t.related : (prev.related || []),
-          preview: t.preview || prev.preview
-        });
-      } else map.set(key, t);
+    const stats = { input: incoming.length, added: 0, duplicates: 0, translationConflicts: 0, categoryConflicts: 0 };
+    if (!replace) base.forEach(raw => {
+      const item = cleanTag(raw);
+      if (item) map.set(norm(item.tag), item);
     });
+    incoming.forEach(raw => {
+      const item = cleanTag(raw);
+      if (!item) return;
+      const key = norm(item.tag), prev = map.get(key);
+      if (!prev) {
+        map.set(key, item);
+        stats.added++;
+        return;
+      }
+      stats.duplicates++;
+      if (prev.ja && item.ja && norm(prev.ja) !== norm(item.ja)) stats.translationConflicts++;
+      if (isClassified(prev) && isClassified(item) && !sameCategory(prev.category, item.category)) stats.categoryConflicts++;
+
+      // Refresh seed-only rows from the latest bundle; preserve imported/custom rows.
+      const priorSources = sourceList(prev);
+      const canRefreshSeed = options.seedRefresh &&
+        priorSources.every(source => source === UNKNOWN_SOURCE || source === SEED_SOURCE) &&
+        item.sources.includes(SEED_SOURCE);
+      const sources = combineSources(priorSources, sourceList(item));
+      const chosenJa = canRefreshSeed ? (item.ja || prev.ja) : (prev.ja || item.ja);
+      const chosenCategory = canRefreshSeed && isClassified(item)
+        ? item.category
+        : isClassified(prev) ? prev.category
+          : isClassified(item) ? item.category : prev.category;
+
+      map.set(key, {
+        ...prev, ...item,
+        ja: chosenJa,
+        category: chosenCategory,
+        aliases: [...new Set([...(prev.aliases || []), ...(item.aliases || [])])],
+        explanation: prev.explanation || item.explanation,
+        related: prev.related?.length ? prev.related : (item.related || []),
+        preview: prev.preview || item.preview,
+        source: sources[0] || UNKNOWN_SOURCE,
+        sources
+      });
+    });
+    lastMergeStats = stats;
     return [...map.values()].sort((a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" }));
   }
   function seedTags() {
     return fetch("./data/tags.json").then(r => {
       if (!r.ok) throw new Error("seed data missing");
       return r.json();
+    }).then(rows => {
+      if (!Array.isArray(rows)) throw new Error("seed data is not an array");
+      return rows.map(raw => {
+        if (Array.isArray(raw)) {
+          return {
+            tag: raw[0], ja: raw[1] || "",
+            category: raw.length >= 5 ? [raw[2], raw[3], raw[4]] : raw.length >= 4 ? [raw[2], raw[3]] : undefined,
+            source: SEED_SOURCE, sources: [SEED_SOURCE]
+          };
+        }
+        return { ...raw, source: raw.source || SEED_SOURCE, sources: combineSources(raw.sources || [], [raw.source || SEED_SOURCE]) };
+      });
     });
   }
   function saveData() {
@@ -600,13 +671,33 @@
 
   function parseJsonData(text, filename) {
     const parsed = JSON.parse(text), incoming = [];
-    if (Array.isArray(parsed)) parsed.forEach(x => incoming.push(x));
+    const add = raw => {
+      if (Array.isArray(raw)) {
+        incoming.push({
+          tag: raw[0], ja: raw[1] || "",
+          category: raw.length >= 5 ? [raw[2], raw[3], raw[4]] : raw.length >= 4 ? [raw[2], raw[3]] : undefined,
+          source: filename, sources: [filename]
+        });
+      } else if (typeof raw === "string") {
+        incoming.push({ tag: raw, source: filename, sources: [filename] });
+      } else if (raw && typeof raw === "object") {
+        incoming.push({
+          ...raw,
+          source: raw.source || filename,
+          sources: combineSources(raw.sources || [], [filename])
+        });
+      }
+    };
+    if (Array.isArray(parsed)) parsed.forEach(add);
     else if (parsed && typeof parsed === "object") {
       const gloss = parsed.gloss || parsed.translations;
       if (gloss && typeof gloss === "object" && !Array.isArray(gloss)) {
-        Object.entries(gloss).forEach(([tag, ja]) => incoming.push({ tag, ja: String(ja || ""), category: ["未分類", "未分類"], source: filename }));
-      } else if (Array.isArray(parsed.tags)) parsed.tags.forEach(x => incoming.push(x));
-      else if (Array.isArray(parsed.data)) parsed.data.forEach(x => incoming.push(x));
+        Object.entries(gloss).forEach(([tag, ja]) => incoming.push({
+          tag, ja: String(ja || ""), category: ["未分類", "未分類"],
+          source: filename, sources: [filename]
+        }));
+      } else if (Array.isArray(parsed.tags)) parsed.tags.forEach(add);
+      else if (Array.isArray(parsed.data)) parsed.data.forEach(add);
     }
     return incoming;
   }
@@ -636,7 +727,7 @@
     return incoming;
   }
   async function importFiles() {
-    const files = $("#data-files").files;
+    const files = [...$("#data-files").files].sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
     if (!files.length) { setStatus("import-status", "ファイルを選択してください。", true); return; }
     const incoming = [], errors = [];
     for (const file of files) {
@@ -655,7 +746,12 @@
     const keys = new Set(state.tags.map(t => norm(t.tag)));
     state.selected = new Set([...state.selected].filter(k => keys.has(k)));
     saveSelected(); state.page = 0; renderAll();
-    setStatus("import-status", incoming.length.toLocaleString("ja-JP") + "件の候補を読み込み、重複を統合しました。現在 " + state.tags.length.toLocaleString("ja-JP") + "件です。");
+    const stats = lastMergeStats || {};
+    const conflictNotes = [];
+    if (stats.translationConflicts) conflictNotes.push("訳の競合 " + stats.translationConflicts + "件（先に登録された訳を保持）");
+    if (stats.categoryConflicts) conflictNotes.push("分類の競合 " + stats.categoryConflicts + "件（先に登録された分類を保持）");
+    const conflictText = conflictNotes.length ? " 要確認: " + conflictNotes.join("、") + "。" : "";
+    setStatus("import-status", incoming.length.toLocaleString("ja-JP") + "件の候補を読み込み、重複を統合しました。現在 " + state.tags.length.toLocaleString("ja-JP") + "件です。" + conflictText, conflictNotes.length > 0);
     setTimeout(() => closeDialog("import-dialog"), 900);
   }
   function openDialog(id) {
@@ -762,11 +858,24 @@
   }
   async function init() {
     wire(); populateCustomCategories();
+    let saved = null;
+    try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
     try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      state.tags = saved ? JSON.parse(saved) : await seedTags();
-      if (!Array.isArray(state.tags)) state.tags = [];
-    } catch (e) { state.tags = await seedTags().catch(() => []); }
+      const seed = await seedTags();
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        state.tags = Array.isArray(parsed)
+          ? mergeTags(parsed, seed, false, { seedRefresh: true })
+          : seed;
+        saveData();
+      } else state.tags = seed;
+    } catch (e) {
+      try {
+        const parsed = saved ? JSON.parse(saved) : null;
+        state.tags = Array.isArray(parsed) ? parsed : [];
+      } catch { state.tags = []; }
+      if (!state.tags.length) state.tags = await seedTags().catch(() => []);
+    }
     try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
     try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
     normalizeRecords(); renderAll();
