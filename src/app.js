@@ -396,9 +396,10 @@
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
       const rating = reviewRatings[norm(t.tag)] || {};
+      if (level === "review-tag" && rating.tag !== -1) return false;
       if (level === "review-category" && rating.category !== -1) return false;
       if (level === "review-translation" && rating.translation !== -1) return false;
-      if (level === "review-any" && !(rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
+      if (level === "review-any" && !(rating.tag === -1 || rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
       if (!q) return true;
       const hay = [t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" ");
       return norm(hay).includes(q);
