@@ -318,3 +318,9 @@ body{font-size:13px;line-height:1.35}
     max-height:48vh;
   }
 }
+
+
+/* Align feedback controls from the first grid column */
+.tag-row > .tag-feedback{
+  grid-column:1 / -1;
+}
