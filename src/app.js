@@ -168,8 +168,14 @@
       return norm(hay).includes(q);
     });
     const sort = $("#sort-order").value;
-    if (sort === "english") list.sort((a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" }));
-    else if (sort === "japanese") list.sort((a, b) => (a.ja || "~~~~").localeCompare(b.ja || "~~~~", "ja") || a.tag.localeCompare(b.tag));
+    const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
+    if (sort === "english") list.sort(englishCompare);
+    else if (sort === "japanese") list.sort((a, b) => {
+      const jaA = a.ja || "\uffff", jaB = b.ja || "\uffff";
+      return jaA.localeCompare(jaB, "ja") || englishCompare(a, b);
+    });
+    else if (sort === "selected") list.sort((a, b) => Number(state.selected.has(norm(b.tag))) - Number(state.selected.has(norm(a.tag))) || englishCompare(a, b));
+    else if (sort === "uncategorized") list.sort((a, b) => Number(majorOf(b) === "未分類") - Number(majorOf(a) === "未分類") || englishCompare(a, b));
     else if (q) list.sort((a, b) => {
       const score = t => {
         const tag = norm(t.tag), ja = norm(t.ja);
@@ -177,8 +183,9 @@
         if (tag.startsWith(q) || ja.startsWith(q)) return 1;
         return 2;
       };
-      return score(a) - score(b) || a.tag.localeCompare(b.tag, "en");
+      return score(a) - score(b) || englishCompare(a, b);
     });
+    else list.sort(englishCompare);
     return list;
   }
   function makeButton(text, cls, action) {
