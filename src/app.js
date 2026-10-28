@@ -3,7 +3,11 @@
   const $ = (s) => document.querySelector(s);
   const STORAGE_KEY = "ptd.dictionary.v1";
   const SELECTED_KEY = "ptd.selected.v1";
-  const PAGE_SIZE = 60;
+  const DEFAULT_PAGE_SIZE = 100;
+  function pageSize(total) {
+    const value = $("#page-size")?.value || String(DEFAULT_PAGE_SIZE);
+    return value === "all" ? Math.max(1, total) : Math.max(1, Number(value) || DEFAULT_PAGE_SIZE);
+  }
   const CATEGORIES = [
     ["人物","People","人数","属性","年齢・属性","種族・役割"],
     ["顔・表情","Face & Expression","表情","目","口","顔の特徴"],
@@ -211,7 +215,7 @@
     b.addEventListener("click", action); return b;
   }
   function renderResults() {
-    const all = matchingTags(), start = state.page * PAGE_SIZE, items = all.slice(start, start + PAGE_SIZE), root = $("#tag-results");
+    const all = matchingTags(), size = pageSize(all.length), start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
     root.replaceChildren();
     document.querySelectorAll("[data-column-sort]").forEach(button => {
       const key = button.dataset.columnSort;
@@ -240,8 +244,8 @@
       row.append(check, english, japanese, element1, element2); row.title = t.explanation || t.tag;
       root.append(row);
     });
-    const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
-    $("#page-summary").textContent = all.length ? (start + 1) + "–" + Math.min(start + PAGE_SIZE, all.length) + " / " + all.length.toLocaleString("ja-JP") : "0件";
+    const pages = Math.max(1, Math.ceil(all.length / size));
+    $("#page-summary").textContent = all.length ? (start + 1) + "–" + Math.min(start + size, all.length) + " / " + all.length.toLocaleString("ja-JP") : "0件";
     $("#prev-page").disabled = state.page <= 0; $("#next-page").disabled = state.page >= pages - 1;
   }
   function toggleSelected(t) {
@@ -460,6 +464,7 @@
       });
     });
     $("#level-filter").addEventListener("change", () => { state.page = 0; renderResults(); });
+    $("#page-size").addEventListener("change", () => { state.page = 0; renderResults(); });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#prev-page").addEventListener("click", () => { state.page = Math.max(0, state.page - 1); renderResults(); });
     $("#next-page").addEventListener("click", () => { state.page++; renderResults(); });
