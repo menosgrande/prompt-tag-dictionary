@@ -355,3 +355,59 @@ body{font-size:13px;line-height:1.35}
  .category-vote-prefix{font-size:7px;}
  .inline-vote-group .vote-button{min-width:11px;min-height:14px;padding:0 1px;font-size:9px;}
 }
+
+
+/* Compact link-style ratings; keep each tag row on one line where possible */
+.tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{
+  flex-wrap:nowrap;
+  overflow:hidden;
+  gap:3px;
+}
+.tag-label-wrap > .tag-english,
+.tag-japanese-wrap > .tag-japanese,
+.tag-category-wrap > .tag-category{
+  flex:0 1 auto;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.inline-vote-group{
+  flex:0 0 auto;
+  gap:3px;
+  line-height:1;
+}
+.inline-vote-group .vote-button{
+  display:inline;
+  min-width:0;
+  min-height:0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:none;
+  font:inherit;
+  font-size:11px;
+  line-height:1;
+  text-decoration:none;
+  cursor:pointer;
+}
+.inline-vote-group .vote-button:first-child{color:#239447;}
+.inline-vote-group .vote-button:last-child{color:#d93636;}
+.inline-vote-group .vote-button:hover,
+.inline-vote-group .vote-button:focus-visible{
+  background:none;
+  outline:none;
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+.inline-vote-group .vote-button.active{
+  font-weight:800;
+  text-decoration:underline;
+  text-underline-offset:2px;
+  outline:none;
+  background:none;
+}
+@media(max-width:720px){
+  .tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{gap:2px;}
+  .inline-vote-group{gap:2px;}
+  .inline-vote-group .vote-button{font-size:10px;}
+}
