@@ -510,3 +510,10 @@ body{font-size:13px;line-height:1.35}
 @media(max-width:720px){
   .vote-button{min-width:18px;min-height:19px;padding:0 2px;font-size:11px}
 }
+
+
+/* One action clears search and classification/review filters without touching selection. */
+.clear-filters{flex:0 0 auto;min-height:36px;padding:0 10px;font-size:11px;white-space:nowrap}
+.clear-filters:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:1100px){.clear-filters{flex:0 0 auto}}
+@media(max-width:720px){.clear-filters{min-height:30px;padding:0 8px;font-size:10px}}
