@@ -231,3 +231,26 @@ body{font-size:13px;line-height:1.35}
 .vote-button:nth-child(3){color:#d94b4b}
 .vote-button.active{font-weight:800;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:720px){.tag-feedback{gap:5px}.vote-caption{font-size:8px}.vote-button{min-width:13px;min-height:16px;font-size:12px}}
+
+/* Stable scrolling for the central tag list */
+.results-panel{min-width:0;min-height:0}
+.table-head,.tag-row{min-width:0}
+.tag-results{
+  flex:0 1 auto;
+  min-width:0;
+  min-height:0;
+  max-height:min(58vh,510px);
+  overflow-y:auto;
+  overflow-x:hidden;
+  overscroll-behavior:contain;
+  scrollbar-gutter:stable;
+}
+.tag-row{min-width:0}
+.tag-feedback{min-width:0;flex-wrap:wrap}
+@media(max-width:1100px){
+  .tag-results{max-height:min(55vh,440px)}
+}
+@media(max-width:720px){
+  .tag-results{max-height:48vh;min-height:190px}
+  .tag-feedback{gap:5px}
+}
