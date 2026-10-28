@@ -302,8 +302,9 @@
         priorSources.every(source => source === UNKNOWN_SOURCE || source === SEED_SOURCE) &&
         item.sources.includes(SEED_SOURCE);
       const sources = combineSources(priorSources, sourceList(item));
-      const chosenJa = canRefreshSeed ? (item.ja || prev.ja) : (prev.ja || item.ja);
-      const chosenCategory = canRefreshSeed && isClassified(item)
+      const preferIncoming = options.preferIncoming === true;
+      const chosenJa = canRefreshSeed || preferIncoming ? (item.ja || prev.ja) : (prev.ja || item.ja);
+      const chosenCategory = (canRefreshSeed || preferIncoming) && isClassified(item)
         ? item.category
         : isClassified(prev) ? prev.category
           : isClassified(item) ? item.category : prev.category;
@@ -711,10 +712,25 @@
   function parsePerchanceText(text, filename) {
     const incoming = [];
     const parseBlock = name => {
-      const start = text.indexOf("var " + name + " = [");
-      if (start < 0) return "";
-      const from = text.indexOf("[", start), end = text.indexOf("];", from);
-      return end < 0 ? "" : text.slice(from, end + 1);
+      const declaration = new RegExp("\\b(?:var|let|const)\\s+" + name + "\\s*=\\s*\\[");
+      const match = declaration.exec(text);
+      if (!match) return "";
+      const from = text.indexOf("[", match.index + match[0].length - 1);
+      if (from < 0) return "";
+      let depth = 0, quote = "", escaped = false;
+      for (let i = from; i < text.length; i++) {
+        const ch = text[i];
+        if (quote) {
+          if (escaped) escaped = false;
+          else if (ch === "\\\\") escaped = true;
+          else if (ch === quote) quote = "";
+          continue;
+        }
+        if (ch === "'" || ch === '"') { quote = ch; continue; }
+        if (ch === "[") depth++;
+        else if (ch === "]" && --depth === 0) return text.slice(from, i + 1);
+      }
+      return "";
     };
     const main = parseBlock("TAGS");
     const rowRe = /\[\s*"((?:\\.|[^"\\])*)"\s*,\s*"((?:\\.|[^"\\])*)"\s*,\s*"([a-z])"\s*\]/g;
@@ -748,18 +764,24 @@
       setStatus("import-status", "タグを読み取れませんでした。JSONの形式を確認してください。" + (errors.length ? " " + errors.join(" / ") : ""), true);
       return;
     }
-    state.tags = mergeTags(state.tags, incoming, $("#replace-import").checked);
+    const preferIncoming = $("#prefer-import").checked;
+    state.tags = mergeTags(state.tags, incoming, $("#replace-import").checked, { preferIncoming });
     if ($("#save-import").checked) saveData();
     const keys = new Set(state.tags.map(t => norm(t.tag)));
     state.selected = new Set([...state.selected].filter(k => keys.has(k)));
     saveSelected(); state.page = 0; renderAll();
     const stats = lastMergeStats || {};
     const conflictNotes = [];
-    if (stats.translationConflicts) conflictNotes.push("訳の競合 " + stats.translationConflicts + "件（先に登録された訳を保持）");
-    if (stats.categoryConflicts) conflictNotes.push("分類の競合 " + stats.categoryConflicts + "件（先に登録された分類を保持）");
+    const policyText = preferIncoming ? "今回のデータを優先" : "先に登録された値を保持";
+    if (stats.translationConflicts) conflictNotes.push("訳の競合 " + stats.translationConflicts + "件（" + policyText + "）");
+    if (stats.categoryConflicts) conflictNotes.push("分類の競合 " + stats.categoryConflicts + "件（" + policyText + "）");
+    if (errors.length) {
+      const examples = errors.slice(0, 3).join(" / ");
+      conflictNotes.push("読み込み失敗 " + errors.length + "ファイル: " + examples + (errors.length > 3 ? " ほか" + (errors.length - 3) + "件" : ""));
+    }
     const conflictText = conflictNotes.length ? " 要確認: " + conflictNotes.join("、") + "。" : "";
     setStatus("import-status", incoming.length.toLocaleString("ja-JP") + "件の候補を読み込み、重複を統合しました。現在 " + state.tags.length.toLocaleString("ja-JP") + "件です。" + conflictText, conflictNotes.length > 0);
-    setTimeout(() => closeDialog("import-dialog"), 900);
+    if (!conflictNotes.length) setTimeout(() => closeDialog("import-dialog"), 900);
   }
   function openDialog(id) {
     const d = $("#" + id);
