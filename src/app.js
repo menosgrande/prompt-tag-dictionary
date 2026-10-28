@@ -697,10 +697,7 @@
       });
     });
     $("#level-filter").addEventListener("change", () => { state.page = 0; renderResults(); });
-    $("#page-size").addEventListener("change", () => { state.page = 0; renderResults(); });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
-    $("#prev-page").addEventListener("click", () => { state.page = Math.max(0, state.page - 1); renderResults(); });
-    $("#next-page").addEventListener("click", () => { state.page++; renderResults(); });
     $("#clear-selected").addEventListener("click", () => { state.selected.clear(); saveSelected(); renderAll(); });
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", copyOutput); $("#download-output").addEventListener("click", downloadText);
