@@ -9,9 +9,7 @@
     return value === "all" ? Math.max(1, total) : Math.max(1, Number(value) || DEFAULT_PAGE_SIZE);
   }
   const CATEGORIES = [
-    ["人物","People","人数","属性","年齢・属性","種族・役割"],
-    ["顔・表情","Face & Expression","表情","目","口","顔の特徴"],
-    ["髪・目・体","Hair, Eyes & Body","髪型","髪色","目の色","体格","身体の特徴"],
+    ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","种族・役割"],
     ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
     ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
     ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
@@ -38,6 +36,38 @@
     }
     return ["未分類", "未分類"];
   }
+  function normalizeCategory(tag, category) {
+    let [major, minor] = category;
+    const t = norm(tag);
+    const has = (re) => re.test(t);
+    const personMinor = () => {
+      if (has(/\\b(breast|breasts|boob|boobs|chest|cleavage|bust|flat chest|large breasts|small breasts)\\b/)) return "胸";
+      if (has(/\\b(eye|eyes|eyebrow|eyelash|pupil|iris|heterochromia)\\b/)) return "目";
+      if (has(/\\b(hair|haired|hairstyle|bangs|braid|ponytail|bun|ahoge|twintail|twintails|bob cut|bald|shaved head|long hair|short hair)\\b/)) return "頭髪";
+      if (has(/\\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark)\\b/)) return "顔・表情";
+      if (has(/\\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type)\\b/)) return "性別・体形";
+      if (has(/\\b(baby|child|kid|teen|teenager|young|old woman|old man|elderly)\\b/)) return "年齢";
+      if (has(/\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings)\\b/)) return "种族・役割";
+      return "身体・部位";
+    };
+    if (major === "髪・目・体") {
+      major = "人物";
+      if (/髪型|髪色|目の色/.test(minor)) minor = minor === "目の色" ? "目" : "頭髪";
+      else if (minor === "顔の特徴") minor = personMinor();
+      else if (minor === "身体の特徴") minor = personMinor();
+      else minor = personMinor();
+    } else if (major === "顔・表情") {
+      major = "人物";
+      if (minor === "表情") minor = "顔・表情";
+      else if (minor === "目") minor = "目";
+      else minor = personMinor();
+    } else if (major === "人物") {
+      if (/属性|年齢/.test(minor)) minor = personMinor();
+      if (minor === "属性") minor = personMinor();
+      if (minor === "種族・役割") minor = "种族・役割";
+    }
+    return [major || "未分類", minor || "未分類"];
+  }
   function cleanTag(obj) {
     let item;
     if (typeof obj === "string") item = { tag: obj };
@@ -45,7 +75,7 @@
     else item = obj || {};
     const tag = String(item.tag ?? item.t ?? item.english ?? item.name ?? "").trim();
     if (!tag) return null;
-    const category = splitCategory(item.category ?? item.categories ?? item.cat);
+    const category = normalizeCategory(tag, splitCategory(item.category ?? item.categories ?? item.cat));
     const aliases = [...new Set([
       ...(Array.isArray(item.aliases) ? item.aliases : []),
       ...(Array.isArray(item.keywords) ? item.keywords : []),
