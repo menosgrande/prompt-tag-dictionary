@@ -464,16 +464,18 @@
     });
   }
   function matchingTags() {
-    const q = norm(state.query), level = $("#level-filter").value;
+    const q = norm(state.query), level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
     let list = state.tags.filter(t => {
       if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
       const rating = reviewRatings[norm(t.tag)] || {};
-      if (level === "review-tag" && rating.tag !== -1) return false;
-      if (level === "review-category" && rating.category !== -1) return false;
-      if (level === "review-translation" && rating.translation !== -1) return false;
-      if (level === "review-any" && !(rating.tag === -1 || rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
+      const hasRating = ["tag", "translation", "category"].some(key => rating[key] === 1 || rating[key] === -1);
+      if (reviewFilter === "unreviewed" && hasRating) return false;
+      if (reviewFilter === "review-tag" && rating.tag !== -1) return false;
+      if (reviewFilter === "review-category" && rating.category !== -1) return false;
+      if (reviewFilter === "review-translation" && rating.translation !== -1) return false;
+      if (reviewFilter === "review-any" && !(rating.tag === -1 || rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
       if (!q) return true;
       const hay = [t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" ");
       return norm(hay).includes(q);
@@ -884,7 +886,7 @@
         state.page = 0; renderResults();
       });
     });
-    $("#level-filter").addEventListener("change", () => { state.page = 0; renderResults(); });
+    ["level-filter", "review-filter"].forEach(id => $("#" + id).addEventListener("change", () => { state.page = 0; renderResults(); }));
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#clear-selected").addEventListener("click", () => { state.selected.clear(); saveSelected(); renderAll(); });
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));

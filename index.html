@@ -27,7 +27,8 @@
   </section>
   <section class="search-row" aria-label="タグ検索">
     <label class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="日本語・英語で検索（例：笑顔 / smile / grimace）" autocomplete="off"><kbd>Enter</kbd></label>
-    <select id="level-filter" aria-label="分類範囲"><option value="all">すべての分類</option><option value="known">分類済みのみ</option><option value="unknown">未分類のみ</option><option value="review-any">要確認（未分類・低評価）</option><option value="review-tag">タグの👎</option><option value="review-translation">訳の👎</option><option value="review-category">分類の👎</option></select>
+    <select id="level-filter" aria-label="分類状態"><option value="all">分類：すべて</option><option value="known">分類済み</option><option value="unknown">未分類</option></select>
+    <select id="review-filter" aria-label="確認状態"><option value="all">確認：すべて</option><option value="unreviewed">未評価のみ</option><option value="review-any">要確認あり</option><option value="review-tag">タグの👎</option><option value="review-translation">訳の👎</option><option value="review-category">分類の👎</option></select>
     <select id="sort-order" aria-label="並び順"><option value="relevance">検索一致順</option><option value="english">英語 A–Z</option><option value="japanese">日本語 あ–ん</option><option value="selected">選択済みを上</option><option value="uncategorized">未分類を上</option></select>
   </section>
   <section class="workspace">
