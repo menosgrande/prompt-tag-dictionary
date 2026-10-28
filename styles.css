@@ -176,3 +176,7 @@ body{font-size:13px;line-height:1.35}
  .table-head button{font-size:8px}
  .tag-element1,.tag-element2{font-size:8px}
 }
+
+/* Compact page-size selector */
+.page-size-control{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;color:var(--muted);font-size:10px}.page-size-control select{height:26px;max-width:82px;padding:2px 5px;border:1px solid var(--line);border-radius:5px;background:var(--surface2);color:var(--text);font:inherit}.pagination{flex-wrap:wrap}
+@media(max-width:720px){.page-size-control{gap:3px;font-size:9px}.page-size-control select{height:24px;max-width:72px;padding:2px}}
