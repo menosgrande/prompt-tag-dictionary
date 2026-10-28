@@ -9,7 +9,7 @@
     return value === "all" ? Math.max(1, total) : Math.max(1, Number(value) || DEFAULT_PAGE_SIZE);
   }
   const CATEGORIES = [
-    ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","种族・役割"],
+    ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
     ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
     ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
     ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
@@ -47,7 +47,7 @@
       if (has(/\\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark)\\b/)) return "顔・表情";
       if (has(/\\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type)\\b/)) return "性別・体形";
       if (has(/\\b(baby|child|kid|teen|teenager|young|old woman|old man|elderly)\\b/)) return "年齢";
-      if (has(/\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings)\\b/)) return "种族・役割";
+      if (has(/\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings)\\b/)) return "種族・役割";
       return "身体・部位";
     };
     if (major === "髪・目・体") {
@@ -64,7 +64,7 @@
     } else if (major === "人物") {
       if (/属性|年齢/.test(minor)) minor = personMinor();
       if (minor === "属性") minor = personMinor();
-      if (minor === "種族・役割") minor = "种族・役割";
+      if (minor === "種族・役割") minor = "種族・役割";
     }
     return [major || "未分類", minor || "未分類"];
   }
