@@ -21,7 +21,7 @@
   ];
   const enMajor = Object.fromEntries(CATEGORIES.map(c => [c[0], c[1]]));
   const defaultMinor = Object.fromEntries(CATEGORIES.map(c => [c[0], c.slice(2)]));
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "" };
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set() };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -35,7 +35,10 @@
     return ["未分類", "未分類"];
   }
   function cleanTag(obj) {
-    const item = typeof obj === "string" ? { tag: obj } : (obj || {});
+    let item;
+    if (typeof obj === "string") item = { tag: obj };
+    else if (Array.isArray(obj)) item = { tag: obj[0], ja: obj[1] || "", category: obj.length >= 4 ? [obj[2], obj[3]] : undefined };
+    else item = obj || {};
     const tag = String(item.tag ?? item.t ?? item.english ?? item.name ?? "").trim();
     if (!tag) return null;
     const category = splitCategory(item.category ?? item.categories ?? item.cat);
@@ -229,10 +232,18 @@
     const root = $("#output-categories"); root.replaceChildren();
     const chosen = state.tags.filter(t => state.selected.has(norm(t.tag)));
     const majors = [...new Set(chosen.map(majorOf))];
-    if (majors.length < 2) { root.hidden = true; return; }
+    if (!majors.length) { root.hidden = true; return; }
     root.hidden = false;
+    const validMajors = new Set(majors);
+    [...state.outputExcluded].forEach(major => { if (!validMajors.has(major)) state.outputExcluded.delete(major); });
     majors.forEach(major => {
-      const b = makeButton(major, "include-chip active", () => { b.classList.toggle("active"); renderOutput(); });
+      const included = !state.outputExcluded.has(major);
+      const b = makeButton(major, "include-chip" + (included ? " active" : ""), () => {
+        if (state.outputExcluded.has(major)) state.outputExcluded.delete(major);
+        else state.outputExcluded.add(major);
+        b.classList.toggle("active", !state.outputExcluded.has(major));
+        renderOutput();
+      });
       b.dataset.major = major; b.title = "出力対象のカテゴリを切り替え"; root.append(b);
     });
   }
