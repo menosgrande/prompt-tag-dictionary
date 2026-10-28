@@ -1,0 +1,706 @@
+[
+  {
+    "tag": "1girl",
+    "ja": "女の子1人",
+    "category": [
+      "人物",
+      "人数"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "1boy",
+    "ja": "男の子1人",
+    "category": [
+      "人物",
+      "人数"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "2girls",
+    "ja": "女の子2人",
+    "category": [
+      "人物",
+      "人数"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "woman",
+    "ja": "女性",
+    "category": [
+      "人物",
+      "属性"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "man",
+    "ja": "男性",
+    "category": [
+      "人物",
+      "属性"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "smile",
+    "ja": "笑顔",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "grin",
+    "ja": "にやりと笑う",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "grimace",
+    "ja": "しかめ面",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "blush",
+    "ja": "赤面",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "crying",
+    "ja": "泣いている",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "angry",
+    "ja": "怒っている",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "surprised",
+    "ja": "驚いた表情",
+    "category": [
+      "顔・表情",
+      "表情"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "closed eyes",
+    "ja": "閉じた目",
+    "category": [
+      "顔・表情",
+      "目"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "open mouth",
+    "ja": "口を開けている",
+    "category": [
+      "顔・表情",
+      "口"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "long hair",
+    "ja": "ロングヘア",
+    "category": [
+      "髪・目・体",
+      "髪型"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "short hair",
+    "ja": "ショートヘア",
+    "category": [
+      "髪・目・体",
+      "髪型"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "ponytail",
+    "ja": "ポニーテール",
+    "category": [
+      "髪・目・体",
+      "髪型"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "twintails",
+    "ja": "ツインテール",
+    "category": [
+      "髪・目・体",
+      "髪型"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "black hair",
+    "ja": "黒髪",
+    "category": [
+      "髪・目・体",
+      "髪色"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "blonde hair",
+    "ja": "金髪",
+    "category": [
+      "髪・目・体",
+      "髪色"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "blue eyes",
+    "ja": "青い目",
+    "category": [
+      "髪・目・体",
+      "目の色"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "glasses",
+    "ja": "メガネ",
+    "category": [
+      "髪・目・体",
+      "顔の特徴"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "school uniform",
+    "ja": "制服",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "sailor uniform",
+    "ja": "セーラー服",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "dress",
+    "ja": "ドレス",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "kimono",
+    "ja": "着物",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "suit",
+    "ja": "スーツ",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "swimsuit",
+    "ja": "水着",
+    "category": [
+      "服装",
+      "衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "boots",
+    "ja": "ブーツ",
+    "category": [
+      "服装",
+      "靴"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "standing",
+    "ja": "立つ",
+    "category": [
+      "ポーズ・動作",
+      "姿勢"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "sitting",
+    "ja": "座る",
+    "category": [
+      "ポーズ・動作",
+      "姿勢"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "lying",
+    "ja": "横たわる",
+    "category": [
+      "ポーズ・動作",
+      "姿勢"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "walking",
+    "ja": "歩く",
+    "category": [
+      "ポーズ・動作",
+      "行動"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "running",
+    "ja": "走る",
+    "category": [
+      "ポーズ・動作",
+      "行動"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "holding hands",
+    "ja": "手をつなぐ",
+    "category": [
+      "ポーズ・動作",
+      "対人動作"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "hugging",
+    "ja": "抱きしめる",
+    "category": [
+      "ポーズ・動作",
+      "対人動作"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "kissing",
+    "ja": "キス",
+    "category": [
+      "ポーズ・動作",
+      "対人動作"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "portrait",
+    "ja": "ポートレート",
+    "category": [
+      "構図・視点",
+      "構図"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "close-up",
+    "ja": "クローズアップ",
+    "category": [
+      "構図・視点",
+      "撮影範囲"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "upper body",
+    "ja": "上半身",
+    "category": [
+      "構図・視点",
+      "撮影範囲"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "full body",
+    "ja": "全身",
+    "category": [
+      "構図・視点",
+      "撮影範囲"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "from above",
+    "ja": "俯瞰",
+    "category": [
+      "構図・視点",
+      "カメラ角度"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "from below",
+    "ja": "あおり",
+    "category": [
+      "構図・視点",
+      "カメラ角度"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "beach",
+    "ja": "海辺",
+    "category": [
+      "背景・場所",
+      "自然"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "bedroom",
+    "ja": "寝室",
+    "category": [
+      "背景・場所",
+      "屋内"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "classroom",
+    "ja": "教室",
+    "category": [
+      "背景・場所",
+      "施設"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "forest",
+    "ja": "森",
+    "category": [
+      "背景・場所",
+      "自然"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "sunset",
+    "ja": "夕日",
+    "category": [
+      "背景・場所",
+      "時間・天候"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "anime",
+    "ja": "アニメ",
+    "category": [
+      "画風・品質",
+      "画風"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "watercolor painting",
+    "ja": "水彩画",
+    "category": [
+      "画風・品質",
+      "画風"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "photorealistic",
+    "ja": "フォトリアル",
+    "category": [
+      "画風・品質",
+      "画風"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "masterpiece",
+    "ja": "最高傑作",
+    "category": [
+      "画風・品質",
+      "品質"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "best quality",
+    "ja": "最高品質",
+    "category": [
+      "画風・品質",
+      "品質"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "soft lighting",
+    "ja": "柔らかな光",
+    "category": [
+      "光・色彩",
+      "照明"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "backlighting",
+    "ja": "逆光",
+    "category": [
+      "光・色彩",
+      "照明"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "red",
+    "ja": "赤",
+    "category": [
+      "光・色彩",
+      "色"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "blue",
+    "ja": "青",
+    "category": [
+      "光・色彩",
+      "色"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "cat",
+    "ja": "猫",
+    "category": [
+      "その他",
+      "動物"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "dog",
+    "ja": "犬",
+    "category": [
+      "その他",
+      "動物"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "guitar",
+    "ja": "ギター",
+    "category": [
+      "その他",
+      "物"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "breasts",
+    "ja": "胸",
+    "category": [
+      "成人向け",
+      "身体・衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "cleavage",
+    "ja": "谷間",
+    "category": [
+      "成人向け",
+      "身体・衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "underwear",
+    "ja": "下着",
+    "category": [
+      "成人向け",
+      "身体・衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  },
+  {
+    "tag": "nude",
+    "ja": "ヌード",
+    "category": [
+      "成人向け",
+      "身体・衣類"
+    ],
+    "aliases": [],
+    "keywords": [],
+    "source": "starter"
+  }
+]
