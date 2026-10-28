@@ -593,7 +593,7 @@
       root.append(row);
     });
     $("#page-summary").textContent = all.length
-      ? (start + 1).toLocaleString("ja-JP") + "–" + Math.min(start + size, all.length).toLocaleString("ja-JP") + "件 / " + all.length.toLocaleString("ja-JP") + "件（" + (state.page + 1) + "/" + pageCount + "ページ）
+      ? (start + 1).toLocaleString("ja-JP") + "–" + Math.min(start + size, all.length).toLocaleString("ja-JP") + "件 / " + all.length.toLocaleString("ja-JP") + "件（" + (state.page + 1) + "/" + pageCount + "ページ）"
       : "0件";
     $("#page-prev").disabled = state.page <= 0;
     $("#page-next").disabled = state.page >= pageCount - 1;
