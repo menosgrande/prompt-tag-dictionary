@@ -166,3 +166,13 @@ body{font-size:13px;line-height:1.35}
 .table-head button:hover,.table-head button:focus-visible{color:var(--accent)}
 .table-head button[aria-sort="ascending"],.table-head button[aria-sort="descending"]{color:var(--accent);font-weight:700}
 @media(max-width:720px){.table-head{grid-template-columns:16px minmax(90px,1.2fr) minmax(52px,.75fr) minmax(75px,.9fr)}.table-head button{font-size:8px}}
+
+/* Five-column compact tag index: selection, tag, Japanese, element 1, element 2 */
+.table-head{grid-template-columns:22px minmax(100px,1.2fr) minmax(58px,.75fr) minmax(82px,.9fr) minmax(82px,.9fr)}
+.tag-row{grid-template-columns:22px minmax(100px,1.2fr) minmax(58px,.75fr) minmax(82px,.9fr) minmax(82px,.9fr)}
+.tag-element1,.tag-element2{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:720px){
+ .table-head,.tag-row{grid-template-columns:16px minmax(85px,1.2fr) minmax(40px,.6fr) minmax(58px,.8fr) minmax(58px,.8fr);gap:4px}
+ .table-head button{font-size:8px}
+ .tag-element1,.tag-element2{font-size:8px}
+}
