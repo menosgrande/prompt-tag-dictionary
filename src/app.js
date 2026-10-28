@@ -543,7 +543,7 @@
     const prefixParents = new Map();
     if (prefixTreeEnabled) {
       items.forEach((item, index) => {
-        const words = norm(item.tag).split(/\\s+/).filter(Boolean);
+        const words = norm(item.tag).split(/\s+/).filter(Boolean);
         for (let length = words.length - 1; length > 0; length--) {
           const parentIndex = pageTagIndexes.get(words.slice(0, length).join(" "));
           if (parentIndex !== undefined && parentIndex < index) {
@@ -588,8 +588,8 @@
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
       if (parentIndex !== undefined) {
         const parent = items[parentIndex];
-        const parentWordCount = norm(parent.tag).split(/\\s+/).filter(Boolean).length;
-        const displayWords = String(t.tag).replace(/_/g, " ").trim().split(/\\s+/).filter(Boolean);
+        const parentWordCount = norm(parent.tag).split(/\s+/).filter(Boolean).length;
+        const displayWords = String(t.tag).replace(/_/g, " ").trim().split(/\s+/).filter(Boolean);
         english.textContent = displayWords.slice(parentWordCount).join(" ") || t.tag;
         row.classList.add("tag-row-branch");
         tagLabel.classList.add("tag-prefix-child");
