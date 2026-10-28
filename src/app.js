@@ -553,22 +553,18 @@
       check.addEventListener("change", () => toggleSelected(t));
       const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
       const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      const element1 = document.createElement("span"); element1.className = "tag-category tag-element1";
-      element1.textContent = majorOf(t);
-      element1.title = majorOf(t);
-      const element2 = document.createElement("span"); element2.className = "tag-category tag-element2";
-      element2.textContent = minorOf(t);
-      element2.title = minorOf(t);
-      const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
-      element3.textContent = detailOf(t);
-      element3.title = detailOf(t);
+      english.title = t.tag;
+      japanese.title = t.ja || "";
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
       tagLabel.append(english);
       const japaneseWrap = document.createElement("div"); japaneseWrap.className = "tag-japanese-wrap";
       japaneseWrap.append(japanese);
       const categoryWrap = document.createElement("div"); categoryWrap.className = "tag-category-wrap";
-      const categoryPrefix = document.createElement("span"); categoryPrefix.className = "category-vote-prefix"; categoryPrefix.textContent = "分類：";
-      categoryWrap.append(categoryPrefix, element2);
+      const categoryTrail = document.createElement("span");
+      categoryTrail.className = "tag-category tag-category-trail";
+      categoryTrail.textContent = [majorOf(t), minorOf(t) !== "未分類" ? minorOf(t) : "", detailOf(t) !== "—" ? detailOf(t) : ""].filter(Boolean).join(" › ");
+      categoryTrail.title = categoryTrail.textContent;
+      categoryWrap.append(categoryTrail);
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
         const group = document.createElement("span");
@@ -591,7 +587,7 @@
       appendVotes(tagLabel, "タグ " + t.tag, "tag");
       appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
       appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
-      row.append(check, tagLabel, japaneseWrap, element1, categoryWrap, element3);
+      row.append(check, tagLabel, japaneseWrap, categoryWrap);
       row.title = t.explanation || t.tag;
       root.append(row);
     });
