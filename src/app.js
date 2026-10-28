@@ -193,9 +193,13 @@
         ? (a, b) => englishCompare(a, b)
         : key === "japanese"
           ? (a, b) => (a.ja || "\uffff").localeCompare(b.ja || "\uffff", "ja") || englishCompare(a, b)
-          : key === "category"
-            ? (a, b) => compareText(a, b, t => majorOf(t) + " " + minorOf(t))
-            : key === "selected"
+          : key === "element1"
+            ? (a, b) => compareText(a, b, t => majorOf(t))
+            : key === "element2"
+              ? (a, b) => compareText(a, b, t => minorOf(t))
+              : key === "category"
+                ? (a, b) => compareText(a, b, t => majorOf(t) + " " + minorOf(t))
+                : key === "selected"
               ? (a, b) => Number(state.selected.has(norm(b.tag))) - Number(state.selected.has(norm(a.tag))) || englishCompare(a, b)
               : englishCompare;
       list.sort((a, b) => dir * compare(a, b));
@@ -227,10 +231,13 @@
       check.addEventListener("change", () => toggleSelected(t));
       const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
       const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      const category = document.createElement("span"); category.className = "tag-category";
-      category.textContent = majorOf(t) === "未分類" ? "#未分類" : majorOf(t) + "  #" + minorOf(t);
-      category.title = categoryText(t);
-      row.append(check, english, japanese, category); row.title = t.explanation || t.tag;
+      const element1 = document.createElement("span"); element1.className = "tag-category tag-element1";
+      element1.textContent = majorOf(t);
+      element1.title = majorOf(t);
+      const element2 = document.createElement("span"); element2.className = "tag-category tag-element2";
+      element2.textContent = minorOf(t);
+      element2.title = minorOf(t);
+      row.append(check, english, japanese, element1, element2); row.title = t.explanation || t.tag;
       root.append(row);
     });
     const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
