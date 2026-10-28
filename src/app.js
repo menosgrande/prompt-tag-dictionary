@@ -489,7 +489,7 @@
         caption.className = "vote-caption";
         caption.textContent = label;
         group.append(caption);
-        [["👍", 1], ["👎", -1]].forEach(([symbol, value]) => {
+        [["↑", 1], ["↓", -1]].forEach(([symbol, value]) => {
           const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
             if (item[key] === value) delete item[key]; else item[key] = value;
