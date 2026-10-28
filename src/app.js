@@ -469,26 +469,11 @@
       check.addEventListener("change", () => toggleSelected(t));
       const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
       const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      const element1 = document.createElement("span"); element1.className = "tag-category tag-element1";
-      element1.textContent = majorOf(t);
-      element1.title = majorOf(t);
-      const element2 = document.createElement("span"); element2.className = "tag-category tag-element2";
-      element2.textContent = minorOf(t);
-      element2.title = minorOf(t);
-      const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
-      element3.textContent = detailOf(t);
-      element3.title = detailOf(t);
-      row.append(check, english, japanese, element1, element2, element3);
-      const feedback = document.createElement("div");
-      feedback.className = "tag-feedback";
       const current = reviewRatings[norm(t.tag)] || {};
-      [["訳", "translation"], ["分類", "category"]].forEach(([label, key]) => {
+      const makeVoteGroup = (label, key) => {
         const group = document.createElement("span");
-        group.className = "vote-group";
-        const caption = document.createElement("span");
-        caption.className = "vote-caption";
-        caption.textContent = label;
-        group.append(caption);
+        group.className = "vote-group vote-inline";
+        group.setAttribute("aria-label", label + "の評価");
         [["👍", 1], ["👎", -1]].forEach(([symbol, value]) => {
           const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
@@ -498,13 +483,29 @@
             try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
             renderResults();
           });
+          vote.title = label + (value === 1 ? "を良いと評価" : "を要確認と評価");
           vote.setAttribute("aria-label", t.tag + " " + label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
           vote.setAttribute("aria-pressed", String(current[key] === value));
           group.append(vote);
         });
-        feedback.append(group);
-      });
-      row.append(feedback);
+        return group;
+      };
+      const japaneseCell = document.createElement("span");
+      japaneseCell.className = "tag-japanese-cell";
+      japaneseCell.append(japanese, makeVoteGroup("日本語訳", "translation"));
+      const element1 = document.createElement("span"); element1.className = "tag-category tag-element1";
+      element1.textContent = majorOf(t);
+      element1.title = majorOf(t);
+      const element2 = document.createElement("span"); element2.className = "tag-category tag-element2";
+      element2.textContent = minorOf(t);
+      element2.title = minorOf(t);
+      const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
+      element3.textContent = detailOf(t);
+      element3.title = detailOf(t);
+      const categoryCell = document.createElement("span");
+      categoryCell.className = "tag-detail-cell";
+      categoryCell.append(element3, makeVoteGroup("分類", "category"));
+      row.append(check, english, japaneseCell, element1, element2, categoryCell);
       row.title = t.explanation || t.tag;
       root.append(row);
     });
