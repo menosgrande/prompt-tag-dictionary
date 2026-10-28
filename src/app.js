@@ -65,6 +65,8 @@
       if (/属性|年齢/.test(minor)) minor = personMinor();
       if (minor === "属性") minor = personMinor();
       if (minor === "種族・役割") minor = "種族・役割";
+    } else if (major === "成人向け" && has(/\\b(breast|breasts|boob|boobs|chest|cleavage|bust)\\b/)) {
+      major = "人物"; minor = "胸";
     }
     return [major || "未分類", minor || "未分類"];
   }
@@ -172,7 +174,9 @@
       });
       wrap.append(btn);
       const knownMinors = defaultMinor[major] || [];
-      const minors = [...new Set([...knownMinors, ...entry.minors.keys()])].filter(m => entry.minors.has(m));
+      const minors = major === "人物"
+        ? [...new Set([...knownMinors, ...entry.minors.keys()])]
+        : [...new Set([...knownMinors, ...entry.minors.keys()])].filter(m => entry.minors.has(m));
       const minWrap = document.createElement("div"); minWrap.className = "category-minors";
       minors.forEach(minor => {
         const n = entry.minors.get(minor) || 0;
