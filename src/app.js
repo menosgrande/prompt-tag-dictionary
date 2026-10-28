@@ -41,13 +41,13 @@
     const t = norm(tag);
     const has = (re) => re.test(t);
     const personMinor = () => {
-      if (has(/\\b(breast|breasts|boob|boobs|chest|cleavage|bust|flat chest|large breasts|small breasts)\\b/)) return "胸";
-      if (has(/\\b(eye|eyes|eyebrow|eyelash|pupil|iris|heterochromia)\\b/)) return "目";
-      if (has(/\\b(hair|haired|hairstyle|bangs|braid|ponytail|bun|ahoge|twintail|twintails|bob cut|bald|shaved head|long hair|short hair)\\b/)) return "頭髪";
-      if (has(/\\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark)\\b/)) return "顔・表情";
-      if (has(/\\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type)\\b/)) return "性別・体形";
-      if (has(/\\b(baby|child|kid|teen|teenager|young|old woman|old man|elderly)\\b/)) return "年齢";
-      if (has(/\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings)\\b/)) return "種族・役割";
+      if (has(/\b(breast|breasts|boob|boobs|chest|cleavage|bust|flat chest|large breasts|small breasts)\b/)) return "胸";
+      if (has(/\b(eye|eyes|eyebrow|eyelash|pupil|iris|heterochromia)\b/)) return "目";
+      if (has(/\b(hair|haired|hairstyle|bangs|braid|ponytail|bun|ahoge|twintail|twintails|bob cut|bald|shaved head|long hair|short hair)\b/)) return "頭髪";
+      if (has(/\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark)\b/)) return "顔・表情";
+      if (has(/\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type)\b/)) return "性別・体形";
+      if (has(/\b(baby|child|kid|teen|teenager|young|old woman|old man|elderly)\b/)) return "年齢";
+      if (has(/\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings)\b/)) return "種族・役割";
       return "身体・部位";
     };
     if (major === "髪・目・体") {
