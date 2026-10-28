@@ -5,7 +5,8 @@
   const SELECTED_KEY = "ptd.selected.v1";
   const REVIEW_KEY = "ptd.review.v1";
   let reviewRatings = {};
-  function pageSize(total) { return Math.max(1, total); }
+  const PAGE_SIZE = 100;
+  function pageSize() { return PAGE_SIZE; }
   const CATEGORIES = [
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
     ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
@@ -527,7 +528,9 @@
     b.addEventListener("click", action); return b;
   }
   function renderResults() {
-    const all = matchingTags(), size = pageSize(all.length), start = 0, items = all, root = $("#tag-results");
+    const all = matchingTags(), size = pageSize(all.length), pageCount = Math.max(1, Math.ceil(all.length / size));
+    state.page = Math.min(Math.max(0, state.page), pageCount - 1);
+    const start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
     root.replaceChildren();
     document.querySelectorAll("[data-column-sort]").forEach(button => {
       const key = button.dataset.columnSort;
@@ -589,7 +592,11 @@
       row.title = t.explanation || t.tag;
       root.append(row);
     });
-    $("#page-summary").textContent = all.length ? all.length.toLocaleString("ja-JP") + "件を一括表示" : "0件";
+    $("#page-summary").textContent = all.length
+      ? (start + 1).toLocaleString("ja-JP") + "–" + Math.min(start + size, all.length).toLocaleString("ja-JP") + "件 / " + all.length.toLocaleString("ja-JP") + "件（" + (state.page + 1) + "/" + pageCount + "ページ）
+      : "0件";
+    $("#page-prev").disabled = state.page <= 0;
+    $("#page-next").disabled = state.page >= pageCount - 1;
   }
   function toggleSelected(t) {
     const key = norm(t.tag);
@@ -835,6 +842,12 @@
     $("#search").addEventListener("input", e => { state.query = e.target.value; state.page = 0; renderResults(); });
     $("#search").addEventListener("keydown", e => { if (e.key === "Enter") { state.query = e.target.value; state.page = 0; renderResults(); } });
     $("#sort-order").addEventListener("change", () => { state.columnSort = null; state.page = 0; renderResults(); });
+    $("#page-prev").addEventListener("click", () => {
+      if (state.page > 0) { state.page--; renderResults(); }
+    });
+    $("#page-next").addEventListener("click", () => {
+      state.page++; renderResults();
+    });
     document.querySelectorAll("[data-column-sort]").forEach(button => {
       button.addEventListener("click", () => {
         const key = button.dataset.columnSort;
