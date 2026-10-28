@@ -12,3 +12,35 @@
 @media(max-width:1100px){.workspace{grid-template-columns:220px minmax(0,1fr)}.builder-panel{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;align-items:start}.builder-panel>.panel-heading{grid-column:1/-1}.selected-list{max-height:280px;min-height:150px}.builder-controls{border-bottom:0}.output-header,.builder-panel textarea,.output-actions,.builder-panel>.status-text{grid-column:2}.output-header{grid-row:2}.builder-panel textarea{grid-row:3}.output-actions{grid-row:4}.builder-panel>.status-text{grid-row:5}}
 @media(max-width:720px){.topbar{padding:12px 14px;align-items:flex-start}.brand-mark{width:34px;height:34px}.brand strong{font-size:12px}.brand small{font-size:10px}.top-actions{gap:5px;flex-wrap:wrap;justify-content:flex-end}.top-actions .button{font-size:11px;padding:7px 8px;min-height:34px}.app-shell{padding:20px 12px}.intro{align-items:flex-start;flex-direction:column;margin-bottom:16px}.intro h1{font-size:25px}.intro-copy{font-size:12px}.stats{width:100%}.stats>div{flex:1;padding:10px 12px}.stats strong{font-size:20px}.search-row{flex-wrap:wrap;gap:7px}.searchbox{flex-basis:100%;height:44px}.searchbox kbd{display:none}.search-row select{flex:1;max-width:none;height:38px;font-size:11px}.workspace{display:flex;flex-direction:column;gap:12px}.category-tree{max-height:210px;display:grid;grid-template-columns:1fr 1fr;gap:2px}.category-major{margin:2px 0}.category-minors{padding-left:4px}.panel-note{padding:9px 12px}.tag-results{max-height:55vh;min-height:250px}.table-head,.tag-row{grid-template-columns:minmax(0,1fr) 92px 42px;gap:6px;padding-left:10px;padding-right:10px}.table-head{font-size:9px}.tag-english{font-size:12px}.tag-japanese{font-size:10px}.tag-category{font-size:9px}.tag-add{width:34px;height:30px}.builder-panel{display:flex}.selected-list{max-height:180px;min-height:60px}.builder-controls{border-bottom:1px solid var(--line)}.builder-panel textarea{margin:0 12px;min-height:160px}.output-actions{padding:9px 12px 0}.footer{font-size:10px}.modal{padding:20px}.control-grid{gap:6px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Compact landing page and quick-start prompt presets */
+.app-shell{padding-top:18px}
+.intro{margin-bottom:13px;align-items:center}
+.intro h1{font-size:clamp(21px,2vw,28px);margin-bottom:5px}
+.intro-copy{font-size:12px}
+.stats>div{padding:8px 12px;min-width:88px;border-radius:9px}
+.stats strong{font-size:20px}
+.stats span{margin-top:2px}
+.starter-section{margin:0 0 12px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.starter-heading{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
+.starter-heading h2{margin:0;font-size:13px}
+.starter-heading span{font-size:11px;color:var(--muted)}
+.starter-presets{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.starter-preset{display:grid;grid-template-columns:1fr auto;gap:3px 8px;align-items:center;min-width:0;padding:8px 10px;text-align:left;border:1px solid var(--line);border-radius:8px;background:var(--surface2)}
+.starter-preset:hover{border-color:var(--accent-strong);background:var(--surface3)}
+.starter-preset strong{font-size:12px}
+.starter-preset span{grid-column:1/-1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--muted);font-size:10px}
+.starter-preset b{grid-column:2;grid-row:1;font-size:10px;color:var(--accent);font-weight:600;white-space:nowrap}
+.search-row{margin-bottom:10px}
+.workspace{gap:10px;min-height:0}
+.panel-heading{padding:12px 13px 10px}
+.category-tree{padding:6px;max-height:470px}
+.category-major-button{padding:6px 8px;font-size:12px}
+.category-minor{padding:4px 8px}
+.tag-results{max-height:510px;min-height:260px}
+.tag-row{padding-top:7px;padding-bottom:7px}
+.selected-list{max-height:160px}
+.builder-controls{padding:10px 12px}
+.builder-panel textarea{min-height:120px}
+@media(max-width:1100px){.starter-presets{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:720px){.app-shell{padding-top:14px}.starter-section{padding:9px}.starter-heading{display:block}.starter-heading span{display:block;margin-top:2px}.starter-presets{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.starter-preset{padding:8px}.starter-preset strong{font-size:11px}.starter-preset span{font-size:9px}.intro h1{font-size:22px}.intro-copy{font-size:11px}.category-tree{max-height:190px}}
