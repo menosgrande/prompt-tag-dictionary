@@ -229,3 +229,18 @@ body{font-size:13px;line-height:1.35}
 .vote-button:hover,.vote-button:focus-visible{border-color:var(--accent);color:var(--text)}
 .vote-button.active{border-color:var(--accent);background:var(--surface3);color:var(--accent);font-weight:700}
 @media(max-width:720px){.tag-feedback{gap:7px}.vote-caption{font-size:8px}.vote-button{min-width:22px;min-height:20px;font-size:10px}}
+
+
+/* Compact inline quality votes: translation next to Japanese text, category after detail. */
+.tag-row{grid-template-rows:auto}
+.tag-japanese-cell,.tag-detail-cell{display:flex;align-items:center;gap:3px;min-width:0}
+.tag-japanese-cell .tag-japanese{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tag-detail-cell .tag-element3{flex:1;min-width:0}
+.vote-group-compact{flex:0 0 auto;gap:1px;align-items:center}
+.vote-button-compact{display:inline-flex;justify-content:center;align-items:center;min-width:14px;width:14px;min-height:15px;height:15px;padding:0;border-radius:3px;font-size:9px;line-height:1;background:transparent;border-color:transparent}
+.vote-button-compact:hover,.vote-button-compact:focus-visible{background:var(--surface2);border-color:var(--line)}
+.vote-button-compact.active{background:var(--surface3);border-color:var(--accent);color:var(--accent)}
+@media(max-width:720px){
+  .tag-japanese-cell,.tag-detail-cell{gap:2px}
+  .vote-button-compact{min-width:12px;width:12px;min-height:14px;height:14px;font-size:8px}
+}
