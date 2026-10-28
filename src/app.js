@@ -3,6 +3,8 @@
   const $ = (s) => document.querySelector(s);
   const STORAGE_KEY = "ptd.dictionary.v1";
   const SELECTED_KEY = "ptd.selected.v1";
+  const REVIEW_KEY = "ptd.review.v1";
+  let reviewRatings = {};
   function pageSize(total) { return Math.max(1, total); }
   const CATEGORIES = [
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
@@ -393,6 +395,10 @@
       if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
+      const rating = reviewRatings[norm(t.tag)] || {};
+      if (level === "review-category" && rating.category !== -1) return false;
+      if (level === "review-translation" && rating.translation !== -1) return false;
+      if (level === "review-any" && !(rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
       if (!q) return true;
       const hay = [t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" ");
       return norm(hay).includes(q);
@@ -472,7 +478,34 @@
       const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
       element3.textContent = detailOf(t);
       element3.title = detailOf(t);
-      row.append(check, english, japanese, element1, element2, element3); row.title = t.explanation || t.tag;
+      row.append(check, english, japanese, element1, element2, element3);
+      const feedback = document.createElement("div");
+      feedback.className = "tag-feedback";
+      const current = reviewRatings[norm(t.tag)] || {};
+      [["訳", "translation"], ["分類", "category"]].forEach(([label, key]) => {
+        const group = document.createElement("span");
+        group.className = "vote-group";
+        const caption = document.createElement("span");
+        caption.className = "vote-caption";
+        caption.textContent = label;
+        group.append(caption);
+        [["👍", 1], ["👎", -1]].forEach(([symbol, value]) => {
+          const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
+            const item = { ...(reviewRatings[norm(t.tag)] || {}) };
+            if (item[key] === value) delete item[key]; else item[key] = value;
+            if (!item.translation && !item.category) delete reviewRatings[norm(t.tag)];
+            else reviewRatings[norm(t.tag)] = item;
+            try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
+            renderResults();
+          });
+          vote.setAttribute("aria-label", t.tag + " " + label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
+          vote.setAttribute("aria-pressed", String(current[key] === value));
+          group.append(vote);
+        });
+        feedback.append(group);
+      });
+      row.append(feedback);
+      row.title = t.explanation || t.tag;
       root.append(row);
     });
     $("#page-summary").textContent = all.length ? all.length.toLocaleString("ja-JP") + "件を一括表示" : "0件";
@@ -725,6 +758,7 @@
       if (!Array.isArray(state.tags)) state.tags = [];
     } catch (e) { state.tags = await seedTags().catch(() => []); }
     try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
+    try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
     normalizeRecords(); renderAll();
   }
   init();
