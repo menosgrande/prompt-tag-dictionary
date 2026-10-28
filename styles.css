@@ -484,3 +484,19 @@ body{font-size:13px;line-height:1.35}
   .tag-japanese-wrap>.inline-vote-group .vote-button,
   .tag-category-wrap>.inline-vote-group .vote-button{font-size:10px;}
 }
+
+
+/* Shared tag-prefix branch view (visual only; stored tags remain complete). */
+.tag-prefix-child{min-width:0;}
+.tag-branch-marker{
+  flex:0 0 auto;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1;
+  white-space:nowrap;
+  margin-right:2px;
+}
+.tag-row-branch .tag-label-wrap{min-width:0;}
+@media(max-width:720px){
+  .tag-branch-marker{font-size:9px;margin-right:1px;}
+}
