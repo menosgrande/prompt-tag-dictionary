@@ -394,6 +394,25 @@
     }
   }
   function wire() {
+    const presets = {
+      anime: ["1girl", "solo", "long hair", "smile", "looking at viewer", "beautiful detailed eyes"],
+      portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
+      fullbody: ["full body", "standing", "simple background", "looking at viewer"],
+      quality: ["masterpiece", "best quality", "anime coloring", "beautiful detailed eyes"]
+    };
+    document.querySelectorAll("[data-preset]").forEach(button => {
+      button.addEventListener("click", () => {
+        const names = presets[button.dataset.preset] || [];
+        const byName = new Map(state.tags.map(t => [norm(t.tag), t]));
+        let added = 0;
+        names.forEach(name => {
+          const tag = byName.get(norm(name));
+          if (tag && !state.selected.has(norm(tag.tag))) { state.selected.add(norm(tag.tag)); added++; }
+        });
+        saveSelected(); renderAll();
+        setStatus("copy-status", added ? added + "件のタグを追加しました。" : "このセットのタグはすでに選択済みです。");
+      });
+    });
     $("#search").addEventListener("input", e => { state.query = e.target.value; state.page = 0; renderResults(); });
     $("#search").addEventListener("keydown", e => { if (e.key === "Enter") { state.query = e.target.value; state.page = 0; renderResults(); } });
     $("#sort-order").addEventListener("change", renderResults);
