@@ -13,11 +13,11 @@
   <div class="top-actions"><button id="import-open" class="button button-quiet">データを読み込む</button><button id="custom-open" class="button button-primary">＋ タグを追加</button></div>
 </header>
 <main class="app-shell">
-  <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>よく使うタグから、すぐ組み立てる。</h1><p class="intro-copy">定番セットを土台にするか、タグを検索して追加。選んだタグは右側でプロンプトとして出力できます。</p></div>
+  <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類・セット追加からタグを選択。</p></div>
     <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div><div><strong id="stat-selected">0</strong><span>選択中</span></div></div>
   </section>
   <section class="starter-section" aria-label="よく使うプロンプト例">
-    <div class="starter-heading"><h2>よく使うプロンプト例</h2><span>セットを選ぶとタグが追加されます。追加後に自由に編集できます。</span></div>
+    <div class="starter-heading"><h2>セット追加</h2><span>クリックでタグを追加</span></div>
     <div class="starter-presets">
       <button class="starter-preset" type="button" data-preset="anime"><strong>アニメキャラ</strong><span>1girl · solo · long hair · smile</span><b>＋ 追加</b></button>
       <button class="starter-preset" type="button" data-preset="portrait"><strong>顔・上半身</strong><span>portrait · upper body · soft lighting</span><b>＋ 追加</b></button>
@@ -28,7 +28,7 @@
   <section class="search-row" aria-label="タグ検索">
     <label class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="日本語・英語で検索（例：笑顔 / smile / grimace）" autocomplete="off"><kbd>Enter</kbd></label>
     <select id="level-filter" aria-label="分類範囲"><option value="all">すべての分類</option><option value="known">分類済みのみ</option><option value="unknown">未分類のみ</option></select>
-    <select id="sort-order" aria-label="並び順"><option value="relevance">関連度順</option><option value="english">英語順</option><option value="japanese">日本語順</option></select>
+    <select id="sort-order" aria-label="並び順"><option value="relevance">検索一致順</option><option value="english">英語 A–Z</option><option value="japanese">日本語 あ–ん</option><option value="selected">選択済みを上</option><option value="uncategorized">未分類を上</option></select>
   </section>
   <section class="workspace">
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
