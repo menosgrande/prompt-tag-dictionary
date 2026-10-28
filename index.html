@@ -53,7 +53,7 @@
 <dialog id="import-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
   <p class="eyebrow">IMPORT</p><h2>既存タグデータを読み込む</h2><p>JSONのタグ一覧、翻訳進捗JSON、またはタグ配列を含むJavaScript / テキストを複数選択できます。読み込んだデータはこのブラウザに保存されます。</p>
   <label class="file-drop">ファイルを選択<input id="data-files" type="file" multiple accept=".json,.js,.txt,application/json,text/plain"></label>
-  <div class="import-options"><label class="check-row"><input id="replace-import" type="checkbox"> 読み込んだデータで現在のタグを置き換える</label><label class="check-row"><input id="save-import" type="checkbox" checked> このブラウザに保存する</label></div>
+  <div class="import-options"><label class="check-row"><input id="replace-import" type="checkbox"> 読み込んだデータで現在のタグを置き換える</label><label class="check-row"><input id="prefer-import" type="checkbox"> 競合時は今回のデータを優先（訳・分類を上書き）</label><label class="check-row"><input id="save-import" type="checkbox" checked> このブラウザに保存する</label></div>
   <p id="import-status" class="status-text" aria-live="polite"></p><div class="modal-actions"><button id="import-cancel" class="button button-quiet">キャンセル</button><button id="import-run" class="button button-primary">読み込む</button></div>
 </dialog>
 <dialog id="custom-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
