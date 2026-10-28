@@ -101,23 +101,23 @@
   }
   function inferPersonMinor(t) {
     const has = re => re.test(t);
-    if (has(/\\b(1girl|1boy|solo|single person|one person|2girls|2boys|two girls|two boys|multiple girls|multiple boys|crowd)\\b/)) return "人数";
-    if (has(/\\b(breast|breasts|boob|boobs|chest|cleavage|bust)\\b/)) return "胸";
-    if (has(/\\b(eye|eyes|eyebrow|eyelash|pupil|iris|heterochromia|eyeliner|eyeshadow|sclera|wide-eyed)\\b/)) return "目";
-    if (has(/\\b(hair|haired|hairstyle|bangs|braid|ponytail|bun|ahoge|twintail|twintails|bob cut|bald|shaved head|wig|hair ornament)\\b/)) return "頭髪";
-    if (has(/\\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark|worried|surprised|sad|happy|embarrassed|yawning|pouting)\\b/)) return "顔・表情";
-    if (has(/\\b(baby|child|kid|teen|teenager|young|elderly|old woman|old man|middle-aged)\\b/)) return "年齢";
-    if (has(/\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings|werewolf|zombie|youkai|yokai)\\b/)) return "種族・役割";
-    if (has(/\\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type|wide hips|narrow waist)\\b/)) return "性別・体形";
-    if (has(/\\b(hand|hands|finger|fingers|arm|arms|leg|legs|foot|feet|shoulder|shoulders|torso|abdomen|navel|skin|body|thigh|thighs|knees|neck)\\b/)) return "身体・部位";
+    if (has(/\b(1girl|1boy|solo|single person|one person|2girls|2boys|two girls|two boys|multiple girls|multiple boys|crowd)\b/)) return "人数";
+    if (has(/\b(breast|breasts|boob|boobs|chest|cleavage|bust)\b/)) return "胸";
+    if (has(/\b(eye|eyes|eyebrow|eyelash|pupil|iris|heterochromia|eyeliner|eyeshadow|sclera|wide-eyed)\b/)) return "目";
+    if (has(/\b(hair|haired|hairstyle|bangs|braid|ponytail|bun|ahoge|twintail|twintails|bob cut|bald|shaved head|wig|hair ornament)\b/)) return "頭髪";
+    if (has(/\b(smile|grin|frown|blush|blushing|expression|angry|annoyed|crying|tears|wink|grimace|smirk|open mouth|closed mouth|mouth|lips|nose|freckles|facial mark|worried|surprised|sad|happy|embarrassed|yawning|pouting)\b/)) return "顔・表情";
+    if (has(/\b(baby|child|kid|teen|teenager|young|elderly|old woman|old man|middle-aged)\b/)) return "年齢";
+    if (has(/\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|animal ears|horns|wings|werewolf|zombie|youkai|yokai)\b/)) return "種族・役割";
+    if (has(/\b(girl|boy|woman|man|female|male|feminine|masculine|androgynous|muscular|slim|thick|curvy|petite|tall|short stature|body type|wide hips|narrow waist)\b/)) return "性別・体形";
+    if (has(/\b(hand|hands|finger|fingers|arm|arms|leg|legs|foot|feet|shoulder|shoulders|torso|abdomen|navel|skin|body|thigh|thighs|knees|neck)\b/)) return "身体・部位";
     return "種族・役割";
   }
   function inferClothingMinor(t, fallback = "衣類") {
-    if (/\\b(swimsuit|bikini|swimwear|one-piece swimsuit|school swimsuit|swim trunks)\\b/.test(t)) return "下着・水着";
-    if (/\\b(bra|panties|underwear|lingerie|bloomers|boxers|pantyhose|garter|thong|briefs|bustier|corset|camisole|babydoll)\\b/.test(t)) return "下着・水着";
-    if (/\\b(shoe|shoes|boots|sneakers|heels|sandals|slippers|loafers|footwear|socks|stockings|thighhighs|leg warmers)\\b/.test(t)) return "靴";
-    if (/\\b(earrings|necklace|bracelet|ring|choker|brooch|hairpin|hairclip|hair clip|ribbon|bowtie|necktie|glasses|eyewear|mask|bag|backpack|purse|handbag|hat|cap|crown|headband|headdress|hair ornament)\\b/.test(t)) return "小物";
-    if (/\\b(sword|gun|weapon|armor|armour|shield|holster|scabbard|quiver|spear|dagger|axe)\\b/.test(t)) return "装備";
+    if (/\b(swimsuit|bikini|swimwear|one-piece swimsuit|school swimsuit|swim trunks)\b/.test(t)) return "下着・水着";
+    if (/\b(bra|panties|underwear|lingerie|bloomers|boxers|pantyhose|garter|thong|briefs|bustier|corset|camisole|babydoll)\b/.test(t)) return "下着・水着";
+    if (/\b(shoe|shoes|boots|sneakers|heels|sandals|slippers|loafers|footwear|socks|stockings|thighhighs|leg warmers)\b/.test(t)) return "靴";
+    if (/\b(earrings|necklace|bracelet|ring|choker|brooch|hairpin|hairclip|hair clip|ribbon|bowtie|necktie|glasses|eyewear|mask|bag|backpack|purse|handbag|hat|cap|crown|headband|headdress|hair ornament)\b/.test(t)) return "小物";
+    if (/\b(sword|gun|weapon|armor|armour|shield|holster|scabbard|quiver|spear|dagger|axe)\b/.test(t)) return "装備";
     return ["衣類", "靴", "小物", "下着・水着", "装備"].includes(fallback) ? fallback : "衣類";
   }
   function inferDetail(tag, major, minor) {
@@ -125,62 +125,62 @@
     const has = re => re.test(t);
     const color = "(black|white|blonde|blond|red|blue|green|pink|purple|silver|gray|grey|brown|orange|yellow|gold|golden|cyan|magenta|rainbow|multicolored|two-tone)";
     if (major === "人物") {
-      if (minor === "人数") return /\\b(crowd)\\b/.test(t) ? "群衆" : /\\b(2girls|2boys|two girls|two boys|couple|duo|pair)\\b/.test(t) ? "2人" : /\\b(multiple|group|several|many girls|many boys)\\b/.test(t) ? "複数人" : "単独・1人";
-      if (minor === "性別・体形") return /\\b(woman|women|girl|girls|female|feminine|lady|ladies)\\b/.test(t) ? "女性" : /\\b(man|men|boy|boys|male|masculine|gentleman)\\b/.test(t) ? "男性" : /\\b(androgynous|genderless|nonbinary|non-binary)\\b/.test(t) ? "中性的" : /\\b(tall|short stature|petite|height|long legs|short legs)\\b/.test(t) ? "身長・体格" : "体格・体形";
-      if (minor === "年齢") return /\\b(baby|infant|toddler|child|kid|loli|shota)\\b/.test(t) ? "幼年・子供" : /\\b(teen|teenager|adolescent|young)\\b/.test(t) ? "若年" : /\\b(elderly|old man|old woman|old person|aged)\\b/.test(t) ? "高齢" : "成人";
-      if (minor === "頭髪") return /\\b(hair ornament|hairpin|hair pin|hairclip|hair clip|hair ribbon|hair flower|hair bow|hairband|headband)\\b/.test(t) ? "髪飾り" : new RegExp("\\\\b" + color + "\\\\s*(colored|color)?\\\\s*(hair|haired)\\\\b|\\\\b(hair color|colored hair|gradient hair|two-tone hair|multicolored hair)\\\\b").test(t) ? "髪色" : /\\b(long|short|very long|very short|medium|waist-length|knee-length|floor-length) hair\\b/.test(t) ? "髪の長さ" : /\\b(wavy|curly|straight|curled|frizzy|coiled|silky|spiky|fluffy) hair\\b/.test(t) ? "髪質" : /\\b(ponytail|twintail|twintails|braid|braided|bun|bob cut|pixie cut|ahoge|bangs|parted hair|sidelocks|drill hair|hime cut|mohawk|undercut|bald|shaved head|wig)\\b/.test(t) ? "髪型" : "髪の状態";
-      if (minor === "目") return new RegExp("\\\\b" + color + "\\\\s*(colored|color)?\\\\s*(eyes|eye)\\\\b|\\\\b(eye color)\\\\b").test(t) ? "目の色" : /\\b(eyelash|eyelashes|eyeliner|eyeshadow|mascara|false eyelashes)\\b/.test(t) ? "まつ毛・アイメイク" : /\\b(pupil|pupils|iris|irises|sclera|heterochromia|x-shaped pupils|star-shaped pupils|heart-shaped pupils)\\b/.test(t) ? "瞳・瞳孔" : /\\b(looking|gaze|staring|looking away|looking at viewer|closed eyes|half-closed eyes|squinting|cross-eyed|wide-eyed)\\b/.test(t) ? "視線" : "目の形";
-      if (minor === "顔・表情") return /\\b(smile|grin|frown|blush|blushing|angry|annoyed|crying|tears|wink|grimace|smirk|expression|worried|surprised|sad|happy|embarrassed|disgusted|laughing|yawning|pouting)\\b/.test(t) ? "表情" : /\\b(mouth|lips|lipstick|teeth|fangs|tongue|drooling)\\b/.test(t) ? "口・唇" : /\\b(nose|nostrils|snout)\\b/.test(t) ? "鼻" : /\\b(eyebrow|eyebrows)\\b/.test(t) ? "眉" : /\\b(freckles|mole|moles|skin|wrinkles|rosy cheeks)\\b/.test(t) ? "肌・そばかす" : /\\b(face paint|facial mark|face tattoo|face sticker|face scar|scar on face)\\b/.test(t) ? "顔の装飾" : "顔の輪郭";
-      if (minor === "胸") return /\\b(cleavage|plunging neckline|deep neckline)\\b/.test(t) ? "胸元・谷間" : /\\b(flat chest|small breasts|medium breasts|large breasts|huge breasts|gigantic breasts|breast size)\\b/.test(t) ? "胸の大きさ" : "胸の状態・形";
-      if (minor === "身体・部位") return /\\b(hand|hands|finger|fingers|arm|arms|wrist|elbow|shoulder|shoulders)\\b/.test(t) ? "腕・手" : /\\b(leg|legs|foot|feet|toe|toes|thigh|thighs|knees|calves|ankle)\\b/.test(t) ? "脚・足" : /\\b(head|neck|ear|ears|chin|jaw|skull)\\b/.test(t) ? "頭・首" : /\\b(torso|abdomen|stomach|back|waist|hip|hips|navel|belly|ribcage)\\b/.test(t) ? "胴体" : "皮膚・身体の特徴";
-      if (minor === "種族・役割") return /\\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|werewolf|zombie|youkai|yokai|dragon girl|dragon boy)\\b/.test(t) ? "人外・異種族" : /\\b(ears|tail|horns|wings|fur|scales|animal)\\b/.test(t) ? "動物的特徴" : /\\b(teacher|student|doctor|nurse|maid|chef|police|soldier|wizard|knight|idol|artist|magical girl)\\b/.test(t) ? "職業・役割" : "性格・属性";
+      if (minor === "人数") return /\b(crowd)\b/.test(t) ? "群衆" : /\b(2girls|2boys|two girls|two boys|couple|duo|pair)\b/.test(t) ? "2人" : /\b(multiple|group|several|many girls|many boys)\b/.test(t) ? "複数人" : "単独・1人";
+      if (minor === "性別・体形") return /\b(woman|women|girl|girls|female|feminine|lady|ladies)\b/.test(t) ? "女性" : /\b(man|men|boy|boys|male|masculine|gentleman)\b/.test(t) ? "男性" : /\b(androgynous|genderless|nonbinary|non-binary)\b/.test(t) ? "中性的" : /\b(tall|short stature|petite|height|long legs|short legs)\b/.test(t) ? "身長・体格" : "体格・体形";
+      if (minor === "年齢") return /\b(baby|infant|toddler|child|kid|loli|shota)\b/.test(t) ? "幼年・子供" : /\b(teen|teenager|adolescent|young)\b/.test(t) ? "若年" : /\b(elderly|old man|old woman|old person|aged)\b/.test(t) ? "高齢" : "成人";
+      if (minor === "頭髪") return /\b(hair ornament|hairpin|hair pin|hairclip|hair clip|hair ribbon|hair flower|hair bow|hairband|headband)\b/.test(t) ? "髪飾り" : new RegExp("\\b" + color + "\\s*(colored|color)?\\s*(hair|haired)\\b|\\b(hair color|colored hair|gradient hair|two-tone hair|multicolored hair)\\b").test(t) ? "髪色" : /\b(long|short|very long|very short|medium|waist-length|knee-length|floor-length) hair\b/.test(t) ? "髪の長さ" : /\b(wavy|curly|straight|curled|frizzy|coiled|silky|spiky|fluffy) hair\b/.test(t) ? "髪質" : /\b(ponytail|twintail|twintails|braid|braided|bun|bob cut|pixie cut|ahoge|bangs|parted hair|sidelocks|drill hair|hime cut|mohawk|undercut|bald|shaved head|wig)\b/.test(t) ? "髪型" : "髪の状態";
+      if (minor === "目") return new RegExp("\\b" + color + "\\s*(colored|color)?\\s*(eyes|eye)\\b|\\b(eye color)\\b").test(t) ? "目の色" : /\b(eyelash|eyelashes|eyeliner|eyeshadow|mascara|false eyelashes)\b/.test(t) ? "まつ毛・アイメイク" : /\b(pupil|pupils|iris|irises|sclera|heterochromia|x-shaped pupils|star-shaped pupils|heart-shaped pupils)\b/.test(t) ? "瞳・瞳孔" : /\b(looking|gaze|staring|looking away|looking at viewer|closed eyes|half-closed eyes|squinting|cross-eyed|wide-eyed)\b/.test(t) ? "視線" : "目の形";
+      if (minor === "顔・表情") return /\b(smile|grin|frown|blush|blushing|angry|annoyed|crying|tears|wink|grimace|smirk|expression|worried|surprised|sad|happy|embarrassed|disgusted|laughing|yawning|pouting)\b/.test(t) ? "表情" : /\b(mouth|lips|lipstick|teeth|fangs|tongue|drooling)\b/.test(t) ? "口・唇" : /\b(nose|nostrils|snout)\b/.test(t) ? "鼻" : /\b(eyebrow|eyebrows)\b/.test(t) ? "眉" : /\b(freckles|mole|moles|skin|wrinkles|rosy cheeks)\b/.test(t) ? "肌・そばかす" : /\b(face paint|facial mark|face tattoo|face sticker|face scar|scar on face)\b/.test(t) ? "顔の装飾" : "顔の輪郭";
+      if (minor === "胸") return /\b(cleavage|plunging neckline|deep neckline)\b/.test(t) ? "胸元・谷間" : /\b(flat chest|small breasts|medium breasts|large breasts|huge breasts|gigantic breasts|breast size)\b/.test(t) ? "胸の大きさ" : "胸の状態・形";
+      if (minor === "身体・部位") return /\b(hand|hands|finger|fingers|arm|arms|wrist|elbow|shoulder|shoulders)\b/.test(t) ? "腕・手" : /\b(leg|legs|foot|feet|toe|toes|thigh|thighs|knees|calves|ankle)\b/.test(t) ? "脚・足" : /\b(head|neck|ear|ears|chin|jaw|skull)\b/.test(t) ? "頭・首" : /\b(torso|abdomen|stomach|back|waist|hip|hips|navel|belly|ribcage)\b/.test(t) ? "胴体" : "皮膚・身体の特徴";
+      if (minor === "種族・役割") return /\b(angel|demon|devil|alien|android|robot|elf|vampire|witch|fairy|mermaid|kemonomimi|werewolf|zombie|youkai|yokai|dragon girl|dragon boy)\b/.test(t) ? "人外・異種族" : /\b(ears|tail|horns|wings|fur|scales|animal)\b/.test(t) ? "動物的特徴" : /\b(teacher|student|doctor|nurse|maid|chef|police|soldier|wizard|knight|idol|artist|magical girl)\b/.test(t) ? "職業・役割" : "性格・属性";
     }
     if (major === "服装") {
-      if (minor === "下着・水着") return /\\b(swimsuit|bikini|swimwear|swim trunks|school swimsuit)\\b/.test(t) ? "水着" : /\\b(lingerie|babydoll|bustier|corset)\\b/.test(t) ? "ランジェリー" : "下着";
-      if (minor === "靴") return /\\b(heel|heels|high heels|platform shoes|wedge heels)\\b/.test(t) ? "ヒール・高さ" : /\\b(socks|stockings|pantyhose|thighhighs|leg warmers)\\b/.test(t) ? "靴下・脚周り" : "靴の種類";
-      if (minor === "小物") return /\\b(hat|cap|crown|headband|headdress|hair ornament|hairpin|hair clip|hairclip)\\b/.test(t) ? "頭部アクセサリー" : /\\b(glasses|eyewear|mask)\\b/.test(t) ? "眼鏡・マスク" : /\\b(bag|backpack|purse|handbag|briefcase)\\b/.test(t) ? "バッグ・持ち物" : /\\b(earrings|necklace|bracelet|ring|choker|brooch|ribbon|bowtie|necktie)\\b/.test(t) ? "アクセサリー" : "その他";
-      if (minor === "装備") return /\\b(sword|gun|weapon|bow|arrow|spear|staff|dagger|axe)\\b/.test(t) ? "武器" : /\\b(armor|armour|helmet|shield|gauntlet|greaves)\\b/.test(t) ? "防具" : "携行装備";
-      if (minor === "衣類") return /\\b(shirt|blouse|jacket|coat|sweater|hoodie|cardigan|vest|sleeves|blazer|cape|tunic|top)\\b/.test(t) ? "上半身" : /\\b(skirt|pants|trousers|shorts|jeans|leggings)\\b/.test(t) ? "下半身" : /\\b(dress|gown|jumpsuit|bodysuit|kimono|uniform|costume|suit|robe|onesie)\\b/.test(t) ? "全身衣装" : /\\b(wet|dirty|torn|ripped|transparent|see-through|latex|leather|denim|lace|silk|wool|knit|striped|plaid|polka-dot|floral)\\b/.test(t) ? "素材・柄" : "その他";
+      if (minor === "下着・水着") return /\b(swimsuit|bikini|swimwear|swim trunks|school swimsuit)\b/.test(t) ? "水着" : /\b(lingerie|babydoll|bustier|corset)\b/.test(t) ? "ランジェリー" : "下着";
+      if (minor === "靴") return /\b(heel|heels|high heels|platform shoes|wedge heels)\b/.test(t) ? "ヒール・高さ" : /\b(socks|stockings|pantyhose|thighhighs|leg warmers)\b/.test(t) ? "靴下・脚周り" : "靴の種類";
+      if (minor === "小物") return /\b(hat|cap|crown|headband|headdress|hair ornament|hairpin|hair clip|hairclip)\b/.test(t) ? "頭部アクセサリー" : /\b(glasses|eyewear|mask)\b/.test(t) ? "眼鏡・マスク" : /\b(bag|backpack|purse|handbag|briefcase)\b/.test(t) ? "バッグ・持ち物" : /\b(earrings|necklace|bracelet|ring|choker|brooch|ribbon|bowtie|necktie)\b/.test(t) ? "アクセサリー" : "その他";
+      if (minor === "装備") return /\b(sword|gun|weapon|bow|arrow|spear|staff|dagger|axe)\b/.test(t) ? "武器" : /\b(armor|armour|helmet|shield|gauntlet|greaves)\b/.test(t) ? "防具" : "携行装備";
+      if (minor === "衣類") return /\b(shirt|blouse|jacket|coat|sweater|hoodie|cardigan|vest|sleeves|blazer|cape|tunic|top)\b/.test(t) ? "上半身" : /\b(skirt|pants|trousers|shorts|jeans|leggings)\b/.test(t) ? "下半身" : /\b(dress|gown|jumpsuit|bodysuit|kimono|uniform|costume|suit|robe|onesie)\b/.test(t) ? "全身衣装" : /\b(wet|dirty|torn|ripped|transparent|see-through|latex|leather|denim|lace|silk|wool|knit|striped|plaid|polka-dot|floral)\b/.test(t) ? "素材・柄" : "その他";
     }
     if (major === "ポーズ・動作") {
-      if (minor === "姿勢") return /\\b(sitting|sit|seiza|squat|squatting|crouching)\\b/.test(t) ? "座る・しゃがむ" : /\\b(lying|lie down|sleeping|on back|on stomach|prone|supine)\\b/.test(t) ? "寝る・横たわる" : /\\b(kneeling|on knees|kneel)\\b/.test(t) ? "膝立ち・跪く" : /\\b(walking|standing|running|stepping)\\b/.test(t) ? "立つ・歩く" : "その他";
-      if (minor === "手の動き") return /\\b(waving|pointing|peace sign|thumbs up|middle finger|finger gun)\\b/.test(t) ? "手を振る・指差す" : /\\b(finger|fingers|hands?|hand gesture|clenched fist|open hand)\\b/.test(t) ? "手の形・指" : "手を使う動作";
-      if (minor === "対人動作") return /\\b(kiss|kissing)\\b/.test(t) ? "キス・親密動作" : /\\b(fight|fighting|punch|punching|kick|kicking)\\b/.test(t) ? "対立・攻撃" : /\\b(hug|hugging|embrace|holding hands)\\b/.test(t) ? "抱擁・接触" : "共同動作";
-      return /\\b(eating|drinking|cooking|reading|writing|using phone|working|cleaning)\\b/.test(t) ? "日常動作" : /\\b(sport|running|jumping|dancing|swimming|martial arts|weightlifting)\\b/.test(t) ? "スポーツ・運動" : "身体動作";
+      if (minor === "姿勢") return /\b(sitting|sit|seiza|squat|squatting|crouching)\b/.test(t) ? "座る・しゃがむ" : /\b(lying|lie down|sleeping|on back|on stomach|prone|supine)\b/.test(t) ? "寝る・横たわる" : /\b(kneeling|on knees|kneel)\b/.test(t) ? "膝立ち・跪く" : /\b(walking|standing|running|stepping)\b/.test(t) ? "立つ・歩く" : "その他";
+      if (minor === "手の動き") return /\b(waving|pointing|peace sign|thumbs up|middle finger|finger gun)\b/.test(t) ? "手を振る・指差す" : /\b(finger|fingers|hands?|hand gesture|clenched fist|open hand)\b/.test(t) ? "手の形・指" : "手を使う動作";
+      if (minor === "対人動作") return /\b(kiss|kissing)\b/.test(t) ? "キス・親密動作" : /\b(fight|fighting|punch|punching|kick|kicking)\b/.test(t) ? "対立・攻撃" : /\b(hug|hugging|embrace|holding hands)\b/.test(t) ? "抱擁・接触" : "共同動作";
+      return /\b(eating|drinking|cooking|reading|writing|using phone|working|cleaning)\b/.test(t) ? "日常動作" : /\b(sport|running|jumping|dancing|swimming|martial arts|weightlifting)\b/.test(t) ? "スポーツ・運動" : "身体動作";
     }
     if (major === "構図・視点") {
-      if (minor === "撮影範囲") return /\\b(close-up|close up|face focus|headshot|portrait)\\b/.test(t) ? "顔アップ" : /\\b(bust shot|upper body|cowboy shot|chest up)\\b/.test(t) ? "バストアップ" : /\\b(full body|long shot|wide shot|whole body)\\b/.test(t) ? "全身" : /\\b(extreme long shot|distant view|far away|landscape shot)\\b/.test(t) ? "遠景" : "上半身";
-      if (minor === "カメラ角度") return /\\b(from above|high angle|bird's-eye view|overhead view|top-down|looking down|from below|low angle|worm's-eye view|looking up)\\b/.test(t) ? "俯瞰・あおり" : /\\b(dutch angle|tilted|diagonal)\\b/.test(t) ? "斜め・傾き" : "正面・横・後ろ";
-      if (minor === "視点") return /\\b(pov|first person|viewer perspective|subjective view)\\b/.test(t) ? "主観・POV" : "第三者視点";
-      return /\\b(left|right|center|centered|symmetrical|foreground|background)\\b/.test(t) ? "左右・上下配置" : "中央・配置";
+      if (minor === "撮影範囲") return /\b(close-up|close up|face focus|headshot|portrait)\b/.test(t) ? "顔アップ" : /\b(bust shot|upper body|cowboy shot|chest up)\b/.test(t) ? "バストアップ" : /\b(full body|long shot|wide shot|whole body)\b/.test(t) ? "全身" : /\b(extreme long shot|distant view|far away|landscape shot)\b/.test(t) ? "遠景" : "上半身";
+      if (minor === "カメラ角度") return /\b(from above|high angle|bird's-eye view|overhead view|top-down|looking down|from below|low angle|worm's-eye view|looking up)\b/.test(t) ? "俯瞰・あおり" : /\b(dutch angle|tilted|diagonal)\b/.test(t) ? "斜め・傾き" : "正面・横・後ろ";
+      if (minor === "視点") return /\b(pov|first person|viewer perspective|subjective view)\b/.test(t) ? "主観・POV" : "第三者視点";
+      return /\b(left|right|center|centered|symmetrical|foreground|background)\b/.test(t) ? "左右・上下配置" : "中央・配置";
     }
     if (major === "背景・場所") {
-      if (minor === "時間・天候") return /\\b(night|midnight|evening|sunset|sunrise|dawn|dusk|daytime|morning|noon)\\b/.test(t) ? "時間帯" : /\\b(rain|rainy|snow|snowing|storm|cloud|cloudy|fog|mist|wind|windy)\\b/.test(t) ? "晴雨・雲" : /\\b(spring|summer|autumn|fall|winter)\\b/.test(t) ? "季節" : "風・雪";
-      if (minor === "自然") return /\\b(sea|ocean|beach|lake|river|waterfall|shore|underwater)\\b/.test(t) ? "水辺・海" : /\\b(mountain|rock|cliff|canyon|cave)\\b/.test(t) ? "山・岩" : /\\b(sky|space|starfield|cloud|planet|galaxy)\\b/.test(t) ? "空・宇宙" : "森林・草原";
-      if (minor === "都市") return /\\b(street|road|alley|sidewalk|crosswalk|cityscape|skyline|building)\\b/.test(t) ? "街路・建物" : /\\b(residential|suburb|neighborhood)\\b/.test(t) ? "住宅街" : "都市景観";
-      return /\\b(school|hospital|store|shop|restaurant|train station|airport|office|classroom)\\b/.test(t) ? "学校・職場" : /\\b(house|bedroom|living room|kitchen|bathroom)\\b/.test(t) ? "家・部屋" : "店舗・施設";
+      if (minor === "時間・天候") return /\b(night|midnight|evening|sunset|sunrise|dawn|dusk|daytime|morning|noon)\b/.test(t) ? "時間帯" : /\b(rain|rainy|snow|snowing|storm|cloud|cloudy|fog|mist|wind|windy)\b/.test(t) ? "晴雨・雲" : /\b(spring|summer|autumn|fall|winter)\b/.test(t) ? "季節" : "風・雪";
+      if (minor === "自然") return /\b(sea|ocean|beach|lake|river|waterfall|shore|underwater)\b/.test(t) ? "水辺・海" : /\b(mountain|rock|cliff|canyon|cave)\b/.test(t) ? "山・岩" : /\b(sky|space|starfield|cloud|planet|galaxy)\b/.test(t) ? "空・宇宙" : "森林・草原";
+      if (minor === "都市") return /\b(street|road|alley|sidewalk|crosswalk|cityscape|skyline|building)\b/.test(t) ? "街路・建物" : /\b(residential|suburb|neighborhood)\b/.test(t) ? "住宅街" : "都市景観";
+      return /\b(school|hospital|store|shop|restaurant|train station|airport|office|classroom)\b/.test(t) ? "学校・職場" : /\b(house|bedroom|living room|kitchen|bathroom)\b/.test(t) ? "家・部屋" : "店舗・施設";
     }
     if (major === "画風・品質") {
-      if (minor === "品質") return /\\b(worst quality|low quality|lowres|blurry|jpeg artifacts|watermark|signature)\\b/.test(t) ? (/\\b(watermark|signature)\\b/.test(t) ? "透かし・ノイズ" : "低品質タグ") : /\\b(highres|high quality|best quality|masterpiece|absurdres|ultra-detailed)\\b/.test(t) ? "高品質タグ" : "解像度・精細";
-      if (minor === "画風") return /\\b(anime|manga|comic)\\b/.test(t) ? "アニメ・漫画" : /\\b(photo|photorealistic|realistic|realism)\\b/.test(t) ? "写真・写実" : "イラスト";
-      if (minor === "媒体") return /\\b(3d|cgi|render|blender)\\b/.test(t) ? "3D・CG" : /\\b(oil painting|watercolor|pencil|ink|pastel|charcoal)\\b/.test(t) ? "伝統画材" : "デジタル";
-      return /\\b(lineart|line art|cel shading|soft shading|crosshatching|rendering|gradient)\\b/.test(t) ? "線画・塗り" : "陰影・質感";
+      if (minor === "品質") return /\b(worst quality|low quality|lowres|blurry|jpeg artifacts|watermark|signature)\b/.test(t) ? (/\b(watermark|signature)\b/.test(t) ? "透かし・ノイズ" : "低品質タグ") : /\b(highres|high quality|best quality|masterpiece|absurdres|ultra-detailed)\b/.test(t) ? "高品質タグ" : "解像度・精細";
+      if (minor === "画風") return /\b(anime|manga|comic)\b/.test(t) ? "アニメ・漫画" : /\b(photo|photorealistic|realistic|realism)\b/.test(t) ? "写真・写実" : "イラスト";
+      if (minor === "媒体") return /\b(3d|cgi|render|blender)\b/.test(t) ? "3D・CG" : /\b(oil painting|watercolor|pencil|ink|pastel|charcoal)\b/.test(t) ? "伝統画材" : "デジタル";
+      return /\b(lineart|line art|cel shading|soft shading|crosshatching|rendering|gradient)\b/.test(t) ? "線画・塗り" : "陰影・質感";
     }
     if (major === "光・色彩") {
-      if (minor === "照明") return /\\b(backlight|rim light|silhouette|edge lighting)\\b/.test(t) ? "逆光・縁取り" : /\\b(shadow|shadows|cast shadow|hard light)\\b/.test(t) ? "影" : /\\b(soft light|soft lighting|diffuse light|ambient light)\\b/.test(t) ? "柔らかい光" : /\\b(sunlight|natural light|moonlight|daylight)\\b/.test(t) ? "自然光" : "人工光";
-      if (minor === "色調") return /\\b(monochrome|grayscale|greyscale|black and white)\\b/.test(t) ? "モノクロ" : /\\b(saturation|vibrant|muted|pastel|high contrast|low contrast|brightness)\\b/.test(t) ? "彩度・明度" : "暖色・寒色";
-      return /\\b(color palette|complementary colors|color scheme|duotone|gradient)\\b/.test(t) ? "配色" : "色名";
+      if (minor === "照明") return /\b(backlight|rim light|silhouette|edge lighting)\b/.test(t) ? "逆光・縁取り" : /\b(shadow|shadows|cast shadow|hard light)\b/.test(t) ? "影" : /\b(soft light|soft lighting|diffuse light|ambient light)\b/.test(t) ? "柔らかい光" : /\b(sunlight|natural light|moonlight|daylight)\b/.test(t) ? "自然光" : "人工光";
+      if (minor === "色調") return /\b(monochrome|grayscale|greyscale|black and white)\b/.test(t) ? "モノクロ" : /\b(saturation|vibrant|muted|pastel|high contrast|low contrast|brightness)\b/.test(t) ? "彩度・明度" : "暖色・寒色";
+      return /\b(color palette|complementary colors|color scheme|duotone|gradient)\b/.test(t) ? "配色" : "色名";
     }
     if (major === "その他") {
-      if (minor === "動物") return /\\b(dragon|griffin|phoenix|unicorn|monster|mythical)\\b/.test(t) ? "架空生物" : /\\b(bird|fish|snake|lizard|turtle|frog|eagle|owl)\\b/.test(t) ? "鳥・魚・爬虫類" : /\\b(ear|tail|paw|wing|fang|claw|fur|feather|scale)\\b/.test(t) ? "動物の部位" : "哺乳類";
-      if (minor === "自然物") return /\\b(flower|tree|plant|grass|leaf|leaves|mushroom|vine|flowerbed)\\b/.test(t) ? "植物" : /\\b(water|river|sea|ocean|sky|mountain|field|forest|lake)\\b/.test(t) ? "水・空・地形" : "鉱物・素材";
-      if (minor === "記号・効果") return /\\b(glow|spark|particle|impact|speed lines|motion lines|aura|lightning|explosion)\\b/.test(t) ? "発光・粒子" : /\\b(line|effect|burst|slash|symbol|icon|emblem)\\b/.test(t) ? "線・衝撃" : "記号";
-      return /\\b(chair|table|bed|sofa|desk|shelf|cabinet)\\b/.test(t) ? "家具・室内用品" : /\\b(car|train|airplane|bicycle|motorcycle|bus|ship)\\b/.test(t) ? "乗り物" : "日用品";
+      if (minor === "動物") return /\b(dragon|griffin|phoenix|unicorn|monster|mythical)\b/.test(t) ? "架空生物" : /\b(bird|fish|snake|lizard|turtle|frog|eagle|owl)\b/.test(t) ? "鳥・魚・爬虫類" : /\b(ear|tail|paw|wing|fang|claw|fur|feather|scale)\b/.test(t) ? "動物の部位" : "哺乳類";
+      if (minor === "自然物") return /\b(flower|tree|plant|grass|leaf|leaves|mushroom|vine|flowerbed)\b/.test(t) ? "植物" : /\b(water|river|sea|ocean|sky|mountain|field|forest|lake)\b/.test(t) ? "水・空・地形" : "鉱物・素材";
+      if (minor === "記号・効果") return /\b(glow|spark|particle|impact|speed lines|motion lines|aura|lightning|explosion)\b/.test(t) ? "発光・粒子" : /\b(line|effect|burst|slash|symbol|icon|emblem)\b/.test(t) ? "線・衝撃" : "記号";
+      return /\b(chair|table|bed|sofa|desk|shelf|cabinet)\b/.test(t) ? "家具・室内用品" : /\b(car|train|airplane|bicycle|motorcycle|bus|ship)\b/.test(t) ? "乗り物" : "日用品";
     }
     if (major === "成人向け") {
-      if (minor === "身体・衣類") return /\\b(bra|panties|underwear|lingerie|clothes|dress|skirt|shirt|swimsuit)\\b/.test(t) ? "下着・衣類" : /\\b(breast|breasts|boob|boobs|chest|cleavage|body)\\b/.test(t) ? "胸・身体" : /\\b(wet|nude|naked|exposed|transparent|see-through)\\b/.test(t) ? "露出・濡れ" : "その他";
-      if (minor === "行為・状況") return /\\b(position|lying|kneeling|standing|sitting|on top|underneath)\\b/.test(t) ? "体勢" : /\\b(two|three|multiple|group|couple|partner)\\b/.test(t) ? "複数人・関係" : "行為";
-      return /\\b(censored|censor|mosaic|pixelated|bar censor|black bar)\\b/.test(t) ? "検閲" : "画面表現";
+      if (minor === "身体・衣類") return /\b(bra|panties|underwear|lingerie|clothes|dress|skirt|shirt|swimsuit)\b/.test(t) ? "下着・衣類" : /\b(breast|breasts|boob|boobs|chest|cleavage|body)\b/.test(t) ? "胸・身体" : /\b(wet|nude|naked|exposed|transparent|see-through)\b/.test(t) ? "露出・濡れ" : "その他";
+      if (minor === "行為・状況") return /\b(position|lying|kneeling|standing|sitting|on top|underneath)\b/.test(t) ? "体勢" : /\b(two|three|multiple|group|couple|partner)\b/.test(t) ? "複数人・関係" : "行為";
+      return /\b(censored|censor|mosaic|pixelated|bar censor|black bar)\b/.test(t) ? "検閲" : "画面表現";
     }
     return "—";
   }
@@ -193,12 +193,12 @@
       minor = inferPersonMinor(t);
     } else if (major === "人物") {
       if (!defaultMinor["人物"].includes(minor) || /属性|役割/.test(minor)) minor = inferPersonMinor(t);
-      else if (minor === "人数" && !/\\b(1girl|1boy|solo|2girls|2boys|two girls|two boys|multiple girls|multiple boys|crowd)\\b/.test(t)) minor = inferPersonMinor(t);
-    } else if (major === "成人向け" && /\\b(breast|breasts|boob|boobs|chest|cleavage|bust)\\b/.test(t)) {
+      else if (minor === "人数" && !/\b(1girl|1boy|solo|2girls|2boys|two girls|two boys|multiple girls|multiple boys|crowd)\b/.test(t)) minor = inferPersonMinor(t);
+    } else if (major === "成人向け" && /\b(breast|breasts|boob|boobs|chest|cleavage|bust)\b/.test(t)) {
       major = "人物"; minor = "胸";
-    } else if (major === "光・色彩" && /\\b(black|white|blonde|blond|red|blue|green|pink|purple|silver|gray|grey|brown|orange|yellow|gold|cyan|rainbow)[ -]?(colored|color)?[ -]?(hair|haired|eyes|eye)\\b/.test(t)) {
-      major = "人物"; minor = /\\b(hair|haired)\\b/.test(t) ? "頭髪" : "目";
-    } else if (major === "光・色彩" && /\\b(bikini|swimsuit|dress|skirt|shirt|blouse|jacket|coat|sweater|hoodie|cardigan|pants|shorts|jeans|bra|panties|underwear|boots|shoes|sandals|heels|hat|cap|glasses|necklace|earrings|ribbon|uniform|kimono|bodysuit|jumpsuit)\\b/.test(t)) {
+    } else if (major === "光・色彩" && /\b(black|white|blonde|blond|red|blue|green|pink|purple|silver|gray|grey|brown|orange|yellow|gold|cyan|rainbow)[ -]?(colored|color)?[ -]?(hair|haired|eyes|eye)\b/.test(t)) {
+      major = "人物"; minor = /\b(hair|haired)\b/.test(t) ? "頭髪" : "目";
+    } else if (major === "光・色彩" && /\b(bikini|swimsuit|dress|skirt|shirt|blouse|jacket|coat|sweater|hoodie|cardigan|pants|shorts|jeans|bra|panties|underwear|boots|shoes|sandals|heels|hat|cap|glasses|necklace|earrings|ribbon|uniform|kimono|bodysuit|jumpsuit)\b/.test(t)) {
       major = "服装"; minor = inferClothingMinor(t);
     }
     if (major === "服装") minor = inferClothingMinor(t, minor);
