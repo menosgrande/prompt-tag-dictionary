@@ -411,3 +411,34 @@ body{font-size:13px;line-height:1.35}
   .inline-vote-group{gap:2px;}
   .inline-vote-group .vote-button{font-size:10px;}
 }
+
+
+/* Text takes priority over ratings: wrap/retain labels before sacrificing words */
+.tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{
+  flex-wrap:wrap;
+  overflow:visible;
+  align-content:start;
+}
+.tag-label-wrap > .tag-english,
+.tag-japanese-wrap > .tag-japanese,
+.tag-category-wrap > .tag-category{
+  flex:0 1 auto;
+  min-width:0;
+  overflow:visible;
+  text-overflow:clip;
+  white-space:normal;
+  overflow-wrap:anywhere;
+}
+.inline-vote-group{
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+.category-vote-prefix{flex:0 0 auto;}
+@media(max-width:720px){
+  .tag-label-wrap > .tag-english,
+  .tag-japanese-wrap > .tag-japanese,
+  .tag-category-wrap > .tag-category{
+    white-space:normal;
+    overflow-wrap:anywhere;
+  }
+}
