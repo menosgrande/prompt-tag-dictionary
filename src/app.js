@@ -448,6 +448,34 @@
     const b = document.createElement("button"); b.type = "button"; b.className = cls; b.textContent = text;
     b.addEventListener("click", action); return b;
   }
+  function createVoteGroup(tag, key) {
+    const id = norm(tag.tag);
+    const label = key === "translation" ? "日本語訳" : "分類";
+    const group = document.createElement("span");
+    group.className = "vote-group vote-group-compact vote-group-" + key;
+    group.setAttribute("role", "group");
+    group.setAttribute("aria-label", label + "の評価");
+    const current = reviewRatings[id] || {};
+    [["👍", 1], ["👎", -1]].forEach(([symbol, value]) => {
+      const vote = makeButton(symbol, "vote-button vote-button-compact" + (current[key] === value ? " active" : ""), () => {
+        const item = { ...(reviewRatings[id] || {}) };
+        if (item[key] === value) delete item[key];
+        else item[key] = value;
+        if (!item.translation && !item.category) delete reviewRatings[id];
+        else reviewRatings[id] = item;
+        try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
+        const root = $("#tag-results");
+        const scrollTop = root.scrollTop;
+        renderResults();
+        $("#tag-results").scrollTop = scrollTop;
+      });
+      vote.title = label + ": " + (value === 1 ? "良い" : "要確認") + "（再クリックで解除）";
+      vote.setAttribute("aria-label", tag.tag + "の" + label + "を" + (value === 1 ? "良い" : "要確認") + "と評価");
+      vote.setAttribute("aria-pressed", String(current[key] === value));
+      group.append(vote);
+    });
+    return group;
+  }
   function renderResults() {
     const all = matchingTags(), size = pageSize(all.length), start = 0, items = all, root = $("#tag-results");
     root.replaceChildren();
@@ -469,6 +497,8 @@
       check.addEventListener("change", () => toggleSelected(t));
       const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
       const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
+      const japaneseCell = document.createElement("div"); japaneseCell.className = "tag-japanese-cell";
+      japaneseCell.append(japanese, createVoteGroup(t, "translation"));
       const element1 = document.createElement("span"); element1.className = "tag-category tag-element1";
       element1.textContent = majorOf(t);
       element1.title = majorOf(t);
@@ -478,33 +508,9 @@
       const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
       element3.textContent = detailOf(t);
       element3.title = detailOf(t);
-      row.append(check, english, japanese, element1, element2, element3);
-      const feedback = document.createElement("div");
-      feedback.className = "tag-feedback";
-      const current = reviewRatings[norm(t.tag)] || {};
-      [["訳", "translation"], ["分類", "category"]].forEach(([label, key]) => {
-        const group = document.createElement("span");
-        group.className = "vote-group";
-        const caption = document.createElement("span");
-        caption.className = "vote-caption";
-        caption.textContent = label;
-        group.append(caption);
-        [["👍", 1], ["👎", -1]].forEach(([symbol, value]) => {
-          const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
-            const item = { ...(reviewRatings[norm(t.tag)] || {}) };
-            if (item[key] === value) delete item[key]; else item[key] = value;
-            if (!item.translation && !item.category) delete reviewRatings[norm(t.tag)];
-            else reviewRatings[norm(t.tag)] = item;
-            try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
-            renderResults();
-          });
-          vote.setAttribute("aria-label", t.tag + " " + label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
-          vote.setAttribute("aria-pressed", String(current[key] === value));
-          group.append(vote);
-        });
-        feedback.append(group);
-      });
-      row.append(feedback);
+      const detailCell = document.createElement("div"); detailCell.className = "tag-detail-cell";
+      detailCell.append(element3, createVoteGroup(t, "category"));
+      row.append(check, english, japaneseCell, element1, element2, detailCell);
       row.title = t.explanation || t.tag;
       root.append(row);
     });
