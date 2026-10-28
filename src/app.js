@@ -719,8 +719,8 @@
     const presets = {
       portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
       landscape: ["landscape", "scenery", "sky", "clouds", "wide shot"],
-      lighting: ["wide shot", "backlighting", "depth of field", "dramatic lighting"],
-      quality: ["masterpiece", "best quality", "illustration", "detailed"]
+      lighting: ["wide shot", "backlighting", "depth of field", "rim light"],
+      quality: ["masterpiece", "best quality", "illustration", "ultra detailed"]
     };
     document.querySelectorAll("[data-preset]").forEach(button => {
       button.addEventListener("click", () => {
