@@ -200,15 +200,17 @@
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach(t => {
       const row = document.createElement("div"); row.className = "tag-row";
-      const names = document.createElement("div"); names.className = "tag-names";
+      const check = document.createElement("input");
+      check.type = "checkbox"; check.className = "tag-check";
+      check.checked = state.selected.has(norm(t.tag));
+      check.setAttribute("aria-label", (check.checked ? "選択解除 " : "選択 ") + t.tag);
+      check.addEventListener("change", () => toggleSelected(t));
       const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.tag;
-      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "日本語訳なし";
-      names.append(english, japanese);
-      const category = document.createElement("span"); category.className = "tag-category"; category.textContent = categoryText(t);
-      const add = makeButton(state.selected.has(norm(t.tag)) ? "✓" : "＋", "tag-add" + (state.selected.has(norm(t.tag)) ? " added" : ""), () => toggleSelected(t));
-      add.setAttribute("aria-label", (state.selected.has(norm(t.tag)) ? "選択解除 " : "選択 ") + t.tag);
-      row.append(names, category, add); row.title = t.explanation || t.tag;
-      row.addEventListener("dblclick", () => toggleSelected(t));
+      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
+      const category = document.createElement("span"); category.className = "tag-category";
+      category.textContent = majorOf(t) === "未分類" ? "#未分類" : majorOf(t) + "  #" + minorOf(t);
+      category.title = categoryText(t);
+      row.append(check, english, japanese, category); row.title = t.explanation || t.tag;
       root.append(row);
     });
     const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
