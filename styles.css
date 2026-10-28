@@ -229,3 +229,19 @@ body{font-size:13px;line-height:1.35}
 .vote-button:hover,.vote-button:focus-visible{border-color:var(--accent);color:var(--text)}
 .vote-button.active{border-color:var(--accent);background:var(--surface3);color:var(--accent);font-weight:700}
 @media(max-width:720px){.tag-feedback{gap:7px}.vote-caption{font-size:8px}.vote-button{min-width:22px;min-height:20px;font-size:10px}}
+
+
+/* Inline compact translation/category votes; keeps result rows to a single line. */
+.tag-row{grid-template-rows:auto}
+.tag-japanese-cell,.tag-detail-cell{display:flex;align-items:center;gap:2px;min-width:0}
+.tag-japanese-cell .tag-japanese{display:block;flex:1 1 auto;min-width:0;margin-top:0}
+.tag-detail-cell .tag-element3{flex:1 1 auto;min-width:0}
+.vote-group.vote-inline{display:inline-flex;flex:0 0 auto;align-items:center;gap:0;margin-left:2px}
+.vote-group.vote-inline .vote-button{min-width:15px;min-height:17px;padding:0 1px;border:0;border-radius:3px;background:transparent;color:var(--muted);font-size:10px;line-height:1;opacity:.65}
+.vote-group.vote-inline .vote-button:hover,.vote-group.vote-inline .vote-button:focus-visible{opacity:1;background:var(--surface2);outline:1px solid var(--line)}
+.vote-group.vote-inline .vote-button.active{opacity:1;background:var(--surface3);color:var(--accent);outline:1px solid var(--accent)}
+@media(max-width:720px){
+  .tag-japanese-cell,.tag-detail-cell{gap:1px}
+  .vote-group.vote-inline{margin-left:1px}
+  .vote-group.vote-inline .vote-button{min-width:13px;min-height:16px;font-size:9px;padding:0}
+}
