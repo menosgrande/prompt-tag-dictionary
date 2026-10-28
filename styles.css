@@ -296,3 +296,25 @@ body{font-size:13px;line-height:1.35}
   .vote-caption{max-width:90px;font-size:9px}
   .vote-button{min-width:16px;min-height:18px;padding:0 2px;font-size:11px}
 }
+
+
+/* Fix the blank space beneath the tag list: let the list fill its panel */
+.results-panel{
+  min-height:0;
+}
+.results-panel .tag-results{
+  flex:1 1 0;
+  height:auto;
+  min-height:0;
+  max-height:none;
+}
+.results-panel .pagination{
+  flex:0 0 auto;
+}
+@media(max-width:720px){
+  .results-panel .tag-results{
+    flex:0 0 auto;
+    min-height:190px;
+    max-height:48vh;
+  }
+}
