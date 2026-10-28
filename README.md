@@ -14,6 +14,10 @@
 - JSONとPerchance形式のJavaScript / テキストからタグデータを取り込み
 - 読み込んだデータと選択状態をブラウザのローカルストレージに保存
 
+## UI改善計画
+
+UI改善の目的・Phase 1〜3の範囲・受け入れ条件は [docs/ui-redesign-plan.md](docs/ui-redesign-plan.md) に記録しています。変更は機能単位でブランチ／PRに分け、構文・データ監査・ブラウザ回帰を確認してからmainへ反映します。
+
 ## 起動
 
 依存パッケージやビルド工程はありません。ローカルでは静的ファイルサーバーから index.html を開きます。GitHub Pagesで公開する場合は、リポジトリの Settings → Pages → Build and deployment → Source で「Deploy from a branch」を選び、Branch を「main」、フォルダを「/(root)」に設定して保存してください。このリポジトリは静的ファイルだけで構成されているため、GitHub Actions のビルドやデプロイ処理は不要です。公開設定後は main ブランチへの変更が Pages に反映されます。
