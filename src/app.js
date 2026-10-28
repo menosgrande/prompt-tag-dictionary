@@ -722,7 +722,7 @@
         const ch = text[i];
         if (quote) {
           if (escaped) escaped = false;
-          else if (ch === "\\\\") escaped = true;
+          else if (ch === "\\") escaped = true;
           else if (ch === quote) quote = "";
           continue;
         }
@@ -766,6 +766,7 @@
     }
     const preferIncoming = $("#prefer-import").checked;
     state.tags = mergeTags(state.tags, incoming, $("#replace-import").checked, { preferIncoming });
+    $("#prefer-import").checked = false;
     if ($("#save-import").checked) saveData();
     const keys = new Set(state.tags.map(t => norm(t.tag)));
     state.selected = new Set([...state.selected].filter(k => keys.has(k)));
