@@ -408,7 +408,7 @@
     const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
     // Keep punctuation-based emoticons/kaomoji from dominating the initial list.
     const defaultCompare = (a, b) => {
-      const rank = tag => /^[a-z]/i.test(tag) ? 0 : /^\\d/.test(tag) ? 1 : 2;
+      const rank = tag => /^[a-z]/i.test(tag) ? 0 : /^\d/.test(tag) ? 1 : 2;
       return rank(a.tag) - rank(b.tag) || englishCompare(a, b);
     };
     if (sort === "english") list.sort(englishCompare);
