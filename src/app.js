@@ -7,8 +7,8 @@
   let reviewRatings = {};
   function pageSize(total) { return Math.max(1, total); }
   const CATEGORIES = [
-    ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
+    ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
     ["背景・場所","Background & Location","屋内","施設","自然","都市","時間・天候"],
     ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
     ["画風・品質","Style & Quality","画風","品質","描写技法","媒体"],
