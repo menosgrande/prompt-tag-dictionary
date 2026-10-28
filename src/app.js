@@ -482,23 +482,28 @@
       const feedback = document.createElement("div");
       feedback.className = "tag-feedback";
       const current = reviewRatings[norm(t.tag)] || {};
-      [["訳", "translation"], ["分類", "category"]].forEach(([label, key]) => {
+      [
+        [t.tag, "tag"],
+        [t.ja || "訳なし", "translation"],
+        ["分類：" + minorOf(t), "category"]
+      ].forEach(([label, key]) => {
         const group = document.createElement("span");
         group.className = "vote-group";
         const caption = document.createElement("span");
         caption.className = "vote-caption";
         caption.textContent = label;
+        caption.title = label;
         group.append(caption);
         [["↑", 1], ["↓", -1]].forEach(([symbol, value]) => {
           const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
             if (item[key] === value) delete item[key]; else item[key] = value;
-            if (!item.translation && !item.category) delete reviewRatings[norm(t.tag)];
+            if (!item.tag && !item.translation && !item.category) delete reviewRatings[norm(t.tag)];
             else reviewRatings[norm(t.tag)] = item;
             try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
             renderResults();
           });
-          vote.setAttribute("aria-label", t.tag + " " + label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
+          vote.setAttribute("aria-label", label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
           vote.setAttribute("aria-pressed", String(current[key] === value));
           group.append(vote);
         });
