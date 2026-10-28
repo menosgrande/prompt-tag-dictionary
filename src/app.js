@@ -196,7 +196,7 @@
           : key === "category"
             ? (a, b) => compareText(a, b, t => majorOf(t) + " " + minorOf(t))
             : key === "selected"
-              ? (a, b) => Number(state.selected.has(norm(a.tag))) - Number(state.selected.has(norm(b.tag))) || englishCompare(a, b)
+              ? (a, b) => Number(state.selected.has(norm(b.tag))) - Number(state.selected.has(norm(a.tag))) || englishCompare(a, b)
               : englishCompare;
       list.sort((a, b) => dir * compare(a, b));
     }
