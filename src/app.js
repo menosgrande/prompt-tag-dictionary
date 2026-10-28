@@ -479,7 +479,8 @@
       const element3 = document.createElement("span"); element3.className = "tag-category tag-element3";
       element3.textContent = detailOf(t);
       element3.title = detailOf(t);
-      row.append(check, english, japanese, element1, element2, element3);
+      const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
+      tagLabel.append(english);
       const feedback = document.createElement("div");
       feedback.className = "tag-feedback";
       const current = reviewRatings[norm(t.tag)] || {};
@@ -510,7 +511,8 @@
         });
         feedback.append(group);
       });
-      row.append(feedback);
+      tagLabel.append(feedback);
+      row.append(check, tagLabel, japanese, element1, element2, element3);
       row.title = t.explanation || t.tag;
       root.append(row);
     });
