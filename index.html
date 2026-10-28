@@ -30,6 +30,7 @@
     <select id="level-filter" aria-label="分類状態"><option value="all">分類：すべて</option><option value="known">分類済み</option><option value="unknown">未分類</option></select>
     <select id="review-filter" aria-label="確認状態"><option value="all">確認：すべて</option><option value="unreviewed">未評価のみ</option><option value="review-any">要確認あり</option><option value="review-tag">タグの👎</option><option value="review-translation">訳の👎</option><option value="review-category">分類の👎</option></select>
     <select id="sort-order" aria-label="並び順"><option value="relevance">検索一致順</option><option value="english">英語 A–Z</option><option value="japanese">日本語 あ–ん</option><option value="selected">選択済みを上</option><option value="uncategorized">未分類を上</option></select>
+    <button id="clear-filters" class="button button-quiet clear-filters" type="button" disabled>条件を解除</button>
   </section>
   <section class="workspace">
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
