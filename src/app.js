@@ -535,6 +535,11 @@
     state.page = Math.min(Math.max(0, state.page), pageCount - 1);
     const start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
     root.replaceChildren();
+    const clearFilters = $("#clear-filters");
+    if (clearFilters) {
+      clearFilters.disabled = !(state.query.trim() || state.category ||
+        $("#level-filter").value !== "all" || $("#review-filter").value !== "all");
+    }
 
     // Display shared tag prefixes as a visual tree only. Data, selection keys and
     // prompt output always keep the complete original tag string.
@@ -934,6 +939,16 @@
       });
     });
     ["level-filter", "review-filter"].forEach(id => $("#" + id).addEventListener("change", () => { state.page = 0; renderResults(); }));
+    $("#clear-filters").addEventListener("click", () => {
+      state.query = "";
+      state.category = null;
+      state.page = 0;
+      $("#search").value = "";
+      $("#level-filter").value = "all";
+      $("#review-filter").value = "all";
+      renderAll();
+      $("#search").focus();
+    });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#clear-selected").addEventListener("click", () => { state.selected.clear(); saveSelected(); renderAll(); });
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
