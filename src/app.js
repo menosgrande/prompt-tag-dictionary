@@ -21,7 +21,7 @@
   ];
   const enMajor = Object.fromEntries(CATEGORIES.map(c => [c[0], c[1]]));
   const defaultMinor = Object.fromEntries(CATEGORIES.map(c => [c[0], c.slice(2)]));
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set() };
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -186,6 +186,20 @@
       return score(a) - score(b) || englishCompare(a, b);
     });
     else list.sort(englishCompare);
+    if (state.columnSort) {
+      const { key, dir } = state.columnSort;
+      const compareText = (a, b, getter, locale = "ja") => getter(a).localeCompare(getter(b), locale, { sensitivity: "base" }) || englishCompare(a, b);
+      const compare = key === "tag"
+        ? (a, b) => englishCompare(a, b)
+        : key === "japanese"
+          ? (a, b) => (a.ja || "\uffff").localeCompare(b.ja || "\uffff", "ja") || englishCompare(a, b)
+          : key === "category"
+            ? (a, b) => compareText(a, b, t => majorOf(t) + " " + minorOf(t))
+            : key === "selected"
+              ? (a, b) => Number(state.selected.has(norm(a.tag))) - Number(state.selected.has(norm(b.tag))) || englishCompare(a, b)
+              : englishCompare;
+      list.sort((a, b) => dir * compare(a, b));
+    }
     return list;
   }
   function makeButton(text, cls, action) {
@@ -195,6 +209,12 @@
   function renderResults() {
     const all = matchingTags(), start = state.page * PAGE_SIZE, items = all.slice(start, start + PAGE_SIZE), root = $("#tag-results");
     root.replaceChildren();
+    document.querySelectorAll("[data-column-sort]").forEach(button => {
+      const key = button.dataset.columnSort;
+      const label = button.dataset.label;
+      button.textContent = label + (state.columnSort?.key === key ? (state.columnSort.dir === 1 ? " ↑" : " ↓") : " ↕");
+      button.setAttribute("aria-sort", state.columnSort?.key === key ? (state.columnSort.dir === 1 ? "ascending" : "descending") : "none");
+    });
     $("#results-title").textContent = state.query ? "検索結果" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
@@ -424,7 +444,14 @@
     });
     $("#search").addEventListener("input", e => { state.query = e.target.value; state.page = 0; renderResults(); });
     $("#search").addEventListener("keydown", e => { if (e.key === "Enter") { state.query = e.target.value; state.page = 0; renderResults(); } });
-    $("#sort-order").addEventListener("change", renderResults);
+    $("#sort-order").addEventListener("change", () => { state.columnSort = null; state.page = 0; renderResults(); });
+    document.querySelectorAll("[data-column-sort]").forEach(button => {
+      button.addEventListener("click", () => {
+        const key = button.dataset.columnSort;
+        state.columnSort = { key, dir: state.columnSort?.key === key ? -state.columnSort.dir : 1 };
+        state.page = 0; renderResults();
+      });
+    });
     $("#level-filter").addEventListener("change", () => { state.page = 0; renderResults(); });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#prev-page").addEventListener("click", () => { state.page = Math.max(0, state.page - 1); renderResults(); });
