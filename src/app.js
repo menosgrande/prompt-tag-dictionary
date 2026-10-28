@@ -619,8 +619,8 @@
       function appendVotes(target, label, key) {
         const group = document.createElement("span");
         group.className = "vote-group inline-vote-group";
-        [["↑", 1], ["↓", -1]].forEach(([symbol, value]) => {
-          const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
+        [["👍", 1, "vote-up"], ["👎", -1, "vote-down"]].forEach(([symbol, value, direction]) => {
+          const vote = makeButton(symbol, "vote-button " + direction + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
             if (item[key] === value) delete item[key]; else item[key] = value;
             if (!item.tag && !item.translation && !item.category) delete reviewRatings[norm(t.tag)];
@@ -629,6 +629,7 @@
             renderResults();
           });
           vote.setAttribute("aria-label", label + (value === 1 ? "を良いと評価" : "を要確認と評価"));
+          vote.title = label + (value === 1 ? "：良い" : "：要確認");
           vote.setAttribute("aria-pressed", String(current[key] === value));
           group.append(vote);
         });

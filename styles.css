@@ -500,3 +500,13 @@ body{font-size:13px;line-height:1.35}
 @media(max-width:720px){
   .tag-branch-marker{font-size:9px;margin-right:1px;}
 }
+
+/* Vote buttons use explicit direction classes; keep them compact and unambiguous. */
+.vote-button.vote-up{color:#68d391}
+.vote-button.vote-down{color:#ff8f87}
+.vote-button.vote-up.active{background:#183a2a;border-color:#68d391}
+.vote-button.vote-down.active{background:#442522;border-color:#ff8f87}
+.vote-button{min-width:19px;min-height:20px;padding:0 3px;border-radius:5px;font-size:12px}
+@media(max-width:720px){
+  .vote-button{min-width:18px;min-height:19px;padding:0 2px;font-size:11px}
+}
