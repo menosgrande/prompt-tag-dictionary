@@ -38,6 +38,12 @@ Previously, any saved localStorage dataset replaced the bundled dataset at start
 
 Change: startup now merges the bundled seed into saved data. Seed-only/legacy rows are refreshed from the current bundled dataset; separately imported/custom records are preserved. Existing user data should still be checked after major schema changes.
 
+### 5. Large result sets were rendered into one large DOM tree
+
+The result view previously rendered every matching row in one pass. With around 11,000 tags and several review controls per row, this created tens of thousands of DOM elements at startup.
+
+Change: results are now rendered in pages of 100 rows, with previous/next controls and a visible range/page count. Search and filter operations reset the page to the beginning.
+
 ### 4. Stored records used multiple row lengths and retired category names
 
 Before this audit, records had 1, 2, or 4 fields, and 703 rows used retired category names. Several minor labels no longer existed in the current category list.
