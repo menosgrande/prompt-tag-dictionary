@@ -1,0 +1,34 @@
+name: Data quality audit
+
+on:
+  push:
+    paths:
+      - "data/tags.json"
+      - "src/app.js"
+      - "scripts/audit-tags.mjs"
+      - ".github/workflows/data-audit.yml"
+  pull_request:
+    paths:
+      - "data/tags.json"
+      - "src/app.js"
+      - "scripts/audit-tags.mjs"
+      - ".github/workflows/data-audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Check app syntax
+        run: node --check src/app.js
+      - name: Audit tag dataset
+        run: node scripts/audit-tags.mjs
