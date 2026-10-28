@@ -479,7 +479,7 @@ body{font-size:13px;line-height:1.35}
   }
   .tag-row{padding-top:5px;padding-bottom:5px;}
   .tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{gap:2px;}
-  .tag-category-wrap>.tag-category-trail{font-size:8px;}
+  .tag-category-wrap>.tag-category-trail{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;white-space:normal;line-height:1.2;font-size:8px;overflow:hidden;}
   .tag-label-wrap>.inline-vote-group .vote-button,
   .tag-japanese-wrap>.inline-vote-group .vote-button,
   .tag-category-wrap>.inline-vote-group .vote-button{font-size:10px;}
