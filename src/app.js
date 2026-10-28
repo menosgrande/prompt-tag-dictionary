@@ -733,7 +733,7 @@
       return "";
     };
     const main = parseBlock("TAGS");
-    const rowRe = /\[\s*"((?:\\.|[^"\\])*)"\s*,\s*"((?:\\.|[^"\\])*)"\s*,\s*"([a-z])"\s*\]/g;
+    const rowRe = /\[\s*(?:"((?:\\.|[^"\\])*)"|'((?:\\.|[^'\\])*)')\s*,\s*(?:"((?:\\.|[^"\\])*)"|'((?:\\.|[^'\\])*)')\s*,\s*(?:"([a-z])"|'([a-z])')\s*\]/g;
     const cats = {
       q:["画風・品質","品質"], s:["画風・品質","画風"], p:["人物","属性"],
       b:["髪・目・体","髪型"], c:["服装","衣類"], a:["ポーズ・動作","行動"],
@@ -742,11 +742,16 @@
     };
     let m;
     while ((m = rowRe.exec(main))) {
-      const tag = m[1].replace(/\\(["\\])/g, "$1"), ja = m[2].replace(/\\(["\\])/g, "$1");
-      incoming.push({ tag, ja, category: cats[m[3]] || ["未分類", "未分類"], source: filename });
+      const rawTag = m[1] ?? m[2], rawJa = m[3] ?? m[4], code = m[5] ?? m[6];
+      const tag = rawTag.replace(/\\(["'\\])/g, "$1"), ja = rawJa.replace(/\\(["'\\])/g, "$1");
+      incoming.push({ tag, ja, category: cats[code] || ["未分類", "未分類"], source: filename });
     }
-    const adult = parseBlock("NSFW_TAGS"), ar = /\[\s*"((?:\\.|[^"\\])*)"\s*,\s*"((?:\\.|[^"\\])*)"\s*\]/g;
-    while ((m = ar.exec(adult))) incoming.push({ tag:m[1], ja:m[2], category:["成人向け","身体・衣類"], source:filename });
+    const adult = parseBlock("NSFW_TAGS"), ar = /\[\s*(?:"((?:\\.|[^"\\])*)"|'((?:\\.|[^'\\])*)')\s*,\s*(?:"((?:\\.|[^"\\])*)"|'((?:\\.|[^'\\])*)')\s*\]/g;
+    while ((m = ar.exec(adult))) {
+      const tag = (m[1] ?? m[2]).replace(/\\(["'\\])/g, "$1");
+      const ja = (m[3] ?? m[4]).replace(/\\(["'\\])/g, "$1");
+      incoming.push({ tag, ja, category:["成人向け","身体・衣類"], source:filename });
+    }
     return incoming;
   }
   async function importFiles() {
