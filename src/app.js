@@ -203,9 +203,9 @@
     }
     if (major === "服装") minor = inferClothingMinor(t, minor);
     if (major === "その他" && !defaultMinor[major]?.includes(minor)) {
-      if (/\\b(cat|dog|bird|fish|snake|lizard|turtle|frog|wolf|fox|bear|horse|rabbit|mouse|whale|dolphin|dragon|griffin|phoenix|unicorn|monster|animal|beast)\\b/.test(t)) minor = "動物";
-      else if (/\\b(flower|tree|plant|grass|leaf|leaves|mushroom|vine|water|river|sea|ocean|sky|mountain|field|forest|lake|rock|crystal|mineral)\\b/.test(t)) minor = "自然物";
-      else if (/\\b(glow|spark|particle|impact|speed lines|motion lines|aura|lightning|explosion|symbol|icon|emblem)\\b/.test(t)) minor = "記号・効果";
+      if (/\b(cat|dog|bird|fish|snake|lizard|turtle|frog|wolf|fox|bear|horse|rabbit|mouse|whale|dolphin|dragon|griffin|phoenix|unicorn|monster|animal|beast)\b/.test(t)) minor = "動物";
+      else if (/\b(flower|tree|plant|grass|leaf|leaves|mushroom|vine|water|river|sea|ocean|sky|mountain|field|forest|lake|rock|crystal|mineral)\b/.test(t)) minor = "自然物";
+      else if (/\b(glow|spark|particle|impact|speed lines|motion lines|aura|lightning|explosion|symbol|icon|emblem)\b/.test(t)) minor = "記号・効果";
       else minor = "物";
     }
     if (major === "未分類" || !defaultMinor[major]) return [major || "未分類", minor || "未分類", "—"];
