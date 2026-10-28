@@ -65,7 +65,7 @@
       if (/属性|年齢/.test(minor)) minor = personMinor();
       if (minor === "属性") minor = personMinor();
       if (minor === "種族・役割") minor = "種族・役割";
-    } else if (major === "成人向け" && has(/\\b(breast|breasts|boob|boobs|chest|cleavage|bust)\\b/)) {
+    } else if (major === "成人向け" && has(/\b(breast|breasts|boob|boobs|chest|cleavage|bust)\b/)) {
       major = "人物"; minor = "胸";
     }
     return [major || "未分類", minor || "未分類"];
