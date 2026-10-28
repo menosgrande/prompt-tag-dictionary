@@ -8,13 +8,13 @@
   function pageSize(total) { return Math.max(1, total); }
   const CATEGORIES = [
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
-    ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
-    ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
-    ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
-    ["シチュエーション","Situation","関係性","日常","イベント","成人向け状況"],
     ["背景・場所","Background & Location","屋内","施設","自然","都市","時間・天候"],
+    ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
     ["画風・品質","Style & Quality","画風","品質","描写技法","媒体"],
     ["光・色彩","Light & Color","照明","色","色調"],
+    ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
+    ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
+    ["シチュエーション","Situation","関係性","日常","イベント","成人向け状況"],
     ["その他","Other","動物","物","自然物","記号・効果"],
     ["成人向け","Adult","身体・衣類","行為・状況","表現・修正"],
     ["未分類","Uncategorized","未分類"]
@@ -88,7 +88,7 @@
       "表現・修正":["検閲","画面表現","その他"]
     }
   };
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: "人物", expandedMinor: "人物::頭髪" };
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -406,6 +406,11 @@
     });
     const sort = $("#sort-order").value;
     const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
+    // Keep punctuation-based emoticons/kaomoji from dominating the initial list.
+    const defaultCompare = (a, b) => {
+      const rank = tag => /^[a-z]/i.test(tag) ? 0 : /^\\d/.test(tag) ? 1 : 2;
+      return rank(a.tag) - rank(b.tag) || englishCompare(a, b);
+    };
     if (sort === "english") list.sort(englishCompare);
     else if (sort === "japanese") list.sort((a, b) => {
       const jaA = a.ja || "\uffff", jaB = b.ja || "\uffff";
@@ -422,7 +427,7 @@
       };
       return score(a) - score(b) || englishCompare(a, b);
     });
-    else list.sort(englishCompare);
+    else list.sort(defaultCompare);
     if (state.columnSort) {
       const { key, dir } = state.columnSort;
       const compareText = (a, b, getter, locale = "ja") => getter(a).localeCompare(getter(b), locale, { sensitivity: "base" }) || englishCompare(a, b);
@@ -712,10 +717,10 @@
   }
   function wire() {
     const presets = {
-      anime: ["1girl", "solo", "long hair", "smile", "looking at viewer", "beautiful detailed eyes"],
       portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
-      fullbody: ["full body", "standing", "simple background", "looking at viewer"],
-      quality: ["masterpiece", "best quality", "anime coloring", "beautiful detailed eyes"]
+      landscape: ["landscape", "scenery", "sky", "clouds", "wide shot"],
+      lighting: ["wide shot", "backlighting", "depth of field", "dramatic lighting"],
+      quality: ["masterpiece", "best quality", "illustration", "detailed"]
     };
     document.querySelectorAll("[data-preset]").forEach(button => {
       button.addEventListener("click", () => {
