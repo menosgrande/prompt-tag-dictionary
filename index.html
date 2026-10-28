@@ -33,9 +33,9 @@
   <section class="workspace">
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
     <section class="panel results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><span id="result-count" class="count">—</span></div>
-      <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日語">日語 ↕</button><button type="button" data-column-sort="element1" data-label="要素1">要素1 ↕</button><button type="button" data-column-sort="element2" data-label="要素2">要素2 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
+      <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日語">日語 ↕</button><button type="button" data-column-sort="element1" data-label="要素1">要素1 ↕</button><button type="button" data-column-sort="element2" data-label="要素2">要素2 ↕</button><button type="button" data-column-sort="element3" data-label="詳細分類">詳細分類 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
       <div id="empty-state" class="empty-state" hidden><strong>一致するタグがありません</strong><p>検索語を変えるか、タグデータを読み込んでください。</p></div>
-      <div class="pagination"><span id="page-summary">—</span><label class="page-size-control">表示件数<select id="page-size" aria-label="1ページの表示件数"><option value="100" selected>100件</option><option value="200">200件</option><option value="all">すべて</option></select></label><div><button id="prev-page" class="button button-quiet" disabled>前へ</button><button id="next-page" class="button button-quiet" disabled>次へ</button></div></div>
+      <div class="pagination"><span id="page-summary">—</span></div>
     </section>
     <aside class="panel builder-panel"><div class="panel-heading"><div><span class="eyebrow">PROMPT BUILDER</span><h2>選択したタグ</h2></div><button id="clear-selected" class="text-button">全解除</button></div>
       <div id="selected-list" class="selected-list"></div>
@@ -59,7 +59,7 @@
 <dialog id="custom-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
   <p class="eyebrow">CUSTOM TAG</p><h2>タグを追加</h2>
   <label class="field-label">英語タグ<input id="custom-tag" type="text" placeholder="例：soft smile" maxlength="120"></label><label class="field-label">日本語名<input id="custom-ja" type="text" placeholder="例：柔らかな笑顔" maxlength="120"></label>
-  <label class="field-label">大分類<select id="custom-major"></select></label><label class="field-label">小分類<select id="custom-minor"></select></label><label class="field-label">別名・検索キーワード<input id="custom-alias" type="text" placeholder="カンマ区切りで入力"></label>
+  <label class="field-label">大分類<select id="custom-major"></select></label><label class="field-label">小分類<select id="custom-minor"></select></label><label class="field-label">詳細分類<select id="custom-detail"></select></label><label class="field-label">別名・検索キーワード<input id="custom-alias" type="text" placeholder="カンマ区切りで入力"></label>
   <p id="custom-status" class="status-text" aria-live="polite"></p><div class="modal-actions"><button id="custom-cancel" class="button button-quiet">キャンセル</button><button id="custom-save" class="button button-primary">保存</button></div>
 </dialog>
 <dialog id="data-note-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
