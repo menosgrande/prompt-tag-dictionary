@@ -481,21 +481,15 @@
       element3.title = detailOf(t);
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
       tagLabel.append(english);
-      const feedback = document.createElement("div");
-      feedback.className = "tag-feedback";
+      const japaneseWrap = document.createElement("div"); japaneseWrap.className = "tag-japanese-wrap";
+      japaneseWrap.append(japanese);
+      const categoryWrap = document.createElement("div"); categoryWrap.className = "tag-category-wrap";
+      const categoryPrefix = document.createElement("span"); categoryPrefix.className = "category-vote-prefix"; categoryPrefix.textContent = "分類：";
+      categoryWrap.append(categoryPrefix, element2);
       const current = reviewRatings[norm(t.tag)] || {};
-      [
-        [t.tag, "tag"],
-        [t.ja || "訳なし", "translation"],
-        ["分類：" + minorOf(t), "category"]
-      ].forEach(([label, key]) => {
+      function appendVotes(target, label, key) {
         const group = document.createElement("span");
-        group.className = "vote-group";
-        const caption = document.createElement("span");
-        caption.className = "vote-caption";
-        caption.textContent = label;
-        caption.title = label;
-        group.append(caption);
+        group.className = "vote-group inline-vote-group";
         [["↑", 1], ["↓", -1]].forEach(([symbol, value]) => {
           const vote = makeButton(symbol, "vote-button" + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
@@ -509,10 +503,12 @@
           vote.setAttribute("aria-pressed", String(current[key] === value));
           group.append(vote);
         });
-        feedback.append(group);
-      });
-      tagLabel.append(feedback);
-      row.append(check, tagLabel, japanese, element1, element2, element3);
+        target.append(group);
+      }
+      appendVotes(tagLabel, "タグ " + t.tag, "tag");
+      appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
+      appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
+      row.append(check, tagLabel, japaneseWrap, element1, categoryWrap, element3);
       row.title = t.explanation || t.tag;
       root.append(row);
     });
