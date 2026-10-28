@@ -442,3 +442,12 @@ body{font-size:13px;line-height:1.35}
     overflow-wrap:anywhere;
   }
 }
+
+
+/* Independent classification and review filters should not squeeze the search field. */
+.search-row select{flex:0 1 170px;min-width:0}
+@media(max-width:1100px){
+  .search-row{flex-wrap:wrap}
+  .searchbox{flex:1 1 100%}
+  .search-row select{flex:1 1 145px;max-width:none}
+}
