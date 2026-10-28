@@ -248,12 +248,13 @@
     const selected = state.tags.filter(t => state.selected.has(norm(t.tag)));
     const group = $("#group-by-category").checked, comments = $("#include-comments").checked;
     const activeCats = new Set([...$("#output-categories").querySelectorAll(".include-chip.active")].map(b => b.dataset.major));
+    const hasCategoryFilters = $("#output-categories").querySelectorAll(".include-chip").length > 0;
     const output = []; let count = 0;
     if (group) {
       const map = new Map();
       selected.forEach(t => {
         const m = majorOf(t);
-        if (!activeCats.size || activeCats.has(m)) { if (!map.has(m)) map.set(m, []); map.get(m).push(t); }
+        if (!hasCategoryFilters || activeCats.has(m)) { if (!map.has(m)) map.set(m, []); map.get(m).push(t); }
       });
       const sortedMajors = [...map.keys()].sort((a, b) => {
         const ia = CATEGORIES.findIndex(c => c[0] === a), ib = CATEGORIES.findIndex(c => c[0] === b);
@@ -265,7 +266,7 @@
         count += map.get(major).length;
       });
     } else {
-      const tags = selected.filter(t => !activeCats.size || activeCats.has(majorOf(t)));
+      const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(majorOf(t)));
       output.push(tags.map(t => t.tag).join(", ")); count = tags.length;
     }
     $("#prompt-output").value = output.filter(s => s !== "").join("\n");
