@@ -15,7 +15,7 @@
 
 ## 起動
 
-依存パッケージやビルド工程はありません。ローカルでは静的ファイルサーバーから index.html を開きます。GitHub Pagesで公開する場合は、リポジトリの Settings → Pages → Build and deployment → Source で GitHub Actions を選択してください。初回の有効化はGitHub側のリポジトリ設定で必要になる場合があります。その後、mainへのpushでデプロイワークフローが動きます。
+依存パッケージやビルド工程はありません。ローカルでは静的ファイルサーバーから index.html を開きます。GitHub Pagesで公開する場合は、リポジトリの Settings → Pages → Build and deployment → Source で「Deploy from a branch」を選び、Branch を「main」、フォルダを「/(root)」に設定して保存してください。このリポジトリは静的ファイルだけで構成されているため、GitHub Actions のビルドやデプロイ処理は不要です。公開設定後は main ブランチへの変更が Pages に反映されます。
 
 ## 手元のタグデータを読み込む
 
