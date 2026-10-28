@@ -30,7 +30,7 @@ Change: future JSON imports attach the selected file name to each imported recor
 
 The prior merge rule preferred every incoming non-empty Japanese translation and every incoming non-unclassified category. That meant a later machine translation or a legacy category could replace a better or more current value without warning.
 
-Change: the default merge preserves the first non-empty translation and first classified category; missing fields can be filled from later sources. Different non-empty translations/categories are counted and reported in the import dialog. Input files are processed in filename order so the result is deterministic for the same filenames.
+Change: the default merge preserves the first non-empty translation and first classified category; missing fields can be filled from later sources. Different non-empty translations/categories are counted and reported in the import dialog. An explicit checkbox allows the user to prefer the incoming values when intentionally correcting a translation/category. Input files are processed in filename order so the result is deterministic for the same filenames. Partial file failures are surfaced instead of silently reporting a successful complete import.
 
 ### 3. Existing browser storage could hide updates from the repository
 
