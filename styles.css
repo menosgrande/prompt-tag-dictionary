@@ -562,3 +562,10 @@ body{font-size:13px;line-height:1.35}
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+
+/* Directly editable selected-tag text with compact undo/redo controls. */
+.edit-history{display:inline-flex;gap:4px;margin-left:auto}
+.edit-history .button{min-height:25px;padding:2px 7px;font-size:10px}
+.output-header{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+@media(max-width:720px){.edit-history{gap:3px}.edit-history .button{min-height:23px;padding:2px 5px;font-size:9px}}
