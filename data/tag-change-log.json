@@ -46,6 +46,1056 @@
       },
       "reason": "キャラクター名と作品名を一般名詞として誤訳していたため、公式日本語表記に修正。人手の最終確認待ち。",
       "source": "https://needygirl-anime.com/"
+    },
+    {
+      "tag": "akane (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アカネ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アカネ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "ako (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ako（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アコ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "andou (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "andou（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "安藤（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "arona (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アロナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アロナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "aru (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アル（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アル（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "asuna (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アスナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アスナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "asuna (bunny) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アスナ（バニー）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アスナ（バニー）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "azusa (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "azusa（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "アズサ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "boko (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ボコ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ボコ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "darjeeling (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ダージリン（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ダージリン（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "girls und panzer",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "女の子とパンツァー"
+      },
+      "after": {
+        "ja": "ガールズ＆パンツァー"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "hanako (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "漢字（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ハナコ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "haruka (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Haruka（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ハルカ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "haruna (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ハルナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ハルナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hasumi (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "hasumi（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ハスミ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hibiki (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "hibiki（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヒビキ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hifumi (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "hifumi（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヒフミ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "himari (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ヒマリ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヒマリ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hina (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ヒナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヒナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hina (swimsuit) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ヒナ（水着）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヒナ（水着）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hoshino (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "星野（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "星野（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "hoshino (swimsuit) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "星野（水着）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "星野（水着）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "ibuki (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "イブキ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "イブキ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "ichika (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "イチカ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "イチカ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "iori (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "IORI（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "イオリ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "iroha (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "イロハ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "イロハ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "izuna (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "イズナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "イズナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "karin (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "カリン（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "カリン（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "karin (bunny) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "カリン（バニー）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "カリン（バニー）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "katyusha (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "カティーシャ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "カチューシャ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "kay (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ケイ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ケイ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "kayoko (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "カヨコ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "カヨコ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "kazusa (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "カズサ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "カズサ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "koharu (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "コハル（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "コハル（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "kokona (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ココナ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ココナ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "mari (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "マリ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "マリ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "midori (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ミドリ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ミドリ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "mika (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ミカ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ミカ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "mika (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ミカ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ミカ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "miyako (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ミヤコ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ミヤコ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "miyu (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "miyu（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ミユ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "momoi (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "モモ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "モモイ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "mutsuki (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ムツキ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ムツキ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "nagisa (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ナギサ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ナギサ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "natsu (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "夏（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ナツ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "needy girl overdose",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "貧しい女の子の過剰摂取"
+      },
+      "after": {
+        "ja": "NEEDY GIRL OVERDOSE"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "neru (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ネル（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ネル（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "noa (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "NOA（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ノア（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "nonna (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ノンナ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ノンナ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "nonomi (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Nonomi（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ノノミ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "orange pekoe (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "オレンジペコエ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "オレンジペコ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "oshida (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "オシダ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "オシダ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "pepperoni (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ペパロニ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ペパロニ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "peroro (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ペロロ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ペロロ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "rosehip (girls und panzer)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ローズヒップ（女の子とパンツァー）"
+      },
+      "after": {
+        "ja": "ローズヒップ（ガールズ＆パンツァー）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://girls-und-panzer.jp/"
+    },
+    {
+      "tag": "saki (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サキ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "サキ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "saori (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サオリ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "サオリ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "seia (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Seia（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "セイア（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "sensei (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "先生（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "先生（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "serika (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セリカ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "セリカ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "shiroko (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Shiroko（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "シロコ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "shiroko (swimsuit) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Shiroko（水着）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "Shiroko（水着）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "shun (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "shun（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "シュン（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "shun (small) (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "shun（small）（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "shun（small）（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "tsubaki (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ツバキ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ツバキ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "ui (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "UI（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ウイ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "wakamo (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ワカモ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ワカモ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "yoshimi (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ヨシミ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ヨシミ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "yuuka (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ユウカ（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ユウカ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
+    },
+    {
+      "tag": "yuzu (blue archive)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Yuzu（青いアーカイブ）"
+      },
+      "after": {
+        "ja": "ユズ（ブルーアーカイブ）"
+      },
+      "reason": "作品名・キャラクター名の誤訳または誤表記を公式日本語表記に合わせて修正。AI一括修正であり、人手の最終確認待ち。",
+      "source": "https://bluearchive.jp/"
     }
   ]
 }
