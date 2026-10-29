@@ -668,7 +668,7 @@
   function toggleSelected(t) {
     const key = norm(t.tag);
     if (state.selected.has(key)) state.selected.delete(key); else state.selected.add(key);
-    saveSelected(); renderResults(); renderSelected(); renderStats(); renderOutputCategories(); renderOutput();
+    saveSelected(); renderResults(); renderStats(); renderOutputCategories(); renderOutput();
   }
   function renderSelected() {
     const root = $("#selected-list"); root.replaceChildren();
@@ -741,7 +741,55 @@
     $("#output-count").textContent = count + " tags";
     $("#copy-output").disabled = count === 0; $("#download-output").disabled = count === 0;
   }
-  function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; renderStats(); renderCategories(); renderResults(); renderSelected(); renderOutputCategories(); renderOutput(); }
+  function syncSelectionFromPreview() {
+    const byName = new Map(state.tags.map(t => [norm(t.tag), t]));
+    const tokens = $("#prompt-output").value.split(/[\n,]+/).map(s => s.trim()).filter(Boolean);
+    const next = new Set();
+    tokens.forEach(token => {
+      if (/^(?:\/\/|#|\/\*)/.test(token)) return;
+      const item = byName.get(norm(token.replace(/\*\/$/, "").trim()));
+      if (item) next.add(norm(item.tag));
+    });
+    state.selected = next;
+    saveSelected();
+    renderStats();
+    renderResults();
+    renderOutputCategories();
+    const count = next.size;
+    $("#output-count").textContent = count + " tags";
+    $("#copy-output").disabled = !$("#prompt-output").value.trim();
+    $("#download-output").disabled = !$("#prompt-output").value.trim();
+  }
+  function updateTagSuggestions() {
+    const input = $("#preview-add"), list = $("#tag-suggestions");
+    const q = norm(input.value);
+    list.replaceChildren();
+    if (!q) return;
+    state.tags.filter(t => norm([t.tag,t.ja,...(t.aliases||[])].join(" ")).includes(q)).slice(0,25).forEach(t => {
+      const option = document.createElement("option");
+      option.value = t.tag;
+      option.label = t.ja || categoryText(t);
+      list.append(option);
+    });
+  }
+  function addPreviewTag() {
+    const raw = $("#preview-add").value.trim();
+    if (!raw) return;
+    const item = state.tags.find(t => norm(t.tag) === norm(raw));
+    if (!item) {
+      setStatus("copy-status", "登録済みタグの候補を選択してください。", true);
+      updateTagSuggestions();
+      return;
+    }
+    state.selected.add(norm(item.tag));
+    saveSelected();
+    $("#preview-add").value = "";
+    updateTagSuggestions();
+    renderStats(); renderResults(); renderOutputCategories(); renderOutput();
+    $("#prompt-output").focus();
+    setStatus("copy-status", item.tag + " を追加しました。");
+  }
+  function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; renderStats(); renderCategories(); renderResults(); renderOutputCategories(); renderOutput(); }
 
   function parseJsonData(text, filename) {
     const parsed = JSON.parse(text), incoming = [];
@@ -1020,6 +1068,11 @@
     });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#clear-selected").addEventListener("click", () => { state.selected.clear(); saveSelected(); renderAll(); });
+    $("#preview-add").addEventListener("input", updateTagSuggestions);
+    $("#preview-add").addEventListener("change", addPreviewTag);
+    $("#preview-add").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); addPreviewTag(); } });
+    $("#preview-add-button").addEventListener("click", addPreviewTag);
+    $("#prompt-output").addEventListener("input", syncSelectionFromPreview);
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", copyOutput); $("#download-output").addEventListener("click", downloadText);
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
