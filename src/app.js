@@ -749,16 +749,22 @@
     }
     const known = new Map(state.tags.map(t => [norm(t.tag), t.tag]));
     const parts = value.split(/\\r?\\n/).filter(line => !/^\\s*(?:\\/\\/|#|\\/\\*)/.test(line));
-    const selected = new Set();
+    const visibleSelected = new Set();
     parts.join(",").split(",").map(part => part.trim()).filter(Boolean).forEach(part => {
       const tag = known.get(norm(part));
-      if (tag) selected.add(norm(tag));
+      if (tag) visibleSelected.add(norm(tag));
+    });
+    // Categories hidden from output remain selected; deleting visible text removes visible tags.
+    const selected = new Set(visibleSelected);
+    state.tags.forEach(tag => {
+      const key = norm(tag.tag);
+      if (state.selected.has(key) && state.outputExcluded.has(majorOf(tag))) selected.add(key);
     });
     state.selected = selected;
     outputHistory.last = value;
     saveSelected();
     renderResults(); renderSelected(); renderStats(); renderOutputCategories();
-    $("#output-count").textContent = selected.size + " tags";
+    $("#output-count").textContent = visibleSelected.size + " tags";
     $("#copy-output").disabled = !value.trim(); $("#download-output").disabled = !value.trim();
     updateOutputHistoryButtons();
   }
