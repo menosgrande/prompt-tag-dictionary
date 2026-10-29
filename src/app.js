@@ -464,7 +464,8 @@
     });
   }
   function matchingTags() {
-    const q = norm(state.query), level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
+    const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
+    const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
     let list = state.tags.filter(t => {
       if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
@@ -477,8 +478,10 @@
       if (reviewFilter === "review-translation" && rating.translation !== -1) return false;
       if (reviewFilter === "review-any" && !(rating.tag === -1 || rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
       if (!q) return true;
-      const hay = [t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" ");
-      return norm(hay).includes(q);
+      const hay = norm([t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" "));
+      // Treat whitespace-separated words as AND terms, regardless of order.
+      // Japanese queries without spaces remain a single substring search.
+      return queryTerms.every(term => hay.includes(term));
     });
     const sort = $("#sort-order").value;
     const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
@@ -499,7 +502,8 @@
         const tag = norm(t.tag), ja = norm(t.ja);
         if (tag === q || ja === q) return 0;
         if (tag.startsWith(q) || ja.startsWith(q)) return 1;
-        return 2;
+        if (queryTerms.every(term => tag.includes(term) || ja.includes(term))) return 2;
+        return 3;
       };
       return score(a) - score(b) || englishCompare(a, b);
     });
