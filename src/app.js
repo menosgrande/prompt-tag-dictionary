@@ -624,7 +624,7 @@
       function appendVotes(target, label, key) {
         const group = document.createElement("span");
         group.className = "vote-group inline-vote-group";
-        [["👍", 1, "vote-up"], ["👎", -1, "vote-down"]].forEach(([symbol, value, direction]) => {
+        [["↑", 1, "vote-up"], ["↓", -1, "vote-down"]].forEach(([symbol, value, direction]) => {
           const vote = makeButton(symbol, "vote-button " + direction + (current[key] === value ? " active" : ""), () => {
             const item = { ...(reviewRatings[norm(t.tag)] || {}) };
             if (item[key] === value) delete item[key]; else item[key] = value;
