@@ -187,17 +187,6 @@
     "proposedJa": null
   },
   {
-    "tag": "akane (blue archive)",
-    "ja": "アカネ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "akinbo (hyouka fuyou)",
     "ja": "アキンボ（hyoukafuyou）",
     "major": "未分類",
@@ -237,18 +226,6 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ako (blue archive)",
-    "ja": "ako（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -304,18 +281,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "andou (girls und panzer)",
-    "ja": "andou（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -398,17 +363,6 @@
     "proposedJa": null
   },
   {
-    "tag": "arona (blue archive)",
-    "ja": "アロナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "artoria caster (fate)",
     "ja": "アルトリアキャスター（Fate）",
     "major": "作品・キャラクター",
@@ -475,17 +429,6 @@
     "proposedJa": null
   },
   {
-    "tag": "aru (blue archive)",
-    "ja": "アル（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "as109",
     "ja": "",
     "major": "未分類",
@@ -525,28 +468,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "asuna (blue archive)",
-    "ja": "アスナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "asuna (bunny) (blue archive)",
-    "ja": "アスナ（バニー）（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -624,18 +545,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "azusa (blue archive)",
-    "ja": "azusa（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -801,17 +710,6 @@
     "minor": "色",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "boko (girls und panzer)",
-    "ja": "ボコ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1230,17 +1128,6 @@
     "minor": "顔・表情",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "darjeeling (girls und panzer)",
-    "ja": "ダージリン（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2061,17 +1948,6 @@
     "proposedJa": null
   },
   {
-    "tag": "girls und panzer",
-    "ja": "女の子とパンツァー",
-    "major": "人物",
-    "minor": "人数",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "grey serafuku",
     "ja": "灰色のserafuku",
     "major": "光・色彩",
@@ -2182,17 +2058,6 @@
     "proposedJa": null
   },
   {
-    "tag": "hanako (blue archive)",
-    "ja": "漢字（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "hanamura yousuke",
     "ja": "Yousuke漢村",
     "major": "未分類",
@@ -2237,29 +2102,6 @@
     "proposedJa": null
   },
   {
-    "tag": "haruka (blue archive)",
-    "ja": "Haruka（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "haruna (blue archive)",
-    "ja": "ハルナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "haruyama kazunori",
     "ja": "",
     "major": "未分類",
@@ -2277,18 +2119,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "hasumi (blue archive)",
-    "ja": "hasumi（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2327,36 +2157,12 @@
     "proposedJa": null
   },
   {
-    "tag": "hibiki (blue archive)",
-    "ja": "hibiki（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "hidefu kitayan",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "hifumi (blue archive)",
-    "ja": "hifumi（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2406,45 +2212,12 @@
     "proposedJa": null
   },
   {
-    "tag": "himari (blue archive)",
-    "ja": "ヒマリ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "himekaidou hatate",
     "ja": "Himekaidouの憎しみ",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "hina (blue archive)",
-    "ja": "ヒナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "hina (swimsuit) (blue archive)",
-    "ja": "ヒナ（水着）（青いアーカイブ）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2560,28 +2333,6 @@
     "proposedJa": null
   },
   {
-    "tag": "hoshino (blue archive)",
-    "ja": "星野（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "hoshino (swimsuit) (blue archive)",
-    "ja": "星野（水着）（青いアーカイブ）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "hoshizuki (seigetsu)",
     "ja": "久野（Seigetsu）",
     "major": "未分類",
@@ -2654,28 +2405,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ibuki (blue archive)",
-    "ja": "イブキ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ichika (blue archive)",
-    "ja": "イチカ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2835,18 +2564,6 @@
     "proposedJa": null
   },
   {
-    "tag": "iori (blue archive)",
-    "ja": "IORI（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "iphone",
     "ja": "iPhone",
     "major": "未分類",
@@ -2877,17 +2594,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "iroha (blue archive)",
-    "ja": "イロハ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3020,17 +2726,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "izuna (blue archive)",
-    "ja": "イズナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3256,28 +2951,6 @@
     "proposedJa": null
   },
   {
-    "tag": "karin (blue archive)",
-    "ja": "カリン（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "karin (bunny) (blue archive)",
-    "ja": "カリン（バニー）（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "kase daiki",
     "ja": "",
     "major": "未分類",
@@ -3344,56 +3017,12 @@
     "proposedJa": null
   },
   {
-    "tag": "katyusha (girls und panzer)",
-    "ja": "カティーシャ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "kawashina (momen silicon)",
     "ja": "カワシナ（Momen Silicon）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "kay (girls und panzer)",
-    "ja": "ケイ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "kayoko (blue archive)",
-    "ja": "カヨコ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "kazusa (blue archive)",
-    "ja": "カズサ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3443,34 +3072,12 @@
     "proposedJa": null
   },
   {
-    "tag": "koharu (blue archive)",
-    "ja": "コハル（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "koizumi hanayo",
     "ja": "小山hanayo",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "kokona (blue archive)",
-    "ja": "ココナ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3839,17 +3446,6 @@
     "proposedJa": null
   },
   {
-    "tag": "mari (blue archive)",
-    "ja": "マリ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "marie antoinette (fate)",
     "ja": "マリー・アントワネット（Fate）",
     "major": "作品・キャラクター",
@@ -4048,45 +3644,12 @@
     "proposedJa": null
   },
   {
-    "tag": "midori (blue archive)",
-    "ja": "ミドリ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "midoriya izuku",
     "ja": "青田izuku",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "mika (blue archive)",
-    "ja": "ミカ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "mika (girls und panzer)",
-    "ja": "ミカ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4180,35 +3743,12 @@
     "proposedJa": null
   },
   {
-    "tag": "miyako (blue archive)",
-    "ja": "ミヤコ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "miyamoto musashi (swimsuit berserker) (fate)",
     "ja": "宮本蘇省（水着バーサーカー）（Fate）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "miyu (blue archive)",
-    "ja": "miyu（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4275,17 +3815,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "momoi (blue archive)",
-    "ja": "モモ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4412,17 +3941,6 @@
     "proposedJa": null
   },
   {
-    "tag": "mutsuki (blue archive)",
-    "ja": "ムツキ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "mysterious heroine x alter (fate)",
     "ja": "神秘的なヒロインx alter（Fate）",
     "major": "作品・キャラクター",
@@ -4440,17 +3958,6 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "nagisa (blue archive)",
-    "ja": "ナギサ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4522,23 +4029,13 @@
     "proposedJa": null
   },
   {
-    "tag": "natsu (blue archive)",
-    "ja": "夏（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "needy girl overdose",
-    "ja": "貧しい女の子の過剰摂取",
+    "ja": "NEEDY GIRL OVERDOSE",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "likely-literal-or-machine-translation"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4583,17 +4080,6 @@
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "neru (blue archive)",
-    "ja": "ネル（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4698,47 +4184,12 @@
     "proposedJa": null
   },
   {
-    "tag": "noa (blue archive)",
-    "ja": "NOA（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "noelle (genshin impact)",
     "ja": "ノエル（Genshin Impact）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "nonna (girls und panzer)",
-    "ja": "ノンナ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "nonomi (blue archive)",
-    "ja": "Nonomi（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4975,17 +4426,6 @@
     "proposedJa": null
   },
   {
-    "tag": "orange pekoe (girls und panzer)",
-    "ja": "オレンジペコエ（女の子とパンツァー）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "ore no imouto ga konna ni kawaii wake ga nai",
     "ja": "鉱石no imouto ga konna ni kawaii wake ga nai",
     "major": "未分類",
@@ -5003,17 +4443,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "oshida (girls und panzer)",
-    "ja": "オシダ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5124,28 +4553,6 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "pepperoni (girls und panzer)",
-    "ja": "ペパロニ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "peroro (blue archive)",
-    "ja": "ペロロ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5569,17 +4976,6 @@
     "proposedJa": null
   },
   {
-    "tag": "rosehip (girls und panzer)",
-    "ja": "ローズヒップ（女の子とパンツァー）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "rtil",
     "ja": "",
     "major": "未分類",
@@ -5701,34 +5097,12 @@
     "proposedJa": null
   },
   {
-    "tag": "saki (blue archive)",
-    "ja": "サキ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "saki (manga)",
     "ja": "咲-saki-",
     "major": "画風・品質",
     "minor": "画風",
     "reasons": [
       "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "saori (blue archive)",
-    "ja": "サオリ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5800,18 +5174,6 @@
     "proposedJa": null
   },
   {
-    "tag": "seia (blue archive)",
-    "ja": "Seia（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "sengoku basara",
     "ja": "戦国BASARAシリーズ",
     "major": "未分類",
@@ -5834,17 +5196,6 @@
     "proposedJa": null
   },
   {
-    "tag": "sensei (blue archive)",
-    "ja": "先生（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "seo tatsuya",
     "ja": "",
     "major": "未分類",
@@ -5862,17 +5213,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "serika (blue archive)",
-    "ja": "セリカ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5944,49 +5284,23 @@
     "proposedJa": null
   },
   {
-    "tag": "shiroko (blue archive)",
-    "ja": "Shiroko（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "shiroko (swimsuit) (blue archive)",
-    "ja": "Shiroko（水着）（青いアーカイブ）",
+    "ja": "Shiroko（水着）（ブルーアーカイブ）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shun (blue archive)",
-    "ja": "shun（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
+      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "shun (small) (blue archive)",
-    "ja": "shun（small）（青いアーカイブ）",
+    "ja": "shun（small）（ブルーアーカイブ）",
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
+      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -6509,17 +5823,6 @@
     "proposedJa": null
   },
   {
-    "tag": "tsubaki (blue archive)",
-    "ja": "ツバキ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "tumblr username",
     "ja": "tumblrユーザー名",
     "major": "未分類",
@@ -6592,17 +5895,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ui (blue archive)",
-    "ja": "UI（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -6715,17 +6007,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "wakamo (blue archive)",
-    "ja": "ワカモ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -6907,17 +6188,6 @@
     "proposedJa": null
   },
   {
-    "tag": "yoshimi (blue archive)",
-    "ja": "ヨシミ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "yu mei-ren (fate)",
     "ja": "Yu Mei-Ren（Fate）",
     "major": "作品・キャラクター",
@@ -6973,35 +6243,12 @@
     "proposedJa": null
   },
   {
-    "tag": "yuuka (blue archive)",
-    "ja": "ユウカ（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "yuureidoushi (yuurei6214)",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "yuzu (blue archive)",
-    "ja": "Yuzu（青いアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
