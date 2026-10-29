@@ -532,3 +532,33 @@ body{font-size:13px;line-height:1.35}
  .tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{flex-wrap:wrap;gap:2px}
  .vote-button{min-width:14px;min-height:16px;font-size:10px}
 }
+
+
+/* Final override: feedback arrows must remain neutral, including after legacy rules. */
+.tag-label-wrap > .inline-vote-group .vote-button.vote-up,
+.tag-japanese-wrap > .inline-vote-group .vote-button.vote-up,
+.tag-category-wrap > .inline-vote-group .vote-button.vote-up,
+.tag-label-wrap > .inline-vote-group .vote-button.vote-down,
+.tag-japanese-wrap > .inline-vote-group .vote-button.vote-down,
+.tag-category-wrap > .inline-vote-group .vote-button.vote-down {
+  color: var(--muted);
+  background: transparent;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+.tag-label-wrap > .inline-vote-group .vote-button.vote-up.active,
+.tag-japanese-wrap > .inline-vote-group .vote-button.vote-up.active,
+.tag-category-wrap > .inline-vote-group .vote-button.vote-up.active,
+.tag-label-wrap > .inline-vote-group .vote-button.vote-down.active,
+.tag-japanese-wrap > .inline-vote-group .vote-button.vote-down.active,
+.tag-category-wrap > .inline-vote-group .vote-button.vote-down.active {
+  color: var(--text);
+  background: transparent;
+  border-color: transparent;
+  outline: none;
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
