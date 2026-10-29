@@ -10,8 +10,9 @@
 <body>
 <header class="topbar">
   <a class="brand" href="./"><span class="brand-mark">PT</span><span><strong>Prompt Tag Dictionary</strong><small>画像生成タグ辞典</small></span></a>
-  <div class="top-actions"><button id="import-open" class="button button-quiet">データを読み込む</button><button id="custom-open" class="button button-primary">＋ タグを追加</button></div>
+  <div class="top-actions"><span id="admin-mode-label" class="admin-mode-label" hidden>管理編集モード</span><button id="import-open" class="button button-quiet" data-admin-only hidden>データを読み込む</button><button id="custom-open" class="button button-primary" data-admin-only hidden>＋ タグを追加</button></div>
 </header>
+<div id="admin-mode-banner" class="admin-mode-banner" hidden><strong>管理編集モード</strong><span>変更はこのブラウザに保存されます。公開データは自動更新されません。</span><a href="./admin.html">管理画面へ戻る</a><a href="./">通常画面</a></div>
 <main class="app-shell">
   <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類・セット追加からタグを選択。</p></div>
     <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div><div><strong id="stat-selected">0</strong><span>選択中</span></div></div>
@@ -34,7 +35,7 @@
   </section>
   <section class="workspace">
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
-    <section class="panel results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><span id="result-count" class="count">—</span></div>
+    <section class="panel results-panel" id="results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><div class="result-tools"><span id="result-count" class="count">—</span></div></div>
       <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日本語">日本語 ↕</button><button type="button" data-column-sort="category" data-label="分類">分類 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
       <div id="loading-state" class="empty-state" role="status">タグデータを読み込み中…</div>
       <div id="empty-state" class="empty-state" hidden><strong>一致するタグがありません</strong><p>検索語を変えるか、タグデータを読み込んでください。</p></div>
@@ -64,6 +65,16 @@
   <label class="field-label">英語タグ<input id="custom-tag" type="text" placeholder="例：soft smile" maxlength="120"></label><label class="field-label">日本語名<input id="custom-ja" type="text" placeholder="例：柔らかな笑顔" maxlength="120"></label>
   <label class="field-label">大分類<select id="custom-major"></select></label><label class="field-label">小分類<select id="custom-minor"></select></label><label class="field-label">詳細分類<select id="custom-detail"></select></label><label class="field-label">別名・検索キーワード<input id="custom-alias" type="text" placeholder="カンマ区切りで入力"></label>
   <p id="custom-status" class="status-text" aria-live="polite"></p><div class="modal-actions"><button id="custom-cancel" class="button button-quiet">キャンセル</button><button id="custom-save" class="button button-primary">保存</button></div>
+</dialog>
+<dialog id="tag-edit-dialog" class="modal tag-edit-modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
+  <p class="eyebrow">TAG EDITOR</p><h2>タグを修正</h2>
+  <p class="edit-note">変更はこのブラウザに保存されます。公開データは自動では変更されません。</p>
+  <label class="field-label">英語タグ<input id="edit-tag" type="text" maxlength="160" autocomplete="off"></label>
+  <label class="field-label">日本語訳<input id="edit-ja" type="text" maxlength="300"></label>
+  <div class="edit-category-grid"><label class="field-label">大分類<input id="edit-major" type="text" maxlength="100" list="edit-major-options"></label><label class="field-label">小分類<input id="edit-minor" type="text" maxlength="100" list="edit-minor-options"></label><label class="field-label">詳細分類<input id="edit-detail" type="text" maxlength="100" list="edit-detail-options"></label></div>
+  <datalist id="edit-major-options"></datalist><datalist id="edit-minor-options"></datalist><datalist id="edit-detail-options"></datalist>
+  <label class="field-label">別名・検索キーワード<input id="edit-aliases" type="text" maxlength="1000" placeholder="カンマ区切り"></label>
+  <p id="edit-status" class="status-text" aria-live="polite"></p><div class="modal-actions"><button id="edit-cancel" class="button button-quiet" type="button">キャンセル</button><button id="export-edited-tags" class="button button-quiet" type="button">JSON出力</button><button id="edit-save" class="button button-primary" type="button">保存</button></div>
 </dialog>
 <dialog id="data-note-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
   <p class="eyebrow">DATA NOTES</p><h2>データについて</h2><p>英語タグ一覧と分類付き候補を統合した11,047件を同梱しています。日本語訳付きは10,861件、分類済みタグは4,966件、未分類は6,081件です。括弧付きタグは1,130件あり、そのうち272件は未分類です。作品・キャラクター候補644件は括弧内の作品名などから仮分類しましたが、括弧だけで一律判定してはいません。データ形式・分類名・重複は自動監査していますが、意味上の分類と翻訳の正確さは未検証です。過去データの出典・取得日は一部復元できず、data/sources.json に不明点を明記しています。手元のJSONやPerchanceソースを「データを読み込む」から追加できます。</p>

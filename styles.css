@@ -562,3 +562,30 @@ body{font-size:13px;line-height:1.35}
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+
+/* Inline per-tag editing */
+.result-tools{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.compact-edit-toggle{min-height:27px;padding:3px 8px;font-size:10px}
+.compact-edit-toggle[aria-pressed="true"]{border-color:var(--accent-strong);color:var(--accent)}
+.results-panel.edit-mode .tag-row{position:relative;padding-right:52px}
+.tag-edit-button{position:absolute;right:7px;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;justify-content:center;min-height:23px;padding:2px 6px;border:1px solid var(--line);border-radius:5px;background:var(--surface2);color:var(--accent);font-size:10px;line-height:1.2}
+.tag-edit-button:hover{background:var(--surface3)}
+.tag-edit-modal{width:min(620px,calc(100vw - 24px))}
+.edit-note{margin:0 0 12px;color:var(--muted);font-size:12px}
+.edit-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.tag-edit-modal .field-label{margin:10px 0}
+.tag-edit-modal .field-label input{width:100%;min-width:0}
+@media(max-width:520px){.edit-category-grid{grid-template-columns:1fr;gap:0}.result-tools{gap:5px}.compact-edit-toggle{padding:3px 6px}.results-panel.edit-mode .tag-row{padding-right:46px}.tag-edit-button{right:4px;padding:2px 4px;font-size:9px}}
+
+
+/* Administrative controls are only exposed through the explicit admin entry URL. */
+.admin-mode-label{font-size:10px;color:var(--accent);align-self:center;white-space:nowrap}
+.admin-mode-banner{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:8px 18px;background:#29261e;border-bottom:1px solid #665b3d;font-size:11px;color:#d7cfbc}
+.admin-mode-banner strong{color:#f0d99d}
+.admin-mode-banner a{color:var(--accent);text-decoration:none}
+.admin-mode-banner[hidden], [data-admin-only][hidden]{display:none!important}
+.tag-edit-button{justify-self:end;border:1px solid var(--line);border-radius:6px;background:var(--surface2);color:var(--accent);padding:4px 7px;font-size:10px;white-space:nowrap}
+.tag-edit-button:hover{border-color:var(--accent-strong)}
+body:not(.admin-mode) .tag-edit-button{display:none!important}
+@media(max-width:720px){.admin-mode-banner{gap:7px;padding:7px 9px;font-size:10px}.admin-mode-label{font-size:9px}}

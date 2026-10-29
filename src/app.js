@@ -90,7 +90,8 @@
       "表現・修正":["検閲","画面表現","その他"]
     }
   };
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null };
+  const ADMIN_MODE = new URLSearchParams(window.location.search).get("admin") === "1";
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -648,6 +649,12 @@
       appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
       appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
       row.append(check, tagLabel, japaneseWrap, categoryWrap);
+      if (state.editMode) {
+        const edit = makeButton("修正", "tag-edit-button", () => openTagEditor(t));
+        edit.setAttribute("aria-label", "タグを修正: " + t.tag);
+        edit.title = "このタグの日本語訳・分類などを修正";
+        row.append(edit);
+      }
       row.title = t.explanation || t.tag;
       root.append(row);
     });
@@ -892,6 +899,63 @@
     setStatus("custom-status", "タグを追加しました。");
     setTimeout(() => closeDialog("custom-dialog"), 400);
   }
+  function fillEditOptions() {
+    const fill = (id, values) => {
+      const list = $("#" + id);
+      list.replaceChildren(...[...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b, "ja")).map(value => {
+        const option = document.createElement("option"); option.value = value; return option;
+      }));
+    };
+    fill("edit-major-options", [...CATEGORIES.map(c => c[0]), ...state.tags.map(t => majorOf(t))]);
+    fill("edit-minor-options", [...CATEGORIES.flatMap(c => c.slice(2)), ...state.tags.map(t => minorOf(t))]);
+    fill("edit-detail-options", Object.values(DETAIL_GROUPS).flatMap(groups => Object.values(groups).flat()));
+  }
+  function openTagEditor(tag) {
+    state.editingTag = norm(tag.tag);
+    $("#edit-tag").value = tag.tag;
+    $("#edit-ja").value = tag.ja || "";
+    $("#edit-major").value = majorOf(tag);
+    $("#edit-minor").value = minorOf(tag);
+    $("#edit-detail").value = detailOf(tag);
+    $("#edit-aliases").value = (tag.aliases || []).join(", ");
+    fillEditOptions();
+    setStatus("edit-status", "");
+    openDialog("tag-edit-dialog");
+  }
+  function saveTagEdit() {
+    const key = state.editingTag;
+    const index = state.tags.findIndex(t => norm(t.tag) === key);
+    if (index < 0) { setStatus("edit-status", "対象タグが見つかりません。再読み込みしてください。", true); return; }
+    const before = state.tags[index];
+    const tag = $("#edit-tag").value.trim(), ja = $("#edit-ja").value.trim();
+    const major = $("#edit-major").value.trim() || "未分類";
+    const minor = $("#edit-minor").value.trim() || "未分類";
+    const detail = $("#edit-detail").value.trim() || "—";
+    const aliases = [...new Set($("#edit-aliases").value.split(",").map(s => s.trim()).filter(Boolean))];
+    if (!tag) { setStatus("edit-status", "英語タグを入力してください。", true); return; }
+    if (state.tags.some((t, i) => i !== index && norm(t.tag) === norm(tag))) {
+      setStatus("edit-status", "同じ英語タグが既に登録されています。", true); return;
+    }
+    const oldKey = norm(before.tag), newKey = norm(tag);
+    state.tags[index] = { ...before, tag, ja, category: [major, minor, detail], aliases,
+      source: "local-edit", sources: combineSources(sourceList(before), ["local-edit"]) };
+    if (state.selected.has(oldKey)) { state.selected.delete(oldKey); state.selected.add(newKey); saveSelected(); }
+    if (oldKey !== newKey && reviewRatings[oldKey]) {
+      reviewRatings[newKey] = { ...(reviewRatings[newKey] || {}), ...reviewRatings[oldKey] };
+      delete reviewRatings[oldKey];
+      try { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings)); } catch {}
+    }
+    saveData();
+    state.editingTag = newKey;
+    renderAll();
+    setStatus("edit-status", "このブラウザに保存しました。公開データへ反映するにはJSONを出力して統合してください。");
+  }
+  function exportEditedTags() {
+    const blob = new Blob([JSON.stringify(state.tags, null, 2) + "\\n"], { type: "application/json;charset=utf-8" });
+    const url = URL.createObjectURL(blob), a = document.createElement("a");
+    a.href = url; a.download = "prompt-tag-dictionary-edited.json"; document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    setStatus("edit-status", "編集データJSONを書き出しました。");
+  }
   function downloadText() {
     const blob = new Blob([$("#prompt-output").value], { type: "text/plain;charset=utf-8" });
     const url = URL.createObjectURL(blob), a = document.createElement("a");
@@ -963,10 +1027,19 @@
     $("#custom-open").addEventListener("click", () => { setStatus("custom-status", ""); openDialog("custom-dialog"); });
     $("#custom-cancel").addEventListener("click", () => closeDialog("custom-dialog"));
     $("#custom-save").addEventListener("click", saveCustomTag);
+    $("#edit-cancel").addEventListener("click", () => closeDialog("tag-edit-dialog"));
+    $("#edit-save").addEventListener("click", saveTagEdit);
+    $("#export-edited-tags").addEventListener("click", exportEditedTags);
     $("#data-note-close").addEventListener("click", () => closeDialog("data-note-dialog"));
     $("#show-data-note").addEventListener("click", () => openDialog("data-note-dialog"));
   }
   async function init() {
+    if (ADMIN_MODE) {
+      document.body.classList.add("admin-mode");
+      $("#admin-mode-label").hidden = false;
+      $("#admin-mode-banner").hidden = false;
+      document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
+    }
     wire(); populateCustomCategories();
     let saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
