@@ -41,13 +41,13 @@
       <div class="pagination"><button id="page-prev" class="button button-quiet" type="button" aria-label="前のページ" disabled>前へ</button><span id="page-summary">—</span><button id="page-next" class="button button-quiet" type="button" aria-label="次のページ" disabled>次へ</button></div>
     </section>
     <aside class="panel builder-panel"><div class="panel-heading"><div><span class="eyebrow">PROMPT BUILDER</span><h2>選択したタグ</h2></div><button id="clear-selected" class="text-button">全解除</button></div>
-      <div id="selected-list" class="selected-list"></div>
+      
       <div class="builder-controls">
         <label class="check-row"><input id="group-by-category" type="checkbox" checked> カテゴリ別に出力</label><label class="check-row"><input id="include-comments" type="checkbox"> コメント行を付ける</label>
         <div class="control-grid"><label>カテゴリ名<select id="category-language"><option value="ja">日本語</option><option value="en">English</option></select></label><label>コメント形式<select id="comment-style"><option value="slash">// コメント</option><option value="block">/* コメント */</option><option value="hash"># コメント</option></select></label></div>
         <div class="category-includes" id="output-categories"></div>
       </div>
-      <div class="output-header"><label for="prompt-output">出力プレビュー</label><span id="output-count">0 tags</span></div><textarea id="prompt-output" spellcheck="false" placeholder="選択したタグがここに表示されます。"></textarea>
+      <div class="output-header"><label for="prompt-output">選択タグ（直接編集可）</label><span id="output-count">0 tags</span><div class="edit-history"><button id="output-undo" class="button button-quiet" type="button" disabled title="元に戻す (Ctrl+Z)">↶ Undo</button><button id="output-redo" class="button button-quiet" type="button" disabled title="やり直す (Ctrl+Y)">↷ Redo</button></div></div><textarea id="prompt-output" spellcheck="false" placeholder="タグを直接編集できます。不要なタグを削除し、Ctrl+Z / Ctrl+Y で元に戻す・やり直す。"></textarea>
       <div class="output-actions"><button id="copy-output" class="button button-primary" disabled>コピー</button><button id="download-output" class="button button-quiet" disabled>TXT保存</button></div><p id="copy-status" class="status-text" aria-live="polite"></p>
     </aside>
   </section>
