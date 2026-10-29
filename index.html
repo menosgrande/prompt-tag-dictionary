@@ -10,8 +10,9 @@
 <body>
 <header class="topbar">
   <a class="brand" href="./"><span class="brand-mark">PT</span><span><strong>Prompt Tag Dictionary</strong><small>画像生成タグ辞典</small></span></a>
-  <div class="top-actions"><button id="import-open" class="button button-quiet">データを読み込む</button><button id="custom-open" class="button button-primary">＋ タグを追加</button></div>
+  <div class="top-actions"><span id="admin-mode-label" class="admin-mode-label" hidden>管理編集モード</span><button id="import-open" class="button button-quiet" data-admin-only hidden>データを読み込む</button><button id="custom-open" class="button button-primary" data-admin-only hidden>＋ タグを追加</button></div>
 </header>
+<div id="admin-mode-banner" class="admin-mode-banner" hidden><strong>管理編集モード</strong><span>変更はこのブラウザに保存されます。公開データは自動更新されません。</span><a href="./admin.html">管理画面へ戻る</a><a href="./">通常画面</a></div>
 <main class="app-shell">
   <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類・セット追加からタグを選択。</p></div>
     <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div><div><strong id="stat-selected">0</strong><span>選択中</span></div></div>
@@ -34,7 +35,7 @@
   </section>
   <section class="workspace">
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
-    <section class="panel results-panel" id="results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><div class="result-tools"><button id="toggle-edit-mode" class="button button-quiet compact-edit-toggle" type="button" aria-pressed="false">修正</button><span id="result-count" class="count">—</span></div></div>
+    <section class="panel results-panel" id="results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><div class="result-tools"><span id="result-count" class="count">—</span></div></div>
       <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日本語">日本語 ↕</button><button type="button" data-column-sort="category" data-label="分類">分類 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
       <div id="loading-state" class="empty-state" role="status">タグデータを読み込み中…</div>
       <div id="empty-state" class="empty-state" hidden><strong>一致するタグがありません</strong><p>検索語を変えるか、タグデータを読み込んでください。</p></div>
