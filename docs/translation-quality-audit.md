@@ -1,10 +1,10 @@
-# 翻訳品質監査 — 初回候補抽出
+# 翻訳品質監査 — 現在の候補一覧
 
 ## 目的
 
 `data/tags.json`の既存訳を自動で上書きせず、翻訳品質を人が確認するための候補を抽出します。候補に入ったことは誤訳の確定を意味しません。
 
-## 初回走査結果
+## 現在の監査結果
 
 - 対象タグ：11,047件
 - 要確認候補：574件（理由は重複するため合計と一致しません）
@@ -13,7 +13,7 @@
 - `likely-literal-or-machine-translation`：1件
 - `same-as-latin-tag`：8件
 
-候補の一覧は [data/translation-audit-candidates.json](../data/translation-audit-candidates.json) です。各項目は英語タグ、現行訳、分類、検出理由、確認状態を持ちます。`proposedJa`は意図的に空（`null`）にしており、未検証の自動訳を正解候補として提示しません。
+これまでに73件の訳語を修正し、すべて変更履歴へ記録しました。これらは自動修正のため、確認台帳では人手の最終確認待ち（`needs-review`）です。候補の一覧は [data/translation-audit-candidates.json](../data/translation-audit-candidates.json) です。各項目は英語タグ、現行訳、分類、検出理由、確認状態を持ちます。`proposedJa`は意図的に空（`null`）にしており、未検証の自動訳を正解候補として提示しません。
 
 ## 検出ルールと限界
 
