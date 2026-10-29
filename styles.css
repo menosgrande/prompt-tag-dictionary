@@ -562,3 +562,18 @@ body{font-size:13px;line-height:1.35}
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+
+/* Inline per-tag editing */
+.result-tools{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.compact-edit-toggle{min-height:27px;padding:3px 8px;font-size:10px}
+.compact-edit-toggle[aria-pressed="true"]{border-color:var(--accent-strong);color:var(--accent)}
+.results-panel.edit-mode .tag-row{position:relative;padding-right:52px}
+.tag-edit-button{position:absolute;right:7px;top:50%;transform:translateY(-50%);display:inline-flex;align-items:center;justify-content:center;min-height:23px;padding:2px 6px;border:1px solid var(--line);border-radius:5px;background:var(--surface2);color:var(--accent);font-size:10px;line-height:1.2}
+.tag-edit-button:hover{background:var(--surface3)}
+.tag-edit-modal{width:min(620px,calc(100vw - 24px))}
+.edit-note{margin:0 0 12px;color:var(--muted);font-size:12px}
+.edit-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.tag-edit-modal .field-label{margin:10px 0}
+.tag-edit-modal .field-label input{width:100%;min-width:0}
+@media(max-width:520px){.edit-category-grid{grid-template-columns:1fr;gap:0}.result-tools{gap:5px}.compact-edit-toggle{padding:3px 6px}.results-panel.edit-mode .tag-row{padding-right:46px}.tag-edit-button{right:4px;padding:2px 4px;font-size:9px}}
