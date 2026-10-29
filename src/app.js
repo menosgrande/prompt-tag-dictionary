@@ -470,12 +470,10 @@
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
       const rating = reviewRatings[norm(t.tag)] || {};
-      const hasRating = ["tag", "translation", "category"].some(key => rating[key] === 1 || rating[key] === -1);
+      const hasRating = rating.tag === 1 || rating.tag === -1;
       if (reviewFilter === "unreviewed" && hasRating) return false;
       if (reviewFilter === "review-tag" && rating.tag !== -1) return false;
-      if (reviewFilter === "review-category" && rating.category !== -1) return false;
-      if (reviewFilter === "review-translation" && rating.translation !== -1) return false;
-      if (reviewFilter === "review-any" && !(rating.tag === -1 || rating.category === -1 || rating.translation === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
+      if (reviewFilter === "review-any" && !(rating.tag === -1 || majorOf(t) === "未分類" || !t.ja)) return false;
       if (!q) return true;
       const hay = [t.tag, t.ja, ...(t.aliases || []), ...(t.related || [])].join(" ");
       return norm(hay).includes(q);
@@ -640,9 +638,8 @@
         });
         target.append(group);
       }
+      // One compact overall vote pair directly after the English tag.
       appendVotes(tagLabel, "タグ " + t.tag, "tag");
-      appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
-      appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
       row.append(check, tagLabel, japaneseWrap, categoryWrap);
       row.title = t.explanation || t.tag;
       root.append(row);
@@ -983,7 +980,21 @@
       if (!state.tags.length) state.tags = await seedTags().catch(() => []);
     }
     try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
-    try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
+    try {
+      reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {};
+      // Fold earlier translation/category votes into the new overall tag vote.
+      for (const [key, rating] of Object.entries(reviewRatings)) {
+        if (!rating || typeof rating !== "object") { delete reviewRatings[key]; continue; }
+        if (rating.tag !== 1 && rating.tag !== -1) {
+          if (rating.translation === -1 || rating.category === -1) rating.tag = -1;
+          else if (rating.translation === 1 || rating.category === 1) rating.tag = 1;
+        }
+        delete rating.translation;
+        delete rating.category;
+        if (rating.tag !== 1 && rating.tag !== -1) delete reviewRatings[key];
+      }
+      localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRatings));
+    } catch { reviewRatings = {}; }
     normalizeRecords(); renderAll();
   }
   init();
