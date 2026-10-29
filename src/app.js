@@ -336,6 +336,7 @@
           return {
             tag: raw[0], ja: raw[1] || "",
             category: raw.length >= 5 ? [raw[2], raw[3], raw[4]] : raw.length >= 4 ? [raw[2], raw[3]] : undefined,
+            aliases: Array.isArray(raw[5]) ? raw[5] : [],
             source: SEED_SOURCE, sources: [SEED_SOURCE]
           };
         }
