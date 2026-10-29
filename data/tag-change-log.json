@@ -1,5 +1,51 @@
 {
   "schemaVersion": 1,
   "description": "Append-only manual change records. Existing tags have no reconstructed history; do not fabricate historical entries.",
-  "changes": []
+  "changes": [
+    {
+      "tag": "absurdly long hair",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "不条理な長い髪"
+      },
+      "after": {
+        "ja": "極端に長い髪"
+      },
+      "reason": "直訳の「不条理な長い髪」は日本語として意味を誤らせるため、タグの意図に沿う表現へ修正。AI提案であり人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "admire vega (umamusume)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ベガを賞賛する（umamusume）"
+      },
+      "after": {
+        "ja": "アドマイヤベガ（ウマ娘）"
+      },
+      "reason": "キャラクター名を動詞句として誤訳していたため、公式日本語表記に修正。人手の最終確認待ち。",
+      "source": "https://umamusume.jp/character/admirevega/"
+    },
+    {
+      "tag": "ame-chan (needy girl overdose)",
+      "changedAt": "2026-10-29",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "AME-chan（貧しい女の子の過剰摂取）"
+      },
+      "after": {
+        "ja": "あめちゃん（NEEDY GIRL OVERDOSE）"
+      },
+      "reason": "キャラクター名と作品名を一般名詞として誤訳していたため、公式日本語表記に修正。人手の最終確認待ち。",
+      "source": "https://needygirl-anime.com/"
+    }
+  ]
 }

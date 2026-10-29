@@ -9,6 +9,8 @@ on:
       - "src/app.js"
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
+      - "scripts/audit-translations.mjs"
+      - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   pull_request:
     paths:
@@ -18,6 +20,8 @@ on:
       - "src/app.js"
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
+      - "scripts/audit-translations.mjs"
+      - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   workflow_dispatch:
 
@@ -40,3 +44,5 @@ jobs:
         run: node scripts/audit-tags.mjs
       - name: Audit tag management metadata
         run: node scripts/audit-tag-management.mjs
+      - name: Audit translation candidates are current
+        run: node scripts/audit-translations.mjs
