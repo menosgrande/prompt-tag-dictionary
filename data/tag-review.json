@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "description": "Only explicitly reviewed tags are listed. Missing entries mean unreviewed; do not infer confidence from absence.",
+  "statuses": {
+    "translation": [
+      "unreviewed",
+      "needs-review",
+      "machine-translation",
+      "verified",
+      "not-applicable"
+    ],
+    "classification": [
+      "unreviewed",
+      "provisional",
+      "needs-review",
+      "verified",
+      "not-applicable"
+    ]
+  },
+  "entries": {}
+}

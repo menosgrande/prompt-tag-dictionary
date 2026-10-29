@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Append-only manual change records. Existing tags have no reconstructed history; do not fabricate historical entries.",
+  "changes": []
+}

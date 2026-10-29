@@ -42,6 +42,8 @@ UI改善の目的・Phase 1〜3の範囲・受け入れ条件は [docs/ui-redesi
 
 ## データの整理方針
 
+タグの確認台帳・変更履歴・安全な修正手順は [docs/tag-data-management.md](docs/tag-data-management.md) を参照してください。管理用メタデータはアプリ用の `data/tags.json` と分離し、既存の4項目配列と互換性を維持します。
+
 - 元データ：取得時の形式と出典情報を保持する領域（今後整備）
 - 整理済み辞典：tag、ja、category、aliases、keywords、explanation、related、preview を持つJSON
 - 画像：今後 assets/previews/ 等に分離

@@ -4,14 +4,20 @@ on:
   push:
     paths:
       - "data/tags.json"
+      - "data/tag-review.json"
+      - "data/tag-change-log.json"
       - "src/app.js"
       - "scripts/audit-tags.mjs"
+      - "scripts/audit-tag-management.mjs"
       - ".github/workflows/data-audit.yml"
   pull_request:
     paths:
       - "data/tags.json"
+      - "data/tag-review.json"
+      - "data/tag-change-log.json"
       - "src/app.js"
       - "scripts/audit-tags.mjs"
+      - "scripts/audit-tag-management.mjs"
       - ".github/workflows/data-audit.yml"
   workflow_dispatch:
 
@@ -32,3 +38,5 @@ jobs:
         run: node --check src/app.js
       - name: Audit tag dataset
         run: node scripts/audit-tags.mjs
+      - name: Audit tag management metadata
+        run: node scripts/audit-tag-management.mjs
