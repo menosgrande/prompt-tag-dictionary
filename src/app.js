@@ -90,7 +90,8 @@
       "表現・修正":["検閲","画面表現","その他"]
     }
   };
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: false, editingTag: null };
+  const ADMIN_MODE = new URLSearchParams(window.location.search).get("admin") === "1";
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -1026,14 +1027,6 @@
     $("#custom-open").addEventListener("click", () => { setStatus("custom-status", ""); openDialog("custom-dialog"); });
     $("#custom-cancel").addEventListener("click", () => closeDialog("custom-dialog"));
     $("#custom-save").addEventListener("click", saveCustomTag);
-    $("#toggle-edit-mode").addEventListener("click", () => {
-      state.editMode = !state.editMode;
-      const panel = $("#results-panel");
-      panel.classList.toggle("edit-mode", state.editMode);
-      $("#toggle-edit-mode").setAttribute("aria-pressed", String(state.editMode));
-      $("#toggle-edit-mode").textContent = state.editMode ? "修正終了" : "修正";
-      renderResults();
-    });
     $("#edit-cancel").addEventListener("click", () => closeDialog("tag-edit-dialog"));
     $("#edit-save").addEventListener("click", saveTagEdit);
     $("#export-edited-tags").addEventListener("click", exportEditedTags);
@@ -1041,6 +1034,12 @@
     $("#show-data-note").addEventListener("click", () => openDialog("data-note-dialog"));
   }
   async function init() {
+    if (ADMIN_MODE) {
+      document.body.classList.add("admin-mode");
+      $("#admin-mode-label").hidden = false;
+      $("#admin-mode-banner").hidden = false;
+      document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
+    }
     wire(); populateCustomCategories();
     let saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
