@@ -90,7 +90,7 @@
       "表現・修正":["検閲","画面表現","その他"]
     }
   };
-  const ADMIN_MODE = new URLSearchParams(window.location.search).get("admin") === "1";
+  const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
 
   function norm(s) {
