@@ -36,6 +36,7 @@
     <aside class="panel categories-panel"><div class="panel-heading"><div><span class="eyebrow">BROWSE</span><h2>分類から探す</h2></div><button id="clear-category" class="text-button">解除</button></div><div id="category-tree" class="category-tree"></div><div class="panel-note">分類は段階的に整備します。未分類タグも検索できます。</div></aside>
     <section class="panel results-panel" aria-label="タグ一覧"><div class="panel-heading result-heading"><div><span class="eyebrow">DICTIONARY</span><h2 id="results-title">タグ一覧</h2></div><span id="result-count" class="count">—</span></div>
       <div class="table-head"><button type="button" data-column-sort="selected" data-label="☑" aria-label="選択状態で並べ替え">☑ ↕</button><button type="button" data-column-sort="tag" data-label="タグ">タグ ↕</button><button type="button" data-column-sort="japanese" data-label="日本語">日本語 ↕</button><button type="button" data-column-sort="category" data-label="分類">分類 ↕</button></div><div id="tag-results" class="tag-results" aria-live="polite"></div>
+      <div id="loading-state" class="empty-state" role="status">タグデータを読み込み中…</div>
       <div id="empty-state" class="empty-state" hidden><strong>一致するタグがありません</strong><p>検索語を変えるか、タグデータを読み込んでください。</p></div>
       <div class="pagination"><button id="page-prev" class="button button-quiet" type="button" aria-label="前のページ" disabled>前へ</button><span id="page-summary">—</span><button id="page-next" class="button button-quiet" type="button" aria-label="次のページ" disabled>次へ</button></div>
     </section>
