@@ -729,7 +729,7 @@
     $("#output-count").textContent = count + " tags";
     $("#copy-output").disabled = count === 0; $("#download-output").disabled = count === 0;
   }
-  function renderAll() { renderStats(); renderCategories(); renderResults(); renderSelected(); renderOutputCategories(); renderOutput(); }
+  function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; renderStats(); renderCategories(); renderResults(); renderSelected(); renderOutputCategories(); renderOutput(); }
 
   function parseJsonData(text, filename) {
     const parsed = JSON.parse(text), incoming = [];
