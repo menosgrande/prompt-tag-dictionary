@@ -7,10 +7,10 @@
 ## 初回走査結果
 
 - 対象タグ：11,047件
-- 要確認候補：643件（理由は重複するため合計と一致しません）
-- `english-remains-in-japanese`：400件
+- 要確認候補：641件（理由は重複するため合計と一致しません）
 - `japanese-translation-missing`：186件
-- `likely-literal-or-machine-translation`：74件
+- `english-remains-in-japanese`：399件
+- `likely-literal-or-machine-translation`：71件
 - `same-as-latin-tag`：7件
 
 候補の一覧は [data/translation-audit-candidates.json](../data/translation-audit-candidates.json) です。各項目は英語タグ、現行訳、分類、検出理由、確認状態を持ちます。`proposedJa`は意図的に空（`null`）にしており、未検証の自動訳を正解候補として提示しません。
