@@ -20,6 +20,8 @@ on:
       - "src/app.js"
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
+      - "scripts/audit-translations.mjs"
+      - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   workflow_dispatch:
 
