@@ -17,5 +17,27 @@
       "not-applicable"
     ]
   },
-  "entries": {}
+  "entries": {
+    "absurdly long hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "AIによる修正を反映。人手の最終確認待ち。",
+      "source": null
+    },
+    "admire vega (umamusume)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "AIによる修正を反映。人手の最終確認待ち。",
+      "source": "https://umamusume.jp/character/admirevega/"
+    },
+    "ame-chan (needy girl overdose)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "AIによる修正を反映。人手の最終確認待ち。",
+      "source": "https://needygirl-anime.com/"
+    }
+  }
 }
