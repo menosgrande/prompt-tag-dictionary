@@ -517,3 +517,20 @@ body{font-size:13px;line-height:1.35}
 .clear-filters:disabled{opacity:.45;cursor:not-allowed}
 @media(max-width:1100px){.clear-filters{flex:0 0 auto}}
 @media(max-width:720px){.clear-filters{min-height:30px;padding:0 8px;font-size:10px}}
+
+
+/* Align the table header with the four actual row cells; keep feedback compact. */
+.table-head{grid-template-columns:18px minmax(0,1.15fr) minmax(0,.72fr) minmax(0,1fr)}
+.tag-row{grid-template-columns:18px minmax(0,1.15fr) minmax(0,.72fr) minmax(0,1fr);gap:6px;align-items:start}
+.tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{min-width:0}
+.tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:3px}
+.tag-label-wrap .tag-english{min-width:0;flex:0 1 auto}
+.tag-feedback,.inline-vote-group{display:inline-flex;align-items:center;gap:2px;min-width:0}
+.vote-button{min-width:15px;min-height:16px;padding:0 1px;border:0;background:transparent;font-size:11px}
+.vote-caption{display:none}
+@media(max-width:720px){
+ .table-head,.tag-row{grid-template-columns:14px minmax(0,1.15fr) minmax(0,.72fr) minmax(0,1fr);gap:4px;padding-left:5px;padding-right:5px}
+ .tag-row{align-items:start}
+ .tag-label-wrap,.tag-japanese-wrap,.tag-category-wrap{flex-wrap:wrap;gap:2px}
+ .vote-button{min-width:14px;min-height:16px;font-size:10px}
+}
