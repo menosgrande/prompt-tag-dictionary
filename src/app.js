@@ -91,6 +91,7 @@
     }
   };
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null };
+  const outputHistory = { undo: [], redo: [], last: "" };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -663,7 +664,7 @@
     saveSelected(); renderResults(); renderSelected(); renderStats(); renderOutputCategories(); renderOutput();
   }
   function renderSelected() {
-    const root = $("#selected-list"); root.replaceChildren();
+    const root = $("#selected-list"); if (!root) return; root.replaceChildren();
     const items = state.tags.filter(t => state.selected.has(norm(t.tag)));
     if (!items.length) {
       const empty = document.createElement("div"); empty.className = "selected-empty"; empty.textContent = "タグ一覧の「＋」から追加してください。";
@@ -729,11 +730,54 @@
       const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(majorOf(t)));
       output.push(tags.map(t => t.tag).join(", ")); count = tags.length;
     }
-    $("#prompt-output").value = output.filter(s => s !== "").join("\n");
+    const value = output.filter(s => s !== "").join("\n");
+    $("#prompt-output").value = value;
+    outputHistory.last = value; outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons();
     $("#output-count").textContent = count + " tags";
-    $("#copy-output").disabled = count === 0; $("#download-output").disabled = count === 0;
+    $("#copy-output").disabled = !value.trim(); $("#download-output").disabled = !value.trim();
   }
   function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; renderStats(); renderCategories(); renderResults(); renderSelected(); renderOutputCategories(); renderOutput(); }
+  function updateOutputHistoryButtons() {
+    $("#output-undo").disabled = outputHistory.undo.length === 0;
+    $("#output-redo").disabled = outputHistory.redo.length === 0;
+  }
+  function syncSelectionFromOutput(value, recordHistory = true) {
+    if (recordHistory && value !== outputHistory.last) {
+      outputHistory.undo.push(outputHistory.last);
+      if (outputHistory.undo.length > 200) outputHistory.undo.shift();
+      outputHistory.redo.length = 0;
+    }
+    const known = new Map(state.tags.map(t => [norm(t.tag), t.tag]));
+    const parts = value.split(/\\r?\\n/).filter(line => !/^\\s*(?:\\/\\/|#|\\/\\*)/.test(line));
+    const selected = new Set();
+    parts.join(",").split(",").map(part => part.trim()).filter(Boolean).forEach(part => {
+      const tag = known.get(norm(part));
+      if (tag) selected.add(norm(tag));
+    });
+    state.selected = selected;
+    outputHistory.last = value;
+    saveSelected();
+    renderResults(); renderSelected(); renderStats(); renderOutputCategories();
+    $("#output-count").textContent = selected.size + " tags";
+    $("#copy-output").disabled = !value.trim(); $("#download-output").disabled = !value.trim();
+    updateOutputHistoryButtons();
+  }
+  function undoOutput() {
+    if (!outputHistory.undo.length) return;
+    const current = $("#prompt-output").value;
+    outputHistory.redo.push(current);
+    const value = outputHistory.undo.pop();
+    $("#prompt-output").value = value;
+    syncSelectionFromOutput(value, false);
+  }
+  function redoOutput() {
+    if (!outputHistory.redo.length) return;
+    const current = $("#prompt-output").value;
+    outputHistory.undo.push(current);
+    const value = outputHistory.redo.pop();
+    $("#prompt-output").value = value;
+    syncSelectionFromOutput(value, false);
+  }
 
   function parseJsonData(text, filename) {
     const parsed = JSON.parse(text), incoming = [];
@@ -955,6 +999,13 @@
     });
     $("#clear-category").addEventListener("click", () => { state.category = null; state.page = 0; renderAll(); });
     $("#clear-selected").addEventListener("click", () => { state.selected.clear(); saveSelected(); renderAll(); });
+    $("#prompt-output").addEventListener("input", e => syncSelectionFromOutput(e.target.value));
+    $("#prompt-output").addEventListener("keydown", e => {
+      if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z") { e.preventDefault(); undoOutput(); }
+      else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z"))) { e.preventDefault(); redoOutput(); }
+    });
+    $("#output-undo").addEventListener("click", undoOutput);
+    $("#output-redo").addEventListener("click", redoOutput);
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", copyOutput); $("#download-output").addEventListener("click", downloadText);
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
