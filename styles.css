@@ -220,7 +220,7 @@ body{font-size:13px;line-height:1.35}
 }
 
 
-/* Per-tag translation/category quality feedback */
+/* Compact overall tag vote, displayed directly after each English tag */
 .tag-row{grid-template-rows:auto auto}
 .tag-feedback{grid-column:2/-1;display:flex;align-items:center;gap:10px;padding:1px 0 3px;border-bottom:1px solid var(--line)}
 .vote-group{display:inline-flex;align-items:center;gap:3px}
@@ -332,12 +332,12 @@ body{font-size:13px;line-height:1.35}
 .tag-label-wrap{display:flex;align-items:center;gap:7px;flex-wrap:wrap;min-width:0;}
 .tag-label-wrap > .tag-english{flex:0 1 auto;min-width:0;}
 .tag-label-wrap > .tag-feedback{display:inline-flex;align-items:center;gap:6px;flex:0 1 auto;padding:0;margin:0;border:0;}
-.tag-label-wrap .vote-caption{max-width:90px;font-size:9px;}
+.tag-label-wrap .vote-caption{display:none;}
 .tag-label-wrap .vote-button{min-width:15px;min-height:17px;padding:0 2px;font-size:11px;}
 @media(max-width:720px){
  .tag-label-wrap{gap:4px;}
  .tag-label-wrap > .tag-feedback{gap:4px;}
- .tag-label-wrap .vote-caption{max-width:58px;font-size:8px;}
+ .tag-label-wrap .vote-caption{display:none;}
  .tag-label-wrap .vote-button{min-width:13px;min-height:16px;font-size:10px;}
 }
 
