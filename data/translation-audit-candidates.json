@@ -143,29 +143,6 @@
     "proposedJa": null
   },
   {
-    "tag": "absurdly long hair",
-    "ja": "不条理な長い髪",
-    "major": "人物",
-    "minor": "頭髪",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "admire vega (umamusume)",
-    "ja": "ベガを賞賛する（umamusume）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "aegis sword (xenoblade)",
     "ja": "エージスの剣（xenoblade）",
     "major": "その他",
@@ -311,12 +288,11 @@
   },
   {
     "tag": "ame-chan (needy girl overdose)",
-    "ja": "AME-chan（貧しい女の子の過剰摂取）",
+    "ja": "あめちゃん（NEEDY GIRL OVERDOSE）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese",
-      "likely-literal-or-machine-translation"
+      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
