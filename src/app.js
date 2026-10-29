@@ -748,7 +748,7 @@
       outputHistory.redo.length = 0;
     }
     const known = new Map(state.tags.map(t => [norm(t.tag), t.tag]));
-    const parts = value.split(/\\r?\\n/).filter(line => !/^\\s*(?:\\/\\/|#|\\/\\*)/.test(line));
+    const parts = value.split(String.fromCharCode(10)).filter(line => { const trimmed = line.trimStart(); return !trimmed.startsWith("//") && !trimmed.startsWith("#") && !trimmed.startsWith("/*"); });
     const visibleSelected = new Set();
     parts.join(",").split(",").map(part => part.trim()).filter(Boolean).forEach(part => {
       const tag = known.get(norm(part));
