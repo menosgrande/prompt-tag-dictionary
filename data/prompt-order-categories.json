@@ -1,0 +1,434 @@
+{
+  "schema": "prompt-order-taxonomy-v1",
+  "categories": [
+    {
+      "name": "人物・キャラクター",
+      "order": 1,
+      "purpose": "人物数、キャラクター属性、顔、髪、体型、身体的特徴。",
+      "subcategories": [
+        "人数・人物属性",
+        "顔・表情",
+        "髪・頭部",
+        "体型・身体的特徴",
+        "身体部位・身体状態",
+        "身体の一部・特殊表現"
+      ]
+    },
+    {
+      "name": "服装・装飾",
+      "order": 2,
+      "purpose": "衣服、下着、着用状態、露出、装飾品、小物。",
+      "subcategories": [
+        "衣服",
+        "下着",
+        "衣服の状態",
+        "肌の露出",
+        "裸体・露出",
+        "装飾品",
+        "小物・道具"
+      ]
+    },
+    {
+      "name": "ポーズ・姿勢",
+      "order": 3,
+      "purpose": "基本姿勢、身体の向き、手足の位置、人物間の配置。",
+      "subcategories": [
+        "基本姿勢",
+        "身体の向き",
+        "手足の配置",
+        "身体の配置",
+        "対人配置"
+      ]
+    },
+    {
+      "name": "動作・接触",
+      "order": 4,
+      "purpose": "身体動作、衣服や物への接触、人物間の接触・動作。",
+      "subcategories": [
+        "日常動作",
+        "身体動作",
+        "手の動作",
+        "身体への接触",
+        "衣服への接触",
+        "物への接触",
+        "対人接触・動作"
+      ]
+    },
+    {
+      "name": "背景・環境",
+      "order": 5,
+      "purpose": "場所、室内外、家具、自然、天候、時間帯。",
+      "subcategories": [
+        "場所・室内外",
+        "家具・設備",
+        "自然・風景",
+        "天候・時間帯"
+      ]
+    },
+    {
+      "name": "構図・カメラ",
+      "order": 6,
+      "purpose": "視点、カメラアングル、撮影距離、画面内の配置・フレーミング。",
+      "subcategories": [
+        "視点・視線",
+        "カメラアングル",
+        "撮影距離",
+        "構図・配置",
+        "フレーミング"
+      ]
+    },
+    {
+      "name": "画風・品質",
+      "order": 7,
+      "purpose": "画風、描画技法、品質、解像度、モデル表現の指定。",
+      "subcategories": [
+        "画風・表現様式",
+        "描画技法",
+        "品質・精細度",
+        "解像度・形式"
+      ]
+    },
+    {
+      "name": "光・色彩・演出",
+      "order": 8,
+      "purpose": "照明、光源、影、色調、雰囲気、視覚効果。",
+      "subcategories": [
+        "照明・光源",
+        "影・陰影",
+        "色調・色彩",
+        "雰囲気",
+        "演出効果"
+      ]
+    }
+  ],
+  "overrides": [
+    {
+      "tag": "hand under clothes",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hand on breast",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "arm between breasts",
+      "category": "ポーズ・姿勢",
+      "subcategory": "身体の配置",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "belly grab",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hand under shirt",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "ass grab",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "spread ass",
+      "category": "ポーズ・姿勢",
+      "subcategory": "身体の配置",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "crotch grab",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "leg grab",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "ankle grab",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hand on lap",
+      "category": "動作・接触",
+      "subcategory": "手の動作",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hands on feet",
+      "category": "ポーズ・姿勢",
+      "subcategory": "身体の配置",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "disembodied hand",
+      "category": "人物・キャラクター",
+      "subcategory": "身体の一部・特殊表現",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "sheet grab",
+      "category": "動作・接触",
+      "subcategory": "物への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "clothes grab",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hand in panties",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "shirt grab",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "nude",
+      "category": "服装・装飾",
+      "subcategory": "裸体・露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "bottomless",
+      "category": "服装・装飾",
+      "subcategory": "衣服の状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "cleavage",
+      "category": "人物・キャラクター",
+      "subcategory": "身体部位・身体状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "sideboob",
+      "category": "人物・キャラクター",
+      "subcategory": "身体部位・身体状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "thigh gap",
+      "category": "人物・キャラクター",
+      "subcategory": "身体部位・身体状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "topless",
+      "category": "服装・装飾",
+      "subcategory": "衣服の状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "no panties",
+      "category": "服装・装飾",
+      "subcategory": "下着",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "bare shoulders",
+      "category": "服装・装飾",
+      "subcategory": "肌の露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "naked apron",
+      "category": "服装・装飾",
+      "subcategory": "裸体・露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "naked shirt",
+      "category": "服装・装飾",
+      "subcategory": "裸体・露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "nude cover",
+      "category": "服装・装飾",
+      "subcategory": "裸体・露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "hand in bra",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "shirt pull",
+      "category": "動作・接触",
+      "subcategory": "衣服への接触",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "grabbing own ass",
+      "category": "動作・接触",
+      "subcategory": "身体への接触",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "grabbing another's ass",
+      "category": "動作・接触",
+      "subcategory": "対人接触・動作",
+      "status": "candidate_new",
+      "rating": null,
+      "proposed_rating": "R-18",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "breasts apart",
+      "category": "人物・キャラクター",
+      "subcategory": "身体部位・身体状態",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "未判定",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "bare back",
+      "category": "服装・装飾",
+      "subcategory": "肌の露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    },
+    {
+      "tag": "bare legs",
+      "category": "服装・装飾",
+      "subcategory": "肌の露出",
+      "status": "exact_existing",
+      "rating": null,
+      "proposed_rating": "全年齢",
+      "rating_review_status": "未確認"
+    }
+  ],
+  "rating_schema": {
+    "levels": [
+      "全年齢",
+      "R-13",
+      "R-15",
+      "R-18",
+      "未判定"
+    ],
+    "default_display": "全年齢",
+    "field_policy": "確定 rating と proposed_rating は分離する。review_status が未確認の候補は確定 rating を null のまま保持する。",
+    "review_status_field": "rating_review_status",
+    "note": "このファイルの proposed_rating は監査候補値であり、確定判定ではない。通常画面の表示制御には未適用。未判定タグを全年齢とみなさない。"
+  }
+}
