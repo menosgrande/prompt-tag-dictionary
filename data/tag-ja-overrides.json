@@ -4128,10 +4128,1260 @@
       "tag": "crossed bandaids",
       "ja": "交差させて貼った絆創膏",
       "status": "reviewed"
+    },
+    {
+      "tag": "crossed bangs",
+      "ja": "交差した前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crossed legs",
+      "ja": "脚を組む",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crosshatching",
+      "ja": "クロスハッチング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crossover",
+      "ja": "クロスオーバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crosswalk",
+      "ja": "横断歩道",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch",
+      "ja": "股間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch cutout",
+      "ja": "股間の開口部",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch focus",
+      "ja": "股間を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch grab",
+      "ja": "股間をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch plate",
+      "ja": "股当て",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch rope",
+      "ja": "股間に巻かれたロープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch rub",
+      "ja": "股間をこする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch seam",
+      "ja": "股の縫い目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotch zipper",
+      "ja": "股部分のファスナー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotchless",
+      "ja": "クロッチレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotchless panties",
+      "ja": "クロッチレスショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crotchless pantyhose",
+      "ja": "クロッチレスパンスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crow",
+      "ja": "カラス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crowbar",
+      "ja": "バール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crowd",
+      "ja": "群衆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crown",
+      "ja": "王冠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crown braid",
+      "ja": "クラウンブレイド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crt",
+      "ja": "ブラウン管",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crumbs",
+      "ja": "パンくず",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crushing",
+      "ja": "押しつぶす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crying",
+      "ja": "泣く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crying with eyes open",
+      "ja": "目を開けたまま泣く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crystal",
+      "ja": "水晶",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crystal ball",
+      "ja": "水晶玉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crystal earrings",
+      "ja": "水晶のイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crystal hair",
+      "ja": "結晶のような髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crystal wings",
+      "ja": "水晶の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cu chulainn (fate)",
+      "ja": "クー・フーリン（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cu chulainn (fate/stay night)",
+      "ja": "クー・フーリン（Fate/stay night）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cube",
+      "ja": "立方体",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cube hair ornament",
+      "ja": "立方体の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cucumber",
+      "ja": "キュウリ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cuddling",
+      "ja": "抱き寄せる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cuff links",
+      "ja": "カフリンクス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cuffs",
+      "ja": "カフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cuirass",
+      "ja": "キュイラス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cumdrip",
+      "ja": "精液が垂れる表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cumdump",
+      "ja": "肉便器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cumulonimbus cloud",
+      "ja": "積乱雲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cup",
+      "ja": "カップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cup ramen",
+      "ja": "カップ麺",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cupboard",
+      "ja": "食器棚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cupcake",
+      "ja": "カップケーキ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cupless bra",
+      "ja": "カップレスブラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cupping hands",
+      "ja": "両手で包み込む",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cure peace",
+      "ja": "キュアピース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curled fingers",
+      "ja": "曲げた指",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curled horns",
+      "ja": "巻いた角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curled up",
+      "ja": "丸まった姿勢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curly eyebrows",
+      "ja": "巻き眉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curly hair",
+      "ja": "巻き髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curren chan (umamusume)",
+      "ja": "カレンチャン（ウマ娘）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curry",
+      "ja": "カレー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curry rice",
+      "ja": "カレーライス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cursive",
+      "ja": "筆記体",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cursor",
+      "ja": "カーソル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curtain grab",
+      "ja": "カーテンをつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curtained hair",
+      "ja": "カーテンヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curtains",
+      "ja": "カーテン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curtsey",
+      "ja": "カーテシー（お辞儀）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "curvy",
+      "ja": "曲線的な体つき",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cushion",
+      "ja": "クッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cut bangs",
+      "ja": "前髪を切る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cute",
+      "ja": "かわいい",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cute & girly (idolmaster)",
+      "ja": "キュート＆ガーリー（アイドルマスター）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutoffs",
+      "ja": "カットオフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutout above navel",
+      "ja": "へそ上のカットアウト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cuts",
+      "ja": "切り傷",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutting",
+      "ja": "切る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutting board",
+      "ja": "まな板",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutting hair",
+      "ja": "髪を切る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyber fashion",
+      "ja": "サイバーファッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyberpunk",
+      "ja": "サイバーパンク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyberpunk (series)",
+      "ja": "サイバーパンク（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyberpunk edgerunners",
+      "ja": "サイバーパンク: エッジランナーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyborg",
+      "ja": "サイボーグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyclops",
+      "ja": "サイクロプス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyndaquil",
+      "ja": "ヒノアラシ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyno (genshin impact)",
+      "ja": "セノ（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cynthia (pokemon)",
+      "ja": "シロナ（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cyrillic",
+      "ja": "キリル文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "d-pad",
+      "ja": "十字キー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "d-pad hair ornament",
+      "ja": "十字キー型の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "d.va (overwatch)",
+      "ja": "D.Va（オーバーウォッチ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dagashi kashi",
+      "ja": "だがしかし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dagger",
+      "ja": "短剣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daidouji tomoyo",
+      "ja": "大道寺知世",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dairi",
+      "ja": "内裏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dairoku ryouhei",
+      "ja": "第六猟兵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daisy",
+      "ja": "デイジー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daitaku helios (umamusume)",
+      "ja": "ダイタクヘリオス（ウマ娘）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daiwa scarlet (umamusume)",
+      "ja": "ダイワスカーレット（ウマ娘）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daiyousei",
+      "ja": "大妖精",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dakimakura (medium)",
+      "ja": "抱き枕（媒体）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dakimakura (object)",
+      "ja": "抱き枕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dalachi (headdress)",
+      "ja": "大拉翅（清朝の女性用冠飾り）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "damaged",
+      "ja": "損傷した",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dan heng (honkai: star rail)",
+      "ja": "丹恒（崩壊：スターレイル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dancer",
+      "ja": "踊り子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dancing",
+      "ja": "踊る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dandadan",
+      "ja": "ダンダダン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dandelion",
+      "ja": "タンポポ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dandon fuga",
+      "ja": "ダンドン・フーガ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danganronpa (series)",
+      "ja": "ダンガンロンパ（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danganronpa 2: goodbye despair",
+      "ja": "スーパーダンガンロンパ2 さよなら絶望学園",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danganronpa 3 (anime)",
+      "ja": "ダンガンロンパ3（アニメ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danganronpa v3: killing harmony",
+      "ja": "ニューダンガンロンパV3 みんなのコロシアイ新学期",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danganronpa: trigger happy havoc",
+      "ja": "ダンガンロンパ 希望の学園と絶望の高校生",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dango",
+      "ja": "団子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "danmaku",
+      "ja": "弾幕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dante (devil may cry)",
+      "ja": "ダンテ（デビル メイ クライ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dappled sunlight",
+      "ja": "木漏れ日",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darjeeling (girls und panzer)",
+      "ja": "ダージリン（ガールズ＆パンツァー）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark",
+      "ja": "暗い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark areolae",
+      "ja": "暗い色の乳輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark aura",
+      "ja": "暗いオーラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark background",
+      "ja": "暗い背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark blue hair",
+      "ja": "髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark clouds",
+      "ja": "暗雲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark elf",
+      "ja": "ダークエルフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark fantasy",
+      "ja": "ダークファンタジー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark halo",
+      "ja": "暗い光輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark magician girl",
+      "ja": "ブラック・マジシャン・ガール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark nipples",
+      "ja": "暗い色の乳首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark persona",
+      "ja": "ダークペルソナ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark skin",
+      "ja": "肌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark souls (series)",
+      "ja": "ダークソウル（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark souls i",
+      "ja": "ダークソウル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark souls iii",
+      "ja": "ダークソウルIII",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark-skinned female",
+      "ja": "女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dark-skinned male",
+      "ja": "男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darker than black",
+      "ja": "DARKER THAN BLACK",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darkness",
+      "ja": "暗闇",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darkness (konosuba)",
+      "ja": "ダクネス（この素晴らしい世界に祝福を！）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darkstalkers",
+      "ja": "ヴァンパイア（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "darling in the franxx",
+      "ja": "ダーリン・イン・ザ・フランキス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "daruma doll",
+      "ja": "だるま",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dashed eyes",
+      "ja": "破線状の目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "date a live",
+      "ja": "デート・ア・ライブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dated",
+      "ja": "時代遅れの",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dating",
+      "ja": "デートする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dawn",
+      "ja": "夜明け",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dawn (pokemon)",
+      "ja": "コウキ（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "day",
+      "ja": "昼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dc comics",
+      "ja": "DCコミックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dead or alive",
+      "ja": "デッド オア アライブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deadpool",
+      "ja": "デッドプール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deadpool (series)",
+      "ja": "デッドプール（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "death",
+      "ja": "死",
+      "status": "reviewed"
+    },
+    {
+      "tag": "death note",
+      "ja": "DEATH NOTE（デスノート）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "debris",
+      "ja": "破片",
+      "status": "reviewed"
+    },
+    {
+      "tag": "decapitation",
+      "ja": "斬首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "decepticon",
+      "ja": "ディセプティコン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "decora",
+      "ja": "デコラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deep penetration",
+      "ja": "深い挿入",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deep skin",
+      "ja": "肌の深い質感",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deer",
+      "ja": "シカ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deer antlers",
+      "ja": "シカの角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deer ears",
+      "ja": "シカ耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deer girl",
+      "ja": "シカ耳の少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deer tail",
+      "ja": "シカの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deerstalker",
+      "ja": "鹿撃ち帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "defeat",
+      "ja": "敗北",
+      "status": "reviewed"
+    },
+    {
+      "tag": "defloration",
+      "ja": "処女喪失",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deformed",
+      "ja": "デフォルメされた",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dehya (genshin impact)",
+      "ja": "ディシア（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "delicious party precure",
+      "ja": "デリシャスパーティ♡プリキュア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "delinquent",
+      "ja": "不良",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon",
+      "ja": "悪魔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon boy",
+      "ja": "悪魔の少年",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon girl",
+      "ja": "悪魔の少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon horns",
+      "ja": "悪魔の角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon slayer uniform",
+      "ja": "鬼殺隊隊服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon tail",
+      "ja": "悪魔の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "demon wings",
+      "ja": "悪魔の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dengeki moeoh",
+      "ja": "電撃萌王",
+      "status": "reviewed"
+    },
+    {
+      "tag": "denim",
+      "ja": "デニム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "denim jacket",
+      "ja": "デニムジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "denim shorts",
+      "ja": "デニムショートパンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "denim skirt",
+      "ja": "デニムスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "denji (chainsaw man)",
+      "ja": "デンジ（チェンソーマン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "depressed",
+      "ja": "落ち込んだ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "depth of field",
+      "ja": "被写界深度",
+      "status": "reviewed"
+    },
+    {
+      "tag": "desert",
+      "ja": "砂漠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "desk",
+      "ja": "机",
+      "status": "reviewed"
+    },
+    {
+      "tag": "desk lamp",
+      "ja": "デスクライト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dessert",
+      "ja": "デザート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "destruction",
+      "ja": "破壊",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached ahoge",
+      "ja": "独立したアホ毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached collar",
+      "ja": "取り外された襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached hair",
+      "ja": "独立した毛束",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached hood",
+      "ja": "取り外されたフード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached leggings",
+      "ja": "分離型レギンス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached sleeves",
+      "ja": "分離袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detached wings",
+      "ja": "独立した翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detailed background",
+      "ja": "緻密な背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "detective",
+      "ja": "探偵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "determined",
+      "ja": "決意した",
+      "status": "reviewed"
+    },
+    {
+      "tag": "deviantart username",
+      "ja": "DeviantArtのユーザー名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "devil fruit power",
+      "ja": "悪魔の実の能力",
+      "status": "reviewed"
+    },
+    {
+      "tag": "devil may cry (series)",
+      "ja": "デビル メイ クライ（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "di gi charat",
+      "ja": "デ・ジ・キャラット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diadem",
+      "ja": "ディアデム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diagonal bangs",
+      "ja": "斜め前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diagonal-striped bow",
+      "ja": "斜め縞のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diagonal-striped bowtie",
+      "ja": "斜め縞の蝶ネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diagonal-striped clothes",
+      "ja": "斜め縞の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diagonal-striped necktie",
+      "ja": "斜め縞のネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dialogue box",
+      "ja": "吹き出し",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond (gemstone)",
+      "ja": "ダイヤモンド（宝石）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond (shape)",
+      "ja": "ひし形",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond button",
+      "ja": "ダイヤ型ボタン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond cutout",
+      "ja": "ひし形の切り抜き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond earrings",
+      "ja": "ダイヤモンドのイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond hair ornament",
+      "ja": "ダイヤモンドの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond hairband",
+      "ja": "ダイヤモンドのヘアバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond wa kudakenai",
+      "ja": "ダイヤモンドは砕けない",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diamond-shaped pupils",
+      "ja": "ひし形の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diaper",
+      "ja": "おむつ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diarmuid ua duibhne (lancer) (fate)",
+      "ja": "ディルムッド・オディナ（ランサー／Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dice",
+      "ja": "サイコロ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dice hair ornament",
+      "ja": "サイコロ型の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "different reflection",
+      "ja": "異なる反射",
+      "status": "reviewed"
+    },
+    {
+      "tag": "different shadow",
+      "ja": "異なる影",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diffraction spikes",
+      "ja": "回折スパイク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digimon",
+      "ja": "デジモン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digimon (creature)",
+      "ja": "デジモン（種族）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digimon adventure",
+      "ja": "デジモンアドベンチャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digital clock",
+      "ja": "デジタル時計",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digital dissolve",
+      "ja": "デジタル状に崩れる表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digital media player",
+      "ja": "デジタルメディアプレーヤー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digital painting",
+      "ja": "デジタルペイント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "digitigrade",
+      "ja": "趾行性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diluc (genshin impact)",
+      "ja": "ディルック（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dimitri alexandre blaiddyd",
+      "ja": "ディミトリ＝アレクサンドル＝ブレーダッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dimples of venus",
+      "ja": "ヴィーナスのえくぼ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dinosaur",
+      "ja": "恐竜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dio brando",
+      "ja": "ディオ・ブランドー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cutesexyrobutts",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "d:",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dagasi",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dikko",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dilation tape",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dei shirou",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dd (ijigendd)",
+      "ja": "",
+      "status": "needs_review"
     }
   ],
   "review_pass": {
-    "source_indices": "0-2249",
-    "note": "先頭2,250件を確認。一般的な色修飾は日本語表示から外し、色が模様・色彩カテゴリ・固有表現として意味を持つ場合は保持する方針を適用。英語タグ自体は生成互換性のため変更しない。"
+    "source_indices": "0-2499",
+    "note": "先頭2,500件を確認。一般的な色指定は日本語表示から除去し、固有名詞・作品名・意味のある色彩表現は保持。柄・模様は色指定と区別して保持。英語元タグの色修飾除去と要素分解は、元タグとの対応を保持するデータ構造移行で実施する。"
   }
 }
