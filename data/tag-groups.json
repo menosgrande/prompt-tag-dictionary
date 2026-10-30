@@ -1,0 +1,19 @@
+[
+  {
+    "id": "length_hair",
+    "ja": "髪の長さ",
+    "category": [
+      "人物",
+      "頭髪",
+      "髪の長さ"
+    ],
+    "members": [
+      "long hair",
+      "short hair",
+      "medium hair",
+      "very long hair",
+      "very short hair",
+      "absurdly long hair"
+    ]
+  }
+]
