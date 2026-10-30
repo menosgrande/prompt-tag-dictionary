@@ -7,6 +7,10 @@ on:
       - "data/tag-review.json"
       - "data/tag-change-log.json"
       - "src/app.js"
+      - "src/admin.js"
+      - "admin.html"
+      - "admin.css"
+      - "data/nsfw-prompt-tag-audit.json"
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
       - "scripts/audit-translations.mjs"
@@ -44,6 +48,8 @@ jobs:
           node-version: 20
       - name: Check app syntax
         run: node --check src/app.js
+      - name: Check admin syntax
+        run: node --check src/admin.js
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
