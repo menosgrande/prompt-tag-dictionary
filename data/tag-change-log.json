@@ -19966,6 +19966,576 @@
       },
       "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
       "source": null
+    },
+    {
+      "tag": "purple capelet",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ショートケープ"
+      },
+      "after": {
+        "ja": "紫のショートケープ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "potion",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "薬"
+      },
+      "after": {
+        "ja": "ポーション"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "profanity",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "卑俗な言葉"
+      },
+      "after": {
+        "ja": "罵り言葉"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "projected inset",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "予測された挿入図"
+      },
+      "after": {
+        "ja": "投影された小窓"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "projectile lactation",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "発射体の授乳"
+      },
+      "after": {
+        "ja": "母乳の飛散"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "prostration",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "衰弱"
+      },
+      "after": {
+        "ja": "平伏"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "prototype design",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "没デザイン"
+      },
+      "after": {
+        "ja": "試作デザイン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pyrokinesis",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ピロキネシス"
+      },
+      "after": {
+        "ja": "パイロキネシス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rabbit-shaped pupils",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "バニー型の生徒"
+      },
+      "after": {
+        "ja": "ウサギ型の瞳"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raccoon",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ラクーン"
+      },
+      "after": {
+        "ja": "アライグマ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raglan sleeves",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ラグランの袖"
+      },
+      "after": {
+        "ja": "ラグラン袖"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raimon soccer uniform",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "雷門イレブン"
+      },
+      "after": {
+        "ja": "雷門中サッカーユニフォーム"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rainbow hair",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "虹の髪"
+      },
+      "after": {
+        "ja": "虹色の髪"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raised eyebrow",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "吊り上がった眉"
+      },
+      "after": {
+        "ja": "片眉を上げる"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red male underwear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤い雄の下着"
+      },
+      "after": {
+        "ja": "赤い男性用下着"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red oni",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤oni"
+      },
+      "after": {
+        "ja": "赤鬼"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red pupils",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤い生徒"
+      },
+      "after": {
+        "ja": "赤い瞳"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red sash",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤いサッシ"
+      },
+      "after": {
+        "ja": "赤い帯"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red sclera",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤い硬化"
+      },
+      "after": {
+        "ja": "赤い強膜"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red scrunchie",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤いシュシリー"
+      },
+      "after": {
+        "ja": "赤いシュシュ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red theme",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤色"
+      },
+      "after": {
+        "ja": "赤を基調とした配色"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red thighhighs",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤い太もも"
+      },
+      "after": {
+        "ja": "赤いニーハイソックス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red-framed eyewear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤色のアイウェア"
+      },
+      "after": {
+        "ja": "赤いフレームの眼鏡"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "red-tinted eyewear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "赤い色の眼鏡"
+      },
+      "after": {
+        "ja": "赤みがかったレンズの眼鏡"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "robin (fire emblem)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ロビン（火の紋章）"
+      },
+      "after": {
+        "ja": "ルフレ（ファイアーエムブレム）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ryouou school uniform",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Ryouou Schoolユニフォーム"
+      },
+      "after": {
+        "ja": "陵桜学園高等学校の制服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "saibou shinkyoku",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "さぼしき"
+      },
+      "after": {
+        "ja": "細胞神曲"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakuragaoka high school uniform",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "さくら高校のユニフォーム"
+      },
+      "after": {
+        "ja": "桜が丘高校の制服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scar on stomach",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "胃の傷跡"
+      },
+      "after": {
+        "ja": "腹部の傷"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scarf",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "マフラー"
+      },
+      "after": {
+        "ja": "スカーフ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "school bag",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ランドセル"
+      },
+      "after": {
+        "ja": "学生鞄"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through clothes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透け"
+      },
+      "after": {
+        "ja": "透ける服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sekibanki",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セキバンキ"
+      },
+      "after": {
+        "ja": "赤蛮奇"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "serious",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "深刻な"
+      },
+      "after": {
+        "ja": "真剣な"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sewing",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "縫い"
+      },
+      "after": {
+        "ja": "裁縫"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shaded face",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "日陰の顔"
+      },
+      "after": {
+        "ja": "顔に影が差している"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shaking head",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "頭を振る"
+      },
+      "after": {
+        "ja": "首を振る"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shamoji",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シャモジ"
+      },
+      "after": {
+        "ja": "しゃもじ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500 の追加確認。明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     }
   ]
 }
