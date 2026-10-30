@@ -91,6 +91,7 @@
     }
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
+  let tagGroups = [];
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
 
   function norm(s) {
@@ -344,6 +345,12 @@
       });
     });
   }
+  function seedTagGroups() {
+    return fetch("./data/tag-groups.json").then(r => {
+      if (!r.ok) throw new Error("tag groups missing");
+      return r.json();
+    }).then(data => Array.isArray(data) ? data : []);
+  }
   function saveData() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.tags)); }
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
@@ -530,6 +537,20 @@
               : englishCompare;
       list.sort((a, b) => dir * compare(a, b));
     }
+    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
+      const groups = tagGroups.filter(group => {
+        if (state.category && (group.category?.[0] !== state.category[0] ||
+            (state.category[1] && group.category?.[1] !== state.category[1]) ||
+            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
+        const memberNames = (group.members || []).map(name => norm(name));
+        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
+      }).map(group => ({ ...group, isTagGroup: true }));
+      groups.sort((a, b) => {
+        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
+        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
+      });
+      list.push(...groups);
+    }
     return list;
   }
   function makeButton(text, cls, action) {
@@ -588,6 +609,31 @@
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
+      if (t.isTagGroup) {
+        const row = document.createElement("div"); row.className = "tag-row tag-group-row";
+        const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = "▾";
+        marker.setAttribute("aria-hidden", "true");
+        const label = document.createElement("div"); label.className = "tag-names";
+        const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.id;
+        const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "統合グループ";
+        label.append(english, japanese);
+        const note = document.createElement("span"); note.className = "tag-category"; note.textContent = "詳細タグを選択";
+        const select = document.createElement("select"); select.className = "tag-group-select";
+        select.setAttribute("aria-label", t.id + "の具体的なタグを選択");
+        const placeholder = document.createElement("option"); placeholder.value = ""; placeholder.textContent = "詳細を選択…"; select.append(placeholder);
+        (t.members || []).forEach(name => {
+          const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+          if (!member) return;
+          const option = document.createElement("option"); option.value = member.tag;
+          option.textContent = member.tag + (member.ja ? " — " + member.ja : ""); select.append(option);
+        });
+        select.addEventListener("change", () => {
+          const member = state.tags.find(candidate => candidate.tag === select.value);
+          if (member) toggleSelected(member);
+          select.value = "";
+        });
+        row.append(marker, label, note, select); root.append(row); return;
+      }
       const row = document.createElement("div"); row.className = "tag-row";
       const parentIndex = prefixParents.get(index);
       const check = document.createElement("input");
@@ -1095,6 +1141,7 @@
       document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
     }
     wire(); populateCustomCategories();
+    try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
     let saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
     try {
