@@ -4,6 +4,11 @@ on:
   push:
     paths:
       - "data/tags.json"
+      - "data/prompt-order-categories.json"
+      - "admin.html"
+      - "admin.css"
+      - "src/admin.js"
+      - "scripts/audit-prompt-order.mjs"
       - "data/tag-review.json"
       - "data/tag-change-log.json"
       - "src/app.js"
@@ -44,6 +49,10 @@ jobs:
           node-version: 20
       - name: Check app syntax
         run: node --check src/app.js
+      - name: Check admin syntax
+        run: node --check src/admin.js
+      - name: Audit prompt output category order
+        run: node scripts/audit-prompt-order.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
