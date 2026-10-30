@@ -37,7 +37,7 @@ const proposals = [];
 for (let n = 1; n <= 12; n++) {
   const name = "category-audit-candidates-" + String(n).padStart(2, "0") + ".jsonl";
   const content = await readFile(resolve(root, "data", name), "utf8");
-  for (const line of content.split(/\\r?\\n/).filter(Boolean)) {
+  for (const line of content.split(/\r?\n/).filter(Boolean)) {
     const value = JSON.parse(line);
     if (!Array.isArray(value) || value[4] !== "分類候補" || value[5] !== "medium" || value[2] !== null || !Array.isArray(value[3])) continue;
     const [major, minor, detail] = value[3];
@@ -82,9 +82,9 @@ console.log("Human-reviewed / needs-review entries: skipped");
 console.log("Third-level proposals: retained in audit source, not written to tags.json");
 if (write) {
   await Promise.all([
-    writeFile(paths.tags, JSON.stringify(tags, null, 2) + "\\n", "utf8"),
-    writeFile(paths.review, JSON.stringify(review, null, 2) + "\\n", "utf8"),
-    writeFile(paths.log, JSON.stringify(log, null, 2) + "\\n", "utf8")
+    writeFile(paths.tags, JSON.stringify(tags, null, 2) + "\n", "utf8"),
+    writeFile(paths.review, JSON.stringify(review, null, 2) + "\n", "utf8"),
+    writeFile(paths.log, JSON.stringify(log, null, 2) + "\n", "utf8")
   ]);
   console.log("Updated tags.json, tag-review.json, and tag-change-log.json");
 } else {
