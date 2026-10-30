@@ -11,15 +11,15 @@
   const CATEGORIES = [
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
     ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
+    ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
+    ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
+    ["シチュエーション","Situation","関係性","日常","イベント","成人向け状況"],
     ["背景・場所","Background & Location","屋内","施設","自然","都市","時間・天候"],
     ["構図・視点","Composition & Camera","構図","撮影範囲","カメラ角度","視点"],
     ["画風・品質","Style & Quality","画風","品質","描写技法","媒体"],
     ["光・色彩","Light & Color","照明","色","色調"],
-    ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
-    ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
-    ["シチュエーション","Situation","関係性","日常","イベント","成人向け状況"],
-    ["その他","Other","動物","物","自然物","記号・効果"],
     ["成人向け","Adult","身体・衣類","行為・状況","表現・修正"],
+    ["その他","Other","動物","物","自然物","記号・効果"],
     ["未分類","Uncategorized","未分類"]
   ];
   const enMajor = Object.fromEntries(CATEGORIES.map(c => [c[0], c[1]]));
@@ -370,22 +370,29 @@
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { return (t.category && t.category[0]) || "未分類"; }
-  // Prompt assembly order is separate from the searchable taxonomy.
-  let PROMPT_ORDER = ["人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・品質", "光・色彩・演出"];
+  // Prompt assembly order is shared by the output UI and the category navigation.
+  let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出"];
   function promptOrderOf(t) {
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
-    const major = majorOf(t), minor = minorOf(t);
-    if (major === "人物" || major === "作品・キャラクター") return PROMPT_ORDER[0];
-    if (major === "服装") return PROMPT_ORDER[1];
-    if (major === "ポーズ・動作") return minor === "姿勢" ? PROMPT_ORDER[2] : PROMPT_ORDER[3];
-    if (major === "シチュエーション") return PROMPT_ORDER[3];
-    if (major === "背景・場所") return PROMPT_ORDER[4];
-    if (major === "構図・視点") return PROMPT_ORDER[5];
-    if (major === "画風・品質") return PROMPT_ORDER[6];
-    if (major === "光・色彩") return PROMPT_ORDER[7];
-    if (major === "成人向け") return /身体・衣類/.test(minor) ? PROMPT_ORDER[1] : /表現・修正/.test(minor) ? PROMPT_ORDER[7] : PROMPT_ORDER[3];
-    if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[0] : /記号・効果/.test(minor) ? PROMPT_ORDER[7] : PROMPT_ORDER[4];
+    const major = majorOf(t), minor = minorOf(t), tag = norm(t.tag);
+    if (major === "画風・品質") {
+      if (minor !== "品質") return PROMPT_ORDER[7];
+      if (tag === "beautiful detailed eyes") return PROMPT_ORDER[1];
+      if (tag === "detailed background") return PROMPT_ORDER[5];
+      if (tag === "nsfw") return PROMPT_ORDER[4];
+      if (["text", "signature", "username", "watermark", "wallpaper", "official art", "key visual"].includes(tag)) return PROMPT_ORDER[7];
+      return PROMPT_ORDER[0];
+    }
+    if (major === "人物" || major === "作品・キャラクター") return PROMPT_ORDER[1];
+    if (major === "服装") return PROMPT_ORDER[2];
+    if (major === "ポーズ・動作") return minor === "姿勢" ? PROMPT_ORDER[3] : PROMPT_ORDER[4];
+    if (major === "シチュエーション") return PROMPT_ORDER[4];
+    if (major === "背景・場所") return PROMPT_ORDER[5];
+    if (major === "構図・視点") return PROMPT_ORDER[6];
+    if (major === "光・色彩") return PROMPT_ORDER[8];
+    if (major === "成人向け") return /身体・衣類/.test(minor) ? PROMPT_ORDER[2] : /表現・修正/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[4];
+    if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
   function minorOf(t) { return (t.category && t.category[1]) || "未分類"; }
@@ -432,6 +439,19 @@
       const count = document.createElement("span");
       count.className = "count"; count.textContent = value.toLocaleString("ja-JP"); parent.append(count);
     };
+    const qualityCount = counts.get("画風・品質")?.minors.get("品質")?.total || 0;
+    const qualityWrap = document.createElement("div"); qualityWrap.className = "category-major";
+    const qualityButton = document.createElement("button"); qualityButton.type = "button"; qualityButton.className = "category-major-button";
+    const qualityActive = state.category?.[0] === "画風・品質" && state.category?.[1] === "品質" && !state.category?.[2];
+    if (qualityActive) qualityButton.classList.add("active");
+    qualityButton.setAttribute("aria-pressed", String(qualityActive));
+    const qualityLabel = document.createElement("span"); qualityLabel.textContent = "品質・スコア";
+    qualityButton.append(qualityLabel); addCount(qualityButton, qualityCount);
+    qualityButton.addEventListener("click", () => {
+      state.category = qualityActive ? null : ["画風・品質", "品質", null];
+      state.expandedMajor = "画風・品質"; state.page = 0; renderAll();
+    });
+    qualityWrap.append(qualityButton); root.append(qualityWrap);
     majors.forEach(major => {
       const entry = counts.get(major) || { total: 0, minors: new Map() };
       const wrap = document.createElement("div"); wrap.className = "category-major";
@@ -453,7 +473,7 @@
       heading.append(btn, expander); wrap.append(heading);
       if (state.expandedMajor === major) {
         const known = defaultMinor[major] || [];
-        const minors = [...new Set([...known, ...entry.minors.keys()])];
+        const minors = [...new Set([...known, ...entry.minors.keys()])].filter(m => !(major === "画風・品質" && m === "品質"));
         if (major !== "人物" && major !== "未分類") minors.splice(0, minors.length, ...minors.filter(m => entry.minors.has(m)));
         const minWrap = document.createElement("div"); minWrap.className = "category-minors";
         minors.forEach(minor => {

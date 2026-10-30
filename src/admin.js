@@ -24,7 +24,7 @@ function initResizer(){
  if("ResizeObserver"in window){let timer;new ResizeObserver(()=>{clearTimeout(timer);timer=setTimeout(save,250);}).observe(list);}
 }
 
-const DEFAULT_PROMPT_ORDER=["人物・キャラクター","服装・装飾","ポーズ・姿勢","動作・接触","背景・環境","構図・カメラ","画風・品質","光・色彩・演出"];
+const DEFAULT_PROMPT_ORDER=["品質・スコア","人物・キャラクター","服装・装飾","ポーズ・姿勢","動作・接触","背景・環境","構図・カメラ","画風・描写","光・色彩・演出"];
 function renderPromptOrder(){
  const root=$("#prompt-order-list");if(!root)return;root.replaceChildren();
  state.promptOrder.categories.forEach((category,index)=>{
