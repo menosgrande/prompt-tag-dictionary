@@ -4734,67 +4734,12 @@
     "proposedJa": null
   },
   {
-    "tag": "polka dot headwear",
-    "ja": "水玉headwear",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "pote (ptkan)",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "pov across table",
-    "ja": "テーブルを横切るPOV",
-    "major": "構図・視点",
-    "minor": "構図",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "pov crotch",
-    "ja": "POV股",
-    "major": "構図・視点",
-    "minor": "構図",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "pov doorway",
-    "ja": "POV戸口",
-    "major": "構図・視点",
-    "minor": "構図",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "pov hands",
-    "ja": "POVハンド",
-    "major": "構図・視点",
-    "minor": "構図",
-    "reasons": [
-      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4866,32 +4811,10 @@
     "proposedJa": null
   },
   {
-    "tag": "red oni",
-    "ja": "赤oni",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "reiuji utsuho (bird)",
     "ja": "reiuji utsuho（鳥）",
     "major": "その他",
     "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "rem (re:zero)",
-    "ja": "rem（re：ゼロ）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -4999,11 +4922,12 @@
   },
   {
     "tag": "rwby",
-    "ja": "RWBYイラコン",
+    "ja": "RWBY",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5011,39 +4935,6 @@
   {
     "tag": "ryoji (nomura ryouji)",
     "ja": "ryoji（野uuraryuji）",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ryoumen sukuna (jujutsu kaisen)",
-    "ja": "リオーメンスクナ（柔術kaisen）",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ryouou school uniform",
-    "ja": "Ryouou Schoolユニフォーム",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "sagisawa fumika",
-    "ja": "佐々木fumika",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -5086,17 +4977,6 @@
     "proposedJa": null
   },
   {
-    "tag": "sakamoto mio",
-    "ja": "坂本mio",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "saki (manga)",
     "ja": "咲-saki-",
     "major": "画風・品質",
@@ -5112,17 +4992,6 @@
     "ja": "サリア（arknights）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "sayonara zetsubou sensei",
-    "ja": "Sayonara Zetsubou先生",
-    "major": "未分類",
-    "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -5196,6 +5065,17 @@
     "proposedJa": null
   },
   {
+    "tag": "senran kagura shinovi versus",
+    "ja": "閃乱カグラ SHINOVI VERSUS",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "seo tatsuya",
     "ja": "",
     "major": "未分類",
@@ -5213,28 +5093,6 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shigure ui (vtuber)",
-    "ja": "シギュアUI（vtuber）",
-    "major": "作品・キャラクター",
-    "minor": "作者・配信者",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shimada arisu",
-    "ja": "島田Arisu",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5273,41 +5131,20 @@
     "proposedJa": null
   },
   {
-    "tag": "shippou (pattern)",
-    "ja": "Shippou（パターン）",
-    "major": "未分類",
-    "minor": "未分類",
+    "tag": "show by rock!!",
+    "ja": "SHOW BY ROCK!!",
+    "major": "その他",
+    "minor": "自然物",
     "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shiroko (swimsuit) (blue archive)",
-    "ja": "Shiroko（水着）（ブルーアーカイブ）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shun (small) (blue archive)",
-    "ja": "shun（small）（ブルーアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "shuten douji (fate)",
-    "ja": "シャッテン・ドゥジ（Fate）",
+    "ja": "酒呑童子（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -5328,17 +5165,6 @@
     "proposedJa": null
   },
   {
-    "tag": "silence suzuka (umamusume)",
-    "ja": "鈴鹿（umamusume）を沈黙させる",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "skadi (arknights)",
     "ja": "スカディ（arknights）",
     "major": "作品・キャラクター",
@@ -5354,17 +5180,6 @@
     "ja": "腐敗した心（arknights）のスカディ",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "slingshot swimsuit",
-    "ja": "Slingshot水着",
-    "major": "服装",
-    "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -5416,17 +5231,6 @@
     "proposedJa": null
   },
   {
-    "tag": "special week (umamusume)",
-    "ja": "特別週（umamusume）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "specter (arknights)",
     "ja": "スペクター（arknights）",
     "major": "作品・キャラクター",
@@ -5439,7 +5243,18 @@
   },
   {
     "tag": "spoken zzz",
-    "ja": "話されたZzz",
+    "ja": "吹き出し内のZZZマーク",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "spy x family",
+    "ja": "SPY×FAMILY",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -5455,6 +5270,18 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "ssss.gridman",
+    "ja": "SSSS.GRIDMAN",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "status": "needs-review",
     "proposedJa": null

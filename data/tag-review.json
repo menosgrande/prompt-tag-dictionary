@@ -470,8 +470,8 @@
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
-      "note": "公式日本語タイトル／表記に合わせたAI一括修正。人手の最終確認待ち。",
-      "source": "https://bluearchive.jp/"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shun (blue archive)": {
       "translationStatus": "needs-review",
@@ -484,8 +484,8 @@
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
-      "note": "公式日本語タイトル／表記に合わせたAI一括修正。人手の最終確認待ち。",
-      "source": "https://bluearchive.jp/"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "tsubaki (blue archive)": {
       "translationStatus": "needs-review",
@@ -5122,32 +5122,32 @@
       "source": "category-audit-candidates-08.jsonl"
     },
     "presenting foot": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "print bowtie": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "print necktie": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "print thighhighs": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "prosthetic arm": {
       "translationStatus": "unreviewed",
@@ -5171,11 +5171,11 @@
       "source": "category-audit-candidates-08.jsonl"
     },
     "quiver": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "raccoon girl": {
       "translationStatus": "unreviewed",
@@ -5192,11 +5192,11 @@
       "source": "category-audit-candidates-08.jsonl"
     },
     "ranni the witch": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-08.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "ray gun": {
       "translationStatus": "unreviewed",
@@ -5213,11 +5213,11 @@
       "source": "category-audit-candidates-08.jsonl"
     },
     "reptile girl": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "reverse outfit": {
       "translationStatus": "unreviewed",
@@ -5381,11 +5381,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "see-through body": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "see-through cleavage": {
       "translationStatus": "unreviewed",
@@ -5416,18 +5416,18 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "semi-rimless eyewear": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shared object insertion": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shark girl": {
       "translationStatus": "unreviewed",
@@ -5444,11 +5444,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "shell": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shell casing": {
       "translationStatus": "unreviewed",
@@ -5458,18 +5458,18 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "shiny skin": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shoe dangle": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shoe soles": {
       "translationStatus": "unreviewed",
@@ -5528,11 +5528,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "shoulder boards": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shoulder cannon": {
       "translationStatus": "unreviewed",
@@ -5577,11 +5577,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "shoulder sash": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shoulder spikes": {
       "translationStatus": "unreviewed",
@@ -5591,11 +5591,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "shoulder strap": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "shoulder tattoo": {
       "translationStatus": "unreviewed",
@@ -5605,11 +5605,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "show by rock!!": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "siblings": {
       "translationStatus": "unreviewed",
@@ -5654,18 +5654,18 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "single bare leg": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single bare shoulder": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single garter strap": {
       "translationStatus": "unreviewed",
@@ -5682,39 +5682,39 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "single off shoulder": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single shoe": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single shoulder pad": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single side bun": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "single thigh boot": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "sisters": {
       "translationStatus": "unreviewed",
@@ -5724,11 +5724,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "skin tight": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "skull earrings": {
       "translationStatus": "unreviewed",
@@ -5822,11 +5822,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "spear the gungnir": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "speed lines": {
       "translationStatus": "unreviewed",
@@ -5871,32 +5871,32 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "split screen": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "spoken exclamation mark": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "spoken object": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "spoken question mark": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "spotlight": {
       "translationStatus": "unreviewed",
@@ -5906,18 +5906,18 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "spread arms": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "spread fingers": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "square-end necktie": {
       "translationStatus": "unreviewed",
@@ -5976,18 +5976,18 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "steaming body": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "steepled fingers": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "step-siblings": {
       "translationStatus": "unreviewed",
@@ -5997,32 +5997,32 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "stiletto heels": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "stirrup footwear": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "stitched arm": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "stitched torso": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "strappy heels": {
       "translationStatus": "unreviewed",
@@ -6039,18 +6039,18 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "striped necktie": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "striped thighhighs": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "striped vest": {
       "translationStatus": "unreviewed",
@@ -6060,11 +6060,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "stud earrings": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "studded bracelet": {
       "translationStatus": "unreviewed",
@@ -6081,11 +6081,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "stuffed winged unicorn": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "submachine gun": {
       "translationStatus": "unreviewed",
@@ -6137,11 +6137,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "surgical mask": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "surprise kiss": {
       "translationStatus": "unreviewed",
@@ -6158,11 +6158,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "swim briefs": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "swim ring": {
       "translationStatus": "unreviewed",
@@ -6172,11 +6172,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "swim trunks": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "symmetry": {
       "translationStatus": "unreviewed",
@@ -6961,6 +6961,2708 @@
       "reviewedAt": null,
       "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
       "source": "category-audit-candidates-12.jsonl"
+    },
+    "polka dot bow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "polka dot bra": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "polka dot headwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "polka dot legwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "polka dot scrunchie": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "porkpie hat": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "possessed": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "poster (medium)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pouch": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pouring onto self": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pov across table": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pov crotch": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pov hands": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pov doorway": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "power symbol-shaped pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "precum drip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "precure": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "prehensile hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "prehensile tail": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "presenting armpit": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "priest": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print bikini": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print bow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print bra": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print gloves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print headwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print kimono": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print mug": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print sarong": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print shirt": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print shorts": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print skirt": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print sleeves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "print sweater": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "prisma illya": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "product placement": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "psychic": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "public indecency": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pulling own clothes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pushing away": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pursed lips": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple bow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple capelet": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple scrunchie": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple serafuku": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple sash": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple thighhighs": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "purple theme": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "quad tails": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "quadruple amputee": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "race bib": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "race vehicle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "racerback": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "radio": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raiden mei": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raiden shogun": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raihan (pokemon)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rainbow gradient": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raised eyebrows": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raising heart": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "randoseru": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "realistic": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rebuild of evangelion": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "reizei mako": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "reiuji utsuho": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rem (re:zero)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "remembering": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "removing jacket": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "reverse cowgirl position": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "reverse grip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rhine lab logo": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rhodes island logo (arknights)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon trim": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon-trimmed clothes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon-trimmed collar": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon-trimmed dress": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon-trimmed headwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ribbon-trimmed sleeves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rice on face": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "riding bicycle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "riding crop": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rigging": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "robin (honkai: star rail)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rocket": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rolling eyes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "roman numeral": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "roots (hair)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rotary phone": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "round table": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rubbing eyes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "runny makeup": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rust": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rwby": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ryoumen sukuna (jujutsu kaisen)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sagging breasts": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sagisawa fumika": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sailor moon redraw challenge (meme)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "saiyan armor": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakamoto mio": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakura kyoko": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakura miko": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakuma mayu": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakurauchi riko": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sangonomiya kokomi": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sangvis ferri": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sandwiched": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sanpaku": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "saury": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "saw": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sayonara zetsubou sensei": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "satin": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "satou kazuma": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "saunders school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scales": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scar across eye": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scaramouche (genshin impact)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scared": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "school briefcase": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "school emblem": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "science fiction": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scorbunny": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scowl": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scratching head": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "screenshot inset": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scribble censor": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "seal (animal)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through dress": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through panties": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through sarong": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through silhouette": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through skirt": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through sleeves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "seele vollerei": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "seiun sky (umamusume)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "self-harm scar": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "selfcest": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "senran kagura shinovi versus": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sewing needle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sexually suggestive": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shadow the hedgehog": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shallow water": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shantae": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared bathing": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared clothes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared earphones": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 で明確な誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "potion": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "profanity": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "projected inset": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "projectile lactation": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "prostration": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "prototype design": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "pyrokinesis": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rabbit-shaped pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raccoon": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raglan sleeves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raimon soccer uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "rainbow hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "raised eyebrow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red male underwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red oni": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red sash": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red sclera": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red scrunchie": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red theme": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red thighhighs": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red-framed eyewear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "red-tinted eyewear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "robin (fire emblem)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ryouou school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "saibou shinkyoku": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sakuragaoka high school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scar on stomach": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "scarf": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "school bag": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "see-through clothes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sekibanki": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "serious": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sewing": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shaded face": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shaking head": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shamoji": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 7501–8500 の追加確認で修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared food": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared scarf": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shared speech bubble": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shell necklace": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shibuya kanon": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shibuya rin": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shigure ui (vtuber)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiina taki": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiina yuika": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shimada arisu": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shimakaze (kancolle) (cosplay)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shimamura uzuki": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shimenawa": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinai": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinda sekai sensen uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinsengumi": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiny and normal": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shippou (pattern)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shirt partially tucked in": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shirt tucked in": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shirt tug": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shoebill (kemono friends)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shokuhou misaki": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "short hair with long locks": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "short over long sleeves": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "short twintails": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shorts pull": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shortstack": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "side ahoge": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "side braid": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "side drill": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sideboob": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sidesaddle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sideways glance": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sidelighting": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sidelocks tied back": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "silence suzuka (umamusume)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "silver dress": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "silver fox (kemono friends)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "simple background": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single braid": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single epaulette": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single fingerless glove": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single gauntlet": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single hair ring": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single horizontal stripe": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single pantsleg": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single sidelock": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single sleeve": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single strap": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single stripe": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single tear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single vertical stripe": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single wrist cuff": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "single-shoulder dress": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skates": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skindentation": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skirt tug": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skull and crossbones": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skull on head": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "slap mark": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeve bow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeve cuffs": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeve grab": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeves past elbows": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeves past fingers": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeves pushed up": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sleeves rolled up": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "slit pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "smelling": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "smelling clothes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "smile precure!": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "smoke trail": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "smug": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "snap-fit buckle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "snivy": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "snout": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "snowflakes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "soap bubbles": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "soap censor": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sobu high school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sock pull": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "soft serve": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "soles": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "solid circle pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "solid eyes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "solid oval eyes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "son gohan": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sonoda umi": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sound effects": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sparkle (honkai: star rail)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "special week (umamusume)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spiked club": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spiked collar": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spiked ear piercing": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spiked hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spikes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spinning": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spit take": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spitting": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "splash page": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "split": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "split mouth": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "split ponytail": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoiler (automobile)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken anger vein": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken ellipsis": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken heart": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken interrobang": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken musical note": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken squiggle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken sweatdrop": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spoken zzz": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spot color": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spread toes": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spreader bar": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spring onion": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sprinkles": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spy x family": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "squatting": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "squatting cowgirl position": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "squiggle": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "ssss.gridman": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "st. chronica academy school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "st. louis (azur lane)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stain": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stained sheets": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stalk in mouth": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "standard bearer": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "standing on liquid": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "standing on one leg": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "star facial mark": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "star twinkle precure": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "star-shaped pupils": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "starry hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "starter pokemon trio": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stealth sex": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stepped on": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stick": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stirrup legwear": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stitched face": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stitched mouth": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stomach": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stomach bulge": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stomach tattoo": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stone ocean": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stone wall": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "straddling": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "straight hair": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "strap": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "strawberry shortcake": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stream": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "streamers": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "string": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "string panties": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped bow": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped coat": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped dress": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped one-piece swimsuit": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped ribbon": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped shorts": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "striped skirt": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "strongman waist": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "struggling": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stuck": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "studio ghibli": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stuffed dog": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stuffed penguin": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "style parody": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "submerged": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "suction cups": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "suit jacket": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "suite precure": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "super soaker": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "superhero costume": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "surfing": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "surrounded": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "suspenders slip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "suspension": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sweatband": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sweatdrop": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "sweet lolita": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "swept bangs": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "swim cap": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "swimsuit aside": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "swimsuit cover-up": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiomi kotone": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinosawa hiro": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shirasaka koume": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinonome ena": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiroko terror (blue archive)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shuten douji (fate)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shoujo kitou-chuu": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shuka high school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shikishi": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skirt flip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skirt hold": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "slingshot swimsuit": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "staff (music)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "star pasties": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stationary restraints": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "strap slip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "string of flags": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spooning": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     }
   }
 }

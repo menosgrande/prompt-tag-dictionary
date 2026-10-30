@@ -7,13 +7,12 @@
 ## 現在の監査結果
 
 - 対象タグ：11,047件
-- 要確認候補：574件（理由は重複するため合計と一致しません）
-- `japanese-translation-missing`：186件
-- `english-remains-in-japanese`：385件
-- `likely-literal-or-machine-translation`：1件
-- `same-as-latin-tag`：8件
-
-これまでに73件の訳語を修正し、すべて変更履歴へ記録しました。これらは自動修正のため、確認台帳では人手の最終確認待ち（`needs-review`）です。候補の一覧は [data/translation-audit-candidates.json](../data/translation-audit-candidates.json) です。各項目は英語タグ、現行訳、分類、検出理由、確認状態を持ちます。`proposedJa`は意図的に空（`null`）にしており、未検証の自動訳を正解候補として提示しません。
+- 要確認候補：監査候補一覧を参照（理由は重複するため合計と一致しません）
+- 2026-10-30：翻訳監査バッチ 7501–8500で191件の最終訳語を修正。空欄14件は固有名詞・識別子などとして保留。
+- 2026-10-30：翻訳監査バッチ 8501–9500で242件の訳語を修正。空欄6件は作者名・略称・識別子などとして保留。
+- 修正項目はすべて `needs-review` とし、人手確認前に `verified` へ変更していません。
+- 固有名詞など確証がないものは推測で書き換えていません。
+- 修正履歴は `data/tag-change-log.json`、確認状態は `data/tag-review.json`、候補一覧は `data/translation-audit-candidates.json` に記録しています。
 
 ## 検出ルールと限界
 
