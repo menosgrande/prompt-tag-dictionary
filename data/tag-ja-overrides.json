@@ -240,11 +240,6 @@
       "status": "reviewed"
     },
     {
-      "tag": "akiyama ritsuko",
-      "ja": "秋月律子",
-      "status": "reviewed"
-    },
-    {
       "tag": "alchemy stars",
       "ja": "白夜極光",
       "status": "reviewed"
@@ -1333,6 +1328,16 @@
       "tag": "bar censor",
       "ja": "棒状の検閲線",
       "status": "reviewed"
+    },
+    {
+      "tag": "akizuki ritsuko",
+      "ja": "秋月律子",
+      "status": "reviewed"
     }
-  ]
+  ],
+  "review_pass": {
+    "source_indices": "0-749",
+    "note": "先頭750件を確認し、明確な誤訳・不自然な訳・空欄のうち修正対象を差分登録。未登録の既存訳は全件確定を意味しない。",
+    "overrides": 266
+  }
 }
