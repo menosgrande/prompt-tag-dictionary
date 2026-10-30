@@ -353,6 +353,8 @@
       return r.json();
     }).then(data => {
       const entries = Array.isArray(data.overrides) ? data.overrides : [];
+      const ordered = Array.isArray(data.categories) ? data.categories.slice().sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999)).map(x=>x&&x.name).filter(name=>typeof name==="string"&&name.trim()) : [];
+      if (ordered.length) PROMPT_ORDER = [...new Set(ordered)];
       promptOrderOverrides = new Map(entries.filter(x => x && x.tag && x.category).map(x => [norm(x.tag), x.category]));
     });
   }
@@ -369,7 +371,7 @@
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is separate from the searchable taxonomy.
-  const PROMPT_ORDER = ["人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・品質", "光・色彩・演出"];
+  let PROMPT_ORDER = ["人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・品質", "光・色彩・演出"];
   function promptOrderOf(t) {
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
