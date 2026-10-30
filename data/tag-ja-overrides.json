@@ -1673,11 +1673,460 @@
       "tag": "black coat (kingdom hearts)",
       "ja": "黒いコート（キングダム ハーツ）",
       "status": "reviewed"
+    },
+    {
+      "tag": "black eyes",
+      "ja": "黒い瞳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black footwear",
+      "ja": "黒い靴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black hakama",
+      "ja": "黒い袴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black male swimwear",
+      "ja": "黒人男性用の水着",
+      "status": "needs_review"
+    },
+    {
+      "tag": "black male underwear",
+      "ja": "黒人男性用の下着",
+      "status": "needs_review"
+    },
+    {
+      "tag": "black panties",
+      "ja": "黒いパンティー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black pantyhose",
+      "ja": "黒いパンティストッキング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black rock shooter",
+      "ja": "ブラック★ロックシューター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black rock shooter (character)",
+      "ja": "ブラック★ロックシューター（キャラクター）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black sash",
+      "ja": "黒い帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black sclera",
+      "ja": "黒い強膜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black scrunchie",
+      "ja": "黒いシュシュ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black survival",
+      "ja": "ブラックサバイバル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "black theme",
+      "ja": "黒を基調とした配色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black thighhighs",
+      "ja": "黒いニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black wrist cuffs",
+      "ja": "黒い手首カフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blade (galaxist)",
+      "ja": "ブレイド（銀河）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blade (honkai: star rail)",
+      "ja": "刃（崩壊：スターレイル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blake bloom (wuthering waves)",
+      "ja": "ブラント（鳴潮）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blank censor",
+      "ja": "無地の検閲帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blank speech bubble",
+      "ja": "空白の吹き出し",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blaze the cat",
+      "ja": "ブレイズ・ザ・キャット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bleach",
+      "ja": "BLEACH（作品）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bleach: sennen kessen-hen",
+      "ja": "BLEACH 千年血戦篇",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blending",
+      "ja": "色をなじませる",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blind",
+      "ja": "目の見えない状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blob",
+      "ja": "不定形の塊",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood bag",
+      "ja": "血液バッグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood drip",
+      "ja": "血が滴る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood from eyes",
+      "ja": "目から流れる血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood from mouth",
+      "ja": "口から流れる血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood in hair",
+      "ja": "髪に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on arm",
+      "ja": "腕に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on bandages",
+      "ja": "包帯に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on breasts",
+      "ja": "胸に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on chest",
+      "ja": "胸に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on clothes",
+      "ja": "服に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on face",
+      "ja": "顔に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on ground",
+      "ja": "地面に広がる血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on hands",
+      "ja": "手に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on knife",
+      "ja": "ナイフに付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on leg",
+      "ja": "脚に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood on weapon",
+      "ja": "武器に付着した血",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blood stain",
+      "ja": "血痕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bloom",
+      "ja": "ブルーム効果",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blowing bubbles",
+      "ja": "シャボン玉を吹く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blowing kiss",
+      "ja": "投げキスをする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue background",
+      "ja": "青い背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue bow",
+      "ja": "青いリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue bowtie",
+      "ja": "青い蝶ネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue cape",
+      "ja": "青いケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue capelet",
+      "ja": "青いケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue collar",
+      "ja": "青い襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue kimono",
+      "ja": "青い着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue leotard",
+      "ja": "青いレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue male swimwear",
+      "ja": "青い男性用水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue male underwear",
+      "ja": "青い男性用下着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue oak",
+      "ja": "ブルーオーク",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blue poison (arknights)",
+      "ja": "ブルーポイズン（アークナイツ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue pupils",
+      "ja": "青い瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue sarong",
+      "ja": "青いサロン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue sash",
+      "ja": "青い帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue sclera",
+      "ja": "青い強膜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue scrunchie",
+      "ja": "青いシュシュ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue serafuku",
+      "ja": "青いセーラー服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue theme",
+      "ja": "青を基調とした配色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue thighhighs",
+      "ja": "青いニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue tongue",
+      "ja": "青い舌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue trim",
+      "ja": "青い縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blue-tinted eyewear",
+      "ja": "青みがかったレンズの眼鏡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blunt ends",
+      "ja": "毛先が一直線に切りそろえられた髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blunt tresses",
+      "ja": "毛先が一直線に切りそろえられた髪束",
+      "status": "needs_review"
+    },
+    {
+      "tag": "blurry",
+      "ja": "ぼやけた描写",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blurry background",
+      "ja": "ぼけた背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blurry foreground",
+      "ja": "ぼけた前景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "blush stickers",
+      "ja": "頬の赤面マーク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bar stool",
+      "ja": "バースツール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "barbell piercing",
+      "ja": "バーベル型ピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "barcode tattoo",
+      "ja": "バーコードのタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "baseball (object)",
+      "ja": "野球ボール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "baseball mitt",
+      "ja": "野球用グローブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "basketball (object)",
+      "ja": "バスケットボール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bass clef",
+      "ja": "ヘ音記号",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bath stool",
+      "ja": "風呂用椅子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bat (animal)",
+      "ja": "コウモリ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bead necklace",
+      "ja": "ビーズのネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beak",
+      "ja": "くちばし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bean bag chair",
+      "ja": "ビーズクッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bear boy",
+      "ja": "クマの獣人少年",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bear girl",
+      "ja": "クマの獣人少女",
+      "status": "needs_review"
     }
   ],
   "review_pass": {
-    "source_indices": "0-999",
-    "note": "先頭1,000件を確認。既存訳の誤訳・空欄・不自然な訳を差分修正。",
-    "overrides": 266
+    "source_indices": "0-1249",
+    "note": "先頭1,250件を確認。誤訳・空欄・機械翻訳調の訳を差分修正。作品名・色属性系の訳語を整備。"
   }
 }
