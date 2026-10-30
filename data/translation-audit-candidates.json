@@ -1,5 +1,16 @@
 [
   {
+    "tag": ":t",
+    "ja": "ふくれっ面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "^ ^",
     "ja": "",
     "major": "未分類",
@@ -137,7 +148,30 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "adapted costume",
+    "ja": "適応衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "adjusting clothes",
+    "ja": "衣服の調整",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -160,6 +194,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "afterglow",
+    "ja": "残光",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -253,6 +298,61 @@
     "proposedJa": null
   },
   {
+    "tag": "alternate body size",
+    "ja": "代替体のサイズ",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "alternate color",
+    "ja": "代替色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "alternate eye color",
+    "ja": "代替目の色",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "alternate hair color",
+    "ja": "代替髪の色",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "alternate skin color",
+    "ja": "代替肌の色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "amber (genshin impact)",
     "ja": "アンバー（genshinインパクト）",
     "major": "作品・キャラクター",
@@ -264,12 +364,34 @@
     "proposedJa": null
   },
   {
+    "tag": "ambiguous red liquid",
+    "ja": "あいまいな赤い液体",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "ame-chan (needy girl overdose)",
     "ja": "あめちゃん（NEEDY GIRL OVERDOSE）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "american flag dress",
+    "ja": "美国国旗连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -297,12 +419,34 @@
     "proposedJa": null
   },
   {
+    "tag": "animal costume",
+    "ja": "動物の衣装",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "anis (nikke)",
     "ja": "アニス(勝利の女神:NIKKE)",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "ankle socks",
+    "ja": "短袜",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -319,12 +463,155 @@
     "proposedJa": null
   },
   {
+    "tag": "aqua bra",
+    "ja": "水色胸罩",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua dress",
+    "ja": "水色のワンピース",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua gloves",
+    "ja": "水色手套",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua hair",
+    "ja": "水色の髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua halo",
+    "ja": "水色の光輪",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua hat",
+    "ja": "水色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua nails",
+    "ja": "水色指甲",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua shirt",
+    "ja": "水色シャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua skirt",
+    "ja": "水色のスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua theme",
+    "ja": "アクア色",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua thighhighs",
+    "ja": "水色のニーハイソックス",
+    "major": "服装",
+    "minor": "靴",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "aqua trim",
+    "ja": "水色の縁取り",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "ar-15",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "arcade cabinet",
+    "ja": "アーケードゲーム筐体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -358,6 +645,105 @@
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "armored boots",
+    "ja": "装甲ブーツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "armored dress",
+    "ja": "装甲ドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "armored gloves",
+    "ja": "装甲手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "armored leotard",
+    "ja": "装甲レオタード",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "arms at sides",
+    "ja": "側面の腕",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "arrancar",
+    "ja": "破面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "arrow (projectile)",
+    "ja": "矢印（発射体）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "art program in frame",
+    "ja": "画面内の描画ソフト",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "art tools in frame",
+    "ja": "画面内の画材",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -506,6 +892,17 @@
     "proposedJa": null
   },
   {
+    "tag": "athletic leotard",
+    "ja": "体操レオタード",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "aunt and niece",
     "ja": "叔母とnie",
     "major": "未分類",
@@ -556,6 +953,50 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "back-seamed legwear",
+    "ja": "後ろの脚の服装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "backless outfit",
+    "ja": "バックレスの衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "backlight",
+    "ja": "逆光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "backlighting",
+    "ja": "逆光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -627,6 +1068,17 @@
     "proposedJa": null
   },
   {
+    "tag": "bear costume",
+    "ja": "クマの衣装",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "beatmania (series)",
     "ja": "beatmania（シリーズ）",
     "major": "作品・キャラクター",
@@ -660,12 +1112,56 @@
     "proposedJa": null
   },
   {
+    "tag": "bikini shorts",
+    "ja": "比基尼短裤",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "bikini skirt",
+    "ja": "比基尼裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "bkub",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "black background",
+    "ja": "黒色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "black halo",
+    "ja": "黒い光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -682,12 +1178,56 @@
     "proposedJa": null
   },
   {
+    "tag": "blood on ground",
+    "ja": "地面に血",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blood stain",
+    "ja": "血液染色",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "bloop (gawr gura)",
     "ja": "",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blue background",
+    "ja": "青色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blue dress",
+    "ja": "青色のドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -704,12 +1244,111 @@
     "proposedJa": null
   },
   {
+    "tag": "blue pupils",
+    "ja": "青い生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "blue serafuku",
     "ja": "青いserafuku",
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blue theme",
+    "ja": "青色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blue-tinted eyewear",
+    "ja": "青い色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blush",
+    "ja": "赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "blush stickers",
+    "ja": "赤面ステッカー",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "body blush",
+    "ja": "体の赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "body freckles",
+    "ja": "体のそばかす",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "body hair",
+    "ja": "体毛",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "body writing",
+    "ja": "身体に落書き",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -726,12 +1365,639 @@
     "proposedJa": null
   },
   {
+    "tag": "bound torso",
+    "ja": "バインドされた胴体",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "bow (bhp)",
     "ja": "弓（BHP）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "bread slice",
+    "ja": "面包片",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "bridal gauntlets",
+    "ja": "新娘手套",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "bright pupils",
+    "ja": "明るい生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown",
+    "ja": "茶色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown apron",
+    "ja": "茶色のエプロン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown ascot",
+    "ja": "茶色のアスコット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown background",
+    "ja": "茶色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown bag",
+    "ja": "茶色のかばん",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown belt",
+    "ja": "茶色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown bikini",
+    "ja": "茶色のビキニ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown border",
+    "ja": "茶色の境界",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown bow",
+    "ja": "茶色のリボン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown bra",
+    "ja": "茶色のブラジャー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown capelet",
+    "ja": "茶色のカペレット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown cardigan",
+    "ja": "茶色のカーディガン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown cloak",
+    "ja": "茶色のマント",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown coat",
+    "ja": "茶色のコート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown collar",
+    "ja": "茶色の襟",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown corset",
+    "ja": "茶色のコルセット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown dress",
+    "ja": "茶色のドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown eyes",
+    "ja": "茶色の目",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown flower",
+    "ja": "茶色の花",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown footwear",
+    "ja": "茶色の履物",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown fur",
+    "ja": "茶色の毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown gloves",
+    "ja": "茶色の手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown hairband",
+    "ja": "茶色のヘアバンド",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown hat",
+    "ja": "茶色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown hoodie",
+    "ja": "茶色のパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown horns",
+    "ja": "茶色の角",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown jacket",
+    "ja": "茶色のジャケット",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown kimono",
+    "ja": "茶色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown leotard",
+    "ja": "茶色のレオタード",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown lips",
+    "ja": "茶色の唇",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown mittens",
+    "ja": "茶色のミトン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown nails",
+    "ja": "茶色の爪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown neckerchief",
+    "ja": "茶色のネッカチーフ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown necktie",
+    "ja": "茶色のネクタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown panties",
+    "ja": "茶色のパンティー",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown pants",
+    "ja": "茶色のズボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown pantyhose",
+    "ja": "茶色のパンスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown ribbon",
+    "ja": "茶色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown sash",
+    "ja": "茶色のサッシ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown scarf",
+    "ja": "茶色のスカーフ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown shirt",
+    "ja": "茶色のシャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown shorts",
+    "ja": "茶色のショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown skirt",
+    "ja": "茶色のスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown sleeves",
+    "ja": "茶色の袖",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown socks",
+    "ja": "茶色の靴下",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown sweater",
+    "ja": "茶色のセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown sweater vest",
+    "ja": "茶色のセーターベスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown tail",
+    "ja": "茶色の尾",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown theme",
+    "ja": "茶色のテーマ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown thighhighs",
+    "ja": "茶色の太もも",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown vest",
+    "ja": "茶色のベスト",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown wings",
+    "ja": "茶色の翼",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "brown-framed eyewear",
+    "ja": "茶色のフレームのアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -748,6 +2014,17 @@
     "proposedJa": null
   },
   {
+    "tag": "butterfly-shaped pupils",
+    "ja": "蝶の形をした生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "caliburn (fate)",
     "ja": "Caliburn（Fate）",
     "major": "作品・キャラクター",
@@ -759,12 +2036,56 @@
     "proposedJa": null
   },
   {
+    "tag": "camouflage",
+    "ja": "迷彩",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "candlelight",
+    "ja": "ろうそくの光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "candy wrapper",
+    "ja": "糖果包装纸",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "caressing testicles",
     "ja": "愛sist丸",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cat costume",
+    "ja": "猫の衣装",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -858,6 +2179,17 @@
     "proposedJa": null
   },
   {
+    "tag": "checkered dress",
+    "ja": "格子连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "chi-chi (dragon ball)",
     "ja": "chi-chi（ドラゴンボール）",
     "major": "その他",
@@ -891,12 +2223,45 @@
     "proposedJa": null
   },
   {
+    "tag": "chocolate on body",
+    "ja": "体にチョコレート",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "choufu shimin",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "christmas ornaments",
+    "ja": "クリスマスの装飾品",
+    "major": "シチュエーション",
+    "minor": "イベント",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "chromatic aberration",
+    "ja": "色収差",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -924,12 +2289,199 @@
     "proposedJa": null
   },
   {
+    "tag": "clothed female nude female",
+    "ja": "着衣女性と裸体女性",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "clothed male nude female",
+    "ja": "着衣男性と裸の女性",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "coat dress",
+    "ja": "外套连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "coif",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "color connection",
+    "ja": "色接続",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "color guide",
+    "ja": "色指定表",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored extremities",
+    "ja": "四肢の着色",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored eyelashes",
+    "ja": "色付きのまつげ",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored inner animal ears",
+    "ja": "内側に色が付いた動物耳",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored inner hair",
+    "ja": "色付きの内なる髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored nipples",
+    "ja": "色付きの乳首",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored sclera",
+    "ja": "色付き強膜",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored shadow",
+    "ja": "色付きの影",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored shoe soles",
+    "ja": "色付きの靴底",
+    "major": "服装",
+    "minor": "靴",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored skin",
+    "ja": "色付きの肌",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored speech bubble",
+    "ja": "色付きの吹き出し",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored tips",
+    "ja": "色付きのヒント",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "colored tongue",
+    "ja": "色付きの舌",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -957,12 +2509,67 @@
     "proposedJa": null
   },
   {
+    "tag": "constricted pupils",
+    "ja": "くびれた生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cool colors",
+    "ja": "寒色",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "corpse",
+    "ja": "死体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "costume switch",
+    "ja": "衣装チェンジ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "cougar (cougar1404)",
     "ja": "クーガー（cougar1404）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cover",
+    "ja": "封面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1012,6 +2619,50 @@
     "proposedJa": null
   },
   {
+    "tag": "cropped torso",
+    "ja": "トリミングされた胴体",
+    "major": "構図・視点",
+    "minor": "構図",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cross-section",
+    "ja": "断面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cross-shaped pupils",
+    "ja": "クロス型の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "crossdressing",
+    "ja": "異性装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "cu chulainn (fate)",
     "ja": "Cu Chulainn（Fate）",
     "major": "作品・キャラクター",
@@ -1029,6 +2680,28 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cube",
+    "ja": "立方体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "cursive",
+    "ja": "筆記体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1062,6 +2735,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "dagger",
+    "ja": "短剣",
+    "major": "服装",
+    "minor": "装備",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1133,6 +2817,17 @@
     "proposedJa": null
   },
   {
+    "tag": "dappled sunlight",
+    "ja": "ちょっとした日光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "dark souls iii",
     "ja": "ダークソウルズIII",
     "major": "未分類",
@@ -1161,6 +2856,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "decora",
+    "ja": "装飾",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1210,12 +2916,45 @@
     "proposedJa": null
   },
   {
+    "tag": "disembodied eye",
+    "ja": "具体化されていない目",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "disguise",
+    "ja": "変装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "dishwasher1910",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "dissolving clothes",
+    "ja": "衣服を解散します",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1271,6 +3010,61 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "dokidoki! precure",
+    "ja": "ドキドキ！精度",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "doll joints",
+    "ja": "球体関節",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "drawing (object)",
+    "ja": "描かれた物体",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "dress lift",
+    "ja": "掀裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "dress tug",
+    "ja": "拉下裙摆",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1332,6 +3126,28 @@
     "proposedJa": null
   },
   {
+    "tag": "ear blush",
+    "ja": "耳の赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "earth (ornament)",
+    "ja": "地球（装飾）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "ebi 193",
     "ja": "",
     "major": "未分類",
@@ -1387,12 +3203,24 @@
     "proposedJa": null
   },
   {
+    "tag": "embellished costume",
+    "ja": "装飾された衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "embodiment of scarlet devil",
     "ja": "scar色の悪魔の具体化",
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1404,6 +3232,17 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "erection under clothes",
+    "ja": "衣服の下の勃起",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1453,6 +3292,50 @@
     "proposedJa": null
   },
   {
+    "tag": "exoskeleton",
+    "ja": "外骨格",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "eye mask",
+    "ja": "眼罩(面具)",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "eye trail",
+    "ja": "眼光",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "face-to-face",
+    "ja": "面と向かって",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "facebook logo",
     "ja": "Facebookのロゴ",
     "major": "未分類",
@@ -1470,6 +3353,61 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "facial tattoo",
+    "ja": "面部纹身",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "facing ahead",
+    "ja": "面朝身前",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "facing another",
+    "ja": "別の人に直面しています",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "facing viewer",
+    "ja": "対面視聴者",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "fake phone screenshot",
+    "ja": "偽のスマートフォン画面",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1596,6 +3534,17 @@
     "proposedJa": null
   },
   {
+    "tag": "fingering through clothes",
+    "ja": "衣服を通して指で",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "fire emblem echoes: shadows of valentia",
     "ja": "Fire Emblem Echoes：Balentiaの影",
     "major": "未分類",
@@ -1629,6 +3578,17 @@
     "proposedJa": null
   },
   {
+    "tag": "fishnet socks",
+    "ja": "渔网短袜",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "fkey",
     "ja": "",
     "major": "未分類",
@@ -1640,12 +3600,67 @@
     "proposedJa": null
   },
   {
+    "tag": "flat color",
+    "ja": "平らな色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "florence nightingale (fate)",
     "ja": "フローレンスナイチンゲール（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "flower on liquid",
+    "ja": "液体の花",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "fluorescent lamp",
+    "ja": "蛍光灯",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "food on body",
+    "ja": "体の食べ物",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "food packaging",
+    "ja": "食べ物包装",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1695,12 +3710,56 @@
     "proposedJa": null
   },
   {
+    "tag": "fox mask",
+    "ja": "狐面",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "frilled capelet",
     "ja": "フリルcapelet",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "from outside",
+    "ja": "外から",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "front-tie bikini top",
+    "ja": "前系比基尼上装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "frontless outfit",
+    "ja": "前面が開いた衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1772,6 +3831,17 @@
     "proposedJa": null
   },
   {
+    "tag": "full composition",
+    "ja": "全体構図",
+    "major": "構図・視点",
+    "minor": "構図",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "fumihiko (fu mihi ko)",
     "ja": "",
     "major": "未分類",
@@ -1800,6 +3870,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "funami yui",
+    "ja": "船見結衣",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1871,6 +3952,17 @@
     "proposedJa": null
   },
   {
+    "tag": "game screenshot inset",
+    "ja": "ゲーム画面の挿入カット",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "gaoo (frpjx283)",
     "ja": "",
     "major": "未分類",
@@ -1915,6 +4007,17 @@
     "proposedJa": null
   },
   {
+    "tag": "gekkoukan high school uniform",
+    "ja": "月光貫高校制服",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "genderswap (otf)",
     "ja": "",
     "major": "未分類",
@@ -1948,12 +4051,750 @@
     "proposedJa": null
   },
   {
+    "tag": "glory wall",
+    "ja": "栄光の壁",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing sword",
+    "ja": "光る剣",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "god rays",
+    "ja": "光芒",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gold armlet",
+    "ja": "金色の腕輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gold crown",
+    "ja": "金色の王冠",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gold ring",
+    "ja": "金色の指輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green background",
+    "ja": "緑色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green choker",
+    "ja": "緑色のチョーカー",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green halo",
+    "ja": "緑色の光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green hat",
+    "ja": "緑色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green lips",
+    "ja": "緑色の唇",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green pupils",
+    "ja": "緑の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green sclera",
+    "ja": "緑色の強膜",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green theme",
+    "ja": "緑色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green visor",
+    "ja": "緑色のバイザー",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "green-tinted eyewear",
+    "ja": "緑色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey apron",
+    "ja": "灰色のエプロン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey ascot",
+    "ja": "灰色のアスコット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey background",
+    "ja": "灰色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bag",
+    "ja": "灰色のバッグ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey belt",
+    "ja": "灰色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bikini",
+    "ja": "灰色のビキニ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bodysuit",
+    "ja": "灰色のボディスーツ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bow",
+    "ja": "灰色の弓",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bowtie",
+    "ja": "灰色のボウタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey bra",
+    "ja": "灰色のブラジャー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey cape",
+    "ja": "灰色のケープ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey capelet",
+    "ja": "灰色のカペレット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey cardigan",
+    "ja": "灰色のカーディガン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey cat",
+    "ja": "灰色の猫",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey choker",
+    "ja": "灰色のチョーカー",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey cloak",
+    "ja": "灰色のマント",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey dress",
+    "ja": "灰色のドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey flower",
+    "ja": "灰色の花",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey footwear",
+    "ja": "灰色の履物",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey fur",
+    "ja": "灰色の毛",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey gloves",
+    "ja": "灰色の手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey halo",
+    "ja": "灰色の光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey hat",
+    "ja": "灰色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey hoodie",
+    "ja": "灰色のパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey horns",
+    "ja": "灰色の角",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey jacket",
+    "ja": "灰色のジャケット",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey kimono",
+    "ja": "灰色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey leotard",
+    "ja": "灰色のレオタード",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey nails",
+    "ja": "灰色の爪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey neckerchief",
+    "ja": "灰色のネッカチーフ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey panties",
+    "ja": "灰色のパンティー",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey pants",
+    "ja": "灰色のズボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey ribbon",
+    "ja": "灰色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey sailor collar",
+    "ja": "灰色のセーラーカラー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey scarf",
+    "ja": "灰色のスカーフ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "grey serafuku",
     "ja": "灰色のserafuku",
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey shirt",
+    "ja": "灰色のシャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey shorts",
+    "ja": "灰色のショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey skin",
+    "ja": "灰色の肌",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey skirt",
+    "ja": "灰色のスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey sky",
+    "ja": "灰色の空",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey socks",
+    "ja": "灰色の靴下",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey sports bra",
+    "ja": "灰色のスポーツブラ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey suit",
+    "ja": "灰色のスーツ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey sweater",
+    "ja": "灰色のセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey sweater vest",
+    "ja": "灰色のセーターベスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey tail",
+    "ja": "灰色の尾",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey tank top",
+    "ja": "灰色のタンクトップ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey theme",
+    "ja": "灰色のテーマ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey thighhighs",
+    "ja": "灰色の太もも",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "grey wings",
+    "ja": "灰色の翼",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "greyscale with colored background",
+    "ja": "色付きの背景を持つグレースケール",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -1964,7 +4805,8 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2014,6 +4856,39 @@
     "proposedJa": null
   },
   {
+    "tag": "gym storeroom",
+    "ja": "体育倉庫",
+    "major": "背景・場所",
+    "minor": "施設",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gym uniform",
+    "ja": "襟付きジップアップ体操服",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gymnastics",
+    "ja": "体操",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "h&k hk416",
     "ja": "",
     "major": "未分類",
@@ -2036,12 +4911,100 @@
     "proposedJa": null
   },
   {
+    "tag": "hadanugi dousa",
+    "ja": "肌脱ぎ衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hagoromo",
+    "ja": "羽衣",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hair color connection",
+    "ja": "髪の色のつながり",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hair flowing over",
+    "ja": "髪の毛が流れます",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hakui koyori",
+    "ja": "博衣こより",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hakui koyori (1st costume)",
+    "ja": "博衣こより(通常)",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "hakurei shrine",
     "ja": "hakurei神社",
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "halloween costume",
+    "ja": "ハロウィンの衣装",
+    "major": "シチュエーション",
+    "minor": "イベント",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "halo behind head",
+    "ja": "頭の後ろの光輪",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2080,6 +5043,39 @@
     "proposedJa": null
   },
   {
+    "tag": "hand on ground",
+    "ja": "地面に手",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hand under clothes",
+    "ja": "衣服の下で手",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hands on ground",
+    "ja": "手に渡って地面",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "happoubi jin",
     "ja": "",
     "major": "未分類",
@@ -2097,6 +5093,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "harem outfit",
+    "ja": "ハーレムの衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2124,6 +5131,17 @@
     "proposedJa": null
   },
   {
+    "tag": "hasumi (track) (blue archive)",
+    "ja": "羽川ハスミ(体操服)",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "hawks (boku no hero academia)",
     "ja": "ホークス（Boku No Hero Academia）",
     "major": "作品・キャラクター",
@@ -2141,6 +5159,28 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "health bar",
+    "ja": "体力ゲージ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "heart-shaped pupils",
+    "ja": "ハート型の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2174,6 +5214,28 @@
     "minor": "自然",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "high-low skirt",
+    "ja": "高低裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "high-visibility clothing",
+    "ja": "高視認性衣類",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2245,6 +5307,17 @@
     "proposedJa": null
   },
   {
+    "tag": "hisakawa nagi",
+    "ja": "渡川西",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "hisona (suaritesumi)",
     "ja": "ヒノナ（suariteumi）",
     "major": "未分類",
@@ -2278,12 +5351,34 @@
     "proposedJa": null
   },
   {
+    "tag": "holding dagger",
+    "ja": "短剣を保持します",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "holding gohei",
     "ja": "Goheiを保持します",
     "major": "ポーズ・動作",
     "minor": "行動",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "holding removed eyewear",
+    "ja": "外した眼鏡を持つ",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2300,12 +5395,56 @@
     "proposedJa": null
   },
   {
+    "tag": "holding unworn clothes",
+    "ja": "手持未穿戴的服装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hole on body",
+    "ja": "体の穴",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "holographic interface",
+    "ja": "ホログラフィック界面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "hololive dev is",
     "ja": "ホロライブDEV_IS",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hololive idol uniform (origin)",
+    "ja": "オリジン衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2328,6 +5467,28 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "horizontal pupils",
+    "ja": "水平生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "horseshoe ornament",
+    "ja": "蹄鉄の装飾",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2393,7 +5554,8 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2448,7 +5610,8 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2509,17 +5672,6 @@
     "proposedJa": null
   },
   {
-    "tag": "imizu (nitro unknown)",
-    "ja": "イミズ（ニトロ不明）",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "likely-literal-or-machine-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "imu sanjo",
     "ja": "",
     "major": "未分類",
@@ -2559,6 +5711,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "instrument case",
+    "ja": "計装ケース",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2764,6 +5927,17 @@
     "proposedJa": null
   },
   {
+    "tag": "jiangshi costume",
+    "ja": "江神の衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "jinguu (4839ms)",
     "ja": "",
     "major": "未分類",
@@ -2792,6 +5966,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "josou seme",
+    "ja": "女装攻め",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -2891,6 +6076,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "kamen rider",
+    "ja": "仮面ライダー",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3050,12 +6246,34 @@
     "proposedJa": null
   },
   {
+    "tag": "kinugasa (kancolle)",
+    "ja": "衣笠(艦隊これくしょん)",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "kirakira precure a la mode",
     "ja": "Kirakira Precure a laモード",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "kirin (armor)",
+    "ja": "キリン装備",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3078,6 +6296,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "konjiki no yami",
+    "ja": "金色の闇",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3149,6 +6378,17 @@
     "proposedJa": null
   },
   {
+    "tag": "kourindou tengu costume",
+    "ja": "香霖堂天狗装束",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "koyama shigeru",
     "ja": "小山shigeru",
     "major": "未分類",
@@ -3215,6 +6455,28 @@
     "proposedJa": null
   },
   {
+    "tag": "lab coat",
+    "ja": "白衣",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "lactation through clothes",
+    "ja": "衣服による授乳",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "lappland (arknights)",
     "ja": "ラップランド（arknights）",
     "major": "作品・キャラクター",
@@ -3248,12 +6510,34 @@
     "proposedJa": null
   },
   {
+    "tag": "laundry",
+    "ja": "洗衣",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "leonardo da vinci (fate)",
     "ja": "レオナルド・ダ・ヴィンチ（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "leotard under clothes",
+    "ja": "衣服の下にレオタード",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3281,6 +6565,50 @@
     "proposedJa": null
   },
   {
+    "tag": "light blue hair",
+    "ja": "水色の髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "light blush",
+    "ja": "軽い赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "light particles",
+    "ja": "光粒子",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "light rays",
+    "ja": "光線",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "linear hatching",
     "ja": "線形hatch化",
     "major": "未分類",
@@ -3303,12 +6631,45 @@
     "proposedJa": null
   },
   {
+    "tag": "liquid",
+    "ja": "液体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "liquid hair",
+    "ja": "液体の髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "lolidom",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "looking outside",
+    "ja": "外を見る",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3353,6 +6714,39 @@
     "minor": "自然",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "love live! sunshine!!",
+    "ja": "ライブが大好き！日光！！",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "low twintails",
+    "ja": "低い小売",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "lowleg skirt",
+    "ja": "低腰裙子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3446,6 +6840,28 @@
     "proposedJa": null
   },
   {
+    "tag": "maid apron",
+    "ja": "女仆围裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "mari (track) (blue archive)",
+    "ja": "伊落マリー(体操服)",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "marie antoinette (fate)",
     "ja": "マリー・アントワネット（Fate）",
     "major": "作品・キャラクター",
@@ -3474,6 +6890,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "matching outfits",
+    "ja": "お揃いの衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3518,6 +6945,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "medium dress",
+    "ja": "中号连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3589,6 +7027,28 @@
     "proposedJa": null
   },
   {
+    "tag": "meme",
+    "ja": "海外ミーム",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "meme attire",
+    "ja": "ミームの服装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "menma (enaic31)",
     "ja": "メンマ（enaic31）",
     "major": "未分類",
@@ -3617,6 +7077,28 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "metamoran vest",
+    "ja": "メタモル星人の民族衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "meteor shower",
+    "ja": "流星群",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3661,6 +7143,17 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "military combat uniform",
+    "ja": "現代個人装具",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3721,6 +7214,17 @@
     "proposedJa": null
   },
   {
+    "tag": "minato aqua (sailor)",
+    "ja": "湊あくあ(セーラー衣装)",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "minecraft youtube",
     "ja": "",
     "major": "未分類",
@@ -3738,6 +7242,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "mismatched pupils",
+    "ja": "不一致の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3831,6 +7346,28 @@
     "proposedJa": null
   },
   {
+    "tag": "moon (ornament)",
+    "ja": "月（装飾）",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "moonlight",
+    "ja": "月光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "mordred (fate)",
     "ja": "mordred（Fate）",
     "major": "作品・キャラクター",
@@ -3919,6 +7456,314 @@
     "proposedJa": null
   },
   {
+    "tag": "multi-strapped panties",
+    "ja": "多系带内裤",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored background",
+    "ja": "多色の背景",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored bodysuit",
+    "ja": "多色のボディスーツ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored bow",
+    "ja": "多色の弓",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored bowtie",
+    "ja": "多色のボウタイ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored cape",
+    "ja": "多色のケープ",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored clothes",
+    "ja": "多色の服",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored coat",
+    "ja": "多色のコート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored dress",
+    "ja": "多色のドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored eyes",
+    "ja": "多色の目",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored footwear",
+    "ja": "多色の履物",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored fur",
+    "ja": "多色の毛皮",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored gloves",
+    "ja": "多色の手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored hair",
+    "ja": "二色髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored hairband",
+    "ja": "多色ヘアバンド",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored hat",
+    "ja": "多色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored hoodie",
+    "ja": "多色のパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored horns",
+    "ja": "多色ホーン",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored jacket",
+    "ja": "多色のジャケット",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored kimono",
+    "ja": "多色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored leotard",
+    "ja": "多色のレオタード",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored ribbon",
+    "ja": "多色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored scarf",
+    "ja": "多色のスカーフ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored shirt",
+    "ja": "多色のシャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored skin",
+    "ja": "多色の肌",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored skirt",
+    "ja": "多色のスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored tail",
+    "ja": "多色の尾",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "multicolored wings",
+    "ja": "多色の翼",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "multiple 4koma",
     "ja": "複数の4koma",
     "major": "未分類",
@@ -3930,12 +7775,34 @@
     "proposedJa": null
   },
   {
+    "tag": "mummy costume",
+    "ja": "ミイラの衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "murakami suigun",
     "ja": "村上suigun",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "muted color",
+    "ja": "落ち着いた色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -3958,6 +7825,17 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nagae iku",
+    "ja": "永江衣玖",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4024,6 +7902,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "natsuiro matsuri",
+    "ja": "夏色まつり",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4140,6 +8029,83 @@
     "proposedJa": null
   },
   {
+    "tag": "ningguang (genshin impact)",
+    "ja": "凝光",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishi kinuyo",
+    "ja": "西キヌヨ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishi koutarou",
+    "ja": "西・クタロウ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishikigi chisato",
+    "ja": "西キサート",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishizumi maho",
+    "ja": "西方マホ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishizumi miho",
+    "ja": "西島ミホ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nishizumi shiho",
+    "ja": "西住しほ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "nitocris (fate)",
     "ja": "ニトクリス（Fate）",
     "major": "作品・キャラクター",
@@ -4173,6 +8139,17 @@
     "proposedJa": null
   },
   {
+    "tag": "no pupils",
+    "ja": "生徒はいません",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "no testicles",
     "ja": "test丸はありません",
     "major": "未分類",
@@ -4195,6 +8172,17 @@
     "proposedJa": null
   },
   {
+    "tag": "noh mask",
+    "ja": "能剧面具",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "nori tamago",
     "ja": "",
     "major": "未分類",
@@ -4212,6 +8200,17 @@
     "minor": "色",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "nose blush",
+    "ja": "鼻の赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4250,6 +8249,28 @@
     "proposedJa": null
   },
   {
+    "tag": "object namesake",
+    "ja": "名前の由来となった物体",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "object through head",
+    "ja": "頭を貫通する物体",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "oda nobunaga (fate)",
     "ja": "oda nobunaga（Fate）",
     "major": "作品・キャラクター",
@@ -4278,6 +8299,50 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "oekakizuki",
+    "ja": "西海",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "official alternate eye color",
+    "ja": "公式の別の目の色",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "official alternate hair color",
+    "ja": "公式の代替髪の色",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "ofuda on clothes",
+    "ja": "衣服の中",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4327,12 +8392,56 @@
     "proposedJa": null
   },
   {
+    "tag": "on ground",
+    "ja": "地面に",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "one-piece swimsuit pull",
+    "ja": "连体泳衣拉扯",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "one-piece thong",
+    "ja": "连体丁字裤",
+    "major": "服装",
+    "minor": "下着・水着",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "onegai my melody",
     "ja": "Onegai私のメロディー",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "oni mask",
+    "ja": "鬼の面",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4426,12 +8535,386 @@
     "proposedJa": null
   },
   {
+    "tag": "orange ascot",
+    "ja": "オレンジ色のアスコット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange background",
+    "ja": "オレンジ色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange belt",
+    "ja": "オレンジ色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange bodysuit",
+    "ja": "オレンジ色のボディスーツ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange bow",
+    "ja": "オレンジ色の弓",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange bra",
+    "ja": "橙色胸罩",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange coat",
+    "ja": "オレンジ色のコート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange footwear",
+    "ja": "オレンジ色の履物",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange fur",
+    "ja": "オレンジ色の毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange gloves",
+    "ja": "橙手套",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange hairband",
+    "ja": "オレンジ色のヘアバンド",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange halo",
+    "ja": "オレンジ色の光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange hat",
+    "ja": "オレンジ色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange headband",
+    "ja": "オレンジ色のヘッドバンド",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange hoodie",
+    "ja": "オレンジ色のパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange kimono",
+    "ja": "オレンジ色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange nails",
+    "ja": "オレンジ色の爪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange necktie",
+    "ja": "オレンジ色のネクタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange pupils",
+    "ja": "オレンジの生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange ribbon",
+    "ja": "オレンジ色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange rose",
+    "ja": "オレンジ色のバラ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange sailor collar",
+    "ja": "オレンジ色の船乗り",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange scarf",
+    "ja": "オレンジ色のスカーフ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange scrunchie",
+    "ja": "オレンジ色のシュシュ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange shirt",
+    "ja": "オレンジ色のシャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange shorts",
+    "ja": "オレンジ色のショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange skin",
+    "ja": "オレンジ色の肌",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange slice",
+    "ja": "オレンジ色のスライス",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange sweater",
+    "ja": "オレンジ色のセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange theme",
+    "ja": "オレンジ色のテーマ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange thighhighs",
+    "ja": "オレンジ色の太もも",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange vest",
+    "ja": "オレンジ色のベスト",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "orange-tinted eyewear",
+    "ja": "オレンジ色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "ore no imouto ga konna ni kawaii wake ga nai",
     "ja": "鉱石no imouto ga konna ni kawaii wake ga nai",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "ornate border",
+    "ja": "装飾的な枠線",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4481,6 +8964,72 @@
     "proposedJa": null
   },
   {
+    "tag": "out-of-frame censoring",
+    "ja": "フレーム外の検閲",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "outdoors",
+    "ja": "屋外",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "outside border",
+    "ja": "外の国境",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "overall shorts",
+    "ja": "全体的なショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "overall skirt",
+    "ja": "全体的なスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "overskirt",
+    "ja": "罩裙",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "oyama mihari",
     "ja": "大山mihari",
     "major": "未分類",
@@ -4514,6 +9063,17 @@
     "proposedJa": null
   },
   {
+    "tag": "pale color",
+    "ja": "淡い色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "panty (psg)",
     "ja": "パンティー（PSG）",
     "major": "成人向け",
@@ -4525,12 +9085,56 @@
     "proposedJa": null
   },
   {
+    "tag": "panty lift",
+    "ja": "内裤提起",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "partially colored",
+    "ja": "部分的に色",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "partially unbuttoned",
+    "ja": "部分的にボタンを外した",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "patreon username",
     "ja": "Patreonユーザー名",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pavement",
+    "ja": "舗装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4558,12 +9162,111 @@
     "proposedJa": null
   },
   {
+    "tag": "petals on liquid",
+    "ja": "液体の花びら",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "phantom ix row",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink belt",
+    "ja": "ピンク色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink fur",
+    "ja": "ピンク色の毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink halo",
+    "ja": "ピンク色の光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink petals",
+    "ja": "ピンク色の花びら",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink pupils",
+    "ja": "ピンクの生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink socks",
+    "ja": "ピンク色の靴下",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink theme",
+    "ja": "ピンク色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pink-tinted eyewear",
+    "ja": "ピンク色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4613,6 +9316,17 @@
     "proposedJa": null
   },
   {
+    "tag": "plaid clothes",
+    "ja": "格子衣服",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "playstation controller",
     "ja": "PlayStationコントローラー",
     "major": "未分類",
@@ -4630,6 +9344,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pleated dress",
+    "ja": "竖皱连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4734,12 +9459,34 @@
     "proposedJa": null
   },
   {
+    "tag": "poster (medium)",
+    "ja": "ポスター（媒体）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "pote (ptkan)",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "pouring onto self",
+    "ja": "自分に液体をかける",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4767,12 +9514,551 @@
     "proposedJa": null
   },
   {
+    "tag": "prone bone",
+    "ja": "バックの体位",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "puffy detached sleeves",
+    "ja": "膨らんだ取り外し可能な袖",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "punishing: gray raven",
+    "ja": "罰：灰色のレイヴン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple armor",
+    "ja": "紫色の鎧",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple ascot",
+    "ja": "紫色のアスコット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple background",
+    "ja": "紫色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple belt",
+    "ja": "紫色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple border",
+    "ja": "紫色の境界線",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple bowtie",
+    "ja": "紫色のボウタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple collar",
+    "ja": "紫色の襟",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple dress",
+    "ja": "紫色のドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple flower",
+    "ja": "紫色の花",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple footwear",
+    "ja": "紫色の履物",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple fur",
+    "ja": "紫色の毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple gemstone",
+    "ja": "紫色の宝石",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple gloves",
+    "ja": "紫色の手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple halo",
+    "ja": "紫の光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple hat",
+    "ja": "紫色の帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple hoodie",
+    "ja": "紫色のパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple jacket",
+    "ja": "紫色のジャケット",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple kimono",
+    "ja": "紫色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple neckerchief",
+    "ja": "紫色のネッカチーフ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple necktie",
+    "ja": "紫色のネクタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple one-piece swimsuit",
+    "ja": "紫色のワンピース水着",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple pants",
+    "ja": "紫色のズボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple pantyhose",
+    "ja": "紫色のパンスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple ribbon",
+    "ja": "紫色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple robe",
+    "ja": "紫色のローブ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple rope",
+    "ja": "紫色のロープ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple rose",
+    "ja": "紫色のバラ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple shorts",
+    "ja": "紫色のショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple skin",
+    "ja": "紫色の肌",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple sleeves",
+    "ja": "紫色の袖",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple socks",
+    "ja": "紫色の靴下",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple sweater",
+    "ja": "紫色のセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple theme",
+    "ja": "紫を基調とした配色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple tongue",
+    "ja": "紫色の舌",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple umbrella",
+    "ja": "紫色の傘",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple veil",
+    "ja": "紫色のベール",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple vest",
+    "ja": "紫色のベスト",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple wings",
+    "ja": "紫色の翼",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple-framed eyewear",
+    "ja": "紫色のフレームのアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "purple-tinted eyewear",
+    "ja": "紫色の色合いのアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "qixiong ruqun",
+    "ja": "齐胸襦裙",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "qqqrinkappp",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rabbit costume",
+    "ja": "ウサギの衣装",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "raiden mei",
+    "ja": "雷電芽衣",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rainbow colors",
+    "ja": "虹色",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rainbow gradient",
+    "ja": "虹色のグラデーション",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rainbow hair",
+    "ja": "虹色の髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4800,6 +10086,17 @@
     "proposedJa": null
   },
   {
+    "tag": "ray gun",
+    "ja": "光線銃",
+    "major": "服装",
+    "minor": "装備",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "re ghotion",
     "ja": "",
     "major": "未分類",
@@ -4811,12 +10108,122 @@
     "proposedJa": null
   },
   {
+    "tag": "rectangular halo",
+    "ja": "四角い光輪",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "red background",
+    "ja": "赤色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "red fur",
+    "ja": "赤色の毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "red theme",
+    "ja": "赤を基調とした配色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "reflective water",
+    "ja": "反射する水面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "reindeer costume",
+    "ja": "トナカイの衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "reiuji utsuho (bird)",
     "ja": "reiuji utsuho（鳥）",
     "major": "その他",
     "minor": "動物",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rensouhou-chan",
+    "ja": "連装砲ちゃん",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rensouhou-kun",
+    "ja": "連装砲くん",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "revealing clothes",
+    "ja": "エロ衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "reverse outfit",
+    "ja": "リバース衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4839,6 +10246,17 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "rigging",
+    "ja": "艤装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4944,12 +10362,34 @@
     "proposedJa": null
   },
   {
+    "tag": "ryoumen sukuna (jujutsu kaisen)",
+    "ja": "両面宿儺（呪術廻戦）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "saiguchi otoufu",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "saigyouji yuyuko",
+    "ja": "西行寺幽々子",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -4977,12 +10417,45 @@
     "proposedJa": null
   },
   {
+    "tag": "sakamata chloe (1st costume)",
+    "ja": "沙花叉クロヱ（1st衣装）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "saki (manga)",
     "ja": "咲-saki-",
     "major": "画風・品質",
     "minor": "画風",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "sanshoku dango",
+    "ja": "三色団子",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "santa costume",
+    "ja": "サンタの衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5021,6 +10494,17 @@
     "proposedJa": null
   },
   {
+    "tag": "scenery",
+    "ja": "景色",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "schwarz (arknights)",
     "ja": "シュワルツ（arknights）",
     "major": "作品・キャラクター",
@@ -5038,6 +10522,39 @@
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "scowl",
+    "ja": "しかめ面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "screen",
+    "ja": "画面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "see-through body",
+    "ja": "透けた身体",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5098,23 +10615,56 @@
     "proposedJa": null
   },
   {
-    "tag": "shigure ui (vtuber)",
-    "ja": "シギュアUI（vtuber）",
-    "major": "作品・キャラクター",
-    "minor": "作者・配信者",
+    "tag": "shared object insertion",
+    "ja": "同じ物体の挿入",
+    "major": "その他",
+    "minor": "物",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "shimada arisu",
-    "ja": "島田Arisu",
+    "tag": "shark costume",
+    "ja": "サメの衣装",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shenhe (genshin impact)",
+    "ja": "申鹤",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shichimenchou",
+    "ja": "七面鳥",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shikishi",
+    "ja": "ミニ色紙",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5153,23 +10703,265 @@
     "proposedJa": null
   },
   {
-    "tag": "shippou (pattern)",
-    "ja": "Shippou（パターン）",
+    "tag": "shiny and normal",
+    "ja": "色違いと通常色",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "shiroko (swimsuit) (blue archive)",
-    "ja": "Shiroko（水着）（ブルーアーカイブ）",
+    "tag": "shiny clothes",
+    "ja": "光沢のある服",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shiny legwear",
+    "ja": "光沢のあるレッグウェア",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shiny pokemon",
+    "ja": "光沢のあるポケモン",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shiny skin",
+    "ja": "光沢のある肌",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shiny swimsuit",
+    "ja": "光沢のある水着",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shiroko terror (blue archive)",
+    "ja": "砂狼シロコ(色彩)",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shooting star",
+    "ja": "流れ星",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short bangs",
+    "ja": "短い前髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short dress",
+    "ja": "短いドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short eyebrows",
+    "ja": "短い眉",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short jumpsuit",
+    "ja": "短いジャンプスーツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short kimono",
+    "ja": "短い着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short necktie",
+    "ja": "短いネクタイ",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short over long sleeves",
+    "ja": "長袖の上に半袖を重ねた服装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short ponytail",
+    "ja": "短いポニーテール",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short shorts",
+    "ja": "短い半ズボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short sidetail",
+    "ja": "短いサイドテール",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short sword",
+    "ja": "短い剣",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short tail",
+    "ja": "短い尾",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short twintails",
+    "ja": "短いツインテール",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "short-sleeved sweater",
+    "ja": "短袖のセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shortstack",
+    "ja": "小柄でグラマーな体型",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "shoulder blush",
+    "ja": "肩の赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5197,6 +10989,17 @@
     "proposedJa": null
   },
   {
+    "tag": "sideless outfit",
+    "ja": "サイドレスの衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "sig sauer",
     "ja": "",
     "major": "未分類",
@@ -5208,12 +11011,34 @@
     "proposedJa": null
   },
   {
-    "tag": "silence suzuka (umamusume)",
-    "ja": "鈴鹿（umamusume）を沈黙させる",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
+    "tag": "silver dress",
+    "ja": "銀色のドレス",
+    "major": "服装",
+    "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "single off shoulder",
+    "ja": "片側だけ肩を出した服装",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "sink",
+    "ja": "流し",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5236,6 +11061,28 @@
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "slap mark",
+    "ja": "平手打ちの跡",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "slapping",
+    "ja": "平手打ち",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5274,12 +11121,34 @@
     "proposedJa": null
   },
   {
+    "tag": "soft lighting",
+    "ja": "柔らかな光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "sorimachi-doufu",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "souryuu asuka langley",
+    "ja": "惣流・アスカ・ラングレー",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5296,12 +11165,12 @@
     "proposedJa": null
   },
   {
-    "tag": "special week (umamusume)",
-    "ja": "特別週（umamusume）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
+    "tag": "sparkle",
+    "ja": "光エフェクト",
+    "major": "未分類",
+    "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5318,8 +11187,63 @@
     "proposedJa": null
   },
   {
+    "tag": "sphere earrings",
+    "ja": "球体のイヤリング",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "split screen",
+    "ja": "画面分割",
+    "major": "構図・視点",
+    "minor": "構図",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "spoken blush",
+    "ja": "話しかけられた赤面",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "spoken object",
+    "ja": "吹き出し内の物体",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "spoken zzz",
-    "ja": "話されたZzz",
+    "ja": "吹き出し内のZZZマーク",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "spy x family",
+    "ja": "SPY×FAMILY",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -5340,12 +11264,101 @@
     "proposedJa": null
   },
   {
+    "tag": "ssss.gridman",
+    "ja": "SSSS.GRIDMAN",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "standing on liquid",
+    "ja": "液体の上に立つ",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "steaming body",
+    "ja": "湯気の立つ体",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "stitched torso",
+    "ja": "縫い合わされた胴体",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "stocking (psg)",
     "ja": "ストッキング（PSG）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "straight-on",
+    "ja": "正面",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "straitjacket",
+    "ja": "拘束衣",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "stream",
+    "ja": "水の流れ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "streaming tears",
+    "ja": "涙を流す",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5362,12 +11375,67 @@
     "proposedJa": null
   },
   {
+    "tag": "strike witches",
+    "ja": "魔女を打つ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "suggestive fluid",
+    "ja": "示唆的な液体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "sunlight",
+    "ja": "日光",
+    "major": "光・色彩",
+    "minor": "照明",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "superhero costume",
+    "ja": "スーパーヒーローの衣装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "surtr (arknights)",
     "ja": "ストア（arknights）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "suspended congress",
+    "ja": "議会を一時停止",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5395,12 +11463,34 @@
     "proposedJa": null
   },
   {
+    "tag": "swept bangs",
+    "ja": "流した前髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "sword art online: alicization",
     "ja": "剣アートオンライン：alicization",
     "major": "その他",
     "minor": "物",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "symbol-shaped pupils",
+    "ja": "シンボル形の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5527,6 +11617,72 @@
     "proposedJa": null
   },
   {
+    "tag": "tangzhuang",
+    "ja": "唐装",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tantou",
+    "ja": "短刀",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tanzaku",
+    "ja": "短冊",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "taut dress",
+    "ja": "紧绷的连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "teacher and student",
+    "ja": "教師と生徒",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tengu mask",
+    "ja": "天狗の面",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "tera online",
     "ja": "",
     "major": "未分類",
@@ -5582,6 +11738,72 @@
     "proposedJa": null
   },
   {
+    "tag": "thong bikini",
+    "ja": "丁字裤比基尼",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "thong leotard",
+    "ja": "丁字裤紧身衣",
+    "major": "服装",
+    "minor": "下着・水着",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "through medium",
+    "ja": "打破次元壁",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "through screen",
+    "ja": "画面を通して",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tight dress",
+    "ja": "紧身连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tinted eyewear",
+    "ja": "着色アイウェア",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "tk8d32",
     "ja": "",
     "major": "未分類",
@@ -5626,12 +11848,34 @@
     "proposedJa": null
   },
   {
+    "tag": "tokoyami towa (jirai kei)",
+    "ja": "常闇トワ(私服衣装)",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "tomoe gozen (fate)",
     "ja": "TomoeGozen（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "torso grab",
+    "ja": "胴体掴み",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5681,12 +11925,45 @@
     "proposedJa": null
   },
   {
+    "tag": "traditional halo",
+    "ja": "伝統的な光輪",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "traditional youkai",
     "ja": "伝統的なYoukai",
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "transformers: generation 1",
+    "ja": "戦え!超ロボット生命体トランスフォーマー",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "tropical-rouge! precure",
+    "ja": "トロピカルルージュ！精度",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5714,6 +11991,28 @@
     "proposedJa": null
   },
   {
+    "tag": "turtleneck dress",
+    "ja": "高领毛衣连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "twisted torso",
+    "ja": "ねじれた胴体",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "twitter logo",
     "ja": "Twitterロゴ",
     "major": "未分類",
@@ -5731,6 +12030,116 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided coat",
+    "ja": "両面コート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided dress",
+    "ja": "両面ドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided fabric",
+    "ja": "両面生地",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided headwear",
+    "ja": "両面帽子",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided jacket",
+    "ja": "両面ジャケット",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-sided skirt",
+    "ja": "両面スカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-tone coat",
+    "ja": "双色外套",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-tone dress",
+    "ja": "双色连衣裙",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-tone gloves",
+    "ja": "双色手套",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "two-tone hair",
+    "ja": "二色髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5758,6 +12167,17 @@
     "proposedJa": null
   },
   {
+    "tag": "uchikake",
+    "ja": "打掛",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "uehara ayumu",
     "ja": "上海ayumu",
     "major": "未分類",
@@ -5780,12 +12200,100 @@
     "proposedJa": null
   },
   {
+    "tag": "ufo",
+    "ja": "未確認飛行物体",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "uiharu kazari",
+    "ja": "西カザリ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "unamused",
+    "ja": "面白くない",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "unbuttoned",
+    "ja": "ボタンを外した",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "uneven twintails",
+    "ja": "不均一な小売り",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "unworn eyewear",
+    "ja": "外した眼鏡",
+    "major": "服装",
+    "minor": "小物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "unworn gloves",
+    "ja": "手袋が取り外されました",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "unya",
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "japanese-translation-missing"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "uruha rushia (1st costume)",
+    "ja": "潤羽るしあ（1st衣装）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5825,6 +12333,28 @@
     "proposedJa": null
   },
   {
+    "tag": "utility belt",
+    "ja": "工具腰带",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "vampire costume",
+    "ja": "吸血鬼の衣装",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "varia suit",
     "ja": "Variaスーツ",
     "major": "未分類",
@@ -5842,6 +12372,50 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "very short hair",
+    "ja": "非常に短い髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "vibrant colors",
+    "ja": "鮮やかな色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "vignetting",
+    "ja": "周辺減光",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "virgin killer outfit",
+    "ja": "ヴァージンキラーの衣装",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5892,6 +12466,72 @@
     "proposedJa": null
   },
   {
+    "tag": "waist cape",
+    "ja": "裙摆",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "walking on liquid",
+    "ja": "液体の上を歩く",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "wanderer (genshin impact)",
+    "ja": "流浪者",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "warm colors",
+    "ja": "暖色",
+    "major": "光・色彩",
+    "minor": "色調",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "warrior of light (ff14)",
+    "ja": "光の戦士(FF14)",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "watercolor painting",
+    "ja": "水彩画",
+    "major": "画風・品質",
+    "minor": "画風",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "weibo logo",
     "ja": "Weiboロゴ",
     "major": "未分類",
@@ -5909,6 +12549,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "western dragon",
+    "ja": "西ドラゴン",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -5936,6 +12587,39 @@
     "proposedJa": null
   },
   {
+    "tag": "white eyelashes",
+    "ja": "白色睫毛",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "white halo",
+    "ja": "白い光輪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "white pupils",
+    "ja": "白人の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "white serafuku",
     "ja": "白いserafuku",
     "major": "光・色彩",
@@ -5947,12 +12631,34 @@
     "proposedJa": null
   },
   {
+    "tag": "white-framed eyewear",
+    "ja": "白色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "witch (madoka magica)",
     "ja": "魔女（Madoka Magica）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "x-shaped pupils",
+    "ja": "X字型の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "likely-literal-or-machine-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
@@ -6057,6 +12763,744 @@
     "proposedJa": null
   },
   {
+    "tag": "yellow",
+    "ja": "黄色",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow apron",
+    "ja": "黄色いエプロン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow armband",
+    "ja": "黄色い腕章",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow ascot",
+    "ja": "黄色いアスコット",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow background",
+    "ja": "黄色背景",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bag",
+    "ja": "黄色のバッグ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow belt",
+    "ja": "黄色のベルト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bikini",
+    "ja": "黄色のビキニ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bodysuit",
+    "ja": "黄色のボディスーツ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow border",
+    "ja": "黄色の境界",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bow",
+    "ja": "黄色い弓",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bowtie",
+    "ja": "黄色いボウタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow bra",
+    "ja": "黄色いブラジャー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow butterfly",
+    "ja": "黄色の蝶",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow camisole",
+    "ja": "黄色のキャミソール",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow cape",
+    "ja": "黄色のケープ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow choker",
+    "ja": "黄色のチョーカー",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow coat",
+    "ja": "黄色のコート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow dress",
+    "ja": "黄色いドレス",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow feathers",
+    "ja": "黄色の羽",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow flower",
+    "ja": "黄色い花",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow footwear",
+    "ja": "黄色の履物",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow fur",
+    "ja": "黄色い毛皮",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow gemstone",
+    "ja": "黄色の宝石",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow gloves",
+    "ja": "黄色の手袋",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow hairband",
+    "ja": "黄色のヘアバンド",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow halo",
+    "ja": "黄色のハロー",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow hat",
+    "ja": "黄色い帽子",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow hoodie",
+    "ja": "黄色いパーカー",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow horns",
+    "ja": "黄色の角",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow kimono",
+    "ja": "黄色の着物",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow leotard",
+    "ja": "黄色のレオタード",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow nails",
+    "ja": "黄色の爪",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow neckerchief",
+    "ja": "黄色のネッカチーフ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow necktie",
+    "ja": "黄色のネクタイ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow one-piece swimsuit",
+    "ja": "黄色のワンピース水着",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow outline",
+    "ja": "黄色のアウトライン",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow panties",
+    "ja": "黄色のパンティー",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow pants",
+    "ja": "黄色のズボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow pantyhose",
+    "ja": "黄色のパンスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow pupils",
+    "ja": "黄色の生徒",
+    "major": "人物",
+    "minor": "種族・役割",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation",
+      "likely-literal-or-machine-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow raincoat",
+    "ja": "黄色のレインコート",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow ribbon",
+    "ja": "黄色のリボン",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow rose",
+    "ja": "黄色のバラ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sailor collar",
+    "ja": "黄色い船乗りの首輪",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sash",
+    "ja": "黄色いサッシ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow scarf",
+    "ja": "黄色のスカーフ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sclera",
+    "ja": "黄色硬化",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow scrunchie",
+    "ja": "黄色のシュシュ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow shirt",
+    "ja": "黄色のシャツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow shorts",
+    "ja": "黄色のショートパンツ",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow skin",
+    "ja": "黄色い肌",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow skirt",
+    "ja": "黄色のスカート",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sky",
+    "ja": "黄色い空",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sleeves",
+    "ja": "黄色の袖",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow socks",
+    "ja": "黄色の靴下",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sweater",
+    "ja": "黄色いセーター",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow sweater vest",
+    "ja": "黄色のセーターベスト",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow tail",
+    "ja": "黄色の尾",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow tank top",
+    "ja": "黄色のタンクトップ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow theme",
+    "ja": "黄色のテーマ",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow thighhighs",
+    "ja": "黄色の太もも",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow trim",
+    "ja": "黄色い縁取り",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow vest",
+    "ja": "黄色のベスト",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow wings",
+    "ja": "黄色の翼",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow-framed eyewear",
+    "ja": "黄色のフレームのアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yellow-tinted eyewear",
+    "ja": "黄色のアイウェア",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "yes! precure 5",
     "ja": "はい！ PRCURE 5",
     "major": "未分類",
@@ -6101,6 +13545,17 @@
     "proposedJa": null
   },
   {
+    "tag": "yukata",
+    "ja": "浴衣",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "yukie (kusaka shi)",
     "ja": "ユキエ（熊田shi）",
     "major": "未分類",
@@ -6118,6 +13573,17 @@
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
+    ],
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yuuka (track) (blue archive)",
+    "ja": "早瀬ユウカ(体操服)",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "possible-chinese-script-or-literal-translation"
     ],
     "status": "needs-review",
     "proposedJa": null
