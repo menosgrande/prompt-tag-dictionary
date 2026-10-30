@@ -1,0 +1,7503 @@
+{
+  "schema": "color-prefix-audit-v1",
+  "source": "data/tags.json",
+  "source_sha": "85289bb3678fe5f1dc69ab739f82cecbabfc36b8",
+  "total_tags": 11047,
+  "summary": {
+    "english_color_prefix_candidates": 969,
+    "japanese_color_prefix_candidates": 944,
+    "unique_candidates": 1051,
+    "likely_separable": 843,
+    "needs_review": 183,
+    "protected_or_named": 25,
+    "hair_color_tags": 16,
+    "hair_translation_overlap_groups": 1
+  },
+  "policy": "Audit only. No tags are removed, renamed, merged, or reclassified. English and Japanese prefix matches are candidates, not semantic decisions.",
+  "hair_translation_overlaps": [
+    {
+      "ja": "水色の髪",
+      "tags": [
+        "aqua hair",
+        "light blue hair"
+      ]
+    }
+  ],
+  "hair_color_tags": [
+    {
+      "index": 421,
+      "tag": "aqua hair",
+      "ja": "水色の髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1010,
+      "tag": "black hair",
+      "ja": "黒髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1102,
+      "tag": "blonde hair",
+      "ja": "金髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1170,
+      "tag": "blue hair",
+      "ja": "青髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1472,
+      "tag": "brown hair",
+      "ja": "茶髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 2375,
+      "tag": "dark blue hair",
+      "ja": "濃い青い髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 3703,
+      "tag": "green hair",
+      "ja": "緑髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 3776,
+      "tag": "grey hair",
+      "ja": "灰髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 3777,
+      "tag": "grey hairband",
+      "ja": "白髪の帯域",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 5541,
+      "tag": "light blue hair",
+      "ja": "水色の髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 6901,
+      "tag": "orange hair",
+      "ja": "オレンジ髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7298,
+      "tag": "pink hair",
+      "ja": "ピンク髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7721,
+      "tag": "purple hair",
+      "ja": "紫髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7926,
+      "tag": "red hair",
+      "ja": "赤髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 8761,
+      "tag": "silver hair",
+      "ja": "銀髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 10620,
+      "tag": "white hair",
+      "ja": "白髪",
+      "major": "人物",
+      "minor": "頭髪"
+    }
+  ],
+  "likely_separable": [
+    {
+      "index": 967,
+      "tag": "black apron",
+      "ja": "黒いエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 968,
+      "tag": "black arm warmers",
+      "ja": "黒いアームウォーマー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 969,
+      "tag": "black armband",
+      "ja": "黒いアームバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 970,
+      "tag": "black armor",
+      "ja": "黒い鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 971,
+      "tag": "black ascot",
+      "ja": "黒いアスコットタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 972,
+      "tag": "black babydoll",
+      "ja": "ブラックベビードール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 973,
+      "tag": "black background",
+      "ja": "黒色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 974,
+      "tag": "black bag",
+      "ja": "黒いバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 975,
+      "tag": "black bandeau",
+      "ja": "ブラックバンドー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 976,
+      "tag": "black belt",
+      "ja": "黒帯",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 977,
+      "tag": "black bikini",
+      "ja": "黒ビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 978,
+      "tag": "black bird",
+      "ja": "黒い鳥",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 979,
+      "tag": "black blindfold",
+      "ja": "黒い目隠し",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 980,
+      "tag": "black bodysuit",
+      "ja": "ブラックボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 981,
+      "tag": "black border",
+      "ja": "黒い境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 982,
+      "tag": "black bow",
+      "ja": "黒い弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 983,
+      "tag": "black bowtie",
+      "ja": "黒いボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 984,
+      "tag": "black bra",
+      "ja": "黒ブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 985,
+      "tag": "black bridal gauntlets",
+      "ja": "黒いブライダルガントレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 986,
+      "tag": "black buruma",
+      "ja": "黒いブルマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 987,
+      "tag": "black camisole",
+      "ja": "黒いキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 988,
+      "tag": "black cape",
+      "ja": "ブラックケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 989,
+      "tag": "black capelet",
+      "ja": "黒いカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 990,
+      "tag": "black cardigan",
+      "ja": "ブラックカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 991,
+      "tag": "black cat",
+      "ja": "黒猫",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 992,
+      "tag": "black choker",
+      "ja": "ブラックチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 993,
+      "tag": "black cloak",
+      "ja": "黒いクローク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 994,
+      "tag": "black clover",
+      "ja": "黒いクローバー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 995,
+      "tag": "black coat",
+      "ja": "黒いコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 997,
+      "tag": "black collar",
+      "ja": "黒い襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 998,
+      "tag": "black corset",
+      "ja": "黒コルセット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 999,
+      "tag": "black dress",
+      "ja": "黒ドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1000,
+      "tag": "black eyeliner",
+      "ja": "黒いアイライナー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1001,
+      "tag": "black eyes",
+      "ja": "黒目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 1002,
+      "tag": "black eyeshadow",
+      "ja": "ブラックアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1003,
+      "tag": "black feathers",
+      "ja": "黒い羽根",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1004,
+      "tag": "black flower",
+      "ja": "黒い花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1005,
+      "tag": "black footwear",
+      "ja": "黒靴",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1006,
+      "tag": "black fur",
+      "ja": "黒い毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1007,
+      "tag": "black garter belt",
+      "ja": "黒いガーターベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1008,
+      "tag": "black garter straps",
+      "ja": "黒いガーターストラップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1009,
+      "tag": "black gloves",
+      "ja": "黒手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1010,
+      "tag": "black hair",
+      "ja": "黒髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1011,
+      "tag": "black hairband",
+      "ja": "黒いヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1012,
+      "tag": "black hakama",
+      "ja": "ブラックハカマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1013,
+      "tag": "black halo",
+      "ja": "黒い光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1014,
+      "tag": "black hands",
+      "ja": "黒い手",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1015,
+      "tag": "black hat",
+      "ja": "黒い帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1016,
+      "tag": "black headband",
+      "ja": "黒いヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1017,
+      "tag": "black helmet",
+      "ja": "黒いヘルメット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1018,
+      "tag": "black hole",
+      "ja": "ブラックホール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1019,
+      "tag": "black hood",
+      "ja": "黒いフード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1020,
+      "tag": "black hoodie",
+      "ja": "黒いパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1021,
+      "tag": "black horns",
+      "ja": "黒い角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1022,
+      "tag": "black jacket",
+      "ja": "黒ジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1023,
+      "tag": "black jumpsuit",
+      "ja": "黒いジャンプスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1024,
+      "tag": "black kimono",
+      "ja": "黒い着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1025,
+      "tag": "black lagoon",
+      "ja": "ブラックラグーン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1026,
+      "tag": "black leg warmers",
+      "ja": "黒いレッグウォーマー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1027,
+      "tag": "black leggings",
+      "ja": "黒レギンス",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1028,
+      "tag": "black leotard",
+      "ja": "黒レオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1029,
+      "tag": "black lips",
+      "ja": "黒い唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 1030,
+      "tag": "black male swimwear",
+      "ja": "黒人男性の水着",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1031,
+      "tag": "black male underwear",
+      "ja": "黒人男性の下着",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 1032,
+      "tag": "black mask",
+      "ja": "黒いマスク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1033,
+      "tag": "black nails",
+      "ja": "黒い爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1034,
+      "tag": "black neckerchief",
+      "ja": "黒いネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1035,
+      "tag": "black necktie",
+      "ja": "黒いネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1036,
+      "tag": "black one-piece swimsuit",
+      "ja": "黒いワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1037,
+      "tag": "black outline",
+      "ja": "黒い輪郭",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1038,
+      "tag": "black panties",
+      "ja": "黒パン",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 1039,
+      "tag": "black pants",
+      "ja": "黒いズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1040,
+      "tag": "black pantyhose",
+      "ja": "黒パンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1041,
+      "tag": "black ribbon",
+      "ja": "黒いリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1042,
+      "tag": "black robe",
+      "ja": "黒いローブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1043,
+      "tag": "black rock shooter",
+      "ja": "ブラックロックシューター",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1045,
+      "tag": "black rose",
+      "ja": "黒いバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1046,
+      "tag": "black sailor collar",
+      "ja": "ブラックセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1047,
+      "tag": "black sash",
+      "ja": "ブラックサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1048,
+      "tag": "black scales",
+      "ja": "黒い鱗",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1049,
+      "tag": "black scarf",
+      "ja": "黒いスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1050,
+      "tag": "black sclera",
+      "ja": "黒硬化",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1051,
+      "tag": "black scrunchie",
+      "ja": "ブラックシュリューヒー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1052,
+      "tag": "black serafuku",
+      "ja": "黒セーラー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1053,
+      "tag": "black shirt",
+      "ja": "黒シャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1054,
+      "tag": "black shorts",
+      "ja": "黒いショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1055,
+      "tag": "black shrug",
+      "ja": "黒いボレロ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1056,
+      "tag": "black skin",
+      "ja": "黒い肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1057,
+      "tag": "black skirt",
+      "ja": "黒スカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1058,
+      "tag": "black sky",
+      "ja": "黒い空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 1059,
+      "tag": "black sleeves",
+      "ja": "黒い袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1060,
+      "tag": "black slingshot swimsuit",
+      "ja": "黒いスリングショット水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1061,
+      "tag": "black socks",
+      "ja": "黒い靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1062,
+      "tag": "black sports bra",
+      "ja": "ブラックスポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1063,
+      "tag": "black suit",
+      "ja": "黒いスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1064,
+      "tag": "black survival",
+      "ja": "黒人生存",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1066,
+      "tag": "black sweater",
+      "ja": "黒いセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1067,
+      "tag": "black sweater vest",
+      "ja": "黒いセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1068,
+      "tag": "black tail",
+      "ja": "黒い尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1069,
+      "tag": "black tank top",
+      "ja": "黒いタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1070,
+      "tag": "black theme",
+      "ja": "黒いテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1071,
+      "tag": "black thighhighs",
+      "ja": "黒ニーソ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1072,
+      "tag": "black tiara",
+      "ja": "黒いティアラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1073,
+      "tag": "black tube top",
+      "ja": "黒いチューブトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1074,
+      "tag": "black umbrella",
+      "ja": "黒い傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1075,
+      "tag": "black undershirt",
+      "ja": "黒いアンダーシャツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1076,
+      "tag": "black veil",
+      "ja": "黒いベール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1077,
+      "tag": "black vest",
+      "ja": "黒いベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1078,
+      "tag": "black vs white",
+      "ja": "黒と白",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1079,
+      "tag": "black wings",
+      "ja": "黒い翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1080,
+      "tag": "black wrist cuffs",
+      "ja": "黒い手首の袖口",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1081,
+      "tag": "black-framed eyewear",
+      "ja": "黒縁眼鏡",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1133,
+      "tag": "blue apron",
+      "ja": "青いエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1134,
+      "tag": "blue archive",
+      "ja": "ブルーアーカイブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1135,
+      "tag": "blue armband",
+      "ja": "青いアームバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1136,
+      "tag": "blue armor",
+      "ja": "青い鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1137,
+      "tag": "blue ascot",
+      "ja": "青いアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1138,
+      "tag": "blue background",
+      "ja": "青色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1139,
+      "tag": "blue bag",
+      "ja": "青いバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1140,
+      "tag": "blue bandana",
+      "ja": "青いバンダナ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1141,
+      "tag": "blue belt",
+      "ja": "青いベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1142,
+      "tag": "blue bikini",
+      "ja": "青ビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1143,
+      "tag": "blue bird",
+      "ja": "青い鳥",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1144,
+      "tag": "blue bodysuit",
+      "ja": "青いボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1145,
+      "tag": "blue border",
+      "ja": "青い境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1146,
+      "tag": "blue bow",
+      "ja": "青い弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1147,
+      "tag": "blue bowtie",
+      "ja": "ブルーボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1148,
+      "tag": "blue bra",
+      "ja": "青いブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1149,
+      "tag": "blue brooch",
+      "ja": "青いブローチ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1150,
+      "tag": "blue buruma",
+      "ja": "青いブルーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1151,
+      "tag": "blue butterfly",
+      "ja": "ブルーバタフライ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1152,
+      "tag": "blue camisole",
+      "ja": "青いキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1153,
+      "tag": "blue cape",
+      "ja": "ブルーケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1154,
+      "tag": "blue capelet",
+      "ja": "青いカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1155,
+      "tag": "blue cardigan",
+      "ja": "ブルーカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1156,
+      "tag": "blue choker",
+      "ja": "ブルーチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1157,
+      "tag": "blue cloak",
+      "ja": "青いマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1158,
+      "tag": "blue coat",
+      "ja": "青いコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1159,
+      "tag": "blue collar",
+      "ja": "ブルーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1160,
+      "tag": "blue dress",
+      "ja": "青色のドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1161,
+      "tag": "blue eyes",
+      "ja": "青い目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 1162,
+      "tag": "blue eyeshadow",
+      "ja": "青いアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1163,
+      "tag": "blue feathers",
+      "ja": "青い羽",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1164,
+      "tag": "blue fire",
+      "ja": "青い炎",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1165,
+      "tag": "blue flower",
+      "ja": "青い花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1166,
+      "tag": "blue footwear",
+      "ja": "青い履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1167,
+      "tag": "blue fur",
+      "ja": "青い毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1168,
+      "tag": "blue gemstone",
+      "ja": "青い宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1169,
+      "tag": "blue gloves",
+      "ja": "青い手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1170,
+      "tag": "blue hair",
+      "ja": "青髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1171,
+      "tag": "blue hairband",
+      "ja": "青いヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1172,
+      "tag": "blue hakama",
+      "ja": "青い袴",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1173,
+      "tag": "blue halo",
+      "ja": "青いハロー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1174,
+      "tag": "blue hat",
+      "ja": "青い帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1175,
+      "tag": "blue headband",
+      "ja": "青いヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1176,
+      "tag": "blue helmet",
+      "ja": "青いヘルメット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1177,
+      "tag": "blue hood",
+      "ja": "青いフード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1178,
+      "tag": "blue hoodie",
+      "ja": "青いパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1179,
+      "tag": "blue horns",
+      "ja": "青い角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1180,
+      "tag": "blue hour",
+      "ja": "ブルーアワー",
+      "major": "光・色彩",
+      "minor": "照明"
+    },
+    {
+      "index": 1181,
+      "tag": "blue jacket",
+      "ja": "青いジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1182,
+      "tag": "blue jumpsuit",
+      "ja": "青いジャンプスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1183,
+      "tag": "blue kimono",
+      "ja": "ブルー着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1184,
+      "tag": "blue leotard",
+      "ja": "青バニー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1185,
+      "tag": "blue lips",
+      "ja": "青い唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 1186,
+      "tag": "blue male swimwear",
+      "ja": "青い雄の水着",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1187,
+      "tag": "blue male underwear",
+      "ja": "青い雄の下着",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 1188,
+      "tag": "blue nails",
+      "ja": "青い爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1189,
+      "tag": "blue neckerchief",
+      "ja": "青いネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1190,
+      "tag": "blue necktie",
+      "ja": "青いネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1191,
+      "tag": "blue oak",
+      "ja": "青いオーク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1192,
+      "tag": "blue one-piece swimsuit",
+      "ja": "青いワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1193,
+      "tag": "blue outline",
+      "ja": "青いアウトライン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1194,
+      "tag": "blue overalls",
+      "ja": "青いオーバーオール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1195,
+      "tag": "blue pajamas",
+      "ja": "青いパジャマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1196,
+      "tag": "blue panties",
+      "ja": "青いパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 1197,
+      "tag": "blue pants",
+      "ja": "青パンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1198,
+      "tag": "blue pantyhose",
+      "ja": "青タイツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1200,
+      "tag": "blue pupils",
+      "ja": "青い生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 1201,
+      "tag": "blue ribbon",
+      "ja": "青いリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1202,
+      "tag": "blue robe",
+      "ja": "青いローブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1203,
+      "tag": "blue rose",
+      "ja": "青いバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1204,
+      "tag": "blue sailor collar",
+      "ja": "ブルーセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1205,
+      "tag": "blue sarong",
+      "ja": "ブルーサロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1206,
+      "tag": "blue sash",
+      "ja": "青いサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1207,
+      "tag": "blue scarf",
+      "ja": "青いスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1208,
+      "tag": "blue sclera",
+      "ja": "青い硬化",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1209,
+      "tag": "blue scrunchie",
+      "ja": "ブルーシュリューチー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1210,
+      "tag": "blue serafuku",
+      "ja": "青いserafuku",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1211,
+      "tag": "blue shawl",
+      "ja": "ブルーショール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1212,
+      "tag": "blue shirt",
+      "ja": "青いシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1213,
+      "tag": "blue shorts",
+      "ja": "青いショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1214,
+      "tag": "blue skin",
+      "ja": "青い肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1215,
+      "tag": "blue skirt",
+      "ja": "青スカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1216,
+      "tag": "blue sky",
+      "ja": "青空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 1217,
+      "tag": "blue sleeves",
+      "ja": "青い袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1218,
+      "tag": "blue socks",
+      "ja": "青い靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1219,
+      "tag": "blue sports bra",
+      "ja": "ブルースポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1220,
+      "tag": "blue suit",
+      "ja": "青いスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1221,
+      "tag": "blue sweater",
+      "ja": "青いセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1222,
+      "tag": "blue sweater vest",
+      "ja": "青いセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1223,
+      "tag": "blue tabard",
+      "ja": "青いタバード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1224,
+      "tag": "blue tail",
+      "ja": "青い尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1225,
+      "tag": "blue tank top",
+      "ja": "ブルータンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1226,
+      "tag": "blue theme",
+      "ja": "青色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1227,
+      "tag": "blue thighhighs",
+      "ja": "青い太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1228,
+      "tag": "blue tongue",
+      "ja": "青い舌",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 1229,
+      "tag": "blue trim",
+      "ja": "青いトリム",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1230,
+      "tag": "blue tunic",
+      "ja": "青いチュニック",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1231,
+      "tag": "blue umbrella",
+      "ja": "青い傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1232,
+      "tag": "blue veil",
+      "ja": "青いベール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1233,
+      "tag": "blue vest",
+      "ja": "青いベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1234,
+      "tag": "blue visor",
+      "ja": "青いバイザー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1235,
+      "tag": "blue wings",
+      "ja": "青い翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1236,
+      "tag": "blue wrist cuffs",
+      "ja": "青い手首カフス",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1237,
+      "tag": "blue-framed eyewear",
+      "ja": "青いフレームの眼鏡",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1238,
+      "tag": "blue-tinted eyewear",
+      "ja": "青い色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1448,
+      "tag": "brown apron",
+      "ja": "茶色のエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1449,
+      "tag": "brown ascot",
+      "ja": "茶色のアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1450,
+      "tag": "brown background",
+      "ja": "茶色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1451,
+      "tag": "brown bag",
+      "ja": "茶色のかばん",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1452,
+      "tag": "brown belt",
+      "ja": "茶色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1453,
+      "tag": "brown bikini",
+      "ja": "茶色のビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1454,
+      "tag": "brown border",
+      "ja": "茶色の境界",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1455,
+      "tag": "brown bow",
+      "ja": "茶色のリボン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1456,
+      "tag": "brown bowtie",
+      "ja": "ブラウンボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1457,
+      "tag": "brown bra",
+      "ja": "茶色のブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1458,
+      "tag": "brown cape",
+      "ja": "ブラウンケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1459,
+      "tag": "brown capelet",
+      "ja": "茶色のカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1460,
+      "tag": "brown cardigan",
+      "ja": "茶色のカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1461,
+      "tag": "brown choker",
+      "ja": "ブラウンチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1462,
+      "tag": "brown cloak",
+      "ja": "茶色のマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1463,
+      "tag": "brown coat",
+      "ja": "茶色のコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1464,
+      "tag": "brown collar",
+      "ja": "茶色の襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1465,
+      "tag": "brown corset",
+      "ja": "茶色のコルセット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1466,
+      "tag": "brown dress",
+      "ja": "茶色のドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1467,
+      "tag": "brown eyes",
+      "ja": "茶色の目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 1468,
+      "tag": "brown flower",
+      "ja": "茶色の花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1469,
+      "tag": "brown footwear",
+      "ja": "茶色の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1470,
+      "tag": "brown fur",
+      "ja": "茶色の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1471,
+      "tag": "brown gloves",
+      "ja": "茶色の手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1472,
+      "tag": "brown hair",
+      "ja": "茶髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1473,
+      "tag": "brown hairband",
+      "ja": "茶色のヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1474,
+      "tag": "brown hat",
+      "ja": "茶色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1475,
+      "tag": "brown hoodie",
+      "ja": "茶色のパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1476,
+      "tag": "brown horns",
+      "ja": "茶色の角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1477,
+      "tag": "brown jacket",
+      "ja": "茶色のジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1478,
+      "tag": "brown kimono",
+      "ja": "茶色の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1479,
+      "tag": "brown leotard",
+      "ja": "茶色のレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1480,
+      "tag": "brown lips",
+      "ja": "茶色の唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 1481,
+      "tag": "brown mittens",
+      "ja": "茶色のミトン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1482,
+      "tag": "brown nails",
+      "ja": "茶色の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1483,
+      "tag": "brown neckerchief",
+      "ja": "茶色のネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1484,
+      "tag": "brown necktie",
+      "ja": "茶色のネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1485,
+      "tag": "brown panties",
+      "ja": "茶色のパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 1486,
+      "tag": "brown pants",
+      "ja": "茶色のズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1487,
+      "tag": "brown pantyhose",
+      "ja": "茶色のパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1488,
+      "tag": "brown ribbon",
+      "ja": "茶色のリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1489,
+      "tag": "brown sailor collar",
+      "ja": "ブラウンセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1490,
+      "tag": "brown sash",
+      "ja": "茶色のサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1491,
+      "tag": "brown scarf",
+      "ja": "茶色のスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1492,
+      "tag": "brown shirt",
+      "ja": "茶色のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1493,
+      "tag": "brown shorts",
+      "ja": "茶色のショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1494,
+      "tag": "brown skirt",
+      "ja": "茶色のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1495,
+      "tag": "brown sleeves",
+      "ja": "茶色の袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1496,
+      "tag": "brown socks",
+      "ja": "茶色の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1497,
+      "tag": "brown sweater",
+      "ja": "茶色のセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1498,
+      "tag": "brown sweater vest",
+      "ja": "茶色のセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1499,
+      "tag": "brown tail",
+      "ja": "茶色の尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1500,
+      "tag": "brown theme",
+      "ja": "茶色のテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1501,
+      "tag": "brown thighhighs",
+      "ja": "茶色の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1502,
+      "tag": "brown vest",
+      "ja": "茶色のベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1503,
+      "tag": "brown wings",
+      "ja": "茶色の翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1504,
+      "tag": "brown-framed eyewear",
+      "ja": "茶色のフレームのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3673,
+      "tag": "green apron",
+      "ja": "緑のエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3674,
+      "tag": "green armband",
+      "ja": "グリーンアームバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3675,
+      "tag": "green armor",
+      "ja": "緑の鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3676,
+      "tag": "green ascot",
+      "ja": "緑のアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3677,
+      "tag": "green background",
+      "ja": "緑色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3678,
+      "tag": "green bag",
+      "ja": "緑のバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3679,
+      "tag": "green bandana",
+      "ja": "緑のバンダナ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3680,
+      "tag": "green belt",
+      "ja": "緑地帯",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3681,
+      "tag": "green bikini",
+      "ja": "緑のビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3682,
+      "tag": "green bodysuit",
+      "ja": "グリーンボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3683,
+      "tag": "green border",
+      "ja": "緑の境界",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3684,
+      "tag": "green bow",
+      "ja": "緑の弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3685,
+      "tag": "green bowtie",
+      "ja": "緑の蝶ネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3686,
+      "tag": "green bra",
+      "ja": "緑ブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3687,
+      "tag": "green cape",
+      "ja": "グリーンケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3688,
+      "tag": "green capelet",
+      "ja": "緑のカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3689,
+      "tag": "green cardigan",
+      "ja": "グリーンカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3690,
+      "tag": "green choker",
+      "ja": "緑色のチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3691,
+      "tag": "green cloak",
+      "ja": "グリーンマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3692,
+      "tag": "green coat",
+      "ja": "緑のコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3693,
+      "tag": "green dress",
+      "ja": "緑のドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3694,
+      "tag": "green eyes",
+      "ja": "緑の目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 3695,
+      "tag": "green eyeshadow",
+      "ja": "緑のアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3696,
+      "tag": "green feathers",
+      "ja": "緑の羽",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3697,
+      "tag": "green fire",
+      "ja": "緑の火",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3698,
+      "tag": "green flower",
+      "ja": "緑の花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3699,
+      "tag": "green footwear",
+      "ja": "緑の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3700,
+      "tag": "green fur",
+      "ja": "緑の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3701,
+      "tag": "green gemstone",
+      "ja": "緑の宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3702,
+      "tag": "green gloves",
+      "ja": "緑の手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3703,
+      "tag": "green hair",
+      "ja": "緑髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 3704,
+      "tag": "green hairband",
+      "ja": "緑のヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3705,
+      "tag": "green hakama",
+      "ja": "グリーンハカマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3706,
+      "tag": "green halo",
+      "ja": "緑色の光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3707,
+      "tag": "green hat",
+      "ja": "緑色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3708,
+      "tag": "green headband",
+      "ja": "緑のヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3709,
+      "tag": "green hoodie",
+      "ja": "緑のパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3710,
+      "tag": "green horns",
+      "ja": "緑の角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3711,
+      "tag": "green jacket",
+      "ja": "緑のジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3712,
+      "tag": "green jumpsuit",
+      "ja": "緑のジャンプスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3713,
+      "tag": "green kimono",
+      "ja": "緑の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3714,
+      "tag": "green leotard",
+      "ja": "グリーンレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3715,
+      "tag": "green lips",
+      "ja": "緑色の唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 3716,
+      "tag": "green nails",
+      "ja": "緑の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3717,
+      "tag": "green neckerchief",
+      "ja": "緑のネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3718,
+      "tag": "green necktie",
+      "ja": "緑のネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3719,
+      "tag": "green one-piece swimsuit",
+      "ja": "緑のワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3720,
+      "tag": "green panties",
+      "ja": "グリーンパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 3721,
+      "tag": "green pants",
+      "ja": "緑のズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3722,
+      "tag": "green pantyhose",
+      "ja": "緑タイツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3723,
+      "tag": "green pupils",
+      "ja": "緑の生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 3724,
+      "tag": "green ribbon",
+      "ja": "グリーンリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3725,
+      "tag": "green rose",
+      "ja": "グリーンローズ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3726,
+      "tag": "green sailor collar",
+      "ja": "グリーンセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3727,
+      "tag": "green sash",
+      "ja": "グリーンサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3728,
+      "tag": "green scarf",
+      "ja": "緑のスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3729,
+      "tag": "green sclera",
+      "ja": "緑色の強膜",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3730,
+      "tag": "green scrunchie",
+      "ja": "グリーンシュリューヒー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3731,
+      "tag": "green shirt",
+      "ja": "緑のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3732,
+      "tag": "green shorts",
+      "ja": "グリーンショーツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3733,
+      "tag": "green skin",
+      "ja": "緑の肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3734,
+      "tag": "green skirt",
+      "ja": "緑のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3735,
+      "tag": "green sleeves",
+      "ja": "緑の袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3736,
+      "tag": "green socks",
+      "ja": "緑の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3737,
+      "tag": "green sweater",
+      "ja": "緑のセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3738,
+      "tag": "green sweater vest",
+      "ja": "緑のセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3739,
+      "tag": "green tail",
+      "ja": "緑の尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3740,
+      "tag": "green tank top",
+      "ja": "グリーンタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3741,
+      "tag": "green tea",
+      "ja": "緑茶",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3742,
+      "tag": "green theme",
+      "ja": "緑色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3743,
+      "tag": "green thighhighs",
+      "ja": "緑の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3744,
+      "tag": "green tunic",
+      "ja": "緑のチュニック",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3745,
+      "tag": "green vest",
+      "ja": "緑のベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3746,
+      "tag": "green visor",
+      "ja": "緑色のバイザー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3747,
+      "tag": "green wings",
+      "ja": "緑の翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3748,
+      "tag": "green-framed eyewear",
+      "ja": "グリーンフレームのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3749,
+      "tag": "green-tinted eyewear",
+      "ja": "緑色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3813,
+      "tag": "grey-framed eyewear",
+      "ja": "グレーフレームアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6882,
+      "tag": "orange apron",
+      "ja": "オレンジのエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6883,
+      "tag": "orange ascot",
+      "ja": "オレンジ色のアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6884,
+      "tag": "orange background",
+      "ja": "オレンジ色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6885,
+      "tag": "orange belt",
+      "ja": "オレンジ色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6886,
+      "tag": "orange bikini",
+      "ja": "オレンジビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6887,
+      "tag": "orange bodysuit",
+      "ja": "オレンジ色のボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6888,
+      "tag": "orange bow",
+      "ja": "オレンジ色の弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6889,
+      "tag": "orange bowtie",
+      "ja": "オレンジボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6890,
+      "tag": "orange bra",
+      "ja": "橙色胸罩",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6891,
+      "tag": "orange cape",
+      "ja": "オレンジケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6892,
+      "tag": "orange choker",
+      "ja": "オレンジチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6893,
+      "tag": "orange coat",
+      "ja": "オレンジ色のコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6894,
+      "tag": "orange dress",
+      "ja": "オレンジのドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6895,
+      "tag": "orange eyes",
+      "ja": "オレンジ目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 6896,
+      "tag": "orange flower",
+      "ja": "オレンジの花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6897,
+      "tag": "orange footwear",
+      "ja": "オレンジ色の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6898,
+      "tag": "orange fur",
+      "ja": "オレンジ色の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6899,
+      "tag": "orange gloves",
+      "ja": "橙手套",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6900,
+      "tag": "orange goggles",
+      "ja": "オレンジゴーグル",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6901,
+      "tag": "orange hair",
+      "ja": "オレンジ髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 6902,
+      "tag": "orange hairband",
+      "ja": "オレンジ色のヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6903,
+      "tag": "orange halo",
+      "ja": "オレンジ色の光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6904,
+      "tag": "orange hat",
+      "ja": "オレンジ色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6905,
+      "tag": "orange headband",
+      "ja": "オレンジ色のヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6906,
+      "tag": "orange hoodie",
+      "ja": "オレンジ色のパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6907,
+      "tag": "orange horns",
+      "ja": "オレンジホーン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6908,
+      "tag": "orange jacket",
+      "ja": "オレンジのジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6909,
+      "tag": "orange jumpsuit",
+      "ja": "オレンジジャンプスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6910,
+      "tag": "orange kimono",
+      "ja": "オレンジ色の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6911,
+      "tag": "orange leotard",
+      "ja": "オレンジレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6912,
+      "tag": "orange nails",
+      "ja": "オレンジ色の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6913,
+      "tag": "orange neckerchief",
+      "ja": "オレンジネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6914,
+      "tag": "orange necktie",
+      "ja": "オレンジ色のネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6915,
+      "tag": "orange panties",
+      "ja": "オレンジパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 6916,
+      "tag": "orange pants",
+      "ja": "オレンジパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6917,
+      "tag": "orange pantyhose",
+      "ja": "オレンジパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6919,
+      "tag": "orange pupils",
+      "ja": "オレンジの生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 6920,
+      "tag": "orange ribbon",
+      "ja": "オレンジ色のリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6921,
+      "tag": "orange rose",
+      "ja": "オレンジ色のバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6922,
+      "tag": "orange sailor collar",
+      "ja": "オレンジ色の船乗り",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6923,
+      "tag": "orange scarf",
+      "ja": "オレンジ色のスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6924,
+      "tag": "orange scrunchie",
+      "ja": "オレンジ色のシュシュ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6925,
+      "tag": "orange shirt",
+      "ja": "オレンジ色のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6926,
+      "tag": "orange shorts",
+      "ja": "オレンジ色のショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6927,
+      "tag": "orange skin",
+      "ja": "オレンジ色の肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6928,
+      "tag": "orange skirt",
+      "ja": "オレンジスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6929,
+      "tag": "orange sky",
+      "ja": "オレンジの空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 6930,
+      "tag": "orange sleeves",
+      "ja": "オレンジスリーブ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6931,
+      "tag": "orange slice",
+      "ja": "オレンジ色のスライス",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6932,
+      "tag": "orange socks",
+      "ja": "オレンジソックス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6933,
+      "tag": "orange sweater",
+      "ja": "オレンジ色のセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 6934,
+      "tag": "orange tail",
+      "ja": "オレンジテール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6935,
+      "tag": "orange theme",
+      "ja": "オレンジ色のテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6936,
+      "tag": "orange thighhighs",
+      "ja": "オレンジ色の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6937,
+      "tag": "orange vest",
+      "ja": "オレンジ色のベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6938,
+      "tag": "orange-tinted eyewear",
+      "ja": "オレンジ色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7270,
+      "tag": "pink apron",
+      "ja": "ピンクのエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7271,
+      "tag": "pink arm warmers",
+      "ja": "ピンクのアームウォーマー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7272,
+      "tag": "pink ascot",
+      "ja": "ピンクのアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7273,
+      "tag": "pink background",
+      "ja": "ピンク背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7274,
+      "tag": "pink bag",
+      "ja": "ピンクのバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7275,
+      "tag": "pink belt",
+      "ja": "ピンク色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7276,
+      "tag": "pink bikini",
+      "ja": "ピンクのビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7277,
+      "tag": "pink blood",
+      "ja": "ピンクの血",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7278,
+      "tag": "pink bodysuit",
+      "ja": "ピンクのボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7279,
+      "tag": "pink border",
+      "ja": "ピンクの境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7280,
+      "tag": "pink bow",
+      "ja": "ピンクの弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7281,
+      "tag": "pink bowtie",
+      "ja": "ピンクのボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7282,
+      "tag": "pink bra",
+      "ja": "ピンクのブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7283,
+      "tag": "pink camisole",
+      "ja": "ピンクのキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7284,
+      "tag": "pink cape",
+      "ja": "ピンクのケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7285,
+      "tag": "pink capelet",
+      "ja": "ピンクのカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7286,
+      "tag": "pink cardigan",
+      "ja": "ピンクカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7287,
+      "tag": "pink choker",
+      "ja": "ピンクのチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7288,
+      "tag": "pink coat",
+      "ja": "ピンクのコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7289,
+      "tag": "pink collar",
+      "ja": "ピンクの襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7290,
+      "tag": "pink dress",
+      "ja": "ピンクのドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7291,
+      "tag": "pink eyes",
+      "ja": "ピンク目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 7292,
+      "tag": "pink eyeshadow",
+      "ja": "ピンクのアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7293,
+      "tag": "pink flower",
+      "ja": "ピンクの花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7294,
+      "tag": "pink footwear",
+      "ja": "ピンクの履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7295,
+      "tag": "pink fur",
+      "ja": "ピンク色の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7296,
+      "tag": "pink gemstone",
+      "ja": "ピンクの宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7297,
+      "tag": "pink gloves",
+      "ja": "ピンクの手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7298,
+      "tag": "pink hair",
+      "ja": "ピンク髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7299,
+      "tag": "pink hairband",
+      "ja": "ピンクのヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7300,
+      "tag": "pink hakama",
+      "ja": "ピンクハカマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7301,
+      "tag": "pink halo",
+      "ja": "ピンク色の光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7302,
+      "tag": "pink hat",
+      "ja": "ピンクの帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7303,
+      "tag": "pink hoodie",
+      "ja": "ピンクのパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7304,
+      "tag": "pink horns",
+      "ja": "ピンクの角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7305,
+      "tag": "pink jacket",
+      "ja": "ピンクのジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7306,
+      "tag": "pink kimono",
+      "ja": "ピンクの着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7307,
+      "tag": "pink leotard",
+      "ja": "ピンクのレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7308,
+      "tag": "pink lips",
+      "ja": "ピンクの唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 7309,
+      "tag": "pink nails",
+      "ja": "ピンクの爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7310,
+      "tag": "pink neckerchief",
+      "ja": "ピンクのネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7311,
+      "tag": "pink necktie",
+      "ja": "ピンクのネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7312,
+      "tag": "pink one-piece swimsuit",
+      "ja": "ピンクのワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7313,
+      "tag": "pink outline",
+      "ja": "ピンクのアウトライン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7314,
+      "tag": "pink pajamas",
+      "ja": "ピンクのパジャマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7315,
+      "tag": "pink panties",
+      "ja": "ピンクのパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 7316,
+      "tag": "pink pants",
+      "ja": "ピンクのパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7317,
+      "tag": "pink pantyhose",
+      "ja": "ピンクのパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7318,
+      "tag": "pink petals",
+      "ja": "ピンク色の花びら",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7319,
+      "tag": "pink pupils",
+      "ja": "ピンクの生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 7320,
+      "tag": "pink ribbon",
+      "ja": "ピンクのリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7321,
+      "tag": "pink rose",
+      "ja": "粉玫瑰",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7322,
+      "tag": "pink sailor collar",
+      "ja": "ピンクの船乗りの襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7323,
+      "tag": "pink sash",
+      "ja": "ピンクサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7324,
+      "tag": "pink scarf",
+      "ja": "ピンクのスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7325,
+      "tag": "pink scrunchie",
+      "ja": "ピンクのシュシュ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7326,
+      "tag": "pink shirt",
+      "ja": "ピンクのシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7327,
+      "tag": "pink shorts",
+      "ja": "ピンクのショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7328,
+      "tag": "pink skin",
+      "ja": "ピンクの肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7329,
+      "tag": "pink skirt",
+      "ja": "ピンクのスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7330,
+      "tag": "pink sky",
+      "ja": "ピンクの空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 7331,
+      "tag": "pink sleeves",
+      "ja": "ピンクの袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7332,
+      "tag": "pink socks",
+      "ja": "ピンク色の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7333,
+      "tag": "pink sports bra",
+      "ja": "ピンクのスポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7334,
+      "tag": "pink sweater",
+      "ja": "ピンクのセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7335,
+      "tag": "pink tail",
+      "ja": "ピンクの尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7336,
+      "tag": "pink tank top",
+      "ja": "ピンクのタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7337,
+      "tag": "pink theme",
+      "ja": "ピンク色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7338,
+      "tag": "pink thighhighs",
+      "ja": "ピンクの太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7339,
+      "tag": "pink track suit",
+      "ja": "ピンクのジャージ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7340,
+      "tag": "pink trim",
+      "ja": "ピンクのトリム",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7341,
+      "tag": "pink umbrella",
+      "ja": "ピンクの傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7342,
+      "tag": "pink vest",
+      "ja": "ピンクのベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7343,
+      "tag": "pink wings",
+      "ja": "ピンクの翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7344,
+      "tag": "pink wrist cuffs",
+      "ja": "ピンクの手首カフス",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7345,
+      "tag": "pink-framed eyewear",
+      "ja": "ピンクフレームのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7346,
+      "tag": "pink-tinted eyewear",
+      "ja": "ピンク色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7693,
+      "tag": "purple apron",
+      "ja": "紫のエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7694,
+      "tag": "purple armor",
+      "ja": "紫色の鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7695,
+      "tag": "purple ascot",
+      "ja": "紫色のアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7696,
+      "tag": "purple background",
+      "ja": "紫色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7697,
+      "tag": "purple belt",
+      "ja": "紫色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7698,
+      "tag": "purple bikini",
+      "ja": "紫のビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7699,
+      "tag": "purple bodysuit",
+      "ja": "紫のボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7700,
+      "tag": "purple border",
+      "ja": "紫色の境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7701,
+      "tag": "purple bow",
+      "ja": "紫色の弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7702,
+      "tag": "purple bowtie",
+      "ja": "紫色のボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7703,
+      "tag": "purple bra",
+      "ja": "紫のブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7704,
+      "tag": "purple butterfly",
+      "ja": "紫の蝶",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7705,
+      "tag": "purple cape",
+      "ja": "パープルケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7706,
+      "tag": "purple capelet",
+      "ja": "紫色のカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7707,
+      "tag": "purple cardigan",
+      "ja": "紫のカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7708,
+      "tag": "purple choker",
+      "ja": "パープルチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7709,
+      "tag": "purple cloak",
+      "ja": "紫のマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7710,
+      "tag": "purple coat",
+      "ja": "紫のコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7711,
+      "tag": "purple collar",
+      "ja": "紫色の襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7712,
+      "tag": "purple dress",
+      "ja": "紫色のドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7713,
+      "tag": "purple eyes",
+      "ja": "紫目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 7714,
+      "tag": "purple eyeshadow",
+      "ja": "紫のアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7715,
+      "tag": "purple fire",
+      "ja": "紫の火",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7716,
+      "tag": "purple flower",
+      "ja": "紫色の花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7717,
+      "tag": "purple footwear",
+      "ja": "紫色の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7718,
+      "tag": "purple fur",
+      "ja": "紫色の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7719,
+      "tag": "purple gemstone",
+      "ja": "紫色の宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7720,
+      "tag": "purple gloves",
+      "ja": "紫色の手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7721,
+      "tag": "purple hair",
+      "ja": "紫髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7722,
+      "tag": "purple hairband",
+      "ja": "紫のヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7723,
+      "tag": "purple hakama",
+      "ja": "パープルハカマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7724,
+      "tag": "purple halo",
+      "ja": "紫の光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7725,
+      "tag": "purple hat",
+      "ja": "紫色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7727,
+      "tag": "purple hoodie",
+      "ja": "紫色のパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7728,
+      "tag": "purple horns",
+      "ja": "紫の角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7729,
+      "tag": "purple jacket",
+      "ja": "紫色のジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7730,
+      "tag": "purple kimono",
+      "ja": "紫色の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7731,
+      "tag": "purple leotard",
+      "ja": "紫のレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7732,
+      "tag": "purple lips",
+      "ja": "紫の唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 7733,
+      "tag": "purple nails",
+      "ja": "紫の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7734,
+      "tag": "purple neckerchief",
+      "ja": "紫色のネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7735,
+      "tag": "purple necktie",
+      "ja": "紫色のネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7736,
+      "tag": "purple one-piece swimsuit",
+      "ja": "紫色のワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7737,
+      "tag": "purple panties",
+      "ja": "紫のパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 7738,
+      "tag": "purple pants",
+      "ja": "紫色のズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7739,
+      "tag": "purple pantyhose",
+      "ja": "紫色のパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7740,
+      "tag": "purple pupils",
+      "ja": "紫の瞳",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 7741,
+      "tag": "purple ribbon",
+      "ja": "紫色のリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7742,
+      "tag": "purple robe",
+      "ja": "紫色のローブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7743,
+      "tag": "purple rope",
+      "ja": "紫色のロープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7744,
+      "tag": "purple rose",
+      "ja": "紫色のバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7745,
+      "tag": "purple sailor collar",
+      "ja": "パープルセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7746,
+      "tag": "purple sash",
+      "ja": "パープルサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7747,
+      "tag": "purple scarf",
+      "ja": "紫のマフラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7748,
+      "tag": "purple scrunchie",
+      "ja": "紫色のシュリューティー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7749,
+      "tag": "purple serafuku",
+      "ja": "パープルセラフク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7750,
+      "tag": "purple shirt",
+      "ja": "紫のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7751,
+      "tag": "purple shorts",
+      "ja": "紫色のショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7752,
+      "tag": "purple skin",
+      "ja": "紫色の肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7753,
+      "tag": "purple skirt",
+      "ja": "紫のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7754,
+      "tag": "purple sky",
+      "ja": "紫の空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 7755,
+      "tag": "purple sleeves",
+      "ja": "紫色の袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7756,
+      "tag": "purple socks",
+      "ja": "紫色の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7757,
+      "tag": "purple sweater",
+      "ja": "紫色のセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7758,
+      "tag": "purple tabard",
+      "ja": "紫のタバード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7759,
+      "tag": "purple tail",
+      "ja": "紫の尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7760,
+      "tag": "purple theme",
+      "ja": "紫色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7761,
+      "tag": "purple thighhighs",
+      "ja": "紫色の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7762,
+      "tag": "purple tongue",
+      "ja": "紫色の舌",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 7763,
+      "tag": "purple umbrella",
+      "ja": "紫色の傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7764,
+      "tag": "purple veil",
+      "ja": "紫色のベール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7765,
+      "tag": "purple vest",
+      "ja": "紫色のベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7766,
+      "tag": "purple wings",
+      "ja": "紫色の翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7767,
+      "tag": "purple-framed eyewear",
+      "ja": "紫色のフレームのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7768,
+      "tag": "purple-tinted eyewear",
+      "ja": "紫色の色合いのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7887,
+      "tag": "red apron",
+      "ja": "赤いエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7888,
+      "tag": "red armband",
+      "ja": "赤いアームバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7889,
+      "tag": "red armor",
+      "ja": "赤い鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7890,
+      "tag": "red ascot",
+      "ja": "赤いアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7891,
+      "tag": "red background",
+      "ja": "赤色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7892,
+      "tag": "red bag",
+      "ja": "赤い袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7893,
+      "tag": "red bandana",
+      "ja": "赤いバンダナ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7894,
+      "tag": "red bandeau",
+      "ja": "レッドバンドー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7895,
+      "tag": "red belt",
+      "ja": "赤いベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7896,
+      "tag": "red bikini",
+      "ja": "赤いビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7897,
+      "tag": "red bodysuit",
+      "ja": "赤いボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7898,
+      "tag": "red border",
+      "ja": "赤い境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7899,
+      "tag": "red bow",
+      "ja": "赤いリボン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7900,
+      "tag": "red bowtie",
+      "ja": "赤いボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7901,
+      "tag": "red bra",
+      "ja": "赤いブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7902,
+      "tag": "red brooch",
+      "ja": "赤いブローチ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7903,
+      "tag": "red buruma",
+      "ja": "赤いブルーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7904,
+      "tag": "red butterfly",
+      "ja": "赤い蝶",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7905,
+      "tag": "red camisole",
+      "ja": "赤いキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7906,
+      "tag": "red cape",
+      "ja": "赤いケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7907,
+      "tag": "red capelet",
+      "ja": "赤いカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7908,
+      "tag": "red cardigan",
+      "ja": "赤いカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7909,
+      "tag": "red carpet",
+      "ja": "红毯",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7910,
+      "tag": "red choker",
+      "ja": "レッドチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7911,
+      "tag": "red cloak",
+      "ja": "赤いマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7912,
+      "tag": "red coat",
+      "ja": "赤いコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7913,
+      "tag": "red collar",
+      "ja": "赤い襟",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7914,
+      "tag": "red cross",
+      "ja": "赤十字",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7915,
+      "tag": "red crown",
+      "ja": "赤い王冠",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7916,
+      "tag": "red dress",
+      "ja": "赤いドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7917,
+      "tag": "red eyeliner",
+      "ja": "赤のアイライン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7918,
+      "tag": "red eyes",
+      "ja": "赤い目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 7919,
+      "tag": "red eyeshadow",
+      "ja": "赤いアイシャドウ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7920,
+      "tag": "red feathers",
+      "ja": "赤い羽",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7921,
+      "tag": "red flower",
+      "ja": "赤い花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7922,
+      "tag": "red footwear",
+      "ja": "赤い靴",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7923,
+      "tag": "red fur",
+      "ja": "赤色の毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7924,
+      "tag": "red gemstone",
+      "ja": "赤い宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7925,
+      "tag": "red gloves",
+      "ja": "赤い手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7926,
+      "tag": "red hair",
+      "ja": "赤髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 7927,
+      "tag": "red hairband",
+      "ja": "赤いヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7928,
+      "tag": "red hakama",
+      "ja": "緋袴",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7929,
+      "tag": "red halo",
+      "ja": "赤いハロー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7930,
+      "tag": "red hands",
+      "ja": "赤い手",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7931,
+      "tag": "red hat",
+      "ja": "赤い帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7932,
+      "tag": "red headband",
+      "ja": "赤いヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7933,
+      "tag": "red helmet",
+      "ja": "赤いヘルメット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7934,
+      "tag": "red hood",
+      "ja": "赤いフード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7935,
+      "tag": "red hoodie",
+      "ja": "赤いパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7936,
+      "tag": "red horns",
+      "ja": "赤い角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7937,
+      "tag": "red jacket",
+      "ja": "赤いジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7938,
+      "tag": "red kimono",
+      "ja": "赤い着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7939,
+      "tag": "red leotard",
+      "ja": "赤いレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7940,
+      "tag": "red lips",
+      "ja": "赤い唇",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 7941,
+      "tag": "red male underwear",
+      "ja": "赤い雄の下着",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 7942,
+      "tag": "red mask",
+      "ja": "赤いマスク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7943,
+      "tag": "red mittens",
+      "ja": "赤いミトン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7944,
+      "tag": "red moon",
+      "ja": "赤い月",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 7945,
+      "tag": "red nails",
+      "ja": "赤い爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7946,
+      "tag": "red neckerchief",
+      "ja": "赤いネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7947,
+      "tag": "red necktie",
+      "ja": "赤いネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7948,
+      "tag": "red nose",
+      "ja": "赤いはな",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 7949,
+      "tag": "red one-piece swimsuit",
+      "ja": "赤いワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7950,
+      "tag": "red oni",
+      "ja": "赤oni",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7951,
+      "tag": "red outline",
+      "ja": "赤い輪郭",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7952,
+      "tag": "red panties",
+      "ja": "赤いパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 7953,
+      "tag": "red pants",
+      "ja": "赤いズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7954,
+      "tag": "red pantyhose",
+      "ja": "赤いパンティストッキング",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7955,
+      "tag": "red petals",
+      "ja": "赤い花びら",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7956,
+      "tag": "red pupils",
+      "ja": "赤い生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 7957,
+      "tag": "red ribbon",
+      "ja": "赤いリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7958,
+      "tag": "red robe",
+      "ja": "赤いローブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7959,
+      "tag": "red rope",
+      "ja": "赤いロープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7960,
+      "tag": "red rose",
+      "ja": "赤いバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7961,
+      "tag": "red sailor collar",
+      "ja": "レッドセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7962,
+      "tag": "red sash",
+      "ja": "赤いサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7963,
+      "tag": "red scales",
+      "ja": "赤いスケール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7964,
+      "tag": "red scarf",
+      "ja": "赤いスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7965,
+      "tag": "red sclera",
+      "ja": "赤い硬化",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7966,
+      "tag": "red scrunchie",
+      "ja": "赤いシュシリー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7967,
+      "tag": "red shawl",
+      "ja": "赤いショール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7968,
+      "tag": "red shirt",
+      "ja": "赤いシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7969,
+      "tag": "red shorts",
+      "ja": "赤いショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7970,
+      "tag": "red skin",
+      "ja": "赤い肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7971,
+      "tag": "red skirt",
+      "ja": "赤スカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7972,
+      "tag": "red sky",
+      "ja": "赤い空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 7973,
+      "tag": "red sleeves",
+      "ja": "赤い袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7974,
+      "tag": "red socks",
+      "ja": "赤い靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7975,
+      "tag": "red sports bra",
+      "ja": "レッドスポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7976,
+      "tag": "red star",
+      "ja": "赤い星",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7977,
+      "tag": "red suit",
+      "ja": "赤いスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7978,
+      "tag": "red sweater",
+      "ja": "赤いセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7979,
+      "tag": "red tabard",
+      "ja": "赤いタバード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7980,
+      "tag": "red tail",
+      "ja": "赤い尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7981,
+      "tag": "red tank top",
+      "ja": "赤いタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7982,
+      "tag": "red theme",
+      "ja": "赤色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7983,
+      "tag": "red thighhighs",
+      "ja": "赤い太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7984,
+      "tag": "red track suit",
+      "ja": "赤いトラックスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7985,
+      "tag": "red trim",
+      "ja": "赤い縁取り",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7986,
+      "tag": "red umbrella",
+      "ja": "赤い傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7987,
+      "tag": "red vest",
+      "ja": "赤いベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7988,
+      "tag": "red wine",
+      "ja": "赤ワイン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7989,
+      "tag": "red wings",
+      "ja": "赤い翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7990,
+      "tag": "red-framed eyewear",
+      "ja": "赤色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7991,
+      "tag": "red-tinted eyewear",
+      "ja": "赤い色の眼鏡",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10581,
+      "tag": "white apron",
+      "ja": "白いエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10582,
+      "tag": "white armor",
+      "ja": "白い鎧",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10583,
+      "tag": "white ascot",
+      "ja": "白いアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10584,
+      "tag": "white babydoll",
+      "ja": "白いbabydoll",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10585,
+      "tag": "white background",
+      "ja": "白背景",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 10586,
+      "tag": "white bag",
+      "ja": "白い袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10587,
+      "tag": "white bandana",
+      "ja": "白いバンダナ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10588,
+      "tag": "white bandeau",
+      "ja": "ホワイトバンドー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10589,
+      "tag": "white belt",
+      "ja": "白いベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10590,
+      "tag": "white bikini",
+      "ja": "白いビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10591,
+      "tag": "white bird",
+      "ja": "白い鳥",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10592,
+      "tag": "white bloomers",
+      "ja": "白いブルマー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10593,
+      "tag": "white bodysuit",
+      "ja": "白いボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10594,
+      "tag": "white border",
+      "ja": "白い境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10595,
+      "tag": "white bow",
+      "ja": "白い弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10596,
+      "tag": "white bowtie",
+      "ja": "白いボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10597,
+      "tag": "white bra",
+      "ja": "白いブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10598,
+      "tag": "white butterfly",
+      "ja": "白い蝶",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10599,
+      "tag": "white camisole",
+      "ja": "白いキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10600,
+      "tag": "white cape",
+      "ja": "白いケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10601,
+      "tag": "white capelet",
+      "ja": "白いカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10602,
+      "tag": "white cardigan",
+      "ja": "白いカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10603,
+      "tag": "white cat",
+      "ja": "白い猫",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10604,
+      "tag": "white choker",
+      "ja": "ホワイトチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10605,
+      "tag": "white cloak",
+      "ja": "白いマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10606,
+      "tag": "white coat",
+      "ja": "白いコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10607,
+      "tag": "white collar",
+      "ja": "ホワイトカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10608,
+      "tag": "white corset",
+      "ja": "白いコルセット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10609,
+      "tag": "white day",
+      "ja": "ホワイトデー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10610,
+      "tag": "white dress",
+      "ja": "白ドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10611,
+      "tag": "white eyelashes",
+      "ja": "白色睫毛",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 10612,
+      "tag": "white eyes",
+      "ja": "白い目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 10613,
+      "tag": "white feathers",
+      "ja": "白い羽",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10614,
+      "tag": "white flower",
+      "ja": "白い花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10615,
+      "tag": "white footwear",
+      "ja": "白い靴",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10616,
+      "tag": "white fur",
+      "ja": "白い毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10617,
+      "tag": "white garter belt",
+      "ja": "白いガーターベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10618,
+      "tag": "white garter straps",
+      "ja": "白いガーターストラップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10619,
+      "tag": "white gloves",
+      "ja": "白手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10620,
+      "tag": "white hair",
+      "ja": "白髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 10621,
+      "tag": "white hairband",
+      "ja": "白いヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10622,
+      "tag": "white halo",
+      "ja": "白い光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10623,
+      "tag": "white hanfu",
+      "ja": "白い漢服",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10624,
+      "tag": "white hat",
+      "ja": "白い帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10625,
+      "tag": "white headband",
+      "ja": "白いヘッドバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10626,
+      "tag": "white headdress",
+      "ja": "白い頭飾り",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10627,
+      "tag": "white hood",
+      "ja": "白いフード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10628,
+      "tag": "white hoodie",
+      "ja": "白いパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10629,
+      "tag": "white horns",
+      "ja": "白い角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10630,
+      "tag": "white jacket",
+      "ja": "白いジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10631,
+      "tag": "white jumpsuit",
+      "ja": "白いジャンプスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10632,
+      "tag": "white kimono",
+      "ja": "白い着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10633,
+      "tag": "white leg warmers",
+      "ja": "白いレッグウォーマー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10634,
+      "tag": "white leggings",
+      "ja": "白いレギンス",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10635,
+      "tag": "white leotard",
+      "ja": "白いレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10636,
+      "tag": "white lily",
+      "ja": "白いユリ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10637,
+      "tag": "white male underwear",
+      "ja": "白い男性用下着",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 10638,
+      "tag": "white mask",
+      "ja": "白いマスク",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10639,
+      "tag": "white mittens",
+      "ja": "白いミトン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10640,
+      "tag": "white nails",
+      "ja": "白い爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10641,
+      "tag": "white neckerchief",
+      "ja": "白いネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10642,
+      "tag": "white necktie",
+      "ja": "白いネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10643,
+      "tag": "white nightgown",
+      "ja": "白いナイトガウン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10644,
+      "tag": "white one-piece swimsuit",
+      "ja": "白いワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10645,
+      "tag": "white outline",
+      "ja": "白い輪郭",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10646,
+      "tag": "white panties",
+      "ja": "白パンツ",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 10647,
+      "tag": "white pants",
+      "ja": "白いズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10648,
+      "tag": "white pantyhose",
+      "ja": "白いパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10649,
+      "tag": "white pupils",
+      "ja": "白人の生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 10650,
+      "tag": "white ribbon",
+      "ja": "白いリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10651,
+      "tag": "white robe",
+      "ja": "白いローブ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10652,
+      "tag": "white romper",
+      "ja": "白いロンパー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10653,
+      "tag": "white rose",
+      "ja": "白玫瑰",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10654,
+      "tag": "white sailor collar",
+      "ja": "白い船乗りの首輪",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10655,
+      "tag": "white sarong",
+      "ja": "白いサロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10656,
+      "tag": "white sash",
+      "ja": "白いサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10657,
+      "tag": "white scales",
+      "ja": "白いスケール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10658,
+      "tag": "white scarf",
+      "ja": "白いスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10659,
+      "tag": "white scrunchie",
+      "ja": "白いシュシリー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10660,
+      "tag": "white serafuku",
+      "ja": "白いserafuku",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10661,
+      "tag": "white shawl",
+      "ja": "ホワイトショール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10662,
+      "tag": "white shirt",
+      "ja": "白シャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10663,
+      "tag": "white shorts",
+      "ja": "白いショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10664,
+      "tag": "white shrug",
+      "ja": "白いボレロ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10665,
+      "tag": "white skin",
+      "ja": "白い肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10666,
+      "tag": "white skirt",
+      "ja": "白いスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10667,
+      "tag": "white sky",
+      "ja": "白い空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 10668,
+      "tag": "white sleeves",
+      "ja": "白い袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10669,
+      "tag": "white snake",
+      "ja": "白蛇",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10670,
+      "tag": "white socks",
+      "ja": "白い靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10671,
+      "tag": "white sports bra",
+      "ja": "白いスポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10672,
+      "tag": "white stripes",
+      "ja": "ホワイトストライプ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10673,
+      "tag": "white suit",
+      "ja": "白いスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10674,
+      "tag": "white sweater",
+      "ja": "白いセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10675,
+      "tag": "white tail",
+      "ja": "白い尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10676,
+      "tag": "white tank top",
+      "ja": "白いタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10677,
+      "tag": "white theme",
+      "ja": "白いテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10678,
+      "tag": "white thighhighs",
+      "ja": "白ニーソ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10679,
+      "tag": "white tiger",
+      "ja": "ホワイトタイガー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10680,
+      "tag": "white trim",
+      "ja": "白いトリム",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10681,
+      "tag": "white tube top",
+      "ja": "白いチューブトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10682,
+      "tag": "white tunic",
+      "ja": "白いチュニック",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10683,
+      "tag": "white umbrella",
+      "ja": "白い傘",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10684,
+      "tag": "white undershirt",
+      "ja": "白い肌着",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10685,
+      "tag": "white veil",
+      "ja": "白いベール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10686,
+      "tag": "white vest",
+      "ja": "白いベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10687,
+      "tag": "white wings",
+      "ja": "白い翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10688,
+      "tag": "white wrist cuffs",
+      "ja": "白い手首の袖口",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10689,
+      "tag": "white-framed eyewear",
+      "ja": "白色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10858,
+      "tag": "yellow apron",
+      "ja": "黄色いエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10859,
+      "tag": "yellow armband",
+      "ja": "黄色い腕章",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10860,
+      "tag": "yellow ascot",
+      "ja": "黄色いアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10861,
+      "tag": "yellow background",
+      "ja": "黄色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10862,
+      "tag": "yellow bag",
+      "ja": "黄色のバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10863,
+      "tag": "yellow belt",
+      "ja": "黄色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10864,
+      "tag": "yellow bikini",
+      "ja": "黄色のビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10865,
+      "tag": "yellow bodysuit",
+      "ja": "黄色のボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10866,
+      "tag": "yellow border",
+      "ja": "黄色の境界",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10867,
+      "tag": "yellow bow",
+      "ja": "黄色い弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10868,
+      "tag": "yellow bowtie",
+      "ja": "黄色いボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10869,
+      "tag": "yellow bra",
+      "ja": "黄色いブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10870,
+      "tag": "yellow butterfly",
+      "ja": "黄色の蝶",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10871,
+      "tag": "yellow camisole",
+      "ja": "黄色のキャミソール",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10872,
+      "tag": "yellow cape",
+      "ja": "黄色のケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10873,
+      "tag": "yellow cardigan",
+      "ja": "イエローカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10874,
+      "tag": "yellow choker",
+      "ja": "黄色のチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10875,
+      "tag": "yellow coat",
+      "ja": "黄色のコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10876,
+      "tag": "yellow dress",
+      "ja": "黄色いドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10877,
+      "tag": "yellow eyes",
+      "ja": "金目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 10878,
+      "tag": "yellow feathers",
+      "ja": "黄色の羽",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10879,
+      "tag": "yellow flower",
+      "ja": "黄色い花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10880,
+      "tag": "yellow footwear",
+      "ja": "黄色の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10881,
+      "tag": "yellow fur",
+      "ja": "黄色い毛皮",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10882,
+      "tag": "yellow gemstone",
+      "ja": "黄色の宝石",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10883,
+      "tag": "yellow gloves",
+      "ja": "黄色の手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10884,
+      "tag": "yellow hairband",
+      "ja": "黄色のヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10885,
+      "tag": "yellow halo",
+      "ja": "黄色のハロー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10886,
+      "tag": "yellow hat",
+      "ja": "黄色い帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10887,
+      "tag": "yellow hoodie",
+      "ja": "黄色いパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10888,
+      "tag": "yellow horns",
+      "ja": "黄色の角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10889,
+      "tag": "yellow jacket",
+      "ja": "イエロージャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10890,
+      "tag": "yellow kimono",
+      "ja": "黄色の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10891,
+      "tag": "yellow leotard",
+      "ja": "黄色のレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10892,
+      "tag": "yellow nails",
+      "ja": "黄色の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10893,
+      "tag": "yellow neckerchief",
+      "ja": "黄色のネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10894,
+      "tag": "yellow necktie",
+      "ja": "黄色のネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10895,
+      "tag": "yellow one-piece swimsuit",
+      "ja": "黄色のワンピース水着",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10896,
+      "tag": "yellow outline",
+      "ja": "黄色のアウトライン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10897,
+      "tag": "yellow panties",
+      "ja": "黄色のパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 10898,
+      "tag": "yellow pants",
+      "ja": "黄色のズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10899,
+      "tag": "yellow pantyhose",
+      "ja": "黄色のパンスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10900,
+      "tag": "yellow pupils",
+      "ja": "黄色の生徒",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 10901,
+      "tag": "yellow raincoat",
+      "ja": "黄色のレインコート",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10902,
+      "tag": "yellow ribbon",
+      "ja": "黄色のリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10903,
+      "tag": "yellow rose",
+      "ja": "黄色のバラ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10904,
+      "tag": "yellow sailor collar",
+      "ja": "黄色い船乗りの首輪",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10905,
+      "tag": "yellow sash",
+      "ja": "黄色いサッシ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10906,
+      "tag": "yellow scarf",
+      "ja": "黄色のスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10907,
+      "tag": "yellow sclera",
+      "ja": "黄色硬化",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10908,
+      "tag": "yellow scrunchie",
+      "ja": "黄色のシュシュ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10909,
+      "tag": "yellow shirt",
+      "ja": "黄色のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10910,
+      "tag": "yellow shorts",
+      "ja": "黄色のショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10911,
+      "tag": "yellow skin",
+      "ja": "黄色い肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10912,
+      "tag": "yellow skirt",
+      "ja": "黄色のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10913,
+      "tag": "yellow sky",
+      "ja": "黄色い空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 10914,
+      "tag": "yellow sleeves",
+      "ja": "黄色の袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10915,
+      "tag": "yellow socks",
+      "ja": "黄色の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10916,
+      "tag": "yellow sweater",
+      "ja": "黄色いセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10917,
+      "tag": "yellow sweater vest",
+      "ja": "黄色のセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10918,
+      "tag": "yellow tail",
+      "ja": "黄色の尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10919,
+      "tag": "yellow tank top",
+      "ja": "黄色のタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10920,
+      "tag": "yellow theme",
+      "ja": "黄色のテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10921,
+      "tag": "yellow thighhighs",
+      "ja": "黄色の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10922,
+      "tag": "yellow trim",
+      "ja": "黄色い縁取り",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10923,
+      "tag": "yellow vest",
+      "ja": "黄色のベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10924,
+      "tag": "yellow wings",
+      "ja": "黄色の翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10925,
+      "tag": "yellow-framed eyewear",
+      "ja": "黄色のフレームのアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 10926,
+      "tag": "yellow-tinted eyewear",
+      "ja": "黄色のアイウェア",
+      "major": "光・色彩",
+      "minor": "色"
+    }
+  ],
+  "needs_review": [
+    {
+      "index": 183,
+      "tag": "aiguillette",
+      "ja": "金モール",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 203,
+      "tag": "akagi miria",
+      "ja": "赤城みりあ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 204,
+      "tag": "akai haato",
+      "ja": "赤井はあと",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 206,
+      "tag": "akamatsu kaede",
+      "ja": "赤松楓",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 213,
+      "tag": "akaza akari",
+      "ja": "赤座あかり",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 400,
+      "tag": "aoki reika",
+      "ja": "青木レイカ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 401,
+      "tag": "aoshima",
+      "ja": "青島",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 410,
+      "tag": "aqua background",
+      "ja": "アクアの背景",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 411,
+      "tag": "aqua bikini",
+      "ja": "青緑ビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 412,
+      "tag": "aqua bow",
+      "ja": "アクアボウ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 413,
+      "tag": "aqua bowtie",
+      "ja": "アクアボウタイ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 414,
+      "tag": "aqua bra",
+      "ja": "水色胸罩",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 415,
+      "tag": "aqua dress",
+      "ja": "水色のワンピース",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 416,
+      "tag": "aqua eyes",
+      "ja": "青目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 417,
+      "tag": "aqua flower",
+      "ja": "アクアフラワー",
+      "major": "その他",
+      "minor": "物"
+    },
+    {
+      "index": 418,
+      "tag": "aqua footwear",
+      "ja": "アクアフットウェア",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 419,
+      "tag": "aqua gemstone",
+      "ja": "アクアジェムストーン",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 420,
+      "tag": "aqua gloves",
+      "ja": "水色手套",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 421,
+      "tag": "aqua hair",
+      "ja": "水色の髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 422,
+      "tag": "aqua hairband",
+      "ja": "アクアヘアバンド",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 423,
+      "tag": "aqua halo",
+      "ja": "水色の光輪",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 424,
+      "tag": "aqua hat",
+      "ja": "水色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 425,
+      "tag": "aqua jacket",
+      "ja": "アクアジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 426,
+      "tag": "aqua kimono",
+      "ja": "アクア着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 427,
+      "tag": "aqua leotard",
+      "ja": "アクアレオタード",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 428,
+      "tag": "aqua nails",
+      "ja": "水色指甲",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 429,
+      "tag": "aqua neckerchief",
+      "ja": "アクアネッカチーフ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 430,
+      "tag": "aqua necktie",
+      "ja": "アクアネクタイ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 431,
+      "tag": "aqua panties",
+      "ja": "アクアパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 432,
+      "tag": "aqua ribbon",
+      "ja": "アクアリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 433,
+      "tag": "aqua shirt",
+      "ja": "水色シャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 434,
+      "tag": "aqua shorts",
+      "ja": "アクアショーツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 435,
+      "tag": "aqua skin",
+      "ja": "アクアスキン",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 436,
+      "tag": "aqua skirt",
+      "ja": "水色のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 437,
+      "tag": "aqua sleeves",
+      "ja": "アクアスリーブ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 438,
+      "tag": "aqua theme",
+      "ja": "アクア色",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 439,
+      "tag": "aqua thighhighs",
+      "ja": "水色のニーハイソックス",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 440,
+      "tag": "aqua trim",
+      "ja": "水色の縁取り",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 572,
+      "tag": "ashtray",
+      "ja": "灰皿",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 621,
+      "tag": "autumn leaves",
+      "ja": "紅葉",
+      "major": "背景・場所",
+      "minor": "時間・天候"
+    },
+    {
+      "index": 646,
+      "tag": "baby",
+      "ja": "赤ちゃん",
+      "major": "人物",
+      "minor": "年齢"
+    },
+    {
+      "index": 1102,
+      "tag": "blonde hair",
+      "ja": "金髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 1247,
+      "tag": "blush",
+      "ja": "赤面",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 1248,
+      "tag": "blush stickers",
+      "ja": "赤面ステッカー",
+      "major": "人物",
+      "minor": "顔・表情"
+    },
+    {
+      "index": 1447,
+      "tag": "brown",
+      "ja": "茶色",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1505,
+      "tag": "bruise",
+      "ja": "青痣",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 1740,
+      "tag": "chain-link fence",
+      "ja": "金網フェンス",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 1752,
+      "tag": "chalkboard",
+      "ja": "黒板",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 1926,
+      "tag": "cleft of venus",
+      "ja": "金星の裂け目",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 2185,
+      "tag": "cream on face",
+      "ja": "顔にクリーム",
+      "major": "人物",
+      "minor": "種族・役割"
+    },
+    {
+      "index": 2375,
+      "tag": "dark blue hair",
+      "ja": "濃い青い髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 2383,
+      "tag": "dark skin",
+      "ja": "黒人",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 2387,
+      "tag": "dark-skinned female",
+      "ja": "黒肌の女の子",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 2389,
+      "tag": "darker than black",
+      "ja": "黒よりも暗い",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 2497,
+      "tag": "dimples of venus",
+      "ja": "金星のくぼみ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 2688,
+      "tag": "dusk",
+      "ja": "黄昏",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3462,
+      "tag": "galaxy",
+      "ja": "銀河",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3606,
+      "tag": "gokou ruri",
+      "ja": "黒猫(俺の妹)",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3608,
+      "tag": "gold armlet",
+      "ja": "金色の腕輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3609,
+      "tag": "gold armor",
+      "ja": "ゴールドアーマー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3610,
+      "tag": "gold bikini",
+      "ja": "金ビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3611,
+      "tag": "gold bracelet",
+      "ja": "金のブレスレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3612,
+      "tag": "gold chain",
+      "ja": "ゴールドチェーン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3613,
+      "tag": "gold choker",
+      "ja": "ゴールドチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3614,
+      "tag": "gold coin",
+      "ja": "金貨",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3615,
+      "tag": "gold crown",
+      "ja": "金色の王冠",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3616,
+      "tag": "gold earrings",
+      "ja": "金のイヤリング",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3617,
+      "tag": "gold footwear",
+      "ja": "金の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3618,
+      "tag": "gold hairband",
+      "ja": "ゴールドヘアバンド",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3619,
+      "tag": "gold necklace",
+      "ja": "ゴールドネックレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3620,
+      "tag": "gold ring",
+      "ja": "金色の指輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3622,
+      "tag": "gold trim",
+      "ja": "ゴールドトリム",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3623,
+      "tag": "golden apple",
+      "ja": "金のりんご",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3624,
+      "tag": "golden arms",
+      "ja": "黄金の腕",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3628,
+      "tag": "goldfish",
+      "ja": "金魚",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3668,
+      "tag": "greatsword",
+      "ja": "グレートソード",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 3752,
+      "tag": "grey apron",
+      "ja": "灰色のエプロン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3753,
+      "tag": "grey ascot",
+      "ja": "灰色のアスコット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3754,
+      "tag": "grey background",
+      "ja": "灰色背景",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3755,
+      "tag": "grey bag",
+      "ja": "灰色のバッグ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3756,
+      "tag": "grey belt",
+      "ja": "灰色のベルト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3757,
+      "tag": "grey bikini",
+      "ja": "灰色のビキニ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3758,
+      "tag": "grey bodysuit",
+      "ja": "灰色のボディスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3759,
+      "tag": "grey border",
+      "ja": "グレーの境界線",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3760,
+      "tag": "grey bow",
+      "ja": "灰色の弓",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3761,
+      "tag": "grey bowtie",
+      "ja": "灰色のボウタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3762,
+      "tag": "grey bra",
+      "ja": "灰色のブラジャー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3763,
+      "tag": "grey cape",
+      "ja": "灰色のケープ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3764,
+      "tag": "grey capelet",
+      "ja": "灰色のカペレット",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3765,
+      "tag": "grey cardigan",
+      "ja": "灰色のカーディガン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3766,
+      "tag": "grey cat",
+      "ja": "灰色の猫",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3767,
+      "tag": "grey choker",
+      "ja": "灰色のチョーカー",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3768,
+      "tag": "grey cloak",
+      "ja": "灰色のマント",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3769,
+      "tag": "grey coat",
+      "ja": "グレーのコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3770,
+      "tag": "grey dress",
+      "ja": "灰色のドレス",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3771,
+      "tag": "grey eyes",
+      "ja": "灰目",
+      "major": "人物",
+      "minor": "目"
+    },
+    {
+      "index": 3772,
+      "tag": "grey flower",
+      "ja": "灰色の花",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3773,
+      "tag": "grey footwear",
+      "ja": "灰色の履物",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3774,
+      "tag": "grey fur",
+      "ja": "灰色の毛",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3775,
+      "tag": "grey gloves",
+      "ja": "灰色の手袋",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3776,
+      "tag": "grey hair",
+      "ja": "灰髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 3777,
+      "tag": "grey hairband",
+      "ja": "白髪の帯域",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3778,
+      "tag": "grey halo",
+      "ja": "灰色の光輪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3779,
+      "tag": "grey hat",
+      "ja": "灰色の帽子",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3780,
+      "tag": "grey hoodie",
+      "ja": "灰色のパーカー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3781,
+      "tag": "grey horns",
+      "ja": "灰色の角",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3782,
+      "tag": "grey jacket",
+      "ja": "灰色のジャケット",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3783,
+      "tag": "grey kimono",
+      "ja": "灰色の着物",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3784,
+      "tag": "grey leotard",
+      "ja": "灰色のレオタード",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3785,
+      "tag": "grey nails",
+      "ja": "灰色の爪",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3786,
+      "tag": "grey neckerchief",
+      "ja": "灰色のネッカチーフ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3787,
+      "tag": "grey necktie",
+      "ja": "グレーのネクタイ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3788,
+      "tag": "grey panties",
+      "ja": "灰色のパンティー",
+      "major": "成人向け",
+      "minor": "身体・衣類"
+    },
+    {
+      "index": 3789,
+      "tag": "grey pants",
+      "ja": "灰色のズボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3790,
+      "tag": "grey pantyhose",
+      "ja": "グレーのパンティホース",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3791,
+      "tag": "grey ribbon",
+      "ja": "灰色のリボン",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3792,
+      "tag": "grey sailor collar",
+      "ja": "灰色のセーラーカラー",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3793,
+      "tag": "grey scarf",
+      "ja": "灰色のスカーフ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3794,
+      "tag": "grey serafuku",
+      "ja": "灰色のserafuku",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3795,
+      "tag": "grey shirt",
+      "ja": "灰色のシャツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3796,
+      "tag": "grey shorts",
+      "ja": "灰色のショートパンツ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3797,
+      "tag": "grey skin",
+      "ja": "灰色の肌",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3798,
+      "tag": "grey skirt",
+      "ja": "灰色のスカート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3799,
+      "tag": "grey sky",
+      "ja": "灰色の空",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 3800,
+      "tag": "grey sleeves",
+      "ja": "グレーの袖",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3801,
+      "tag": "grey socks",
+      "ja": "灰色の靴下",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3802,
+      "tag": "grey sports bra",
+      "ja": "灰色のスポーツブラ",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3803,
+      "tag": "grey suit",
+      "ja": "灰色のスーツ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3804,
+      "tag": "grey sweater",
+      "ja": "灰色のセーター",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3805,
+      "tag": "grey sweater vest",
+      "ja": "灰色のセーターベスト",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 3806,
+      "tag": "grey tail",
+      "ja": "灰色の尾",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3807,
+      "tag": "grey tank top",
+      "ja": "灰色のタンクトップ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3808,
+      "tag": "grey theme",
+      "ja": "灰色のテーマ",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3809,
+      "tag": "grey thighhighs",
+      "ja": "灰色の太もも",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3810,
+      "tag": "grey vest",
+      "ja": "グレーのベスト",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3811,
+      "tag": "grey wings",
+      "ja": "灰色の翼",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3814,
+      "tag": "greyscale",
+      "ja": "グレー系",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 4430,
+      "tag": "holding hammer",
+      "ja": "金槌を持つ",
+      "major": "ポーズ・動作",
+      "minor": "行動"
+    },
+    {
+      "index": 4616,
+      "tag": "horn/wood",
+      "ja": "金管・木管楽器",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 4646,
+      "tag": "hoshizora rin",
+      "ja": "金曜凛ちゃんりんりんりん",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 4761,
+      "tag": "ikeuchi tanuma",
+      "ja": "青島タヌマ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5061,
+      "tag": "kanabou",
+      "ja": "金棒",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5175,
+      "tag": "kill me baby",
+      "ja": "赤ちゃんを殺します",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5213,
+      "tag": "kise yayoi",
+      "ja": "黄瀬やよい",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5287,
+      "tag": "konjiki no yami",
+      "ja": "金色の闇",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5311,
+      "tag": "kouhaku nawa",
+      "ja": "紅白ロープ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5343,
+      "tag": "kurodani yamame",
+      "ja": "黒谷ヤマメ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5345,
+      "tag": "kurokoma saki",
+      "ja": "黒子サキ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5346,
+      "tag": "kurokote",
+      "ja": "黒Cote",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5350,
+      "tag": "kurosaki ichigo",
+      "ja": "黒子一辺",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5351,
+      "tag": "kurosawa dia",
+      "ja": "黒崎ダイア",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5352,
+      "tag": "kurosawa ruby",
+      "ja": "黒崎ルビー",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5366,
+      "tag": "lab coat",
+      "ja": "白衣",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 5541,
+      "tag": "light blue hair",
+      "ja": "水色の髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 5571,
+      "tag": "linea alba",
+      "ja": "白線（腹筋）",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 5598,
+      "tag": "little red riding hood",
+      "ja": "赤頭巾ちゃん",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6009,
+      "tag": "metal hairband",
+      "ja": "金属ヘアバンド",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6010,
+      "tag": "metal skin",
+      "ja": "金属皮",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6032,
+      "tag": "midorikawa nao",
+      "ja": "緑川なお",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6033,
+      "tag": "midoriya izuku",
+      "ja": "青田izuku",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6190,
+      "tag": "momosuzu nene",
+      "ja": "桃鈴ねね",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6361,
+      "tag": "murasaki shion",
+      "ja": "紫咲シオン",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 6463,
+      "tag": "naranja academy school uniform",
+      "ja": "オレンジアカデミー制服",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7149,
+      "tag": "peach hat ornament",
+      "ja": "桃の帽子飾り",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 7778,
+      "tag": "qingdai guanmao",
+      "ja": "青代冠帽",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8343,
+      "tag": "scarlet devil mansion",
+      "ja": "紅魔館",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8414,
+      "tag": "seigaiha",
+      "ja": "青海波",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8418,
+      "tag": "seishun buta yarou",
+      "ja": "青春ブタ野郎",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8594,
+      "tag": "shirai kuroko",
+      "ja": "白井黒子",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8595,
+      "tag": "shirakami fubuki",
+      "ja": "白上フブキ",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8601,
+      "tag": "shirase sakuya",
+      "ja": "白瀬咲耶",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8604,
+      "tag": "shirogane naoto",
+      "ja": "白鐘直斗",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8605,
+      "tag": "shirogane noel",
+      "ja": "白銀ノエル",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8610,
+      "tag": "shironeko project",
+      "ja": "白猫プロジェクト",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8759,
+      "tag": "silver dress",
+      "ja": "银色连衣裙",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 8761,
+      "tag": "silver hair",
+      "ja": "銀髪",
+      "major": "人物",
+      "minor": "頭髪"
+    },
+    {
+      "index": 8762,
+      "tag": "silver trim",
+      "ja": "シルバートリム",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 9583,
+      "tag": "takato kurosuke",
+      "ja": "紅usuke",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 10084,
+      "tag": "turn pale",
+      "ja": "青ざめる",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 10320,
+      "tag": "uva academy school uniform",
+      "ja": "グレープアカデミー制服",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 10364,
+      "tag": "vento aureo",
+      "ja": "黄金の風",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 10365,
+      "tag": "venus symbol",
+      "ja": "金星のシンボル",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 10857,
+      "tag": "yellow",
+      "ja": "黄色",
+      "major": "光・色彩",
+      "minor": "色"
+    }
+  ],
+  "protected_or_named": [
+    {
+      "index": 120,
+      "tag": "acheron (honkai: star rail)",
+      "ja": "黄泉(スターレイル)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 201,
+      "tag": "akagi (azur lane)",
+      "ja": "赤城(アズールレーン)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 202,
+      "tag": "akagi (kancolle)",
+      "ja": "赤城(艦隊これくしょん)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 397,
+      "tag": "aoba (kancolle)",
+      "ja": "青葉(艦隊これくしょん)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 398,
+      "tag": "aoki (fumomo)",
+      "ja": "青木（フモモ）",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 409,
+      "tag": "aqua (konosuba)",
+      "ja": "アクア（このすば）",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 996,
+      "tag": "black coat (kingdom hearts)",
+      "ja": "黒いコート",
+      "major": "服装",
+      "minor": "衣類"
+    },
+    {
+      "index": 1044,
+      "tag": "black rock shooter (character)",
+      "ja": "ブラックロックシューター（キャラクター）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1065,
+      "tag": "black swan (honkai: star rail)",
+      "ja": "ブラックスワン",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 1199,
+      "tag": "blue poison (arknights)",
+      "ja": "青い毒（arknights）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 3621,
+      "tag": "gold ship (umamusume)",
+      "ja": "金船（ウマムスメ）",
+      "major": "背景・場所",
+      "minor": "自然"
+    },
+    {
+      "index": 3812,
+      "tag": "grey wolf (kemono friends)",
+      "ja": "グレイウルフ（ケモモンフレンズ）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 5286,
+      "tag": "kongou (kancolle)",
+      "ja": "金剛(艦隊これくしょん)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 5353,
+      "tag": "kuroshio (kancolle)",
+      "ja": "黒潮（艦これ）",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 6881,
+      "tag": "orange (fruit)",
+      "ja": "オレンジ）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 6918,
+      "tag": "orange pekoe (girls und panzer)",
+      "ja": "オレンジペコ（ガールズ＆パンツァー）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7726,
+      "tag": "purple heart (neptunia)",
+      "ja": "パープルハート",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 7886,
+      "tag": "red (pokemon)",
+      "ja": "赤（ポケモン）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 8596,
+      "tag": "shirakami fubuki (1st costume)",
+      "ja": "白上フブキ(通常)",
+      "major": "未分類",
+      "minor": "未分類"
+    },
+    {
+      "index": 8602,
+      "tag": "shiratsuyu (kancolle)",
+      "ja": "白露(艦隊これくしょん)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 8603,
+      "tag": "shirayuki (kancolle)",
+      "ja": "白雪(艦隊これくしょん)",
+      "major": "作品・キャラクター",
+      "minor": "キャラクター"
+    },
+    {
+      "index": 8758,
+      "tag": "silver (pokemon)",
+      "ja": "シルバー（ポケモン）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 8760,
+      "tag": "silver fox (kemono friends)",
+      "ja": "シルバーフォックス（ケモモの友達）",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 8763,
+      "tag": "silver wolf (honkai: star rail)",
+      "ja": "銀狼(スターレイル)",
+      "major": "光・色彩",
+      "minor": "色"
+    },
+    {
+      "index": 9922,
+      "tag": "toriyama akira (style)",
+      "ja": "緑山明（スタイル）",
+      "major": "画風・品質",
+      "minor": "画風"
+    }
+  ]
+}
