@@ -11,6 +11,8 @@ on:
       - "scripts/audit-tag-management.mjs"
       - "scripts/audit-translations.mjs"
       - "scripts/apply-safe-category-candidates.mjs"
+      - "scripts/build-tag-metadata-review.mjs"
+      - "data/nsfw-prompt-tag-audit.json"
       - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   pull_request:
@@ -44,6 +46,10 @@ jobs:
         run: node --check src/app.js
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
+      - name: Check metadata review generator syntax
+        run: node --check scripts/build-tag-metadata-review.mjs
+      - name: Dry-run metadata review candidate generation
+        run: node scripts/build-tag-metadata-review.mjs
       - name: Audit tag dataset
         run: node scripts/audit-tags.mjs
       - name: Audit tag management metadata
