@@ -484,8 +484,8 @@
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
-      "note": "公式日本語タイトル／表記に合わせたAI一括修正。人手の最終確認待ち。",
-      "source": "https://bluearchive.jp/"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "tsubaki (blue archive)": {
       "translationStatus": "needs-review",
@@ -5605,11 +5605,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "show by rock!!": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "siblings": {
       "translationStatus": "unreviewed",
@@ -5724,11 +5724,11 @@
       "source": "category-audit-candidates-09.jsonl"
     },
     "skin tight": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-09.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "skull earrings": {
       "translationStatus": "unreviewed",
@@ -5997,11 +5997,11 @@
       "source": "category-audit-candidates-10.jsonl"
     },
     "stiletto heels": {
-      "translationStatus": "unreviewed",
+      "translationStatus": "needs-review",
       "classificationStatus": "provisional",
       "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-10.jsonl"
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     },
     "stirrup footwear": {
       "translationStatus": "needs-review",
@@ -9536,6 +9536,132 @@
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
       "note": "翻訳監査バッチ 8501–9500 で誤訳・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiomi kotone": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinosawa hiro": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shirasaka koume": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shinonome ena": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shiroko terror (blue archive)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shuten douji (fate)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shoujo kitou-chuu": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shuka high school uniform": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "shikishi": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skirt flip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "skirt hold": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "slingshot swimsuit": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "staff (music)": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "star pasties": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "stationary restraints": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "strap slip": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "string of flags": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    "spooning": {
+      "translationStatus": "needs-review",
+      "classificationStatus": "unreviewed",
+      "reviewedAt": null,
+      "note": "翻訳監査バッチ 8501–9500 の追加確認で固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
       "source": null
     }
   }
