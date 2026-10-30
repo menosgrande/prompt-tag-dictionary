@@ -20381,8 +20381,8 @@
     },
     {
       "tag": "legwear garter",
-      "ja": "ガーターベルト付きレッグウェア",
-      "status": "reviewed"
+      "ja": "レッグウェアガーター",
+      "status": "needs_review"
     },
     {
       "tag": "lelouch vi britannia",
@@ -20397,17 +20397,17 @@
     {
       "tag": "lemon slice",
       "ja": "レモンスライス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lens flare",
       "ja": "レンズフレア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "leon (pokemon)",
-      "ja": "ダンデ（ポケモン）",
-      "status": "reviewed"
+      "ja": "レオン（ポケモン）",
+      "status": "needs_review"
     },
     {
       "tag": "leonardo da vinci (fate)",
@@ -20417,17 +20417,17 @@
     {
       "tag": "leopard ears",
       "ja": "ヒョウの耳",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "leopard print",
       "ja": "ヒョウ柄",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "leopard tail",
-      "ja": "ヒョウの尻尾",
-      "status": "reviewed"
+      "ja": "ヒョウの尾",
+      "status": "needs_review"
     },
     {
       "tag": "leotard",
@@ -20436,23 +20436,23 @@
     },
     {
       "tag": "leotard aside",
-      "ja": "レオタードの股布をずらす",
-      "status": "reviewed"
+      "ja": "股布ずらし",
+      "status": "needs_review"
     },
     {
       "tag": "leotard peek",
-      "ja": "レオタードの隙間から見える",
-      "status": "reviewed"
+      "ja": "レオタードが見える",
+      "status": "needs_review"
     },
     {
       "tag": "leotard pull",
-      "ja": "レオタードを引っ張る",
-      "status": "reviewed"
+      "ja": "レオタードプル",
+      "status": "needs_review"
     },
     {
       "tag": "leotard under clothes",
-      "ja": "服の下に着たレオタード",
-      "status": "reviewed"
+      "ja": "衣服の下にレオタード",
+      "status": "needs_review"
     },
     {
       "tag": "lets0020",
@@ -20466,18 +20466,18 @@
     },
     {
       "tag": "letter hair ornament",
-      "ja": "文字モチーフの髪飾り",
-      "status": "reviewed"
+      "ja": "文字の髪の飾り",
+      "status": "needs_review"
     },
     {
       "tag": "letterboxed",
-      "ja": "レターボックス（上下黒帯）",
-      "status": "reviewed"
+      "ja": "レターボックス",
+      "status": "needs_review"
     },
     {
       "tag": "letterman jacket",
-      "ja": "スタジャン",
-      "status": "reviewed"
+      "ja": "レターマンジャケット",
+      "status": "needs_review"
     },
     {
       "tag": "lettuce",
@@ -20496,8 +20496,8 @@
     },
     {
       "tag": "levitation",
-      "ja": "浮遊",
-      "status": "reviewed"
+      "ja": "浮揚",
+      "status": "needs_review"
     },
     {
       "tag": "libeccio (kancolle)",
@@ -20511,13 +20511,13 @@
     },
     {
       "tag": "library of ruina",
-      "ja": "ライブラリー・オブ・ルイナ",
-      "status": "reviewed"
+      "ja": "ルイナの図書館",
+      "status": "needs_review"
     },
     {
       "tag": "license plate",
       "ja": "ナンバープレート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "licking",
@@ -20526,8 +20526,8 @@
     },
     {
       "tag": "licking armpit",
-      "ja": "脇を舐める",
-      "status": "reviewed"
+      "ja": "脇の下を舐める",
+      "status": "needs_review"
     },
     {
       "tag": "licking breast",
@@ -20536,23 +20536,23 @@
     },
     {
       "tag": "licking ear",
-      "ja": "耳を舐める",
-      "status": "reviewed"
+      "ja": "耳をなめる",
+      "status": "needs_review"
     },
     {
       "tag": "licking finger",
-      "ja": "指を舐める",
-      "status": "reviewed"
+      "ja": "指をなめる",
+      "status": "needs_review"
     },
     {
       "tag": "licking foot",
-      "ja": "足を舐める",
-      "status": "reviewed"
+      "ja": "足をなめる",
+      "status": "needs_review"
     },
     {
       "tag": "licking lips",
-      "ja": "唇を舐める",
-      "status": "reviewed"
+      "ja": "唇をなめる",
+      "status": "needs_review"
     },
     {
       "tag": "licking nipple",
@@ -20561,38 +20561,38 @@
     },
     {
       "tag": "lifebuoy",
-      "ja": "救命浮輪",
-      "status": "reviewed"
+      "ja": "救生圈",
+      "status": "needs_review"
     },
     {
       "tag": "lifebuoy ornament",
-      "ja": "救命浮輪の飾り",
-      "status": "reviewed"
+      "ja": "lifebuoy飾り",
+      "status": "needs_review"
     },
     {
       "tag": "lifting own clothes",
-      "ja": "自分の服をたくし上げる",
-      "status": "reviewed"
+      "ja": "たくしあげ",
+      "status": "needs_review"
     },
     {
       "tag": "lifting person",
-      "ja": "人を持ち上げる",
-      "status": "reviewed"
+      "ja": "持ち上げる人",
+      "status": "needs_review"
     },
     {
       "tag": "light areolae",
-      "ja": "色の薄い乳輪",
-      "status": "reviewed"
+      "ja": "軽い乳輪",
+      "status": "needs_review"
     },
     {
       "tag": "light blue hair",
       "ja": "水色の髪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "light blush",
-      "ja": "薄い赤面",
-      "status": "reviewed"
+      "ja": "軽い赤面",
+      "status": "needs_review"
     },
     {
       "tag": "light bulb",
@@ -20601,38 +20601,38 @@
     },
     {
       "tag": "light censor",
-      "ja": "軽いぼかし",
-      "status": "reviewed"
+      "ja": "軽い検閲",
+      "status": "needs_review"
     },
     {
       "tag": "light frown",
-      "ja": "わずかに眉をひそめる",
-      "status": "reviewed"
+      "ja": "軽い眉をひそめ",
+      "status": "needs_review"
     },
     {
       "tag": "light machine gun",
       "ja": "軽機関銃",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "light particles",
-      "ja": "光の粒子",
-      "status": "reviewed"
+      "ja": "光粒子",
+      "status": "needs_review"
     },
     {
       "tag": "light rays",
       "ja": "光線",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "light smile",
-      "ja": "かすかな笑み",
-      "status": "reviewed"
+      "ja": "軽い笑顔",
+      "status": "needs_review"
     },
     {
       "tag": "light trail",
-      "ja": "光跡",
-      "status": "reviewed"
+      "ja": "ライトトレイル",
+      "status": "needs_review"
     },
     {
       "tag": "lighter",
@@ -20671,13 +20671,13 @@
     },
     {
       "tag": "ligne claire",
-      "ja": "リーニュ・クレール",
-      "status": "reviewed"
+      "ja": "リグー・クレア",
+      "status": "needs_review"
     },
     {
       "tag": "like and retweet",
-      "ja": "いいねとリポスト",
-      "status": "reviewed"
+      "ja": "好きでリツイート",
+      "status": "needs_review"
     },
     {
       "tag": "lilith (darkstalkers)",
@@ -20692,17 +20692,17 @@
     {
       "tag": "lily (flower)",
       "ja": "ユリ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lily of the valley",
       "ja": "スズラン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lily pad",
-      "ja": "ハスの葉",
-      "status": "reviewed"
+      "ja": "睡莲叶",
+      "status": "needs_review"
     },
     {
       "tag": "lily white",
@@ -20721,38 +20721,38 @@
     },
     {
       "tag": "limited palette",
-      "ja": "限定された色数",
-      "status": "reviewed"
+      "ja": "限られたパレット",
+      "status": "needs_review"
     },
     {
       "tag": "limiter (tsukumo sana)",
-      "ja": "リミッター（つくもさん）",
-      "status": "reviewed"
+      "ja": "リミッター（サナのツクモ）",
+      "status": "needs_review"
     },
     {
       "tag": "line art",
       "ja": "線画",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "linea alba",
-      "ja": "白線（腹部の正中線）",
-      "status": "reviewed"
+      "ja": "白線（腹筋）",
+      "status": "needs_review"
     },
     {
       "tag": "linear hatching",
-      "ja": "線状のハッチング",
-      "status": "reviewed"
+      "ja": "線形hatch化",
+      "status": "needs_review"
     },
     {
       "tag": "lineart",
       "ja": "線画",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lineup",
-      "ja": "整列",
-      "status": "reviewed"
+      "ja": "並ぶ",
+      "status": "needs_review"
     },
     {
       "tag": "lingerie",
@@ -20771,13 +20771,13 @@
     },
     {
       "tag": "linked piercing",
-      "ja": "連結ピアス",
-      "status": "reviewed"
+      "ja": "リンクピアス",
+      "status": "needs_review"
     },
     {
       "tag": "lio fotia",
       "ja": "リオ・フォーティア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lion",
@@ -20786,33 +20786,33 @@
     },
     {
       "tag": "lion boy",
-      "ja": "ライオンの少年",
-      "status": "reviewed"
+      "ja": "ライオンボーイ",
+      "status": "needs_review"
     },
     {
       "tag": "lion ears",
       "ja": "ライオンの耳",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lion girl",
-      "ja": "ライオンの少女",
-      "status": "reviewed"
+      "ja": "ライオン耳",
+      "status": "needs_review"
     },
     {
       "tag": "lion tail",
-      "ja": "ライオンの尻尾",
-      "status": "reviewed"
+      "ja": "ライオンテール",
+      "status": "needs_review"
     },
     {
       "tag": "lip piercing",
       "ja": "リップピアス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lipgloss",
       "ja": "リップグロス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lips",
@@ -20827,12 +20827,12 @@
     {
       "tag": "lipstick mark",
       "ja": "口紅の跡",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lipstick tube",
-      "ja": "口紅",
-      "status": "reviewed"
+      "ja": "口紅チューブ",
+      "status": "needs_review"
     },
     {
       "tag": "liquid",
@@ -20841,73 +20841,73 @@
     },
     {
       "tag": "liquid hair",
-      "ja": "液体状の髪",
-      "status": "reviewed"
+      "ja": "液体の髪",
+      "status": "needs_review"
     },
     {
       "tag": "lisa (genshin impact)",
-      "ja": "リサ（原神）",
-      "status": "reviewed"
+      "ja": "リサ(原神)",
+      "status": "needs_review"
     },
     {
       "tag": "listening to music",
       "ja": "音楽を聴く",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "little busters!",
       "ja": "リトルバスターズ！",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "little busters! school uniform",
       "ja": "リトルバスターズ！の制服",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "little nuns (diva)",
-      "ja": "Little Nuns（Diva）",
-      "status": "reviewed"
+      "ja": "リトルナン（歌姫）",
+      "status": "needs_review"
     },
     {
       "tag": "little red riding hood",
-      "ja": "赤ずきん",
-      "status": "reviewed"
+      "ja": "赤頭巾ちゃん",
+      "status": "needs_review"
     },
     {
       "tag": "little red riding hood (grimm)",
-      "ja": "赤ずきん（グリム童話）",
-      "status": "reviewed"
+      "ja": "リトルレッドライディングフード（グリム）",
+      "status": "needs_review"
     },
     {
       "tag": "little red riding hood (grimm) (cosplay)",
-      "ja": "赤ずきん（グリム童話）のコスプレ",
-      "status": "reviewed"
+      "ja": "リトルレッドライディングフード（グリム）（コスプレ）",
+      "status": "needs_review"
     },
     {
       "tag": "little witch academia",
       "ja": "リトルウィッチアカデミア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "live a hero",
-      "ja": "ライブ・ア・ヒーロー",
-      "status": "reviewed"
+      "ja": "ヒーローを生きる",
+      "status": "needs_review"
     },
     {
       "tag": "livestream",
-      "ja": "ライブ配信",
-      "status": "reviewed"
+      "ja": "ライブストリーム",
+      "status": "needs_review"
     },
     {
       "tag": "living clothes",
       "ja": "生きている服",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "living room",
-      "ja": "リビングルーム",
-      "status": "reviewed"
+      "ja": "居間",
+      "status": "needs_review"
     },
     {
       "tag": "lizard",
@@ -20916,8 +20916,8 @@
     },
     {
       "tag": "lizard tail",
-      "ja": "トカゲの尻尾",
-      "status": "reviewed"
+      "ja": "トカゲの尾",
+      "status": "needs_review"
     },
     {
       "tag": "lize helesta",
@@ -20926,13 +20926,13 @@
     },
     {
       "tag": "load bearing vest",
-      "ja": "ロードベアリングベスト",
-      "status": "reviewed"
+      "ja": "負荷ベアリングベスト",
+      "status": "needs_review"
     },
     {
       "tag": "loaded interior",
-      "ja": "物が多く置かれた室内",
-      "status": "reviewed"
+      "ja": "ロードされたインテリア",
+      "status": "needs_review"
     },
     {
       "tag": "loafers",
@@ -20951,8 +20951,8 @@
     },
     {
       "tag": "locked arms",
-      "ja": "腕を組む",
-      "status": "reviewed"
+      "ja": "ロックされた腕",
+      "status": "needs_review"
     },
     {
       "tag": "locker",
@@ -20961,8 +20961,8 @@
     },
     {
       "tag": "locker room",
-      "ja": "更衣室",
-      "status": "reviewed"
+      "ja": "ロッカールーム",
+      "status": "needs_review"
     },
     {
       "tag": "locomotive",
@@ -20976,8 +20976,8 @@
     },
     {
       "tag": "log pose",
-      "ja": "ログポース",
-      "status": "reviewed"
+      "ja": "ログポーズ",
+      "status": "needs_review"
     },
     {
       "tag": "logo",
@@ -20986,13 +20986,13 @@
     },
     {
       "tag": "logo parody",
-      "ja": "ロゴのパロディ",
-      "status": "reviewed"
+      "ja": "ロゴパロディ",
+      "status": "needs_review"
     },
     {
       "tag": "loincloth",
-      "ja": "腰布",
-      "status": "reviewed"
+      "ja": "ふんどし",
+      "status": "needs_review"
     },
     {
       "tag": "lolidom",
@@ -21007,12 +21007,12 @@
     {
       "tag": "lolita fashion",
       "ja": "ロリータファッション",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lolita hairband",
-      "ja": "ロリータ風ヘアバンド",
-      "status": "reviewed"
+      "ja": "ロリータヘアバンド",
+      "status": "needs_review"
     },
     {
       "tag": "lollipop",
@@ -21021,158 +21021,158 @@
     },
     {
       "tag": "lone nape hair",
-      "ja": "うなじの後れ毛",
-      "status": "reviewed"
+      "ja": "孤独なうなじ",
+      "status": "needs_review"
     },
     {
       "tag": "long bangs",
       "ja": "長い前髪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long beard",
-      "ja": "長いあごひげ",
-      "status": "reviewed"
+      "ja": "長いひげ",
+      "status": "needs_review"
     },
     {
       "tag": "long braid",
       "ja": "長い三つ編み",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long coat",
       "ja": "ロングコート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long dress",
       "ja": "ロングドレス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long earlobes",
       "ja": "長い耳たぶ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long eyelashes",
-      "ja": "長いまつ毛",
-      "status": "reviewed"
+      "ja": "長いまつげ",
+      "status": "needs_review"
     },
     {
       "tag": "long fingernails",
       "ja": "長い爪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long hair",
-      "ja": "長髪",
-      "status": "reviewed"
+      "ja": "ロングヘア",
+      "status": "needs_review"
     },
     {
       "tag": "long hair between eyes",
-      "ja": "目の間に垂れる長い髪",
-      "status": "reviewed"
+      "ja": "目の間に長い髪",
+      "status": "needs_review"
     },
     {
       "tag": "long horns",
       "ja": "長い角",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long legs",
       "ja": "長い脚",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long neck",
       "ja": "長い首",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long nose",
       "ja": "長い鼻",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long pointy ears",
-      "ja": "長く尖った耳",
-      "status": "reviewed"
+      "ja": "長い先のとがった耳",
+      "status": "needs_review"
     },
     {
       "tag": "long ribbon",
       "ja": "長いリボン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long scarf",
       "ja": "長いスカーフ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long shirt",
       "ja": "ロングシャツ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long sideburns",
-      "ja": "長いもみあげ",
-      "status": "reviewed"
+      "ja": "長時間のサイドバーン",
+      "status": "needs_review"
     },
     {
       "tag": "long sidelocks",
-      "ja": "長い横髪",
-      "status": "reviewed"
+      "ja": "長いサイドロック",
+      "status": "needs_review"
     },
     {
       "tag": "long skirt",
       "ja": "ロングスカート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long sleeves",
       "ja": "長袖",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long tail",
-      "ja": "長い尻尾",
-      "status": "reviewed"
+      "ja": "ロングテール",
+      "status": "needs_review"
     },
     {
       "tag": "long toenails",
       "ja": "長い足の爪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "long tongue",
       "ja": "長い舌",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "look-alike",
-      "ja": "そっくりな人物",
-      "status": "reviewed"
+      "ja": "そっくりさん",
+      "status": "needs_review"
     },
     {
       "tag": "looking afar",
-      "ja": "遠くを見る",
-      "status": "reviewed"
+      "ja": "遠くを探しています",
+      "status": "needs_review"
     },
     {
       "tag": "looking ahead",
-      "ja": "前方を見る",
-      "status": "reviewed"
+      "ja": "今後",
+      "status": "needs_review"
     },
     {
       "tag": "looking at animal",
-      "ja": "動物を見る",
-      "status": "reviewed"
+      "ja": "動物を見ています",
+      "status": "needs_review"
     },
     {
       "tag": "looking at another",
-      "ja": "他の人物を見る",
-      "status": "reviewed"
+      "ja": "別の物を見てる",
+      "status": "needs_review"
     },
     {
       "tag": "looking at breasts",
@@ -21181,108 +21181,108 @@
     },
     {
       "tag": "looking at food",
-      "ja": "食べ物を見る",
-      "status": "reviewed"
+      "ja": "食べ物を見ています",
+      "status": "needs_review"
     },
     {
       "tag": "looking at hand",
-      "ja": "手を見る",
-      "status": "reviewed"
+      "ja": "手を見ています",
+      "status": "needs_review"
     },
     {
       "tag": "looking at mirror",
       "ja": "鏡を見る",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "looking at object",
-      "ja": "物を見る",
-      "status": "reviewed"
+      "ja": "オブジェクトを見ています",
+      "status": "needs_review"
     },
     {
       "tag": "looking at phone",
-      "ja": "携帯電話を見る",
-      "status": "reviewed"
+      "ja": "電話を見る",
+      "status": "needs_review"
     },
     {
       "tag": "looking at viewer",
-      "ja": "見る人の方を見る",
-      "status": "reviewed"
+      "ja": "カメラ目線",
+      "status": "needs_review"
     },
     {
       "tag": "looking back",
-      "ja": "振り返る",
-      "status": "reviewed"
+      "ja": "見返り",
+      "status": "needs_review"
     },
     {
       "tag": "looking down",
-      "ja": "下を見る",
-      "status": "reviewed"
+      "ja": "見下ろす",
+      "status": "needs_review"
     },
     {
       "tag": "looking outside",
       "ja": "外を見る",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "looking over eyewear",
       "ja": "眼鏡越しに見る",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "looking through own legs",
-      "ja": "自分の脚の間から見る",
-      "status": "reviewed"
+      "ja": "股のぞき",
+      "status": "needs_review"
     },
     {
       "tag": "looking to the side",
-      "ja": "横を見る",
-      "status": "reviewed"
+      "ja": "よそ見",
+      "status": "needs_review"
     },
     {
       "tag": "looking up",
-      "ja": "上を見る",
-      "status": "reviewed"
+      "ja": "見上げる",
+      "status": "needs_review"
     },
     {
       "tag": "loose belt",
-      "ja": "緩めたベルト",
-      "status": "reviewed"
+      "ja": "ゆるいベルト",
+      "status": "needs_review"
     },
     {
       "tag": "loose bowtie",
-      "ja": "緩めた蝶ネクタイ",
-      "status": "reviewed"
+      "ja": "ゆるいボウタイ",
+      "status": "needs_review"
     },
     {
       "tag": "loose clothes",
-      "ja": "ゆったりした服",
-      "status": "reviewed"
+      "ja": "ダブダブした服",
+      "status": "needs_review"
     },
     {
       "tag": "loose hair strand",
       "ja": "ほつれた毛束",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "loose necktie",
-      "ja": "緩めたネクタイ",
-      "status": "reviewed"
+      "ja": "ゆるいネクタイ",
+      "status": "needs_review"
     },
     {
       "tag": "loose shirt",
-      "ja": "ゆったりしたシャツ",
-      "status": "reviewed"
+      "ja": "ルーズシャツ",
+      "status": "needs_review"
     },
     {
       "tag": "loose socks",
-      "ja": "ずり落ちた靴下",
-      "status": "reviewed"
+      "ja": "ゆるい靴下",
+      "status": "needs_review"
     },
     {
       "tag": "lop rabbit ears",
-      "ja": "垂れ耳ウサギの耳",
-      "status": "reviewed"
+      "ja": "lopウサギの耳",
+      "status": "needs_review"
     },
     {
       "tag": "lopunny",
@@ -21301,8 +21301,8 @@
     },
     {
       "tag": "lord of the mysteries",
-      "ja": "ロード・オブ・ザ・ミステリーズ",
-      "status": "reviewed"
+      "ja": "謎の主",
+      "status": "needs_review"
     },
     {
       "tag": "lotion",
@@ -21311,8 +21311,8 @@
     },
     {
       "tag": "lotion bottle",
-      "ja": "ローションのボトル",
-      "status": "reviewed"
+      "ja": "ローションボトル",
+      "status": "needs_review"
     },
     {
       "tag": "lotus",
@@ -21327,17 +21327,17 @@
     {
       "tag": "lounge chair",
       "ja": "ラウンジチェア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "loungewear",
-      "ja": "部屋着",
-      "status": "reviewed"
+      "ja": "ラウンジウェア",
+      "status": "needs_review"
     },
     {
       "tag": "love letter",
       "ja": "ラブレター",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "love live!",
@@ -21361,8 +21361,8 @@
     },
     {
       "tag": "love live! school idol project",
-      "ja": "ラブライブ！ School idol project",
-      "status": "reviewed"
+      "ja": "ラブライブ! School idol project",
+      "status": "needs_review"
     },
     {
       "tag": "love live! sunshine!!",
@@ -21377,87 +21377,87 @@
     {
       "tag": "love plus",
       "ja": "ラブプラス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "low neckline",
-      "ja": "低い襟ぐり",
-      "status": "reviewed"
+      "ja": "低いネックライン",
+      "status": "needs_review"
     },
     {
       "tag": "low poly",
-      "ja": "ローポリゴン",
-      "status": "reviewed"
+      "ja": "ローポリ",
+      "status": "needs_review"
     },
     {
       "tag": "low ponytail",
-      "ja": "低い位置のポニーテール",
-      "status": "reviewed"
+      "ja": "低ポニーテール",
+      "status": "needs_review"
     },
     {
       "tag": "low quality",
       "ja": "低品質",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "low resolution",
       "ja": "低解像度",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "low twin braids",
-      "ja": "低い位置で結んだ二本の三つ編み",
-      "status": "reviewed"
+      "ja": "低双子の三つ編み",
+      "status": "needs_review"
     },
     {
       "tag": "low twintails",
-      "ja": "低い位置のツインテール",
-      "status": "reviewed"
+      "ja": "低い小売",
+      "status": "needs_review"
     },
     {
       "tag": "low wings",
-      "ja": "低い位置の翼",
-      "status": "reviewed"
+      "ja": "低い翼",
+      "status": "needs_review"
     },
     {
       "tag": "low-braided long hair",
-      "ja": "低い位置で編んだ長髪",
-      "status": "reviewed"
+      "ja": "低cr延の長い髪",
+      "status": "needs_review"
     },
     {
       "tag": "low-cut armhole",
-      "ja": "大きく開いた袖ぐり",
-      "status": "reviewed"
+      "ja": "ローカットアームホール",
+      "status": "needs_review"
     },
     {
       "tag": "low-tied long hair",
-      "ja": "低い位置で結んだ長髪",
-      "status": "reviewed"
+      "ja": "縛られた長い髪",
+      "status": "needs_review"
     },
     {
       "tag": "low-tied sidelocks",
-      "ja": "低い位置で結んだ横髪",
-      "status": "reviewed"
+      "ja": "低い位置で結んだサイドロック",
+      "status": "needs_review"
     },
     {
       "tag": "lower body",
       "ja": "下半身",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lower teeth only",
-      "ja": "下の歯だけ見える",
-      "status": "reviewed"
+      "ja": "下歯",
+      "status": "needs_review"
     },
     {
       "tag": "lowleg",
-      "ja": "ローライズ",
-      "status": "reviewed"
+      "ja": "ローレッグ",
+      "status": "needs_review"
     },
     {
       "tag": "lowleg bikini",
-      "ja": "ローライズビキニ",
-      "status": "reviewed"
+      "ja": "低腰比基尼",
+      "status": "needs_review"
     },
     {
       "tag": "lowleg panties",
@@ -21466,13 +21466,13 @@
     },
     {
       "tag": "lowleg pants",
-      "ja": "ローライズパンツ",
-      "status": "reviewed"
+      "ja": "ローレッグパンツ",
+      "status": "needs_review"
     },
     {
       "tag": "lowleg skirt",
-      "ja": "ローライズスカート",
-      "status": "reviewed"
+      "ja": "低腰裙子",
+      "status": "needs_review"
     },
     {
       "tag": "lpip",
@@ -21481,8 +21481,8 @@
     },
     {
       "tag": "lube",
-      "ja": "潤滑剤",
-      "status": "reviewed"
+      "ja": "潤滑油",
+      "status": "needs_review"
     },
     {
       "tag": "lucario",
@@ -21506,18 +21506,18 @@
     },
     {
       "tag": "lucky star",
-      "ja": "らき☆すた",
-      "status": "reviewed"
+      "ja": "ラッキースター",
+      "status": "needs_review"
     },
     {
       "tag": "luigi",
       "ja": "ルイージ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lum",
-      "ja": "ラム（うる星やつら）",
-      "status": "reviewed"
+      "ja": "ラム・インベーダー",
+      "status": "needs_review"
     },
     {
       "tag": "lumine (genshin impact)",
@@ -21531,8 +21531,8 @@
     },
     {
       "tag": "luna nova school uniform",
-      "ja": "ルーナノヴァ魔法学校の制服",
-      "status": "reviewed"
+      "ja": "ルナノヴァスクールユニフォーム",
+      "status": "needs_review"
     },
     {
       "tag": "lunasa prismriver",
@@ -21551,8 +21551,8 @@
     },
     {
       "tag": "lute (instrument)",
-      "ja": "リュート",
-      "status": "reviewed"
+      "ja": "リュート（楽器）",
+      "status": "needs_review"
     },
     {
       "tag": "lycoris recoil",
@@ -21616,23 +21616,23 @@
     },
     {
       "tag": "lyrical nanoha",
-      "ja": "魔法少女リリカルなのは",
-      "status": "reviewed"
+      "ja": "叙情的なナノハ",
+      "status": "needs_review"
     },
     {
       "tag": "lyrics",
       "ja": "歌詞",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lysithea von ordelia",
-      "ja": "リシテア＝フォン＝オルデルリア",
-      "status": "reviewed"
+      "ja": "リシテア",
+      "status": "needs_review"
     },
     {
       "tag": "m legs",
-      "ja": "M字脚",
-      "status": "reviewed"
+      "ja": "m足",
+      "status": "needs_review"
     },
     {
       "tag": "m-da s-tarou",
@@ -21651,13 +21651,13 @@
     },
     {
       "tag": "m1911",
-      "ja": "M1911ピストル",
-      "status": "reviewed"
+      "ja": "コルト・ガバメント",
+      "status": "needs_review"
     },
     {
       "tag": "m4 carbine",
       "ja": "M4カービン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mabinogi",
@@ -21667,12 +21667,12 @@
     {
       "tag": "macaron",
       "ja": "マカロン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mace",
-      "ja": "メイス",
-      "status": "reviewed"
+      "ja": "メース",
+      "status": "needs_review"
     },
     {
       "tag": "machikado mazoku",
@@ -21682,27 +21682,27 @@
     {
       "tag": "machine",
       "ja": "機械",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "machine gun",
       "ja": "機関銃",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "machinery",
-      "ja": "機械設備",
-      "status": "reviewed"
+      "ja": "機械",
+      "status": "needs_review"
     },
     {
       "tag": "macro",
       "ja": "マクロ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "macross",
       "ja": "マクロス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "macross delta",
@@ -21726,8 +21726,8 @@
     },
     {
       "tag": "maebari",
-      "ja": "前張り",
-      "status": "reviewed"
+      "ja": "メバリ",
+      "status": "needs_review"
     },
     {
       "tag": "maekawa miku",
@@ -21737,37 +21737,37 @@
     {
       "tag": "magatama",
       "ja": "勾玉",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magatama earrings",
-      "ja": "勾玉のイヤリング",
-      "status": "reviewed"
+      "ja": "マガタマイヤリング",
+      "status": "needs_review"
     },
     {
       "tag": "magatama necklace",
       "ja": "勾玉のネックレス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magazine (object)",
       "ja": "雑誌",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magazine (weapon)",
-      "ja": "弾倉",
-      "status": "reviewed"
+      "ja": "雑誌（武器）",
+      "status": "needs_review"
     },
     {
       "tag": "magazine cover",
       "ja": "雑誌の表紙",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mage staff",
-      "ja": "魔術師の杖",
-      "status": "reviewed"
+      "ja": "魔術師のスタッフ",
+      "status": "needs_review"
     },
     {
       "tag": "magi the labyrinth of magic",
@@ -21782,22 +21782,22 @@
     {
       "tag": "magic",
       "ja": "魔法",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magic circle",
       "ja": "魔法陣",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magical boy",
-      "ja": "魔法少年",
-      "status": "reviewed"
+      "ja": "魔法の少年",
+      "status": "needs_review"
     },
     {
       "tag": "magical girl",
       "ja": "魔法少女",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magical mirai (vocaloid)",
@@ -21807,32 +21807,32 @@
     {
       "tag": "magical musket",
       "ja": "魔法のマスケット銃",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magician",
       "ja": "魔術師",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "magnifying glass",
       "ja": "虫眼鏡",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mahjong",
       "ja": "麻雀",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mahjong soul",
-      "ja": "雀魂",
-      "status": "reviewed"
+      "ja": "マジョンソウル",
+      "status": "needs_review"
     },
     {
       "tag": "mahjong tile",
-      "ja": "麻雀牌",
-      "status": "reviewed"
+      "ja": "麻將牌",
+      "status": "needs_review"
     },
     {
       "tag": "mahou girls precure!",
@@ -21861,8 +21861,8 @@
     },
     {
       "tag": "mahou shoujo madoka magica (anime)",
-      "ja": "魔法少女まどか☆マギカ（アニメ）",
-      "status": "reviewed"
+      "ja": "魔法少女まどか☆マギカ",
+      "status": "needs_review"
     },
     {
       "tag": "mahou shoujo ni akogarete",
@@ -21877,27 +21877,27 @@
     {
       "tag": "maid",
       "ja": "メイド",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maid apron",
-      "ja": "メイドエプロン",
-      "status": "reviewed"
+      "ja": "女仆围裙",
+      "status": "needs_review"
     },
     {
       "tag": "maid bikini",
       "ja": "メイドビキニ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maid day",
       "ja": "メイドの日",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maid headdress",
-      "ja": "メイドのヘッドドレス",
-      "status": "reviewed"
+      "ja": "メイドの髪飾り",
+      "status": "needs_review"
     },
     {
       "tag": "makaino ririmu",
@@ -21906,13 +21906,13 @@
     },
     {
       "tag": "makeup",
-      "ja": "化粧",
-      "status": "reviewed"
+      "ja": "補う",
+      "status": "needs_review"
     },
     {
       "tag": "makeup brush",
-      "ja": "化粧筆",
-      "status": "reviewed"
+      "ja": "化粧用ブラシ",
+      "status": "needs_review"
     },
     {
       "tag": "makigumo (kancolle)",
@@ -21937,67 +21937,67 @@
     {
       "tag": "makizushi",
       "ja": "巻き寿司",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "makoto nanaya",
-      "ja": "マコト＝ナナヤ",
-      "status": "reviewed"
+      "ja": "マコトナナヤ",
+      "status": "needs_review"
     },
     {
       "tag": "makoto shinkai",
-      "ja": "新海誠",
-      "status": "reviewed"
+      "ja": "新海誠風",
+      "status": "needs_review"
     },
     {
       "tag": "makuwauri",
       "ja": "マクワウリ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "male focus",
-      "ja": "男性中心",
-      "status": "reviewed"
+      "ja": "男の子",
+      "status": "needs_review"
     },
     {
       "tag": "male maid",
-      "ja": "男装メイド",
-      "status": "reviewed"
+      "ja": "メイド男子",
+      "status": "needs_review"
     },
     {
       "tag": "male penetrated",
-      "ja": "男性が挿入される側",
-      "status": "reviewed"
+      "ja": "男性受",
+      "status": "needs_review"
     },
     {
       "tag": "male playboy bunny",
-      "ja": "男性のバニーガール衣装",
-      "status": "reviewed"
+      "ja": "男性のプレイボーイバニー",
+      "status": "needs_review"
     },
     {
       "tag": "male swimwear",
-      "ja": "男性用水着",
-      "status": "reviewed"
+      "ja": "男性の水着",
+      "status": "needs_review"
     },
     {
       "tag": "male underwear",
-      "ja": "男性用下着",
-      "status": "reviewed"
+      "ja": "男性の下着",
+      "status": "needs_review"
     },
     {
       "tag": "male underwear peek",
-      "ja": "男性用下着が見える",
-      "status": "reviewed"
+      "ja": "雄の下着の覗き見",
+      "status": "needs_review"
     },
     {
       "tag": "male underwear pull",
-      "ja": "男性用下着を引っ張る",
-      "status": "reviewed"
+      "ja": "男性の下着の引っ張り",
+      "status": "needs_review"
     },
     {
       "tag": "mallet",
       "ja": "木槌",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mallow (pokemon)",
@@ -22012,42 +22012,42 @@
     {
       "tag": "man",
       "ja": "男性",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mandarin collar",
-      "ja": "立ち襟",
-      "status": "reviewed"
+      "ja": "チャイナカラー",
+      "status": "needs_review"
     },
     {
       "tag": "mandarin orange",
-      "ja": "ミカン",
-      "status": "reviewed"
+      "ja": "マンダリンオレンジ",
+      "status": "needs_review"
     },
     {
       "tag": "mane",
       "ja": "たてがみ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maneki-neko",
       "ja": "招き猫",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "manga",
       "ja": "漫画",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "manga (object)",
-      "ja": "漫画本",
-      "status": "reviewed"
+      "ja": "マンガ（オブジェクト）",
+      "status": "needs_review"
     },
     {
       "tag": "manga cover",
-      "ja": "漫画の表紙",
-      "status": "reviewed"
+      "ja": "漫画カバー",
+      "status": "needs_review"
     },
     {
       "tag": "manhattan cafe (umamusume)",
@@ -22067,32 +22067,32 @@
     {
       "tag": "manly",
       "ja": "男らしい",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mannequin",
       "ja": "マネキン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "manta ray",
       "ja": "マンタ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "map",
       "ja": "地図",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maple leaf",
-      "ja": "カエデの葉",
-      "status": "reviewed"
+      "ja": "メープルリーフ",
+      "status": "needs_review"
     },
     {
       "tag": "maple leaf print",
-      "ja": "カエデ柄",
-      "status": "reviewed"
+      "ja": "メープルリーフプリント",
+      "status": "needs_review"
     },
     {
       "tag": "march 7th (honkai: star rail)",
@@ -22101,8 +22101,8 @@
     },
     {
       "tag": "march 7th (preservation) (honkai: star rail)",
-      "ja": "三月なのか（存護・崩壊：スターレイル）",
-      "status": "reviewed"
+      "ja": "三月なのか(存護)",
+      "status": "needs_review"
     },
     {
       "tag": "marcille donato",
@@ -22171,28 +22171,28 @@
     },
     {
       "tag": "mark under both eyes",
-      "ja": "両目の下の印",
-      "status": "reviewed"
+      "ja": "双眼下的标记",
+      "status": "needs_review"
     },
     {
       "tag": "marker",
       "ja": "マーカー",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "market",
       "ja": "市場",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "market stall",
       "ja": "市場の屋台",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "marking on cheek",
-      "ja": "頬の印",
-      "status": "reviewed"
+      "ja": "頬にマーク",
+      "status": "needs_review"
     },
     {
       "tag": "marnie (pokemon)",
@@ -22202,17 +22202,17 @@
     {
       "tag": "marriage proposal",
       "ja": "プロポーズ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mars symbol",
-      "ja": "火星の記号",
-      "status": "reviewed"
+      "ja": "火星のシンボル",
+      "status": "needs_review"
     },
     {
       "tag": "marshmallow",
       "ja": "マシュマロ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "martha (fate)",
@@ -22221,13 +22221,13 @@
     },
     {
       "tag": "martial arts",
-      "ja": "武術",
-      "status": "reviewed"
+      "ja": "武道",
+      "status": "needs_review"
     },
     {
       "tag": "martial arts belt",
-      "ja": "武道の帯",
-      "status": "reviewed"
+      "ja": "武道ベルト",
+      "status": "needs_review"
     },
     {
       "tag": "maru-yu (kancolle)",
@@ -22237,27 +22237,27 @@
     {
       "tag": "marvel",
       "ja": "マーベル",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "marvel cinematic universe",
-      "ja": "マーベル・シネマティック・ユニバース",
-      "status": "reviewed"
+      "ja": "マーベルシネマティックユニバース",
+      "status": "needs_review"
     },
     {
       "tag": "mary janes",
-      "ja": "メリージェーンシューズ",
-      "status": "reviewed"
+      "ja": "メアリー・ジェーンズ",
+      "status": "needs_review"
     },
     {
       "tag": "mascara",
       "ja": "マスカラ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mascot",
       "ja": "マスコット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mash kyrielight",
@@ -22266,53 +22266,53 @@
     },
     {
       "tag": "mash kyrielight (dangerous beast)",
-      "ja": "マシュ・キリエライト（デンジャラス・ビースト）",
-      "status": "reviewed"
+      "ja": "マッシュキリエルライト（危険な獣）",
+      "status": "needs_review"
     },
     {
       "tag": "mash kyrielight (dangerous beast) (cosplay)",
-      "ja": "マシュ・キリエライト（デンジャラス・ビースト）のコスプレ",
-      "status": "reviewed"
+      "ja": "MashKyrielight（危険な獣）（コスプレ）",
+      "status": "needs_review"
     },
     {
       "tag": "mash kyrielight (demi-servant)",
       "ja": "マシュ・キリエライト（デミ・サーヴァント）",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mask",
-      "ja": "仮面",
-      "status": "reviewed"
+      "ja": "マスク",
+      "status": "needs_review"
     },
     {
       "tag": "mask around neck",
-      "ja": "首に掛けたマスク",
-      "status": "reviewed"
+      "ja": "首の周りにマスク",
+      "status": "needs_review"
     },
     {
       "tag": "mask on head",
-      "ja": "頭に乗せたマスク",
-      "status": "reviewed"
+      "ja": "頭にマスク",
+      "status": "needs_review"
     },
     {
       "tag": "mask pull",
-      "ja": "マスクを引っ張る",
-      "status": "reviewed"
+      "ja": "マスクプル",
+      "status": "needs_review"
     },
     {
       "tag": "masked",
-      "ja": "仮面を着けた",
-      "status": "reviewed"
+      "ja": "マスク",
+      "status": "needs_review"
     },
     {
       "tag": "masochism",
       "ja": "マゾヒズム",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "massage",
       "ja": "マッサージ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "massakasama",
@@ -22322,17 +22322,17 @@
     {
       "tag": "mast",
       "ja": "マスト",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "master sword",
       "ja": "マスターソード",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "masterpiece",
-      "ja": "傑作",
-      "status": "reviewed"
+      "ja": "最高傑作",
+      "status": "needs_review"
     },
     {
       "tag": "masu",
@@ -22347,7 +22347,7 @@
     {
       "tag": "mat",
       "ja": "マット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "matara okina",
@@ -22356,8 +22356,8 @@
     },
     {
       "tag": "matching outfits",
-      "ja": "お揃いの服",
-      "status": "reviewed"
+      "ja": "お揃いの衣装",
+      "status": "needs_review"
     },
     {
       "tag": "materia",
@@ -22366,13 +22366,13 @@
     },
     {
       "tag": "material growth",
-      "ja": "物質の成長",
-      "status": "reviewed"
+      "ja": "物質的成長",
+      "status": "needs_review"
     },
     {
       "tag": "math",
       "ja": "数学",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "matikane tannhauser (umamusume)",
@@ -22386,8 +22386,8 @@
     },
     {
       "tag": "mating press",
-      "ja": "マティングプレス",
-      "status": "reviewed"
+      "ja": "交尾プレス",
+      "status": "needs_review"
     },
     {
       "tag": "matoi ryuuko",
@@ -22456,18 +22456,18 @@
     },
     {
       "tag": "matte painting",
-      "ja": "マットペインティング",
-      "status": "reviewed"
+      "ja": "マットペイント",
+      "status": "needs_review"
     },
     {
       "tag": "mature female",
       "ja": "成熟した女性",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mature male",
       "ja": "成熟した男性",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "maturiuta sorato",
@@ -22502,7 +22502,7 @@
     {
       "tag": "meadow",
       "ja": "草原",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meandros",
@@ -22512,117 +22512,117 @@
     {
       "tag": "measuring",
       "ja": "測定",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meat",
       "ja": "肉",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mecha",
       "ja": "メカ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mecha focus",
-      "ja": "メカ中心",
-      "status": "reviewed"
+      "ja": "メカ重視",
+      "status": "needs_review"
     },
     {
       "tag": "mecha musume",
-      "ja": "メカ少女",
-      "status": "reviewed"
+      "ja": "メカ娘",
+      "status": "needs_review"
     },
     {
       "tag": "mecha pilot suit",
-      "ja": "メカパイロットスーツ",
-      "status": "reviewed"
+      "ja": "パイロットスーツ",
+      "status": "needs_review"
     },
     {
       "tag": "mechabare",
       "ja": "メカバレ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mechanic",
       "ja": "整備士",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mechanical arms",
-      "ja": "機械の腕",
-      "status": "reviewed"
+      "ja": "機械的な腕",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical ears",
-      "ja": "機械の耳",
-      "status": "reviewed"
+      "ja": "機械的耳",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical eye",
-      "ja": "機械の目",
-      "status": "reviewed"
+      "ja": "機械的な目",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical halo",
-      "ja": "機械の光輪",
-      "status": "reviewed"
+      "ja": "機械的ハロー",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical hands",
-      "ja": "機械の手",
-      "status": "reviewed"
+      "ja": "機械的な手",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical horns",
-      "ja": "機械の角",
-      "status": "reviewed"
+      "ja": "機械的ホーン",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical legs",
       "ja": "機械の脚",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mechanical pencil",
       "ja": "シャープペンシル",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mechanical tail",
-      "ja": "機械の尻尾",
-      "status": "reviewed"
+      "ja": "機械的な尾",
+      "status": "needs_review"
     },
     {
       "tag": "mechanical wings",
-      "ja": "機械の翼",
-      "status": "reviewed"
+      "ja": "機械的翼",
+      "status": "needs_review"
     },
     {
       "tag": "mechanization",
       "ja": "機械化",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "medal",
       "ja": "メダル",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "medallion",
       "ja": "メダリオン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "median furrow",
-      "ja": "正中溝",
-      "status": "reviewed"
+      "ja": "溝の中央",
+      "status": "needs_review"
     },
     {
       "tag": "medical eyepatch",
-      "ja": "医療用眼帯",
-      "status": "reviewed"
+      "ja": "医療アイパッチ",
+      "status": "needs_review"
     },
     {
       "tag": "medicine melancholy",
@@ -22632,7 +22632,7 @@
     {
       "tag": "medieval",
       "ja": "中世",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "medium breasts",
@@ -22647,17 +22647,17 @@
     {
       "tag": "medium hair",
       "ja": "ミディアムヘア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "medium sideburns",
-      "ja": "中くらいの長さのもみあげ",
-      "status": "reviewed"
+      "ja": "中程度のもみあげ",
+      "status": "needs_review"
     },
     {
       "tag": "medium skirt",
-      "ja": "ミディ丈スカート",
-      "status": "reviewed"
+      "ja": "ミディアムスカート",
+      "status": "needs_review"
     },
     {
       "tag": "medusa (fate)",
@@ -22722,7 +22722,7 @@
     {
       "tag": "megaphone",
       "ja": "メガホン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "megumin",
@@ -22741,8 +22741,8 @@
     },
     {
       "tag": "meiji schoolgirl uniform",
-      "ja": "明治時代の女学生制服",
-      "status": "reviewed"
+      "ja": "明治女子高生ユニフォーム",
+      "status": "needs_review"
     },
     {
       "tag": "meiko (vocaloid)",
@@ -22771,8 +22771,8 @@
     },
     {
       "tag": "meka (overwatch)",
-      "ja": "MEKA（オーバーウォッチ）",
-      "status": "reviewed"
+      "ja": "メカ（オーバーウォッチ）",
+      "status": "needs_review"
     },
     {
       "tag": "melon",
@@ -22816,13 +22816,13 @@
     },
     {
       "tag": "meme",
-      "ja": "ミーム",
-      "status": "reviewed"
+      "ja": "海外ミーム",
+      "status": "needs_review"
     },
     {
       "tag": "meme attire",
-      "ja": "ミームを題材にした服装",
-      "status": "reviewed"
+      "ja": "ミームの服装",
+      "status": "needs_review"
     },
     {
       "tag": "menma (enaic31)",
@@ -22832,12 +22832,12 @@
     {
       "tag": "menu",
       "ja": "メニュー",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "menu board",
       "ja": "メニューボード",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meow (nekodenki)",
@@ -22846,8 +22846,8 @@
     },
     {
       "tag": "merchandise",
-      "ja": "グッズ",
-      "status": "reviewed"
+      "ja": "商品",
+      "status": "needs_review"
     },
     {
       "tag": "mercy (overwatch)",
@@ -22856,23 +22856,23 @@
     },
     {
       "tag": "merlin prismriver",
-      "ja": "マーリン・プリズムリバー",
-      "status": "reviewed"
+      "ja": "マーリン・プリスマリバー",
+      "status": "needs_review"
     },
     {
       "tag": "mermaid",
       "ja": "人魚",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "merman",
-      "ja": "男性の人魚",
-      "status": "reviewed"
+      "ja": "マルマン",
+      "status": "needs_review"
     },
     {
       "tag": "merry christmas",
       "ja": "メリークリスマス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "merunyaa",
@@ -22882,42 +22882,42 @@
     {
       "tag": "mery (yangmalgage)",
       "ja": "メリー（Yangmalgage）",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "messenger bag",
       "ja": "メッセンジャーバッグ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "messy",
       "ja": "乱雑な",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "messy hair",
-      "ja": "乱れた髪",
-      "status": "reviewed"
+      "ja": "寝ぐせ",
+      "status": "needs_review"
     },
     {
       "tag": "messy room",
-      "ja": "散らかった部屋",
-      "status": "reviewed"
+      "ja": "乱雑な部屋",
+      "status": "needs_review"
     },
     {
       "tag": "mesugaki",
       "ja": "メスガキ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meta",
       "ja": "メタ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "metal collar",
-      "ja": "金属製の首輪",
-      "status": "reviewed"
+      "ja": "メタルカラー",
+      "status": "needs_review"
     },
     {
       "tag": "metal gear (series)",
@@ -22926,13 +22926,13 @@
     },
     {
       "tag": "metal hairband",
-      "ja": "金属製のヘアバンド",
-      "status": "reviewed"
+      "ja": "金属ヘアバンド",
+      "status": "needs_review"
     },
     {
       "tag": "metal skin",
-      "ja": "金属質の肌",
-      "status": "reviewed"
+      "ja": "金属皮",
+      "status": "needs_review"
     },
     {
       "tag": "metamoran vest",
@@ -22942,7 +22942,7 @@
     {
       "tag": "meteor shower",
       "ja": "流星群",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "metroid",
@@ -22967,12 +22967,12 @@
     {
       "tag": "micro bikini",
       "ja": "マイクロビキニ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "micro bra",
-      "ja": "極小ブラジャー",
-      "status": "reviewed"
+      "ja": "微型胸罩",
+      "status": "needs_review"
     },
     {
       "tag": "micro panties",
@@ -22982,27 +22982,27 @@
     {
       "tag": "micro shorts",
       "ja": "マイクロショーツ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "microdress",
       "ja": "マイクロドレス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "microphone",
-      "ja": "マイク",
-      "status": "reviewed"
+      "ja": "マイクロフォン",
+      "status": "needs_review"
     },
     {
       "tag": "microphone stand",
       "ja": "マイクスタンド",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "microskirt",
-      "ja": "マイクロミニスカート",
-      "status": "reviewed"
+      "ja": "マイクロスカート",
+      "status": "needs_review"
     },
     {
       "tag": "microsoft windows",
@@ -23012,22 +23012,22 @@
     {
       "tag": "microwave",
       "ja": "電子レンジ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "midair",
-      "ja": "空中",
-      "status": "reviewed"
+      "ja": "中空",
+      "status": "needs_review"
     },
     {
       "tag": "middle finger",
       "ja": "中指",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "middle ring",
       "ja": "中指の指輪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "midna",
@@ -23046,23 +23046,23 @@
     },
     {
       "tag": "midoriya izuku",
-      "ja": "緑谷出久",
-      "status": "reviewed"
+      "ja": "青田izuku",
+      "status": "needs_review"
     },
     {
       "tag": "midriff",
-      "ja": "腹部",
-      "status": "reviewed"
+      "ja": "お腹",
+      "status": "needs_review"
     },
     {
       "tag": "midriff peek",
-      "ja": "へそ出し",
-      "status": "reviewed"
+      "ja": "腹チラ",
+      "status": "needs_review"
     },
     {
       "tag": "midriff sarashi",
-      "ja": "腹部のさらし",
-      "status": "reviewed"
+      "ja": "ミッドリフサラシ",
+      "status": "needs_review"
     },
     {
       "tag": "mihono bourbon (umamusume)",
@@ -23111,8 +23111,8 @@
     },
     {
       "tag": "miki sayaka (magical girl)",
-      "ja": "美樹さやか（魔法少女）",
-      "status": "reviewed"
+      "ja": "さやか☆マギカ",
+      "status": "needs_review"
     },
     {
       "tag": "miko",
@@ -23131,63 +23131,63 @@
     },
     {
       "tag": "milestone celebration",
-      "ja": "節目のお祝い",
-      "status": "reviewed"
+      "ja": "マイルストーンのお祝い",
+      "status": "needs_review"
     },
     {
       "tag": "military",
-      "ja": "軍事",
-      "status": "reviewed"
+      "ja": "軍隊",
+      "status": "needs_review"
     },
     {
       "tag": "military combat uniform",
-      "ja": "戦闘服",
-      "status": "reviewed"
+      "ja": "現代個人装具",
+      "status": "needs_review"
     },
     {
       "tag": "military hat",
-      "ja": "軍帽",
-      "status": "reviewed"
+      "ja": "軍事帽子",
+      "status": "needs_review"
     },
     {
       "tag": "military jacket",
       "ja": "ミリタリージャケット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "military operator",
-      "ja": "軍事作戦要員",
-      "status": "reviewed"
+      "ja": "軍事オペレーター",
+      "status": "needs_review"
     },
     {
       "tag": "military uniform",
       "ja": "軍服",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "military vehicle",
-      "ja": "軍用車両",
-      "status": "reviewed"
+      "ja": "軍用車",
+      "status": "needs_review"
     },
     {
       "tag": "milk",
       "ja": "牛乳",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "milk bottle",
       "ja": "牛乳瓶",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "milk carton",
       "ja": "牛乳パック",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "milking machine",
       "ja": "搾乳機",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "milkpanda",
@@ -23202,7 +23202,7 @@
     {
       "tag": "milky way",
       "ja": "天の川",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "millennium cheerleader outfit (blue archive)",
@@ -23217,7 +23217,7 @@
     {
       "tag": "mimikaki",
       "ja": "耳かき",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mimikyu",
@@ -23271,13 +23271,13 @@
     },
     {
       "tag": "minato aqua (1st costume)",
-      "ja": "湊あくあ（1st衣装）",
-      "status": "reviewed"
+      "ja": "湊あくあ(通常)",
+      "status": "needs_review"
     },
     {
       "tag": "minato aqua (sailor)",
-      "ja": "湊あくあ（セーラー衣装）",
-      "status": "reviewed"
+      "ja": "湊あくあ(セーラー衣装)",
+      "status": "needs_review"
     },
     {
       "tag": "mind control",
@@ -23296,28 +23296,28 @@
     },
     {
       "tag": "mini crown",
-      "ja": "小さな王冠",
-      "status": "reviewed"
+      "ja": "ミニクラウン",
+      "status": "needs_review"
     },
     {
       "tag": "mini hat",
       "ja": "ミニハット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mini person",
       "ja": "小人",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mini top hat",
-      "ja": "ミニシルクハット",
-      "status": "reviewed"
+      "ja": "ミニトップハット",
+      "status": "needs_review"
     },
     {
       "tag": "mini wings",
-      "ja": "小さな翼",
-      "status": "reviewed"
+      "ja": "ミニウィング",
+      "status": "needs_review"
     },
     {
       "tag": "mini-hakkero",
@@ -23337,22 +23337,22 @@
     {
       "tag": "minigun",
       "ja": "ミニガン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "minimalist",
-      "ja": "ミニマリスト",
-      "status": "reviewed"
+      "ja": "ミニマル",
+      "status": "needs_review"
     },
     {
       "tag": "miniskirt",
       "ja": "ミニスカート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "minotaur",
       "ja": "ミノタウロス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "miorine rembran",
@@ -23366,8 +23366,8 @@
     },
     {
       "tag": "miracle mallet",
-      "ja": "奇跡のハンマー",
-      "status": "reviewed"
+      "ja": "奇跡のマレット",
+      "status": "needs_review"
     },
     {
       "tag": "mirko",
@@ -23377,12 +23377,12 @@
     {
       "tag": "mirror",
       "ja": "鏡",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mirror selfie",
-      "ja": "鏡越しの自撮り",
-      "status": "reviewed"
+      "ja": "鏡自撮り",
+      "status": "needs_review"
     },
     {
       "tag": "misaka mikoto",
@@ -23401,73 +23401,73 @@
     },
     {
       "tag": "mismatched bikini",
-      "ja": "上下でデザインの異なるビキニ",
-      "status": "reviewed"
+      "ja": "不一致のビキニ",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched earrings",
-      "ja": "左右異なるイヤリング",
-      "status": "reviewed"
+      "ja": "不一致のイヤリング",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched eyebrows",
-      "ja": "左右非対称の眉",
-      "status": "reviewed"
+      "ja": "不一致の眉",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched footwear",
-      "ja": "左右で異なる履物",
-      "status": "reviewed"
+      "ja": "不一致の履物",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched gloves",
-      "ja": "左右異なる手袋",
-      "status": "reviewed"
+      "ja": "左右非対称の手袋",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched legwear",
-      "ja": "左右異なるレッグウェア",
-      "status": "reviewed"
+      "ja": "不一致のレッグウェア",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched pupils",
-      "ja": "左右で異なる瞳孔",
-      "status": "reviewed"
+      "ja": "不一致の生徒",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched sclera",
-      "ja": "左右で異なる白目",
-      "status": "reviewed"
+      "ja": "不一致の強膜",
+      "status": "needs_review"
     },
     {
       "tag": "mismatched sleeves",
-      "ja": "左右異なる袖",
-      "status": "reviewed"
+      "ja": "不一致の袖",
+      "status": "needs_review"
     },
     {
       "tag": "missile",
       "ja": "ミサイル",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "missile pod",
       "ja": "ミサイルポッド",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "missing limb",
-      "ja": "欠損した手足",
-      "status": "reviewed"
+      "ja": "手足がありません",
+      "status": "needs_review"
     },
     {
       "tag": "missing tooth",
-      "ja": "歯が抜けている",
-      "status": "reviewed"
+      "ja": "歯が足りない",
+      "status": "needs_review"
     },
     {
       "tag": "missionary",
-      "ja": "正常位",
-      "status": "reviewed"
+      "ja": "宣教師",
+      "status": "needs_review"
     },
     {
       "tag": "misty (pokemon)",
@@ -23487,7 +23487,7 @@
     {
       "tag": "misunderstanding",
       "ja": "誤解",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mitaka asa",
@@ -23501,8 +23501,8 @@
     },
     {
       "tag": "mithra (ff11)",
-      "ja": "ミスラ（ファイナルファンタジーXI）",
-      "status": "reviewed"
+      "ja": "ミトラ（ff11）",
+      "status": "needs_review"
     },
     {
       "tag": "mithrun",
@@ -23511,13 +23511,13 @@
     },
     {
       "tag": "mitre",
-      "ja": "司教冠",
-      "status": "reviewed"
+      "ja": "ミトラ(冠)",
+      "status": "needs_review"
     },
     {
       "tag": "mitsudomoe (shape)",
       "ja": "三つ巴",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mitsumoto jouji",
@@ -23527,7 +23527,7 @@
     {
       "tag": "mittens",
       "ja": "ミトン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mitya",
@@ -23541,8 +23541,8 @@
     },
     {
       "tag": "mixed-language text",
-      "ja": "複数言語が混在した文字",
-      "status": "reviewed"
+      "ja": "混合言語テキスト",
+      "status": "needs_review"
     },
     {
       "tag": "mixed-sex bathing",
@@ -23552,7 +23552,7 @@
     {
       "tag": "mixing bowl",
       "ja": "ミキシングボウル",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "miyafuji yoshika",
@@ -23566,8 +23566,8 @@
     },
     {
       "tag": "miyako yoshika",
-      "ja": "宮子芳香",
-      "status": "reviewed"
+      "ja": "ヨシカ島",
+      "status": "needs_review"
     },
     {
       "tag": "miyamoto frederica",
@@ -23581,8 +23581,8 @@
     },
     {
       "tag": "miyamoto musashi (swimsuit berserker) (fate)",
-      "ja": "宮本武蔵（水着・バーサーカー／Fate）",
-      "status": "reviewed"
+      "ja": "宮本蘇省（水着バーサーカー）（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "miyo (ranthath)",
@@ -23607,7 +23607,7 @@
     {
       "tag": "mizu happi",
       "ja": "水法被",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mizuhara aki",
@@ -23657,12 +23657,12 @@
     {
       "tag": "moaning",
       "ja": "うめき声",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mob cap",
       "ja": "モブキャップ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mob psycho 100",
@@ -23671,8 +23671,8 @@
     },
     {
       "tag": "mobile suit",
-      "ja": "モビルスーツ",
-      "status": "reviewed"
+      "ja": "モバイルスーツ",
+      "status": "needs_review"
     },
     {
       "tag": "mobile suit gundam",
@@ -23682,7 +23682,7 @@
     {
       "tag": "mochi",
       "ja": "餅",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mochi au lait",
@@ -23701,13 +23701,13 @@
     },
     {
       "tag": "mococo abyssgard (1st costume)",
-      "ja": "モココ・アビスガード（1st衣装）",
-      "status": "reviewed"
+      "ja": "モココ・アビスガード(通常)",
+      "status": "needs_review"
     },
     {
       "tag": "model kit",
-      "ja": "プラモデル",
-      "status": "reviewed"
+      "ja": "モデルキット",
+      "status": "needs_review"
     },
     {
       "tag": "mogami (kancolle)",
@@ -23721,8 +23721,8 @@
     },
     {
       "tag": "mohawk",
-      "ja": "モヒカン刈り",
-      "status": "reviewed"
+      "ja": "モホーク",
+      "status": "needs_review"
     },
     {
       "tag": "moisture (chichi)",
@@ -23737,27 +23737,27 @@
     {
       "tag": "mole",
       "ja": "ほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole above eye",
       "ja": "目の上のほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole above mouth",
-      "ja": "口の上のほくろ",
-      "status": "reviewed"
+      "ja": "口の上のモル",
+      "status": "needs_review"
     },
     {
       "tag": "mole on arm",
-      "ja": "腕のほくろ",
-      "status": "reviewed"
+      "ja": "腕にモル",
+      "status": "needs_review"
     },
     {
       "tag": "mole on armpit",
-      "ja": "脇のほくろ",
-      "status": "reviewed"
+      "ja": "脇の下のモル",
+      "status": "needs_review"
     },
     {
       "tag": "mole on breast",
@@ -23767,47 +23767,47 @@
     {
       "tag": "mole on cheek",
       "ja": "頬のほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole on collarbone",
       "ja": "鎖骨のほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole on neck",
-      "ja": "首のほくろ",
-      "status": "reviewed"
+      "ja": "首にモル",
+      "status": "needs_review"
     },
     {
       "tag": "mole on stomach",
-      "ja": "腹部のほくろ",
-      "status": "reviewed"
+      "ja": "胃のほくろ",
+      "status": "needs_review"
     },
     {
       "tag": "mole on thigh",
       "ja": "太もものほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole under each eye",
-      "ja": "両目の下のほくろ",
-      "status": "reviewed"
+      "ja": "双眼下的痣",
+      "status": "needs_review"
     },
     {
       "tag": "mole under eye",
       "ja": "目の下のほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mole under mouth",
       "ja": "口の下のほくろ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "molestation",
-      "ja": "性的虐待",
-      "status": "reviewed"
+      "ja": "虐待",
+      "status": "needs_review"
     },
     {
       "tag": "momo no sukebe",
@@ -23852,7 +23852,7 @@
     {
       "tag": "money",
       "ja": "お金",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monika (doki doki literature club)",
@@ -23862,22 +23862,22 @@
     {
       "tag": "monitor",
       "ja": "モニター",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monk",
-      "ja": "僧侶",
-      "status": "reviewed"
+      "ja": "モンク",
+      "status": "needs_review"
     },
     {
       "tag": "monkey",
       "ja": "猿",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monkey boy",
-      "ja": "猿の少年",
-      "status": "reviewed"
+      "ja": "モンキーボーイ",
+      "status": "needs_review"
     },
     {
       "tag": "monkey d. luffy",
@@ -23887,32 +23887,32 @@
     {
       "tag": "monkey ears",
       "ja": "猿の耳",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monkey girl",
-      "ja": "猿の少女",
-      "status": "reviewed"
+      "ja": "猿娘",
+      "status": "needs_review"
     },
     {
       "tag": "monkey tail",
-      "ja": "猿の尻尾",
-      "status": "reviewed"
+      "ja": "モンキーテール",
+      "status": "needs_review"
     },
     {
       "tag": "monochrome",
       "ja": "モノクロ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monochrome background",
       "ja": "モノクロの背景",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "monocle",
-      "ja": "片眼鏡",
-      "status": "reviewed"
+      "ja": "モノクル",
+      "status": "needs_review"
     },
     {
       "tag": "monogatari (series)",
@@ -23931,13 +23931,13 @@
     },
     {
       "tag": "monster",
-      "ja": "怪物",
-      "status": "reviewed"
+      "ja": "モンスター",
+      "status": "needs_review"
     },
     {
       "tag": "monster boy",
-      "ja": "怪物の少年",
-      "status": "reviewed"
+      "ja": "モンスター男子",
+      "status": "needs_review"
     },
     {
       "tag": "monster energy",
@@ -23946,13 +23946,13 @@
     },
     {
       "tag": "monster girl",
-      "ja": "怪物娘",
-      "status": "reviewed"
+      "ja": "モンスター娘",
+      "status": "needs_review"
     },
     {
       "tag": "monster girl encyclopedia",
-      "ja": "モンスター娘百科",
-      "status": "reviewed"
+      "ja": "モンスターガール百科事典",
+      "status": "needs_review"
     },
     {
       "tag": "monster hunter (character)",
@@ -23977,7 +23977,7 @@
     {
       "tag": "monsterification",
       "ja": "怪物化",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "moogle",
@@ -23987,22 +23987,22 @@
     {
       "tag": "moon",
       "ja": "月",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "moon (ornament)",
-      "ja": "月の飾り",
-      "status": "reviewed"
+      "ja": "月（装飾）",
+      "status": "needs_review"
     },
     {
       "tag": "moon phases",
-      "ja": "月相",
-      "status": "reviewed"
+      "ja": "月の段階",
+      "status": "needs_review"
     },
     {
       "tag": "moonlight",
       "ja": "月光",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "moose ears",
@@ -24012,7 +24012,7 @@
     {
       "tag": "mop",
       "ja": "モップ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mordred (fate)",
@@ -24036,8 +24036,8 @@
     },
     {
       "tag": "mori calliope (1st costume)",
-      "ja": "森カリオペ（1st衣装）",
-      "status": "reviewed"
+      "ja": "森カリオペ(通常)",
+      "status": "needs_review"
     },
     {
       "tag": "morichika rinnosuke",
@@ -24097,7 +24097,7 @@
     {
       "tag": "mosaic",
       "ja": "モザイク",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mosaic censoring",
@@ -24107,7 +24107,7 @@
     {
       "tag": "moss",
       "ja": "苔",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mossacannibalis",
@@ -24127,12 +24127,12 @@
     {
       "tag": "moth",
       "ja": "蛾",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "moth girl",
-      "ja": "蛾の少女",
-      "status": "reviewed"
+      "ja": "蛾娘",
+      "status": "needs_review"
     },
     {
       "tag": "mother (series)",
@@ -24147,27 +24147,27 @@
     {
       "tag": "mother and daughter",
       "ja": "母と娘",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mother and son",
       "ja": "母と息子",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "motherly",
-      "ja": "母性的",
-      "status": "reviewed"
+      "ja": "母性",
+      "status": "needs_review"
     },
     {
       "tag": "motion blur",
       "ja": "モーションブラー",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "motion lines",
-      "ja": "動きの線",
-      "status": "reviewed"
+      "ja": "モーションライン",
+      "status": "needs_review"
     },
     {
       "tag": "motoori kosuzu",
@@ -24177,17 +24177,17 @@
     {
       "tag": "motor vehicle",
       "ja": "自動車",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "motorcycle",
       "ja": "オートバイ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "motorcycle helmet",
-      "ja": "オートバイ用ヘルメット",
-      "status": "reviewed"
+      "ja": "オートバイヘルメット",
+      "status": "needs_review"
     },
     {
       "tag": "motosu school uniform",
@@ -24197,12 +24197,12 @@
     {
       "tag": "mount fuji",
       "ja": "富士山",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mountain",
       "ja": "山",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mountain (arknights)",
@@ -24211,68 +24211,68 @@
     },
     {
       "tag": "mountainous horizon",
-      "ja": "山並みの地平線",
-      "status": "reviewed"
+      "ja": "山の地平線",
+      "status": "needs_review"
     },
     {
       "tag": "mouse (animal)",
       "ja": "ネズミ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mouse ears",
-      "ja": "ネズミの耳",
-      "status": "reviewed"
+      "ja": "マウスの耳",
+      "status": "needs_review"
     },
     {
       "tag": "mouse girl",
-      "ja": "ネズミの少女",
-      "status": "reviewed"
+      "ja": "ねずみ娘",
+      "status": "needs_review"
     },
     {
       "tag": "mouse tail",
-      "ja": "ネズミの尻尾",
-      "status": "reviewed"
+      "ja": "鼠尾",
+      "status": "needs_review"
     },
     {
       "tag": "mouth drool",
-      "ja": "口元のよだれ",
-      "status": "reviewed"
+      "ja": "口からよだれ",
+      "status": "needs_review"
     },
     {
       "tag": "mouth hold",
-      "ja": "口でくわえる",
-      "status": "reviewed"
+      "ja": "口を握ります",
+      "status": "needs_review"
     },
     {
       "tag": "mouth mask",
-      "ja": "口元のマスク",
-      "status": "reviewed"
+      "ja": "マウスマスク",
+      "status": "needs_review"
     },
     {
       "tag": "mouth piercing",
       "ja": "口のピアス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mouth pull",
-      "ja": "口を引っ張る",
-      "status": "reviewed"
+      "ja": "指でグイッ",
+      "status": "needs_review"
     },
     {
       "tag": "mouth veil",
-      "ja": "口元のベール",
-      "status": "reviewed"
+      "ja": "マウスベール",
+      "status": "needs_review"
     },
     {
       "tag": "movie poster",
       "ja": "映画ポスター",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "movie theater",
       "ja": "映画館",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mr. c.b. (umamusume)",
@@ -24287,7 +24287,7 @@
     {
       "tag": "mud",
       "ja": "泥",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mudrock (arknights)",
@@ -24297,32 +24297,32 @@
     {
       "tag": "muffin",
       "ja": "マフィン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "muffin top",
-      "ja": "ウエスト上に乗る脂肪",
-      "status": "reviewed"
+      "ja": "マフィントップ",
+      "status": "needs_review"
     },
     {
       "tag": "mug",
-      "ja": "マグカップ",
-      "status": "reviewed"
+      "ja": "マグ",
+      "status": "needs_review"
     },
     {
       "tag": "mullet",
-      "ja": "マレットヘア",
-      "status": "reviewed"
+      "ja": "ボラ",
+      "status": "needs_review"
     },
     {
       "tag": "multi-strapped bikini bottom",
-      "ja": "ストラップが複数あるビキニボトム",
-      "status": "reviewed"
+      "ja": "ストラップ多めのビキニパンツ",
+      "status": "needs_review"
     },
     {
       "tag": "multi-strapped bikini top",
-      "ja": "ストラップが複数あるビキニトップ",
-      "status": "reviewed"
+      "ja": "レイヤードビキニ",
+      "status": "needs_review"
     },
     {
       "tag": "multi-strapped panties",
@@ -24331,323 +24331,323 @@
     },
     {
       "tag": "multi-tied hair",
-      "ja": "複数箇所で結んだ髪",
-      "status": "reviewed"
+      "ja": "マルチの髪",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored background",
       "ja": "多色の背景",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored bikini",
-      "ja": "多色のビキニ",
-      "status": "reviewed"
+      "ja": "マルチカラービキニ",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored bodysuit",
       "ja": "多色のボディスーツ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored bow",
-      "ja": "多色のリボン",
-      "status": "reviewed"
+      "ja": "多色の弓",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored bowtie",
-      "ja": "多色の蝶ネクタイ",
-      "status": "reviewed"
+      "ja": "多色のボウタイ",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored cape",
       "ja": "多色のケープ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored clothes",
       "ja": "多色の服",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored coat",
       "ja": "多色のコート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored dress",
       "ja": "多色のドレス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored eyes",
       "ja": "多色の目",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored footwear",
       "ja": "多色の履物",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored fur",
       "ja": "多色の毛皮",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored gloves",
       "ja": "多色の手袋",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored hair",
-      "ja": "多色の髪",
-      "status": "reviewed"
+      "ja": "二色髪",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored hairband",
-      "ja": "多色のヘアバンド",
-      "status": "reviewed"
+      "ja": "多色ヘアバンド",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored hat",
       "ja": "多色の帽子",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored hoodie",
       "ja": "多色のパーカー",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored horns",
-      "ja": "多色の角",
-      "status": "reviewed"
+      "ja": "多色ホーン",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored jacket",
       "ja": "多色のジャケット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored kimono",
       "ja": "多色の着物",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored leotard",
       "ja": "多色のレオタード",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored nails",
-      "ja": "多色の爪",
-      "status": "reviewed"
+      "ja": "マルチカラーネイル",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored ribbon",
       "ja": "多色のリボン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored scarf",
       "ja": "多色のスカーフ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored shirt",
       "ja": "多色のシャツ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored skin",
       "ja": "多色の肌",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored skirt",
       "ja": "多色のスカート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multicolored swimsuit",
-      "ja": "多色の水着",
-      "status": "reviewed"
+      "ja": "マルチカラーの水着",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored tail",
-      "ja": "多色の尻尾",
-      "status": "reviewed"
+      "ja": "多色の尾",
+      "status": "needs_review"
     },
     {
       "tag": "multicolored wings",
       "ja": "多色の翼",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple 4koma",
-      "ja": "複数の4コマ漫画",
-      "status": "reviewed"
+      "ja": "複数の4koma",
+      "status": "needs_review"
     },
     {
       "tag": "multiple belts",
       "ja": "複数のベルト",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple boys",
-      "ja": "複数の少年",
-      "status": "reviewed"
+      "ja": "複数人の男の子",
+      "status": "needs_review"
     },
     {
       "tag": "multiple bracelets",
       "ja": "複数のブレスレット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple braids",
       "ja": "複数の三つ編み",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple condoms",
       "ja": "複数のコンドーム",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple crossover",
-      "ja": "複数作品のクロスオーバー",
-      "status": "reviewed"
+      "ja": "複数のクロスオーバー",
+      "status": "needs_review"
     },
     {
       "tag": "multiple drawing challenge",
-      "ja": "複数人での作画チャレンジ",
-      "status": "reviewed"
+      "ja": "複数の描画チャレンジ",
+      "status": "needs_review"
     },
     {
       "tag": "multiple earrings",
       "ja": "複数のイヤリング",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple girls",
-      "ja": "複数の少女",
-      "status": "reviewed"
+      "ja": "複数の女の子",
+      "status": "needs_review"
     },
     {
       "tag": "multiple hair bows",
-      "ja": "複数のヘアリボン",
-      "status": "reviewed"
+      "ja": "たくさんのヘアリボン",
+      "status": "needs_review"
     },
     {
       "tag": "multiple hairpins",
       "ja": "複数のヘアピン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple heads",
-      "ja": "複数の頭",
-      "status": "reviewed"
+      "ja": "複数のヘッド",
+      "status": "needs_review"
     },
     {
       "tag": "multiple horns",
       "ja": "複数の角",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple legs",
       "ja": "複数の脚",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple moles",
-      "ja": "複数のほくろ",
-      "status": "reviewed"
+      "ja": "複数のモル",
+      "status": "needs_review"
     },
     {
       "tag": "multiple monochrome",
-      "ja": "複数のモノクロ画面",
-      "status": "reviewed"
+      "ja": "複数のモノクロ",
+      "status": "needs_review"
     },
     {
       "tag": "multiple necklaces",
       "ja": "複数のネックレス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple others",
-      "ja": "複数のその他の人物",
-      "status": "reviewed"
+      "ja": "他の複数",
+      "status": "needs_review"
     },
     {
       "tag": "multiple persona",
-      "ja": "複数の人格",
-      "status": "reviewed"
+      "ja": "複数のペルソナ",
+      "status": "needs_review"
     },
     {
       "tag": "multiple piercings",
       "ja": "複数のピアス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple riders",
-      "ja": "複数の乗り手",
-      "status": "reviewed"
+      "ja": "複数のライダー",
+      "status": "needs_review"
     },
     {
       "tag": "multiple rings",
-      "ja": "複数の指輪",
-      "status": "reviewed"
+      "ja": "複数のリング",
+      "status": "needs_review"
     },
     {
       "tag": "multiple scars",
-      "ja": "複数の傷跡",
-      "status": "reviewed"
+      "ja": "複数の傷",
+      "status": "needs_review"
     },
     {
       "tag": "multiple swords",
       "ja": "複数の剣",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple tails",
-      "ja": "複数の尻尾",
-      "status": "reviewed"
+      "ja": "複数の尾",
+      "status": "needs_review"
     },
     {
       "tag": "multiple torii",
-      "ja": "複数の鳥居",
-      "status": "reviewed"
+      "ja": "複数のトーリ",
+      "status": "needs_review"
     },
     {
       "tag": "multiple views",
-      "ja": "複数視点",
-      "status": "reviewed"
+      "ja": "マルチアングル",
+      "status": "needs_review"
     },
     {
       "tag": "multiple weapons",
       "ja": "複数の武器",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multiple wings",
       "ja": "複数の翼",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "multitasking",
       "ja": "マルチタスク",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mummy",
       "ja": "ミイラ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mummy costume",
       "ja": "ミイラの衣装",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mundane utility",
@@ -24657,7 +24657,7 @@
     {
       "tag": "muneate",
       "ja": "胸当て",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "murakami suigun",
@@ -24671,8 +24671,8 @@
     },
     {
       "tag": "murakumo kai ni (kancolle)",
-      "ja": "叢雲改二（艦これ）",
-      "status": "reviewed"
+      "ja": "叢雲改二",
+      "status": "needs_review"
     },
     {
       "tag": "murano sayaka",
@@ -24697,7 +24697,7 @@
     {
       "tag": "murder",
       "ja": "殺人",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "musashi (kancolle)",
@@ -24706,23 +24706,23 @@
     },
     {
       "tag": "musashi kai ni (kancolle)",
-      "ja": "武蔵改二（艦これ）",
-      "status": "reviewed"
+      "ja": "武蔵改二",
+      "status": "needs_review"
     },
     {
       "tag": "muscular",
       "ja": "筋肉質",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "muscular female",
       "ja": "筋肉質の女性",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "muscular male",
       "ja": "筋肉質の男性",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mushoku tensei",
@@ -24732,57 +24732,57 @@
     {
       "tag": "mushroom",
       "ja": "キノコ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "music",
       "ja": "音楽",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "musical note",
       "ja": "音符",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "musical note hair ornament",
-      "ja": "音符の髪飾り",
-      "status": "reviewed"
+      "ja": "ノートノートヘアオーナメント",
+      "status": "needs_review"
     },
     {
       "tag": "musical note print",
-      "ja": "音符柄",
-      "status": "reviewed"
+      "ja": "ノートノートプリント",
+      "status": "needs_review"
     },
     {
       "tag": "musket",
       "ja": "マスケット銃",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "musou isshin (genshin impact)",
-      "ja": "夢想の一心（原神）",
-      "status": "reviewed"
+      "ja": "夢想の一心",
+      "status": "needs_review"
     },
     {
       "tag": "mustache",
       "ja": "口ひげ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mustache stubble",
       "ja": "口ひげの剃り跡",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mutated hands",
-      "ja": "変異した手",
-      "status": "reviewed"
+      "ja": "変形した手",
+      "status": "needs_review"
     },
     {
       "tag": "muted color",
-      "ja": "彩度を抑えた色",
-      "status": "reviewed"
+      "ja": "落ち着いた色",
+      "status": "needs_review"
     },
     {
       "tag": "mutsu (kancolle)",
@@ -24801,13 +24801,13 @@
     },
     {
       "tag": "mutton chops",
-      "ja": "頬ひげ",
-      "status": "reviewed"
+      "ja": "マトンチョップ",
+      "status": "needs_review"
     },
     {
       "tag": "mutual hug",
-      "ja": "互いに抱き合う",
-      "status": "reviewed"
+      "ja": "相互抱擁",
+      "status": "needs_review"
     },
     {
       "tag": "muv-luv",
@@ -24822,12 +24822,12 @@
     {
       "tag": "muzzle (mask)",
       "ja": "口輪",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "muzzle flash",
-      "ja": "銃口の発光",
-      "status": "reviewed"
+      "ja": "銃口フラッシュ",
+      "status": "needs_review"
     },
     {
       "tag": "my little pony",
@@ -24841,8 +24841,8 @@
     },
     {
       "tag": "my-hime",
-      "ja": "舞-HiME",
-      "status": "reviewed"
+      "ja": "私の -",
+      "status": "needs_review"
     },
     {
       "tag": "myoukou (kancolle)",
@@ -24851,13 +24851,13 @@
     },
     {
       "tag": "mysterious heroine x alter (fate)",
-      "ja": "謎のヒロインX〔オルタ〕（Fate）",
-      "status": "reviewed"
+      "ja": "神秘的なヒロインx alter（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "mysterious heroine xx (fate)",
-      "ja": "謎のヒロインXX（Fate）",
-      "status": "reviewed"
+      "ja": "神秘的なヒロインxx（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "mystia lorelei",
@@ -24927,7 +24927,7 @@
     {
       "tag": "naginata",
       "ja": "薙刀",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "nagisa (blue archive)",
@@ -24947,22 +24947,22 @@
     {
       "tag": "nail (hardware)",
       "ja": "釘",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "nail art",
       "ja": "ネイルアート",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "nail bat",
       "ja": "釘バット",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "nail polish",
       "ja": "マニキュア",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "naka (kancolle)",
@@ -25166,8 +25166,8 @@
     },
     {
       "tag": "nanashi mumei (1st costume)",
-      "ja": "七詩ムメイ（1st衣装）",
-      "status": "reviewed"
+      "ja": "七詩ムメイ(通常)",
+      "status": "needs_review"
     },
     {
       "tag": "nanodesu (phrase)",
@@ -25182,12 +25182,12 @@
     {
       "tag": "nape",
       "ja": "うなじ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "napkin",
       "ja": "ナプキン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "napoleon bonaparte (fate)",
@@ -25216,18 +25216,18 @@
     },
     {
       "tag": "narration",
-      "ja": "ナレーション",
-      "status": "reviewed"
+      "ja": "叙事",
+      "status": "needs_review"
     },
     {
       "tag": "narrow waist",
-      "ja": "細いウエスト",
-      "status": "reviewed"
+      "ja": "引き締まったウエスト",
+      "status": "needs_review"
     },
     {
       "tag": "narrowed eyes",
-      "ja": "目を細める",
-      "status": "reviewed"
+      "ja": "ジト目",
+      "status": "needs_review"
     },
     {
       "tag": "narukami yuu",
@@ -25251,8 +25251,8 @@
     },
     {
       "tag": "narutomaki",
-      "ja": "なると巻き",
-      "status": "reviewed"
+      "ja": "鳴門巻き",
+      "status": "needs_review"
     },
     {
       "tag": "nata (tool)",
@@ -25261,8 +25261,8 @@
     },
     {
       "tag": "native american",
-      "ja": "先住アメリカ人",
-      "status": "reviewed"
+      "ja": "ネイティブアメリカン",
+      "status": "needs_review"
     },
     {
       "tag": "natori sana",
@@ -25292,37 +25292,37 @@
     {
       "tag": "nature",
       "ja": "自然",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "naughty face",
-      "ja": "いたずらっぽい表情",
-      "status": "reviewed"
+      "ja": "いたずらな顔",
+      "status": "needs_review"
     },
     {
       "tag": "naval uniform",
-      "ja": "海軍の制服",
-      "status": "reviewed"
+      "ja": "海軍のユニフォーム",
+      "status": "needs_review"
     },
     {
       "tag": "navel",
-      "ja": "へそ",
-      "status": "reviewed"
+      "ja": "おへそ",
+      "status": "needs_review"
     },
     {
       "tag": "navel cutout",
-      "ja": "へその開いたデザイン",
-      "status": "reviewed"
+      "ja": "へその切り抜き",
+      "status": "needs_review"
     },
     {
       "tag": "navel hair",
-      "ja": "へその毛",
-      "status": "reviewed"
+      "ja": "へそ髪",
+      "status": "needs_review"
     },
     {
       "tag": "navel piercing",
       "ja": "へそピアス",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "navia (genshin impact)",
@@ -25347,37 +25347,37 @@
     {
       "tag": "nebula",
       "ja": "星雲",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "neck",
       "ja": "首",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "neck bell",
-      "ja": "首の鈴",
-      "status": "reviewed"
+      "ja": "鈴首輪",
+      "status": "needs_review"
     },
     {
       "tag": "neck flower",
-      "ja": "首元の花飾り",
-      "status": "reviewed"
+      "ja": "首の花",
+      "status": "needs_review"
     },
     {
       "tag": "neck fur",
-      "ja": "首周りの毛皮",
-      "status": "reviewed"
+      "ja": "首の毛皮",
+      "status": "needs_review"
     },
     {
       "tag": "neck garter",
       "ja": "ネックガーター",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "neck ribbon",
-      "ja": "首のリボン",
-      "status": "reviewed"
+      "ja": "ネックリボン",
+      "status": "needs_review"
     }
   ],
   "review_pass": "2026-10-30-index-5500-6499"
