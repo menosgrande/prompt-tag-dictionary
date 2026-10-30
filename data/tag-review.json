@@ -6966,7 +6966,7 @@
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
-      "note": "AIによる翻訳修正。人手の最終確認待ち。",
+      "note": "タグの文脈・意味を一意に確定できず、訳語は保留。",
       "source": null
     },
     "tri braids": {
@@ -7533,7 +7533,7 @@
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
-      "note": "AIによる翻訳修正。人手の最終確認待ち。",
+      "note": "学校名の日本語表記をグレープアカデミーに修正。人手の最終確認待ち。",
       "source": null
     },
     "uvula": {
