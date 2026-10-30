@@ -93,6 +93,7 @@
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
+  const outputHistory = { undo: [], redo: [], last: "" };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -787,11 +788,24 @@
       const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(majorOf(t)));
       output.push(tags.map(t => t.tag).join(", ")); count = tags.length;
     }
-    $("#prompt-output").value = output.filter(s => s !== "").join("\n");
+    const value = output.filter(s => s !== "").join("\n");
+    $("#prompt-output").value = value;
+    outputHistory.last = value; outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons();
     $("#output-count").textContent = count + " tags";
-    $("#copy-output").disabled = count === 0; $("#download-output").disabled = count === 0;
+    $("#copy-output").disabled = !value.trim(); $("#download-output").disabled = !value.trim();
   }
-  function syncSelectionFromPreview() {
+  function updateOutputHistoryButtons() {
+    $("#output-undo").disabled = outputHistory.undo.length === 0;
+    $("#output-redo").disabled = outputHistory.redo.length === 0;
+  }
+  function syncSelectionFromPreview(recordHistory = true) {
+    const value = $("#prompt-output").value;
+    if (recordHistory && value !== outputHistory.last) {
+      outputHistory.undo.push(outputHistory.last);
+      if (outputHistory.undo.length > 200) outputHistory.undo.shift();
+      outputHistory.redo.length = 0;
+    }
+    outputHistory.last = value;
     const byName = new Map(state.tags.map(t => [norm(t.tag), t]));
     const tokens = $("#prompt-output").value.split(/[\n,]+/).map(s => s.trim()).filter(Boolean);
     const next = new Set();
@@ -809,6 +823,19 @@
     $("#output-count").textContent = count + " tags";
     $("#copy-output").disabled = !$("#prompt-output").value.trim();
     $("#download-output").disabled = !$("#prompt-output").value.trim();
+    updateOutputHistoryButtons();
+  }
+  function undoOutput() {
+    if (!outputHistory.undo.length) return;
+    outputHistory.redo.push($("#prompt-output").value);
+    $("#prompt-output").value = outputHistory.undo.pop();
+    syncSelectionFromPreview(false);
+  }
+  function redoOutput() {
+    if (!outputHistory.redo.length) return;
+    outputHistory.undo.push($("#prompt-output").value);
+    $("#prompt-output").value = outputHistory.redo.pop();
+    syncSelectionFromPreview(false);
   }
   function updateTagSuggestions() {
     const input = $("#preview-add"), list = $("#tag-suggestions");
@@ -1122,7 +1149,13 @@
     $("#preview-add").addEventListener("change", addPreviewTag);
     $("#preview-add").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); addPreviewTag(); } });
     $("#preview-add-button").addEventListener("click", addPreviewTag);
-    $("#prompt-output").addEventListener("input", syncSelectionFromPreview);
+    $("#prompt-output").addEventListener("input", () => syncSelectionFromPreview());
+    $("#prompt-output").addEventListener("keydown", e => {
+      if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z") { e.preventDefault(); undoOutput(); }
+      else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z"))) { e.preventDefault(); redoOutput(); }
+    });
+    $("#output-undo").addEventListener("click", undoOutput);
+    $("#output-redo").addEventListener("click", redoOutput);
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", copyOutput); $("#download-output").addEventListener("click", downloadText);
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
