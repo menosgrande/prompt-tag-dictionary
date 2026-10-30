@@ -1,0 +1,2654 @@
+{
+  "generated_at": "2026-10-30",
+  "source": "data/tags.json",
+  "source_count": 11047,
+  "policy": "監査用候補。タグ本体の削除・改名・統合・再分類は行わない。機械的な文字列検出であり、意味の同一性を確定するものではない。",
+  "summary": {
+    "total": 11047,
+    "unique_tag_strings": 11047,
+    "exact_duplicate_groups": 0,
+    "separator_normalized_duplicate_groups": 0,
+    "tags_with_spaces": 8286,
+    "tags_with_hyphens": 433,
+    "tags_with_underscores": 0,
+    "tags_with_parentheses": 1131,
+    "tags_with_punctuation": 1260,
+    "multiword_tags": 8286,
+    "adjective_prefix_candidates": 1234,
+    "nonempty_japanese_translation_duplicate_groups": 178,
+    "nonempty_japanese_translation_duplicate_rows": 372
+  },
+  "separator_normalized_duplicates": [],
+  "adjective_prefix_candidates": {
+    "very": [
+      "very dark skin",
+      "very long beard",
+      "very long fingernails",
+      "very long hair",
+      "very long sleeves",
+      "very long tongue",
+      "very short hair",
+      "very sweaty",
+      "very wide shot"
+    ],
+    "too": [
+      "too many",
+      "too many watermarks"
+    ],
+    "extremely": [
+      "extremely detailed"
+    ],
+    "long": [
+      "long bangs",
+      "long beard",
+      "long braid",
+      "long coat",
+      "long dress",
+      "long earlobes",
+      "long eyelashes",
+      "long fingernails",
+      "long hair",
+      "long hair between eyes",
+      "long horns",
+      "long legs",
+      "long neck",
+      "long nose",
+      "long pointy ears",
+      "long ribbon",
+      "long scarf",
+      "long shirt",
+      "long sideburns",
+      "long sidelocks",
+      "long skirt",
+      "long sleeves",
+      "long tail",
+      "long toenails",
+      "long tongue"
+    ],
+    "short": [
+      "short bangs",
+      "short dress",
+      "short eyebrows",
+      "short hair",
+      "short hair with long locks",
+      "short jumpsuit",
+      "short kimono",
+      "short necktie",
+      "short over long sleeves",
+      "short ponytail",
+      "short shorts",
+      "short sidetail",
+      "short sleeves",
+      "short sword",
+      "short tail",
+      "short twintails",
+      "short-sleeved jacket",
+      "short-sleeved sweater"
+    ],
+    "big": [
+      "big belly",
+      "big hair",
+      "big nose"
+    ],
+    "small": [
+      "small breasts",
+      "small horns",
+      "small sweatdrop"
+    ],
+    "large": [
+      "large areolae",
+      "large bow",
+      "large breasts",
+      "large ears",
+      "large hands",
+      "large hat",
+      "large insertion",
+      "large pectorals",
+      "large tail",
+      "large testicles",
+      "large wings"
+    ],
+    "huge": [
+      "huge ahoge",
+      "huge bow",
+      "huge breasts",
+      "huge eyebrows",
+      "huge moon",
+      "huge nipples",
+      "huge pectorals",
+      "huge testicles",
+      "huge weapon"
+    ],
+    "tall": [
+      "tall female"
+    ],
+    "wide": [
+      "wide hips",
+      "wide oval eyes",
+      "wide ponytail",
+      "wide shot",
+      "wide sleeves",
+      "wide spread legs",
+      "wide-eyed"
+    ],
+    "narrow": [
+      "narrow waist"
+    ],
+    "thick": [
+      "thick arm hair",
+      "thick arms",
+      "thick beard",
+      "thick chest hair",
+      "thick eyebrows",
+      "thick eyelashes",
+      "thick lips",
+      "thick mustache",
+      "thick navel hair",
+      "thick thighs"
+    ],
+    "slim": [
+      "slim legs"
+    ],
+    "muscular": [
+      "muscular female",
+      "muscular male"
+    ],
+    "pale": [
+      "pale color",
+      "pale skin"
+    ],
+    "dark": [
+      "dark areolae",
+      "dark aura",
+      "dark background",
+      "dark blue hair",
+      "dark clouds",
+      "dark elf",
+      "dark fantasy",
+      "dark halo",
+      "dark magician girl",
+      "dark nipples",
+      "dark persona",
+      "dark skin",
+      "dark souls (series)",
+      "dark souls i",
+      "dark souls iii",
+      "dark-skinned female",
+      "dark-skinned male"
+    ],
+    "light": [
+      "light areolae",
+      "light blue hair",
+      "light blush",
+      "light bulb",
+      "light censor",
+      "light frown",
+      "light machine gun",
+      "light particles",
+      "light rays",
+      "light smile",
+      "light trail"
+    ],
+    "bright": [
+      "bright pupils"
+    ],
+    "deep": [
+      "deep penetration",
+      "deep skin"
+    ],
+    "soft": [
+      "soft lighting",
+      "soft serve"
+    ],
+    "hard": [
+      "hard hat"
+    ],
+    "rough": [
+      "rough sex"
+    ],
+    "wet": [
+      "wet clothes",
+      "wet dress",
+      "wet hair",
+      "wet panties",
+      "wet shirt",
+      "wet skirt",
+      "wet swimsuit",
+      "wet towel"
+    ],
+    "messy": [
+      "messy hair",
+      "messy room"
+    ],
+    "straight": [
+      "straight hair",
+      "straight-on"
+    ],
+    "curly": [
+      "curly eyebrows",
+      "curly hair"
+    ],
+    "wavy": [
+      "wavy eyes",
+      "wavy hair",
+      "wavy mouth"
+    ],
+    "fluffy": [
+      "fluffy hair"
+    ],
+    "shiny": [
+      "shiny and normal",
+      "shiny clothes",
+      "shiny legwear",
+      "shiny pokemon",
+      "shiny skin",
+      "shiny swimsuit"
+    ],
+    "matte": [
+      "matte painting"
+    ],
+    "transparent": [
+      "transparent background",
+      "transparent censoring",
+      "transparent umbrella",
+      "transparent wings"
+    ],
+    "translucent": [
+      "translucent bunnysuit"
+    ],
+    "opaque": [
+      "opaque glasses"
+    ],
+    "tight": [
+      "tight clothes",
+      "tight dress",
+      "tight pants",
+      "tight shirt"
+    ],
+    "loose": [
+      "loose belt",
+      "loose bowtie",
+      "loose clothes",
+      "loose hair strand",
+      "loose necktie",
+      "loose shirt",
+      "loose socks"
+    ],
+    "oversized": [
+      "oversized animal",
+      "oversized breast cup",
+      "oversized clothes",
+      "oversized food",
+      "oversized limbs",
+      "oversized object",
+      "oversized shirt"
+    ],
+    "baggy": [
+      "baggy clothes",
+      "baggy pants"
+    ],
+    "short-sleeved": [
+      "short-sleeved jacket",
+      "short-sleeved sweater"
+    ],
+    "sleeveless": [
+      "sleeveless bodysuit",
+      "sleeveless coat",
+      "sleeveless dress",
+      "sleeveless hoodie",
+      "sleeveless jacket",
+      "sleeveless kimono",
+      "sleeveless shirt",
+      "sleeveless sweater",
+      "sleeveless turtleneck",
+      "sleeveless turtleneck leotard"
+    ],
+    "high": [
+      "high collar",
+      "high contrast",
+      "high five",
+      "high heel boots",
+      "high heel sandals",
+      "high heels",
+      "high kick",
+      "high ponytail",
+      "high resolution",
+      "high school dxd",
+      "high side ponytail",
+      "high tops",
+      "high-low skirt",
+      "high-visibility clothing",
+      "high-waist pants",
+      "high-waist pantyhose",
+      "high-waist shorts",
+      "high-waist skirt"
+    ],
+    "low": [
+      "low neckline",
+      "low poly",
+      "low ponytail",
+      "low quality",
+      "low resolution",
+      "low twin braids",
+      "low twintails",
+      "low wings",
+      "low-braided long hair",
+      "low-cut armhole",
+      "low-tied long hair",
+      "low-tied sidelocks"
+    ],
+    "open": [
+      "open belt",
+      "open bodysuit",
+      "open book",
+      "open bra",
+      "open cardigan",
+      "open clothes",
+      "open coat",
+      "open collar",
+      "open door",
+      "open dress",
+      "open fly",
+      "open hand",
+      "open hands",
+      "open hoodie",
+      "open jacket",
+      "open kimono",
+      "open mouth",
+      "open pants",
+      "open robe",
+      "open shirt",
+      "open shorts",
+      "open skirt",
+      "open vest",
+      "open window",
+      "open-chest sweater"
+    ],
+    "closed": [
+      "closed eyes",
+      "closed mouth",
+      "closed umbrella"
+    ],
+    "half": [
+      "half gloves",
+      "half mask",
+      "half up braid",
+      "half updo",
+      "half-closed eye",
+      "half-closed eyes",
+      "half-erect",
+      "half-skirt"
+    ],
+    "partially": [
+      "partially colored",
+      "partially fingerless gloves",
+      "partially shaded face",
+      "partially submerged",
+      "partially unbuttoned",
+      "partially underwater shot",
+      "partially undressed",
+      "partially unzipped"
+    ],
+    "bare": [
+      "bare arms",
+      "bare back",
+      "bare hips",
+      "bare legs",
+      "bare pectorals",
+      "bare shoulders",
+      "bare tree"
+    ],
+    "colored": [
+      "colored extremities",
+      "colored eyelashes",
+      "colored inner animal ears",
+      "colored inner hair",
+      "colored nipples",
+      "colored sclera",
+      "colored shadow",
+      "colored shoe soles",
+      "colored skin",
+      "colored speech bubble",
+      "colored tips",
+      "colored tongue"
+    ],
+    "black": [
+      "black apron",
+      "black arm warmers",
+      "black armband",
+      "black armor",
+      "black ascot",
+      "black babydoll",
+      "black background",
+      "black bag",
+      "black bandeau",
+      "black belt",
+      "black bikini",
+      "black bird",
+      "black blindfold",
+      "black bodysuit",
+      "black border",
+      "black bow",
+      "black bowtie",
+      "black bra",
+      "black bridal gauntlets",
+      "black buruma",
+      "black camisole",
+      "black cape",
+      "black capelet",
+      "black cardigan",
+      "black cat",
+      "black choker",
+      "black cloak",
+      "black clover",
+      "black coat",
+      "black coat (kingdom hearts)",
+      "black collar",
+      "black corset",
+      "black dress",
+      "black eyeliner",
+      "black eyes",
+      "black eyeshadow",
+      "black feathers",
+      "black flower",
+      "black footwear",
+      "black fur",
+      "black garter belt",
+      "black garter straps",
+      "black gloves",
+      "black hair",
+      "black hairband",
+      "black hakama",
+      "black halo",
+      "black hands",
+      "black hat",
+      "black headband",
+      "black helmet",
+      "black hole",
+      "black hood",
+      "black hoodie",
+      "black horns",
+      "black jacket",
+      "black jumpsuit",
+      "black kimono",
+      "black lagoon",
+      "black leg warmers",
+      "black leggings",
+      "black leotard",
+      "black lips",
+      "black male swimwear",
+      "black male underwear",
+      "black mask",
+      "black nails",
+      "black neckerchief",
+      "black necktie",
+      "black one-piece swimsuit",
+      "black outline",
+      "black panties",
+      "black pants",
+      "black pantyhose",
+      "black ribbon",
+      "black robe",
+      "black rock shooter",
+      "black rock shooter (character)",
+      "black rose",
+      "black sailor collar",
+      "black sash",
+      "black scales",
+      "black scarf",
+      "black sclera",
+      "black scrunchie",
+      "black serafuku",
+      "black shirt",
+      "black shorts",
+      "black shrug",
+      "black skin",
+      "black skirt",
+      "black sky",
+      "black sleeves",
+      "black slingshot swimsuit",
+      "black socks",
+      "black sports bra",
+      "black suit",
+      "black survival",
+      "black swan (honkai: star rail)",
+      "black sweater",
+      "black sweater vest",
+      "black tail",
+      "black tank top",
+      "black theme",
+      "black thighhighs",
+      "black tiara",
+      "black tube top",
+      "black umbrella",
+      "black undershirt",
+      "black veil",
+      "black vest",
+      "black vs white",
+      "black wings",
+      "black wrist cuffs",
+      "black-framed eyewear"
+    ],
+    "white": [
+      "white apron",
+      "white armor",
+      "white ascot",
+      "white babydoll",
+      "white background",
+      "white bag",
+      "white bandana",
+      "white bandeau",
+      "white belt",
+      "white bikini",
+      "white bird",
+      "white bloomers",
+      "white bodysuit",
+      "white border",
+      "white bow",
+      "white bowtie",
+      "white bra",
+      "white butterfly",
+      "white camisole",
+      "white cape",
+      "white capelet",
+      "white cardigan",
+      "white cat",
+      "white choker",
+      "white cloak",
+      "white coat",
+      "white collar",
+      "white corset",
+      "white day",
+      "white dress",
+      "white eyelashes",
+      "white eyes",
+      "white feathers",
+      "white flower",
+      "white footwear",
+      "white fur",
+      "white garter belt",
+      "white garter straps",
+      "white gloves",
+      "white hair",
+      "white hairband",
+      "white halo",
+      "white hanfu",
+      "white hat",
+      "white headband",
+      "white headdress",
+      "white hood",
+      "white hoodie",
+      "white horns",
+      "white jacket",
+      "white jumpsuit",
+      "white kimono",
+      "white leg warmers",
+      "white leggings",
+      "white leotard",
+      "white lily",
+      "white male underwear",
+      "white mask",
+      "white mittens",
+      "white nails",
+      "white neckerchief",
+      "white necktie",
+      "white nightgown",
+      "white one-piece swimsuit",
+      "white outline",
+      "white panties",
+      "white pants",
+      "white pantyhose",
+      "white pupils",
+      "white ribbon",
+      "white robe",
+      "white romper",
+      "white rose",
+      "white sailor collar",
+      "white sarong",
+      "white sash",
+      "white scales",
+      "white scarf",
+      "white scrunchie",
+      "white serafuku",
+      "white shawl",
+      "white shirt",
+      "white shorts",
+      "white shrug",
+      "white skin",
+      "white skirt",
+      "white sky",
+      "white sleeves",
+      "white snake",
+      "white socks",
+      "white sports bra",
+      "white stripes",
+      "white suit",
+      "white sweater",
+      "white tail",
+      "white tank top",
+      "white theme",
+      "white thighhighs",
+      "white tiger",
+      "white trim",
+      "white tube top",
+      "white tunic",
+      "white umbrella",
+      "white undershirt",
+      "white veil",
+      "white vest",
+      "white wings",
+      "white wrist cuffs",
+      "white-framed eyewear"
+    ],
+    "red": [
+      "red (pokemon)",
+      "red apron",
+      "red armband",
+      "red armor",
+      "red ascot",
+      "red background",
+      "red bag",
+      "red bandana",
+      "red bandeau",
+      "red belt",
+      "red bikini",
+      "red bodysuit",
+      "red border",
+      "red bow",
+      "red bowtie",
+      "red bra",
+      "red brooch",
+      "red buruma",
+      "red butterfly",
+      "red camisole",
+      "red cape",
+      "red capelet",
+      "red cardigan",
+      "red carpet",
+      "red choker",
+      "red cloak",
+      "red coat",
+      "red collar",
+      "red cross",
+      "red crown",
+      "red dress",
+      "red eyeliner",
+      "red eyes",
+      "red eyeshadow",
+      "red feathers",
+      "red flower",
+      "red footwear",
+      "red fur",
+      "red gemstone",
+      "red gloves",
+      "red hair",
+      "red hairband",
+      "red hakama",
+      "red halo",
+      "red hands",
+      "red hat",
+      "red headband",
+      "red helmet",
+      "red hood",
+      "red hoodie",
+      "red horns",
+      "red jacket",
+      "red kimono",
+      "red leotard",
+      "red lips",
+      "red male underwear",
+      "red mask",
+      "red mittens",
+      "red moon",
+      "red nails",
+      "red neckerchief",
+      "red necktie",
+      "red nose",
+      "red one-piece swimsuit",
+      "red oni",
+      "red outline",
+      "red panties",
+      "red pants",
+      "red pantyhose",
+      "red petals",
+      "red pupils",
+      "red ribbon",
+      "red robe",
+      "red rope",
+      "red rose",
+      "red sailor collar",
+      "red sash",
+      "red scales",
+      "red scarf",
+      "red sclera",
+      "red scrunchie",
+      "red shawl",
+      "red shirt",
+      "red shorts",
+      "red skin",
+      "red skirt",
+      "red sky",
+      "red sleeves",
+      "red socks",
+      "red sports bra",
+      "red star",
+      "red suit",
+      "red sweater",
+      "red tabard",
+      "red tail",
+      "red tank top",
+      "red theme",
+      "red thighhighs",
+      "red track suit",
+      "red trim",
+      "red umbrella",
+      "red vest",
+      "red wine",
+      "red wings",
+      "red-framed eyewear",
+      "red-tinted eyewear"
+    ],
+    "blue": [
+      "blue apron",
+      "blue archive",
+      "blue armband",
+      "blue armor",
+      "blue ascot",
+      "blue background",
+      "blue bag",
+      "blue bandana",
+      "blue belt",
+      "blue bikini",
+      "blue bird",
+      "blue bodysuit",
+      "blue border",
+      "blue bow",
+      "blue bowtie",
+      "blue bra",
+      "blue brooch",
+      "blue buruma",
+      "blue butterfly",
+      "blue camisole",
+      "blue cape",
+      "blue capelet",
+      "blue cardigan",
+      "blue choker",
+      "blue cloak",
+      "blue coat",
+      "blue collar",
+      "blue dress",
+      "blue eyes",
+      "blue eyeshadow",
+      "blue feathers",
+      "blue fire",
+      "blue flower",
+      "blue footwear",
+      "blue fur",
+      "blue gemstone",
+      "blue gloves",
+      "blue hair",
+      "blue hairband",
+      "blue hakama",
+      "blue halo",
+      "blue hat",
+      "blue headband",
+      "blue helmet",
+      "blue hood",
+      "blue hoodie",
+      "blue horns",
+      "blue hour",
+      "blue jacket",
+      "blue jumpsuit",
+      "blue kimono",
+      "blue leotard",
+      "blue lips",
+      "blue male swimwear",
+      "blue male underwear",
+      "blue nails",
+      "blue neckerchief",
+      "blue necktie",
+      "blue oak",
+      "blue one-piece swimsuit",
+      "blue outline",
+      "blue overalls",
+      "blue pajamas",
+      "blue panties",
+      "blue pants",
+      "blue pantyhose",
+      "blue poison (arknights)",
+      "blue pupils",
+      "blue ribbon",
+      "blue robe",
+      "blue rose",
+      "blue sailor collar",
+      "blue sarong",
+      "blue sash",
+      "blue scarf",
+      "blue sclera",
+      "blue scrunchie",
+      "blue serafuku",
+      "blue shawl",
+      "blue shirt",
+      "blue shorts",
+      "blue skin",
+      "blue skirt",
+      "blue sky",
+      "blue sleeves",
+      "blue socks",
+      "blue sports bra",
+      "blue suit",
+      "blue sweater",
+      "blue sweater vest",
+      "blue tabard",
+      "blue tail",
+      "blue tank top",
+      "blue theme",
+      "blue thighhighs",
+      "blue tongue",
+      "blue trim",
+      "blue tunic",
+      "blue umbrella",
+      "blue veil",
+      "blue vest",
+      "blue visor",
+      "blue wings",
+      "blue wrist cuffs",
+      "blue-framed eyewear",
+      "blue-tinted eyewear"
+    ],
+    "green": [
+      "green apron",
+      "green armband",
+      "green armor",
+      "green ascot",
+      "green background",
+      "green bag",
+      "green bandana",
+      "green belt",
+      "green bikini",
+      "green bodysuit",
+      "green border",
+      "green bow",
+      "green bowtie",
+      "green bra",
+      "green cape",
+      "green capelet",
+      "green cardigan",
+      "green choker",
+      "green cloak",
+      "green coat",
+      "green dress",
+      "green eyes",
+      "green eyeshadow",
+      "green feathers",
+      "green fire",
+      "green flower",
+      "green footwear",
+      "green fur",
+      "green gemstone",
+      "green gloves",
+      "green hair",
+      "green hairband",
+      "green hakama",
+      "green halo",
+      "green hat",
+      "green headband",
+      "green hoodie",
+      "green horns",
+      "green jacket",
+      "green jumpsuit",
+      "green kimono",
+      "green leotard",
+      "green lips",
+      "green nails",
+      "green neckerchief",
+      "green necktie",
+      "green one-piece swimsuit",
+      "green panties",
+      "green pants",
+      "green pantyhose",
+      "green pupils",
+      "green ribbon",
+      "green rose",
+      "green sailor collar",
+      "green sash",
+      "green scarf",
+      "green sclera",
+      "green scrunchie",
+      "green shirt",
+      "green shorts",
+      "green skin",
+      "green skirt",
+      "green sleeves",
+      "green socks",
+      "green sweater",
+      "green sweater vest",
+      "green tail",
+      "green tank top",
+      "green tea",
+      "green theme",
+      "green thighhighs",
+      "green tunic",
+      "green vest",
+      "green visor",
+      "green wings",
+      "green-framed eyewear",
+      "green-tinted eyewear"
+    ],
+    "yellow": [
+      "yellow apron",
+      "yellow armband",
+      "yellow ascot",
+      "yellow background",
+      "yellow bag",
+      "yellow belt",
+      "yellow bikini",
+      "yellow bodysuit",
+      "yellow border",
+      "yellow bow",
+      "yellow bowtie",
+      "yellow bra",
+      "yellow butterfly",
+      "yellow camisole",
+      "yellow cape",
+      "yellow cardigan",
+      "yellow choker",
+      "yellow coat",
+      "yellow dress",
+      "yellow eyes",
+      "yellow feathers",
+      "yellow flower",
+      "yellow footwear",
+      "yellow fur",
+      "yellow gemstone",
+      "yellow gloves",
+      "yellow hairband",
+      "yellow halo",
+      "yellow hat",
+      "yellow hoodie",
+      "yellow horns",
+      "yellow jacket",
+      "yellow kimono",
+      "yellow leotard",
+      "yellow nails",
+      "yellow neckerchief",
+      "yellow necktie",
+      "yellow one-piece swimsuit",
+      "yellow outline",
+      "yellow panties",
+      "yellow pants",
+      "yellow pantyhose",
+      "yellow pupils",
+      "yellow raincoat",
+      "yellow ribbon",
+      "yellow rose",
+      "yellow sailor collar",
+      "yellow sash",
+      "yellow scarf",
+      "yellow sclera",
+      "yellow scrunchie",
+      "yellow shirt",
+      "yellow shorts",
+      "yellow skin",
+      "yellow skirt",
+      "yellow sky",
+      "yellow sleeves",
+      "yellow socks",
+      "yellow sweater",
+      "yellow sweater vest",
+      "yellow tail",
+      "yellow tank top",
+      "yellow theme",
+      "yellow thighhighs",
+      "yellow trim",
+      "yellow vest",
+      "yellow wings",
+      "yellow-framed eyewear",
+      "yellow-tinted eyewear"
+    ],
+    "orange": [
+      "orange (fruit)",
+      "orange apron",
+      "orange ascot",
+      "orange background",
+      "orange belt",
+      "orange bikini",
+      "orange bodysuit",
+      "orange bow",
+      "orange bowtie",
+      "orange bra",
+      "orange cape",
+      "orange choker",
+      "orange coat",
+      "orange dress",
+      "orange eyes",
+      "orange flower",
+      "orange footwear",
+      "orange fur",
+      "orange gloves",
+      "orange goggles",
+      "orange hair",
+      "orange hairband",
+      "orange halo",
+      "orange hat",
+      "orange headband",
+      "orange hoodie",
+      "orange horns",
+      "orange jacket",
+      "orange jumpsuit",
+      "orange kimono",
+      "orange leotard",
+      "orange nails",
+      "orange neckerchief",
+      "orange necktie",
+      "orange panties",
+      "orange pants",
+      "orange pantyhose",
+      "orange pekoe (girls und panzer)",
+      "orange pupils",
+      "orange ribbon",
+      "orange rose",
+      "orange sailor collar",
+      "orange scarf",
+      "orange scrunchie",
+      "orange shirt",
+      "orange shorts",
+      "orange skin",
+      "orange skirt",
+      "orange sky",
+      "orange sleeves",
+      "orange slice",
+      "orange socks",
+      "orange sweater",
+      "orange tail",
+      "orange theme",
+      "orange thighhighs",
+      "orange vest",
+      "orange-tinted eyewear"
+    ],
+    "pink": [
+      "pink apron",
+      "pink arm warmers",
+      "pink ascot",
+      "pink background",
+      "pink bag",
+      "pink belt",
+      "pink bikini",
+      "pink blood",
+      "pink bodysuit",
+      "pink border",
+      "pink bow",
+      "pink bowtie",
+      "pink bra",
+      "pink camisole",
+      "pink cape",
+      "pink capelet",
+      "pink cardigan",
+      "pink choker",
+      "pink coat",
+      "pink collar",
+      "pink dress",
+      "pink eyes",
+      "pink eyeshadow",
+      "pink flower",
+      "pink footwear",
+      "pink fur",
+      "pink gemstone",
+      "pink gloves",
+      "pink hair",
+      "pink hairband",
+      "pink hakama",
+      "pink halo",
+      "pink hat",
+      "pink hoodie",
+      "pink horns",
+      "pink jacket",
+      "pink kimono",
+      "pink leotard",
+      "pink lips",
+      "pink nails",
+      "pink neckerchief",
+      "pink necktie",
+      "pink one-piece swimsuit",
+      "pink outline",
+      "pink pajamas",
+      "pink panties",
+      "pink pants",
+      "pink pantyhose",
+      "pink petals",
+      "pink pupils",
+      "pink ribbon",
+      "pink rose",
+      "pink sailor collar",
+      "pink sash",
+      "pink scarf",
+      "pink scrunchie",
+      "pink shirt",
+      "pink shorts",
+      "pink skin",
+      "pink skirt",
+      "pink sky",
+      "pink sleeves",
+      "pink socks",
+      "pink sports bra",
+      "pink sweater",
+      "pink tail",
+      "pink tank top",
+      "pink theme",
+      "pink thighhighs",
+      "pink track suit",
+      "pink trim",
+      "pink umbrella",
+      "pink vest",
+      "pink wings",
+      "pink wrist cuffs",
+      "pink-framed eyewear",
+      "pink-tinted eyewear"
+    ],
+    "purple": [
+      "purple apron",
+      "purple armor",
+      "purple ascot",
+      "purple background",
+      "purple belt",
+      "purple bikini",
+      "purple bodysuit",
+      "purple border",
+      "purple bow",
+      "purple bowtie",
+      "purple bra",
+      "purple butterfly",
+      "purple cape",
+      "purple capelet",
+      "purple cardigan",
+      "purple choker",
+      "purple cloak",
+      "purple coat",
+      "purple collar",
+      "purple dress",
+      "purple eyes",
+      "purple eyeshadow",
+      "purple fire",
+      "purple flower",
+      "purple footwear",
+      "purple fur",
+      "purple gemstone",
+      "purple gloves",
+      "purple hair",
+      "purple hairband",
+      "purple hakama",
+      "purple halo",
+      "purple hat",
+      "purple heart (neptunia)",
+      "purple hoodie",
+      "purple horns",
+      "purple jacket",
+      "purple kimono",
+      "purple leotard",
+      "purple lips",
+      "purple nails",
+      "purple neckerchief",
+      "purple necktie",
+      "purple one-piece swimsuit",
+      "purple panties",
+      "purple pants",
+      "purple pantyhose",
+      "purple pupils",
+      "purple ribbon",
+      "purple robe",
+      "purple rope",
+      "purple rose",
+      "purple sailor collar",
+      "purple sash",
+      "purple scarf",
+      "purple scrunchie",
+      "purple serafuku",
+      "purple shirt",
+      "purple shorts",
+      "purple skin",
+      "purple skirt",
+      "purple sky",
+      "purple sleeves",
+      "purple socks",
+      "purple sweater",
+      "purple tabard",
+      "purple tail",
+      "purple theme",
+      "purple thighhighs",
+      "purple tongue",
+      "purple umbrella",
+      "purple veil",
+      "purple vest",
+      "purple wings",
+      "purple-framed eyewear",
+      "purple-tinted eyewear"
+    ],
+    "brown": [
+      "brown apron",
+      "brown ascot",
+      "brown background",
+      "brown bag",
+      "brown belt",
+      "brown bikini",
+      "brown border",
+      "brown bow",
+      "brown bowtie",
+      "brown bra",
+      "brown cape",
+      "brown capelet",
+      "brown cardigan",
+      "brown choker",
+      "brown cloak",
+      "brown coat",
+      "brown collar",
+      "brown corset",
+      "brown dress",
+      "brown eyes",
+      "brown flower",
+      "brown footwear",
+      "brown fur",
+      "brown gloves",
+      "brown hair",
+      "brown hairband",
+      "brown hat",
+      "brown hoodie",
+      "brown horns",
+      "brown jacket",
+      "brown kimono",
+      "brown leotard",
+      "brown lips",
+      "brown mittens",
+      "brown nails",
+      "brown neckerchief",
+      "brown necktie",
+      "brown panties",
+      "brown pants",
+      "brown pantyhose",
+      "brown ribbon",
+      "brown sailor collar",
+      "brown sash",
+      "brown scarf",
+      "brown shirt",
+      "brown shorts",
+      "brown skirt",
+      "brown sleeves",
+      "brown socks",
+      "brown sweater",
+      "brown sweater vest",
+      "brown tail",
+      "brown theme",
+      "brown thighhighs",
+      "brown vest",
+      "brown wings",
+      "brown-framed eyewear"
+    ],
+    "grey": [
+      "grey apron",
+      "grey ascot",
+      "grey background",
+      "grey bag",
+      "grey belt",
+      "grey bikini",
+      "grey bodysuit",
+      "grey border",
+      "grey bow",
+      "grey bowtie",
+      "grey bra",
+      "grey cape",
+      "grey capelet",
+      "grey cardigan",
+      "grey cat",
+      "grey choker",
+      "grey cloak",
+      "grey coat",
+      "grey dress",
+      "grey eyes",
+      "grey flower",
+      "grey footwear",
+      "grey fur",
+      "grey gloves",
+      "grey hair",
+      "grey hairband",
+      "grey halo",
+      "grey hat",
+      "grey hoodie",
+      "grey horns",
+      "grey jacket",
+      "grey kimono",
+      "grey leotard",
+      "grey nails",
+      "grey neckerchief",
+      "grey necktie",
+      "grey panties",
+      "grey pants",
+      "grey pantyhose",
+      "grey ribbon",
+      "grey sailor collar",
+      "grey scarf",
+      "grey serafuku",
+      "grey shirt",
+      "grey shorts",
+      "grey skin",
+      "grey skirt",
+      "grey sky",
+      "grey sleeves",
+      "grey socks",
+      "grey sports bra",
+      "grey suit",
+      "grey sweater",
+      "grey sweater vest",
+      "grey tail",
+      "grey tank top",
+      "grey theme",
+      "grey thighhighs",
+      "grey vest",
+      "grey wings",
+      "grey wolf (kemono friends)",
+      "grey-framed eyewear"
+    ],
+    "silver": [
+      "silver (pokemon)",
+      "silver dress",
+      "silver fox (kemono friends)",
+      "silver hair",
+      "silver trim",
+      "silver wolf (honkai: star rail)"
+    ],
+    "gold": [
+      "gold armlet",
+      "gold armor",
+      "gold bikini",
+      "gold bracelet",
+      "gold chain",
+      "gold choker",
+      "gold coin",
+      "gold crown",
+      "gold earrings",
+      "gold footwear",
+      "gold hairband",
+      "gold necklace",
+      "gold ring",
+      "gold ship (umamusume)",
+      "gold trim"
+    ],
+    "golden": [
+      "golden apple",
+      "golden arms",
+      "golden hour",
+      "golden kamuy"
+    ],
+    "blonde": [
+      "blonde hair"
+    ],
+    "cream": [
+      "cream on face"
+    ],
+    "scarlet": [
+      "scarlet devil mansion"
+    ]
+  },
+  "japanese_translation_groups": [
+    {
+      "ja": "笑顔",
+      "tags": [
+        ":d",
+        "smile",
+        "smiling"
+      ]
+    },
+    {
+      "ja": "開いた口",
+      "tags": [
+        ":o",
+        "open mouth"
+      ]
+    },
+    {
+      "ja": "空",
+      "tags": [
+        "aether (genshin impact)",
+        "sky"
+      ]
+    },
+    {
+      "ja": "老化",
+      "tags": [
+        "aged down",
+        "aged up"
+      ]
+    },
+    {
+      "ja": "お守り",
+      "tags": [
+        "amulet",
+        "talisman"
+      ]
+    },
+    {
+      "ja": "足枷",
+      "tags": [
+        "ankle cuffs",
+        "shackles"
+      ]
+    },
+    {
+      "ja": "角",
+      "tags": [
+        "antlers",
+        "horns"
+      ]
+    },
+    {
+      "ja": "水色の髪",
+      "tags": [
+        "aqua hair",
+        "light blue hair"
+      ]
+    },
+    {
+      "ja": "後ろの腕",
+      "tags": [
+        "arm behind back",
+        "arms behind back"
+      ]
+    },
+    {
+      "ja": "足の間の腕",
+      "tags": [
+        "arm between legs",
+        "arms between legs"
+      ]
+    },
+    {
+      "ja": "興奮した",
+      "tags": [
+        "aroused",
+        "excited"
+      ]
+    },
+    {
+      "ja": "絵筆",
+      "tags": [
+        "art brush",
+        "paintbrush"
+      ]
+    },
+    {
+      "ja": "左右非対称の角",
+      "tags": [
+        "asymmetrical horns",
+        "uneven horns"
+      ]
+    },
+    {
+      "ja": "左右非対称の袖",
+      "tags": [
+        "asymmetrical sleeves",
+        "uneven sleeves"
+      ]
+    },
+    {
+      "ja": "逆光",
+      "tags": [
+        "backlight",
+        "backlighting"
+      ]
+    },
+    {
+      "ja": "ベランダ",
+      "tags": [
+        "balcony",
+        "veranda"
+      ]
+    },
+    {
+      "ja": "包帯",
+      "tags": [
+        "bandage",
+        "bandages"
+      ]
+    },
+    {
+      "ja": "お札",
+      "tags": [
+        "banknote",
+        "ofuda"
+      ]
+    },
+    {
+      "ja": "タッセル",
+      "tags": [
+        "barefoot sandals (jewelry)",
+        "tassel"
+      ]
+    },
+    {
+      "ja": "バスケットボール",
+      "tags": [
+        "basketball",
+        "basketball (object)"
+      ]
+    },
+    {
+      "ja": "無精ひげ",
+      "tags": [
+        "beard stubble",
+        "stubble"
+      ]
+    },
+    {
+      "ja": "谷間",
+      "tags": [
+        "between breasts",
+        "cleavage"
+      ]
+    },
+    {
+      "ja": "自転車",
+      "tags": [
+        "bicycle",
+        "bikesuit"
+      ]
+    },
+    {
+      "ja": "パンツ下ろし",
+      "tags": [
+        "bikini bottom pull",
+        "panty pull"
+      ]
+    },
+    {
+      "ja": "上ズレ",
+      "tags": [
+        "bikini top lift",
+        "bra lift"
+      ]
+    },
+    {
+      "ja": "噛む",
+      "tags": [
+        "biting",
+        "chewing"
+      ]
+    },
+    {
+      "ja": "黒いコート",
+      "tags": [
+        "black coat",
+        "black coat (kingdom hearts)"
+      ]
+    },
+    {
+      "ja": "胸の血",
+      "tags": [
+        "blood on breasts",
+        "blood on chest"
+      ]
+    },
+    {
+      "ja": "瓶",
+      "tags": [
+        "bottle",
+        "jar",
+        "vial"
+      ]
+    },
+    {
+      "ja": "蝶ネクタイ",
+      "tags": [
+        "bow tie",
+        "bowtie"
+      ]
+    },
+    {
+      "ja": "三つ編み",
+      "tags": [
+        "braid",
+        "braids"
+      ]
+    },
+    {
+      "ja": "豊胸手術",
+      "tags": [
+        "breast rest",
+        "breast slip",
+        "breast strap"
+      ]
+    },
+    {
+      "ja": "胸当て",
+      "tags": [
+        "breastplate",
+        "muneate"
+      ]
+    },
+    {
+      "ja": "胸",
+      "tags": [
+        "breasts",
+        "pectorals"
+      ]
+    },
+    {
+      "ja": "兄弟",
+      "tags": [
+        "brothers",
+        "siblings"
+      ]
+    },
+    {
+      "ja": "茶色のリボン",
+      "tags": [
+        "brown bow",
+        "brown ribbon"
+      ]
+    },
+    {
+      "ja": "ブルマ",
+      "tags": [
+        "bulma",
+        "buruma"
+      ]
+    },
+    {
+      "ja": "髪の毛",
+      "tags": [
+        "bunching hair",
+        "cube hair ornament",
+        "detached hair",
+        "hair bobbles",
+        "hair down",
+        "hair ears",
+        "hair flaps",
+        "hair vines"
+      ]
+    },
+    {
+      "ja": "バニーガール",
+      "tags": [
+        "bunny girl",
+        "playboy bunny"
+      ]
+    },
+    {
+      "ja": "スーツ",
+      "tags": [
+        "business suit",
+        "suit"
+      ]
+    },
+    {
+      "ja": "天使の小窓",
+      "tags": [
+        "button gap",
+        "center opening"
+      ]
+    },
+    {
+      "ja": "マント",
+      "tags": [
+        "cape",
+        "cloak"
+      ]
+    },
+    {
+      "ja": "タウル",
+      "tags": [
+        "centauroid",
+        "taur"
+      ]
+    },
+    {
+      "ja": "鎖",
+      "tags": [
+        "chain",
+        "chained"
+      ]
+    },
+    {
+      "ja": "引き出し",
+      "tags": [
+        "chest of drawers",
+        "drawer"
+      ]
+    },
+    {
+      "ja": "ちびキャラ",
+      "tags": [
+        "chibi",
+        "chibi only"
+      ]
+    },
+    {
+      "ja": "痴漢",
+      "tags": [
+        "chikan",
+        "groping"
+      ]
+    },
+    {
+      "ja": "煙突",
+      "tags": [
+        "chimney",
+        "smokestack"
+      ]
+    },
+    {
+      "ja": "爪",
+      "tags": [
+        "claws",
+        "fingernails"
+      ]
+    },
+    {
+      "ja": "手を握りしめた",
+      "tags": [
+        "clenched hand",
+        "clenched hands"
+      ]
+    },
+    {
+      "ja": "時計",
+      "tags": [
+        "clock",
+        "watch"
+      ]
+    },
+    {
+      "ja": "服を引っ張る",
+      "tags": [
+        "clothes pull",
+        "clothes tug"
+      ]
+    },
+    {
+      "ja": "雲",
+      "tags": [
+        "cloud",
+        "clouds"
+      ]
+    },
+    {
+      "ja": "曇り",
+      "tags": [
+        "cloudy",
+        "overcast"
+      ]
+    },
+    {
+      "ja": "クローバー",
+      "tags": [
+        "clover",
+        "crowbar"
+      ]
+    },
+    {
+      "ja": "道化師",
+      "tags": [
+        "clown",
+        "jester"
+      ]
+    },
+    {
+      "ja": "顔を覆う",
+      "tags": [
+        "covered face",
+        "covering face"
+      ]
+    },
+    {
+      "ja": "三日月",
+      "tags": [
+        "crescent",
+        "crescent moon"
+      ]
+    },
+    {
+      "ja": "紋章",
+      "tags": [
+        "crest",
+        "insignia"
+      ]
+    },
+    {
+      "ja": "乳カーテン",
+      "tags": [
+        "crop top overhang",
+        "shirt overhang"
+      ]
+    },
+    {
+      "ja": "髪の飾り",
+      "tags": [
+        "cross hair ornament",
+        "ring hair ornament"
+      ]
+    },
+    {
+      "ja": "股間",
+      "tags": [
+        "crotch plate",
+        "crotch rope",
+        "crotchless",
+        "groin"
+      ]
+    },
+    {
+      "ja": "かわいい",
+      "tags": [
+        "cute",
+        "kawaii"
+      ]
+    },
+    {
+      "ja": "まな板",
+      "tags": [
+        "cutting board",
+        "flat chest"
+      ]
+    },
+    {
+      "ja": "団子",
+      "tags": [
+        "dango",
+        "dumpling"
+      ]
+    },
+    {
+      "ja": "残骸",
+      "tags": [
+        "debris",
+        "wreckage"
+      ]
+    },
+    {
+      "ja": "泥",
+      "tags": [
+        "dirt",
+        "mud"
+      ]
+    },
+    {
+      "ja": "汚れた服",
+      "tags": [
+        "dirty clothes",
+        "stained clothes"
+      ]
+    },
+    {
+      "ja": "人形",
+      "tags": [
+        "doll",
+        "puppet"
+      ]
+    },
+    {
+      "ja": "鳩",
+      "tags": [
+        "dove",
+        "pigeon"
+      ]
+    },
+    {
+      "ja": "ドヤ顔",
+      "tags": [
+        "doyagao",
+        "troll face"
+      ]
+    },
+    {
+      "ja": "龙尾",
+      "tags": [
+        "dragon tail",
+        "eastern dragon tail"
+      ]
+    },
+    {
+      "ja": "縦ロール",
+      "tags": [
+        "drill hair",
+        "ringlets"
+      ]
+    },
+    {
+      "ja": "飲む",
+      "tags": [
+        "drink",
+        "drinking"
+      ]
+    },
+    {
+      "ja": "遊戯王ファンアート",
+      "tags": [
+        "duel monster",
+        "yu-gi-oh!"
+      ]
+    },
+    {
+      "ja": "イヤホン",
+      "tags": [
+        "earbuds",
+        "earphones"
+      ]
+    },
+    {
+      "ja": "ピアス",
+      "tags": [
+        "earrings",
+        "piercing"
+      ]
+    },
+    {
+      "ja": "卵",
+      "tags": [
+        "egg",
+        "egg (food)"
+      ]
+    },
+    {
+      "ja": "テーブルの肘",
+      "tags": [
+        "elbow on table",
+        "elbows on table"
+      ]
+    },
+    {
+      "ja": "絵文字",
+      "tags": [
+        "emoji",
+        "emoticon"
+      ]
+    },
+    {
+      "ja": "下向き",
+      "tags": [
+        "face down",
+        "facing down"
+      ]
+    },
+    {
+      "ja": "偽の角",
+      "tags": [
+        "fake antlers",
+        "fake horns"
+      ]
+    },
+    {
+      "ja": "牙",
+      "tags": [
+        "fang out",
+        "fangs",
+        "tusks"
+      ]
+    },
+    {
+      "ja": "羽毛",
+      "tags": [
+        "feather hair",
+        "feathers"
+      ]
+    },
+    {
+      "ja": "足を上げる",
+      "tags": [
+        "feet up",
+        "foot up"
+      ]
+    },
+    {
+      "ja": "葉",
+      "tags": [
+        "foliage",
+        "leaf"
+      ]
+    },
+    {
+      "ja": "眉をひそめる",
+      "tags": [
+        "frown",
+        "wince"
+      ]
+    },
+    {
+      "ja": "ふんどし",
+      "tags": [
+        "fundoshi",
+        "loincloth"
+      ]
+    },
+    {
+      "ja": "毛皮",
+      "tags": [
+        "fur trim",
+        "pelt"
+      ]
+    },
+    {
+      "ja": "宝石",
+      "tags": [
+        "gem",
+        "jewelry"
+      ]
+    },
+    {
+      "ja": "巨人",
+      "tags": [
+        "giant",
+        "giantess"
+      ]
+    },
+    {
+      "ja": "輝く目",
+      "tags": [
+        "glowing eye",
+        "glowing eyes"
+      ]
+    },
+    {
+      "ja": "グリル",
+      "tags": [
+        "grill",
+        "grilling"
+      ]
+    },
+    {
+      "ja": "買い物袋",
+      "tags": [
+        "grocery bag",
+        "shopping bag"
+      ]
+    },
+    {
+      "ja": "漢字",
+      "tags": [
+        "hachimaki",
+        "hanami"
+      ]
+    },
+    {
+      "ja": "リボンの髪飾り",
+      "tags": [
+        "hair bow",
+        "hair ribbon"
+      ]
+    },
+    {
+      "ja": "髪留め",
+      "tags": [
+        "hair tie",
+        "hairclip"
+      ]
+    },
+    {
+      "ja": "半分閉じた目",
+      "tags": [
+        "half-closed eye",
+        "half-closed eyes"
+      ]
+    },
+    {
+      "ja": "膝の上に手",
+      "tags": [
+        "hand on lap",
+        "hands on lap"
+      ]
+    },
+    {
+      "ja": "腰に手",
+      "tags": [
+        "hand on own hip",
+        "hands on own hips"
+      ]
+    },
+    {
+      "ja": "手形",
+      "tags": [
+        "handprint",
+        "slap mark"
+      ]
+    },
+    {
+      "ja": "自分の胸の手",
+      "tags": [
+        "hands on own breasts",
+        "hands on own chest"
+      ]
+    },
+    {
+      "ja": "膝の上",
+      "tags": [
+        "hands on own knees",
+        "on lap"
+      ]
+    },
+    {
+      "ja": "ぶら下がっています",
+      "tags": [
+        "hanging",
+        "hanging light"
+      ]
+    },
+    {
+      "ja": "鳩羽つぐ",
+      "tags": [
+        "hatoba tsugu",
+        "tsugu (vtuber)"
+      ]
+    },
+    {
+      "ja": "兜",
+      "tags": [
+        "helm",
+        "kabuto (helmet)"
+      ]
+    },
+    {
+      "ja": "オッドアイ",
+      "tags": [
+        "heterochromia",
+        "two-tone eyes"
+      ]
+    },
+    {
+      "ja": "高解像度",
+      "tags": [
+        "high resolution",
+        "hires"
+      ]
+    },
+    {
+      "ja": "スリット(洋服)",
+      "tags": [
+        "hip vent",
+        "side slit"
+      ]
+    },
+    {
+      "ja": "袋を持っています",
+      "tags": [
+        "holding bag",
+        "holding sack"
+      ]
+    },
+    {
+      "ja": "針",
+      "tags": [
+        "hook",
+        "needle"
+      ]
+    },
+    {
+      "ja": "傷",
+      "tags": [
+        "injury",
+        "scratches"
+      ]
+    },
+    {
+      "ja": "インクリング",
+      "tags": [
+        "inkling",
+        "inkling player character"
+      ]
+    },
+    {
+      "ja": "浮き輪",
+      "tags": [
+        "innertube",
+        "swim ring"
+      ]
+    },
+    {
+      "ja": "になもも",
+      "tags": [
+        "iseri nina",
+        "kawaragi momoka"
+      ]
+    },
+    {
+      "ja": "プリン",
+      "tags": [
+        "jigglypuff",
+        "pudding"
+      ]
+    },
+    {
+      "ja": "ジト目",
+      "tags": [
+        "jitome",
+        "narrowed eyes"
+      ]
+    },
+    {
+      "ja": "神山高校",
+      "tags": [
+        "kamiyama high school uniform (hyouka)",
+        "kamiyama high school uniform (project sekai)"
+      ]
+    },
+    {
+      "ja": "キス",
+      "tags": [
+        "kiss",
+        "kissing"
+      ]
+    },
+    {
+      "ja": "キズナアイ",
+      "tags": [
+        "kizuna ai",
+        "kizuna ai inc."
+      ]
+    },
+    {
+      "ja": "提灯",
+      "tags": [
+        "lantern",
+        "paper lantern"
+      ]
+    },
+    {
+      "ja": "大きな胸",
+      "tags": [
+        "large breasts",
+        "large pectorals"
+      ]
+    },
+    {
+      "ja": "レイヤードビキニ",
+      "tags": [
+        "layered bikini",
+        "multi-strapped bikini top"
+      ]
+    },
+    {
+      "ja": "足を上げます",
+      "tags": [
+        "leg up",
+        "legs up"
+      ]
+    },
+    {
+      "ja": "股布ずらし",
+      "tags": [
+        "leotard aside",
+        "panties aside"
+      ]
+    },
+    {
+      "ja": "線画",
+      "tags": [
+        "line art",
+        "lineart"
+      ]
+    },
+    {
+      "ja": "機械",
+      "tags": [
+        "machine",
+        "machinery"
+      ]
+    },
+    {
+      "ja": "魔法少女まどか☆マギカ",
+      "tags": [
+        "mahou shoujo madoka magica",
+        "mahou shoujo madoka magica (anime)"
+      ]
+    },
+    {
+      "ja": "マスク",
+      "tags": [
+        "mask",
+        "masked"
+      ]
+    },
+    {
+      "ja": "小人",
+      "tags": [
+        "mini person",
+        "miniboy",
+        "minigirl"
+      ]
+    },
+    {
+      "ja": "二色髪",
+      "tags": [
+        "multicolored hair",
+        "two-tone hair"
+      ]
+    },
+    {
+      "ja": "名取さな",
+      "tags": [
+        "natori sana",
+        "sana channel"
+      ]
+    },
+    {
+      "ja": "ネクタイ",
+      "tags": [
+        "necktie",
+        "tie"
+      ]
+    },
+    {
+      "ja": "鼻",
+      "tags": [
+        "nose",
+        "snout"
+      ]
+    },
+    {
+      "ja": "鼻輪",
+      "tags": [
+        "nose piercing",
+        "nose ring"
+      ]
+    },
+    {
+      "ja": "帯",
+      "tags": [
+        "obi",
+        "sash"
+      ]
+    },
+    {
+      "ja": "手すり",
+      "tags": [
+        "on railing",
+        "railing"
+      ]
+    },
+    {
+      "ja": "手を開けてください",
+      "tags": [
+        "open hand",
+        "open hands"
+      ]
+    },
+    {
+      "ja": "腕を伸ばした",
+      "tags": [
+        "outstretched arm",
+        "outstretched arms"
+      ]
+    },
+    {
+      "ja": "ロシア帽",
+      "tags": [
+        "papakha",
+        "ushanka"
+      ]
+    },
+    {
+      "ja": "覗く",
+      "tags": [
+        "peeking",
+        "peeking out"
+      ]
+    },
+    {
+      "ja": "震え",
+      "tags": [
+        "quiver",
+        "trembling"
+      ]
+    },
+    {
+      "ja": "赤いリボン",
+      "tags": [
+        "red bow",
+        "red ribbon"
+      ]
+    },
+    {
+      "ja": "トイレ",
+      "tags": [
+        "restroom",
+        "toilet"
+      ]
+    },
+    {
+      "ja": "鼻水",
+      "tags": [
+        "runny nose",
+        "snot"
+      ]
+    },
+    {
+      "ja": "セーラー服",
+      "tags": [
+        "sailor uniform",
+        "serafuku"
+      ]
+    },
+    {
+      "ja": "鞘",
+      "tags": [
+        "scabbard",
+        "sheath",
+        "sheathed"
+      ]
+    },
+    {
+      "ja": "叫ぶ",
+      "tags": [
+        "screaming",
+        "shouting"
+      ]
+    },
+    {
+      "ja": "鎌",
+      "tags": [
+        "scythe",
+        "sickle"
+      ]
+    },
+    {
+      "ja": "肩をすくめる",
+      "tags": [
+        "shrug (clothing)",
+        "shrugging"
+      ]
+    },
+    {
+      "ja": "紐ビキニ",
+      "tags": [
+        "side-tie bikini bottom",
+        "string bikini"
+      ]
+    },
+    {
+      "ja": "横向き",
+      "tags": [
+        "sideways",
+        "sideways glance"
+      ]
+    },
+    {
+      "ja": "署名",
+      "tags": [
+        "signature",
+        "signum"
+      ]
+    },
+    {
+      "ja": "皮の牙",
+      "tags": [
+        "skin fang",
+        "skin fangs"
+      ]
+    },
+    {
+      "ja": "スパンキング",
+      "tags": [
+        "spanked",
+        "spanking"
+      ]
+    },
+    {
+      "ja": "こぼれる",
+      "tags": [
+        "spill",
+        "spilling"
+      ]
+    },
+    {
+      "ja": "話し言葉",
+      "tags": [
+        "spoken ellipsis",
+        "spoken expression"
+      ]
+    },
+    {
+      "ja": "杖",
+      "tags": [
+        "staff",
+        "wand"
+      ]
+    },
+    {
+      "ja": "星空",
+      "tags": [
+        "star (sky)",
+        "starry hair",
+        "starry sky"
+      ]
+    },
+    {
+      "ja": "駅",
+      "tags": [
+        "station",
+        "train station"
+      ]
+    },
+    {
+      "ja": "肩紐ずらし",
+      "tags": [
+        "strap lift",
+        "strap pull",
+        "strap slip"
+      ]
+    },
+    {
+      "ja": "街",
+      "tags": [
+        "street",
+        "town"
+      ]
+    },
+    {
+      "ja": "ぬいぐるみ",
+      "tags": [
+        "stuffed dog",
+        "stuffed toy"
+      ]
+    },
+    {
+      "ja": "太陽",
+      "tags": [
+        "sun",
+        "taiyaki"
+      ]
+    },
+    {
+      "ja": "スイング",
+      "tags": [
+        "swing",
+        "swinging"
+      ]
+    },
+    {
+      "ja": "ようちか安心委員会",
+      "tags": [
+        "takami chika",
+        "watanabe you"
+      ]
+    },
+    {
+      "ja": "歯",
+      "tags": [
+        "teeth",
+        "tooth"
+      ]
+    },
+    {
+      "ja": "糸",
+      "tags": [
+        "thread",
+        "yarn"
+      ]
+    },
+    {
+      "ja": "つま先",
+      "tags": [
+        "tiptoes",
+        "toes"
+      ]
+    },
+    {
+      "ja": "東京",
+      "tags": [
+        "tokusatsu",
+        "tokyo"
+      ]
+    },
+    {
+      "ja": "鳥居",
+      "tags": [
+        "torii",
+        "torii gate"
+      ]
+    },
+    {
+      "ja": "ツートンリボン",
+      "tags": [
+        "two-tone bow",
+        "two-tone ribbon"
+      ]
+    },
+    {
+      "ja": "没戴的帽子",
+      "tags": [
+        "unworn hat",
+        "unworn headwear"
+      ]
+    },
+    {
+      "ja": "解凍",
+      "tags": [
+        "unzipped",
+        "unzipping"
+      ]
+    },
+    {
+      "ja": "バレーボール",
+      "tags": [
+        "volleyball",
+        "volleyball (object)"
+      ]
+    },
+    {
+      "ja": "weiboロゴ",
+      "tags": [
+        "weibo logo",
+        "weibo watermark"
+      ]
+    },
+    {
+      "ja": "横浜",
+      "tags": [
+        "yokochou",
+        "yokozuwari"
+      ]
+    },
+    {
+      "ja": "妖怪ウォッチ",
+      "tags": [
+        "youkai (youkai watch)",
+        "youkai watch"
+      ]
+    }
+  ]
+}
