@@ -22381,8 +22381,8 @@
     },
     {
       "tag": "matikanefukukitaru (umamusume)",
-      "ja": "マチカネフクキタル（ウマ娘）",
-      "status": "reviewed"
+      "ja": "マチカネフクキタル(ウマ娘)",
+      "status": "needs_review"
     },
     {
       "tag": "mating press",
@@ -22391,18 +22391,18 @@
     },
     {
       "tag": "matoi ryuuko",
-      "ja": "纏流子",
-      "status": "reviewed"
+      "ja": "マトイ・リュウコ",
+      "status": "needs_review"
     },
     {
       "tag": "matou kariya",
       "ja": "間桐雁夜",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "matou sakura",
-      "ja": "間桐桜",
-      "status": "reviewed"
+      "ja": "マトウさくら",
+      "status": "needs_review"
     },
     {
       "tag": "matsunaga kouyou",
@@ -22446,8 +22446,8 @@
     },
     {
       "tag": "matsuura kanan",
-      "ja": "松浦果南",
-      "status": "reviewed"
+      "ja": "松田カナン",
+      "status": "needs_review"
     },
     {
       "tag": "mattaku mousuke",
@@ -22486,13 +22486,13 @@
     },
     {
       "tag": "maya (kancolle)",
-      "ja": "摩耶（艦これ）",
-      "status": "reviewed"
+      "ja": "摩耶(艦隊これくしょん)",
+      "status": "needs_review"
     },
     {
       "tag": "mayano top gun (umamusume)",
-      "ja": "マヤノトップガン（ウマ娘）",
-      "status": "reviewed"
+      "ja": "マヤノトップガン(ウマ娘)",
+      "status": "needs_review"
     },
     {
       "tag": "mayuzumi fuyuko",
@@ -22661,53 +22661,53 @@
     },
     {
       "tag": "medusa (fate)",
-      "ja": "メドゥーサ（Fate）",
-      "status": "reviewed"
+      "ja": "メデューサ（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "medusa (rider) (fate)",
-      "ja": "メドゥーサ（ライダー・Fate）",
-      "status": "reviewed"
+      "ja": "メデューサ（ライダー）（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "mega gardevoir",
       "ja": "メガサーナイト",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mega man (classic)",
-      "ja": "ロックマン（クラシックシリーズ）",
-      "status": "reviewed"
+      "ja": "メガマン（クラシック）",
+      "status": "needs_review"
     },
     {
       "tag": "mega man (series)",
-      "ja": "ロックマンシリーズ",
-      "status": "reviewed"
+      "ja": "メガマン（シリーズ）",
+      "status": "needs_review"
     },
     {
       "tag": "mega man battle network (series)",
-      "ja": "ロックマンエグゼシリーズ",
-      "status": "reviewed"
+      "ja": "ロックマンエグゼ",
+      "status": "needs_review"
     },
     {
       "tag": "mega man legends (series)",
-      "ja": "ロックマンDASHシリーズ",
-      "status": "reviewed"
+      "ja": "ロックマンDASH",
+      "status": "needs_review"
     },
     {
       "tag": "mega man x (series)",
-      "ja": "ロックマンXシリーズ",
-      "status": "reviewed"
+      "ja": "メガマンX（シリーズ）",
+      "status": "needs_review"
     },
     {
       "tag": "mega man zero (series)",
-      "ja": "ロックマンゼロシリーズ",
-      "status": "reviewed"
+      "ja": "ロックマンゼロ",
+      "status": "needs_review"
     },
     {
       "tag": "mega man zx",
-      "ja": "ロックマンゼクス",
-      "status": "reviewed"
+      "ja": "メガマンZX",
+      "status": "needs_review"
     },
     {
       "tag": "mega pokemon",
@@ -22732,12 +22732,12 @@
     {
       "tag": "megurine luka",
       "ja": "巡音ルカ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "mei (overwatch)",
       "ja": "メイ（オーバーウォッチ）",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meiji schoolgirl uniform",
@@ -22751,13 +22751,13 @@
     },
     {
       "tag": "meisho doto (umamusume)",
-      "ja": "メイショウドトウ（ウマ娘）",
-      "status": "reviewed"
+      "ja": "メイショウドトウ(ウマ娘)",
+      "status": "needs_review"
     },
     {
       "tag": "meitantei conan",
       "ja": "名探偵コナン",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "meito (maze)",
@@ -22766,8 +22766,8 @@
     },
     {
       "tag": "mejiro mcqueen (umamusume)",
-      "ja": "メジロマックイーン（ウマ娘）",
-      "status": "reviewed"
+      "ja": "メジロマックイーン(ウマ娘)",
+      "status": "needs_review"
     },
     {
       "tag": "meka (overwatch)",
@@ -22796,13 +22796,13 @@
     },
     {
       "tag": "meltryllis (fate)",
-      "ja": "メルトリリス（Fate）",
-      "status": "reviewed"
+      "ja": "メルトリス（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "meltryllis (swimsuit lancer) (fate)",
-      "ja": "メルトリリス（水着・ランサー／Fate）",
-      "status": "reviewed"
+      "ja": "Meltryllis（水着ランサー）（Fate）",
+      "status": "needs_review"
     },
     {
       "tag": "melty blood",
@@ -22811,8 +22811,8 @@
     },
     {
       "tag": "melusine (fate)",
-      "ja": "メリュジーヌ（Fate）",
-      "status": "reviewed"
+      "ja": "妖精騎士ランスロット",
+      "status": "needs_review"
     },
     {
       "tag": "meme",
@@ -22852,7 +22852,7 @@
     {
       "tag": "mercy (overwatch)",
       "ja": "マーシー（オーバーウォッチ）",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "merlin prismriver",
