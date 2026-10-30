@@ -94,7 +94,7 @@
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
-  const outputHistory = { undo: [], redo: [], last: "" };
+  const outputHistory = { undo: [], redo: [], last: { positive: "", negative: "" } };
 
   function norm(s) {
     return String(s ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
@@ -849,43 +849,38 @@
     $("#output-redo").disabled = outputHistory.redo.length === 0;
   }
   function syncSelectionFromPreview(recordHistory = true) {
-    const value = $("#prompt-output").value;
-    if (recordHistory && value !== outputHistory.last) {
-      outputHistory.undo.push(outputHistory.last);
+    const current = outputSnapshot();
+    if (recordHistory && !sameOutput(current, outputHistory.last)) {
+      outputHistory.undo.push({ ...outputHistory.last });
       if (outputHistory.undo.length > 200) outputHistory.undo.shift();
       outputHistory.redo.length = 0;
     }
-    outputHistory.last = value;
+    outputHistory.last = { ...current };
+    const tokens = [current.positive, current.negative].join("\n").split(/[\n,]+/).map(s => s.trim()).filter(Boolean);
     const byName = new Map(state.tags.map(t => [norm(t.tag), t]));
-    const tokens = $("#prompt-output").value.split(/[\n,]+/).map(s => s.trim()).filter(Boolean);
     const next = new Set();
     tokens.forEach(token => {
       if (/^(?:\/\/|#|\/\*)/.test(token)) return;
       const item = byName.get(norm(token.replace(/\*\/$/, "").trim()));
       if (item) next.add(norm(item.tag));
     });
-    state.selected = next;
-    saveSelected();
-    renderStats();
-    renderResults();
-    renderOutputCategories();
-    const count = next.size;
-    $("#output-count").textContent = count + " tags";
-    $("#copy-output").disabled = !$("#prompt-output").value.trim();
-    $("#download-output").disabled = !$("#prompt-output").value.trim();
+    state.selected = next; saveSelected(); renderStats(); renderResults(); renderOutputCategories();
+    $("#output-count").textContent = next.size + " tags";
+    $("#copy-output").disabled = !current.positive.trim(); $("#download-output").disabled = !current.positive.trim();
+    $("#copy-negative-output").disabled = !current.negative.trim(); $("#download-negative-output").disabled = !current.negative.trim();
     updateOutputHistoryButtons();
+  }
+  function restoreOutputSnapshot(snapshot) {
+    $("#prompt-output").value = snapshot.positive || ""; $("#negative-output").value = snapshot.negative || "";
+    syncSelectionFromPreview(false);
   }
   function undoOutput() {
     if (!outputHistory.undo.length) return;
-    outputHistory.redo.push($("#prompt-output").value);
-    $("#prompt-output").value = outputHistory.undo.pop();
-    syncSelectionFromPreview(false);
+    outputHistory.redo.push(outputSnapshot()); restoreOutputSnapshot(outputHistory.undo.pop());
   }
   function redoOutput() {
     if (!outputHistory.redo.length) return;
-    outputHistory.undo.push($("#prompt-output").value);
-    $("#prompt-output").value = outputHistory.redo.pop();
-    syncSelectionFromPreview(false);
+    outputHistory.undo.push(outputSnapshot()); restoreOutputSnapshot(outputHistory.redo.pop());
   }
   function updateTagSuggestions() {
     const input = $("#preview-add"), list = $("#tag-suggestions");
@@ -1137,15 +1132,19 @@
     const url = URL.createObjectURL(blob), a = document.createElement("a");
     a.href = url; a.download = "prompt-tags.txt"; a.click(); URL.revokeObjectURL(url);
   }
-  async function copyOutput() {
-    const value = $("#prompt-output").value;
-    try { await navigator.clipboard.writeText(value); setStatus("copy-status", "コピーしました。"); }
-    catch {
-      const ta = $("#prompt-output"); ta.focus(); ta.select();
-      const ok = document.execCommand("copy");
-      setStatus("copy-status", ok ? "コピーしました。" : "出力欄を選択して手動でコピーしてください。", !ok);
-    }
+  async function copyOutput(target = "positive") {
+    const ta = target === "negative" ? $("#negative-output") : $("#prompt-output");
+    const value = ta.value;
+    try { await navigator.clipboard.writeText(value); setStatus("copy-status", (target === "negative" ? "ネガティブ" : "ポジティブ") + "をコピーしました。"); }
+    catch { ta.focus(); ta.select(); const ok = document.execCommand("copy"); setStatus("copy-status", ok ? "コピーしました。" : "出力欄を選択して手動でコピーしてください。", !ok); }
   }
+  function downloadText(target = "positive") {
+    const negative = target === "negative", value = negative ? $("#negative-output").value : $("#prompt-output").value;
+    const blob = new Blob([value], { type: "text/plain;charset=utf-8" });
+    const url = URL.createObjectURL(blob), a = document.createElement("a");
+    a.href = url; a.download = negative ? "negative-prompt-tags.txt" : "positive-prompt-tags.txt"; a.click(); URL.revokeObjectURL(url);
+  }
+
   function wire() {
     const presets = {
       portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
@@ -1199,15 +1198,16 @@
     $("#preview-add").addEventListener("change", addPreviewTag);
     $("#preview-add").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); addPreviewTag(); } });
     $("#preview-add-button").addEventListener("click", addPreviewTag);
-    $("#prompt-output").addEventListener("input", () => syncSelectionFromPreview());
-    $("#prompt-output").addEventListener("keydown", e => {
+    ["prompt-output", "negative-output"].forEach(id => $("#" + id).addEventListener("input", () => syncSelectionFromPreview()));
+    ["prompt-output", "negative-output"].forEach(id => $("#" + id).addEventListener("keydown", e => {
       if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z") { e.preventDefault(); undoOutput(); }
       else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z"))) { e.preventDefault(); redoOutput(); }
-    });
+    }));
     $("#output-undo").addEventListener("click", undoOutput);
     $("#output-redo").addEventListener("click", redoOutput);
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
-    $("#copy-output").addEventListener("click", copyOutput); $("#download-output").addEventListener("click", downloadText);
+    $("#copy-output").addEventListener("click", () => copyOutput("positive")); $("#download-output").addEventListener("click", () => downloadText("positive"));
+    $("#copy-negative-output").addEventListener("click", () => copyOutput("negative")); $("#download-negative-output").addEventListener("click", () => downloadText("negative"));
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
     $("#import-cancel").addEventListener("click", () => closeDialog("import-dialog"));
     $("#import-run").addEventListener("click", importFiles);
