@@ -2146,13 +2146,13 @@
     },
     {
       "tag": "body fur",
-      "ja": "体毛（獣毛）",
-      "status": "needs_review"
+      "ja": "体毛",
+      "status": "reviewed"
     },
     {
       "tag": "body markings",
-      "ja": "身体の模様・ markings",
-      "status": "needs_review"
+      "ja": "身体の模様",
+      "status": "reviewed"
     },
     {
       "tag": "body writing",
