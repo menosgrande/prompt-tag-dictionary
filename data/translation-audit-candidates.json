@@ -46,8 +46,8 @@
   {
     "tag": "0 0",
     "ja": "",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "目",
     "reasons": [
       "japanese-translation-missing"
     ],
@@ -805,8 +805,8 @@
   {
     "tag": "chain headband",
     "ja": "",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "服装",
+    "minor": "小物",
     "reasons": [
       "japanese-translation-missing"
     ],
@@ -1389,8 +1389,8 @@
   {
     "tag": "embodiment of scarlet devil",
     "ja": "scar色の悪魔の具体化",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "種族・役割",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1609,8 +1609,8 @@
   {
     "tag": "fire emblem warriors: three hopes",
     "ja": "Fire Emblem Warriors：3つの希望",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1741,8 +1741,8 @@
   {
     "tag": "fujimaru ritsuka (female)",
     "ja": "藤原ritsuka（女性）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "性別・体形",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1752,8 +1752,8 @@
   {
     "tag": "fujimaru ritsuka (male)",
     "ja": "藤原ritsuka（男性）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "性別・体形",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -3030,8 +3030,8 @@
   {
     "tag": "kemonomimi mode",
     "ja": "Kemonomimiモード",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "種族・役割",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -4031,8 +4031,8 @@
   {
     "tag": "needy girl overdose",
     "ja": "NEEDY GIRL OVERDOSE",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "性別・体形",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -4351,8 +4351,8 @@
   {
     "tag": "ooarai (emblem)",
     "ja": "ooarai（エンブレム）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -5803,8 +5803,8 @@
   {
     "tag": "traditional youkai",
     "ja": "伝統的なYoukai",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "種族・役割",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -6036,8 +6036,8 @@
   {
     "tag": "whistle around neck",
     "ja": "首の周りを口whi",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "身体・部位",
     "reasons": [
       "english-remains-in-japanese"
     ],
