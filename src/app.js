@@ -9,8 +9,7 @@
   const PAGE_SIZE = 100;
   function pageSize() { return PAGE_SIZE; }
   const CATEGORIES = [
-    ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
-    ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
+    ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割","キャラクター"],
     ["服装","Clothing","衣類","靴","小物","下着・水着","装備"],
     ["ポーズ・動作","Pose & Action","姿勢","行動","手の動き","対人動作"],
     ["シチュエーション","Situation","関係性","日常","イベント","成人向け状況"],
@@ -93,7 +92,7 @@
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
-  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
+  const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, expandedWorkGroups: new Set(), editMode: ADMIN_MODE, editingTag: null };
   const outputHistory = { undo: [], redo: [], last: "" };
 
   function norm(s) {
@@ -408,6 +407,10 @@
   }
   function normalizeRecords() { state.tags = mergeTags([], state.tags, true); }
 
+  function workCharacterTagCount() {
+    return new Set(tagGroups.filter(group => group.type === "work").flatMap(group => [...(group.members || []), ...(group.titleTag ? [group.titleTag] : [])].map(norm))).size;
+  }
+
   function renderStats() {
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
@@ -428,7 +431,7 @@
   function renderCategories() {
     const root = $("#category-tree"); root.replaceChildren();
     const counts = categoryCounts();
-    const majors = [...new Set([...CATEGORIES.map(c => c[0]), ...counts.keys()])];
+    const majors = [...new Set([...CATEGORIES.map(c => c[0]), ...counts.keys()])].filter(major => major !== "作品・キャラクター");
     majors.sort((a, b) => {
       if (a === "未分類") return 1;
       if (b === "未分類") return -1;
@@ -477,7 +480,9 @@
         if (major !== "人物" && major !== "未分類") minors.splice(0, minors.length, ...minors.filter(m => entry.minors.has(m)));
         const minWrap = document.createElement("div"); minWrap.className = "category-minors";
         minors.forEach(minor => {
-          const me = entry.minors.get(minor) || { total: 0, details: new Map() };
+          const me = minor === "キャラクター" && major === "人物"
+            ? { total: workCharacterTagCount(), details: new Map() }
+            : entry.minors.get(minor) || { total: 0, details: new Map() };
           const details = [...new Set([...(DETAIL_GROUPS[major]?.[minor] || []), ...me.details.keys()])].filter(d => me.details.has(d));
           const key = major + "::" + minor;
           const row = document.createElement("div"); row.className = "category-minor-row";
@@ -526,7 +531,9 @@
   function matchingTags() {
     const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
+    const characterBrowse = state.category?.[0] === "人物" && state.category?.[1] === "キャラクター";
     let list = state.tags.filter(t => {
+      if (characterBrowse) return false;
       if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
@@ -550,22 +557,37 @@
       const rank = tag => /^[a-z]/i.test(tag) ? 0 : /^\d/.test(tag) ? 1 : 2;
       return rank(a.tag) - rank(b.tag) || englishCompare(a, b);
     };
-    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
-      const groups = tagGroups.filter(group => {
-        if (state.category && (group.category?.[0] !== state.category[0] ||
-            (state.category[1] && group.category?.[1] !== state.category[1]) ||
-            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
-        const memberSearchText = (group.members || []).map(name => {
-          const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
-          return norm([name, member?.ja || "", ...(member?.aliases || [])].join(" "));
-        });
-        return queryTerms.every(term => norm(group.id).includes(term) || memberSearchText.some(text => text.includes(term)));
-      }).map(group => ({ ...group, isTagGroup: true }));
-      groups.sort((a, b) => {
-        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
-        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
+    if (!state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
+      const genericGroups = q ? tagGroups.filter(group => group.type !== "work" && (!state.category ||
+        (group.category?.[0] === state.category[0] &&
+         (!state.category[1] || group.category?.[1] === state.category[1]) &&
+         (!state.category[2] || group.category?.[2] === state.category[2]))))
+        .filter(group => {
+          const memberSearchText = (group.members || []).map(name => {
+            const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+            return norm([name, member?.ja || "", ...(member?.aliases || [])].join(" "));
+          });
+          return queryTerms.every(term => norm(group.id + " " + (group.ja || "")).includes(term) || memberSearchText.some(text => text.includes(term)));
+        }).map(group => ({ ...group, isTagGroup: true })) : [];
+      const workGroups = tagGroups.filter(group => group.type === "work" && (characterBrowse || q) &&
+        (!state.category || characterBrowse || (state.category[0] === "人物" && state.category[1] === "キャラクター")) &&
+        (!q || queryTerms.every(term => {
+          const title = norm([group.id, group.label, group.ja, group.titleTag || ""].join(" "));
+          const members = (group.members || []).map(name => {
+            const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+            return norm([name, member?.ja || "", ...(member?.aliases || [])].join(" "));
+          });
+          return title.includes(term) || members.some(text => text.includes(term));
+        }))).map(group => ({ ...group, isWorkGroup: true }));
+      const combinedGroups = [...genericGroups, ...workGroups];
+      combinedGroups.sort((a, b) => {
+        const score = group => {
+          const title = norm([group.id, group.label, group.ja, group.titleTag || ""].join(" "));
+          return !q ? 0 : title === q ? 0 : title.startsWith(q) ? 1 : 2;
+        };
+        return score(a) - score(b) || String(a.label || a.id).localeCompare(String(b.label || b.id), "en");
       });
-      list.push(...groups.map(group => ({...group, tag: group.id, ja: group.ja || "統合グループ"})));
+      list.push(...combinedGroups.map(group => ({...group, tag: group.id, ja: group.ja || "統合グループ"})));
     }
     if (sort === "english") list.sort(englishCompare);
     else if (sort === "japanese") list.sort((a, b) => {
@@ -664,6 +686,33 @@
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
+      if (t.isWorkGroup) {
+        const details = document.createElement("details"); details.className = "work-group-card";
+        details.open = state.expandedWorkGroups.has(t.id);
+        details.addEventListener("toggle", () => {
+          if (details.open) state.expandedWorkGroups.add(t.id);
+          else state.expandedWorkGroups.delete(t.id);
+        });
+        const summary = document.createElement("summary"); summary.className = "work-group-summary";
+        const title = document.createElement("span"); title.className = "work-group-title"; title.textContent = t.label || t.id;
+        const subtitle = document.createElement("span"); subtitle.className = "work-group-subtitle"; subtitle.textContent = t.ja || "作品タイトル";
+        const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = (t.members || []).length.toLocaleString("ja-JP") + " キャラクター";
+        summary.append(title, subtitle, count); details.append(summary);
+        const options = document.createElement("div"); options.className = "work-group-options";
+        const addWorkOption = (name, label, isTitle = false) => {
+          const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+          if (!member) return;
+          const option = document.createElement("label"); option.className = "work-group-option" + (isTitle ? " is-title-tag" : "");
+          const checkbox = document.createElement("input"); checkbox.type = "checkbox"; checkbox.checked = state.selected.has(norm(member.tag));
+          checkbox.addEventListener("change", () => toggleSelected(member));
+          const text = document.createElement("span"); text.textContent = label || member.tag;
+          const japanese = document.createElement("small"); japanese.textContent = member.ja || "";
+          option.append(checkbox, text, japanese); options.append(option);
+        };
+        if (t.titleTag) addWorkOption(t.titleTag, "作品タグ · " + t.titleTag, true);
+        (t.members || []).forEach(name => addWorkOption(name, name));
+        details.append(options); root.append(details); return;
+      }
       if (t.isTagGroup) {
         const row = document.createElement("div"); row.className = "tag-row tag-group-row";
         const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = "▾";
