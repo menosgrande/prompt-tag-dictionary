@@ -99,7 +99,7 @@ const counts = Object.create(null);
 const confidenceCounts = Object.create(null);
 for (const item of candidates) {
   confidenceCounts[item.confidence] = (confidenceCounts[item.confidence] || 0) + 1;
-  for (const reason of item.reasons) counts[item.reasons[0] === reason ? reason : reason] = (counts[reason] || 0) + 1;
+  for (const reason of item.reasons) counts[reason] = (counts[reason] || 0) + 1;
 }
 console.log("Translation quality audit");
 console.log("Tags scanned: " + rows.length);
