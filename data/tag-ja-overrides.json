@@ -3598,10 +3598,540 @@
       "tag": "coattails",
       "ja": "コートの裾",
       "status": "reviewed"
+    },
+    {
+      "tag": "coif",
+      "ja": "コアフ（頭巾状の帽子）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "coin hair ornament",
+      "ja": "コイン型の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coin on string",
+      "ja": "紐に通したコイン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coke-bottle glasses",
+      "ja": "瓶底眼鏡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "collared capelet",
+      "ja": "襟付きケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "collared shirt",
+      "ja": "襟付きシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "color connection",
+      "ja": "色の対応関係",
+      "status": "needs_review"
+    },
+    {
+      "tag": "color guide",
+      "ja": "色見本・カラーガイド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "color trace",
+      "ja": "色トレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored extremities",
+      "ja": "手足の先端に色を付けた表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored eyelashes",
+      "ja": "まつげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored inner animal ears",
+      "ja": "動物耳の内側",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored inner hair",
+      "ja": "インナーカラー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored nipples",
+      "ja": "乳首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored sclera",
+      "ja": "強膜に色を付けた表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored shadow",
+      "ja": "色付きの影",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored shoe soles",
+      "ja": "靴底",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored skin",
+      "ja": "肌の色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored speech bubble",
+      "ja": "色付きの吹き出し",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored tips",
+      "ja": "毛先・先端の色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "colored tongue",
+      "ja": "舌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "column lineup",
+      "ja": "縦列配置",
+      "status": "reviewed"
+    },
+    {
+      "tag": "come hither",
+      "ja": "手招き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "comforting",
+      "ja": "慰める",
+      "status": "reviewed"
+    },
+    {
+      "tag": "commander (azur lane)",
+      "ja": "指揮官（アズールレーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "common raccoon (kemono friends)",
+      "ja": "アライグマ（けものフレンズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "company connection",
+      "ja": "企業間の関係",
+      "status": "needs_review"
+    },
+    {
+      "tag": "competition swimsuit",
+      "ja": "競泳水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "conductor baton",
+      "ja": "指揮棒",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cone hair bun",
+      "ja": "円錐形のお団子ヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cone horns",
+      "ja": "円錐形の角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "constricted pupils",
+      "ja": "収縮した瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "contemporary",
+      "ja": "現代風",
+      "status": "reviewed"
+    },
+    {
+      "tag": "convenient arm",
+      "ja": "都合よく配置された腕",
+      "status": "needs_review"
+    },
+    {
+      "tag": "convenient censoring",
+      "ja": "不自然に都合のよい隠し方",
+      "status": "needs_review"
+    },
+    {
+      "tag": "convenient leg",
+      "ja": "都合よく配置された脚",
+      "status": "needs_review"
+    },
+    {
+      "tag": "copy ability",
+      "ja": "コピー能力",
+      "status": "reviewed"
+    },
+    {
+      "tag": "copyright notice",
+      "ja": "著作権表示",
+      "status": "reviewed"
+    },
+    {
+      "tag": "core crystal (xenoblade)",
+      "ja": "コアクリスタル（ゼノブレイド）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "corrin (female) (fire emblem)",
+      "ja": "カムイ（女性・ファイアーエムブレム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "corrin (fire emblem)",
+      "ja": "カムイ（ファイアーエムブレム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "country connection",
+      "ja": "国同士の関係",
+      "status": "needs_review"
+    },
+    {
+      "tag": "couter",
+      "ja": "誤記の可能性・要確認",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cover",
+      "ja": "覆い・カバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "covering own mouth",
+      "ja": "自分の口を覆う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "covering privates",
+      "ja": "局部を隠す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "covering with blanket",
+      "ja": "毛布を掛ける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cow boy",
+      "ja": "牛の着ぐるみの少年",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cow girl",
+      "ja": "牛の着ぐるみの少女",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cow print",
+      "ja": "牛柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cow print bikini",
+      "ja": "牛柄のビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cow print gloves",
+      "ja": "牛柄の手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cow print thighhighs",
+      "ja": "牛柄のニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cowboy shot",
+      "ja": "腰から上を写した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cowboy western",
+      "ja": "西部劇風",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cowgirl position",
+      "ja": "騎乗位（女性上位）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cowlick",
+      "ja": "アホ毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cracked floor",
+      "ja": "ひび割れた床",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cracked glass",
+      "ja": "ひび割れたガラス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cracked skin",
+      "ja": "ひび割れた肌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cracked wall",
+      "ja": "ひび割れた壁",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crane (animal)",
+      "ja": "ツル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crane (machine)",
+      "ja": "クレーン車",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crazy",
+      "ja": "狂気",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crazy eyes",
+      "ja": "狂気を感じさせる目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crazy smile",
+      "ja": "狂気じみた笑顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cream on face",
+      "ja": "顔に付いたクリーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "creature and personification",
+      "ja": "生物とその擬人化",
+      "status": "reviewed"
+    },
+    {
+      "tag": "creature on head",
+      "ja": "頭の上に乗った生物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent earrings",
+      "ja": "三日月形のイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent facial mark",
+      "ja": "三日月形の顔の模様",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent hair ornament",
+      "ja": "三日月形の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent hat ornament",
+      "ja": "三日月形の帽子飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent necklace",
+      "ja": "三日月形のネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent pin",
+      "ja": "三日月形のピン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crescent print",
+      "ja": "三日月柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "criis-chan",
+      "ja": "意味・出典不明の固有タグ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "crisis management form (machimazo)",
+      "ja": "危機管理フォーム（まちまぞ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "criss-cross halter",
+      "ja": "クロスストラップのホルターネック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crocodilian tail",
+      "ja": "ワニの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crop top overhang",
+      "ja": "トップスからはみ出した胸元",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cropped arms",
+      "ja": "画面外で切れた腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cropped head",
+      "ja": "頭部が画面外で切れている構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cropped legs",
+      "ja": "画面外で切れた脚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cropped shoulders",
+      "ja": "肩が画面外で切れた構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cropped torso",
+      "ja": "胴体が画面外で切れた構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cropped vest",
+      "ja": "短丈ベスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross hair ornament",
+      "ja": "十字形の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross earrings",
+      "ja": "十字架のイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross necklace",
+      "ja": "十字架のネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross pasties",
+      "ja": "十字形ニップレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross print",
+      "ja": "十字柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross tie",
+      "ja": "クロスタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced clothes",
+      "ja": "編み上げの服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced cutout",
+      "ja": "編み上げ状のカットアウト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced dress",
+      "ja": "編み上げドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced footwear",
+      "ja": "編み上げの靴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced legwear",
+      "ja": "編み上げレッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced skirt",
+      "ja": "編み上げスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced sleeves",
+      "ja": "編み上げ袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced slit",
+      "ja": "編み上げスリット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-laced top",
+      "ja": "編み上げトップス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cross-shaped pupils",
+      "ja": "十字形の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crossed ankles",
+      "ja": "足首を交差させる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crossed arms",
+      "ja": "腕を組む",
+      "status": "reviewed"
+    },
+    {
+      "tag": "crossed bandaids",
+      "ja": "交差させて貼った絆創膏",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-1999",
-    "note": "先頭2,000件を確認。固有名詞・作品名、機械翻訳の誤訳、衣装・表情・構図関連の表現を修正。特定困難な作者名・固有タグは要確認に保持。"
+    "source_indices": "0-2249",
+    "note": "先頭2,250件を確認。一般的な色修飾は日本語表示から外し、色が模様・色彩カテゴリ・固有表現として意味を持つ場合は保持する方針を適用。英語タグ自体は生成互換性のため変更しない。"
   }
 }
