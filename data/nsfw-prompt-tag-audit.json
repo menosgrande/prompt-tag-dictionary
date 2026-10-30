@@ -1,5 +1,5 @@
 {
-  "schema": "nsfw-prompt-tag-research-v1",
+  "schema": "nsfw-prompt-tag-research-v2",
   "generated_at": "2026-10-30",
   "source_count": 3,
   "candidate_count": 35,
@@ -31,12 +31,59 @@
     }
   ],
   "categories": [
-    "身体の特徴",
-    "身体状態・ポーズ",
-    "接触・動作",
-    "衣服の状態",
-    "表情・顔",
-    "構図・演出"
+    {
+      "name": "人物・人体",
+      "subcategories": [
+        "顔・頭部",
+        "胸部・上半身",
+        "腰部・下半身",
+        "体型・身体的特徴",
+        "身体状態",
+        "身体の一部・特殊表現"
+      ]
+    },
+    {
+      "name": "姿勢・体位",
+      "subcategories": [
+        "基本姿勢",
+        "身体の向き",
+        "身体の配置",
+        "対人配置"
+      ]
+    },
+    {
+      "name": "行為・動作",
+      "subcategories": [
+        "日常動作",
+        "身体動作",
+        "接触・接近",
+        "衣服への接触",
+        "物への接触",
+        "性的な接触・動作"
+      ]
+    },
+    {
+      "name": "服装・装飾品",
+      "subcategories": [
+        "衣服",
+        "下着",
+        "衣服の状態",
+        "肌の露出",
+        "裸体・露出",
+        "装飾品",
+        "小物・道具"
+      ]
+    },
+    {
+      "name": "演出・構図",
+      "subcategories": [
+        "カメラアングル",
+        "撮影距離",
+        "構図・配置",
+        "視点・視線",
+        "演出効果"
+      ]
+    }
   ],
   "candidates": [
     {
@@ -47,7 +94,11 @@
       "existing_translation": "衣服の下で手",
       "existing_major": "服装",
       "existing_minor": "衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服越しの接触",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "hand on breast",
@@ -57,7 +108,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "arm between breasts",
@@ -67,7 +122,11 @@
       "existing_translation": "胸の間の腕",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "姿勢・体位",
+      "proposed_minor": "身体の配置",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "belly grab",
@@ -77,7 +136,11 @@
       "existing_translation": "腹をつかむ",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "hand under shirt",
@@ -87,7 +150,11 @@
       "existing_translation": "シャツの下の手",
       "existing_major": "服装",
       "existing_minor": "衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服越しの接触",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "ass grab",
@@ -97,7 +164,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "spread ass",
@@ -107,7 +178,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "姿勢・体位",
+      "proposed_minor": "身体の配置",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "crotch grab",
@@ -117,7 +192,11 @@
       "existing_translation": "テント撫で",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "leg grab",
@@ -127,7 +206,11 @@
       "existing_translation": "脚のグラブ",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "ankle grab",
@@ -137,7 +220,11 @@
       "existing_translation": "足首のグラブ",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "身体への接触",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "hand on lap",
@@ -147,7 +234,11 @@
       "existing_translation": "膝の上に手",
       "existing_major": "ポーズ・動作",
       "existing_minor": "行動",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "手の動作・配置",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "hands on feet",
@@ -157,7 +248,11 @@
       "existing_translation": "足の手",
       "existing_major": "ポーズ・動作",
       "existing_minor": "行動",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "姿勢・体位",
+      "proposed_minor": "身体の配置",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "disembodied hand",
@@ -167,7 +262,11 @@
       "existing_translation": "紳士ハンド",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "人物・人体",
+      "proposed_minor": "身体の一部・特殊表現",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "sheet grab",
@@ -177,7 +276,11 @@
       "existing_translation": "掴みシーツ",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "物への接触",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "clothes grab",
@@ -187,7 +290,11 @@
       "existing_translation": "服をつかむ",
       "existing_major": "服装",
       "existing_minor": "衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服への接触",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "hand in panties",
@@ -197,7 +304,11 @@
       "existing_translation": "パンティの中に手",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服内への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "shirt grab",
@@ -207,7 +318,11 @@
       "existing_translation": "シャツグラブ",
       "existing_major": "服装",
       "existing_minor": "衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服への接触",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "nude",
@@ -217,7 +332,11 @@
       "existing_translation": "ヌード",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "裸体・露出",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "bottomless",
@@ -227,7 +346,11 @@
       "existing_translation": "ボトムレス",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "衣服の欠如・脱衣",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "cleavage",
@@ -237,7 +360,11 @@
       "existing_translation": "谷間",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "人物・人体",
+      "proposed_minor": "胸部・上半身",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "sideboob",
@@ -247,7 +374,11 @@
       "existing_translation": "サイドブーブ",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "人物・人体",
+      "proposed_minor": "胸部・上半身",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "thigh gap",
@@ -257,7 +388,11 @@
       "existing_translation": "太もものギャップ",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "人物・人体",
+      "proposed_minor": "腰部・下半身",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "topless",
@@ -267,7 +402,11 @@
       "existing_translation": "トップレス",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "衣服の欠如・脱衣",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "no panties",
@@ -277,7 +416,11 @@
       "existing_translation": "ノーパン",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "下着・着用状態",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "bare shoulders",
@@ -287,7 +430,11 @@
       "existing_translation": "肩出し",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "肌の露出",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "naked apron",
@@ -297,7 +444,11 @@
       "existing_translation": "裸のエプロン",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "裸体・衣服の組み合わせ",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "naked shirt",
@@ -307,7 +458,11 @@
       "existing_translation": "裸のシャツ",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "裸体・衣服の組み合わせ",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "nude cover",
@@ -317,7 +472,11 @@
       "existing_translation": "裸タオル",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "裸体・隠蔽表現",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "hand in bra",
@@ -327,7 +486,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服内への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "shirt pull",
@@ -337,7 +500,11 @@
       "existing_translation": "シャツを引っ張る",
       "existing_major": "服装",
       "existing_minor": "衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "衣服への接触",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "grabbing own ass",
@@ -347,7 +514,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "自分の身体への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "grabbing another's ass",
@@ -357,7 +528,11 @@
       "existing_translation": null,
       "existing_major": null,
       "existing_minor": null,
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "行為・動作",
+      "proposed_minor": "他者の身体への接触",
+      "adult_rating": "18禁候補",
+      "review_status": "未確認"
     },
     {
       "tag": "breasts apart",
@@ -367,7 +542,11 @@
       "existing_translation": "胸は離れています",
       "existing_major": "成人向け",
       "existing_minor": "身体・衣類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "人物・人体",
+      "proposed_minor": "胸部・上半身",
+      "adult_rating": "要確認",
+      "review_status": "未確認"
     },
     {
       "tag": "bare back",
@@ -377,7 +556,11 @@
       "existing_translation": "裸の背中",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "肌の露出",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     },
     {
       "tag": "bare legs",
@@ -387,7 +570,11 @@
       "existing_translation": "素足",
       "existing_major": "未分類",
       "existing_minor": "未分類",
-      "review": "意味・モデル依存性・既存の近似タグを要確認"
+      "review": "分類・18禁判定は提案段階。タグの意味、生成モデル依存性、既存の近似タグを確認してから確定する。",
+      "proposed_major": "服装・装飾品",
+      "proposed_minor": "肌の露出",
+      "adult_rating": "通常",
+      "review_status": "未確認"
     }
   ],
   "methodology": [
@@ -395,11 +582,18 @@
     "data/tags.json と英語タグの大文字小文字を無視した完全一致で照合。",
     "意味的な同義語・近似語の照合は未実施。",
     "外部ページの説明文は転載せず、タグ表現と短い調査メモのみ記録。",
-    "成人向け語彙は通常画面に直接追加しない。採用・分類・表示制御は別途レビュー。"
+    "成人向け語彙は通常画面に直接追加しない。採用・分類・表示制御は別途レビュー。",
+    "各候補に proposed_major / proposed_minor / adult_rating / review_status を追加。いずれも採用確定ではなくレビュー用の提案。"
   ],
   "safety": [
     "data/tags.json は変更しない。",
     "実在人物、未成年、非同意・違法表現に関する作成支援は対象外。",
     "候補は採用済みタグではなく、辞書追加候補。"
-  ]
+  ],
+  "rating_legend": {
+    "18禁候補": "成人向け属性を付ける可能性が高い。最終確定前に人手確認が必要。",
+    "通常": "現時点では通常タグとして扱う提案。",
+    "要確認": "用途・表現の強さ・モデル依存性を確認してから判定する。"
+  },
+  "taxonomy_note": "分類はタグの意味に基づく提案。18禁は大分類ではなくタグ単位の独立属性 adult_rating として扱う。既存 tags.json の major/minor は変更しない。"
 }
