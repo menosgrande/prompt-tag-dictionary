@@ -2608,10 +2608,450 @@
       "tag": "brown sash",
       "ja": "茶色の帯",
       "status": "reviewed"
+    },
+    {
+      "tag": "brown theme",
+      "ja": "茶色を基調とした配色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown thighhighs",
+      "ja": "茶色のニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown-framed eyewear",
+      "ja": "茶色いフレームの眼鏡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bruise",
+      "ja": "あざ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bruise on face",
+      "ja": "顔のあざ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brushing hair",
+      "ja": "髪をブラッシングする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bubble tea challenge",
+      "ja": "タピオカドリンクを使ったチャレンジ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "buck teeth",
+      "ja": "出っ歯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bucket hat",
+      "ja": "バケットハット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "budget sarashi",
+      "ja": "簡易さらし",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bulbasaur",
+      "ja": "フシギダネ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bulge",
+      "ja": "膨らみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bun cover",
+      "ja": "お団子ヘアカバー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bunching hair",
+      "ja": "髪をまとめる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "burn scar",
+      "ja": "やけど痕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bursting breasts",
+      "ja": "胸が弾ける表現",
+      "status": "needs_review"
+    },
+    {
+      "tag": "buruma aside",
+      "ja": "ずらしたブルマ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "buruma pull",
+      "ja": "ブルマを引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "business suit",
+      "ja": "ビジネススーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bust cup",
+      "ja": "カップ付きビスチェ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "butcha-u",
+      "ja": "意味不明・原語確認が必要",
+      "status": "needs_review"
+    },
+    {
+      "tag": "butt crack",
+      "ja": "臀裂",
+      "status": "reviewed"
+    },
+    {
+      "tag": "butterfly net",
+      "ja": "虫取り網",
+      "status": "reviewed"
+    },
+    {
+      "tag": "butterfly sitting",
+      "ja": "蝶が止まっている",
+      "status": "reviewed"
+    },
+    {
+      "tag": "butterfly-shaped pupils",
+      "ja": "蝶形の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "button gap",
+      "ja": "ボタンの隙間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "byleth (fire emblem)",
+      "ja": "ベレト／ベレス（ファイアーエムブレム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "c:",
+      "ja": "C字口",
+      "status": "reviewed"
+    },
+    {
+      "tag": "c.c.",
+      "ja": "C.C.（コードギアス）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cabbie hat",
+      "ja": "運転手帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cable tail",
+      "ja": "ケーブル状の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "caelus (honkai: star rail)",
+      "ja": "穹（崩壊：スターレイル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cake slice",
+      "ja": "ケーキ一切れ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "calendar (medium)",
+      "ja": "カレンダー（媒体）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "caliburn (fate)",
+      "ja": "カリバーン（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "call of duty",
+      "ja": "コール オブ デューティ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "call of duty: modern warfare 2",
+      "ja": "コール オブ デューティ モダン・ウォーフェア2",
+      "status": "reviewed"
+    },
+    {
+      "tag": "callie (splatoon)",
+      "ja": "アオリ（スプラトゥーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "calligraphy brush",
+      "ja": "書道筆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "camcorder",
+      "ja": "ビデオカメラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "camilla (fire emblem)",
+      "ja": "カミラ（ファイアーエムブレム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cammy white",
+      "ja": "キャミィ・ホワイト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "camouflage headwear",
+      "ja": "迷彩柄の帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "candy wrapper",
+      "ja": "キャンディの包み紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "canteen",
+      "ja": "水筒",
+      "status": "reviewed"
+    },
+    {
+      "tag": "canvas (object)",
+      "ja": "画布",
+      "status": "reviewed"
+    },
+    {
+      "tag": "captured",
+      "ja": "捕らえられた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "car interior",
+      "ja": "車内",
+      "status": "reviewed"
+    },
+    {
+      "tag": "card (medium)",
+      "ja": "カード（媒体）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cardboard box",
+      "ja": "段ボール箱",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cardigan around waist",
+      "ja": "腰に巻いたカーディガン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carmine (pokemon)",
+      "ja": "ゼイユ（ポケットモンスター）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carrot hair ornament",
+      "ja": "ニンジンの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carrot necklace",
+      "ja": "ニンジンのネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carrying over shoulder",
+      "ja": "肩に担ぐ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carrying person",
+      "ja": "人を運ぶ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carrying under arm",
+      "ja": "脇に抱えて運ぶ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "carton",
+      "ja": "紙パック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cartoon bone",
+      "ja": "漫画的な骨の表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "casing ejection",
+      "ja": "薬莢の排出",
+      "status": "reviewed"
+    },
+    {
+      "tag": "casting spell",
+      "ja": "呪文を唱える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat bag",
+      "ja": "猫モチーフのバッグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat cutout",
+      "ja": "猫型の切り抜き",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cat ear hairband",
+      "ja": "猫耳カチューシャ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat ear headphones",
+      "ja": "猫耳ヘッドホン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat ear legwear",
+      "ja": "猫耳付きレッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat ear panties",
+      "ja": "猫耳付きパンティー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat girl",
+      "ja": "猫耳の少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat hair ornament",
+      "ja": "猫の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat on lap",
+      "ja": "膝の上の猫",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat on shoulder",
+      "ja": "肩の上の猫",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat paws",
+      "ja": "猫の前足",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat tail",
+      "ja": "猫の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cat teaser",
+      "ja": "猫じゃらし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "caterpillar tracks",
+      "ja": "履帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "catstudioinc (punepuni)",
+      "ja": "作者タグ：catstudioinc（punepuni）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "caught",
+      "ja": "捕まった状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "caustics",
+      "ja": "コースティクス（光の集光模様）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cellphone charm",
+      "ja": "携帯電話のストラップチャーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cellphone photo",
+      "ja": "携帯電話で撮影した写真",
+      "status": "reviewed"
+    },
+    {
+      "tag": "censored identity",
+      "ja": "顔・身元の検閲",
+      "status": "needs_review"
+    },
+    {
+      "tag": "centauroid",
+      "ja": "ケンタウロス型の人型生物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "center opening",
+      "ja": "中央の開口部",
+      "status": "reviewed"
+    },
+    {
+      "tag": "center-flap bangs",
+      "ja": "中央に割れ目のある前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cetacean tail",
+      "ja": "クジラ類の尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chain headband",
+      "ja": "チェーンのヘッドバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chained",
+      "ja": "鎖につながれた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chained wrists",
+      "ja": "鎖でつながれた手首",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-1499",
-    "note": "先頭1,500件を確認。機械翻訳由来の誤訳、作品名・キャラクター名、髪型・衣装・動作表現を修正。曖昧なタグは要確認に保持。"
+    "source_indices": "0-1749",
+    "note": "先頭1,750件を確認。誤訳、空欄、固有名詞、衣装・身体表現の訳を修正。作者タグや意味が不明瞭な語は要確認として保持。"
   }
 }
