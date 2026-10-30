@@ -504,8 +504,11 @@
         if (state.category && (group.category?.[0] !== state.category[0] ||
             (state.category[1] && group.category?.[1] !== state.category[1]) ||
             (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
-        const memberNames = (group.members || []).map(name => norm(name));
-        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
+        const memberSearchText = (group.members || []).map(name => {
+          const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+          return norm([name, member?.ja || "", ...(member?.aliases || [])].join(" "));
+        });
+        return queryTerms.every(term => norm(group.id).includes(term) || memberSearchText.some(text => text.includes(term)));
       }).map(group => ({ ...group, isTagGroup: true }));
       groups.sort((a, b) => {
         const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
