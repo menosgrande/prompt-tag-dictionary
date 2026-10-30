@@ -499,6 +499,20 @@
       const rank = tag => /^[a-z]/i.test(tag) ? 0 : /^\d/.test(tag) ? 1 : 2;
       return rank(a.tag) - rank(b.tag) || englishCompare(a, b);
     };
+    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
+      const groups = tagGroups.filter(group => {
+        if (state.category && (group.category?.[0] !== state.category[0] ||
+            (state.category[1] && group.category?.[1] !== state.category[1]) ||
+            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
+        const memberNames = (group.members || []).map(name => norm(name));
+        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
+      }).map(group => ({ ...group, isTagGroup: true }));
+      groups.sort((a, b) => {
+        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
+        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
+      });
+      list.push(...groups.map(group => ({...group, tag: group.id, ja: group.ja || "統合グループ"})));
+    }
     if (sort === "english") list.sort(englishCompare);
     else if (sort === "japanese") list.sort((a, b) => {
       const jaA = a.ja || "\uffff", jaB = b.ja || "\uffff";
@@ -517,21 +531,6 @@
       };
       return score(a) - score(b) || englishCompare(a, b);
     });
-    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
-      const groups = tagGroups.filter(group => {
-        if (state.category && (group.category?.[0] !== state.category[0] ||
-            (state.category[1] && group.category?.[1] !== state.category[1]) ||
-            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
-        const memberNames = (group.members || []).map(name => norm(name));
-        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
-      }).map(group => ({ ...group, isTagGroup: true }));
-      groups.sort((a, b) => {
-        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
-        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
-      });
-      list.push(...groups.map(group => ({...group, tag: group.id, ja: group.ja || "統合グループ"})));
-    }
-
     else list.sort(defaultCompare);
     if (state.columnSort) {
       const { key, dir } = state.columnSort;
