@@ -23836,6 +23836,336 @@
       },
       "reason": "翻訳監査バッチ 8501–9500。誤訳・中国語の混入・不自然な直訳を修正。AI修正のため人手の最終確認待ち。",
       "source": null
+    },
+    {
+      "tag": "shiomi kotone",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ハム子"
+      },
+      "after": {
+        "ja": "汐見琴音"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shinosawa hiro",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "広ぬい"
+      },
+      "after": {
+        "ja": "篠澤広"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shirasaka koume",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シラサカ・カウメ"
+      },
+      "after": {
+        "ja": "白坂小梅"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shinonome ena",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シノノームエナ"
+      },
+      "after": {
+        "ja": "東雲絵名"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shiroko terror (blue archive)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "砂狼シロコ(色彩)"
+      },
+      "after": {
+        "ja": "シロコ＊テラー（ブルーアーカイブ）"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shuten douji (fate)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シャッテン・ドゥジ（Fate）"
+      },
+      "after": {
+        "ja": "酒呑童子（Fate）"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shoujo kitou-chuu",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "しょうじょきとうちゅう"
+      },
+      "after": {
+        "ja": "少女祈祷中"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shuka high school uniform",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "秀華高校"
+      },
+      "after": {
+        "ja": "秀華高校の制服"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shun (small) (blue archive)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "shun（small）（ブルーアーカイブ）"
+      },
+      "after": {
+        "ja": "シュン（幼少期）（ブルーアーカイブ）"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shikishi",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ミニ色紙"
+      },
+      "after": {
+        "ja": "色紙"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "show by rock!!",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "SB69ファン創作"
+      },
+      "after": {
+        "ja": "SHOW BY ROCK!!"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "skin tight",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "肌がきつく"
+      },
+      "after": {
+        "ja": "ぴったりした服"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "skirt flip",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スカートフリップ"
+      },
+      "after": {
+        "ja": "スカートめくり"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "skirt hold",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スカートホールド"
+      },
+      "after": {
+        "ja": "スカートを押さえる"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "slingshot swimsuit",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Slingshot水着"
+      },
+      "after": {
+        "ja": "スリングショット水着"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "staff (music)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スタッフ（音楽）"
+      },
+      "after": {
+        "ja": "五線譜"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "star pasties",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スターペースト"
+      },
+      "after": {
+        "ja": "星形ニプレス"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "stationary restraints",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "定常制限"
+      },
+      "after": {
+        "ja": "固定式拘束具"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "stiletto heels",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スティレットのかかと"
+      },
+      "after": {
+        "ja": "ピンヒール"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "strap slip",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "肩紐ずらし"
+      },
+      "after": {
+        "ja": "肩紐がずり落ちる"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "string of flags",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "フラグの文字列"
+      },
+      "after": {
+        "ja": "旗の連なり"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "spooning",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "つばめ返し"
+      },
+      "after": {
+        "ja": "抱き合って横向きに寝る"
+      },
+      "reason": "翻訳監査バッチ 8501–9500 の追加確認。固有名詞・用語の誤訳を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     }
   ]
 }
