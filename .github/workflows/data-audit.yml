@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - "data/tags.json"
+      - "data/tag-groups.json"
+      - "scripts/audit-tag-groups.mjs"
       - "data/prompt-order-categories.json"
       - "admin.html"
       - "admin.css"
@@ -23,6 +25,8 @@ on:
   pull_request:
     paths:
       - "data/tags.json"
+      - "data/tag-groups.json"
+      - "scripts/audit-tag-groups.mjs"
       - "data/prompt-order-categories.json"
       - "admin.html"
       - "admin.css"
@@ -66,6 +70,8 @@ jobs:
         run: node scripts/build-tag-metadata-review.mjs
       - name: Audit tag dataset
         run: node scripts/audit-tags.mjs
+      - name: Audit search and work-title groups
+        run: node scripts/audit-tag-groups.mjs
       - name: Audit tag management metadata
         run: node scripts/audit-tag-management.mjs
       - name: Audit translation candidates are current
