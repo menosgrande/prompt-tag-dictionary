@@ -4,58 +4,845 @@
   "purpose": "英語タグを原文とした日本語訳の再編集差分。未収録タグは未処理であり、既存訳を確定訳とはみなさない。",
   "review_status": "in_progress",
   "entries": [
-    {"tag":"1other","ja":"その他の人物1人","status":"reviewed"},
-    {"tag":"2others","ja":"その他の人物2人","status":"reviewed"},
-    {"tag":"3others","ja":"その他の人物3人","status":"reviewed"},
-    {"tag":"4others","ja":"その他の人物4人","status":"reviewed"},
-    {"tag":"6+others","ja":"その他の人物6人以上","status":"reviewed"},
-    {"tag":"a.i. voice","ja":"A.I.VOICE","status":"reviewed"},
-    {"tag":"absolutely everyone","ja":"全員","status":"reviewed"},
-    {"tag":"absurdly long hair","ja":"非常に長い髪","status":"reviewed"},
-    {"tag":"adapted costume","ja":"アレンジされた衣装","status":"needs_review"},
-    {"tag":"adjusting clothes","ja":"服を整える","status":"reviewed"},
-    {"tag":"adjusting eyewear","ja":"眼鏡を直す","status":"reviewed"},
-    {"tag":"adjusting gloves","ja":"手袋を直す","status":"reviewed"},
-    {"tag":"adjusting hair","ja":"髪を整える","status":"reviewed"},
-    {"tag":"adjusting headwear","ja":"帽子を直す","status":"reviewed"},
-    {"tag":"adjusting legwear","ja":"靴下・ストッキングを直す","status":"reviewed"},
-    {"tag":"adjusting necktie","ja":"ネクタイを直す","status":"reviewed"},
-    {"tag":"adjusting panties","ja":"下着を直す","status":"reviewed"},
-    {"tag":"adjusting scarf","ja":"スカーフを整える","status":"reviewed"},
-    {"tag":"adjusting swimsuit","ja":"水着を直す","status":"reviewed"},
-    {"tag":"adventure time","ja":"アドベンチャー・タイム","status":"reviewed"},
-    {"tag":"aegyo sal","ja":"涙袋","status":"reviewed"},
-    {"tag":"aerial fireworks","ja":"打ち上げ花火","status":"reviewed"},
-    {"tag":"aether (genshin impact)","ja":"空（原神）","status":"reviewed"},
-    {"tag":"afloat","ja":"浮かんでいる","status":"reviewed"},
-    {"tag":"afterimage","ja":"残像","status":"reviewed"},
-    {"tag":"against glass","ja":"ガラスにもたれる","status":"reviewed"},
-    {"tag":"against railing","ja":"手すりにもたれる","status":"reviewed"},
-    {"tag":"against tree","ja":"木にもたれる","status":"reviewed"},
-    {"tag":"against wall","ja":"壁にもたれる","status":"reviewed"},
-    {"tag":"age progression","ja":"加齢・成長後の姿","status":"reviewed"},
-    {"tag":"age regression","ja":"若返り","status":"reviewed"},
-    {"tag":"aged down","ja":"幼くなった姿","status":"reviewed"},
-    {"tag":"aged up","ja":"成長した姿","status":"reviewed"},
-    {"tag":"ahoge wag","ja":"アホ毛が揺れる","status":"reviewed"},
-    {"tag":"ahri (league of legends)","ja":"アーリ（リーグ・オブ・レジェンド）","status":"reviewed"},
-    {"tag":"aikatsu!","ja":"アイカツ！","status":"reviewed"},
-    {"tag":"aikatsu! (series)","ja":"アイカツ！（シリーズ）","status":"reviewed"},
-    {"tag":"aiming","ja":"狙いを定める","status":"reviewed"},
-    {"tag":"aiming at viewer","ja":"こちらに狙いを定める","status":"reviewed"},
-    {"tag":"ainu","ja":"アイヌ（民族・文化）","status":"reviewed"},
-    {"tag":"ainu clothes","ja":"アイヌの衣装","status":"reviewed"},
-    {"tag":"air (visual novel)","ja":"AIR（ゲーム）","status":"reviewed"},
-    {"tag":"air groove (umamusume)","ja":"エアグルーヴ（ウマ娘）","status":"reviewed"},
-    {"tag":"akatsuki kirika","ja":"暁切歌","status":"reviewed"},
-    {"tag":"akiyama mio","ja":"秋山澪","status":"reviewed"},
-    {"tag":"akiyama mizuki","ja":"暁山瑞希","status":"reviewed"},
-    {"tag":"akiyama yukari","ja":"秋山優花里","status":"reviewed"},
-    {"tag":"akiyama ritsuko","ja":"秋月律子","status":"reviewed"},
-    {"tag":"alchemy stars","ja":"白夜極光","status":"reviewed"},
-    {"tag":"alear (fire emblem)","ja":"リュール（ファイアーエムブレム エンゲージ）","status":"reviewed"},
-    {"tag":"alice gear aegis","ja":"アリス・ギア・アイギス","status":"reviewed"},
-    {"tag":"alien stage","ja":"エイリアンステージ","status":"reviewed"},
-    {"tag":"all fours","ja":"四つん這い","status":"reviewed"}
+    {
+      "tag": "1other",
+      "ja": "その他の人物1人",
+      "status": "reviewed"
+    },
+    {
+      "tag": "2others",
+      "ja": "その他の人物2人",
+      "status": "reviewed"
+    },
+    {
+      "tag": "3others",
+      "ja": "その他の人物3人",
+      "status": "reviewed"
+    },
+    {
+      "tag": "4others",
+      "ja": "その他の人物4人",
+      "status": "reviewed"
+    },
+    {
+      "tag": "6+others",
+      "ja": "その他の人物6人以上",
+      "status": "reviewed"
+    },
+    {
+      "tag": "a.i. voice",
+      "ja": "A.I.VOICE",
+      "status": "reviewed"
+    },
+    {
+      "tag": "absolutely everyone",
+      "ja": "全員",
+      "status": "reviewed"
+    },
+    {
+      "tag": "absurdly long hair",
+      "ja": "非常に長い髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adapted costume",
+      "ja": "アレンジされた衣装",
+      "status": "needs_review"
+    },
+    {
+      "tag": "adjusting clothes",
+      "ja": "服を整える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting eyewear",
+      "ja": "眼鏡を直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting gloves",
+      "ja": "手袋を直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting hair",
+      "ja": "髪を整える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting headwear",
+      "ja": "帽子を直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting legwear",
+      "ja": "靴下・ストッキングを直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting necktie",
+      "ja": "ネクタイを直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting panties",
+      "ja": "下着を直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting scarf",
+      "ja": "スカーフを整える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adjusting swimsuit",
+      "ja": "水着を直す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "adventure time",
+      "ja": "アドベンチャー・タイム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aegyo sal",
+      "ja": "涙袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aerial fireworks",
+      "ja": "打ち上げ花火",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aether (genshin impact)",
+      "ja": "空（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "afloat",
+      "ja": "浮かんでいる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "afterimage",
+      "ja": "残像",
+      "status": "reviewed"
+    },
+    {
+      "tag": "against glass",
+      "ja": "ガラスにもたれる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "against railing",
+      "ja": "手すりにもたれる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "against tree",
+      "ja": "木にもたれる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "against wall",
+      "ja": "壁にもたれる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "age progression",
+      "ja": "加齢・成長後の姿",
+      "status": "reviewed"
+    },
+    {
+      "tag": "age regression",
+      "ja": "若返り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aged down",
+      "ja": "幼くなった姿",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aged up",
+      "ja": "成長した姿",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ahoge wag",
+      "ja": "アホ毛が揺れる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ahri (league of legends)",
+      "ja": "アーリ（リーグ・オブ・レジェンド）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aikatsu!",
+      "ja": "アイカツ！",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aikatsu! (series)",
+      "ja": "アイカツ！（シリーズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aiming",
+      "ja": "狙いを定める",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aiming at viewer",
+      "ja": "こちらに狙いを定める",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ainu",
+      "ja": "アイヌ（民族・文化）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ainu clothes",
+      "ja": "アイヌの衣装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "air (visual novel)",
+      "ja": "AIR（ゲーム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "air groove (umamusume)",
+      "ja": "エアグルーヴ（ウマ娘）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "akatsuki kirika",
+      "ja": "暁切歌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "akiyama mio",
+      "ja": "秋山澪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "akiyama mizuki",
+      "ja": "暁山瑞希",
+      "status": "reviewed"
+    },
+    {
+      "tag": "akiyama yukari",
+      "ja": "秋山優花里",
+      "status": "reviewed"
+    },
+    {
+      "tag": "akiyama ritsuko",
+      "ja": "秋月律子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alchemy stars",
+      "ja": "白夜極光",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alear (fire emblem)",
+      "ja": "リュール（ファイアーエムブレム エンゲージ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alice gear aegis",
+      "ja": "アリス・ギア・アイギス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alien stage",
+      "ja": "エイリアンステージ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "all fours",
+      "ja": "四つん這い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate body size",
+      "ja": "異なる体格の差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate breast size",
+      "ja": "異なる胸の大きさの差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate color",
+      "ja": "別配色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate eye color",
+      "ja": "異なる目の色の差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate form",
+      "ja": "別形態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate hair color",
+      "ja": "異なる髪色の差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate hair length",
+      "ja": "異なる髪の長さの差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate hair ornament",
+      "ja": "別の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate hairstyle",
+      "ja": "別の髪型",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate headwear",
+      "ja": "別の頭飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate legwear",
+      "ja": "別の脚用衣類",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate muscle size",
+      "ja": "異なる筋肉量の差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate pectoral size",
+      "ja": "異なる胸筋の大きさの差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate skin color",
+      "ja": "異なる肌色の差分",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate species",
+      "ja": "別種族",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate universe",
+      "ja": "別の世界線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate weapon",
+      "ja": "別の武器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "alternate wings",
+      "ja": "別の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "amamiya ren",
+      "ja": "雨宮蓮（ペルソナ5）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "amazon position",
+      "ja": "アマゾンポジション",
+      "status": "needs_review"
+    },
+    {
+      "tag": "amber (genshin impact)",
+      "ja": "アンバー（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ambiguous gender",
+      "ja": "性別不詳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ambiguous red liquid",
+      "ja": "正体不明の赤い液体",
+      "status": "reviewed"
+    },
+    {
+      "tag": "american flag dress",
+      "ja": "星条旗柄のドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "american flag legwear",
+      "ja": "星条旗柄の脚用衣類",
+      "status": "reviewed"
+    },
+    {
+      "tag": "american flag print",
+      "ja": "星条旗柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "among us",
+      "ja": "Among Us（ゲーム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "analogous colors",
+      "ja": "類似色",
+      "status": "reviewed"
+    },
+    {
+      "tag": "anchor ornament",
+      "ja": "錨の飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ancient egyptian",
+      "ja": "古代エジプト風",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ancient greek clothes",
+      "ja": "古代ギリシャ風の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "androgyne symbol",
+      "ja": "両性具有のシンボル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "androgynous",
+      "ja": "中性的",
+      "status": "reviewed"
+    },
+    {
+      "tag": "amputee",
+      "ja": "四肢欠損",
+      "status": "reviewed"
+    },
+    {
+      "tag": "android 18",
+      "ja": "人造人間18号",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal collar",
+      "ja": "動物用の首輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal crossing",
+      "ja": "どうぶつの森",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal ear legwear",
+      "ja": "動物耳モチーフの脚用衣類",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal focus",
+      "ja": "動物が主役",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal on arm",
+      "ja": "腕に乗った動物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal on hand",
+      "ja": "手に乗った動物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal on head",
+      "ja": "頭に乗った動物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal on lap",
+      "ja": "膝に乗った動物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animal on shoulder",
+      "ja": "肩に乗った動物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "animification",
+      "ja": "アニメ調への変換",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ankle boots",
+      "ja": "アンクルブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle bow",
+      "ja": "足首のリボン飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle cuffs",
+      "ja": "足首のカフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle grab",
+      "ja": "足首をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle lace-up",
+      "ja": "足首の編み上げ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle socks",
+      "ja": "くるぶし丈ソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ankle wrap",
+      "ja": "足首のラップ状装飾",
+      "status": "needs_review"
+    },
+    {
+      "tag": "antenna hair",
+      "ja": "アンテナヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "antennae",
+      "ja": "触角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "anti-materiel rifle",
+      "ja": "対物ライフル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "anya (spy x family)",
+      "ja": "アーニャ・フォージャー（SPY×FAMILY）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "apex legends",
+      "ja": "エーペックスレジェンズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "applying makeup",
+      "ja": "メイクをする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua (konosuba)",
+      "ja": "アクア（この素晴らしい世界に祝福を！）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua bikini",
+      "ja": "水色のビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua bow",
+      "ja": "水色のリボン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "aqua bowtie",
+      "ja": "水色の蝶ネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua bra",
+      "ja": "水色のブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua dress",
+      "ja": "水色のドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua eyes",
+      "ja": "水色の目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua flower",
+      "ja": "水色の花",
+      "status": "needs_review"
+    },
+    {
+      "tag": "aqua footwear",
+      "ja": "水色の履物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua gemstone",
+      "ja": "水色の宝石",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua gloves",
+      "ja": "水色の手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua hair",
+      "ja": "水色の髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua halo",
+      "ja": "水色の光輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua hat",
+      "ja": "水色の帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua jacket",
+      "ja": "水色のジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua kimono",
+      "ja": "水色の着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua leotard",
+      "ja": "水色のレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua nails",
+      "ja": "水色の爪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua neckerchief",
+      "ja": "水色のネッカチーフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua necktie",
+      "ja": "水色のネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua panties",
+      "ja": "水色のパンティー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua ribbon",
+      "ja": "水色のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua shirt",
+      "ja": "水色のシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua shorts",
+      "ja": "水色のショートパンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua skirt",
+      "ja": "水色のスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua sleeves",
+      "ja": "水色の袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua theme",
+      "ja": "水色を基調とした配色",
+      "status": "needs_review"
+    },
+    {
+      "tag": "aqua thighhighs",
+      "ja": "水色のニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aqua trim",
+      "ja": "水色の縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "araki hirohiko (style)",
+      "ja": "荒木飛呂彦風",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arcane: league of legends",
+      "ja": "アーケイン（リーグ・オブ・レジェンド）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "archer (fate)",
+      "ja": "アーチャー（Fateシリーズ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "arched back",
+      "ja": "背中を反らす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arched bangs",
+      "ja": "カーブした前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "argyle background",
+      "ja": "アーガイル柄の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "argyle clothes",
+      "ja": "アーガイル柄の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "argyle pantyhose",
+      "ja": "アーガイル柄のパンティストッキング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "argyle thighhighs",
+      "ja": "アーガイル柄のニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aris (blue archive)",
+      "ja": "天童アリス（ブルーアーカイブ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arlecchino (genshin impact)",
+      "ja": "アルレッキーノ（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm above head",
+      "ja": "頭上に上げた腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm across waist",
+      "ja": "腰の前を横切る腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm around back",
+      "ja": "背中に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm around neck",
+      "ja": "首に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm around shoulder",
+      "ja": "肩に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm around waist",
+      "ja": "腰に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm at side",
+      "ja": "体の横に下ろした腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm behind back",
+      "ja": "背中に回した腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm behind head",
+      "ja": "頭の後ろに回した腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm between breasts",
+      "ja": "胸の間にある腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm between legs",
+      "ja": "脚の間にある腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm blade",
+      "ja": "腕部ブレード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm held back",
+      "ja": "後ろに押さえられた腕",
+      "status": "needs_review"
+    },
+    {
+      "tag": "arm on knee",
+      "ja": "膝に置いた腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm over head",
+      "ja": "頭上に伸ばした腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm rest",
+      "ja": "肘掛け",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm support",
+      "ja": "腕で体を支える",
+      "status": "reviewed"
+    }
   ]
 }
