@@ -2123,10 +2123,495 @@
       "tag": "bear girl",
       "ja": "クマの獣人少女",
       "status": "needs_review"
+    },
+    {
+      "tag": "bob cut",
+      "ja": "ボブカット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bocchi the rock!",
+      "ja": "ぼっち・ざ・ろっく！",
+      "status": "reviewed"
+    },
+    {
+      "tag": "body blush",
+      "ja": "身体の赤面表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "body freckles",
+      "ja": "身体のそばかす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "body fur",
+      "ja": "体毛（獣毛）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "body markings",
+      "ja": "身体の模様・ markings",
+      "status": "needs_review"
+    },
+    {
+      "tag": "body writing",
+      "ja": "身体に書かれた文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bokken",
+      "ja": "木刀",
+      "status": "reviewed"
+    },
+    {
+      "tag": "boo tao (genshin impact)",
+      "ja": "胡桃（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "boobplate",
+      "ja": "胸部装甲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "borderless panels",
+      "ja": "枠線のないコマ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bored",
+      "ja": "退屈している",
+      "status": "reviewed"
+    },
+    {
+      "tag": "borrowed character",
+      "ja": "他作品のキャラクターを借用",
+      "status": "needs_review"
+    },
+    {
+      "tag": "borrowed clothes",
+      "ja": "借りた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "borrowed design",
+      "ja": "既存デザインの借用",
+      "status": "needs_review"
+    },
+    {
+      "tag": "boruto: naruto next generations",
+      "ja": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bouncing breasts",
+      "ja": "揺れる胸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bound arms",
+      "ja": "腕を縛られた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bound together",
+      "ja": "複数人が一緒に縛られた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bound torso",
+      "ja": "胴体を縛られた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bound wrists",
+      "ja": "手首を縛られた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow",
+      "ja": "リボン結び",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow (music)",
+      "ja": "弓（弦楽器用）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow bikini",
+      "ja": "リボン付きビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow bra",
+      "ja": "リボン付きブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow choker",
+      "ja": "リボン付きチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow earrings",
+      "ja": "リボン型イヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow hairband",
+      "ja": "リボン付きヘアバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow legwear",
+      "ja": "リボン付きレッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow panties",
+      "ja": "リボン付きパンティー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow skirt",
+      "ja": "リボン付きスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bow-shaped hair",
+      "ja": "リボン状の髪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bowl",
+      "ja": "ボウル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bowl cut",
+      "ja": "おかっぱ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bowl hat",
+      "ja": "ボウル型の帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bowlegged pose",
+      "ja": "内股気味の立ち方",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bowler hat",
+      "ja": "山高帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "box art",
+      "ja": "パッケージイラスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "boxcutter",
+      "ja": "カッターナイフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "boy on top",
+      "ja": "男性が上になる体位",
+      "status": "reviewed"
+    },
+    {
+      "tag": "boy sandwich",
+      "ja": "男性に挟まれた構図",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bra lift",
+      "ja": "ブラジャーを持ち上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bra peek",
+      "ja": "服の隙間から見えるブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bra pull",
+      "ja": "ブラジャーを引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bracer",
+      "ja": "腕甲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braces",
+      "ja": "歯列矯正器具",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braided bangs",
+      "ja": "編み込み前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braided bun",
+      "ja": "編み込みシニヨン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braided hair rings",
+      "ja": "リング状に編んだ髪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "braided ponytail",
+      "ja": "編み込みポニーテール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braided sidelock",
+      "ja": "編み込みのサイドヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "braiding hair",
+      "ja": "髪を編んでいる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bralines",
+      "ja": "ブラジャーのライン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "branch",
+      "ja": "枝",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bread slice",
+      "ja": "食パンの一切れ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breaking",
+      "ja": "破壊・破る動作",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast conscious",
+      "ja": "胸元を気にする仕草",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast curtain",
+      "ja": "胸を覆う布",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast curtains",
+      "ja": "胸を覆う布",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast envy",
+      "ja": "他人の胸を羨む",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast expansion",
+      "ja": "胸が大きくなる表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast focus",
+      "ja": "胸を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast lift",
+      "ja": "胸を持ち上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast padding",
+      "ja": "胸パッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast poke",
+      "ja": "胸を指で突く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast press",
+      "ja": "胸を押し付ける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast rest",
+      "ja": "胸を何かに載せる",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast slip",
+      "ja": "胸が衣服からずれる・こぼれる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast smother",
+      "ja": "胸で顔を覆う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast strap",
+      "ja": "胸部を固定するストラップ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breast sucking",
+      "ja": "胸を吸う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast suppress",
+      "ja": "胸を押さえて目立たなくする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breast tattoo",
+      "ja": "胸のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breastless clothes",
+      "ja": "胸元が開いた服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breasts apart",
+      "ja": "左右に開いた胸",
+      "status": "needs_review"
+    },
+    {
+      "tag": "breasts on glass",
+      "ja": "ガラス面に押し付けられた胸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breasts on head",
+      "ja": "頭に載せられた胸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breasts on table",
+      "ja": "テーブルに載せられた胸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breasts out",
+      "ja": "胸を露出した状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breath of fire",
+      "ja": "火を吐く息",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breath weapon",
+      "ja": "ブレス攻撃",
+      "status": "reviewed"
+    },
+    {
+      "tag": "breathing fire",
+      "ja": "火を吐く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bremerton (scorching-hot training) (azur lane)",
+      "ja": "ブレマートン〔熱々トレーニング〕（アズールレーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bridal gauntlets",
+      "ja": "花嫁用ガントレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bridal legwear",
+      "ja": "花嫁用レッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bridget (guilty gear)",
+      "ja": "ブリジット（GUILTY GEAR）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bright pupils",
+      "ja": "明るく発光する瞳孔",
+      "status": "needs_review"
+    },
+    {
+      "tag": "broom riding",
+      "ja": "ほうきに乗る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown background",
+      "ja": "茶色の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown bow",
+      "ja": "茶色のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown bowtie",
+      "ja": "茶色の蝶ネクタイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown cape",
+      "ja": "茶色のケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown capelet",
+      "ja": "茶色のケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown choker",
+      "ja": "茶色のチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown collar",
+      "ja": "茶色の襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown footwear",
+      "ja": "茶色の靴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "brown sash",
+      "ja": "茶色の帯",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-1249",
-    "note": "先頭1,250件を確認。誤訳・空欄・機械翻訳調の訳を差分修正。作品名・色属性系の訳語を整備。"
+    "source_indices": "0-1499",
+    "note": "先頭1,500件を確認。機械翻訳由来の誤訳、作品名・キャラクター名、髪型・衣装・動作表現を修正。曖昧なタグは要確認に保持。"
   }
 }
