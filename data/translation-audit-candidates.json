@@ -10660,7 +10660,7 @@
   },
   {
     "tag": "shikishi",
-    "ja": "ミニ色紙",
+    "ja": "色紙",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -10762,17 +10762,6 @@
     "ja": "光沢のある水着",
     "major": "服装",
     "minor": "衣類",
-    "reasons": [
-      "possible-chinese-script-or-literal-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "shiroko terror (blue archive)",
-    "ja": "砂狼シロコ(色彩)",
-    "major": "光・色彩",
-    "minor": "色",
     "reasons": [
       "possible-chinese-script-or-literal-translation"
     ],
@@ -10967,19 +10956,20 @@
     "proposedJa": null
   },
   {
-    "tag": "shun (small) (blue archive)",
-    "ja": "shun（small）（ブルーアーカイブ）",
-    "major": "光・色彩",
-    "minor": "色",
+    "tag": "show by rock!!",
+    "ja": "SHOW BY ROCK!!",
+    "major": "その他",
+    "minor": "自然物",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "shuten douji (fate)",
-    "ja": "シャッテン・ドゥジ（Fate）",
+    "ja": "酒呑童子（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -11083,17 +11073,6 @@
     "minor": "未分類",
     "reasons": [
       "possible-chinese-script-or-literal-translation"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "slingshot swimsuit",
-    "ja": "Slingshot水着",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
     ],
     "status": "needs-review",
     "proposedJa": null
