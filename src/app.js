@@ -6,6 +6,7 @@
   const REVIEW_KEY = "ptd.review.v1";
   let reviewRatings = {};
   let promptOrderOverrides = new Map();
+  let promptTargetOverrides = new Map();
   const PAGE_SIZE = 100;
   function pageSize() { return PAGE_SIZE; }
   const CATEGORIES = [
@@ -356,6 +357,7 @@
       const ordered = Array.isArray(data.categories) ? data.categories.slice().sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999)).map(x=>x&&x.name).filter(name=>typeof name==="string"&&name.trim()) : [];
       if (ordered.length) PROMPT_ORDER = [...new Set([...ordered, "ネガティブ"])];
       promptOrderOverrides = new Map(entries.filter(x => x && x.tag && x.category).map(x => [norm(x.tag), x.category]));
+      promptTargetOverrides = new Map((Array.isArray(data.negative_tags) ? data.negative_tags : []).map(tag => [norm(tag), "negative"]));
     });
   }
   function seedTagGroups() {
@@ -371,8 +373,10 @@
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
-  let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出"];
+  let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
+  function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
   function promptOrderOf(t) {
+    if (promptTargetOf(t) === "negative") return "ネガティブ";
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
     const major = majorOf(t), minor = minorOf(t), tag = norm(t.tag);
@@ -806,43 +810,43 @@
     });
   }
   function outputComment(major) {
-    const en = enMajor[major] || major;
+    const en = major === "ネガティブ" ? "Negative Prompt" : (enMajor[major] || major);
     const label = $("#category-language").value === "en" ? en : major;
     const style = $("#comment-style").value;
     if (style === "block") return "/* " + label + " */";
     if (style === "hash") return "# " + label;
     return "// " + label;
   }
+  function outputSnapshot() {
+    return { positive: $("#prompt-output").value, negative: $("#negative-output").value };
+  }
+  function sameOutput(a, b) { return a?.positive === b?.positive && a?.negative === b?.negative; }
   function renderOutput() {
     const selected = state.tags.filter(t => state.selected.has(norm(t.tag)));
     const group = $("#group-by-category").checked, comments = $("#include-comments").checked;
     const activeCats = new Set([...$("#output-categories").querySelectorAll(".include-chip.active")].map(b => b.dataset.major));
     const hasCategoryFilters = $("#output-categories").querySelectorAll(".include-chip").length > 0;
-    const output = []; let count = 0;
-    if (group) {
-      const map = new Map();
-      selected.forEach(t => {
-        const m = promptOrderOf(t);
-        if (!hasCategoryFilters || activeCats.has(m)) { if (!map.has(m)) map.set(m, []); map.get(m).push(t); }
-      });
-      const sortedMajors = [...map.keys()].sort((a, b) => {
-        const ia = a === "未分類" ? 999 : PROMPT_ORDER.indexOf(a), ib = b === "未分類" ? 999 : PROMPT_ORDER.indexOf(b);
-        return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b, "ja");
-      });
-      sortedMajors.forEach(major => {
-        if (comments) output.push(outputComment(major));
-        output.push(map.get(major).map(t => t.tag).join(", "));
-        count += map.get(major).length;
-      });
-    } else {
-      const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(promptOrderOf(t)));
-      output.push(tags.map(t => t.tag).join(", ")); count = tags.length;
+    const included = selected.filter(t => !hasCategoryFilters || activeCats.has(promptOrderOf(t)));
+    function buildSection(tags) {
+      const output = []; let count = 0;
+      if (group) {
+        const map = new Map();
+        tags.forEach(t => { const category = promptOrderOf(t); if (!map.has(category)) map.set(category, []); map.get(category).push(t); });
+        const sorted = [...map.keys()].sort((a, b) => {
+          const ia = a === "未分類" ? 999 : PROMPT_ORDER.indexOf(a), ib = b === "未分類" ? 999 : PROMPT_ORDER.indexOf(b);
+          return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b, "ja");
+        });
+        sorted.forEach(category => { if (comments) output.push(outputComment(category)); output.push(map.get(category).map(t => t.tag).join(", ")); count += map.get(category).length; });
+      } else { output.push(tags.map(t => t.tag).join(", ")); count = tags.length; }
+      return { value: output.filter(Boolean).join("\n"), count };
     }
-    const value = output.filter(s => s !== "").join("\n");
-    $("#prompt-output").value = value;
-    outputHistory.last = value; outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons();
-    $("#output-count").textContent = count + " tags";
-    $("#copy-output").disabled = !value.trim(); $("#download-output").disabled = !value.trim();
+    const positive = buildSection(included.filter(t => promptTargetOf(t) !== "negative"));
+    const negative = buildSection(included.filter(t => promptTargetOf(t) === "negative"));
+    $("#prompt-output").value = positive.value; $("#negative-output").value = negative.value;
+    outputHistory.last = outputSnapshot(); outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons();
+    $("#output-count").textContent = (positive.count + negative.count) + " tags";
+    $("#copy-output").disabled = !positive.value.trim(); $("#download-output").disabled = !positive.value.trim();
+    $("#copy-negative-output").disabled = !negative.value.trim(); $("#download-negative-output").disabled = !negative.value.trim();
   }
   function updateOutputHistoryButtons() {
     $("#output-undo").disabled = outputHistory.undo.length === 0;
