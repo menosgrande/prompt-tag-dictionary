@@ -3048,10 +3048,560 @@
       "tag": "chained wrists",
       "ja": "鎖でつながれた手首",
       "status": "reviewed"
+    },
+    {
+      "tag": "champagne flute",
+      "ja": "シャンパンフルートグラス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "champion uniform",
+      "ja": "チャンピオンのユニフォーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chan co",
+      "ja": "意味不明・原語確認が必要",
+      "status": "needs_review"
+    },
+    {
+      "tag": "chando (ado)",
+      "ja": "Chando（Ado関連タグ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "changli (wuthering waves)",
+      "ja": "長離（鳴潮）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character censor",
+      "ja": "キャラクター部分の検閲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character doll",
+      "ja": "キャラクタードール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character hair ornament",
+      "ja": "キャラクターを模した髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character name",
+      "ja": "キャラクター名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character profile",
+      "ja": "キャラクター紹介欄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "character signature",
+      "ja": "キャラクターの署名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "charizard",
+      "ja": "リザードン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "charlotte (madoka magica)",
+      "ja": "お菓子の魔女（魔法少女まどか☆マギカ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "charlotte e. yeager",
+      "ja": "シャーロット・E・イェーガー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "charm (object)",
+      "ja": "お守り・チャーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chasing",
+      "ja": "追いかける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chat log",
+      "ja": "チャットログ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheating (relationship)",
+      "ja": "浮気",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered background",
+      "ja": "チェック柄の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered bow",
+      "ja": "チェック柄のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered dress",
+      "ja": "チェック柄のドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered floor",
+      "ja": "チェック柄の床",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered sash",
+      "ja": "チェック柄のサッシュ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered shirt",
+      "ja": "チェック柄のシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "checkered skirt",
+      "ja": "チェック柄のスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek pinching",
+      "ja": "頬をつねる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek poking",
+      "ja": "頬を指で突く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek press",
+      "ja": "頬を押し付ける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek pull",
+      "ja": "頬を引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek squash",
+      "ja": "頬を押しつぶす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cheek-to-cheek",
+      "ja": "頬を寄せ合う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chen",
+      "ja": "橙（東方Project）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cherry blossom print",
+      "ja": "桜柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cherry hair ornament",
+      "ja": "さくらんぼの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest belt",
+      "ja": "胸部ベルト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest jewel",
+      "ja": "胸元の宝石",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest sarashi",
+      "ja": "胸に巻いたさらし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest strap",
+      "ja": "胸部ストラップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest tattoo",
+      "ja": "胸のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chest tuft",
+      "ja": "胸元の毛束",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chestnut mouth",
+      "ja": "栗のような口",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cheval grand (umamusume)",
+      "ja": "シュヴァルグラン（ウマ娘）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chi-chi (dragon ball)",
+      "ja": "チチ（ドラゴンボール）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chi-hatan military uniform",
+      "ja": "知波単学園の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chibi inset",
+      "ja": "ちびキャラの小窓表示",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chibi only",
+      "ja": "ちびキャラのみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chicken (food)",
+      "ja": "鶏肉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chigusa minori",
+      "ja": "千草美乃梨",
+      "status": "needs_review"
+    },
+    {
+      "tag": "chihaya (clothing)",
+      "ja": "千早（衣装）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chihaya anon",
+      "ja": "千早愛音",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chikan",
+      "ja": "痴漢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "child carry",
+      "ja": "子供を抱きかかえる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chin strap",
+      "ja": "あご紐",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chinese clothes",
+      "ja": "中国風の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chinese hairpin",
+      "ja": "中国風のかんざし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chinese knot",
+      "ja": "中国結び",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chinese text",
+      "ja": "中国語の文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chinese zodiac",
+      "ja": "十二支",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chips (food)",
+      "ja": "ポテトチップス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chloe von einzbern",
+      "ja": "クロエ・フォン・アインツベルン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chocolate making",
+      "ja": "チョコレート作り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chocolate on body",
+      "ja": "身体に付いたチョコレート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "chocolate on breasts",
+      "ja": "胸に付いたチョコレート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "choke hold",
+      "ja": "首を絞める技",
+      "status": "reviewed"
+    },
+    {
+      "tag": "choppy bangs",
+      "ja": "不揃いに切った前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "choukai (kancolle)",
+      "ja": "鳥海（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "christmas lights",
+      "ja": "クリスマスイルミネーション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "christmas ornaments",
+      "ja": "クリスマスオーナメント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "christmas stocking",
+      "ja": "クリスマス用の靴下",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cinematic",
+      "ja": "シネマティックな表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "circle formation",
+      "ja": "円陣",
+      "status": "needs_review"
+    },
+    {
+      "tag": "circled 9",
+      "ja": "丸囲みの9",
+      "status": "reviewed"
+    },
+    {
+      "tag": "claw pose",
+      "ja": "爪を立てたポーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "claw ring",
+      "ja": "爪型の指輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clawed gauntlets",
+      "ja": "爪付きガントレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cle masahiro",
+      "ja": "作者名：CLE MASAHIRO",
+      "status": "needs_review"
+    },
+    {
+      "tag": "cleavage cutout",
+      "ja": "胸元の開き・カットアウト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cleft of venus",
+      "ja": "ビーナスのえくぼ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "clenched hand",
+      "ja": "握りこぶし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clenched hands",
+      "ja": "握りしめた両手",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clenched teeth",
+      "ja": "歯を食いしばる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clock eyes",
+      "ja": "時計の目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clorinde (genshin impact)",
+      "ja": "クロリンデ（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "close-up",
+      "ja": "クローズアップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "closed mouth",
+      "ja": "口を閉じた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothed female nude female",
+      "ja": "着衣女性と裸体女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothed female nude male",
+      "ja": "着衣女性と裸体男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothed male nude female",
+      "ja": "着衣男性と裸体女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothed male nude male",
+      "ja": "着衣男性と裸体男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothed sex",
+      "ja": "着衣での性行為",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes around waist",
+      "ja": "腰に巻いた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes between breasts",
+      "ja": "胸の間に挟まった服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes between thighs",
+      "ja": "太ももの間に挟まった服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes down",
+      "ja": "下ろされた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes grab",
+      "ja": "服をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes in mouth",
+      "ja": "口にくわえた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes lift",
+      "ja": "服を持ち上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes pin",
+      "ja": "洗濯ばさみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes pull",
+      "ja": "服を引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes tug",
+      "ja": "服を引っ張る仕草",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothes writing",
+      "ja": "服に書かれた文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clothing aside",
+      "ja": "ずらされた衣服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cloud print",
+      "ja": "雲柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "cloud strife",
+      "ja": "クラウド・ストライフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "clover hair ornament",
+      "ja": "クローバーの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "club (shape)",
+      "ja": "クラブ形（トランプのスート）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coat dress",
+      "ja": "コートドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coat on shoulders",
+      "ja": "肩に掛けたコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coat partially removed",
+      "ja": "片側を脱ぎかけたコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "coattails",
+      "ja": "コートの裾",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-1749",
-    "note": "先頭1,750件を確認。誤訳、空欄、固有名詞、衣装・身体表現の訳を修正。作者タグや意味が不明瞭な語は要確認として保持。"
+    "source_indices": "0-1999",
+    "note": "先頭2,000件を確認。固有名詞・作品名、機械翻訳の誤訳、衣装・表情・構図関連の表現を修正。特定困難な作者名・固有タグは要確認に保持。"
   }
 }
