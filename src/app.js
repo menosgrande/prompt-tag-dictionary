@@ -354,7 +354,7 @@
     }).then(data => {
       const entries = Array.isArray(data.overrides) ? data.overrides : [];
       const ordered = Array.isArray(data.categories) ? data.categories.slice().sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999)).map(x=>x&&x.name).filter(name=>typeof name==="string"&&name.trim()) : [];
-      if (ordered.length) PROMPT_ORDER = [...new Set(ordered)];
+      if (ordered.length) PROMPT_ORDER = [...new Set([...ordered, "ネガティブ"])];
       promptOrderOverrides = new Map(entries.filter(x => x && x.tag && x.category).map(x => [norm(x.tag), x.category]));
     });
   }
