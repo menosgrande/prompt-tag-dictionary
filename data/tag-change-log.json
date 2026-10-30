@@ -20926,6 +20926,36 @@
       },
       "reason": "既存訳が誤訳・機械翻訳・不自然な日本語になっていたため、タグの意味に沿う表現へ修正。AIによる一次校正であり人手の最終確認待ち。",
       "source": null
+    },
+    {
+      "tag": "transparent censoring",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透明なモザイク処理"
+      },
+      "after": {
+        "ja": "透明な検閲"
+      },
+      "reason": "意味を一意に特定できないため、推測による意訳を取り消して既存訳を保持。要確認。",
+      "source": null
+    },
+    {
+      "tag": "uva academy school uniform",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "オレンジアカデミーの制服"
+      },
+      "after": {
+        "ja": "グレープアカデミーの制服"
+      },
+      "reason": "Uva Academyはポケモン スカーレット・バイオレットに登場するグレープアカデミー。オレンジアカデミーではないため修正。",
+      "source": null
     }
   ]
 }
