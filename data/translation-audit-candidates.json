@@ -4811,17 +4811,6 @@
     "proposedJa": null
   },
   {
-    "tag": "red oni",
-    "ja": "赤oni",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "reiuji utsuho (bird)",
     "ja": "reiuji utsuho（鳥）",
     "major": "その他",
@@ -4948,17 +4937,6 @@
     "ja": "ryoji（野uuraryuji）",
     "major": "未分類",
     "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "ryouou school uniform",
-    "ja": "Ryouou Schoolユニフォーム",
-    "major": "服装",
-    "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
