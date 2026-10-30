@@ -22,6 +22,7 @@ on:
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
       - "scripts/audit-translations.mjs"
+      - "scripts/apply-safe-category-candidates.mjs"
       - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   workflow_dispatch:
