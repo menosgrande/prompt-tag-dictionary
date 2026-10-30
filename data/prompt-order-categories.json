@@ -439,5 +439,32 @@
     "field_policy": "確定 rating と proposed_rating は分離する。review_status が未確認の候補は確定 rating を null のまま保持する。",
     "review_status_field": "rating_review_status",
     "note": "このファイルの proposed_rating は監査候補値であり、確定判定ではない。通常画面の表示制御には未適用。未判定タグを全年齢とみなさない。"
-  }
+  },
+  "negative_tags": [
+    "artistic error",
+    "bad anatomy",
+    "bad feet",
+    "bad hands",
+    "bad perspective",
+    "bad proportions",
+    "blurry",
+    "deformed",
+    "disfigured",
+    "extra arms",
+    "extra limbs",
+    "fewer digits",
+    "jpeg artifacts",
+    "long neck",
+    "low quality",
+    "mutated hands",
+    "multiple views",
+    "out of frame",
+    "poorly drawn face",
+    "poorly drawn hands",
+    "signature",
+    "text",
+    "username",
+    "watermark",
+    "worst quality"
+  ]
 }
