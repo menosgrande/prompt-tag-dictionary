@@ -17656,6 +17656,2316 @@
       },
       "reason": "種族・役割語。中程度の自動分類候補を仮適用。意味上の正しさは未確認で、管理画面で人手確認が必要。第3階層候補「要確認」は既存4項目スキーマを維持するため未適用。",
       "source": "data/category-audit-candidates-12.jsonl"
+    },
+    {
+      "tag": "polka dot bow",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ポルカドットボウ"
+      },
+      "after": {
+        "ja": "水玉模様のリボン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "polka dot bra",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "波点胸罩"
+      },
+      "after": {
+        "ja": "水玉模様のブラジャー"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "polka dot headwear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "水玉headwear"
+      },
+      "after": {
+        "ja": "水玉模様の帽子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "polka dot legwear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ポルカドットレッグウェア"
+      },
+      "after": {
+        "ja": "水玉模様のレッグウェア"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "polka dot scrunchie",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ポルカドットシュリューヒー"
+      },
+      "after": {
+        "ja": "水玉模様のシュシュ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "porkpie hat",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ポークピーの帽子"
+      },
+      "after": {
+        "ja": "ポークパイハット"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "possessed",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "所有"
+      },
+      "after": {
+        "ja": "取り憑かれた"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "poster (medium)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ポスター（中）"
+      },
+      "after": {
+        "ja": "ポスター（媒体）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pouch",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "小包"
+      },
+      "after": {
+        "ja": "ポーチ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pouring onto self",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "自己に注ぐ"
+      },
+      "after": {
+        "ja": "自分に液体をかける"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pov across table",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "テーブルを横切るPOV"
+      },
+      "after": {
+        "ja": "テーブル越しの主観視点"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pov crotch",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "POV股"
+      },
+      "after": {
+        "ja": "股間視点"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pov hands",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "POVハンド"
+      },
+      "after": {
+        "ja": "手元の主観視点"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pov doorway",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "POV戸口"
+      },
+      "after": {
+        "ja": "戸口からの主観視点"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "power symbol-shaped pupils",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "パワーシンボル形の生徒"
+      },
+      "after": {
+        "ja": "電源マーク型の瞳"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "precum drip",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "滴落的先走汁"
+      },
+      "after": {
+        "ja": "先走り液の滴り"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "precure",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "精度"
+      },
+      "after": {
+        "ja": "プリキュア"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "prehensile hair",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "髪の毛の脱毛"
+      },
+      "after": {
+        "ja": "物をつかめる髪"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "prehensile tail",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "脱毛前尾"
+      },
+      "after": {
+        "ja": "物をつかめる尻尾"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "presenting armpit",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "脇の下を提示します"
+      },
+      "after": {
+        "ja": "脇を見せるポーズ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "presenting foot",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "足を提示します"
+      },
+      "after": {
+        "ja": "足を見せるポーズ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "priest",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "祭司"
+      },
+      "after": {
+        "ja": "司祭"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print bikini",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ビキニを印刷します"
+      },
+      "after": {
+        "ja": "柄入りビキニ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print bow",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "弓を印刷します"
+      },
+      "after": {
+        "ja": "柄入りリボン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print bowtie",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ボウタイを印刷します"
+      },
+      "after": {
+        "ja": "柄入り蝶ネクタイ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print bra",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ブラジャーを印刷します"
+      },
+      "after": {
+        "ja": "柄入りブラジャー"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print gloves",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "手袋を印刷します"
+      },
+      "after": {
+        "ja": "柄入り手袋"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print headwear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "帽子をプリントします"
+      },
+      "after": {
+        "ja": "柄入り帽子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print kimono",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "着物を印刷します"
+      },
+      "after": {
+        "ja": "柄入り着物"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print mug",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "マグカップを印刷します"
+      },
+      "after": {
+        "ja": "柄入りマグカップ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print necktie",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ネクタイをプリント"
+      },
+      "after": {
+        "ja": "柄入りネクタイ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print sarong",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サロンを印刷します"
+      },
+      "after": {
+        "ja": "柄入りサロン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print shirt",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "印花衬衫"
+      },
+      "after": {
+        "ja": "柄シャツ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print shorts",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ショートパンツを印刷します"
+      },
+      "after": {
+        "ja": "柄入りショートパンツ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print skirt",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スカートを印刷します"
+      },
+      "after": {
+        "ja": "柄入りスカート"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print sleeves",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "袖を印刷します"
+      },
+      "after": {
+        "ja": "柄入りの袖"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print sweater",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セーターを印刷します"
+      },
+      "after": {
+        "ja": "柄入りセーター"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "print thighhighs",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "太ももを印刷します"
+      },
+      "after": {
+        "ja": "柄入りニーハイソックス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "prisma illya",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "プリスマイリヤ"
+      },
+      "after": {
+        "ja": "プリズマ☆イリヤ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "product placement",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "製品の配置"
+      },
+      "after": {
+        "ja": "プロダクトプレイスメント"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "psychic",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "超能力のある"
+      },
+      "after": {
+        "ja": "超能力者"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "public indecency",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "公的なわいせつ"
+      },
+      "after": {
+        "ja": "公然わいせつ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pulling own clothes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "拉下自己衣服"
+      },
+      "after": {
+        "ja": "自分の服を引っ張る"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pushing away",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "押しのけます"
+      },
+      "after": {
+        "ja": "押しのける"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "pursed lips",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "唇を追いかけた"
+      },
+      "after": {
+        "ja": "すぼめた唇"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple bow",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "紫色の弓"
+      },
+      "after": {
+        "ja": "紫のリボン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple capelet",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "紫色のカペレット"
+      },
+      "after": {
+        "ja": "ショートケープ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple scrunchie",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "紫色のシュリューティー"
+      },
+      "after": {
+        "ja": "紫のシュシュ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple serafuku",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "パープルセラフク"
+      },
+      "after": {
+        "ja": "紫のセーラー服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple sash",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "パープルサッシ"
+      },
+      "after": {
+        "ja": "紫の帯"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple thighhighs",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "紫色の太もも"
+      },
+      "after": {
+        "ja": "紫のニーハイソックス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "purple theme",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "紫色"
+      },
+      "after": {
+        "ja": "紫を基調とした配色"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "quad tails",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "四马尾"
+      },
+      "after": {
+        "ja": "四本の尻尾"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "quadruple amputee",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "4倍切断者"
+      },
+      "after": {
+        "ja": "四肢切断者"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "quiver",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "震え"
+      },
+      "after": {
+        "ja": "矢筒"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "race bib",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "レースビブ"
+      },
+      "after": {
+        "ja": "ゼッケン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "race vehicle",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "レース車"
+      },
+      "after": {
+        "ja": "レーシングカー"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "racerback",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "レーシングバック"
+      },
+      "after": {
+        "ja": "レーサーバック"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "radio",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "無線"
+      },
+      "after": {
+        "ja": "ラジオ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raiden mei",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "雷电芽衣"
+      },
+      "after": {
+        "ja": "雷電芽衣"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raiden shogun",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "雷神バアル"
+      },
+      "after": {
+        "ja": "雷電将軍"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raihan (pokemon)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ライアーアン（ポケモン）"
+      },
+      "after": {
+        "ja": "キバナ（ポケモン）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rainbow gradient",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "レインボーグラジエント"
+      },
+      "after": {
+        "ja": "虹色のグラデーション"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raised eyebrows",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "眉を上げた"
+      },
+      "after": {
+        "ja": "眉を上げる"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "raising heart",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "心を育てる"
+      },
+      "after": {
+        "ja": "レイジングハート"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ranni the witch",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "魔女ランニ"
+      },
+      "after": {
+        "ja": "魔女ラニ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "randoseru",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ランデル"
+      },
+      "after": {
+        "ja": "ランドセル"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "realistic",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "現実的です"
+      },
+      "after": {
+        "ja": "写実的な"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rebuild of evangelion",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "エヴァンゲリオンの再建"
+      },
+      "after": {
+        "ja": "ヱヴァンゲリヲン新劇場版"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "reizei mako",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "あんこうチーム"
+      },
+      "after": {
+        "ja": "冷泉麻子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "reiuji utsuho",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "お空"
+      },
+      "after": {
+        "ja": "霊烏路空"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rem (re:zero)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "rem（re：ゼロ）"
+      },
+      "after": {
+        "ja": "レム（Re:ゼロ）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "remembering",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "覚えている"
+      },
+      "after": {
+        "ja": "思い出している"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "removing jacket",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ジャケットを取り外します"
+      },
+      "after": {
+        "ja": "ジャケットを脱ぐ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "reptile girl",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "爬虫類の女の子"
+      },
+      "after": {
+        "ja": "爬虫類の少女"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "reverse cowgirl position",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "逆カウガールの位置"
+      },
+      "after": {
+        "ja": "逆騎乗位"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "reverse grip",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "逆グリップ"
+      },
+      "after": {
+        "ja": "逆手持ち"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rhine lab logo",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "莱因生命"
+      },
+      "after": {
+        "ja": "ライン生命のロゴ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rhodes island logo (arknights)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "罗德岛标志"
+      },
+      "after": {
+        "ja": "ロドス・アイランドのロゴ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon trim",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリム"
+      },
+      "after": {
+        "ja": "リボンの縁取り"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon-trimmed clothes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリミングされた服"
+      },
+      "after": {
+        "ja": "リボンで縁取られた服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon-trimmed collar",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリムカラー"
+      },
+      "after": {
+        "ja": "リボン飾りの襟"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon-trimmed dress",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリムドレス"
+      },
+      "after": {
+        "ja": "リボン飾りのドレス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon-trimmed headwear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリムヘッドウェア"
+      },
+      "after": {
+        "ja": "リボン飾りの帽子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ribbon-trimmed sleeves",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リボントリミングされた袖"
+      },
+      "after": {
+        "ja": "リボン飾りの袖"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rice on face",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "顔にご飯"
+      },
+      "after": {
+        "ja": "顔に付いたご飯粒"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "riding bicycle",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "自電車に乗る"
+      },
+      "after": {
+        "ja": "自転車に乗る"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "riding crop",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ライディングクロップ"
+      },
+      "after": {
+        "ja": "乗馬鞭"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rigging",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "舰装"
+      },
+      "after": {
+        "ja": "艤装"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "robin (honkai: star rail)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ロビン(スターレイル)"
+      },
+      "after": {
+        "ja": "ロビン（崩壊：スターレイル）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rocket",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "火箭"
+      },
+      "after": {
+        "ja": "ロケット"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rolling eyes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "なめらかな目"
+      },
+      "after": {
+        "ja": "白目をむく"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "roman numeral",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ローマ数"
+      },
+      "after": {
+        "ja": "ローマ数字"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "roots (hair)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ルーツ（髪）"
+      },
+      "after": {
+        "ja": "髪の根元"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rotary phone",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ロータリー電話"
+      },
+      "after": {
+        "ja": "ダイヤル式電話"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "round table",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ラウンドテーブル"
+      },
+      "after": {
+        "ja": "円卓"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rubbing eyes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "目をこすります"
+      },
+      "after": {
+        "ja": "目をこする"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "runny makeup",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "花妆"
+      },
+      "after": {
+        "ja": "崩れたメイク"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rust",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "錆びる"
+      },
+      "after": {
+        "ja": "錆"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "rwby",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "RWBYイラコン"
+      },
+      "after": {
+        "ja": "RWBY"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "ryoumen sukuna (jujutsu kaisen)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リオーメンスクナ（柔術kaisen）"
+      },
+      "after": {
+        "ja": "両面宿儺（呪術廻戦）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sagging breasts",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "胸をたるむ"
+      },
+      "after": {
+        "ja": "垂れた胸"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sagisawa fumika",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "佐々木fumika"
+      },
+      "after": {
+        "ja": "鷺沢文香"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sailor moon redraw challenge (meme)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セーラームーンレッドローチャレンジ（ミーム）"
+      },
+      "after": {
+        "ja": "セーラームーン描き直しチャレンジ（ミーム）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "saiyan armor",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "戦闘ジャケット"
+      },
+      "after": {
+        "ja": "サイヤ人の戦闘服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakamoto mio",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "坂本mio"
+      },
+      "after": {
+        "ja": "坂本美緒"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakura kyoko",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "あんこ"
+      },
+      "after": {
+        "ja": "佐倉杏子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakura miko",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "さくらミコ"
+      },
+      "after": {
+        "ja": "さくらみこ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakuma mayu",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "佐藤鉄道"
+      },
+      "after": {
+        "ja": "佐久間まゆ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sakurauchi riko",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "さくら川沿い"
+      },
+      "after": {
+        "ja": "桜内梨子"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sangonomiya kokomi",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "珊瑚宫心海"
+      },
+      "after": {
+        "ja": "珊瑚宮心海"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sangvis ferri",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "铁血工造"
+      },
+      "after": {
+        "ja": "鉄血工造"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sandwiched",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "夹心"
+      },
+      "after": {
+        "ja": "挟まれた"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sanpaku",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "三白"
+      },
+      "after": {
+        "ja": "三白眼"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "saury",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ザウリー"
+      },
+      "after": {
+        "ja": "サンマ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "saw",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "見た"
+      },
+      "after": {
+        "ja": "のこぎり"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sayonara zetsubou sensei",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Sayonara Zetsubou先生"
+      },
+      "after": {
+        "ja": "さよなら絶望先生"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "satin",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "缎子"
+      },
+      "after": {
+        "ja": "サテン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "satou kazuma",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サトゥ・カズマ"
+      },
+      "after": {
+        "ja": "佐藤和真"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "saunders school uniform",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サンダースの学校のユニフォーム"
+      },
+      "after": {
+        "ja": "サンダース大学附属高校の制服"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scales",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スケール"
+      },
+      "after": {
+        "ja": "鱗"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scar across eye",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "目を越えて傷"
+      },
+      "after": {
+        "ja": "目を横切る傷"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scaramouche (genshin impact)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スカラムーシュ（ジェンシンインパクト）"
+      },
+      "after": {
+        "ja": "スカラマシュ（原神）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scared",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "怖がった"
+      },
+      "after": {
+        "ja": "怖がっている"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "school briefcase",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "学校のブリーフケース"
+      },
+      "after": {
+        "ja": "学生鞄"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "school emblem",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "学校の紋章"
+      },
+      "after": {
+        "ja": "校章"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "science fiction",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "近未来"
+      },
+      "after": {
+        "ja": "SF"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scorbunny",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スコービュニー"
+      },
+      "after": {
+        "ja": "ヒバニー"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scowl",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スカウル"
+      },
+      "after": {
+        "ja": "しかめ面"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scratching head",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "頭を傷つけます"
+      },
+      "after": {
+        "ja": "頭をかく"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "screenshot inset",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "スクリーンキャップの挿入図"
+      },
+      "after": {
+        "ja": "スクリーンショットの挿入"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "scribble censor",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "涂鸦打码"
+      },
+      "after": {
+        "ja": "落書きで隠す"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "seal (animal)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シール（動物）"
+      },
+      "after": {
+        "ja": "アザラシ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through body",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透明身体"
+      },
+      "after": {
+        "ja": "透けた身体"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through dress",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透视连衣裙"
+      },
+      "after": {
+        "ja": "透けるドレス"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through panties",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透视内裤"
+      },
+      "after": {
+        "ja": "透けるパンティー"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through sarong",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "サロンを見る"
+      },
+      "after": {
+        "ja": "透けるサロン"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through silhouette",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "乳シルエット"
+      },
+      "after": {
+        "ja": "透けたシルエット"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through skirt",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透视裙子"
+      },
+      "after": {
+        "ja": "透けるスカート"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "see-through sleeves",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "透视袖子"
+      },
+      "after": {
+        "ja": "透ける袖"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "seele vollerei",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ゼーレ"
+      },
+      "after": {
+        "ja": "ゼーレ・ヴォレライ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "seiun sky (umamusume)",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セイウンスカイ(ウマ娘)"
+      },
+      "after": {
+        "ja": "セイウンスカイ（ウマ娘）"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "self-harm scar",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "リスカ痕"
+      },
+      "after": {
+        "ja": "自傷痕"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "selfcest",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "同一CP"
+      },
+      "after": {
+        "ja": "同一人物同士の性行為"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "semi-rimless eyewear",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "半框眼镜"
+      },
+      "after": {
+        "ja": "ハーフリム眼鏡"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "senran kagura shinovi versus",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "セヌラン・カグラ・シノビ対"
+      },
+      "after": {
+        "ja": "閃乱カグラ SHINOVI VERSUS"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sewing needle",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "縫製針"
+      },
+      "after": {
+        "ja": "縫い針"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "sexually suggestive",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "性的に示唆的です"
+      },
+      "after": {
+        "ja": "性的な示唆を含む"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shadow the hedgehog",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "ハリネズミを影にします"
+      },
+      "after": {
+        "ja": "シャドウ・ザ・ヘッジホッグ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shallow water",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "浅い水"
+      },
+      "after": {
+        "ja": "浅瀬"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shantae",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "シャンタエ"
+      },
+      "after": {
+        "ja": "シャンティ"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shared bathing",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "共有入浴"
+      },
+      "after": {
+        "ja": "一緒に入浴"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shared clothes",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "共有服"
+      },
+      "after": {
+        "ja": "服の共有"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "shared earphones",
+      "changedAt": "2026-10-30",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "共有イヤホン"
+      },
+      "after": {
+        "ja": "イヤホンの共有"
+      },
+      "reason": "翻訳監査バッチ 7501–8500。意味が明確な誤訳・機械翻訳調の表現を修正。AI修正のため人手の最終確認待ち。",
+      "source": null
     }
   ]
 }
