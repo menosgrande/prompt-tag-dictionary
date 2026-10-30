@@ -1333,11 +1333,351 @@
       "tag": "akizuki ritsuko",
       "ja": "秋月律子",
       "status": "reviewed"
+    },
+    {
+      "tag": "bara",
+      "ja": "男性同士の恋愛・男性向け作品（薔薇）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "barbara (genshin impact)",
+      "ja": "バーバラ（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bardiche (nanoha)",
+      "ja": "バルディッシュ（魔法少女リリカルなのは）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bare arms",
+      "ja": "腕を露出した",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bare hips",
+      "ja": "腰を露出した",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bare legs",
+      "ja": "脚を露出した",
+      "status": "reviewed"
+    },
+    {
+      "tag": "barefoot sandals (jewelry)",
+      "ja": "足指・足首に着ける装飾サンダル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "barghest (fate)",
+      "ja": "バーゲスト（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "basil (faraway) (omori)",
+      "ja": "バジル（OMORI／Faraway）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bath yukata",
+      "ja": "湯上がり浴衣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bathroom",
+      "ja": "浴室",
+      "status": "reviewed"
+    },
+    {
+      "tag": "battery indicator",
+      "ja": "バッテリー残量表示",
+      "status": "reviewed"
+    },
+    {
+      "tag": "battle axe",
+      "ja": "戦斧",
+      "status": "reviewed"
+    },
+    {
+      "tag": "battle tendency",
+      "ja": "戦闘潮流（ジョジョの奇妙な冒険）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "battleship princess",
+      "ja": "戦艦棲姫",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bb (fate/extra)",
+      "ja": "BB（Fate/EXTRA）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bb (swimsuit mooncancer) (fate)",
+      "ja": "BB〔水着／ムーンキャンサー〕（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beamed eighth notes",
+      "ja": "連桁付き八分音符",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beamed sixteenth notes",
+      "ja": "連桁付き十六分音符",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bear ears",
+      "ja": "クマ耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bear hair ornament",
+      "ja": "クマの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bear tail",
+      "ja": "クマの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beard",
+      "ja": "ひげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beatrice (umineko)",
+      "ja": "ベアトリーチェ（うみねこのなく頃に）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "behind another",
+      "ja": "他の人物の後ろ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "behind-the-head headphones",
+      "ja": "後頭部に回すタイプのヘッドホン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "beidou (genshin impact)",
+      "ja": "北斗（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "belle (zenless zone zero)",
+      "ja": "リン（ゼンレスゾーンゼロ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "belly",
+      "ja": "腹部",
+      "status": "reviewed"
+    },
+    {
+      "tag": "belly chain",
+      "ja": "ウエストチェーン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "belt collar",
+      "ja": "ベルト状の首輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "belt pouch",
+      "ja": "ベルトポーチ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bemani",
+      "ja": "BEMANIシリーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "benghuai xueyuan",
+      "ja": "崩壊学園",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bent over",
+      "ja": "前かがみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "berserk",
+      "ja": "ベルセルク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "between legs",
+      "ja": "脚の間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bibi (tokoyami towa)",
+      "ja": "ビビ（常闇トワ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "big hair",
+      "ja": "ボリュームのある髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bigrbear",
+      "ja": "意味不明・原語確認が必要",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bike shorts",
+      "ja": "サイクルショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bike shorts under shorts",
+      "ja": "ショートパンツの下にサイクルショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bike shorts under skirt",
+      "ja": "スカートの下にサイクルショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikesuit",
+      "ja": "サイクルスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini bottom aside",
+      "ja": "ずらしたビキニボトム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini bottom only",
+      "ja": "ビキニボトムのみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini bottom pull",
+      "ja": "ビキニボトムを引き下げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini pull",
+      "ja": "ビキニを引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini shorts",
+      "ja": "ビキニショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini skirt",
+      "ja": "ビキニスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini top lift",
+      "ja": "ビキニトップを持ち上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bikini top only",
+      "ja": "ビキニトップのみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "billboard",
+      "ja": "看板広告",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bindi",
+      "ja": "ビンディ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bird ears",
+      "ja": "鳥の耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bird legs",
+      "ja": "鳥の脚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bird print",
+      "ja": "鳥柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bird tail",
+      "ja": "鳥の尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "birthmark",
+      "ja": "あざ・母斑",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bishop (chess)",
+      "ja": "ビショップ（チェスの駒）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bishounen",
+      "ja": "美少年",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bismarck (kancolle)",
+      "ja": "ビスマルク（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "biting glove",
+      "ja": "手袋をくわえる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black background",
+      "ja": "黒背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black bow",
+      "ja": "黒いリボン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "black babydoll",
+      "ja": "黒いベビードール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black capelet",
+      "ja": "黒いケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "black coat (kingdom hearts)",
+      "ja": "黒いコート（キングダム ハーツ）",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-749",
-    "note": "先頭750件を確認し、明確な誤訳・不自然な訳・空欄のうち修正対象を差分登録。未登録の既存訳は全件確定を意味しない。",
+    "source_indices": "0-999",
+    "note": "先頭1,000件を確認。既存訳の誤訳・空欄・不自然な訳を差分修正。",
     "overrides": 266
   }
 }
