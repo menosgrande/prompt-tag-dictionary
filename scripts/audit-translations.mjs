@@ -4,10 +4,6 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
-const rows = await readJson("data/tags.json");
-const review = await readJson("data/tag-review.json");
-const outputPath = resolve(root, "data/translation-audit-candidates.json");
-const args = new Set(process.argv.slice(2));
 
 const KNOWN_MISTRANSLATIONS = new Map([
   ["ace attorney", ["エース弁護士"]],
@@ -82,6 +78,12 @@ export function collectCandidates(records, reviewEntries = {}) {
   return candidates;
 }
 
+async function main() {
+const rows = await readJson("data/tags.json");
+const review = await readJson("data/tag-review.json");
+const outputPath = resolve(root, "data/translation-audit-candidates.json");
+const args = new Set(process.argv.slice(2));
+
 if (!Array.isArray(rows)) {
   console.error("ERROR: data/tags.json must be a JSON array.");
   process.exit(1);
@@ -118,4 +120,10 @@ if (args.has("--write")) {
   } else {
     console.log("Audit report is up to date.");
   }
+}
+
+}
+
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  await main();
 }
