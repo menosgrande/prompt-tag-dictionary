@@ -15378,12 +15378,5007 @@
       "tag": "holding saucer",
       "ja": "受け皿を持つ",
       "status": "reviewed"
+    },
+    {
+      "tag": "holding scepter",
+      "ja": "王笏を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding scissors",
+      "ja": "ハサミを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding scroll",
+      "ja": "巻物を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding scythe",
+      "ja": "大鎌を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding sex toy",
+      "ja": "大人のおもちゃを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding sheath",
+      "ja": "鞘を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding shield",
+      "ja": "盾を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding shirt",
+      "ja": "シャツを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding shoes",
+      "ja": "靴を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding shovel",
+      "ja": "シャベルを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding sign",
+      "ja": "看板を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding skewer",
+      "ja": "串を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding skull",
+      "ja": "頭蓋骨を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding smoking pipe",
+      "ja": "パイプを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding spatula",
+      "ja": "フライ返しを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding spoon",
+      "ja": "スプーンを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding spring onion",
+      "ja": "長ネギを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding staff",
+      "ja": "杖を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding stick",
+      "ja": "棒を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding strap",
+      "ja": "ストラップを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding stuffed toy",
+      "ja": "ぬいぐるみを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding stylus",
+      "ja": "タッチペンを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding suitcase",
+      "ja": "スーツケースを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding surfboard",
+      "ja": "サーフボードを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding swim ring",
+      "ja": "浮き輪を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding swimsuit",
+      "ja": "水着を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding sword",
+      "ja": "剣を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding syringe",
+      "ja": "注射器を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding tablet pc",
+      "ja": "タブレットPCを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding teapot",
+      "ja": "ティーポットを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding test tube",
+      "ja": "試験管を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding toothbrush",
+      "ja": "歯ブラシを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding torch",
+      "ja": "松明を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding towel",
+      "ja": "タオルを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding toy",
+      "ja": "おもちゃを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding tray",
+      "ja": "トレイを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding trident",
+      "ja": "三叉槍を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding umbrella",
+      "ja": "傘を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding underwear",
+      "ja": "下着を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding unworn clothes",
+      "ja": "未着用の服を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding vegetable",
+      "ja": "野菜を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding violin",
+      "ja": "バイオリンを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding wand",
+      "ja": "魔法の杖を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding water gun",
+      "ja": "水鉄砲を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding watering can",
+      "ja": "じょうろを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding watermelon",
+      "ja": "スイカを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding weapon",
+      "ja": "武器を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding whip",
+      "ja": "鞭を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding whisk",
+      "ja": "泡立て器を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding with feet",
+      "ja": "足で物を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding with tail",
+      "ja": "尻尾で物を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holding wrench",
+      "ja": "レンチを持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hole",
+      "ja": "穴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hole on body",
+      "ja": "体の穴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holed coin",
+      "ja": "穴あき硬貨",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hollow eyes",
+      "ja": "虚ろな目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holly",
+      "ja": "ヒイラギ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holly hair ornament",
+      "ja": "ヒイラギの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holo",
+      "ja": "ホロ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hologram",
+      "ja": "ホログラム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holographic clothing",
+      "ja": "ホログラム風の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holographic interface",
+      "ja": "ホログラム式インターフェース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holographic monitor",
+      "ja": "ホログラムモニター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hololive",
+      "ja": "ホロライブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hololive dev is",
+      "ja": "ホロライブDEV_IS",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hololive english",
+      "ja": "ホロライブEnglish",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hololive idol uniform (origin)",
+      "ja": "ホロライブアイドル衣装（オリジン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hololive indonesia",
+      "ja": "ホロライブインドネシア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holomyth",
+      "ja": "ホロライブEnglish Myth",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holostars",
+      "ja": "ホロスターズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holostars english",
+      "ja": "ホロスターズEnglish",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holster",
+      "ja": "ホルスター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "holstered",
+      "ja": "ホルスターに収めた武器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "homurabara academy school uniform",
+      "ja": "穂群原学園の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honda",
+      "ja": "ホンダ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "honda mio",
+      "ja": "ホンダミオ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "honey",
+      "ja": "蜂蜜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honeycomb (pattern)",
+      "ja": "ハニカム柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honeycomb background",
+      "ja": "ハニカム柄の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hong lu (project moon)",
+      "ja": "ホンル（Project Moon）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hong meiling",
+      "ja": "紅美鈴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honkai (series)",
+      "ja": "崩壊シリーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honkai impact 3rd",
+      "ja": "崩壊3rd",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honkai: star rail",
+      "ja": "崩壊：スターレイル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "honolulu (azur lane)",
+      "ja": "ホノルル（アズールレーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hood",
+      "ja": "フード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hood down",
+      "ja": "フードを下ろした状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hood up",
+      "ja": "フードをかぶった状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded bodysuit",
+      "ja": "フード付きボディスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded cape",
+      "ja": "フード付きケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded capelet",
+      "ja": "フード付きケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded cardigan",
+      "ja": "フード付きカーディガン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded cloak",
+      "ja": "フード付きマント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded coat",
+      "ja": "フード付きコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded dress",
+      "ja": "フード付きワンピース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded jacket",
+      "ja": "フード付きジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded robe",
+      "ja": "フード付きローブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded sweater",
+      "ja": "フード付きセーター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded track jacket",
+      "ja": "フード付きトラックジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooded vest",
+      "ja": "フード付きベスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoodie",
+      "ja": "パーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoodie lift",
+      "ja": "パーカーめくり",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hook",
+      "ja": "フック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoop",
+      "ja": "輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoop earrings",
+      "ja": "フープピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hooves",
+      "ja": "蹄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hori (hori no su)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "horikawa raiko",
+      "ja": "ほりかわらいこ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "horizon",
+      "ja": "地平線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horizontal pupils",
+      "ja": "横長の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horizontal-striped thighhighs",
+      "ja": "横縞のニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn bow",
+      "ja": "角型のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn grab",
+      "ja": "角をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn ornament",
+      "ja": "角の装飾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn ribbon",
+      "ja": "角のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn ring",
+      "ja": "角のリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horn/wood",
+      "ja": "金管楽器・木管楽器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horned headwear",
+      "ja": "角付きの頭飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horned helmet",
+      "ja": "角付き兜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horns",
+      "ja": "角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horns through headwear",
+      "ja": "頭飾りを貫く角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horosuke",
+      "ja": "ヨルスケ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "horror",
+      "ja": "ホラー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horror (theme)",
+      "ja": "ホラー（テーマ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horse",
+      "ja": "馬",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horse ears",
+      "ja": "馬耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horse girl",
+      "ja": "ウマ娘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horse tail",
+      "ja": "馬の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horseback riding",
+      "ja": "乗馬",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horseshoe",
+      "ja": "蹄鉄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "horseshoe ornament",
+      "ja": "蹄鉄の飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hose",
+      "ja": "ホース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoshi syoko",
+      "ja": "しょうこうめ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshiguma (arknights)",
+      "ja": "ホシグマ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshiguma yuugi",
+      "ja": "星熊勇儀",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshii miki",
+      "ja": "星井美希",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshikawa sara",
+      "ja": "星川サラ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshimachi suisei",
+      "ja": "星街すいせい",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshimachi suisei (1st costume)",
+      "ja": "星街すいせい(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshimi miyabi",
+      "ja": "星見雅",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshino (blue archive)",
+      "ja": "星野（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshino (swimsuit) (blue archive)",
+      "ja": "星野（水着）（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshino ai",
+      "ja": "星野アイ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshino aquamarine",
+      "ja": "星野アクアマリン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshino ruby",
+      "ja": "星野ルビー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshizora miyuki",
+      "ja": "星空みゆき",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshizora rin",
+      "ja": "金曜凛ちゃんりんりんりん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hoshizuki (seigetsu)",
+      "ja": "久野（Seigetsu）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hospital",
+      "ja": "病院",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hospital bed",
+      "ja": "病院のベッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hospital gown",
+      "ja": "病院着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hot",
+      "ja": "暑い・熱い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hot dog",
+      "ja": "ホットドッグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoto cocoa",
+      "ja": "ココア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houjou hibiki",
+      "ja": "北条響",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houjou satoko",
+      "ja": "北条沙都子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houjuu nue",
+      "ja": "封獣ぬえ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houndstooth",
+      "ja": "千鳥格子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houraisan kaguya",
+      "ja": "てるよ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hourglass",
+      "ja": "砂時計",
+      "status": "reviewed"
+    },
+    {
+      "tag": "house",
+      "ja": "家",
+      "status": "reviewed"
+    },
+    {
+      "tag": "houseki no kuni",
+      "ja": "宝石の国",
+      "status": "reviewed"
+    },
+    {
+      "tag": "houshou (kancolle)",
+      "ja": "鳳翔(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houshou marine",
+      "ja": "宝鐘マリン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houshou marine (1st costume)",
+      "ja": "宝鐘マリン(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houshou marine (summer)",
+      "ja": "宝鐘マリン(水着)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "houtengeki",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "how to",
+      "ja": "手順・方法",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hoyofair",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hozuki momiji",
+      "ja": "穂月もみじ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hu tao (genshin impact)",
+      "ja": "フータオ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hug",
+      "ja": "ハグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hug from behind",
+      "ja": "後ろから抱きつく",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge ahoge",
+      "ja": "大きなアホ毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge bow",
+      "ja": "大きなリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge breasts",
+      "ja": "巨乳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge eyebrows",
+      "ja": "太い眉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge moon",
+      "ja": "大きな月",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge nipples",
+      "ja": "大きな乳首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge pectorals",
+      "ja": "大きな胸筋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge testicles",
+      "ja": "大きな睾丸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "huge weapon",
+      "ja": "巨大な武器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging",
+      "ja": "抱きしめる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging book",
+      "ja": "本を抱える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging doll",
+      "ja": "人形を抱きしめる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging object",
+      "ja": "物を抱きしめる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging own legs",
+      "ja": "自分の脚を抱える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugging tail",
+      "ja": "尻尾を抱える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hugtto! precure",
+      "ja": "hugtto！精度",
+      "status": "needs_review"
+    },
+    {
+      "tag": "human scabbard",
+      "ja": "人間鞘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "humanization",
+      "ja": "擬人化",
+      "status": "reviewed"
+    },
+    {
+      "tag": "humanoid robot",
+      "ja": "人型ロボット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "humiliation",
+      "ja": "屈辱",
+      "status": "reviewed"
+    },
+    {
+      "tag": "humping",
+      "ja": "腰を押し付ける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hunched over",
+      "ja": "前かがみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hungry",
+      "ja": "空腹",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hungry clicker",
+      "ja": "空腹のクリッカー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hunter x hunter",
+      "ja": "ハンター×ハンター",
+      "status": "needs_review"
+    },
+    {
+      "tag": "husband and wife",
+      "ja": "夫婦",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hydrangea",
+      "ja": "アジサイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hydrokinesis",
+      "ja": "水を操る能力",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hyena ears",
+      "ja": "ハイエナの耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hyouka",
+      "ja": "氷菓",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hypnosis",
+      "ja": "催眠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "hyur",
+      "ja": "ヒュール",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hyuuga (kancolle)",
+      "ja": "日向（艦これ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "hyuuga hinata",
+      "ja": "日向ヒナタ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-168 (kancolle)",
+      "ja": "伊168(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-19 (kancolle)",
+      "ja": "伊19(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-401 (kancolle)",
+      "ja": "伊401(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-58 (kancolle)",
+      "ja": "伊58(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-8 (kancolle)",
+      "ja": "伊8(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "i-class destroyer",
+      "ja": "Iクラス駆逐艦",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ia (vocaloid)",
+      "ja": "IA（ボーカロイド）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ib (kouri)",
+      "ja": "イヴ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ibaraki douji (fate)",
+      "ja": "イバラキ・ドゥジ（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ibaraki kasen",
+      "ja": "扇ぱい",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ibuki (blue archive)",
+      "ja": "イブキ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ibuki suika",
+      "ja": "伊吹萃香",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ice",
+      "ja": "氷",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice cream",
+      "ja": "アイスクリーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice cream cone",
+      "ja": "アイスクリームコーン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice cream float",
+      "ja": "クリームソーダ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice cube",
+      "ja": "氷のキューブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice skates",
+      "ja": "アイススケート靴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ice wings",
+      "ja": "氷の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ichika (blue archive)",
+      "ja": "イチカ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ichikawa feesu",
+      "ja": "一川骨u",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ichimi",
+      "ja": "一人",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ichinose shiki",
+      "ja": "一ノ瀬志希",
+      "status": "needs_review"
+    },
+    {
+      "tag": "icho private high school uniform",
+      "ja": "イチョ私立高校のユニフォーム",
+      "status": "needs_review"
+    },
+    {
+      "tag": "icing",
+      "ja": "アイシング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "id card",
+      "ja": "身分証明書",
+      "status": "reviewed"
+    },
+    {
+      "tag": "identity v",
+      "ja": "アイデンティティv",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ido (teketeke)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idol",
+      "ja": "アイドル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "idol clothes",
+      "ja": "アイドル衣装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "idolmaster",
+      "ja": "アイドルマスター",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster (classic)",
+      "ja": "Idolmaster（クラシック）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster 1",
+      "ja": "アケマス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster 2",
+      "ja": "アイドルマスター2",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster cinderella girls",
+      "ja": "アイドルマスターシンデレラガールズ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster cinderella girls starlight stage",
+      "ja": "アイドルマスターシンデレラガールズスターライトステージ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster dearly stars",
+      "ja": "アイドルマスターは心から主演します",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster million live!",
+      "ja": "アイドルマスターミリオンライブ!",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster million live! theater days",
+      "ja": "Idolmaster Million Live！劇場の日",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster shiny colors",
+      "ja": "Idolmasterの光沢のある色",
+      "status": "needs_review"
+    },
+    {
+      "tag": "idolmaster side-m",
+      "ja": "アイドルマスターSideM",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iesupa",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "if they mated",
+      "ja": "彼らが交尾した場合",
+      "status": "needs_review"
+    },
+    {
+      "tag": "igarashi futaba (shiromanta)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "igote",
+      "ja": "射籠手",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iizuki tasuku",
+      "ja": "イツキタスク",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iizunamaru megumu",
+      "ja": "飯綱丸龍",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ijichi nijika",
+      "ja": "リョウ虹",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ijiranaide nagatoro-san",
+      "ja": "イジらないで、長瀞さん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikamusume",
+      "ja": "イカ娘",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikari manatsu",
+      "ja": "イカリマナツ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikari shinji",
+      "ja": "碇シンジ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikazuchi (kancolle)",
+      "ja": "雷(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ike (fire emblem)",
+      "ja": "Ike（火の紋章）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikeuchi tanuma",
+      "ja": "青島タヌマ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikkitousen",
+      "ja": "一騎当千",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ikuchan kaoru",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "illustration",
+      "ja": "イラスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "illustrious (azur lane)",
+      "ja": "輝かしい（アズールレーン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "illyasviel von einzbern",
+      "ja": "イリヤスフィール・フォン・アインツベルン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ilya kuvshinov",
+      "ja": "イリヤ・クブシノフ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "imagining",
+      "ja": "想像する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "imaizumi kagerou",
+      "ja": "今泉影狼",
+      "status": "needs_review"
+    },
+    {
+      "tag": "imizu (nitro unknown)",
+      "ja": "イミズ（ニトロ不明）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "imminent kiss",
+      "ja": "キス寸前",
+      "status": "reviewed"
+    },
+    {
+      "tag": "imminent penetration",
+      "ja": "挿入寸前",
+      "status": "reviewed"
+    },
+    {
+      "tag": "imminent vaginal",
+      "ja": "膣への挿入寸前",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impaled",
+      "ja": "串刺し",
+      "status": "reviewed"
+    },
+    {
+      "tag": "imperial japanese army",
+      "ja": "大日本帝国陸軍",
+      "status": "reviewed"
+    },
+    {
+      "tag": "implied fingering",
+      "ja": "指での愛撫を示唆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "implied kiss",
+      "ja": "キスを示唆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "implied pregnancy",
+      "ja": "妊娠を示唆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "implied sex",
+      "ja": "性行為を示唆",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible bodysuit",
+      "ja": "非現実的なボディスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible clothes",
+      "ja": "非現実的な服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible dress",
+      "ja": "非現実的なドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible leotard",
+      "ja": "非現実的なレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible shirt",
+      "ja": "非現実的なシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impossible swimsuit",
+      "ja": "非現実的な水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impregnation",
+      "ja": "妊娠させる行為",
+      "status": "reviewed"
+    },
+    {
+      "tag": "impressionism",
+      "ja": "印象派",
+      "status": "reviewed"
+    },
+    {
+      "tag": "imu sanjo",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "in box",
+      "ja": "箱の中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in bucket",
+      "ja": "バケツの中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in container",
+      "ja": "容器の中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in cup",
+      "ja": "カップの中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in food",
+      "ja": "食べ物の中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in heat",
+      "ja": "発情",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in palm",
+      "ja": "手のひらの上",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in the face",
+      "ja": "顔に",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in tree",
+      "ja": "木の中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in water",
+      "ja": "水中",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in-franchise crossover",
+      "ja": "同一シリーズ内のクロスオーバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "in-universe location",
+      "ja": "作中の場所",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inaba tewi",
+      "ja": "因幡てゐ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inazuma (kancolle)",
+      "ja": "電(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inazuma eleven",
+      "ja": "イナズマイレブン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inazuma eleven (series)",
+      "ja": "イナズマイレブン（シリーズ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inazuma eleven go",
+      "ja": "イナズマイレブンゴー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inazuma eleven go chrono stone",
+      "ja": "イナズマイレブンゴークロノストーン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "incest",
+      "ja": "近親相姦",
+      "status": "reviewed"
+    },
+    {
+      "tag": "incoming attack",
+      "ja": "迫り来る攻撃",
+      "status": "reviewed"
+    },
+    {
+      "tag": "incoming food",
+      "ja": "差し出される食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "incoming gift",
+      "ja": "差し出される贈り物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "incoming hug",
+      "ja": "抱きつかれる直前",
+      "status": "reviewed"
+    },
+    {
+      "tag": "incoming kiss",
+      "ja": "キスされる直前",
+      "status": "reviewed"
+    },
+    {
+      "tag": "index (toaru majutsu no index)",
+      "ja": "インデックス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "index finger raised",
+      "ja": "人差し指を立てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "index fingers raised",
+      "ja": "両方の人差し指を立てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "index fingers together",
+      "ja": "両手の人差し指を合わせる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "indian clothes",
+      "ja": "インド風の服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "indian style",
+      "ja": "インド風",
+      "status": "reviewed"
+    },
+    {
+      "tag": "indie virtual youtuber",
+      "ja": "個人勢VTuber",
+      "status": "reviewed"
+    },
+    {
+      "tag": "indoors",
+      "ja": "屋内",
+      "status": "reviewed"
+    },
+    {
+      "tag": "industrial piercing",
+      "ja": "インダストリアルピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "industrial pipe",
+      "ja": "工業用パイプ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "infection monitor (arknights)",
+      "ja": "感染モニター（Arknights）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "infinite stratos",
+      "ja": "無限のストラト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "infinity symbol",
+      "ja": "無限大記号",
+      "status": "reviewed"
+    },
+    {
+      "tag": "infirmary",
+      "ja": "医務室",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inflatable raft",
+      "ja": "ゴムボート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inflatable toy",
+      "ja": "空気で膨らませる玩具",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inflation",
+      "ja": "膨張",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ini (inunabe00)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "injury",
+      "ja": "負傷",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ink",
+      "ja": "インク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ink tank (splatoon)",
+      "ja": "インクタンク（スプラトゥーン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inkling",
+      "ja": "インクリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inkling boy",
+      "ja": "インクリング（男の子）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inkling girl",
+      "ja": "インクリング（女の子）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inkling player character",
+      "ja": "プレイヤーキャラクター（インクリング）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inktober",
+      "ja": "インクトーバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inkwell",
+      "ja": "インク壺",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inline skates",
+      "ja": "インラインスケート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "innertube",
+      "ja": "浮き輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inoue orihime",
+      "ja": "井上織姫",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inoue takina",
+      "ja": "井ノ上たきな",
+      "status": "needs_review"
+    },
+    {
+      "tag": "insect wings",
+      "ja": "昆虫の翅",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inset",
+      "ja": "はめ込み",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inset border",
+      "ja": "内側の縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "insignia",
+      "ja": "徽章",
+      "status": "reviewed"
+    },
+    {
+      "tag": "instagram logo",
+      "ja": "Instagramのロゴ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "instagram username",
+      "ja": "Instagramのユーザー名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "instant loss",
+      "ja": "即敗北",
+      "status": "reviewed"
+    },
+    {
+      "tag": "instrument",
+      "ja": "楽器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "instrument case",
+      "ja": "楽器ケース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "interface headset",
+      "ja": "ヘッドセット型インターフェース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "interior",
+      "ja": "室内",
+      "status": "reviewed"
+    },
+    {
+      "tag": "interlocked fingers",
+      "ja": "指を絡める",
+      "status": "reviewed"
+    },
+    {
+      "tag": "internal cumshot",
+      "ja": "中出し",
+      "status": "needs_review"
+    },
+    {
+      "tag": "interracial",
+      "ja": "異人種間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "interspecies",
+      "ja": "異種族間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "intestines",
+      "ja": "腸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "intravenous drip",
+      "ja": "点滴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "intricate details",
+      "ja": "緻密な描写",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inubashiri momiji",
+      "ja": "ショタ椛",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inugami korone",
+      "ja": "戌神ころね",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inugami korone (1st costume)",
+      "ja": "戌神ころね(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inui toko",
+      "ja": "戌亥とこ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inuyasha",
+      "ja": "犬山",
+      "status": "needs_review"
+    },
+    {
+      "tag": "inverted bob",
+      "ja": "逆さボブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inverted cross",
+      "ja": "逆十字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "inverted nipples",
+      "ja": "陥没乳首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "invisible",
+      "ja": "透明・見えない",
+      "status": "reviewed"
+    },
+    {
+      "tag": "invisible chair",
+      "ja": "見えない椅子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "invisible man",
+      "ja": "透明人間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "iono (pokemon)",
+      "ja": "イオノ（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iori (blue archive)",
+      "ja": "イオリ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iowa (kancolle)",
+      "ja": "アイオワ（艦これ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iphone",
+      "ja": "iPhone",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ipod",
+      "ja": "iPod",
+      "status": "needs_review"
+    },
+    {
+      "tag": "irene (arknights)",
+      "ja": "アイリーン（arknights）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "irida (pokemon)",
+      "ja": "イリダ（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "irisviel von einzbern",
+      "ja": "アイリスフィール・フォン・アインツベルン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iroha (blue archive)",
+      "ja": "イロハ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iron cross",
+      "ja": "アイアンクロス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "irrumatio",
+      "ja": "照明",
+      "status": "needs_review"
+    },
+    {
+      "tag": "irys (hololive)",
+      "ja": "アイリス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ise (kancolle)",
+      "ja": "伊勢(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isekaijoucho",
+      "ja": "ヰ世界情緒",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iseri nina",
+      "ja": "になもも",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ishikei",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ishiyumi",
+      "ja": "石yumi",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ishmael (project moon)",
+      "ja": "イシュメール",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ishtar (fate)",
+      "ja": "イシュタル（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "iskandar (fate)",
+      "ja": "イスカンダル（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "island",
+      "ja": "島",
+      "status": "reviewed"
+    },
+    {
+      "tag": "isoi reiji",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isokaze (kancolle)",
+      "ja": "磯風(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isometric",
+      "ja": "アイソメトリック構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "isonami (kancolle)",
+      "ja": "磯波(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isshiki (ffmania7)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isuzu (kancolle)",
+      "ja": "五十鈴(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "isuzu hana",
+      "ja": "いすhana",
+      "status": "needs_review"
+    },
+    {
+      "tag": "itadori yuuji",
+      "ja": "イタドリユウジ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "italian flag",
+      "ja": "イタリア国旗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "italian text",
+      "ja": "イタリア語の文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ito noizi",
+      "ja": "伊藤noizi",
+      "status": "needs_review"
+    },
+    {
+      "tag": "itomugi-kun",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "itsumi erika",
+      "ja": "逸見エリカ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ivy",
+      "ja": "ツタ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ixy",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izawa (bhive003)",
+      "ja": "伊沢（bhive003）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izayoi sakuya",
+      "ja": "いざよいさくや",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izumi konata",
+      "ja": "泉こなた",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izumi sagiri",
+      "ja": "和泉紗霧",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izumi tsubasu",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "izuna (blue archive)",
+      "ja": "イズナ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jack dempa",
+      "ja": "ジャックデンパ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jack the ripper (fate/apocrypha)",
+      "ja": "ジャック・ザ・リッパー（Fate/Apocrypha）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jackal ears",
+      "ja": "ジャッカルイヤー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jacket",
+      "ja": "ジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket around waist",
+      "ja": "腰に巻いたジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket lift",
+      "ja": "ジャケットめくり",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket on shoulders",
+      "ja": "肩に掛けたジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket over swimsuit",
+      "ja": "水着の上にジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket partially removed",
+      "ja": "ジャケットを半分脱いだ状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jacket pull",
+      "ja": "ジャケットを引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jaggy lines",
+      "ja": "ギザギザの線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jaguar ears",
+      "ja": "ジャガーの耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jaguar print",
+      "ja": "ジャガー柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jaguar tail",
+      "ja": "ジャガーの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jako (jakoo21)",
+      "ja": "ジャコ（jakoo21）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jakuzure nonon",
+      "ja": "蛇崩乃音",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jam",
+      "ja": "ジャム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "james (pokemon)",
+      "ja": "ジェームズ（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jane doe (zenless zone zero)",
+      "ja": "ジェーン・ドゥ(ゼンゼロ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "japan",
+      "ja": "日本",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japan national police",
+      "ja": "警察庁",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japanese armor",
+      "ja": "日本の甲冑",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japanese clothes",
+      "ja": "和服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japanese crested ibis (kemono friends)",
+      "ja": "日本の紋付きのイビス（ケモモーの友達）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "japanese flag",
+      "ja": "日本国旗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japari bun",
+      "ja": "ジャパリまん",
+      "status": "reviewed"
+    },
+    {
+      "tag": "japari symbol",
+      "ja": "ジャパリパークのシンボル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jar",
+      "ja": "瓶",
+      "status": "reviewed"
+    },
+    {
+      "tag": "javelin (azur lane)",
+      "ja": "ジャベリン（アズールレーン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jealous",
+      "ja": "嫉妬",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jean (genshin impact)",
+      "ja": "ジャン（ジェンシンインパクト）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jean pierre polnareff",
+      "ja": "ジャン・ピエール・ポルナレフ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jeans",
+      "ja": "ジーンズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jellyfish",
+      "ja": "クラゲ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jersey",
+      "ja": "ジャージ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jersey maid",
+      "ja": "ジャージメイド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jervis (kancolle)",
+      "ja": "ジャーヴィス(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jessie (pokemon)",
+      "ja": "ジェシー（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jester",
+      "ja": "道化師",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jester cap",
+      "ja": "道化師の帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jetpack",
+      "ja": "ジェットパック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jewel under eye",
+      "ja": "目の下の宝石",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jeweled branch of hourai",
+      "ja": "Houraiの宝石の枝",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jewelry",
+      "ja": "宝飾品",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jiangshi",
+      "ja": "キョンシー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jiangshi costume",
+      "ja": "キョンシー衣装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jigglypuff",
+      "ja": "プリン（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jimiko",
+      "ja": "地味子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jin (mugenjin)",
+      "ja": "ジン（ムゲンジン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jingasa",
+      "ja": "陣笠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jingle bell",
+      "ja": "鈴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jinguu (4839ms)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jintsuu (kancolle)",
+      "ja": "神通(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jinx (league of legends)",
+      "ja": "ジンクス（リーグオブレジェンド）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jirai kei",
+      "ja": "地雷系ファッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jitome",
+      "ja": "ジト目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jjune",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jmg",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jockstrap",
+      "ja": "ジョックストラップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "joestar birthmark",
+      "ja": "ジョースターの星形の痣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "johnny joestar",
+      "ja": "ジョニー・ジョスター",
+      "status": "needs_review"
+    },
+    {
+      "tag": "joints",
+      "ja": "関節",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jojo no kimyou na bouken",
+      "ja": "ジョジョの奇妙な冒険",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jojo pose",
+      "ja": "ジョジョ立ち",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jojolion",
+      "ja": "ジョジョリオン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jokanhiyou",
+      "ja": "ジョカンヒユー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jolly roger",
+      "ja": "海賊旗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jonathan joestar",
+      "ja": "ジョナサン・ジョスター",
+      "status": "needs_review"
+    },
+    {
+      "tag": "joseph joestar",
+      "ja": "ジョセフ・ジョスター",
+      "status": "needs_review"
+    },
+    {
+      "tag": "joseph joestar (young)",
+      "ja": "ジョセフ・ジョスター（ヤング）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "josou seme",
+      "ja": "女装攻め",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jougasaki mika",
+      "ja": "城ヶ崎美嘉",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jougasaki rika",
+      "ja": "城ヶ崎莉嘉",
+      "status": "needs_review"
+    },
+    {
+      "tag": "joy-con",
+      "ja": "Joy-Con",
+      "status": "reviewed"
+    },
+    {
+      "tag": "joystick",
+      "ja": "ジョイスティック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jpeg artifacts",
+      "ja": "JPEG圧縮ノイズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "juice",
+      "ja": "ジュース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "juice box",
+      "ja": "紙パック飲料",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jujutsu kaisen",
+      "ja": "柔術カイゼン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jujutsu tech uniform",
+      "ja": "柔術技術ユニフォーム",
+      "status": "needs_review"
+    },
+    {
+      "tag": "juliana (pokemon)",
+      "ja": "ジュリアナ（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "juliet sleeves",
+      "ja": "ジュリエットスリーブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jump rope",
+      "ja": "縄跳び",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jumping",
+      "ja": "ジャンプ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jumpsuit",
+      "ja": "ジャンプスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "jumpy dumpty",
+      "ja": "ジャンプダンプティ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "jungle",
+      "ja": "ジャングル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "junketsu",
+      "ja": "純潔",
+      "status": "needs_review"
+    },
+    {
+      "tag": "junko (touhou)",
+      "ja": "ジャンコ（東）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "just the tip",
+      "ja": "先端だけ挿入",
+      "status": "reviewed"
+    },
+    {
+      "tag": "k-on!",
+      "ja": "けいおん!",
+      "status": "needs_review"
+    },
+    {
+      "tag": "k-pop",
+      "ja": "K-POP",
+      "status": "reviewed"
+    },
+    {
+      "tag": "k-suwabe",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "k/da (league of legends)",
+      "ja": "K/DA（リーグオブレジェンド）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaamin (mariarose753)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaban (kemono friends)",
+      "ja": "かばん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kabedon",
+      "ja": "壁ドン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kaburagi t. kotetsu",
+      "ja": "鏑木・T・虎徹",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kabuto (helmet)",
+      "ja": "兜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kachimachi kosuzu",
+      "ja": "徒町チャレンジ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kadomatsu",
+      "ja": "門松",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kaedehara kazuha",
+      "ja": "枫原万叶",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaenbyou rin",
+      "ja": "お燐",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaenbyou rin (cat)",
+      "ja": "Kaenbyou Rin（猫）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaeya (genshin impact)",
+      "ja": "ガイア・アルベリヒ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kafka (honkai: star rail)",
+      "ja": "カフカ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kafuu chino",
+      "ja": "チノ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaga (azur lane)",
+      "ja": "加賀(アズールレーン)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaga (kancolle)",
+      "ja": "加賀(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagami hirotaka",
+      "ja": "達人",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagami mochi",
+      "ja": "鏡餅",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagamine len",
+      "ja": "鏡音レン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagamine rin",
+      "ja": "鏡音リン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagari atsuko",
+      "ja": "カガリ・アツコ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagerou (kancolle)",
+      "ja": "陽炎(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagerou project",
+      "ja": "Kagerouプロジェクト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagiyama hina",
+      "ja": "厄リスマス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kagura (gintama)",
+      "ja": "神楽(銀魂)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaigen 1025",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaiji",
+      "ja": "カイジ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaiju",
+      "ja": "怪獣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kaisen chuui",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaito (vocaloid)",
+      "ja": "カイト（ボーカロイド）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaku seiga",
+      "ja": "霍青娥",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kakyoin noriaki",
+      "ja": "花京院典明",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kalashnikov rifle",
+      "ja": "カラシニコフライフル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaleidostick",
+      "ja": "カレイドスティック",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kama (fate)",
+      "ja": "カマ（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamaboko",
+      "ja": "かまぼこ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kamado nezuko",
+      "ja": "竈門禰豆子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamado tanjirou",
+      "ja": "カマド・タンジルー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kame (kamepan44231)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamen rider",
+      "ja": "仮面ライダー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamijou touma",
+      "ja": "上嬢さん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamikaze (kancolle)",
+      "ja": "神風(艦これ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamille (vcx68)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamio misuzu",
+      "ja": "カミオ島",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamisato ayaka",
+      "ja": "神里绫华",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamisato ayato",
+      "ja": "神里绫人",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamisato clan (emblem)",
+      "ja": "神里の紋",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamishirasawa keine",
+      "ja": "上白沢慧音",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamitsubaki studio",
+      "ja": "神椿スタジオ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamiya nao",
+      "ja": "神谷奈緒",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamiyama high school uniform (hyouka)",
+      "ja": "神山高校",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamiyama high school uniform (project sekai)",
+      "ja": "神山高校",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kamui gakupo",
+      "ja": "神威がくぽ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanabou",
+      "ja": "金棒",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaname madoka",
+      "ja": "鹿目まどか",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaname madoka (magical girl)",
+      "ja": "鹿目まどか（魔法少女）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaname-ishi",
+      "ja": "要石",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanba girls high school uniform",
+      "ja": "神庭女子藝術高校",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kani biimu",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanikama",
+      "ja": "カニカマ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kankan33333",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanna (blue archive)",
+      "ja": "尾刃カンナ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanna (swimsuit) (blue archive)",
+      "ja": "尾刃カンナ(水着)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanna kamui",
+      "ja": "カンナ・カムイ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kannagi",
+      "ja": "カンナギ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanon",
+      "ja": "カノン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanon (kurogane knights)",
+      "ja": "カノン（クロガネナイツ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanpa (campagne 9)",
+      "ja": "カンパ（カンパニュ9）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanroji mitsuri",
+      "ja": "甘露寺蜜璃",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanshou & bakuya (fate)",
+      "ja": "カンショウ＆バクヤ（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kantai collection",
+      "ja": "艦隊これくしょん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kantoku",
+      "ja": "カントク",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanzaki ranko",
+      "ja": "漢字ランコ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kanzashi",
+      "ja": "簪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kappa",
+      "ja": "河童",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kappougi",
+      "ja": "割烹着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kara no kyoukai",
+      "ja": "空の境界",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karaagetarou",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karakai jouzu no takagi-san",
+      "ja": "からかい上手の高木さん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karakasa obake",
+      "ja": "唐傘お化け",
+      "status": "reviewed"
+    },
+    {
+      "tag": "karaoke",
+      "ja": "カラオケ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "karate gi",
+      "ja": "空手着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kariginu",
+      "ja": "狩衣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "karin (blue archive)",
+      "ja": "カリン（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karin (bunny) (blue archive)",
+      "ja": "カリン（バニー）（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kariyushi shirt",
+      "ja": "カリユシシャツ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karukan (monjya)",
+      "ja": "カルカン（モンジャ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "karyl (princess connect!)",
+      "ja": "キャル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasane teto",
+      "ja": "重音テト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasane teto (sv)",
+      "ja": "重音テトSV",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kase daiki",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kashikaze",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kashima (kancolle)",
+      "ja": "鹿島(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kashiwamochi yomogi",
+      "ja": "カシワモチヨモギ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kashiwazaki sena",
+      "ja": "柏崎星奈",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasodani kyouko",
+      "ja": "幽谷響子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasugano sakura",
+      "ja": "春日野さくら",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasumi (doa)",
+      "ja": "カスミ（ドア）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasumi (kancolle)",
+      "ja": "霞(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasumi (skchkko)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kasumi kai ni (kancolle)",
+      "ja": "霞改二",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katahira masashi",
+      "ja": "カタヒラマシャシ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katana",
+      "ja": "刀",
+      "status": "reviewed"
+    },
+    {
+      "tag": "katekyo hitman reborn!",
+      "ja": "家庭教師ヒットマンREBORN!",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katori (kancolle)",
+      "ja": "香取(艦これ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katsuki yuuri",
+      "ja": "yuuriのkats",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katsuragi (kancolle)",
+      "ja": "葛城(艦これ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katsuragi misato",
+      "ja": "カツラギ師",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katsushika hokusai (fate)",
+      "ja": "北朝鮮（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "katyusha (girls und panzer)",
+      "ja": "カチューシャ（ガールズ＆パンツァー）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kaveh (genshin impact)",
+      "ja": "カーヴェ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kawaii",
+      "ja": "かわいい",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kawakaze (kancolle)",
+      "ja": "江風(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kawaragi momoka",
+      "ja": "になもも",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kawashina (momen silicon)",
+      "ja": "カワシナ（Momen Silicon）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kawashiro nitori",
+      "ja": "川橋ニトリ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kay (girls und panzer)",
+      "ja": "ケイ（ガールズ＆パンツァー）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kayoko (blue archive)",
+      "ja": "カヨコ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kazama iroha",
+      "ja": "風真いろは",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kazama iroha (1st costume)",
+      "ja": "風真いろは(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kazami yuuka",
+      "ja": "風見幽香",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kazenokaze",
+      "ja": "カゼノカゼ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kazusa (blue archive)",
+      "ja": "カズサ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "keep out",
+      "ja": "立入禁止",
+      "status": "reviewed"
+    },
+    {
+      "tag": "keizoku military uniform",
+      "ja": "剣道軍服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "keizoku school uniform",
+      "ja": "継続高校の制服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kel (omori)",
+      "ja": "ケル（オモリ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemachiku",
+      "ja": "ケマチク",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemomimi-chan (naga u)",
+      "ja": "ケモミミちゃん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemono friends",
+      "ja": "ケモモの友達",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemono friends 3",
+      "ja": "けものフレンズ3",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemono friends v project",
+      "ja": "けものフレンズVぷろじぇくと",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kemonomimi mode",
+      "ja": "Kemonomimiモード",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kenkou cross",
+      "ja": "ケンコウクロス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kenzaki makoto",
+      "ja": "ケンザキ・マコト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kepi",
+      "ja": "ケピ帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "keqing (genshin impact)",
+      "ja": "刻晴",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kerchief",
+      "ja": "ネッカチーフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kero (cardcaptor sakura)",
+      "ja": "ケロちゃん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "keroro gunsou",
+      "ja": "ケロロ軍曹",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kesa",
+      "ja": "袈裟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kessoku band",
+      "ja": "結束バンド",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ketchup",
+      "ja": "ケチャップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ketchup bottle",
+      "ja": "ケチャップボトル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kettle",
+      "ja": "やかん",
+      "status": "reviewed"
+    },
+    {
+      "tag": "key",
+      "ja": "鍵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "key necklace",
+      "ja": "鍵のネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "key visual",
+      "ja": "キービジュアル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "keyblade",
+      "ja": "キーブレード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "keyboard (instrument)",
+      "ja": "キーボード（楽器）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "keyhole",
+      "ja": "鍵穴",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kfr",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiana kaslana",
+      "ja": "キアナ・カスラーナ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kibito high school uniform",
+      "ja": "キビト高校のユニフォーム",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kicchou yachie",
+      "ja": "8月7日は八千慧の日",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kichihachi",
+      "ja": "キチハチ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kickboard",
+      "ja": "キックボード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kicking",
+      "ja": "蹴る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kid icarus",
+      "ja": "パルテナの鏡",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kid icarus uprising",
+      "ja": "キッド・イカロス蜂起",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kieran (pokemon)",
+      "ja": "スグリ(ポケモン)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kigurumi",
+      "ja": "着ぐるみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kijin seija",
+      "ja": "鬼人正邪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kikuchi makoto",
+      "ja": "松田清",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kikumon",
+      "ja": "菊の御紋",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kikyou (blue archive)",
+      "ja": "キキョウ(ブルーアーカイブ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kill la kill",
+      "ja": "キルラキル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kill me baby",
+      "ja": "赤ちゃんを殺します",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kilye kairi",
+      "ja": "キリー・カイリ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kimetsu no yaiba",
+      "ja": "鬼滅の刃",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kimono",
+      "ja": "着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kimono lift",
+      "ja": "着物をめくる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kimono pull",
+      "ja": "着物を引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kimono skirt",
+      "ja": "着物風スカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kin-iro mosaic",
+      "ja": "親族イロモザイク",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kinchaku",
+      "ja": "巾着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kindergarten uniform",
+      "ja": "幼稚園の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kine",
+      "ja": "杵",
+      "status": "needs_review"
+    },
+    {
+      "tag": "king (chess)",
+      "ja": "キング（チェス）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "king halo (umamusume)",
+      "ja": "キングヘイロー(ウマ娘)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kingdom hearts",
+      "ja": "キングダムハーツ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kinkymation",
+      "ja": "キンキメーション",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kino makoto",
+      "ja": "木野まこと",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kinomoto sakura",
+      "ja": "桜庭",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kinugasa (kancolle)",
+      "ja": "衣笠(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirakira precure a la mode",
+      "ja": "Kirakira Precure a laモード",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirby",
+      "ja": "カービー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirby (series)",
+      "ja": "星のカービィ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirigaya suguha",
+      "ja": "桐ヶ谷直葉",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirigiri kyoko",
+      "ja": "霧切響子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirijou mitsuru",
+      "ja": "キリジュー・ミツル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirima syaro",
+      "ja": "キリマ・シロ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirin (armor)",
+      "ja": "キリン装備",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirino ranmaru",
+      "ja": "蘭マサ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirisame marisa",
+      "ja": "キリサメ・マリサ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirisawa juuzou",
+      "ja": "キリサワ柔術",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirishima (kancolle)",
+      "ja": "霧島（艦これ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirito",
+      "ja": "キリト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kirlia",
+      "ja": "キルリア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiryu coco",
+      "ja": "桐生ココ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiryu coco (1st costume)",
+      "ja": "桐生ココ(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiryuuin satsuki",
+      "ja": "鬼龍院皐月",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kisaki (blue archive)",
+      "ja": "竜華キサキ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kisaragi (kancolle)",
+      "ja": "如月(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kisaragi chihaya",
+      "ja": "如月千早",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kise yayoi",
+      "ja": "黄瀬やよい",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiseru",
+      "ja": "煙管",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kishibe rohan",
+      "ja": "岸辺露伴",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kishimen hair",
+      "ja": "きしめん状の髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kishin sagume",
+      "ja": "稀神サグメ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiso (kancolle)",
+      "ja": "木曾(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiss",
+      "ja": "キス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kissing",
+      "ja": "キスをする",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kissing cheek",
+      "ja": "頬にキス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kissing forehead",
+      "ja": "額にキス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kissing hand",
+      "ja": "手の甲にキス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kissing neck",
+      "ja": "首にキス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kisume",
+      "ja": "キズメ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kita high school uniform",
+      "ja": "キタ高校のユニフォーム",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kita ikuyo",
+      "ja": "ぼ喜多",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitagawa marin",
+      "ja": "北川マリン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitakami (kancolle)",
+      "ja": "北上（艦これ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitasan black (umamusume)",
+      "ja": "キタサンブラック(ウマ娘)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitauji high school uniform",
+      "ja": "北宇治高校の制服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitchen",
+      "ja": "台所",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kitchen knife",
+      "ja": "包丁",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kitsune",
+      "ja": "狐",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kitsunerider",
+      "ja": "キツネライダー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kitten",
+      "ja": "子猫",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kiwi (fruit)",
+      "ja": "キウイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kiyohime (fate)",
+      "ja": "kiyohime（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiyoshimo (kancolle)",
+      "ja": "清霜(艦これ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kiyosumi school uniform",
+      "ja": "久野学校の制服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kizuna ai",
+      "ja": "キズナアイ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kizuna ai inc.",
+      "ja": "キズナアイ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kizuna akari",
+      "ja": "紲星あかり",
+      "status": "needs_review"
+    },
+    {
+      "tag": "klee (genshin impact)",
+      "ja": "クリー（ジェンシンインパクト）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kloah",
+      "ja": "クロア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "knee boots",
+      "ja": "ニーハイブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knee pads",
+      "ja": "膝当て",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knee up",
+      "ja": "膝上までの構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kneehighs",
+      "ja": "ニーソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kneeling",
+      "ja": "膝立ち",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kneepits",
+      "ja": "膝裏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees",
+      "ja": "膝",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees apart feet together",
+      "ja": "膝を開き、足を揃える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees out of frame",
+      "ja": "膝が画面外",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees to chest",
+      "ja": "膝を胸に引き寄せる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees together feet apart",
+      "ja": "膝を揃え、足を開く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knees up",
+      "ja": "膝を立てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knife",
+      "ja": "ナイフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knife sheath",
+      "ja": "ナイフの鞘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knight",
+      "ja": "騎士",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knight (chess)",
+      "ja": "ナイト（チェス）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knitted",
+      "ja": "ニット素材",
+      "status": "reviewed"
+    },
+    {
+      "tag": "knives between fingers",
+      "ja": "指の間にナイフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "koakuma",
+      "ja": "香港",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kobayashi-san chi no maidragon",
+      "ja": "小林 - さん、馬馬",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kochiya sanae",
+      "ja": "東風谷早苗",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kochou shinobu",
+      "ja": "小川忍",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kodomo doushi",
+      "ja": "インピオ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kogal",
+      "ja": "コギャル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "koha-ace",
+      "ja": "コハエース",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koharu (blue archive)",
+      "ja": "コハル（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koi",
+      "ja": "ニシキゴイ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koihime musou",
+      "ja": "モバ恋姫",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koishi day",
+      "ja": "コイシの日",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koizumi hanayo",
+      "ja": "小山hanayo",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koizumi itsuki",
+      "ja": "魚類島",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kokkoro (princess connect!)",
+      "ja": "コッコロ（プリンセスコネクト！）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kokona (blue archive)",
+      "ja": "ココナ（ブルーアーカイブ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komaeda nagito",
+      "ja": "狛枝凪斗",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komano aunn",
+      "ja": "高麗野あうん",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komeiji koishi",
+      "ja": "古明地こいし",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komeiji satori",
+      "ja": "古明地さとり",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komi shouko",
+      "ja": "コミ・ショーコ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komi-san wa komyushou desu",
+      "ja": "古見さんは、コミュ症です。",
+      "status": "needs_review"
+    },
+    {
+      "tag": "komiya kaho",
+      "ja": "小宮果穂",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kongou (kancolle)",
+      "ja": "金剛(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konjiki no yami",
+      "ja": "金色の闇",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kono lolicon domome",
+      "ja": "河野ロリコンドモーム",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kono subarashii sekai ni shukufuku wo!",
+      "ja": "この素晴らしい世界に祝福を!",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konohagakure shinobi uniform",
+      "ja": "木ノ葉隠れの忍者服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konohagakure symbol",
+      "ja": "コノハガカクレのシンボル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konoshige (ryuun)",
+      "ja": "コノシゲ（ryuun）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konpaku youmu",
+      "ja": "魂魄妖夢",
+      "status": "needs_review"
+    },
+    {
+      "tag": "konpaku youmu (ghost)",
+      "ja": "konpaku youmu（幽霊）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "korean clothes",
+      "ja": "韓服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "korean text",
+      "ja": "韓国語の文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "koruri",
+      "ja": "コルリ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kosaka honoka",
+      "ja": "高坂穂乃果",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koseki bijou",
+      "ja": "古石ビジュー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koshimizu sachiko",
+      "ja": "小島sachiko",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotatsu",
+      "ja": "こたつ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kote",
+      "ja": "籠手",
+      "status": "reviewed"
+    },
+    {
+      "tag": "koto inari",
+      "ja": "コトナリ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotobuki tsumugi",
+      "ja": "木本大国",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotomine kirei",
+      "ja": "言峰綺礼",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotonoha akane",
+      "ja": "琴葉茜",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotonoha aoi",
+      "ja": "琴葉葵",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotorai",
+      "ja": "コトライ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kotoyoro",
+      "ja": "コトヨロ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kou hiyoyo",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kouhaku nawa",
+      "ja": "紅白ロープ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kouji (campus life)",
+      "ja": "Kouji（キャンパスライフ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kouno (masao)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kourindou tengu costume",
+      "ja": "香霖堂天狗装束",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kousaka kirino",
+      "ja": "高坂桐乃",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kousaka reina",
+      "ja": "クサカ・レイナ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kousaka tamaki",
+      "ja": "タマ姉",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kouzuki kallen",
+      "ja": "カレン・シュタットフェルト",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koyama shigeru",
+      "ja": "小山shigeru",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koyanskaya (fate)",
+      "ja": "コヤンスカヤ（Fate）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "koyorin",
+      "ja": "コヨリン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kris (pokemon)",
+      "ja": "クリス（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "krista lenz",
+      "ja": "クリスタ・レンズ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuavera",
+      "ja": "クアベラ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuchiki rukia",
+      "ja": "朽木ルキア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kudamaki tsukasa",
+      "ja": "クダマキ・ツカサ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kugisaki nobara",
+      "ja": "釘崎野薔薇",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuji-in",
+      "ja": "九字切り",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kujikawa rise",
+      "ja": "クジカワが立ち上がる",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kujo jolyne",
+      "ja": "空条徐倫",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kujo jotaro",
+      "ja": "クジョ・ジョタロ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kujou karasuma",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kujou sara",
+      "ja": "九条サラ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kukie-nyan",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuma (kancolle)",
+      "ja": "球磨(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kumano (kancolle)",
+      "ja": "熊野(艦隊これくしょん)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kumoi ichirin",
+      "ja": "雲居一輪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kunai",
+      "ja": "苦無",
+      "status": "reviewed"
+    },
+    {
+      "tag": "kunikida hanamaru",
+      "ja": "よしまる普及委員会",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kureiji ollie",
+      "ja": "クレイジ・オリー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuro kosyou",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuro no kiseki (series)",
+      "ja": "黎の軌跡（シリーズ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurodani yamame",
+      "ja": "黒谷ヤマメ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuroki tomoko",
+      "ja": "トモコ黒子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurokoma saki",
+      "ja": "黒子サキ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurokote",
+      "ja": "黒Cote",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuromiya",
+      "ja": "クロミヤ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuromorimine military uniform",
+      "ja": "クロモリミン軍服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuromorimine school uniform",
+      "ja": "クロモリミンの学校制服",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurosaki ichigo",
+      "ja": "黒子一辺",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurosawa dia",
+      "ja": "黒崎ダイア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurosawa ruby",
+      "ja": "黒崎ルビー",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuroshio (kancolle)",
+      "ja": "黒潮（艦これ）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurukurumagical",
+      "ja": "クルクルマジカル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kurumi erika",
+      "ja": "来海えりか",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kusazuri",
+      "ja": "草摺",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kuwayama chiyuki",
+      "ja": "桑山千雪",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyon",
+      "ja": "キョン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyonko",
+      "ja": "キョン子",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyoukaisenjou no horizon",
+      "ja": "境界線上のホライゾン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyubey",
+      "ja": "キュゥべえ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyuubi",
+      "ja": "九尾",
+      "status": "needs_review"
+    },
+    {
+      "tag": "kyuudou",
+      "ja": "九州",
+      "status": "needs_review"
+    },
+    {
+      "tag": "la+ darknesss",
+      "ja": "la+暗闇",
+      "status": "needs_review"
+    },
+    {
+      "tag": "la+ darknesss (1st costume)",
+      "ja": "ラプラス・ダークネス(通常)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lab coat",
+      "ja": "白衣",
+      "status": "needs_review"
+    },
+    {
+      "tag": "labret piercing",
+      "ja": "ラブレットピアス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lace",
+      "ja": "レース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace bra",
+      "ja": "レースのブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace choker",
+      "ja": "レースのチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace gloves",
+      "ja": "レースの手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace panties",
+      "ja": "レースのショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace sleeves",
+      "ja": "レースの袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace trim",
+      "ja": "レースの縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed bra",
+      "ja": "レース縁取りのブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed choker",
+      "ja": "レース縁取りのチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed dress",
+      "ja": "レース縁取りのドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed gloves",
+      "ja": "レース縁取りの手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed hairband",
+      "ja": "レース縁取りのヘアバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed legwear",
+      "ja": "レース縁取りのレッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed panties",
+      "ja": "レース縁取りのショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed shirt",
+      "ja": "レース縁取りのシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed skirt",
+      "ja": "レース縁取りのスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed sleeves",
+      "ja": "レース縁取りの袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-trimmed thighhighs",
+      "ja": "レース縁取りのニーハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lace-up boots",
+      "ja": "編み上げブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lack",
+      "ja": "不足",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lactation",
+      "ja": "授乳・乳汁分泌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lactation through clothes",
+      "ja": "服越しの授乳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ladder",
+      "ja": "はしご",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ladle",
+      "ja": "おたま",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ladybug",
+      "ja": "てんとう虫",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laevatein (touhou)",
+      "ja": "レヴァテイン(東方)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "laffey (azur lane)",
+      "ja": "ラフィー（アズールレーン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "laios touden",
+      "ja": "ライオストーデン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lake",
+      "ja": "湖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lalafell",
+      "ja": "ララフェル",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lamia",
+      "ja": "ラミア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lamp",
+      "ja": "ランプ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lamppost",
+      "ja": "街灯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lana (pokemon)",
+      "ja": "ラナ（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lance",
+      "ja": "ランス",
+      "status": "needs_review"
+    },
+    {
+      "tag": "lance of longinus (evangelion)",
+      "ja": "ロンギヌスの槍(エヴァ)",
+      "status": "needs_review"
+    },
+    {
+      "tag": "landscape",
+      "ja": "風景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lane line",
+      "ja": "車線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lantern",
+      "ja": "ランタン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lanyard",
+      "ja": "ストラップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lap pillow",
+      "ja": "膝枕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lap pillow invitation",
+      "ja": "膝枕への誘い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lapel pin",
+      "ja": "ラペルピン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lapels",
+      "ja": "襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lappland (arknights)",
+      "ja": "ラップランド（arknights）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "laptop",
+      "ja": "ノートパソコン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large areolae",
+      "ja": "大きな乳輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large bow",
+      "ja": "大きなリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large breasts",
+      "ja": "大きな胸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large ears",
+      "ja": "大きな耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large hands",
+      "ja": "大きな手",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large hat",
+      "ja": "大きな帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large insertion",
+      "ja": "大きなものの挿入",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large pectorals",
+      "ja": "発達した胸筋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large tail",
+      "ja": "大きな尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large testicles",
+      "ja": "大きな睾丸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "large wings",
+      "ja": "大きな翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laser",
+      "ja": "レーザー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "last order (toaru majutsu no index)",
+      "ja": "最後の注文（toaru majutsu indexなし）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "last origin",
+      "ja": "最後の起源",
+      "status": "needs_review"
+    },
+    {
+      "tag": "latex",
+      "ja": "ラテックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "latex bodysuit",
+      "ja": "ラテックス製ボディスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "latex gloves",
+      "ja": "ラテックス製手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "latex legwear",
+      "ja": "ラテックス製レッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "latex leotard",
+      "ja": "ラテックス製レオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "latin cross",
+      "ja": "ラテン十字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lattice",
+      "ja": "格子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laughing",
+      "ja": "笑う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laundry",
+      "ja": "洗濯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laundry basket",
+      "ja": "洗濯かご",
+      "status": "reviewed"
+    },
+    {
+      "tag": "laurel crown",
+      "ja": "月桂冠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lava",
+      "ja": "溶岩",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lawson",
+      "ja": "ローソン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "layered bikini",
+      "ja": "重ね着風ビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered clothes",
+      "ja": "重ね着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered dress",
+      "ja": "レイヤードドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered kimono",
+      "ja": "重ね着の着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered shirt",
+      "ja": "重ね着のシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered skirt",
+      "ja": "レイヤードスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "layered sleeves",
+      "ja": "重ね袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "lazy eye",
+      "ja": "弱視（斜視表現）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "le malin (azur lane)",
+      "ja": "ルマリン（アズールレーン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "leaf",
+      "ja": "葉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf (pokemon)",
+      "ja": "葉（ポケモン）",
+      "status": "needs_review"
+    },
+    {
+      "tag": "leaf background",
+      "ja": "葉の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf hair ornament",
+      "ja": "葉の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf hat ornament",
+      "ja": "葉の帽子飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf on head",
+      "ja": "頭の上の葉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf print",
+      "ja": "リーフ柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaf umbrella",
+      "ja": "葉の形の傘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leafa (sao)",
+      "ja": "リーファ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "leafeon",
+      "ja": "リーフィア",
+      "status": "needs_review"
+    },
+    {
+      "tag": "league of legends",
+      "ja": "リーグ・オブ・レジェンド",
+      "status": "needs_review"
+    },
+    {
+      "tag": "leaning",
+      "ja": "寄りかかる・傾く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning back",
+      "ja": "後ろに傾く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning forward",
+      "ja": "前に傾く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning on object",
+      "ja": "物に寄りかかる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning on person",
+      "ja": "人に寄りかかる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning on table",
+      "ja": "テーブルに寄りかかる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leaning to the side",
+      "ja": "横に傾く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leash",
+      "ja": "リード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leash pull",
+      "ja": "リードを引く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather",
+      "ja": "革",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather armor",
+      "ja": "革鎧",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather belt",
+      "ja": "革ベルト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather boots",
+      "ja": "革のブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather gloves",
+      "ja": "革手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather jacket",
+      "ja": "革ジャン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leather pants",
+      "ja": "革パンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "left-handed",
+      "ja": "左利き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "left-to-right manga",
+      "ja": "右綴じではない左から右へ読む漫画",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg armor",
+      "ja": "脚部の鎧",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg belt",
+      "ja": "脚ベルト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg between thighs",
+      "ja": "太ももの間に脚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg grab",
+      "ja": "脚をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg hair",
+      "ja": "脚の毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg hold",
+      "ja": "脚を押さえる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg lift",
+      "ja": "脚を上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg lock",
+      "ja": "レッグロック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg ribbon",
+      "ja": "脚のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg tattoo",
+      "ja": "脚のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg up",
+      "ja": "脚を上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg warmers",
+      "ja": "レッグウォーマー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leg wrap",
+      "ja": "脚の包帯・布巻き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legband",
+      "ja": "レッグバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "leggings",
+      "ja": "レギンス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs",
+      "ja": "脚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs apart",
+      "ja": "脚を開く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs folded",
+      "ja": "脚を折りたたむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs over head",
+      "ja": "頭の上に脚を上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs together",
+      "ja": "脚を揃える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "legs up",
+      "ja": "脚を上げる",
+      "status": "reviewed"
     }
   ],
-  "review_pass": {
-    "source_indices": "0-3499",
-    "latest_batch": "2500-3499",
-    "batch_size": 1000,
-    "note": "2500〜3499番を英語元タグから再確認。既存訳は意味が合う場合のみ維持し、機械翻訳由来の誤訳・表記揺れを修正。作品・キャラクター名は日本語公式表記を優先。一般色指定の除去と複合タグ分解は、元タグとの対応を保持するスキーマ移行で実施する。確証のない作者タグ・略語は要確認に保留。"
-  }
+  "review_pass": "2026-10-30-index-4500-5499"
 }
