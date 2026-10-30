@@ -1,5 +1,31 @@
 [
   {
+    "tag": ":/",
+    "ja": "歪嘴",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "known-mistranslation",
+      "possible-chinese-text"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": ":|",
+    "ja": "平嘴",
+    "major": "人物",
+    "minor": "顔・表情",
+    "reasons": [
+      "known-mistranslation",
+      "possible-chinese-text"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
     "tag": "^ ^",
     "ja": "",
     "major": "未分類",
@@ -7,7 +33,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -18,7 +45,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -29,7 +57,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -40,7 +69,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -51,7 +81,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -62,7 +93,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -73,7 +105,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -84,7 +117,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -95,7 +129,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -106,7 +141,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -117,7 +153,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -128,7 +165,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -139,7 +177,44 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "ace attorney",
+    "ja": "エース弁護士",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "known-mistranslation"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "adventure time",
+    "ja": "冒険の時間",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "known-mistranslation"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "adventurer (ff11)",
+    "ja": "アバター（FF11）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "known-mistranslation"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -150,7 +225,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -161,7 +237,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "after vaginal",
+    "ja": "膣の後",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "known-mistranslation"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -172,7 +261,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -183,7 +273,8 @@
     "reasons": [
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -194,7 +285,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -205,7 +297,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -214,9 +307,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -225,9 +320,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -238,7 +335,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -247,9 +345,11 @@
     "major": "画風・品質",
     "minor": "画風",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -258,9 +358,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -271,6 +373,7 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -282,7 +385,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -293,7 +397,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -304,7 +409,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -315,7 +421,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -326,7 +433,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -337,7 +445,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -348,7 +457,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -357,9 +467,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -370,7 +482,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -381,7 +494,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -392,7 +506,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -403,7 +518,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -414,7 +530,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -425,7 +542,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -436,7 +554,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -445,9 +564,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -458,7 +579,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -469,7 +591,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -480,7 +603,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -491,7 +615,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -502,7 +627,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -511,9 +637,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -524,7 +652,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -535,7 +664,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -546,7 +676,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -557,7 +688,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -568,7 +700,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -579,7 +712,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "battle axe",
+    "ja": "戦いx",
+    "major": "服装",
+    "minor": "装備",
+    "reasons": [
+      "known-mistranslation"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -590,7 +736,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -601,7 +748,21 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "bb (fate/extra)",
+    "ja": "BB（運命/エクストラ）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "known-mistranslation",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -612,7 +773,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -621,9 +783,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -634,7 +798,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -645,7 +810,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -656,7 +822,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -667,7 +834,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -678,7 +846,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -689,7 +858,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -698,9 +868,11 @@
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
+      "known-mistranslation",
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -709,9 +881,11 @@
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -720,9 +894,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
+      "known-mistranslation",
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -733,7 +909,21 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "breast envy",
+    "ja": "胸のen望",
+    "major": "成人向け",
+    "minor": "身体・衣類",
+    "reasons": [
+      "known-mistranslation",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -744,7 +934,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -755,7 +946,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -764,9 +956,12 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "known-mistranslation",
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -777,7 +972,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -788,7 +984,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -799,7 +996,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -810,7 +1008,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -819,9 +1018,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -832,7 +1033,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -843,7 +1045,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -852,9 +1055,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -865,7 +1070,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -874,9 +1080,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -887,7 +1095,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -898,7 +1107,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -909,7 +1119,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -920,7 +1131,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -931,7 +1143,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -942,7 +1155,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -953,7 +1167,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -964,7 +1179,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -973,9 +1189,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -986,7 +1204,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -997,7 +1216,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1006,9 +1226,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1019,7 +1241,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1028,9 +1251,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1041,7 +1266,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1052,7 +1278,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1063,7 +1290,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1074,7 +1302,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1085,7 +1314,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1096,7 +1326,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1107,7 +1338,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1118,7 +1350,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1129,7 +1362,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1138,9 +1372,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1149,9 +1385,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "dc comics",
+    "ja": "DCコミック",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1162,7 +1412,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1173,7 +1424,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1182,9 +1434,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1195,7 +1449,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1204,9 +1459,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1217,7 +1474,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1228,7 +1486,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1237,9 +1496,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1250,7 +1511,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1261,7 +1523,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1270,9 +1533,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "dragon ball gt",
+    "ja": "ドラゴンボールGT",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1283,7 +1560,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1292,9 +1570,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1303,9 +1583,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1317,7 +1599,8 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1328,7 +1611,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1339,7 +1623,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1350,7 +1635,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1361,7 +1647,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1372,7 +1659,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1381,9 +1669,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1392,9 +1682,11 @@
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1405,7 +1697,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1416,7 +1709,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1427,7 +1721,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1438,7 +1733,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "excalibur (fate/stay night)",
+    "ja": "エクスカリバー（運命/滞在夜）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1449,7 +1757,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1458,9 +1767,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1469,9 +1780,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1480,9 +1793,48 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/apocrypha",
+    "ja": "運命/麻痺",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/extella",
+    "ja": "運命/エクステラ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/extra",
+    "ja": "運命/エクストラ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "known-mistranslation",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1491,9 +1843,71 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/grand order",
+    "ja": "運命/大秩序",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/prototype",
+    "ja": "運命/プロトタイプ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/prototype: fragments of blue and silver",
+    "ja": "運命/プロトタイプ：青と銀の断片",
+    "major": "光・色彩",
+    "minor": "色",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/stay night",
+    "ja": "運命/滞在夜",
+    "major": "背景・場所",
+    "minor": "時間・天候",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/zero",
+    "ja": "運命/ゼロ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1502,9 +1916,11 @@
     "major": "人物",
     "minor": "人数",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1515,7 +1931,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1526,7 +1943,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1535,9 +1953,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1546,9 +1966,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1557,9 +1979,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1570,7 +1994,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1581,7 +2006,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1592,7 +2018,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1601,9 +2028,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1614,7 +2043,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1625,7 +2055,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1636,7 +2067,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1647,7 +2079,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1656,9 +2089,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1669,7 +2104,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1680,7 +2116,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1691,7 +2128,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1700,9 +2138,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1711,9 +2151,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1724,7 +2166,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1735,7 +2178,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1744,9 +2188,11 @@
     "major": "人物",
     "minor": "性別・体形",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1755,9 +2201,11 @@
     "major": "人物",
     "minor": "性別・体形",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1766,9 +2214,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1779,7 +2229,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1790,7 +2241,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1801,7 +2253,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1812,7 +2265,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1821,9 +2275,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1834,7 +2290,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1845,7 +2302,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1856,7 +2314,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1867,7 +2326,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1878,7 +2338,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1889,7 +2350,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1898,9 +2360,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1909,9 +2373,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1922,7 +2388,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1933,7 +2400,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1944,7 +2412,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1953,9 +2422,11 @@
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1964,9 +2435,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1975,9 +2448,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1986,9 +2461,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "gundam zz",
+    "ja": "機動戦士ガンダムZZ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1999,7 +2488,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2010,7 +2500,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2021,7 +2512,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2032,7 +2524,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2041,9 +2534,11 @@
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2054,7 +2549,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2063,9 +2559,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2074,9 +2572,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2087,7 +2587,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2096,9 +2597,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2109,7 +2612,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2120,7 +2624,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2131,7 +2636,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2142,7 +2648,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2153,7 +2660,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2164,7 +2672,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2173,9 +2682,11 @@
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2184,9 +2695,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2195,9 +2708,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2206,9 +2721,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2217,9 +2734,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "hirasawa ui",
+    "ja": "平田ui",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2228,9 +2759,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2241,7 +2774,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2252,7 +2786,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2261,9 +2796,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2274,7 +2811,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2283,9 +2821,11 @@
     "major": "ポーズ・動作",
     "minor": "行動",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2294,9 +2834,23 @@
     "major": "ポーズ・動作",
     "minor": "行動",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "holding tablet pc",
+    "ja": "タブレットPCを保持します",
+    "major": "ポーズ・動作",
+    "minor": "行動",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2305,9 +2859,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "holomyth",
+    "ja": "ホロライブEN1期生",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2316,9 +2884,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2329,7 +2899,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2340,7 +2911,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2351,7 +2923,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2362,7 +2935,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2371,9 +2945,11 @@
     "major": "人物",
     "minor": "頭髪",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2382,9 +2958,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2395,7 +2973,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2406,7 +2985,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "id card",
+    "ja": "IDカード",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2417,7 +3009,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2428,7 +3021,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2439,7 +3033,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2448,9 +3043,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2461,7 +3058,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2472,7 +3070,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2483,7 +3082,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2494,7 +3094,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2505,7 +3106,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2514,9 +3116,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "likely-literal-or-machine-translation"
+      "known-mistranslation",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2527,7 +3131,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2538,7 +3143,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2549,7 +3155,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2558,9 +3165,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2572,7 +3181,8 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2584,7 +3194,8 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2595,7 +3206,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2606,7 +3218,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2615,9 +3228,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2628,7 +3243,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2639,7 +3255,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2650,7 +3267,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2661,7 +3279,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2670,9 +3289,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2681,9 +3302,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2694,7 +3317,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2705,7 +3329,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2716,7 +3341,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2727,7 +3353,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2738,7 +3365,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2749,7 +3377,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2758,9 +3387,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2771,7 +3402,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2782,7 +3414,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2793,7 +3426,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2802,9 +3436,11 @@
     "major": "画風・品質",
     "minor": "品質",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2815,7 +3451,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2826,7 +3463,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2837,7 +3475,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2846,9 +3485,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2859,7 +3500,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2870,7 +3512,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2881,7 +3524,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2892,7 +3536,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2903,7 +3548,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2914,7 +3560,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2925,7 +3572,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2936,7 +3584,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2947,7 +3596,32 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "karate gi",
+    "ja": "空手gi",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "kasane teto (sv)",
+    "ja": "重音テトSV",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2958,7 +3632,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2969,7 +3644,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2980,7 +3656,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -2989,9 +3666,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3000,9 +3679,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3013,7 +3694,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3024,7 +3706,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3033,9 +3716,11 @@
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3046,7 +3731,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3055,9 +3741,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3068,7 +3756,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3077,9 +3766,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3090,7 +3781,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3101,7 +3793,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3110,9 +3803,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3123,7 +3818,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3134,7 +3830,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3145,7 +3842,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3154,9 +3852,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3167,7 +3867,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3178,7 +3879,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3189,7 +3891,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3200,7 +3903,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3209,9 +3913,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3222,7 +3928,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "laptop",
+    "ja": "ノートPC",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3231,9 +3950,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3242,9 +3963,23 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "lazy eye",
+    "ja": "怠zyな目",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3255,7 +3990,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3266,7 +4002,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3275,9 +4012,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3286,9 +4025,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3299,7 +4040,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3310,7 +4052,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3319,9 +4062,11 @@
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3332,7 +4077,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "lord el-melloi ii case files",
+    "ja": "ロード・エルメロイII世の事件簿",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3343,7 +4101,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3354,7 +4113,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "low-braided long hair",
+    "ja": "低cr延の長い髪",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3365,7 +4137,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3374,9 +4147,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3387,7 +4162,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3398,7 +4174,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3409,7 +4186,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3418,9 +4196,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3429,9 +4209,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3440,9 +4222,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3453,7 +4237,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3464,7 +4249,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3475,7 +4261,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3484,9 +4271,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3497,7 +4286,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3508,7 +4298,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3519,7 +4310,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3530,7 +4322,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3541,7 +4334,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3550,9 +4344,23 @@
     "major": "作品・キャラクター",
     "minor": "作品名・シリーズ",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "mega man zx",
+    "ja": "メガマンZX",
+    "major": "人物",
+    "minor": "性別・体形",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3563,7 +4371,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3574,7 +4383,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3585,7 +4395,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3596,7 +4407,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3607,7 +4419,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3618,7 +4431,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3629,7 +4443,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3640,7 +4455,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3649,9 +4465,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3662,7 +4480,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3673,7 +4492,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3684,7 +4504,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3695,7 +4516,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3704,9 +4526,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3715,9 +4539,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3728,7 +4554,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3737,9 +4564,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3750,7 +4579,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3759,9 +4589,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3770,9 +4602,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3783,7 +4617,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3792,9 +4627,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3805,7 +4642,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3816,7 +4654,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3827,7 +4666,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3838,7 +4678,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3849,7 +4690,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3860,7 +4702,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3869,9 +4712,11 @@
     "major": "作品・キャラクター",
     "minor": "作品名・シリーズ",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3882,7 +4727,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3893,7 +4739,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3904,7 +4751,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3913,9 +4761,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3926,7 +4776,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3935,9 +4786,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3948,7 +4801,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3957,9 +4811,11 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3968,9 +4824,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3979,9 +4837,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -3990,9 +4850,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4003,7 +4865,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4014,7 +4877,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4025,7 +4889,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4037,6 +4902,7 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -4048,7 +4914,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4059,7 +4926,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4070,7 +4938,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "nero claudius (fate/extra)",
+    "ja": "ネロクラウディウス（運命/エクストラ）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4081,7 +4962,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4092,7 +4974,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4103,7 +4986,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4114,7 +4998,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4125,7 +5010,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "nijisanji en",
+    "ja": "にじさんじEN",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4136,7 +5034,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "nintendo ds",
+    "ja": "任天堂DS",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4147,7 +5058,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4158,7 +5070,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4169,7 +5082,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4178,9 +5092,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4191,7 +5107,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4202,7 +5119,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4213,7 +5131,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4224,7 +5143,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4233,9 +5153,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4246,7 +5168,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4257,7 +5180,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4266,9 +5190,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4279,7 +5205,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4288,9 +5215,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4301,7 +5230,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4312,7 +5242,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "ok sign",
+    "ja": "OKサイン",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4323,7 +5266,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4332,9 +5276,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4345,7 +5291,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4356,7 +5303,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4365,9 +5313,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4376,9 +5326,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4387,9 +5339,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4400,7 +5354,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4411,7 +5366,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4422,7 +5378,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4431,9 +5388,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4444,7 +5403,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "os-tan",
+    "ja": "OSたん",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4453,9 +5425,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4464,9 +5438,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4477,7 +5453,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4486,9 +5463,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4499,7 +5478,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4510,7 +5490,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4521,7 +5502,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "panzer iv",
+    "ja": "IV号戦車",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4530,9 +5524,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4543,7 +5539,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4552,9 +5549,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4565,7 +5564,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4574,9 +5574,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4587,7 +5589,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4596,9 +5599,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4607,9 +5612,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4618,9 +5625,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4629,9 +5638,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4640,9 +5651,35 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon bw",
+    "ja": "ポケモンBW",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon bw2",
+    "ja": "ポケモンBW2",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4651,9 +5688,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4662,9 +5701,11 @@
     "major": "画風・品質",
     "minor": "画風",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4673,9 +5714,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon go",
+    "ja": "ポケモンGO",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4684,9 +5739,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4695,9 +5752,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4706,9 +5765,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4717,9 +5778,47 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon sm",
+    "ja": "ポケモンSM",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon sm (anime)",
+    "ja": "ポケモンSM（アニメ）",
+    "major": "画風・品質",
+    "minor": "画風",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon sv",
+    "ja": "ポケモンSV",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4728,9 +5827,35 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon xy",
+    "ja": "ポケモンxy",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "pokemon xy (anime)",
+    "ja": "ポケモンxy（アニメ）",
+    "major": "画風・品質",
+    "minor": "画風",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4741,7 +5866,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4752,7 +5878,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4763,7 +5890,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4774,7 +5902,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "qr code",
+    "ja": "QRコード",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4785,7 +5926,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4796,7 +5938,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4807,7 +5950,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4818,7 +5962,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4829,7 +5974,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4840,7 +5986,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4851,7 +5998,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4862,7 +6010,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4873,7 +6022,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4884,7 +6034,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4895,7 +6046,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4906,7 +6058,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4917,7 +6070,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4929,6 +6083,7 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -4938,9 +6093,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4951,7 +6108,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4960,9 +6118,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4973,7 +6133,20 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "sakamata chloe (1st costume)",
+    "ja": "沙花叉クロヱ（1st衣装）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4984,7 +6157,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -4995,7 +6169,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5006,7 +6181,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5017,7 +6193,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5028,7 +6205,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5039,7 +6217,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5048,9 +6227,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5059,9 +6240,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5072,6 +6255,7 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5083,7 +6267,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5094,7 +6279,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5105,7 +6291,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5114,9 +6301,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5127,7 +6316,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5139,6 +6329,7 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5150,6 +6341,7 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5161,7 +6353,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5172,7 +6365,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5183,7 +6377,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5194,7 +6389,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5205,7 +6401,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5216,7 +6413,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5227,7 +6425,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5238,7 +6437,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5247,8 +6447,10 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5260,6 +6462,7 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5271,7 +6474,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5283,6 +6487,7 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5294,7 +6499,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5305,7 +6511,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5316,7 +6523,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5327,7 +6535,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5338,18 +6547,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "sword art online: alicization",
-    "ja": "剣アートオンライン：alicization",
-    "major": "その他",
-    "minor": "物",
+    "tag": "tablet pc",
+    "ja": "タブレットPC",
+    "major": "未分類",
+    "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5360,18 +6571,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "takanashi rikka",
-    "ja": "高野rikka",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5380,20 +6581,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "tales of zestiria",
-    "ja": "Zestiriaの物語",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5404,7 +6596,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5415,7 +6608,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5424,9 +6618,12 @@
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "known-mistranslation",
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5437,7 +6634,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5448,7 +6646,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5457,9 +6656,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5468,9 +6669,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5481,7 +6684,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5490,9 +6694,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5501,9 +6707,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5514,7 +6722,8 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5525,7 +6734,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5536,7 +6746,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5547,17 +6758,45 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "to love-ru",
-    "ja": "Love-ruに",
+    "tag": "to heart 2",
+    "ja": "ToHeart2",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "to love-ru",
+    "ja": "To LOVEる",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "to love-ru darkness",
+    "ja": "To LOVEる ダークネス",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5567,19 +6806,34 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "tokyo 7th sisters",
+    "ja": "Tokyo 7th シスターズ",
+    "major": "シチュエーション",
+    "minor": "関係性",
+    "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "tomoe gozen (fate)",
-    "ja": "TomoeGozen（Fate）",
+    "ja": "巴御前（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5589,9 +6843,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5602,29 +6858,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "tracen school uniform",
-    "ja": "Tracen学校のユニフォーム",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "tracen swimsuit",
-    "ja": "Tracen水着",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5633,9 +6868,11 @@
     "major": "人物",
     "minor": "種族・役割",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5644,9 +6881,11 @@
     "major": "服装",
     "minor": "衣類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5655,8 +6894,22 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "twilight (spy x family)",
+    "ja": "トワイライト（SPY×FAMILY）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5666,9 +6919,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5677,9 +6932,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5690,7 +6947,8 @@
     "reasons": [
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5701,18 +6959,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "uehara ayumu",
-    "ja": "上海ayumu",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5723,7 +6971,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5734,28 +6983,31 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "usekh collar",
-    "ja": "usekhカラー",
-    "major": "服装",
-    "minor": "衣類",
+    "tag": "uruha rushia (1st costume)",
+    "ja": "潤羽るしあ（1st衣装）",
+    "major": "未分類",
+    "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
     "tag": "ushiwakamaru (fate)",
-    "ja": "ushiwakamaru（Fate）",
+    "ja": "牛若丸（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5768,7 +7020,8 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5777,20 +7030,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "vertical foregrip",
-    "ja": "垂直のforegrip",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5799,8 +7043,35 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "vocaloid append",
+    "ja": "VOCALOID2 Append",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "voiceroid",
+    "ja": "VOICEROID",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5813,6 +7084,20 @@
       "english-remains-in-japanese",
       "same-as-latin-tag"
     ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "vshojo",
+    "ja": "VShojo",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5824,7 +7109,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5835,7 +7121,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5844,9 +7131,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5855,52 +7144,22 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "whistle around neck",
-    "ja": "首の周りを口whi",
-    "major": "人物",
-    "minor": "身体・部位",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "white babydoll",
-    "ja": "白いbabydoll",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "white serafuku",
-    "ja": "白いserafuku",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "witch (madoka magica)",
-    "ja": "魔女（Madoka Magica）",
+    "tag": "wraith (apex legends)",
+    "ja": "レイス（Apex Legends）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5912,18 +7171,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "xenoblade chronicles (series)",
-    "ja": "Xenoblade Chronicles（シリーズ）",
-    "major": "作品・キャラクター",
-    "minor": "作品名・シリーズ",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5934,7 +7183,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -5945,39 +7195,19 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "yahari ore no seishun lovecome wa machigatteiru.",
-    "ja": "ヤハリ鉱石no seishun lovecome wa machigatteiru。",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "yamamoto souichirou",
-    "ja": "山本souichirou",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
     "tag": "yang guifei (fate)",
-    "ja": "ヤン・グイフイ（Fate）",
+    "ja": "楊貴妃（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -5989,39 +7219,44 @@
     "reasons": [
       "english-remains-in-japanese"
     ],
-    "status": "needs-review",
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "yasaka kanako",
-    "ja": "岡田Yasako",
+    "tag": "yes-no pillow",
+    "ja": "YES/NO枕",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "yes! precure 5",
-    "ja": "はい！ PRCURE 5",
+    "ja": "Yes!プリキュア5",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "yu mei-ren (fate)",
-    "ja": "Yu Mei-Ren（Fate）",
+    "ja": "虞美人（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -6031,20 +7266,23 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
-    "tag": "yugiri tsuzuri",
-    "ja": "longヘアなつづり先輩がみたい",
+    "tag": "yu-gi-oh! gx",
+    "ja": "遊戯王GX女性向け",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6053,9 +7291,11 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6064,9 +7304,36 @@
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "yuri!!! on ice",
+    "ja": "ユーリ!!! on ICE",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
       "english-remains-in-japanese"
     ],
+    "confidence": "low",
     "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "yuuji (and)",
+    "ja": "ユウジ（そして）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "known-mistranslation",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "high",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6077,7 +7344,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6088,18 +7356,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "zero two (darling in the franxx)",
-    "ja": "ゼロ2（franxxの最愛の人）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6110,17 +7368,20 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
     "tag": "zun (style)",
-    "ja": "野生のZUN",
+    "ja": "ZUN風",
     "major": "画風・品質",
     "minor": "画風",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
+    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -6132,7 +7393,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6143,7 +7405,8 @@
     "reasons": [
       "japanese-translation-missing"
     ],
-    "status": "needs-review",
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   }
 ]
