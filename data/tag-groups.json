@@ -19,32 +19,13 @@
   {
     "type": "work",
     "id": "work:nier:automata",
-    "label": "Nier:automata",
+    "label": "NieR:Automata",
     "ja": "ニーアオートマタ",
     "titleTag": "nier:automata",
     "members": [
       "2b (nier:automata)",
-      "9s (nier:automata)"
-    ],
-    "category": [
-      "人物",
-      "キャラクター"
-    ]
-  },
-  {
-    "type": "work",
-    "id": "work:cosplay",
-    "label": "Cosplay",
-    "ja": "コスプレ",
-    "titleTag": "cosplay",
-    "members": [
       "2b (nier:automata) (cosplay)",
-      "alice (alice in wonderland) (cosplay)",
-      "hakurei reimu (cosplay)",
-      "hatsune miku (cosplay)",
-      "little red riding hood (grimm) (cosplay)",
-      "mash kyrielight (dangerous beast) (cosplay)",
-      "shimakaze (kancolle) (cosplay)"
+      "9s (nier:automata)"
     ],
     "category": [
       "人物",
@@ -142,8 +123,8 @@
   {
     "type": "work",
     "id": "work:kancolle",
-    "label": "Kancolle",
-    "ja": "Kancolle",
+    "label": "Kantai Collection",
+    "ja": "Kantai Collection",
     "titleTag": null,
     "members": [
       "abukuma (kancolle)",
@@ -264,6 +245,7 @@
       "shigure kai ni (kancolle)",
       "shikinami (kancolle)",
       "shimakaze (kancolle)",
+      "shimakaze (kancolle) (cosplay)",
       "shiranui (kancolle)",
       "shiratsuyu (kancolle)",
       "shirayuki (kancolle)",
@@ -313,7 +295,7 @@
   {
     "type": "work",
     "id": "work:toaru majutsu no index",
-    "label": "Toaru Majutsu No Index",
+    "label": "A Certain Magical Index",
     "ja": "とある魔術の禁書目録",
     "titleTag": "toaru majutsu no index",
     "members": [
@@ -411,8 +393,8 @@
   {
     "type": "work",
     "id": "work:ff11",
-    "label": "Ff11",
-    "ja": "Ff11",
+    "label": "Final Fantasy XI",
+    "ja": "Final Fantasy XI",
     "titleTag": null,
     "members": [
       "adventurer (ff11)",
@@ -559,7 +541,7 @@
   {
     "type": "work",
     "id": "work:pokemon",
-    "label": "Pokemon",
+    "label": "Pokémon",
     "ja": "ポケモン",
     "titleTag": "pokemon",
     "members": [
@@ -618,24 +600,6 @@
   },
   {
     "type": "work",
-    "id": "work:magical girl",
-    "label": "Magical Girl",
-    "ja": "魔法少女",
-    "titleTag": "magical girl",
-    "members": [
-      "akemi homura (magical girl)",
-      "kaname madoka (magical girl)",
-      "miki sayaka (magical girl)",
-      "sakura kyoko (magical girl)",
-      "tomoe mami (magical girl)"
-    ],
-    "category": [
-      "人物",
-      "キャラクター"
-    ]
-  },
-  {
-    "type": "work",
     "id": "work:fire emblem",
     "label": "Fire Emblem",
     "ja": "火の紋章",
@@ -669,7 +633,8 @@
     "ja": "不思議の国のアリス",
     "titleTag": "alice in wonderland",
     "members": [
-      "alice (alice in wonderland)"
+      "alice (alice in wonderland)",
+      "alice (alice in wonderland) (cosplay)"
     ],
     "category": [
       "人物",
@@ -679,7 +644,7 @@
   {
     "type": "work",
     "id": "work:needy girl overdose",
-    "label": "Needy Girl Overdose",
+    "label": "NEEDY GIRL OVERDOSE",
     "ja": "NEEDY GIRL OVERDOSE",
     "titleTag": "needy girl overdose",
     "members": [
@@ -752,7 +717,7 @@
   {
     "type": "work",
     "id": "work:girls und panzer",
-    "label": "Girls Und Panzer",
+    "label": "Girls und Panzer",
     "ja": "ガールズ＆パンツァー",
     "titleTag": "girls und panzer",
     "members": [
@@ -806,8 +771,8 @@
   {
     "type": "work",
     "id": "work:konosuba",
-    "label": "Konosuba",
-    "ja": "Konosuba",
+    "label": "KonoSuba",
+    "ja": "KonoSuba",
     "titleTag": null,
     "members": [
       "aqua (konosuba)",
@@ -835,8 +800,8 @@
   {
     "type": "work",
     "id": "work:sao",
-    "label": "Sao",
-    "ja": "Sao",
+    "label": "Sword Art Online",
+    "ja": "Sword Art Online",
     "titleTag": null,
     "members": [
       "asuna (sao)",
@@ -901,7 +866,7 @@
   {
     "type": "work",
     "id": "work:fate/extra",
-    "label": "Fate/extra",
+    "label": "Fate/Extra",
     "ja": "運命/エクストラ",
     "titleTag": "fate/extra",
     "members": [
@@ -944,20 +909,6 @@
   },
   {
     "type": "work",
-    "id": "work:tokoyami towa",
-    "label": "Tokoyami Towa",
-    "ja": "常闇トワ",
-    "titleTag": "tokoyami towa",
-    "members": [
-      "bibi (tokoyami towa)"
-    ],
-    "category": [
-      "人物",
-      "キャラクター"
-    ]
-  },
-  {
-    "type": "work",
     "id": "work:wuthering waves",
     "label": "Wuthering Waves",
     "ja": "鸣潮",
@@ -966,20 +917,6 @@
       "blake bloom (wuthering waves)",
       "changli (wuthering waves)",
       "tacet mark (wuthering waves)"
-    ],
-    "category": [
-      "人物",
-      "キャラクター"
-    ]
-  },
-  {
-    "type": "work",
-    "id": "work:gawr gura",
-    "label": "Gawr Gura",
-    "ja": "ガーグラ",
-    "titleTag": "gawr gura",
-    "members": [
-      "bloop (gawr gura)"
     ],
     "category": [
       "人物",
@@ -1024,8 +961,8 @@
   {
     "type": "work",
     "id": "work:madoka magica",
-    "label": "Madoka Magica",
-    "ja": "Madoka Magica",
+    "label": "Puella Magi Madoka Magica",
+    "ja": "Puella Magi Madoka Magica",
     "titleTag": null,
     "members": [
       "charlotte (madoka magica)",
@@ -1077,7 +1014,7 @@
   {
     "type": "work",
     "id": "work:touhou",
-    "label": "Touhou",
+    "label": "Touhou Project",
     "ja": "東方Project",
     "titleTag": "touhou",
     "members": [
@@ -1099,7 +1036,7 @@
   {
     "type": "work",
     "id": "work:fate/stay night",
-    "label": "Fate/stay Night",
+    "label": "Fate/stay night",
     "ja": "運命/滞在夜",
     "titleTag": "fate/stay night",
     "members": [
@@ -1182,22 +1119,8 @@
   },
   {
     "type": "work",
-    "id": "work:usada pekora",
-    "label": "Usada Pekora",
-    "ja": "兎田ぺこら",
-    "titleTag": "usada pekora",
-    "members": [
-      "don-chan (usada pekora)"
-    ],
-    "category": [
-      "人物",
-      "キャラクター"
-    ]
-  },
-  {
-    "type": "work",
     "id": "work:fate/extra ccc",
-    "label": "Fate/extra Ccc",
+    "label": "Fate/Extra CCC",
     "ja": "運命/余分なCCC",
     "titleTag": "fate/extra ccc",
     "members": [
@@ -1241,8 +1164,8 @@
   {
     "type": "work",
     "id": "work:re:zero",
-    "label": "Re:zero",
-    "ja": "Re:zero",
+    "label": "Re:Zero",
+    "ja": "Re:Zero",
     "titleTag": null,
     "members": [
       "emilia (re:zero)",
@@ -1373,7 +1296,7 @@
   {
     "type": "work",
     "id": "work:vocaloid",
-    "label": "Vocaloid",
+    "label": "VOCALOID",
     "ja": "ボーカロイド",
     "titleTag": "vocaloid",
     "members": [
