@@ -1,7 +1,8 @@
 import { readFile } from "node:fs/promises";
 const data = JSON.parse(await readFile(new URL("../data/prompt-order-categories.json", import.meta.url), "utf8"));
-if (!Array.isArray(data.categories) || data.categories.length !== 8) throw new Error("Expected exactly 8 prompt output categories.");
+if (!Array.isArray(data.categories) || data.categories.length !== 9) throw new Error("Expected exactly 9 prompt output categories.");
 const names = data.categories.map(x => x?.name);
+if (names[0] !== "品質・スコア") throw new Error("Quality and score category must be first.");
 if (names.some(x => typeof x !== "string" || !x.trim()) || new Set(names).size !== names.length) throw new Error("Prompt category names must be non-empty and unique.");
 const orders = data.categories.map(x => x.order).sort((a,b)=>a-b);
 if (orders.some((x,i)=>x !== i+1)) throw new Error("Prompt category order must be a continuous sequence starting at 1.");
