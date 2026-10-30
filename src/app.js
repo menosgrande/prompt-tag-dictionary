@@ -5,6 +5,7 @@
   const SELECTED_KEY = "ptd.selected.v1";
   const REVIEW_KEY = "ptd.review.v1";
   let reviewRatings = {};
+  let promptOrderOverrides = new Map();
   const PAGE_SIZE = 100;
   function pageSize() { return PAGE_SIZE; }
   const CATEGORIES = [
@@ -346,6 +347,15 @@
       });
     });
   }
+  function seedPromptOrder() {
+    return fetch("./data/prompt-order-categories.json").then(r => {
+      if (!r.ok) throw new Error("prompt order data missing");
+      return r.json();
+    }).then(data => {
+      const entries = Array.isArray(data.overrides) ? data.overrides : [];
+      promptOrderOverrides = new Map(entries.filter(x => x && x.tag && x.category).map(x => [norm(x.tag), x.category]));
+    });
+  }
   function seedTagGroups() {
     return fetch("./data/tag-groups.json").then(r => {
       if (!r.ok) throw new Error("tag groups missing");
@@ -361,6 +371,8 @@
   // Prompt assembly order is separate from the searchable taxonomy.
   const PROMPT_ORDER = ["人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・品質", "光・色彩・演出"];
   function promptOrderOf(t) {
+    const override = promptOrderOverrides.get(norm(t.tag));
+    if (PROMPT_ORDER.includes(override)) return override;
     const major = majorOf(t), minor = minorOf(t);
     if (major === "人物" || major === "作品・キャラクター") return PROMPT_ORDER[0];
     if (major === "服装") return PROMPT_ORDER[1];
@@ -755,7 +767,7 @@
   function renderOutputCategories() {
     const root = $("#output-categories"); root.replaceChildren();
     const chosen = state.tags.filter(t => state.selected.has(norm(t.tag)));
-    const categories = PROMPT_ORDER.filter(category => chosen.some(t => promptOrderOf(t) === category));
+    const categories = [...PROMPT_ORDER, "未分類"].filter(category => chosen.some(t => promptOrderOf(t) === category));
     if (!categories.length) { root.hidden = true; return; }
     root.hidden = false;
     const validCategories = new Set(categories);
@@ -792,7 +804,7 @@
         if (!hasCategoryFilters || activeCats.has(m)) { if (!map.has(m)) map.set(m, []); map.get(m).push(t); }
       });
       const sortedMajors = [...map.keys()].sort((a, b) => {
-        const ia = PROMPT_ORDER.indexOf(a), ib = PROMPT_ORDER.indexOf(b);
+        const ia = a === "未分類" ? 999 : PROMPT_ORDER.indexOf(a), ib = b === "未分類" ? 999 : PROMPT_ORDER.indexOf(b);
         return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b, "ja");
       });
       sortedMajors.forEach(major => {
@@ -1195,6 +1207,7 @@
     }
     wire(); populateCustomCategories();
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
+    try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
     let saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
     try {
