@@ -1,0 +1,592 @@
+{
+  "schema": "external-prompt-reference-review-v1",
+  "generated_at": "2026-10-30",
+  "purpose": "外部のプロンプト解説記事から抽出した追加候補。既存辞書との照合結果を含む。これは候補監査であり、canonical data/tags.jsonには未反映。",
+  "sources": [
+    {
+      "name": "Mitsune - Stable Diffusion（SD）ポーズプロンプト一覧",
+      "url": "https://mitsune-ai.com/stable-diffusion-pose-prompts/",
+      "used_for": [
+        "ハンドジェスチャー",
+        "顔の向き・視線",
+        "目元・表情",
+        "体の見せ方",
+        "日常動作",
+        "構図"
+      ]
+    },
+    {
+      "name": "Prompta - Stable Diffusion表情プロンプト",
+      "url": "https://www.prompta.jp/guides/stable-diffusion-expression-prompt",
+      "used_for": [
+        "目・口の表情",
+        "視線",
+        "表情が映える構図"
+      ]
+    },
+    {
+      "name": "AI OTAKU LABO - 構図プロンプト実測",
+      "url": "https://ai-otaku-labo.ai/stable-diffusion-composition/",
+      "used_for": [
+        "画角",
+        "アングル",
+        "構図語の効果検証"
+      ]
+    },
+    {
+      "name": "kawasyo web AI - AI画像生成プロンプト辞典144選",
+      "url": "https://www.kawasyo.online/ai-image-prompt-dictionary/",
+      "used_for": [
+        "表情・視線",
+        "カメラ・構図",
+        "ポーズ・動作",
+        "身体的特徴"
+      ]
+    },
+    {
+      "name": "Sorenuts - ポーズ・体の特徴のプロンプト一覧",
+      "url": "https://sorenuts.jp/4566/",
+      "used_for": [
+        "手のジェスチャー",
+        "全身ポーズ",
+        "身体の特徴"
+      ]
+    }
+  ],
+  "counts": {
+    "reviewed": 49,
+    "new_candidates": 33,
+    "exact_existing": 16,
+    "near_or_alias": 0
+  },
+  "candidates": [
+    {
+      "tag": "shushing",
+      "ja": "口元に指を当てて静かにする仕草",
+      "major": "ポーズ・動作",
+      "minor": "ハンドジェスチャー",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "shushing",
+        "ja": "静かにさせる仕草",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "waving both hands",
+      "ja": "両手を振る",
+      "major": "ポーズ・動作",
+      "minor": "ハンドジェスチャー",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hand on cheek",
+      "ja": "頬に手を当てる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "finger to lips",
+      "ja": "唇に指を当てる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hand on chin",
+      "ja": "あごに手を当てる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hands on cheeks",
+      "ja": "両手で頬を包む",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "finger on chin",
+      "ja": "あごに指を当てる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "looking over shoulder",
+      "ja": "肩越しに振り返る",
+      "major": "ポーズ・動作",
+      "minor": "顔の向き・視線",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "looking to the side",
+      "ja": "横を見る",
+      "major": "ポーズ・動作",
+      "minor": "顔の向き・視線",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "looking to the side",
+        "ja": "よそ見",
+        "major": "ポーズ・動作",
+        "minor": "行動"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "surprised expression",
+      "ja": "驚いた表情",
+      "major": "表情・顔",
+      "minor": "表情",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "seductive look",
+      "ja": "流し目・誘惑する視線",
+      "major": "表情・顔",
+      "minor": "視線",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "blowing kiss",
+      "ja": "投げキス",
+      "major": "ポーズ・動作",
+      "minor": "ハンドジェスチャー",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "blowing kiss",
+        "ja": "吹くキス",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "biting lip",
+      "ja": "唇をかむ",
+      "major": "表情・顔",
+      "minor": "口",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "beckoning",
+      "ja": "手招きする",
+      "major": "ポーズ・動作",
+      "minor": "ハンドジェスチャー",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "beckoning",
+        "ja": "手招き",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "twisted torso",
+      "ja": "上半身をひねる",
+      "major": "ポーズ・動作",
+      "minor": "体の向き・姿勢",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "twisted torso",
+        "ja": "ねじれた胴体",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "contrapposto",
+      "ja": "片足に重心をかけた立ち姿",
+      "major": "ポーズ・動作",
+      "minor": "立ち姿・体の向き",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "contrapposto",
+        "ja": "コントラポスト",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "arched back",
+      "ja": "背中を反らす",
+      "major": "ポーズ・動作",
+      "minor": "体の向き・姿勢",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "arched back",
+        "ja": "背中にアーチ型",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "brushing hair back",
+      "ja": "髪をかき上げる",
+      "major": "ポーズ・動作",
+      "minor": "自己接触・髪を触る動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "shrugging",
+      "ja": "肩をすくめる",
+      "major": "ポーズ・動作",
+      "minor": "体の向き・姿勢",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "shrugging",
+        "ja": "肩をすくめる",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hand covering mouth",
+      "ja": "手で口を覆う",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hand covering eyes",
+      "ja": "手で目を覆う",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "shading eyes with hand",
+      "ja": "手をかざして日差しを遮る",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "one hand in pocket",
+      "ja": "片手をポケットに入れる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "hands in pockets",
+      "ja": "両手をポケットに入れる",
+      "major": "ポーズ・動作",
+      "minor": "手の位置・腕の姿勢",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "hands in pockets",
+        "ja": "ポケットの手",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Mitsune"
+    },
+    {
+      "tag": "adjusting glasses",
+      "ja": "眼鏡を直す",
+      "major": "ポーズ・動作",
+      "minor": "日常動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "touching earring",
+      "ja": "イヤリングに触れる",
+      "major": "ポーズ・動作",
+      "minor": "日常動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "holding hat brim",
+      "ja": "帽子のつばを持つ",
+      "major": "ポーズ・動作",
+      "minor": "日常動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "adjusting tie",
+      "ja": "ネクタイを直す",
+      "major": "ポーズ・動作",
+      "minor": "日常動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "holding jacket lapel",
+      "ja": "ジャケットの襟を持つ",
+      "major": "ポーズ・動作",
+      "minor": "日常動作",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "centered composition",
+      "ja": "中央構図",
+      "major": "構図・カメラ",
+      "minor": "構図",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "off-center composition",
+      "ja": "中央から外した構図",
+      "major": "構図・カメラ",
+      "minor": "構図",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "symmetrical pose",
+      "ja": "左右対称のポーズ",
+      "major": "ポーズ・動作",
+      "minor": "ポーズ",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "silhouette pose",
+      "ja": "シルエットを見せるポーズ",
+      "major": "構図・カメラ",
+      "minor": "構図",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "dynamic foreshortening",
+      "ja": "強い短縮遠近法",
+      "major": "構図・カメラ",
+      "minor": "遠近・パース",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "point-of-view shot",
+      "ja": "主観視点のショット",
+      "major": "構図・カメラ",
+      "minor": "視点",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "neutral standing pose",
+      "ja": "自然な直立姿勢",
+      "major": "ポーズ・動作",
+      "minor": "立ち姿・体の向き",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "character turnaround",
+      "ja": "キャラクター三面図",
+      "major": "構図・カメラ",
+      "minor": "資料・設定画",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "front side and back views",
+      "ja": "正面・側面・背面図",
+      "major": "構図・カメラ",
+      "minor": "資料・設定画",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "jitome",
+      "ja": "ジト目",
+      "major": "表情・顔",
+      "minor": "目",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "jitome",
+        "ja": "ジト目",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "Prompta"
+    },
+    {
+      "tag": "sparkling eyes",
+      "ja": "きらきらした目",
+      "major": "表情・顔",
+      "minor": "目",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "sparkling eyes",
+        "ja": "キラキラした目",
+        "major": "人物",
+        "minor": "目"
+      },
+      "source": "Prompta"
+    },
+    {
+      "tag": "closed mouth",
+      "ja": "口を閉じる",
+      "major": "表情・顔",
+      "minor": "口",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "closed mouth",
+        "ja": "閉まった口",
+        "major": "人物",
+        "minor": "顔・表情"
+      },
+      "source": "Prompta"
+    },
+    {
+      "tag": "side glance",
+      "ja": "横目・横目で見る",
+      "major": "表情・顔",
+      "minor": "視線",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Prompta"
+    },
+    {
+      "tag": "face focus",
+      "ja": "顔に焦点を当てる",
+      "major": "構図・カメラ",
+      "minor": "画角・フレーミング",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "face focus",
+        "ja": "顔アップ",
+        "major": "構図・視点",
+        "minor": "構図"
+      },
+      "source": "Prompta"
+    },
+    {
+      "tag": "cowboy shot",
+      "ja": "太もも付近までの人物構図",
+      "major": "構図・カメラ",
+      "minor": "画角・フレーミング",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "cowboy shot",
+        "ja": "カウボーイショット",
+        "major": "構図・視点",
+        "minor": "構図"
+      },
+      "source": "AI OTAKU LABO"
+    },
+    {
+      "tag": "from side",
+      "ja": "横からの視点",
+      "major": "構図・カメラ",
+      "minor": "アングル",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "from side",
+        "ja": "横から",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "AI OTAKU LABO"
+    },
+    {
+      "tag": "from behind",
+      "ja": "後ろからの視点",
+      "major": "構図・カメラ",
+      "minor": "アングル",
+      "status": "既存一致",
+      "existing_match": {
+        "tag": "from behind",
+        "ja": "後ろ姿",
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "source": "AI OTAKU LABO"
+    },
+    {
+      "tag": "a-pose",
+      "ja": "Aポーズ",
+      "major": "ポーズ・動作",
+      "minor": "制作・参照ポーズ",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "t-pose",
+      "ja": "Tポーズ",
+      "major": "ポーズ・動作",
+      "minor": "制作・参照ポーズ",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    },
+    {
+      "tag": "profile shot",
+      "ja": "横顔のポートレート構図",
+      "major": "構図・カメラ",
+      "minor": "画角・フレーミング",
+      "status": "新規候補",
+      "existing_match": null,
+      "source": "Mitsune"
+    }
+  ],
+  "safeguards": [
+    "記事本文の文章は転載せず、一般的な短いプロンプト表現と概念のみ抽出。",
+    "既存タグとの完全一致は追加候補から除外。",
+    "同義・近似候補は自動統合せず照合結果として残す。",
+    "表現のモデル依存性・実効性は別途検証が必要。",
+    "data/tags.jsonは変更しない。"
+  ]
+}
