@@ -509,6 +509,7 @@
     else if (q) list.sort((a, b) => {
       const score = t => {
         const tag = norm(t.tag), ja = norm(t.ja);
+        if (t.isTagGroup) return tag === q ? 0 : tag.startsWith(q) ? 1 : 1.5;
         if (tag === q || ja === q) return 0;
         if (tag.startsWith(q) || ja.startsWith(q)) return 1;
         if (queryTerms.every(term => tag.includes(term) || ja.includes(term))) return 2;
@@ -516,6 +517,21 @@
       };
       return score(a) - score(b) || englishCompare(a, b);
     });
+    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
+      const groups = tagGroups.filter(group => {
+        if (state.category && (group.category?.[0] !== state.category[0] ||
+            (state.category[1] && group.category?.[1] !== state.category[1]) ||
+            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
+        const memberNames = (group.members || []).map(name => norm(name));
+        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
+      }).map(group => ({ ...group, isTagGroup: true }));
+      groups.sort((a, b) => {
+        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
+        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
+      });
+      list.push(...groups.map(group => ({...group, tag: group.id, ja: group.ja || "統合グループ"})));
+    }
+
     else list.sort(defaultCompare);
     if (state.columnSort) {
       const { key, dir } = state.columnSort;
@@ -536,20 +552,6 @@
               ? (a, b) => Number(state.selected.has(norm(b.tag))) - Number(state.selected.has(norm(a.tag))) || englishCompare(a, b)
               : englishCompare;
       list.sort((a, b) => dir * compare(a, b));
-    }
-    if (q && !state.columnSort && $("#review-filter").value === "all" && $("#level-filter").value !== "unknown") {
-      const groups = tagGroups.filter(group => {
-        if (state.category && (group.category?.[0] !== state.category[0] ||
-            (state.category[1] && group.category?.[1] !== state.category[1]) ||
-            (state.category[2] && group.category?.[2] !== state.category[2]))) return false;
-        const memberNames = (group.members || []).map(name => norm(name));
-        return queryTerms.every(term => norm(group.id).includes(term) || memberNames.some(name => name.includes(term)));
-      }).map(group => ({ ...group, isTagGroup: true }));
-      groups.sort((a, b) => {
-        const score = group => norm(group.id) === q ? 0 : norm(group.id).startsWith(q) ? 1 : 2;
-        return score(a) - score(b) || String(a.id).localeCompare(String(b.id), "en");
-      });
-      list.push(...groups);
     }
     return list;
   }
