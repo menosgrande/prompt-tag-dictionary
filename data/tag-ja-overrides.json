@@ -5378,10 +5378,5012 @@
       "tag": "dd (ijigendd)",
       "ja": "",
       "status": "needs_review"
+    },
+    {
+      "tag": "diorama",
+      "ja": "ジオラマ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirndl",
+      "ja": "ディアンドル（アルプス地方の民族衣装）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirt",
+      "ja": "泥",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirty",
+      "ja": "汚れた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirty clothes",
+      "ja": "汚れた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirty face",
+      "ja": "汚れた顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dirty feet",
+      "ja": "汚れた足",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disembodied eye",
+      "ja": "身体から分離した目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disembodied hand",
+      "ja": "身体から分離した手",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disembodied head",
+      "ja": "身体から切り離された頭部",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disfigured",
+      "ja": "変形した容貌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disgaea",
+      "ja": "ディスガイア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disguise",
+      "ja": "変装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disgust",
+      "ja": "嫌悪の表情",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dishwasher1910",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "disney",
+      "ja": "ディズニー作品",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disposable coffee cup",
+      "ja": "使い捨てコーヒーカップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "disposable cup",
+      "ja": "使い捨てカップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dissidia final fantasy",
+      "ja": "ディシディア ファイナルファンタジー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dissolving",
+      "ja": "溶けて消える表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dissolving clothes",
+      "ja": "溶けて消えかけた服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "distortion",
+      "ja": "歪み",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dithering",
+      "ja": "ディザリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diva (hyxpk)",
+      "ja": "歌姫（hyxpk）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diver",
+      "ja": "ダイバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diving",
+      "ja": "潜水",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diving mask",
+      "ja": "ダイビングマスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diving mask on head",
+      "ja": "頭に載せたダイビングマスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "diving suit",
+      "ja": "ダイビングスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dixie cup hat",
+      "ja": "ディキシーカップ型帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dizzy (guilty gear)",
+      "ja": "ディズィー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "djeeta (granblue fantasy)",
+      "ja": "ジータ（グランブルーファンタジー）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "do m kaeru",
+      "ja": "要確認",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dock",
+      "ja": "ドック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doctor",
+      "ja": "医師",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doctor (arknights)",
+      "ja": "ドクター（アークナイツ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dodging",
+      "ja": "回避する動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dodoco (genshin impact)",
+      "ja": "ドドコ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog",
+      "ja": "犬",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog boy",
+      "ja": "犬の少年",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog days",
+      "ja": "DOG DAYS（作品）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog ears",
+      "ja": "犬耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog girl",
+      "ja": "犬耳の少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog tags",
+      "ja": "ドッグタグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dog tail",
+      "ja": "犬の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dogeza",
+      "ja": "土下座",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doggystyle",
+      "ja": "後背位",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doily",
+      "ja": "ドイリー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doitsuken",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "doki doki literature club",
+      "ja": "ドキドキ文芸部！",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dokidoki! precure",
+      "ja": "ドキドキ！プリキュア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dokomon",
+      "ja": "ドコモン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doll",
+      "ja": "人形",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doll joints",
+      "ja": "球体関節",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dollar sign",
+      "ja": "ドル記号",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dolphin",
+      "ja": "イルカ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dolphin shorts",
+      "ja": "ドルフィンショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dominatrix",
+      "ja": "女王様（支配的な女性）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "domino mask",
+      "ja": "ドミノマスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "don quixote (project moon)",
+      "ja": "ドンキホーテ（Project Moon）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "don-chan (usada pekora)",
+      "ja": "ドンちゃん（兎田ぺこら）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "donation box",
+      "ja": "募金箱",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doodle inset",
+      "ja": "落書きの挿入カット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doodle sensei (blue archive)",
+      "ja": "ドゥードゥー先生（ブルーアーカイブ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "door",
+      "ja": "ドア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doorway",
+      "ja": "出入口",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doraemon",
+      "ja": "ドラえもん",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doremy sweet",
+      "ja": "ドレミー・スイート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dorohedoro",
+      "ja": "ドロヘドロ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dorsal fin",
+      "ja": "背びれ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dorsiflexion",
+      "ja": "足首の背屈",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dot mouth",
+      "ja": "点のような口",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dot nose",
+      "ja": "点のような鼻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dotted background",
+      "ja": "ドット柄の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dotted line",
+      "ja": "点線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double amputee",
+      "ja": "両肢切断",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double bun",
+      "ja": "ツインお団子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double fox shadow puppet",
+      "ja": "二匹のキツネの影絵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double horizontal stripe",
+      "ja": "二本の横縞",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double penetration",
+      "ja": "二重挿入",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double v",
+      "ja": "ダブルピース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double vertical stripe",
+      "ja": "二本の縦縞",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double w",
+      "ja": "両手でWを作るハンドサイン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double-breasted",
+      "ja": "ダブルブレスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "double-parted bangs",
+      "ja": "左右に分かれた前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doughnut",
+      "ja": "ドーナツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doughnut hair bun",
+      "ja": "ドーナツ状のお団子ヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dougi",
+      "ja": "道着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doujin cover",
+      "ja": "同人誌の表紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doukyuusei (series)",
+      "ja": "同級生",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dove",
+      "ja": "鳩",
+      "status": "reviewed"
+    },
+    {
+      "tag": "down jacket",
+      "ja": "ダウンジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "downblouse",
+      "ja": "胸元を上から覗き込む構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dowsing rod",
+      "ja": "ダウジングロッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "doyagao",
+      "ja": "ドヤ顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dr rex",
+      "ja": "レックス博士",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dr. ratio (honkai: star rail)",
+      "ja": "Dr.レイシオ（崩壊：スターレイル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragalia lost",
+      "ja": "ドラガリアロスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragging",
+      "ja": "引きずる動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon",
+      "ja": "ドラゴン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball",
+      "ja": "ドラゴンボール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball (classic)",
+      "ja": "ドラゴンボール（クラシック）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball fighterz",
+      "ja": "ドラゴンボールファイターズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball gt",
+      "ja": "ドラゴンボールGT",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball super",
+      "ja": "ドラゴンボール超",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ball z",
+      "ja": "ドラゴンボールZ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon boy",
+      "ja": "ドラゴンボーイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon ears",
+      "ja": "ドラゴンの耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon girl",
+      "ja": "ドラゴン娘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon horns",
+      "ja": "ドラゴンの角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon print",
+      "ja": "ドラゴン柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon quest",
+      "ja": "ドラゴンクエスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon quest iii",
+      "ja": "ドラゴンクエスト3",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon quest iv",
+      "ja": "ドラゴンクエスト4",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon quest v",
+      "ja": "ドラゴンクエストv",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon quest xi",
+      "ja": "ドラクエ11",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon tail",
+      "ja": "ドラゴンの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragon wings",
+      "ja": "ドラゴンの翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dragonfly",
+      "ja": "トンボ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "draph",
+      "ja": "ドラフ（グランブルーファンタジーの種族）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawer",
+      "ja": "引き出し",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawfag",
+      "ja": "ドローファグ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "drawing (object)",
+      "ja": "描かれた物体",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawing bow",
+      "ja": "弓を引く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawing sword",
+      "ja": "剣を抜く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawing tablet",
+      "ja": "描画タブレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawn ears",
+      "ja": "描かれた耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drawstring",
+      "ja": "ドローストリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dreadlocks",
+      "ja": "ドレッドヘア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dream soul",
+      "ja": "夢の魂",
+      "status": "needs_review"
+    },
+    {
+      "tag": "dreaming",
+      "ja": "夢を見る・眠っている",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress",
+      "ja": "ドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress bow",
+      "ja": "ドレスのリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress flower",
+      "ja": "ドレスの花飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress lift",
+      "ja": "スカートを持ち上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress pants",
+      "ja": "ドレスパンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress pull",
+      "ja": "ドレスを引っ張る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress shirt",
+      "ja": "ドレスシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress shoes",
+      "ja": "革靴（ドレスシューズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress swimsuit",
+      "ja": "ドレス水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dress tug",
+      "ja": "ドレスを引く動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dressing",
+      "ja": "着替え",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dressing another",
+      "ja": "他人に服を着せる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drill",
+      "ja": "ドリル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drill hair",
+      "ja": "縦ロール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drill ponytail",
+      "ja": "縦ロールのポニーテール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drill sidelocks",
+      "ja": "ドリル状のサイドロック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drink",
+      "ja": "飲み物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drink can",
+      "ja": "缶ジュース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drinking",
+      "ja": "飲む動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drinking glass",
+      "ja": "グラス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drinking straw",
+      "ja": "ストロー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drinking straw in mouth",
+      "ja": "口にくわえたストロー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dripping",
+      "ja": "滴る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "driving",
+      "ja": "運転",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drone",
+      "ja": "ドローン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drooling",
+      "ja": "よだれを垂らす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drop shadow",
+      "ja": "ドロップシャドウ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drop-shaped pupils",
+      "ja": "しずく形の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dropping",
+      "ja": "物を落とす動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drowning",
+      "ja": "溺れる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drugged",
+      "ja": "薬物の影響下にある",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drugs",
+      "ja": "薬物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drum",
+      "ja": "ドラム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drum (container)",
+      "ja": "ドラム缶",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drum set",
+      "ja": "ドラムセット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drumsticks",
+      "ja": "ドラムスティック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drunk",
+      "ja": "酔っ払い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drying",
+      "ja": "乾燥",
+      "status": "reviewed"
+    },
+    {
+      "tag": "drying hair",
+      "ja": "髪を乾かす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dual persona",
+      "ja": "二重人格",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dual wielding",
+      "ja": "二刀流",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duck",
+      "ja": "アヒル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duckling",
+      "ja": "アヒルのひな",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dudou",
+      "ja": "肚兜（中国の伝統的な胸当て）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duel",
+      "ja": "決闘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duel academy uniform (yu-gi-oh! gx)",
+      "ja": "デュエル・アカデミアの制服（遊☆戯☆王GX）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duel disk",
+      "ja": "デュエルディスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duel monster",
+      "ja": "デュエルモンスターズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duffel bag",
+      "ja": "ダッフルバッグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duffel coat",
+      "ja": "ダッフルコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dumbbell",
+      "ja": "ダンベル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dumpling",
+      "ja": "餃子・団子状の料理",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dungeon",
+      "ja": "ダンジョン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dungeon and fighter",
+      "ja": "アラド戦記（Dungeon Fighter）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dungeon meshi",
+      "ja": "ダンジョン飯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dungeons & dragons",
+      "ja": "ダンジョンズ＆ドラゴンズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "durarara!!",
+      "ja": "デュラララ!!",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dusk",
+      "ja": "黄昏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dusk (arknights)",
+      "ja": "夕（アークナイツ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dust",
+      "ja": "ほこり",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dust cloud",
+      "ja": "砂ぼこり",
+      "status": "reviewed"
+    },
+    {
+      "tag": "duster",
+      "ja": "ダスター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dutch angle",
+      "ja": "ダッチアングル（傾いたカメラアングル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dvd cover",
+      "ja": "DVDカバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dwarf",
+      "ja": "ドワーフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dyed bangs",
+      "ja": "染めた前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dynamax band",
+      "ja": "Dynamaxバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dynamic angle",
+      "ja": "ダイナミックなカメラアングル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "dynamic pose",
+      "ja": "躍動感のあるポーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "e.g.o (project moon)",
+      "ja": "E.G.O（Project Moon）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "e.o.",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "eagle",
+      "ja": "ワシ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear birthmark",
+      "ja": "耳のあざ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear blush",
+      "ja": "耳の赤み",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear bow",
+      "ja": "耳元のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear chain",
+      "ja": "イヤーチェーン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear covers",
+      "ja": "耳当てカバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear ornament",
+      "ja": "耳飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear piercing",
+      "ja": "耳のピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear protection",
+      "ja": "耳の保護具",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear ribbon",
+      "ja": "耳元のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear tag",
+      "ja": "耳標（動物の識別札）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ear wiggle",
+      "ja": "耳をぴくぴく動かす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earbuds",
+      "ja": "イヤホン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earclip",
+      "ja": "イヤークリップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earmuffs",
+      "ja": "耳あて",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earphones",
+      "ja": "イヤホン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earpiece",
+      "ja": "イヤピース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earrings",
+      "ja": "ピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ears down",
+      "ja": "垂れ耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ears through headwear",
+      "ja": "帽子から出た耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ears visible through hair",
+      "ja": "髪の隙間から見える耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earth (ornament)",
+      "ja": "地球モチーフの装飾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "earth (planet)",
+      "ja": "地球",
+      "status": "reviewed"
+    },
+    {
+      "tag": "easel",
+      "ja": "イーゼル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "east asian architecture",
+      "ja": "東アジア建築",
+      "status": "reviewed"
+    },
+    {
+      "tag": "easter",
+      "ja": "イースター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "easter egg",
+      "ja": "イースターエッグ（隠し要素）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eastern dragon",
+      "ja": "東洋の龍",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eastern dragon horns",
+      "ja": "東洋龍の角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eastern dragon tail",
+      "ja": "東洋龍の尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eating",
+      "ja": "食べる動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ebi 193",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ebifurya",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "echo (circa)",
+      "ja": "エコー（頃）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "edelgard von hresvelg",
+      "ja": "エーデルガルト＝フォン＝フレスベルグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eden academy school uniform",
+      "ja": "イーデン校の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "edward elric",
+      "ja": "エドワード・エルリック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eel",
+      "ja": "うなぎ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eevee",
+      "ja": "イーブイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "egasumi",
+      "ja": "ヱ霞",
+      "status": "reviewed"
+    },
+    {
+      "tag": "egg",
+      "ja": "卵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "egg (food)",
+      "ja": "卵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "egg hair ornament",
+      "ja": "卵の髪の飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "egg laying",
+      "ja": "産卵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eggplant",
+      "ja": "ナス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ehoumaki",
+      "ja": "恵方巻き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eighth note",
+      "ja": "8番目のメモ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eila ilmatar juutilainen",
+      "ja": "エイラ・イルマタル・ユーティライネン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eiri (eirri)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "eishin flash (umamusume)",
+      "ja": "エイシンフラッシュ(ウマ娘)",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eiyuu densetsu",
+      "ja": "英雄伝説",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ejaculating while penetrated",
+      "ja": "挿入中の射精",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow carry",
+      "ja": "肘に腕を掛けて抱える",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow gloves",
+      "ja": "長手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow on knee",
+      "ja": "膝に肘をつく",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow on table",
+      "ja": "テーブルに肘をつく",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow pads",
+      "ja": "肘パッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbow rest",
+      "ja": "肘掛け",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elbows on table",
+      "ja": "テーブルに両肘をつく",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elden ring",
+      "ja": "エルデンリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eldritch abomination",
+      "ja": "異形の怪物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electric bass guitar",
+      "ja": "エレキベース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electric fan",
+      "ja": "扇風機",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electric guitar",
+      "ja": "エレキギター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electric plug",
+      "ja": "電気用プラグ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electrical outlet",
+      "ja": "コンセント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electricity",
+      "ja": "電気",
+      "status": "reviewed"
+    },
+    {
+      "tag": "electrokinesis",
+      "ja": "電気を操る能力",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elegant",
+      "ja": "優雅な",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elephant",
+      "ja": "象",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elesa (pokemon)",
+      "ja": "カミツレ（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elevator",
+      "ja": "エレベーター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elezen",
+      "ja": "エレゼン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elf",
+      "ja": "エルフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elf (stroll in the woods)",
+      "ja": "森を散策するエルフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elio (pokemon)",
+      "ja": "ヨウ（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elira pendora",
+      "ja": "エリーラ・ペンドラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elizabeth bathory (fate)",
+      "ja": "エリザベート・バートリー（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elizabeth bathory (fate/extra ccc)",
+      "ja": "エリザベート・バートリー（Fate/EXTRA CCC）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ellen joe",
+      "ja": "エレン・ジョー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elphelt valentine",
+      "ja": "エルフェルト＝ヴァレンタイン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elsa (frozen)",
+      "ja": "エルサ（アナと雪の女王）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elsword",
+      "ja": "エルソード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elvaan",
+      "ja": "エルヴァーン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elysia (herrscher of human: ego) (honkai impact)",
+      "ja": "エリシア（人の律者／崩壊3rd）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elysia (honkai impact)",
+      "ja": "エリシア（崩壊3rd）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "elysia (miss pink elf) (honkai impact)",
+      "ja": "エリシア（ピンクの妖精さん♪／崩壊3rd）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ema",
+      "ja": "絵馬",
+      "status": "reviewed"
+    },
+    {
+      "tag": "embarrassed",
+      "ja": "恥ずかしがる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "embellished costume",
+      "ja": "装飾を施した衣装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "embers",
+      "ja": "残り火",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emblem",
+      "ja": "紋章",
+      "status": "reviewed"
+    },
+    {
+      "tag": "embodiment of scarlet devil",
+      "ja": "東方紅魔郷",
+      "status": "reviewed"
+    },
+    {
+      "tag": "embroidery",
+      "ja": "刺繍",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emilia (re:zero)",
+      "ja": "エミリア（Re：ゼロ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emiya kiritsugu",
+      "ja": "衛宮切嗣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emiya shirou",
+      "ja": "衛宮士郎",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emo fashion",
+      "ja": "エモファッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emoji",
+      "ja": "絵文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emoticon",
+      "ja": "絵文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emotionless sex",
+      "ja": "無表情のまま行う性行為",
+      "status": "reviewed"
+    },
+    {
+      "tag": "emphasis lines",
+      "ja": "強調線",
+      "status": "reviewed"
+    },
+    {
+      "tag": "employee uniform",
+      "ja": "従業員の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "empty eyes",
+      "ja": "虚ろな目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "endeavor (boku no hero academia)",
+      "ja": "エンデヴァー（僕のヒーローアカデミア）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy",
+      "ja": "エネルギー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy ball",
+      "ja": "エネルギー弾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy beam",
+      "ja": "エネルギービーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy cannon",
+      "ja": "エネルギー砲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy drink",
+      "ja": "栄養ドリンク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy gun",
+      "ja": "エネルギー銃",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy sword",
+      "ja": "エネルギーソード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "energy wings",
+      "ja": "エネルギーの翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "engiyoshi",
+      "ja": "エンギヨシ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "english text",
+      "ja": "英語の文字",
+      "status": "reviewed"
+    },
+    {
+      "tag": "engrish text",
+      "ja": "不自然な英語の文章",
+      "status": "reviewed"
+    },
+    {
+      "tag": "enkyo yuuichirou",
+      "ja": "円居雄一郎",
+      "status": "reviewed"
+    },
+    {
+      "tag": "enmaided",
+      "ja": "要確認",
+      "status": "needs_review"
+    },
+    {
+      "tag": "enoshima junko",
+      "ja": "江ノ島盾子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "enpera",
+      "ja": "エンペラ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "ensemble stars!",
+      "ja": "あんさんぶるスターズ！",
+      "status": "reviewed"
+    },
+    {
+      "tag": "entangled",
+      "ja": "絡み合った状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "enterprise (azur lane)",
+      "ja": "エンタープライズ（アズールレーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "envelope",
+      "ja": "封筒",
+      "status": "reviewed"
+    },
+    {
+      "tag": "epaulettes",
+      "ja": "肩章",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eraser",
+      "ja": "消しゴム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "erection",
+      "ja": "勃起",
+      "status": "reviewed"
+    },
+    {
+      "tag": "erection under clothes",
+      "ja": "衣服越しに分かる勃起",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eren yeager",
+      "ja": "エレン・イェーガー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ereshkigal (fate)",
+      "ja": "エレシュキガル（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "erica hartmann",
+      "ja": "エーリカ・ハルトマン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "erlenmeyer flask",
+      "ja": "三角フラスコ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eroe",
+      "ja": "エロエ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "eromame",
+      "ja": "エロマメ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "eromanga sensei",
+      "ja": "エロマンガ先生",
+      "status": "reviewed"
+    },
+    {
+      "tag": "erune",
+      "ja": "エルネ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "espeon",
+      "ja": "エーフィ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eternity larva",
+      "ja": "エタニティラルバ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ethan (pokemon)",
+      "ja": "ヒビキ（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "etna (disgaea)",
+      "ja": "エトナ（ディスガイア）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eu03",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "eula (genshin impact)",
+      "ja": "エウルア（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eureka seven (series)",
+      "ja": "交響詩篇エウレカセブン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evangelion (mecha)",
+      "ja": "エヴァンゲリオン（メカ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evangelion: 2.0 you can (not) advance",
+      "ja": "ヱヴァンゲリヲン新劇場版：破",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evangelion: 3.0 you can (not) redo",
+      "ja": "ヱヴァンゲリヲン新劇場版：Q",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evangelion: 3.0+1.0 thrice upon a time",
+      "ja": "シン・エヴァンゲリオン劇場版",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evening",
+      "ja": "夕方",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evening gown",
+      "ja": "イブニングドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "everyone",
+      "ja": "全員集合",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evil grin",
+      "ja": "邪悪な笑み",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evil smile",
+      "ja": "邪悪な笑顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "evolutionary line",
+      "ja": "進化系統",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ex-keine",
+      "ja": "元キーン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "excalibur (fate/stay night)",
+      "ja": "エクスカリバー（Fate/stay night）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "excalibur morgan (fate)",
+      "ja": "エクスカリバー・モルガン（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "excited",
+      "ja": "興奮した様子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exercise ball",
+      "ja": "エクササイズボール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exercising",
+      "ja": "運動する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exhausted",
+      "ja": "疲れ果てた様子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exhibitionism",
+      "ja": "露出狂",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exoskeleton",
+      "ja": "外骨格",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exploding clothes",
+      "ja": "爆発する衣服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "explosion",
+      "ja": "爆発",
+      "status": "reviewed"
+    },
+    {
+      "tag": "explosive",
+      "ja": "爆発物・爆発性の",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exposed pocket",
+      "ja": "露出したポケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "expression chart",
+      "ja": "表情一覧",
+      "status": "reviewed"
+    },
+    {
+      "tag": "expressionless",
+      "ja": "無表情",
+      "status": "reviewed"
+    },
+    {
+      "tag": "expressions",
+      "ja": "表情",
+      "status": "reviewed"
+    },
+    {
+      "tag": "expressive clothes",
+      "ja": "表情豊かな服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "expressive hair",
+      "ja": "表現力豊かな髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra arms",
+      "ja": "余分な腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra ears",
+      "ja": "余分な耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra eyes",
+      "ja": "余分な目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra faces",
+      "ja": "余分な顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra limbs",
+      "ja": "余分な四肢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extra mouth",
+      "ja": "余分な口",
+      "status": "reviewed"
+    },
+    {
+      "tag": "extremely detailed",
+      "ja": "非常に精細な描写",
+      "status": "reviewed"
+    },
+    {
+      "tag": "exusiai (arknights)",
+      "ja": "エクシア(アークナイツ)",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye black",
+      "ja": "アイブラック",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye contact",
+      "ja": "視線を合わせる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye focus",
+      "ja": "目を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye mask",
+      "ja": "目元を覆うマスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye of horus",
+      "ja": "ホルスの目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye reflection",
+      "ja": "瞳の反射",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eye trail",
+      "ja": "眼光",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyeball",
+      "ja": "眼球",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyebrow cut",
+      "ja": "眉の切れ込み",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyebrow piercing",
+      "ja": "眉ピアス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyebrows hidden by hair",
+      "ja": "髪で隠れた眉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyelash ornament",
+      "ja": "まつ毛の飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyelashes",
+      "ja": "まつ毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyelid pull",
+      "ja": "まぶたを引っ張る仕草",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyeliner",
+      "ja": "アイライナー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyepatch",
+      "ja": "アイパッチ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyepatch bikini",
+      "ja": "眼帯ビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyes in shadow",
+      "ja": "影に隠れた目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyes visible through hair",
+      "ja": "髪越しに見える目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyeshadow",
+      "ja": "アイシャドウ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyewear hang",
+      "ja": "眼鏡をぶら下げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyewear on head",
+      "ja": "頭に載せた眼鏡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyewear on headwear",
+      "ja": "帽子に載せた眼鏡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyewear strap",
+      "ja": "眼鏡ストラップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "eyjafjalla (arknights)",
+      "ja": "エイヤフィヤトラ（アークナイツ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ezo red fox (kemono friends)",
+      "ja": "キタキツネ（けものフレンズ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face between breasts",
+      "ja": "胸の間に挟まれた顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face down",
+      "ja": "うつ伏せ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face focus",
+      "ja": "顔を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face in pillow",
+      "ja": "枕に埋めた顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face to breasts",
+      "ja": "胸に顔を寄せる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "face-to-face",
+      "ja": "向かい合う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facebook logo",
+      "ja": "Facebookのロゴ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facebook username",
+      "ja": "Facebookのユーザー名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faceless",
+      "ja": "顔のない人物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faceless female",
+      "ja": "顔のない女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faceless male",
+      "ja": "顔のない男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facepaint",
+      "ja": "フェイスペイント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facepalm",
+      "ja": "顔を手で覆う仕草",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facial",
+      "ja": "顔射",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facial hair",
+      "ja": "顔ひげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facial mark",
+      "ja": "顔の印・模様",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facial tattoo",
+      "ja": "顔のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing ahead",
+      "ja": "正面を向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing another",
+      "ja": "相手の方を向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing away",
+      "ja": "後ろを向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing down",
+      "ja": "下を向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing to the side",
+      "ja": "横を向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing up",
+      "ja": "上を向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "facing viewer",
+      "ja": "こちらを向く",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fading",
+      "ja": "薄れて消える表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "failure",
+      "ja": "失敗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fairy",
+      "ja": "妖精",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fairy (kancolle)",
+      "ja": "妖精（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fairy tail",
+      "ja": "フェアリーテイル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fairy wings",
+      "ja": "妖精の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake animal ears",
+      "ja": "付け耳（動物耳）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake antlers",
+      "ja": "作り物の枝角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake cover",
+      "ja": "偽の表紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake facial hair",
+      "ja": "付けひげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake halo",
+      "ja": "偽の光輪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake horns",
+      "ja": "作り物の角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake magazine cover",
+      "ja": "架空の雑誌表紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake mustache",
+      "ja": "付けひげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake nails",
+      "ja": "付け爪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake phone screenshot",
+      "ja": "偽のスマートフォン画面",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake screenshot",
+      "ja": "偽のスクリーンショット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake tail",
+      "ja": "付け尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fake wings",
+      "ja": "作り物の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falchion (fire emblem)",
+      "ja": "ファルシオン（ファイアーエムブレム）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falin touden",
+      "ja": "ファリン・トーデン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fallen angel",
+      "ja": "堕天使",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fallen down",
+      "ja": "倒れ込んだ状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falling",
+      "ja": "落下",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falling feathers",
+      "ja": "舞い落ちる羽根",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falling leaves",
+      "ja": "舞い落ちる葉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "falling petals",
+      "ja": "舞い落ちる花びら",
+      "status": "reviewed"
+    },
+    {
+      "tag": "false smile",
+      "ja": "作り笑い",
+      "status": "reviewed"
+    },
+    {
+      "tag": "family",
+      "ja": "家族",
+      "status": "reviewed"
+    },
+    {
+      "tag": "family crest",
+      "ja": "家紋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fanbox username",
+      "ja": "Fanboxのユーザー名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fang",
+      "ja": "牙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fang out",
+      "ja": "牙を見せる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fanged bangs",
+      "ja": "牙のように尖った前髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fangs",
+      "ja": "牙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fangs out",
+      "ja": "牙をむき出す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fanning self",
+      "ja": "自分を扇ぐ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fanny pack",
+      "ja": "ウエストポーチ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fantasy",
+      "ja": "ファンタジー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fascinator",
+      "ja": "ファシネーター（ヘッドアクセサリー）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fashion",
+      "ja": "ファッション",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fast food",
+      "ja": "ファストフード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fast food uniform",
+      "ja": "ファストフード店の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fat",
+      "ja": "太った体形",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fat man",
+      "ja": "太った男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fat mons",
+      "ja": "太ったモン",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fat rolls",
+      "ja": "肉の段差",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fatal fury",
+      "ja": "餓狼伝説",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate (series)",
+      "ja": "Fateシリーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate testarossa",
+      "ja": "フェイト・テスタロッサ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/apocrypha",
+      "ja": "Fate/Apocrypha",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/extella",
+      "ja": "Fate/EXTELLA",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/extra",
+      "ja": "Fate/EXTRA",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/extra ccc",
+      "ja": "Fate/EXTRA CCC",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/grand order",
+      "ja": "Fate/Grand Order",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/hollow ataraxia",
+      "ja": "Fate/hollow ataraxia",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/kaleid liner prisma illya",
+      "ja": "プリズマ☆イリヤ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/prototype",
+      "ja": "Fate/Prototype",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/prototype: fragments of blue and silver",
+      "ja": "Fate/Prototype 蒼銀のフラグメンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/samurai remnant",
+      "ja": "Fate/Samurai Remnant",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/stay night",
+      "ja": "Fate/stay night",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fate/zero",
+      "ja": "Fate/Zero",
+      "status": "reviewed"
+    },
+    {
+      "tag": "father and daughter",
+      "ja": "父と娘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "father and son",
+      "ja": "父と息子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fatui coat",
+      "ja": "ファデュイのコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faucet",
+      "ja": "蛇口",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faulds",
+      "ja": "腰鎧（フォールド）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faust (project moon)",
+      "ja": "ファウスト（Project Moon）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faux figurine",
+      "ja": "フィギュア風の造形",
+      "status": "reviewed"
+    },
+    {
+      "tag": "faux traditional media",
+      "ja": "アナログ画材風のデジタル表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather boa",
+      "ja": "フェザーボア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather earrings",
+      "ja": "羽のイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather hair",
+      "ja": "羽根のような髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather hair ornament",
+      "ja": "羽毛の飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather trim",
+      "ja": "羽根飾りの縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feather-trimmed sleeves",
+      "ja": "羽根飾り付きの袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feathered wings",
+      "ja": "羽毛の翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feathers",
+      "ja": "羽毛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fedora",
+      "ja": "ソフト帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feeding",
+      "ja": "食べさせる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feet",
+      "ja": "足",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feet out of frame",
+      "ja": "足が画面外にある",
+      "status": "reviewed"
+    },
+    {
+      "tag": "feet up",
+      "ja": "足を上げた姿勢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "felicia (darkstalkers)",
+      "ja": "フェリシア(ヴァンパイア)",
+      "status": "reviewed"
+    },
+    {
+      "tag": "female admiral (kancolle)",
+      "ja": "女性提督（艦これ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "female butler",
+      "ja": "女性の執事",
+      "status": "reviewed"
+    },
+    {
+      "tag": "female goblin",
+      "ja": "女性ゴブリン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "female pervert",
+      "ja": "女性の変態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "female pov",
+      "ja": "女性のPOV",
+      "status": "reviewed"
+    },
+    {
+      "tag": "femdom",
+      "ja": "女攻め",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fence",
+      "ja": "フェンス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fender stratocaster",
+      "ja": "フェンダーストラトキャスター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fennec (kemono friends)",
+      "ja": "フェネック（ケモモの友達）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fern",
+      "ja": "シダ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fern (sousou no frieren)",
+      "ja": "シダ（sousou no frieren）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ferret",
+      "ja": "フェレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ferris wheel",
+      "ja": "観覧車",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fertilization",
+      "ja": "受精",
+      "status": "reviewed"
+    },
+    {
+      "tag": "festival",
+      "ja": "祭り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fetal position",
+      "ja": "胎児のように丸まった姿勢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fewer digits",
+      "ja": "指の本数が少ない",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fidgeting",
+      "ja": "そわそわする仕草",
+      "status": "reviewed"
+    },
+    {
+      "tag": "field",
+      "ja": "野原",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fiery hair",
+      "ja": "炎のような髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fiery horns",
+      "ja": "炎のような角",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fiery tail",
+      "ja": "炎のような尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fiery wings",
+      "ja": "炎のような翼",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fighter jet",
+      "ja": "ジェット戦闘機",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fighting",
+      "ja": "戦う動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fighting stance",
+      "ja": "戦闘態勢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "figure",
+      "ja": "フィギュア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "film grain",
+      "ja": "フィルムグレイン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy",
+      "ja": "ファイナルファンタジー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy iv",
+      "ja": "ファイナルファンタジーIV",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy ix",
+      "ja": "ファイナルファンタジーIX",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy tactics",
+      "ja": "ファイナルファンタジータクティクス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy v",
+      "ja": "ファイナルファンタジーV",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vi",
+      "ja": "ファイナルファンタジーVI",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vii",
+      "ja": "ファイナルファンタジーVII",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vii advent children",
+      "ja": "ファイナルファンタジーVII アドベントチルドレン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vii ever crisis",
+      "ja": "ファイナルファンタジーVII エバークライシス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vii rebirth",
+      "ja": "FF7リバース",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy vii remake",
+      "ja": "ファイナルファンタジーVIIリメイク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy viii",
+      "ja": "ファイナルファンタジーVIII",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy x",
+      "ja": "ファイナルファンタジーX",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy xi",
+      "ja": "ファイナルファンタジーXI",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy xiv",
+      "ja": "ファイナルファンタジーXIV",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy xv",
+      "ja": "ファイナルファンタジーXV",
+      "status": "reviewed"
+    },
+    {
+      "tag": "final fantasy xvi",
+      "ja": "ファイナルファンタジーXVI",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fine art parody",
+      "ja": "ファインアートのパロディ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fine details",
+      "ja": "細部まで精密な描写",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fine fabric emphasis",
+      "ja": "生地の質感を強調",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger frame",
+      "ja": "指で作るフレーム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger gun",
+      "ja": "指鉄砲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger heart",
+      "ja": "指ハート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger in own mouth",
+      "ja": "自分の口に指を入れる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger on trigger",
+      "ja": "引き金に指を掛ける",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger sucking",
+      "ja": "指をしゃぶる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger to cheek",
+      "ja": "頬に指を当てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger to face",
+      "ja": "顔に指を当てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger to mouth",
+      "ja": "口元に指を当てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "finger to own chin",
+      "ja": "自分の顎に指を当てる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingering",
+      "ja": "指で刺激する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingering through clothes",
+      "ja": "服の上から指で刺激する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingering through panties",
+      "ja": "パンティー越しに指で刺激する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingerless gloves",
+      "ja": "指なし手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingernails",
+      "ja": "爪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fingersmile",
+      "ja": "要確認",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fins",
+      "ja": "ひれ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire",
+      "ja": "火",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem",
+      "ja": "ファイアーエムブレム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem awakening",
+      "ja": "ファイアーエムブレム 覚醒",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem cipher",
+      "ja": "ファイアーエムブレム サイファ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem echoes: shadows of valentia",
+      "ja": "ファイアーエムブレム Echoes もうひとりの英雄王",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem engage",
+      "ja": "ファイアーエムブレム エンゲージ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem fates",
+      "ja": "ファイアーエムブレムif",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem heroes",
+      "ja": "ファイアーエムブレム ヒーローズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem warriors: three hopes",
+      "ja": "ファイアーエムブレム無双 風花雪月",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: genealogy of the holy war",
+      "ja": "ファイアーエムブレム 聖戦の系譜",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: mystery of the emblem",
+      "ja": "ファイアーエムブレム 紋章の謎",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: path of radiance",
+      "ja": "ファイアーエムブレム 蒼炎の軌跡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: radiant dawn",
+      "ja": "ファイアーエムブレム 暁の女神",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: the binding blade",
+      "ja": "ファイアーエムブレム 封印の剣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: the blazing blade",
+      "ja": "ファイアーエムブレム 烈火の剣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: the sacred stones",
+      "ja": "ファイアーエムブレム 聖魔の光石",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fire emblem: three houses",
+      "ja": "ファイアーエムブレム 風花雪月",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fireball",
+      "ja": "火の玉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fireflies",
+      "ja": "ホタル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "firefly (honkai: star rail)",
+      "ja": "ホタル（崩壊：スターレイル）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "firelock",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fireplace",
+      "ja": "暖炉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fireworks",
+      "ja": "花火",
+      "status": "reviewed"
+    },
+    {
+      "tag": "firing",
+      "ja": "発砲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "first aid kit",
+      "ja": "応急処置キット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fischl (genshin impact)",
+      "ja": "フィッシュル(原神)",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish",
+      "ja": "魚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish (food)",
+      "ja": "魚料理",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish bone",
+      "ja": "魚の骨",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish boy",
+      "ja": "魚人の少年",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish girl",
+      "ja": "魚人の少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish hair ornament",
+      "ja": "魚モチーフの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish print",
+      "ja": "魚柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish tail",
+      "ja": "魚の尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fish tank",
+      "ja": "水槽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fisheye",
+      "ja": "魚眼レンズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishing",
+      "ja": "釣り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishing line",
+      "ja": "釣り糸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishing rod",
+      "ja": "釣り竿",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet bodysuit",
+      "ja": "網タイツ素材のボディスーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet gloves",
+      "ja": "網目の手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet pantyhose",
+      "ja": "網タイツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet sleeves",
+      "ja": "網目の袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet socks",
+      "ja": "網目の靴下",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet thighhighs",
+      "ja": "網目のサイハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnet top",
+      "ja": "網目のトップス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fishnets",
+      "ja": "網目素材",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fist bump",
+      "ja": "拳を突き合わせる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fist pump",
+      "ja": "拳を突き上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fitting room",
+      "ja": "試着室",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fkey",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "flaccid",
+      "ja": "萎えた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flag",
+      "ja": "旗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flag background",
+      "ja": "旗を背景にした構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flag print",
+      "ja": "旗柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flailing",
+      "ja": "手足をばたつかせる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flak jacket",
+      "ja": "防弾ベスト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flame print",
+      "ja": "炎柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flame-tipped tail",
+      "ja": "先端が燃える尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flamethrower",
+      "ja": "火炎放射器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flaming eye",
+      "ja": "燃える目",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flaming sword",
+      "ja": "炎をまとった剣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flaming weapon",
+      "ja": "炎をまとった武器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flandre scarlet",
+      "ja": "フランドール・スカーレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flapping",
+      "ja": "羽ばたく動作",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flashback",
+      "ja": "回想シーン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flashing",
+      "ja": "点滅",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flashlight",
+      "ja": "懐中電灯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flask",
+      "ja": "フラスコ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flat cap",
+      "ja": "ハンチング帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flat chest",
+      "ja": "平らな胸（貧乳）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flat chest grab",
+      "ja": "平らな胸をつかむ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flat color",
+      "ja": "ベタ塗り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flat design",
+      "ja": "フラットデザイン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flats",
+      "ja": "フラットシューズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fleeing",
+      "ja": "逃走する",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fletcher (kancolle)",
+      "ja": "フレッチャー（艦これ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fleur de lapin uniform",
+      "ja": "フルール・ド・ラパンの制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fleur-de-lis",
+      "ja": "フルール・ド・リス（百合紋）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flexible",
+      "ja": "フレキシブル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flexing",
+      "ja": "筋肉を誇示するポーズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flight deck",
+      "ja": "飛行甲板",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flip phone",
+      "ja": "折りたたみ式携帯電話",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flip-flops",
+      "ja": "ビーチサンダル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flipped hair",
+      "ja": "外ハネの髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flippers",
+      "ja": "足ひれ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating",
+      "ja": "浮遊",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating book",
+      "ja": "宙に浮く本",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating cape",
+      "ja": "フローティングケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating card",
+      "ja": "フローティングカード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating clothes",
+      "ja": "宙に浮く衣服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating earring",
+      "ja": "宙に浮くイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating hair",
+      "ja": "宙に浮く髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating headgear",
+      "ja": "フローティングヘッドギア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating island",
+      "ja": "浮島",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating object",
+      "ja": "宙に浮く物体",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating rock",
+      "ja": "宙に浮く岩",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating scarf",
+      "ja": "フローティングスカーフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floating weapon",
+      "ja": "宙に浮く武器",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flock",
+      "ja": "群れ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floor",
+      "ja": "床",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floppy ears",
+      "ja": "垂れ耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floral background",
+      "ja": "花柄の背景",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floral print",
+      "ja": "花柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "floral print kimono",
+      "ja": "花柄の着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "florence nightingale (fate)",
+      "ja": "フローレンス・ナイチンゲール（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "florian (pokemon)",
+      "ja": "フリード（ポケモン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower",
+      "ja": "花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower (symbol)",
+      "ja": "花のシンボル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower bracelet",
+      "ja": "花のブレスレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower brooch",
+      "ja": "花のブローチ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower choker",
+      "ja": "花のチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower earrings",
+      "ja": "花のイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower field",
+      "ja": "花畑",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower in eye",
+      "ja": "目の中の花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower in mouth",
+      "ja": "口にくわえた花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower knight girl",
+      "ja": "フラワーナイトガール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower knot",
+      "ja": "花結び",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower necklace",
+      "ja": "フラワーネックレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower on head",
+      "ja": "頭に載せた花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower on liquid",
+      "ja": "液面に浮かぶ花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower ornament",
+      "ja": "花飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower over eye",
+      "ja": "目を覆う花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower pot",
+      "ja": "植木鉢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower tattoo",
+      "ja": "花のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower wreath",
+      "ja": "花冠",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flower-shaped pupils",
+      "ja": "花形の瞳孔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fluffy",
+      "ja": "ふわふわした質感",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fluffy hair",
+      "ja": "ふわふわした髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fluorescent lamp",
+      "ja": "蛍光灯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flustered",
+      "ja": "動揺した様子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flute",
+      "ja": "笛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying",
+      "ja": "飛行",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying fish",
+      "ja": "トビウオ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying kick",
+      "ja": "飛び蹴り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying paper",
+      "ja": "舞い飛ぶ紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying sweatdrops",
+      "ja": "飛び散る汗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "flying teardrops",
+      "ja": "飛び散る涙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foam",
+      "ja": "泡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fog",
+      "ja": "霧",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fold-over boots",
+      "ja": "折り返しブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folded",
+      "ja": "折り畳まれた状態",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folded fan",
+      "ja": "閉じた扇子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folded hair",
+      "ja": "折り畳まれた髪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folded ponytail",
+      "ja": "折り畳まれたポニーテール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folder",
+      "ja": "書類フォルダー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folding chair",
+      "ja": "折りたたみ椅子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "folding fan",
+      "ja": "扇子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foliage",
+      "ja": "植物の葉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food",
+      "ja": "食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food art",
+      "ja": "料理を使ったアート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food bite",
+      "ja": "食べ物をひと口かじる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food focus",
+      "ja": "食べ物を主役にした構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food in mouth",
+      "ja": "口の中の食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food name",
+      "ja": "食べ物の名称",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food on body",
+      "ja": "身体に付着した食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food on breasts",
+      "ja": "胸に付着した食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food on face",
+      "ja": "顔に付着した食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food on head",
+      "ja": "頭に載せた食べ物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food packaging",
+      "ja": "食品の包装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food print",
+      "ja": "食べ物柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food stand",
+      "ja": "屋台",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food wrapper",
+      "ja": "食品の包み紙",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food-themed clothes",
+      "ja": "食べ物モチーフの服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food-themed earrings",
+      "ja": "食べ物モチーフのイヤリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "food-themed hair ornament",
+      "ja": "食べ物モチーフの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foot focus",
+      "ja": "足を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foot out of frame",
+      "ja": "足が画面外にある",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foot up",
+      "ja": "足を持ち上げた姿勢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foot worship",
+      "ja": "足への崇拝",
+      "status": "reviewed"
+    },
+    {
+      "tag": "footprints",
+      "ja": "足跡",
+      "status": "reviewed"
+    },
+    {
+      "tag": "footwear bow",
+      "ja": "靴に付いたリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "footwear ribbon",
+      "ja": "靴に付いたリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forced smile",
+      "ja": "無理に作った笑顔",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead",
+      "ja": "額",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead jewel",
+      "ja": "額の宝石",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead mark",
+      "ja": "額の印",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead protector",
+      "ja": "額当て",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead tattoo",
+      "ja": "額のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forehead-to-forehead",
+      "ja": "額を寄せ合う",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foreplay",
+      "ja": "前戯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foreshortening",
+      "ja": "短縮遠近法",
+      "status": "reviewed"
+    },
+    {
+      "tag": "foreskin",
+      "ja": "包皮",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forest",
+      "ja": "森",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fork",
+      "ja": "フォーク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forked eyebrows",
+      "ja": "二股に分かれた眉",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forked tail",
+      "ja": "二股の尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "forked tongue",
+      "ja": "先端が二股の舌",
+      "status": "reviewed"
+    },
+    {
+      "tag": "formal clothes",
+      "ja": "フォーマルウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "formidable (azur lane)",
+      "ja": "フォーミダブル（アズールレーン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fortissimo",
+      "ja": "フォルティシモ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fou (fate)",
+      "ja": "fou（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fountain",
+      "ja": "噴水",
+      "status": "reviewed"
+    },
+    {
+      "tag": "four-leaf clover",
+      "ja": "四つ葉のクローバー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "four-leaf clover hair ornament",
+      "ja": "四つ葉のクローバーの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fourth east high school uniform",
+      "ja": "第四東高校の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fourth wall",
+      "ja": "第四の壁",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox",
+      "ja": "キツネ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox boy",
+      "ja": "キツネの少年",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox ears",
+      "ja": "キツネ耳",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox girl",
+      "ja": "キツネの少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox mask",
+      "ja": "狐面",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox shadow puppet",
+      "ja": "キツネの影絵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fox tail",
+      "ja": "キツネの尻尾",
+      "status": "reviewed"
+    },
+    {
+      "tag": "framed breasts",
+      "ja": "胸を額縁で囲む構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "francesca lucchini",
+      "ja": "フランチェスカ・ルッキーニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frapowa",
+      "ja": "フラポワ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "freckles",
+      "ja": "そばかす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "free!",
+      "ja": "Free!（作品）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "freediving",
+      "ja": "フリーダイビング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "french flag",
+      "ja": "フランスの旗",
+      "status": "reviewed"
+    },
+    {
+      "tag": "french fries",
+      "ja": "フライドポテト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "french kiss",
+      "ja": "フレンチ・キス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "french text",
+      "ja": "フランス語",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fresh precure!",
+      "ja": "フレッシュプリキュア！",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fried chicken",
+      "ja": "フライドチキン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fried egg",
+      "ja": "目玉焼き",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fried rice",
+      "ja": "チャーハン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "friends",
+      "ja": "友人同士",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frieren",
+      "ja": "フリーレン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled apron",
+      "ja": "フリルエプロン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled armband",
+      "ja": "フリルアームバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled ascot",
+      "ja": "フリルアスコット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled bikini",
+      "ja": "フリルビキニ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled bow",
+      "ja": "フリル付きリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled bra",
+      "ja": "フリルブラジャー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled camisole",
+      "ja": "フリルキャミソール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled capelet",
+      "ja": "フリル付きケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled choker",
+      "ja": "フリルチョーカー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled collar",
+      "ja": "フリルカラー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled cuffs",
+      "ja": "フリルカフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled dress",
+      "ja": "フリルドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled gloves",
+      "ja": "フリルグローブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled hair tubes",
+      "ja": "フリル付きヘアチューブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled hairband",
+      "ja": "フリルヘアバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled hat",
+      "ja": "フリル帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled headwear",
+      "ja": "フリル付きヘッドドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled jacket",
+      "ja": "フリルジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled kimono",
+      "ja": "フリル型着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled leotard",
+      "ja": "フリルレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled one-piece swimsuit",
+      "ja": "フリル付きワンピース水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled panties",
+      "ja": "フリルパンティー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled pillow",
+      "ja": "フリル枕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled ribbon",
+      "ja": "フリルリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled sailor collar",
+      "ja": "フリル付きセーラー襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled shirt",
+      "ja": "フリルシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled shirt collar",
+      "ja": "フリルシャツの襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled shorts",
+      "ja": "フリルショーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled skirt",
+      "ja": "フリルスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled sleeves",
+      "ja": "フリルスリーブ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled socks",
+      "ja": "フリル靴下",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled thighhighs",
+      "ja": "フリル付きサイハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled umbrella",
+      "ja": "フリル傘",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled wrist cuffs",
+      "ja": "フリル付きの手首カフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frilled wristband",
+      "ja": "フリル付きリストバンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frills",
+      "ja": "フリル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fringe trim",
+      "ja": "フリンジトリム",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frisk (undertale)",
+      "ja": "フリスク（アンダーテール）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frog",
+      "ja": "カエル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frog girl",
+      "ja": "カエルの少女",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frog hair ornament",
+      "ja": "カエルモチーフの髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frog print",
+      "ja": "カエル柄",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frogtie",
+      "ja": "フロッグ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "from above",
+      "ja": "上から見た構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "from behind",
+      "ja": "後ろから見た構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "from below",
+      "ja": "下から見上げた構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "from outside",
+      "ja": "外側から見た構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "from side",
+      "ja": "横から見た構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "front ponytail",
+      "ja": "前方に垂らしたポニーテール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "front slit",
+      "ja": "フロントスリット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "front-hook bra",
+      "ja": "フロントホックブラ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "front-tie bikini top",
+      "ja": "前結びのビキニトップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "front-tie top",
+      "ja": "前結びトップス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frontless outfit",
+      "ja": "前面が大きく開いた衣装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frottage",
+      "ja": "兜合わせ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frown",
+      "ja": "しかめ面",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frozen",
+      "ja": "凍った",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frozen (disney)",
+      "ja": "アナと雪の女王",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fruit",
+      "ja": "フルーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fruit hat ornament",
+      "ja": "果物モチーフの帽子飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fruit on head",
+      "ja": "頭に載せた果物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "frying pan",
+      "ja": "フライパン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fu hua",
+      "ja": "フカ（崩壊3rd）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fu hua (herrscher of sentience)",
+      "ja": "フカ（識の律者／崩壊3rd）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fubuki (kancolle)",
+      "ja": "吹雪（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fubuki (one-punch man)",
+      "ja": "地獄のフブキ（ワンパンマン）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fubuki kai ni (kancolle)",
+      "ja": "吹雪改二（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fucked silly",
+      "ja": "めちゃくちゃにセックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujibayashi kyou",
+      "ja": "藤林杏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujigaya arctia",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fujima takuya",
+      "ja": "藤島康介",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujimaru ritsuka (female)",
+      "ja": "藤丸立香（女性）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujimaru ritsuka (male)",
+      "ja": "藤丸立香（男性）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujishima megumi",
+      "ja": "藤島慈",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujita kotone",
+      "ja": "藤田ことね",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujiwara chika",
+      "ja": "藤原千花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fujiwara no mokou",
+      "ja": "藤原妹紅",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fukumaru koito",
+      "ja": "福丸小糸",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full armor",
+      "ja": "フルアーマー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full beard",
+      "ja": "豊かなあごひげ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full body",
+      "ja": "全身",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full composition",
+      "ja": "全身を含む全体構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full moon",
+      "ja": "満月",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full nelson",
+      "ja": "フルネルソン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full-body tattoo",
+      "ja": "全身のタトゥー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full-face blush",
+      "ja": "顔全体の赤面",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full-length mirror",
+      "ja": "姿見",
+      "status": "reviewed"
+    },
+    {
+      "tag": "full-length zipper",
+      "ja": "全長ファスナー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fullmetal alchemist",
+      "ja": "鋼の錬金術師",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fumihiko (fu mihi ko)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fumio (rsqkr)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fumo (doll)",
+      "ja": "ふもふもぬいぐるみ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "funami yui",
+      "ja": "船見結衣",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fundoshi",
+      "ja": "ふんどし",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur boots",
+      "ja": "毛皮のブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur cape",
+      "ja": "毛皮ケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur cloak",
+      "ja": "毛皮のマント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur coat",
+      "ja": "ファーコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur collar",
+      "ja": "毛皮の襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur cuffs",
+      "ja": "毛皮のカフス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur hat",
+      "ja": "毛皮の帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur jacket",
+      "ja": "ファージャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur scarf",
+      "ja": "毛皮のスカーフ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur shawl",
+      "ja": "毛皮のショール",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur trim",
+      "ja": "毛皮の縁取り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed boots",
+      "ja": "毛皮の縁取り付きブーツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed cape",
+      "ja": "毛皮の縁取り付きケープ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed capelet",
+      "ja": "毛皮の縁取り付きケープレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed cloak",
+      "ja": "毛皮の縁取り付きマント",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed coat",
+      "ja": "毛皮の縁取り付きコート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed collar",
+      "ja": "毛皮の縁取り付き襟",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed dress",
+      "ja": "毛皮の縁取り付きドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed footwear",
+      "ja": "毛皮の縁取り付き履物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed gloves",
+      "ja": "毛皮の縁取り付き手袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed headwear",
+      "ja": "毛皮の縁取り付き帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed hood",
+      "ja": "毛皮の縁取り付きフード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed jacket",
+      "ja": "毛皮の縁取り付きジャケット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed kimono",
+      "ja": "毛皮の縁取り付き着物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed legwear",
+      "ja": "毛皮の縁取り付きレッグウェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed leotard",
+      "ja": "毛皮の縁取り付きレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed shirt",
+      "ja": "毛皮の縁取り付きシャツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed shorts",
+      "ja": "毛皮の縁取り付きショートパンツ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed skirt",
+      "ja": "毛皮の縁取り付きスカート",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed sleeves",
+      "ja": "毛皮の縁取り付き袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fur-trimmed thighhighs",
+      "ja": "毛皮の縁取り付きサイハイソックス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furigana",
+      "ja": "振り仮名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furina (genshin impact)",
+      "ja": "フリーナ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furisode",
+      "ja": "振袖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furrification",
+      "ja": "溝",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furrowed brow",
+      "ja": "眉間にしわを寄せた表情",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furry",
+      "ja": "ケモノ系・獣人表現",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furry female",
+      "ja": "ケモノ系の女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furry male",
+      "ja": "ケモノ系の男性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furry with furry",
+      "ja": "ケモノキャラクター同士",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furry with non-furry",
+      "ja": "ケモノキャラクターと人間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furude rika",
+      "ja": "古手梨花",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furukawa nagisa",
+      "ja": "古河渚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "furutaka (kancolle)",
+      "ja": "古鷹(艦隊これくしょん)",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fushiguro megumi",
+      "ja": "伏黒恵",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fusion",
+      "ja": "融合",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fusou (kancolle)",
+      "ja": "扶桑（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fusu (a95101221)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fusuma",
+      "ja": "襖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futaba anzu",
+      "ja": "双葉杏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futaba channel",
+      "ja": "ふたばちゃんねる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futami ami",
+      "ja": "双海亜美",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futami mami",
+      "ja": "双海真美",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futari wa precure",
+      "ja": "ふたりはプリキュア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futasub",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "futatsuiwa mamizou",
+      "ja": "二ッ岩マミゾウ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "futon",
+      "ja": "布団",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fuuin no tsue",
+      "ja": "封印の杖",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fuuzasa",
+      "ja": "フーザサ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "fuwawa abyssgard",
+      "ja": "フワワ・アビスガード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "fuwawa abyssgard (1st costume)",
+      "ja": "フワワ・アビスガード（1着目の衣装）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "g-string",
+      "ja": "Gストリング",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gabriel dropout",
+      "ja": "ガヴリールドロップアウト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gae bolg (fate)",
+      "ja": "ゲイ・ボルク（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gae dearg (fate)",
+      "ja": "ゲイ・ジャルグ（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gakuen idolmaster",
+      "ja": "学園アイドルマスター",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gakuran",
+      "ja": "学ラン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "galaga",
+      "ja": "ギャラガ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "galaxy",
+      "ja": "銀河",
+      "status": "reviewed"
+    },
+    {
+      "tag": "galaxy angel",
+      "ja": "ギャラクシーエンジェル",
+      "status": "reviewed"
+    },
+    {
+      "tag": "galaxy expedition team survey corps uniform",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "gamagoori ira",
+      "ja": "蟇郡苛",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gambier bay (kancolle)",
+      "ja": "ガンビア・ベイ（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "game boy",
+      "ja": "ゲームボーイ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "game console",
+      "ja": "ゲーム機",
+      "status": "reviewed"
+    },
+    {
+      "tag": "game controller",
+      "ja": "ゲームコントローラー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "game screenshot inset",
+      "ja": "ゲーム画面の挿入カット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gamepad",
+      "ja": "ゲームパッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gameplay mechanics",
+      "ja": "ゲームの仕組み・演出",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gaming chair",
+      "ja": "ゲーミングチェア",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ganaha hibiki",
+      "ja": "我那覇響",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ganguro",
+      "ja": "ガングロ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gangut (kancolle)",
+      "ja": "Гангут（艦隊これくしょん）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ganyu (genshin impact)",
+      "ja": "甘雨（原神）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gao",
+      "ja": "ガオ",
+      "status": "needs_review"
+    },
+    {
+      "tag": "gaoo (frpjx283)",
+      "ja": "",
+      "status": "needs_review"
+    },
+    {
+      "tag": "gap (touhou)",
+      "ja": "ギャップ（touhou）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gaping",
+      "ja": "隙間",
+      "status": "reviewed"
+    },
+    {
+      "tag": "garden",
+      "ja": "庭園",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gardevoir",
+      "ja": "サーナイト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "garreg mach monastery uniform",
+      "ja": "ガルグ＝マク大修道院の制服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "garrison cap",
+      "ja": "略帽",
+      "status": "reviewed"
+    },
+    {
+      "tag": "garter belt",
+      "ja": "ガーターベルト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "garter straps",
+      "ja": "ガーターストラップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gas mask",
+      "ja": "ガスマスク",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gate",
+      "ja": "門",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gathers",
+      "ja": "ギャザー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gatling gun",
+      "ja": "ガトリング砲",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gauntlets",
+      "ja": "ガントレット",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gauze",
+      "ja": "ガーゼ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gauze on cheek",
+      "ja": "頬に貼ったガーゼ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gawr gura",
+      "ja": "がうる・ぐら",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gawr gura (1st costume)",
+      "ja": "がうる・ぐら（1着目の衣装）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gears",
+      "ja": "歯車",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gegege no kitarou",
+      "ja": "ゲゲゲの鬼太郎",
+      "status": "reviewed"
+    },
+    {
+      "tag": "gekkoukan high school uniform",
+      "ja": "月光館学園の制服",
+      "status": "reviewed"
     }
   ],
   "review_pass": {
-    "source_indices": "0-2499",
-    "note": "先頭2,500件を確認。一般的な色指定は日本語表示から除去し、固有名詞・作品名・意味のある色彩表現は保持。柄・模様は色指定と区別して保持。英語元タグの色修飾除去と要素分解は、元タグとの対応を保持するデータ構造移行で実施する。"
+    "source_indices": "0-3499",
+    "latest_batch": "2500-3499",
+    "batch_size": 1000,
+    "note": "2500〜3499番を英語元タグから再確認。既存訳は意味が合う場合のみ維持し、機械翻訳由来の誤訳・表記揺れを修正。作品・キャラクター名は日本語公式表記を優先。一般色指定の除去と複合タグ分解は、元タグとの対応を保持するスキーマ移行で実施する。確証のない作者タグ・略語は要確認に保留。"
   }
 }
