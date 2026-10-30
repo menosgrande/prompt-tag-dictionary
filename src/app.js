@@ -1131,11 +1131,6 @@
     a.href = url; a.download = "prompt-tag-dictionary-edited.json"; document.body.append(a); a.click(); a.remove(); URL.revokeObjectURL(url);
     setStatus("edit-status", "編集データJSONを書き出しました。");
   }
-  function downloadText() {
-    const blob = new Blob([$("#prompt-output").value], { type: "text/plain;charset=utf-8" });
-    const url = URL.createObjectURL(blob), a = document.createElement("a");
-    a.href = url; a.download = "prompt-tags.txt"; a.click(); URL.revokeObjectURL(url);
-  }
   async function copyOutput(target = "positive") {
     const ta = target === "negative" ? $("#negative-output") : $("#prompt-output");
     const value = ta.value;
