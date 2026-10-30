@@ -358,6 +358,22 @@
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { return (t.category && t.category[0]) || "未分類"; }
+  // Prompt assembly order is separate from the searchable taxonomy.
+  const PROMPT_ORDER = ["人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・品質", "光・色彩・演出"];
+  function promptOrderOf(t) {
+    const major = majorOf(t), minor = minorOf(t);
+    if (major === "人物" || major === "作品・キャラクター") return PROMPT_ORDER[0];
+    if (major === "服装") return PROMPT_ORDER[1];
+    if (major === "ポーズ・動作") return minor === "姿勢" ? PROMPT_ORDER[2] : PROMPT_ORDER[3];
+    if (major === "シチュエーション") return PROMPT_ORDER[3];
+    if (major === "背景・場所") return PROMPT_ORDER[4];
+    if (major === "構図・視点") return PROMPT_ORDER[5];
+    if (major === "画風・品質") return PROMPT_ORDER[6];
+    if (major === "光・色彩") return PROMPT_ORDER[7];
+    if (major === "成人向け") return /身体・衣類/.test(minor) ? PROMPT_ORDER[1] : /表現・修正/.test(minor) ? PROMPT_ORDER[7] : PROMPT_ORDER[3];
+    if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[0] : /記号・効果/.test(minor) ? PROMPT_ORDER[7] : PROMPT_ORDER[4];
+    return "未分類";
+  }
   function minorOf(t) { return (t.category && t.category[1]) || "未分類"; }
   function detailOf(t) { return (t.category && t.category[2]) || "—"; }
   function categoryText(t) {
@@ -739,20 +755,20 @@
   function renderOutputCategories() {
     const root = $("#output-categories"); root.replaceChildren();
     const chosen = state.tags.filter(t => state.selected.has(norm(t.tag)));
-    const majors = [...new Set(chosen.map(majorOf))];
-    if (!majors.length) { root.hidden = true; return; }
+    const categories = PROMPT_ORDER.filter(category => chosen.some(t => promptOrderOf(t) === category));
+    if (!categories.length) { root.hidden = true; return; }
     root.hidden = false;
-    const validMajors = new Set(majors);
-    [...state.outputExcluded].forEach(major => { if (!validMajors.has(major)) state.outputExcluded.delete(major); });
-    majors.forEach(major => {
-      const included = !state.outputExcluded.has(major);
-      const b = makeButton(major, "include-chip" + (included ? " active" : ""), () => {
-        if (state.outputExcluded.has(major)) state.outputExcluded.delete(major);
-        else state.outputExcluded.add(major);
-        b.classList.toggle("active", !state.outputExcluded.has(major));
+    const validCategories = new Set(categories);
+    [...state.outputExcluded].forEach(category => { if (!validCategories.has(category)) state.outputExcluded.delete(category); });
+    categories.forEach(category => {
+      const included = !state.outputExcluded.has(category);
+      const b = makeButton(category, "include-chip" + (included ? " active" : ""), () => {
+        if (state.outputExcluded.has(category)) state.outputExcluded.delete(category);
+        else state.outputExcluded.add(category);
+        b.classList.toggle("active", !state.outputExcluded.has(category));
         renderOutput();
       });
-      b.dataset.major = major; b.title = "出力対象のカテゴリを切り替え"; root.append(b);
+      b.dataset.major = category; b.title = "プロンプト出力順カテゴリの出力対象を切り替え"; root.append(b);
     });
   }
   function outputComment(major) {
@@ -772,11 +788,11 @@
     if (group) {
       const map = new Map();
       selected.forEach(t => {
-        const m = majorOf(t);
+        const m = promptOrderOf(t);
         if (!hasCategoryFilters || activeCats.has(m)) { if (!map.has(m)) map.set(m, []); map.get(m).push(t); }
       });
       const sortedMajors = [...map.keys()].sort((a, b) => {
-        const ia = CATEGORIES.findIndex(c => c[0] === a), ib = CATEGORIES.findIndex(c => c[0] === b);
+        const ia = PROMPT_ORDER.indexOf(a), ib = PROMPT_ORDER.indexOf(b);
         return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b, "ja");
       });
       sortedMajors.forEach(major => {
@@ -785,7 +801,7 @@
         count += map.get(major).length;
       });
     } else {
-      const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(majorOf(t)));
+      const tags = selected.filter(t => !hasCategoryFilters || activeCats.has(promptOrderOf(t)));
       output.push(tags.map(t => t.tag).join(", ")); count = tags.length;
     }
     const value = output.filter(s => s !== "").join("\n");
