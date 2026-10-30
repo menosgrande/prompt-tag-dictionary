@@ -1,0 +1,19 @@
+{
+  "schema": "romanized-person-name-audit-v1",
+  "source": "data/tags.json",
+  "source_sha": "85289bb3678fe5f1dc69ab739f82cecbabfc36b8",
+  "total_tags": 11047,
+  "summary": {
+    "latin_title_case_candidates": 0,
+    "explicit_character_context": 0,
+    "needs_manual_review": 0
+  },
+  "policy": [
+    "Candidate detection is heuristic, not identity verification.",
+    "Do not classify every Latin-script name as anime or manga character.",
+    "Preserve original tag and Japanese translation; add a character/name classification only after evidence review.",
+    "Check names against series/character context and distinguish real people, creators, voice actors, brands, locations and generic terms."
+  ],
+  "explicit_context": [],
+  "needs_manual_review": []
+}
