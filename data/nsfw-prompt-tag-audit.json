@@ -1,0 +1,405 @@
+{
+  "schema": "nsfw-prompt-tag-research-v1",
+  "generated_at": "2026-10-30",
+  "source_count": 3,
+  "candidate_count": 35,
+  "exact_existing": 29,
+  "new_candidates": 6,
+  "near_or_alias": 0,
+  "note": "near_or_alias=0 は意味的重複調査を実施していないことを示す。完全一致のみ照合。",
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://sorenuts.jp/4566/",
+      "title": "ポーズ・体の特徴のプロンプト一覧",
+      "kind": "tag explanations",
+      "note": "身体部位への接触・姿勢・動作の説明"
+    },
+    {
+      "id": "S2",
+      "url": "https://sorenuts.jp/4580/",
+      "title": "服装のプロンプト一覧",
+      "kind": "tag explanations",
+      "note": "衣服の状態・露出状態・衣服と身体の境界"
+    },
+    {
+      "id": "S3",
+      "url": "https://prompt.myky-studio.com/",
+      "title": "MYKY Prompt",
+      "kind": "tag dictionary",
+      "note": "成人向け語彙を任意表示にできるタグ辞書。カテゴリ構造の参考"
+    }
+  ],
+  "categories": [
+    "身体の特徴",
+    "身体状態・ポーズ",
+    "接触・動作",
+    "衣服の状態",
+    "表情・顔",
+    "構図・演出"
+  ],
+  "candidates": [
+    {
+      "tag": "hand under clothes",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "衣服の下で手",
+      "existing_major": "服装",
+      "existing_minor": "衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hand on breast",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "arm between breasts",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "胸の間の腕",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "belly grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "腹をつかむ",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hand under shirt",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "シャツの下の手",
+      "existing_major": "服装",
+      "existing_minor": "衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "ass grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "spread ass",
+      "category": "身体状態・ポーズ",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "crotch grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "テント撫で",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "leg grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "脚のグラブ",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "ankle grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "足首のグラブ",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hand on lap",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "膝の上に手",
+      "existing_major": "ポーズ・動作",
+      "existing_minor": "行動",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hands on feet",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "足の手",
+      "existing_major": "ポーズ・動作",
+      "existing_minor": "行動",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "disembodied hand",
+      "category": "構図・演出",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "紳士ハンド",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "sheet grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "掴みシーツ",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "clothes grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "服をつかむ",
+      "existing_major": "服装",
+      "existing_minor": "衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hand in panties",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "パンティの中に手",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "shirt grab",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "シャツグラブ",
+      "existing_major": "服装",
+      "existing_minor": "衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "nude",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "ヌード",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "bottomless",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "ボトムレス",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "cleavage",
+      "category": "身体の特徴",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "谷間",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "sideboob",
+      "category": "身体の特徴",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "サイドブーブ",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "thigh gap",
+      "category": "身体の特徴",
+      "source": "S3",
+      "status": "exact_existing",
+      "existing_translation": "太もものギャップ",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "topless",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "トップレス",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "no panties",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "ノーパン",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "bare shoulders",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "肩出し",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "naked apron",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "裸のエプロン",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "naked shirt",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "裸のシャツ",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "nude cover",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "裸タオル",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "hand in bra",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "shirt pull",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "exact_existing",
+      "existing_translation": "シャツを引っ張る",
+      "existing_major": "服装",
+      "existing_minor": "衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "grabbing own ass",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "grabbing another's ass",
+      "category": "接触・動作",
+      "source": "S1",
+      "status": "candidate_new",
+      "existing_translation": null,
+      "existing_major": null,
+      "existing_minor": null,
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "breasts apart",
+      "category": "身体の特徴",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "胸は離れています",
+      "existing_major": "成人向け",
+      "existing_minor": "身体・衣類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "bare back",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "裸の背中",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    },
+    {
+      "tag": "bare legs",
+      "category": "衣服の状態",
+      "source": "S2",
+      "status": "exact_existing",
+      "existing_translation": "素足",
+      "existing_major": "未分類",
+      "existing_minor": "未分類",
+      "review": "意味・モデル依存性・既存の近似タグを要確認"
+    }
+  ],
+  "methodology": [
+    "外部ページに掲載されたタグ表現・説明例から候補語を抽出。",
+    "data/tags.json と英語タグの大文字小文字を無視した完全一致で照合。",
+    "意味的な同義語・近似語の照合は未実施。",
+    "外部ページの説明文は転載せず、タグ表現と短い調査メモのみ記録。",
+    "成人向け語彙は通常画面に直接追加しない。採用・分類・表示制御は別途レビュー。"
+  ],
+  "safety": [
+    "data/tags.json は変更しない。",
+    "実在人物、未成年、非同意・違法表現に関する作成支援は対象外。",
+    "候補は採用済みタグではなく、辞書追加候補。"
+  ]
+}
