@@ -20902,42 +20902,42 @@
     {
       "tag": "living clothes",
       "ja": "生きている服",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "living room",
-      "ja": "居間",
-      "status": "needs_review"
+      "ja": "リビングルーム",
+      "status": "reviewed"
     },
     {
       "tag": "lizard",
       "ja": "トカゲ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lizard tail",
-      "ja": "トカゲの尾",
-      "status": "needs_review"
+      "ja": "トカゲの尻尾",
+      "status": "reviewed"
     },
     {
       "tag": "lize helesta",
       "ja": "リゼ・ヘルエスタ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "load bearing vest",
-      "ja": "負荷ベアリングベスト",
-      "status": "needs_review"
+      "ja": "ロードベアリングベスト",
+      "status": "reviewed"
     },
     {
       "tag": "loaded interior",
-      "ja": "ロードされたインテリア",
-      "status": "needs_review"
+      "ja": "物が多く置かれた室内",
+      "status": "reviewed"
     },
     {
       "tag": "loafers",
       "ja": "ローファー",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lobotomy corporation",
@@ -20946,53 +20946,53 @@
     },
     {
       "tag": "lock",
-      "ja": "ロック",
-      "status": "needs_review"
+      "ja": "錠前",
+      "status": "reviewed"
     },
     {
       "tag": "locked arms",
-      "ja": "ロックされた腕",
-      "status": "needs_review"
+      "ja": "腕を組む",
+      "status": "reviewed"
     },
     {
       "tag": "locker",
       "ja": "ロッカー",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "locker room",
-      "ja": "ロッカールーム",
-      "status": "needs_review"
+      "ja": "更衣室",
+      "status": "reviewed"
     },
     {
       "tag": "locomotive",
       "ja": "機関車",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "log",
       "ja": "丸太",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "log pose",
-      "ja": "ログポーズ",
-      "status": "needs_review"
+      "ja": "ログポース",
+      "status": "reviewed"
     },
     {
       "tag": "logo",
       "ja": "ロゴ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "logo parody",
-      "ja": "ロゴパロディ",
-      "status": "needs_review"
+      "ja": "ロゴのパロディ",
+      "status": "reviewed"
     },
     {
       "tag": "loincloth",
-      "ja": "ふんどし",
-      "status": "needs_review"
+      "ja": "腰布",
+      "status": "reviewed"
     },
     {
       "tag": "lolidom",
@@ -21002,22 +21002,22 @@
     {
       "tag": "lolita channel",
       "ja": "ロリータチャンネル",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lolita fashion",
       "ja": "ロリータファッション",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lolita hairband",
-      "ja": "ロリータヘアバンド",
-      "status": "needs_review"
+      "ja": "ロリータ風ヘアバンド",
+      "status": "reviewed"
     },
     {
       "tag": "lollipop",
       "ja": "ロリポップ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lone nape hair",
@@ -21027,267 +21027,267 @@
     {
       "tag": "long bangs",
       "ja": "長い前髪",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long beard",
-      "ja": "長いひげ",
-      "status": "needs_review"
+      "ja": "長いあごひげ",
+      "status": "reviewed"
     },
     {
       "tag": "long braid",
       "ja": "長い三つ編み",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long coat",
       "ja": "ロングコート",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long dress",
       "ja": "ロングドレス",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long earlobes",
       "ja": "長い耳たぶ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long eyelashes",
-      "ja": "長いまつげ",
-      "status": "needs_review"
+      "ja": "長いまつ毛",
+      "status": "reviewed"
     },
     {
       "tag": "long fingernails",
       "ja": "長い爪",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long hair",
-      "ja": "ロングヘア",
-      "status": "needs_review"
+      "ja": "長髪",
+      "status": "reviewed"
     },
     {
       "tag": "long hair between eyes",
-      "ja": "目の間に長い髪",
-      "status": "needs_review"
+      "ja": "目の間に垂れる長い髪",
+      "status": "reviewed"
     },
     {
       "tag": "long horns",
       "ja": "長い角",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long legs",
       "ja": "長い脚",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long neck",
       "ja": "長い首",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long nose",
       "ja": "長い鼻",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long pointy ears",
-      "ja": "長い先のとがった耳",
-      "status": "needs_review"
+      "ja": "長く尖った耳",
+      "status": "reviewed"
     },
     {
       "tag": "long ribbon",
       "ja": "長いリボン",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long scarf",
       "ja": "長いスカーフ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long shirt",
       "ja": "ロングシャツ",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long sideburns",
-      "ja": "長時間のサイドバーン",
-      "status": "needs_review"
+      "ja": "長いもみあげ",
+      "status": "reviewed"
     },
     {
       "tag": "long sidelocks",
-      "ja": "長いサイドロック",
-      "status": "needs_review"
+      "ja": "長い横髪",
+      "status": "reviewed"
     },
     {
       "tag": "long skirt",
       "ja": "ロングスカート",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long sleeves",
       "ja": "長袖",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long tail",
-      "ja": "ロングテール",
-      "status": "needs_review"
+      "ja": "長い尻尾",
+      "status": "reviewed"
     },
     {
       "tag": "long toenails",
       "ja": "長い足の爪",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "long tongue",
       "ja": "長い舌",
-      "status": "needs_review"
-    },
-    {
-      "tag": "look-alike",
-      "ja": "そっくりさん",
-      "status": "needs_review"
-    },
-    {
-      "tag": "looking afar",
-      "ja": "遠くを探しています",
-      "status": "needs_review"
-    },
-    {
-      "tag": "looking ahead",
-      "ja": "今後",
-      "status": "needs_review"
-    },
-    {
-      "tag": "looking at animal",
-      "ja": "動物を見ています",
-      "status": "needs_review"
-    },
-    {
-      "tag": "looking at another",
-      "ja": "別の物を見てる",
-      "status": "needs_review"
-    },
-    {
-      "tag": "looking at breasts",
-      "ja": "胸を見る",
       "status": "reviewed"
     },
     {
-      "tag": "looking at food",
-      "ja": "食べ物を見ています",
+      "tag": "look-alike",
+      "ja": "そっくりな人物",
+      "status": "reviewed"
+    },
+    {
+      "tag": "looking afar",
+      "ja": "遠くを見る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "looking ahead",
+      "ja": "前方を見る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "looking at animal",
+      "ja": "動物を見る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "looking at another",
+      "ja": "他の人物を見る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "looking at breasts",
+      "ja": "胸を見ています",
       "status": "needs_review"
     },
     {
+      "tag": "looking at food",
+      "ja": "食べ物を見る",
+      "status": "reviewed"
+    },
+    {
       "tag": "looking at hand",
-      "ja": "手を見ています",
-      "status": "needs_review"
+      "ja": "手を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking at mirror",
       "ja": "鏡を見る",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "looking at object",
-      "ja": "オブジェクトを見ています",
-      "status": "needs_review"
+      "ja": "物を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking at phone",
-      "ja": "電話を見る",
-      "status": "needs_review"
+      "ja": "携帯電話を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking at viewer",
-      "ja": "カメラ目線",
-      "status": "needs_review"
+      "ja": "見る人の方を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking back",
-      "ja": "見返り",
-      "status": "needs_review"
+      "ja": "振り返る",
+      "status": "reviewed"
     },
     {
       "tag": "looking down",
-      "ja": "見下ろす",
-      "status": "needs_review"
+      "ja": "下を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking outside",
       "ja": "外を見る",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "looking over eyewear",
       "ja": "眼鏡越しに見る",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "looking through own legs",
-      "ja": "股のぞき",
-      "status": "needs_review"
+      "ja": "自分の脚の間から見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking to the side",
-      "ja": "よそ見",
-      "status": "needs_review"
+      "ja": "横を見る",
+      "status": "reviewed"
     },
     {
       "tag": "looking up",
-      "ja": "見上げる",
-      "status": "needs_review"
+      "ja": "上を見る",
+      "status": "reviewed"
     },
     {
       "tag": "loose belt",
-      "ja": "ゆるいベルト",
-      "status": "needs_review"
+      "ja": "緩めたベルト",
+      "status": "reviewed"
     },
     {
       "tag": "loose bowtie",
-      "ja": "ゆるいボウタイ",
-      "status": "needs_review"
+      "ja": "緩めた蝶ネクタイ",
+      "status": "reviewed"
     },
     {
       "tag": "loose clothes",
-      "ja": "ダブダブした服",
-      "status": "needs_review"
+      "ja": "ゆったりした服",
+      "status": "reviewed"
     },
     {
       "tag": "loose hair strand",
       "ja": "ほつれた毛束",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "loose necktie",
-      "ja": "ゆるいネクタイ",
-      "status": "needs_review"
+      "ja": "緩めたネクタイ",
+      "status": "reviewed"
     },
     {
       "tag": "loose shirt",
-      "ja": "ルーズシャツ",
-      "status": "needs_review"
+      "ja": "ゆったりしたシャツ",
+      "status": "reviewed"
     },
     {
       "tag": "loose socks",
-      "ja": "ゆるい靴下",
-      "status": "needs_review"
+      "ja": "ずり落ちた靴下",
+      "status": "reviewed"
     },
     {
       "tag": "lop rabbit ears",
-      "ja": "lopウサギの耳",
-      "status": "needs_review"
+      "ja": "垂れ耳ウサギの耳",
+      "status": "reviewed"
     },
     {
       "tag": "lopunny",
       "ja": "ミミロップ",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lord camelot (fate)",
@@ -21297,7 +21297,7 @@
     {
       "tag": "lord el-melloi ii case files",
       "ja": "ロード・エルメロイII世の事件簿",
-      "status": "reviewed"
+      "status": "needs_review"
     },
     {
       "tag": "lord of the mysteries",
@@ -21307,17 +21307,17 @@
     {
       "tag": "lotion",
       "ja": "ローション",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "lotion bottle",
-      "ja": "ローションボトル",
-      "status": "needs_review"
+      "ja": "ローションのボトル",
+      "status": "reviewed"
     },
     {
       "tag": "lotus",
       "ja": "蓮",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "louise francoise le blanc de la valliere",
@@ -21327,17 +21327,17 @@
     {
       "tag": "lounge chair",
       "ja": "ラウンジチェア",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "loungewear",
-      "ja": "ラウンジウェア",
-      "status": "needs_review"
+      "ja": "部屋着",
+      "status": "reviewed"
     },
     {
       "tag": "love letter",
       "ja": "ラブレター",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "love live!",
@@ -21361,8 +21361,8 @@
     },
     {
       "tag": "love live! school idol project",
-      "ja": "ラブライブ! School idol project",
-      "status": "needs_review"
+      "ja": "ラブライブ！ School idol project",
+      "status": "reviewed"
     },
     {
       "tag": "love live! sunshine!!",
@@ -21377,7 +21377,7 @@
     {
       "tag": "love plus",
       "ja": "ラブプラス",
-      "status": "needs_review"
+      "status": "reviewed"
     },
     {
       "tag": "low neckline",
