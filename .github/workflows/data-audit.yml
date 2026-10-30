@@ -23,6 +23,11 @@ on:
   pull_request:
     paths:
       - "data/tags.json"
+      - "data/prompt-order-categories.json"
+      - "admin.html"
+      - "admin.css"
+      - "src/admin.js"
+      - "scripts/audit-prompt-order.mjs"
       - "data/tag-review.json"
       - "data/tag-change-log.json"
       - "src/app.js"
