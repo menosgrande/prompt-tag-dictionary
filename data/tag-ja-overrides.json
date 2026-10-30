@@ -843,6 +843,496 @@
       "tag": "arm support",
       "ja": "腕で体を支える",
       "status": "reviewed"
+    },
+    {
+      "tag": "arm up",
+      "ja": "腕を上げる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arm under breasts",
+      "ja": "胸の下に差し入れた腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms around neck",
+      "ja": "首に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms around waist",
+      "ja": "腰に腕を回す",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms at sides",
+      "ja": "体の横に下ろした両腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms behind back",
+      "ja": "背中に回した両腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms behind head",
+      "ja": "頭の後ろに回した両腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms between legs",
+      "ja": "脚の間にある両腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arms under breasts",
+      "ja": "胸の下に差し入れた両腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arrow (projectile)",
+      "ja": "矢（飛び道具）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arrow (symbol)",
+      "ja": "矢印記号",
+      "status": "reviewed"
+    },
+    {
+      "tag": "arrow through heart",
+      "ja": "ハートを貫く矢",
+      "status": "reviewed"
+    },
+    {
+      "tag": "art nouveau",
+      "ja": "アール・ヌーヴォー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "art program in frame",
+      "ja": "画面内に描かれたペイントソフト",
+      "status": "reviewed"
+    },
+    {
+      "tag": "art tools in frame",
+      "ja": "画面内に描かれた画材",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artist logo",
+      "ja": "作者のロゴ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artist name",
+      "ja": "作者名",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artistic error",
+      "ja": "作画上の破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artoria pendragon (alter swimsuit rider) (fate)",
+      "ja": "アルトリア・ペンドラゴン〔オルタ／水着・ライダー〕（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artoria pendragon (fate)",
+      "ja": "アルトリア・ペンドラゴン（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artoria pendragon (lancer alter) (fate)",
+      "ja": "アルトリア・ペンドラゴン〔ランサー・オルタ〕（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artoria pendragon (lancer) (fate)",
+      "ja": "アルトリア・ペンドラゴン〔ランサー〕（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "artoria pendragon (swimsuit ruler) (fate)",
+      "ja": "アルトリア・ペンドラゴン〔水着・ルーラー〕（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "asakura ryouko",
+      "ja": "朝倉涼子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "asakura toru",
+      "ja": "浅倉透",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ash ketchum",
+      "ja": "サトシ（ポケットモンスター）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "assault lily",
+      "ja": "アサルトリリィ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "assertive female",
+      "ja": "積極的な女性",
+      "status": "reviewed"
+    },
+    {
+      "tag": "astolfo (fate)",
+      "ja": "アストルフォ（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "asui tsuyu",
+      "ja": "蛙吹梅雨",
+      "status": "reviewed"
+    },
+    {
+      "tag": "asymmetrical docking",
+      "ja": "左右非対称のドッキング",
+      "status": "needs_review"
+    },
+    {
+      "tag": "asymmetrical dual wielding",
+      "ja": "左右の手に異なる武器を持つ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "at computer",
+      "ja": "パソコンの前にいる",
+      "status": "reviewed"
+    },
+    {
+      "tag": "atelier ryza",
+      "ja": "ライザのアトリエ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "atelier ryza 1",
+      "ja": "ライザのアトリエ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "au ra",
+      "ja": "アウラ（ファイナルファンタジーXIV）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aubrey (omori)",
+      "ja": "オーブリー（OMORI）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "aunt and niece",
+      "ja": "叔母と姪",
+      "status": "reviewed"
+    },
+    {
+      "tag": "averting eyes",
+      "ja": "目をそらす",
+      "status": "reviewed"
+    },
+    {
+      "tag": "axis powers hetalia",
+      "ja": "ヘタリア Axis Powers",
+      "status": "reviewed"
+    },
+    {
+      "tag": "azki (hololive)",
+      "ja": "AZKi（ホロライブ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "back bow",
+      "ja": "背中側のリボン",
+      "status": "reviewed"
+    },
+    {
+      "tag": "back focus",
+      "ja": "背中を強調した構図",
+      "status": "reviewed"
+    },
+    {
+      "tag": "back-seamed legwear",
+      "ja": "後ろに縫い目のある脚用衣類",
+      "status": "reviewed"
+    },
+    {
+      "tag": "back-to-back",
+      "ja": "背中合わせ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "backless dress",
+      "ja": "背中の開いたドレス",
+      "status": "reviewed"
+    },
+    {
+      "tag": "backless leotard",
+      "ja": "背中の開いたレオタード",
+      "status": "reviewed"
+    },
+    {
+      "tag": "backless outfit",
+      "ja": "背中の開いた服装",
+      "status": "reviewed"
+    },
+    {
+      "tag": "backless swimsuit",
+      "ja": "背中の開いた水着",
+      "status": "reviewed"
+    },
+    {
+      "tag": "backwards hat",
+      "ja": "後ろ向きにかぶった帽子",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad anatomy",
+      "ja": "人体構造の破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad end",
+      "ja": "バッドエンド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad feet",
+      "ja": "足の描写の破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad food",
+      "ja": "不味そうな食べ物",
+      "status": "needs_review"
+    },
+    {
+      "tag": "bad hands",
+      "ja": "手の描写の破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad perspective",
+      "ja": "パースの破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bad proportions",
+      "ja": "身体の比率の破綻",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bag of chips",
+      "ja": "ポテトチップスの袋",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bagged fish",
+      "ja": "袋に入った魚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "baggy clothes",
+      "ja": "ダボダボの服",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bags under eyes",
+      "ja": "目の下のクマ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "baking",
+      "ja": "焼き菓子作り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bakugou katsuki",
+      "ja": "爆豪勝己",
+      "status": "reviewed"
+    },
+    {
+      "tag": "balancing",
+      "ja": "バランスを取る",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bald",
+      "ja": "スキンヘッド",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ball and chain (weapon)",
+      "ja": "モーニングスター（鎖付き鉄球）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ball and chain restraint",
+      "ja": "鎖付き鉄球の拘束具",
+      "status": "reviewed"
+    },
+    {
+      "tag": "ballet slippers",
+      "ja": "バレエシューズ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bamboo shoot",
+      "ja": "タケノコ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bamboo steamer",
+      "ja": "蒸籠（せいろ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandage on face",
+      "ja": "顔に巻いた包帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged arm",
+      "ja": "包帯を巻いた腕",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged chest",
+      "ja": "胸に巻いた包帯",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged foot",
+      "ja": "包帯を巻いた足",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged head",
+      "ja": "包帯を巻いた頭",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged leg",
+      "ja": "包帯を巻いた脚",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged neck",
+      "ja": "包帯を巻いた首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaged wrist",
+      "ja": "包帯を巻いた手首",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid hair ornament",
+      "ja": "絆創膏の髪飾り",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on arm",
+      "ja": "腕の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on cheek",
+      "ja": "頬の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on face",
+      "ja": "顔の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on forehead",
+      "ja": "額の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on hand",
+      "ja": "手の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on head",
+      "ja": "頭の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on knee",
+      "ja": "膝の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on leg",
+      "ja": "脚の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on neck",
+      "ja": "首の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on nose",
+      "ja": "鼻の絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaid on thigh",
+      "ja": "太ももの絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandaids on nipples",
+      "ja": "乳首に貼った絆創膏",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandana around neck",
+      "ja": "首に巻いたバンダナ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bandeau",
+      "ja": "バンドゥトップ",
+      "status": "reviewed"
+    },
+    {
+      "tag": "banner",
+      "ja": "横断幕・バナー",
+      "status": "reviewed"
+    },
+    {
+      "tag": "baobhan sith (fate)",
+      "ja": "バーヴァン・シー（Fate）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bang dream!",
+      "ja": "BanG Dream!",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bangboo (zenless zone zero)",
+      "ja": "ボンプ（ゼンレスゾーンゼロ）",
+      "status": "reviewed"
+    },
+    {
+      "tag": "bar censor",
+      "ja": "棒状の検閲線",
+      "status": "reviewed"
     }
   ]
 }
