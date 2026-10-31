@@ -62956,6 +62956,51 @@
       },
       "reason": "Fate公式サイトの日本語キャラクター表記に合わせて修正。人手の最終確認待ち。",
       "source": "https://fate-extella.jp/character/tamamonomae.html"
+    },
+    {
+      "tag": ":/",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "歪嘴"
+      },
+      "after": {
+        "ja": "口角の片下がり"
+      },
+      "reason": "片側の口角が下がった表情を示すタグとして修正。Danbooru系wikiの説明に基づくAI一次訳。人手最終確認待ち。",
+      "source": "https://safebooru.donmai.us/wiki_pages/%3A%2F"
+    },
+    {
+      "tag": ":|",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "平嘴"
+      },
+      "after": {
+        "ja": "一文字口"
+      },
+      "reason": "口を水平な一直線に閉じた形を示すタグとして修正。Danbooruタグwikiのスナップショット説明に基づくAI一次訳。人手最終確認待ち。",
+      "source": "https://tags.latent.moe/ja/t/%3A%7C"
+    },
+    {
+      "tag": "after vaginal",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "膣の後"
+      },
+      "after": {
+        "ja": "膣性交後"
+      },
+      "reason": "膣性交後の状態を示すタグとして修正。Gelbooru wikiのタグ説明に基づくAI一次訳。人手最終確認待ち。",
+      "source": "https://gelbooru.com/index.php?page=wiki&s=view&id=22506"
     }
   ]
 }
