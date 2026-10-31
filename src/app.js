@@ -977,10 +977,12 @@
         return cell;
       };
       const displayed = displayClassification(t);
-      const majorCell = makeCell("tag-cell tag-major", displayed.major);
+      const classification = classificationOf(t);
+      const majorCell = makeCell("tag-cell tag-major", displayed.major + (classification?.status === "provisional" ? " · 暫定" : classification?.status === "needs-review" ? " · 要確認" : ""));
+      if (classification?.status === "provisional") majorCell.title = "新分類のAI候補。確定済みではありません。";
+      else if (classification?.status === "needs-review") majorCell.title = "分類を確定できないため要確認です。";
       const minorCell = makeCell("tag-cell tag-minor", displayed.minor);
       const detailCell = makeCell("tag-cell tag-detail", displayed.detail === "—" ? "未設定" : displayed.detail);
-      const classification = classificationOf(t);
       if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
 
