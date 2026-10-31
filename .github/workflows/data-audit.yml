@@ -23,6 +23,7 @@ on:
       - "scripts/audit-tags.mjs"
       - "scripts/audit-tag-management.mjs"
       - "scripts/audit-translations.mjs"
+      - "tests/audit-translations.test.mjs"
       - "scripts/apply-safe-category-candidates.mjs"
       - "scripts/build-tag-metadata-review.mjs"
       - "data/nsfw-prompt-tag-audit.json"
@@ -98,3 +99,5 @@ jobs:
         run: node scripts/audit-tag-management.mjs
       - name: Audit translation candidates are current
         run: node scripts/audit-translations.mjs
+      - name: Test translation audit rules
+        run: node --test tests/audit-translations.test.mjs
