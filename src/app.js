@@ -888,7 +888,7 @@
           : [];
         const note = document.createElement("span"); note.className = "tag-category";
         note.textContent = t.isColorGroup
-          ? (selectedMembers.length ? "選択中: " + selectedMembers.join(", ") : "色を選択")
+          ? (selectedMembers.length ? "選択中: " + selectedMembers.join(", ") : "色を選択（" + (t.options || []).length + "色）")
           : "詳細タグを選択";
         const select = document.createElement("select"); select.className = "tag-group-select";
         select.setAttribute("aria-label", t.id + (t.isColorGroup ? "の色を選択" : "の具体的なタグを選択"));
