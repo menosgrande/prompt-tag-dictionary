@@ -2,7 +2,7 @@
   "schema": "tag-taxonomy-v1",
   "version": 1,
   "updatedAt": "2026-10-31",
-  "description": "タグの意味分類と出力先を分離して管理するための正規定義。negativeは意味分類ではなく、独立した出力先と仮想ビュー。",
+  "description": "タグの意味分類と出力先を分離して管理するための正規定義。negativeは品質・スコア配下に表示する独立した出力先ビューであり、意味分類自体は変更しない。",
   "semanticCategories": [
     {
       "id": "quality",
@@ -316,7 +316,8 @@
       "source": "outputTarget",
       "target": "negative",
       "independentOfSemanticCategory": true,
-      "description": "意味分類を変更せず、negative出力対象だけを横断表示する。"
+      "description": "品質・スコアカテゴリ内に表示する横断ビュー。タグの意味分類は変更せず、negative出力対象だけを抽出する。",
+      "parentCategory": "quality"
     }
   ],
   "rating": {
