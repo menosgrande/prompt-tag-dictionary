@@ -134,6 +134,18 @@
     "proposedJa": null
   },
   {
+    "tag": "a.i. voice",
+    "ja": "A.I.VOICE",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "a1 (initial-g)",
     "ja": "",
     "major": "未分類",
@@ -182,42 +194,6 @@
     "proposedJa": null
   },
   {
-    "tag": "ace attorney",
-    "ja": "エース弁護士",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "adventure time",
-    "ja": "冒険の時間",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "adventurer (ff11)",
-    "ja": "アバター（FF11）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "aegis sword (xenoblade)",
     "ja": "エージスの剣（xenoblade）",
     "major": "その他",
@@ -255,14 +231,14 @@
   },
   {
     "tag": "air (visual novel)",
-    "ja": "AIR(ゲーム)",
+    "ja": "AIR（ゲーム）",
     "major": "作品・キャラクター",
     "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -302,32 +278,6 @@
     "proposedJa": null
   },
   {
-    "tag": "akiyama mio",
-    "ja": "秋山mio",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "akizuki ritsuko",
-    "ja": "ritsuko秋島",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "albedo (genshin impact)",
     "ja": "アルベド（Genshin Impact）",
     "major": "作品・キャラクター",
@@ -353,19 +303,6 @@
     "proposedJa": null
   },
   {
-    "tag": "amber (genshin impact)",
-    "ja": "アンバー（genshinインパクト）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "ame-chan (needy girl overdose)",
     "ja": "あめちゃん（NEEDY GIRL OVERDOSE）",
     "major": "作品・キャラクター",
@@ -375,6 +312,18 @@
     ],
     "confidence": "low",
     "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "among us",
+    "ja": "Among Us（ゲーム）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -426,6 +375,18 @@
     "proposedJa": null
   },
   {
+    "tag": "anya (spy x family)",
+    "ja": "アーニャ・フォージャー（SPY×FAMILY）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "ar-15",
     "ja": "",
     "major": "未分類",
@@ -446,7 +407,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -488,62 +449,62 @@
   },
   {
     "tag": "artoria pendragon (alter swimsuit rider) (fate)",
-    "ja": "Artoria Pendragon（Alter Swimsuit Rider）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔オルタ／水着・ライダー〕（Fate）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "artoria pendragon (fate)",
-    "ja": "Artoria Pendragon（Fate）",
+    "ja": "アルトリア・ペンドラゴン（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "artoria pendragon (lancer alter) (fate)",
-    "ja": "Artoria Pendragon（Lancer Alter）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔ランサー・オルタ〕（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "artoria pendragon (lancer) (fate)",
-    "ja": "アルトリアペンドラゴン（ランサー）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔ランサー〕（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "artoria pendragon (swimsuit ruler) (fate)",
-    "ja": "Artoria Pendragon（水着の支配者）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔水着・ルーラー〕（Fate）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -632,16 +593,27 @@
     "proposedJa": null
   },
   {
-    "tag": "aunt and niece",
-    "ja": "叔母とnie",
+    "tag": "au ra",
+    "ja": "アウラ（ファイナルファンタジーXIV）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "aubrey (omori)",
+    "ja": "オーブリー（OMORI）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -654,6 +626,18 @@
     ],
     "confidence": "medium",
     "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "axis powers hetalia",
+    "ja": "ヘタリア Axis Powers",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -681,6 +665,18 @@
     "proposedJa": null
   },
   {
+    "tag": "azki (hololive)",
+    "ja": "AZKi（ホロライブ）",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "b-ginga",
     "ja": "",
     "major": "未分類",
@@ -705,27 +701,40 @@
     "proposedJa": null
   },
   {
-    "tag": "barbara (genshin impact)",
-    "ja": "バーバラ（Genshin Impact）",
+    "tag": "bang dream!",
+    "ja": "BanG Dream!",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "baobhan sith (fate)",
+    "ja": "バーヴァン・シー（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
-    "tag": "battle axe",
-    "ja": "戦いx",
-    "major": "服装",
-    "minor": "装備",
+    "tag": "barghest (fate)",
+    "ja": "バーゲスト（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
-      "known-mistranslation"
+      "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -754,27 +763,26 @@
   },
   {
     "tag": "bb (fate/extra)",
-    "ja": "BB（運命/エクストラ）",
+    "ja": "BB（Fate/EXTRA）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "known-mistranslation",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "bb (swimsuit mooncancer) (fate)",
-    "ja": "BB（水着ムーンキャンサー）（Fate）",
+    "ja": "BB〔水着／ムーンキャンサー〕（Fate）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -815,6 +823,19 @@
     "proposedJa": null
   },
   {
+    "tag": "bemani",
+    "ja": "BEMANIシリーズ",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "bigrbear",
     "ja": "",
     "major": "未分類",
@@ -823,7 +844,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -847,7 +868,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "bleach: sennen kessen-hen",
+    "ja": "BLEACH 千年血戦篇",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -863,42 +896,15 @@
     "proposedJa": null
   },
   {
-    "tag": "blue poison (arknights)",
-    "ja": "青い毒（arknights）",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "known-mistranslation",
-      "english-remains-in-japanese"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "blue serafuku",
-    "ja": "青いserafuku",
-    "major": "光・色彩",
-    "minor": "色",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "boruto: naruto next generations",
-    "ja": "Boruto：NARUTO-次の世代",
+    "ja": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "known-mistranslation",
       "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -914,16 +920,15 @@
     "proposedJa": null
   },
   {
-    "tag": "breast envy",
-    "ja": "胸のen望",
-    "major": "成人向け",
-    "minor": "身体・衣類",
+    "tag": "bridget (guilty gear)",
+    "ja": "ブリジット（GUILTY GEAR）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
-      "known-mistranslation",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -935,33 +940,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "caliburn (fate)",
-    "ja": "Caliburn（Fate）",
+    "ja": "カリバーン（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "caressing testicles",
-    "ja": "愛sist丸",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation",
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -973,7 +964,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -993,18 +984,6 @@
     "ja": "",
     "major": "未分類",
     "minor": "未分類",
-    "reasons": [
-      "japanese-translation-missing"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "chain headband",
-    "ja": "",
-    "major": "服装",
-    "minor": "小物",
     "reasons": [
       "japanese-translation-missing"
     ],
@@ -1034,7 +1013,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1050,44 +1029,6 @@
     "proposedJa": null
   },
   {
-    "tag": "chat log",
-    "ja": "LINE風",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "chi-chi (dragon ball)",
-    "ja": "chi-chi（ドラゴンボール）",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "chi-hatan military uniform",
-    "ja": "Chi-Hatan軍服",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "chigusa minori",
     "ja": "",
     "major": "未分類",
@@ -1096,7 +1037,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1144,31 +1085,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "commander (azur lane)",
-    "ja": "司令官（Azur Lane）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "common raccoon (kemono friends)",
-    "ja": "一般的なアライグマ（Kemono Friends）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1205,7 +1122,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1217,45 +1134,31 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "criss-cross halter",
-    "ja": "CRISS-CROSSホルター",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "cu chulainn (fate)",
-    "ja": "Cu Chulainn（Fate）",
+    "ja": "クー・フーリン（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "cu chulainn (fate/stay night)",
-    "ja": "Cu Chulainn（運命/滞在夜）",
+    "ja": "クー・フーリン（Fate/stay night）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1267,7 +1170,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1279,7 +1182,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1291,84 +1194,12 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "dairi",
-    "ja": "",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "japanese-translation-missing"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "danganronpa (series)",
-    "ja": "Danganronpa（シリーズ）",
-    "major": "作品・キャラクター",
-    "minor": "作品名・シリーズ",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "danganronpa 2: goodbye despair",
-    "ja": "Danganronpa 2：さようなら絶望",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "danganronpa 3 (anime)",
-    "ja": "Danganronpa 3（アニメ）",
-    "major": "画風・品質",
-    "minor": "画風",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "danganronpa v3: killing harmony",
-    "ja": "Danganronpa V3：ハーモニーを殺します",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "danganronpa: trigger happy havoc",
-    "ja": "Danganronpa：幸せな大混乱を引き起こします",
-    "major": "人物",
-    "minor": "顔・表情",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "dark souls iii",
-    "ja": "ダークソウルズIII",
+    "ja": "ダークソウルIII",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -1376,32 +1207,32 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
-    "tag": "darling in the franxx",
-    "ja": "Franxxの最愛の人",
-    "major": "未分類",
-    "minor": "未分類",
+    "tag": "darker than black",
+    "ja": "DARKER THAN BLACK",
+    "major": "光・色彩",
+    "minor": "色",
     "reasons": [
       "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "dc comics",
-    "ja": "DCコミック",
+    "ja": "DCコミックス",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1413,7 +1244,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "death note",
+    "ja": "DEATH NOTE（デスノート）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1425,12 +1268,12 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "deviantart username",
-    "ja": "DeviantArtユーザー名",
+    "ja": "DeviantArtのユーザー名",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -1438,32 +1281,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "diarmuid ua duibhne (lancer) (fate)",
-    "ja": "diarmuid ua duibhne（ランサー）（Fate）",
+    "ja": "ディルムッド・オディナ（ランサー／Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "diluc (genshin impact)",
-    "ja": "diluc（genshinの衝撃）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1475,7 +1305,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1500,19 +1330,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "doctor (arknights)",
-    "ja": "ドクター（arknights）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
+    "tag": "dog days",
+    "ja": "DOG DAYS（作品）",
+    "major": "その他",
+    "minor": "動物",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1524,20 +1354,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "doki doki literature club",
-    "ja": "Doki Doki文学クラブ",
-    "major": "未分類",
-    "minor": "未分類",
+    "tag": "don quixote (project moon)",
+    "ja": "ドンキホーテ（Project Moon）",
+    "major": "背景・場所",
+    "minor": "自然",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1553,15 +1382,27 @@
     "proposedJa": null
   },
   {
-    "tag": "dusk (arknights)",
-    "ja": "夕暮れ（arknights）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
+    "tag": "duel academy uniform (yu-gi-oh! gx)",
+    "ja": "デュエル・アカデミアの制服（遊☆戯☆王GX）",
+    "major": "服装",
+    "minor": "衣類",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "dungeon and fighter",
+    "ja": "アラド戦記（Dungeon Fighter）",
+    "major": "未分類",
+    "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1592,15 +1433,14 @@
   },
   {
     "tag": "e.g.o (project moon)",
-    "ja": "E.G.O (Project Moon)",
+    "ja": "E.G.O（Project Moon）",
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
-      "english-remains-in-japanese",
-      "same-as-latin-tag"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1612,7 +1452,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1624,7 +1464,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1636,7 +1476,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -1648,74 +1488,36 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "elizabeth bathory (fate)",
-    "ja": "エリザベス・バソリー（Fate）",
+    "ja": "エリザベート・バートリー（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "elizabeth bathory (fate/extra ccc)",
-    "ja": "エリザベス・バソリー（運命/エクストラCCC）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "embodiment of scarlet devil",
-    "ja": "scar色の悪魔の具体化",
-    "major": "人物",
-    "minor": "種族・役割",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "enterprise (azur lane)",
-    "ja": "エンタープライズ（Azur Lane）",
+    "ja": "エリザベート・バートリー（Fate/EXTRA CCC）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "ereshkigal (fate)",
     "ja": "エレシュキガル（Fate）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "etna (disgaea)",
-    "ja": "エトナ（sigaea）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -1734,31 +1536,31 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "excalibur (fate/stay night)",
-    "ja": "エクスカリバー（運命/滞在夜）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "excalibur morgan (fate)",
-    "ja": "エクスカリバーモーガン（Fate）",
+    "ja": "エクスカリバー（Fate/stay night）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "excalibur morgan (fate)",
+    "ja": "エクスカリバー・モルガン（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1776,7 +1578,7 @@
   },
   {
     "tag": "facebook username",
-    "ja": "Facebookユーザー名",
+    "ja": "Facebookのユーザー名",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -1784,7 +1586,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1801,113 +1603,170 @@
     "proposedJa": null
   },
   {
-    "tag": "fate/apocrypha",
-    "ja": "運命/麻痺",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fate/extella",
-    "ja": "運命/エクステラ",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fate/extra",
-    "ja": "運命/エクストラ",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fate/extra ccc",
-    "ja": "運命/余分なCCC",
-    "major": "未分類",
-    "minor": "未分類",
+    "tag": "fate (series)",
+    "ja": "Fateシリーズ",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/apocrypha",
+    "ja": "Fate/Apocrypha",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/extella",
+    "ja": "Fate/EXTELLA",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/extra",
+    "ja": "Fate/EXTRA",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/extra ccc",
+    "ja": "Fate/EXTRA CCC",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "fate/grand order",
-    "ja": "運命/大秩序",
+    "ja": "Fate/Grand Order",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/hollow ataraxia",
+    "ja": "Fate/hollow ataraxia",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "fate/prototype",
-    "ja": "運命/プロトタイプ",
+    "ja": "Fate/Prototype",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "fate/prototype: fragments of blue and silver",
-    "ja": "運命/プロトタイプ：青と銀の断片",
+    "ja": "Fate/Prototype 蒼銀のフラグメンツ",
     "major": "光・色彩",
     "minor": "色",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fate/samurai remnant",
+    "ja": "Fate/Samurai Remnant",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "fate/stay night",
-    "ja": "運命/滞在夜",
+    "ja": "Fate/stay night",
     "major": "背景・場所",
     "minor": "時間・天候",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "fate/zero",
-    "ja": "運命/ゼロ",
+    "ja": "Fate/Zero",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "faust (project moon)",
+    "ja": "ファウスト（Project Moon）",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -1949,28 +1808,26 @@
   },
   {
     "tag": "final fantasy vii advent children",
-    "ja": "ファイナルファンタジーVIIアドベントの子供たち",
+    "ja": "ファイナルファンタジーVII アドベントチルドレン",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "final fantasy vii ever crisis",
-    "ja": "ファイナルファンタジーVIIはこれまでの危機です",
+    "ja": "ファイナルファンタジーVII エバークライシス",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2024,27 +1881,26 @@
   },
   {
     "tag": "fire emblem echoes: shadows of valentia",
-    "ja": "Fire Emblem Echoes：Balentiaの影",
+    "ja": "ファイアーエムブレム Echoes もうひとりの英雄王",
     "major": "未分類",
     "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fire emblem warriors: three hopes",
-    "ja": "Fire Emblem Warriors：3つの希望",
-    "major": "その他",
-    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fire emblem fates",
+    "ja": "ファイアーエムブレムif",
+    "major": "その他",
+    "minor": "記号・効果",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2056,7 +1912,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2068,44 +1924,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "florence nightingale (fate)",
-    "ja": "フローレンスナイチンゲール（Fate）",
+    "ja": "フローレンス・ナイチンゲール（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "forehead-to-forehead",
-    "ja": "額からfore-forehead",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "formidable (azur lane)",
-    "ja": "恐るべき（Azur Lane）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2121,53 +1952,15 @@
     "proposedJa": null
   },
   {
-    "tag": "fourth east high school uniform",
-    "ja": "",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "japanese-translation-missing"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "frilled capelet",
-    "ja": "フリルcapelet",
+    "tag": "free!",
+    "ja": "Free!（作品）",
     "major": "未分類",
     "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fu hua (herrscher of sentience)",
-    "ja": "fu hua（sentience of sentienceのherscher）",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fubuki (kancolle)",
-    "ja": "園（kancolle）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2179,46 +1972,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fujimaru ritsuka (female)",
-    "ja": "藤原ritsuka（女性）",
-    "major": "人物",
-    "minor": "性別・体形",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fujimaru ritsuka (male)",
-    "ja": "藤原ritsuka（男性）",
-    "major": "人物",
-    "minor": "性別・体形",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fujiwara no mokou",
-    "ja": "藤原no mokou",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2230,7 +1984,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2242,19 +1996,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "fumo (doll)",
-    "ja": "fumo（人形）",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2266,20 +2008,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "futaba channel",
-    "ja": "utabaチャンネル",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2291,31 +2020,31 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "gae bolg (fate)",
-    "ja": "ゲーボルグ（Fate）",
+    "ja": "ゲイ・ボルク（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "gae dearg (fate)",
-    "ja": "gae dearg（Fate）",
+    "ja": "ゲイ・ジャルグ（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2327,7 +2056,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2339,7 +2068,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2355,32 +2084,6 @@
     "proposedJa": null
   },
   {
-    "tag": "garreg mach monastery uniform",
-    "ja": "Garreg Mach Monasteryユニフォーム",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "garrison cap",
-    "ja": "駐risonキャップ",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "genderswap (otf)",
     "ja": "",
     "major": "未分類",
@@ -2389,7 +2092,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2413,20 +2116,162 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "grey serafuku",
-    "ja": "灰色のserafuku",
-    "major": "光・色彩",
-    "minor": "色",
+    "tag": "glowing butterfly",
+    "ja": "発光するbutterfly",
+    "major": "その他",
+    "minor": "動物",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing eye",
+    "ja": "発光するeye",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing eyes",
+    "ja": "発光するeyes",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing flower",
+    "ja": "発光するflower",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing hair",
+    "ja": "発光するhair",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing hand",
+    "ja": "発光するhand",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing horns",
+    "ja": "発光するhorns",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing sword",
+    "ja": "発光するsword",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing tattoo",
+    "ja": "発光するtattoo",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing weapon",
+    "ja": "発光するweapon",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing wings",
+    "ja": "発光するwings",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "goddess of victory: nikke",
+    "ja": "勝利の女神：NIKKE",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2439,7 +2284,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2452,7 +2297,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2465,7 +2310,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2477,7 +2322,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2489,7 +2334,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2501,7 +2346,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2513,7 +2358,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2525,20 +2370,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "hakurei shrine",
-    "ja": "hakurei神社",
-    "major": "背景・場所",
-    "minor": "自然",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2550,7 +2382,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2563,7 +2395,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2576,7 +2408,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2588,7 +2420,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2601,7 +2433,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2613,7 +2445,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2625,7 +2457,19 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "hatsune miku (append)",
+    "ja": "初音ミク（Append）",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2637,19 +2481,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "hayashimo (kancolle)",
-    "ja": "林（kancolle）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2661,7 +2493,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2673,7 +2505,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2686,7 +2518,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2699,7 +2531,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2712,7 +2544,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2725,32 +2557,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "himekaidou hatate",
-    "ja": "Himekaidouの憎しみ",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "hirasawa ui",
-    "ja": "平田ui",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2763,7 +2570,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2775,7 +2582,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2787,7 +2594,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2800,7 +2607,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2812,45 +2619,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "holding gohei",
-    "ja": "Goheiを保持します",
-    "major": "ポーズ・動作",
-    "minor": "行動",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "holding scepter",
-    "ja": "SCEPTERを保持します",
-    "major": "ポーズ・動作",
-    "minor": "行動",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "holding tablet pc",
-    "ja": "タブレットPCを保持します",
+    "ja": "タブレットPCを持つ",
     "major": "ポーズ・動作",
     "minor": "行動",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2867,20 +2648,8 @@
     "proposedJa": null
   },
   {
-    "tag": "holomyth",
-    "ja": "ホロライブEN1期生",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "holostars english",
-    "ja": "Holostars英語",
+    "tag": "hololive english",
+    "ja": "ホロライブEnglish",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -2888,7 +2657,45 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "holomyth",
+    "ja": "ホロライブEnglish Myth",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "holostars english",
+    "ja": "ホロスターズEnglish",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "hong lu (project moon)",
+    "ja": "ホンル（Project Moon）",
+    "major": "背景・場所",
+    "minor": "自然",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -2900,7 +2707,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2912,7 +2719,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2924,7 +2731,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2936,33 +2743,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "huge ahoge",
-    "ja": "巨大なahoge",
-    "major": "人物",
-    "minor": "頭髪",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "huge testicles",
-    "ja": "巨大なtest丸",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2974,7 +2755,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -2986,19 +2767,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "id card",
-    "ja": "IDカード",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3010,7 +2779,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3022,7 +2791,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3034,7 +2803,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3047,7 +2816,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3059,7 +2828,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3071,7 +2840,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3083,7 +2852,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3095,7 +2864,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3107,7 +2876,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3120,7 +2889,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "high",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3132,7 +2901,20 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "indie virtual youtuber",
+    "ja": "個人勢VTuber",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -3144,7 +2926,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3156,12 +2938,12 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "instagram logo",
-    "ja": "Instagramロゴ",
+    "ja": "Instagramのロゴ",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -3169,7 +2951,20 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "instagram username",
+    "ja": "Instagramのユーザー名",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -3182,7 +2977,7 @@
       "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3195,7 +2990,7 @@
       "same-as-latin-tag"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3207,7 +3002,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3219,7 +3014,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3232,7 +3027,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3244,7 +3039,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3256,7 +3051,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3268,7 +3063,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3280,7 +3075,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3293,7 +3088,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3306,7 +3101,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3318,7 +3113,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3330,7 +3125,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3342,7 +3137,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3354,7 +3149,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3366,7 +3161,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3378,7 +3173,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3391,7 +3186,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3403,7 +3198,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3415,7 +3210,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3427,12 +3222,25 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "joy-con",
+    "ja": "Joy-Con",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "jpeg artifacts",
-    "ja": "JPEGノイズ",
+    "ja": "JPEG圧縮ノイズ",
     "major": "画風・品質",
     "minor": "品質",
     "reasons": [
@@ -3440,7 +3248,20 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "k-pop",
+    "ja": "K-POP",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -3452,7 +3273,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3464,7 +3285,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3476,7 +3297,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3489,7 +3310,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3501,7 +3322,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3513,7 +3334,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3525,7 +3346,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3537,7 +3358,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3549,7 +3370,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3561,7 +3382,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3573,7 +3394,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3585,7 +3406,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3597,19 +3418,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "karate gi",
-    "ja": "空手gi",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3621,7 +3430,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3633,7 +3442,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3645,7 +3454,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3657,7 +3466,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3670,7 +3479,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3683,7 +3492,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3695,7 +3504,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3707,7 +3516,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3720,7 +3529,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3732,7 +3541,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3745,7 +3554,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3757,7 +3566,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3770,7 +3579,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3782,7 +3591,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3794,7 +3603,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3807,7 +3616,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3819,7 +3628,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3831,7 +3640,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3843,7 +3652,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3856,7 +3665,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3868,7 +3677,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3880,7 +3689,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3892,7 +3701,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3904,7 +3713,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3917,7 +3726,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3929,32 +3738,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "laptop",
-    "ja": "ノートPC",
-    "major": "その他",
-    "minor": "物",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "large testicles",
-    "ja": "大きなtest丸",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3967,19 +3751,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "lazy eye",
-    "ja": "怠zyな目",
-    "major": "人物",
-    "minor": "目",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4003,7 +3775,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4016,7 +3788,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4029,7 +3801,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4041,7 +3813,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4053,20 +3825,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "lop rabbit ears",
-    "ja": "lopウサギの耳",
-    "major": "人物",
-    "minor": "種族・役割",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4078,7 +3837,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4090,43 +3849,31 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "love live! nijigasaki high school idol club",
-    "ja": "ライブが大好き！ Nijigasaki High School Idol Club",
+    "tag": "love live! school idol festival all stars",
+    "ja": "ラブライブ！スクールアイドルフェスティバル ALL STARS",
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "love live! school idol project",
-    "ja": "ラブライブ! School idol project",
+    "ja": "ラブライブ！ School idol project",
     "major": "背景・場所",
     "minor": "自然",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "low-braided long hair",
-    "ja": "低cr延の長い髪",
-    "major": "人物",
-    "minor": "頭髪",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4138,20 +3885,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "lycoris recoil",
-    "ja": "lycoris反動",
+    "tag": "lucifer (helltaker)",
+    "ja": "ルシファー（Helltaker）",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4163,7 +3909,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4175,7 +3921,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4187,7 +3933,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4200,7 +3946,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4213,7 +3959,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4226,7 +3972,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "mari (omori)",
+    "ja": "マリ（OMORI）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4243,14 +4001,14 @@
   },
   {
     "tag": "martha (fate)",
-    "ja": "マーサ（Fate）",
+    "ja": "マルタ（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4262,7 +4020,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4275,7 +4033,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4287,7 +4045,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4299,7 +4057,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4311,36 +4069,36 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "medusa (fate)",
-    "ja": "メデューサ（Fate）",
+    "ja": "メドゥーサ（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "medusa (rider) (fate)",
-    "ja": "メデューサ（ライダー）（Fate）",
+    "ja": "メドゥーサ（ライダー・Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "mega man legends (series)",
-    "ja": "ロックマンDASH",
+    "ja": "ロックマンDASHシリーズ",
     "major": "作品・キャラクター",
     "minor": "作品名・シリーズ",
     "reasons": [
@@ -4348,19 +4106,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
-    "tag": "mega man zx",
-    "ja": "メガマンZX",
-    "major": "人物",
-    "minor": "性別・体形",
+    "tag": "meiko (vocaloid)",
+    "ja": "MEIKO",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4372,31 +4130,55 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "meltryllis (fate)",
-    "ja": "メルトリス（Fate）",
+    "tag": "meka (overwatch)",
+    "ja": "MEKA（オーバーウォッチ）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "meltryllis (fate)",
+    "ja": "メルトリリス（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
     "tag": "meltryllis (swimsuit lancer) (fate)",
-    "ja": "Meltryllis（水着ランサー）（Fate）",
+    "ja": "メルトリリス（水着ランサー／Fate）",
     "major": "服装",
     "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "melusine (fate)",
+    "ja": "メリュジーヌ（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4408,7 +4190,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4420,7 +4202,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4432,7 +4214,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4444,7 +4226,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4456,7 +4238,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4469,7 +4251,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4481,7 +4263,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4493,19 +4275,20 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "mima (touhou)",
-    "ja": "ミマ（touhou）",
+    "ja": "魅魔（東方Project）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "confidence": "medium",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4517,33 +4300,19 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "minamoto no raikou (fate)",
-    "ja": "鉱本no raikou（Fate）",
+    "ja": "源頼光（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "minase iori",
-    "ja": "ioriをマイナーします",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4555,7 +4324,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4568,7 +4337,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "miyamoto musashi (fate)",
+    "ja": "宮本武蔵（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4580,7 +4361,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4593,7 +4374,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4606,7 +4387,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4618,7 +4399,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4631,7 +4412,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4643,7 +4424,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4655,7 +4436,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4667,19 +4448,19 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "mordred (fate)",
-    "ja": "mordred（Fate）",
+    "ja": "モードレッド（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4696,14 +4477,14 @@
   },
   {
     "tag": "morgan le fay (fate)",
-    "ja": "モーガン・ル・フェイ（Fate）",
+    "ja": "モルガン（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4716,7 +4497,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4728,19 +4509,7 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "mountain (arknights)",
-    "ja": "山（arknights）",
-    "major": "背景・場所",
-    "minor": "自然",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4752,7 +4521,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4765,7 +4534,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4777,7 +4546,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4790,7 +4559,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4802,7 +4571,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -4815,46 +4584,19 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
-    "tag": "nakano azusa",
-    "ja": "中野azusa",
-    "major": "未分類",
-    "minor": "未分類",
+    "tag": "nami (one piece)",
+    "ja": "ナミ（ONE PIECE）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "nakano itsuki",
-    "ja": "中野ithuki",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "nakano miku",
-    "ja": "中野miku",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4866,19 +4608,57 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
     "tag": "napoleon bonaparte (fate)",
-    "ja": "ナポレオンボナパルト（Fate）",
+    "ja": "ナポレオン（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "naruto",
+    "ja": "NARUTO",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "naruto (series)",
+    "ja": "NARUTOシリーズ",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "naruto shippuuden",
+    "ja": "NARUTO -ナルト- 疾風伝",
+    "major": "未分類",
+    "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
@@ -4890,7 +4670,7 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -6614,16 +6394,14 @@
   },
   {
     "tag": "tamamo no mae (fate/extra)",
-    "ja": "Tamamo no Mae（運命/エクストラ）",
+    "ja": "玉藻の前（Fate/EXTRA）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "known-mistranslation",
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
