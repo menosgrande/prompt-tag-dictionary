@@ -511,11 +511,6 @@
       }
       root.append(wrap);
     });
-    const negativeCount=state.tags.filter(t=>promptTargetOf(t)==="negative").length;
-    root.append(addFilterButton("ネガティブ",negativeCount,state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative",()=>{
-      const active=state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative";
-      state.category=active?null:["__outputTarget","negative",null];state.page=0;renderAll();
-    }));
     const unclassifiedCount=counts.get("未分類")?.total||0;
     root.append(addFilterButton("未分類・要確認",unclassifiedCount,state.category?.[0]==="未分類"&&!state.category?.[1],()=>{
       const active=state.category?.[0]==="未分類"&&!state.category?.[1];
