@@ -110,6 +110,8 @@ UI改善の目的・Phase 1〜3の範囲・受け入れ条件は [docs/ui-redesi
 翻訳の空欄を補うため、次の公開データを照合しました。元から入っていた日本語訳は維持し、空欄だけを補っています。
 
 - [boorutan/booru-japanese-tag](https://github.com/boorutan/booru-japanese-tag) の `danbooru-jp.csv` と `danbooru-machine-jp.csv`。手作業訳と機械翻訳が含まれます。リポジトリのライセンス表示はMIT、著作権表示は `Copyright (c) 2024 boorutan` です。
-- [PYU224/tagdb-updater](https://github.com/PYU224/tagdb-updater) の `dist/danbooru-jp.csv`。Danbooruのwiki別名やコミュニティ翻訳データを含み、正規の日本語名ではなく別名が選ばれる場合があります。リポジトリのライセンス表示はMIT、著作権表示は `Copyright (c) 2026 PYU224` です。
+- [PYU224/tagdb-updater](https://github.com/PYU224/tagdb-updater) の `dist/danbooru-jp.csv`。Danbooruのwiki別名やコミュニティ翻訳データを含み、正規の日本語名ではなく別名が選ばれる場合があります。今回の確認では上流のライセンス許諾を独立して確認できなかったため、MITとは断定せず、再配布条件は未確認として扱います。
+
+boorutan側のMIT表記は上流リポジトリの宣言であり、Danbooru由来の元データや本リポジトリの全タグデータの利用条件を保証するものではありません。本リポジトリ自体にも現時点でルートのLICENSEファイルはありません。
 
 これらの出典に基づく追加訳は全件を人手で検証したものではありません。固有名詞、別名、表現が曖昧なタグには誤訳が残る可能性があります。また、この翻訳データの出典を記録したことは、元のタグ一覧そのものの取得元・再配布条件が確認済みであることを意味しません。公開・再配布時には、各データの利用条件を別途確認してください。

@@ -2,9 +2,16 @@
   "schemaVersion": 1,
   "dataset": {
     "path": "data/tags.json",
-    "recordFormat": ["tag", "ja", "major", "minor"],
+    "recordFormat": [
+      "tag",
+      "ja",
+      "major",
+      "minor"
+    ],
     "recordLevelProvenance": "unavailable for the existing bundled rows",
-    "lastAudited": "2026-10-28"
+    "lastAudited": "2026-10-31",
+    "licenseStatus": "unknown",
+    "licenseNote": "The repository does not currently contain a root LICENSE file. Public visibility alone does not establish permission to reuse or redistribute the bundled code or data."
   },
   "inputs": [
     {
@@ -12,41 +19,93 @@
       "role": "English tag list, as described in README",
       "originUrl": null,
       "retrievedAt": null,
-      "status": "file-level identity was known in working context, but original URL/date and per-tag lineage were not retained"
+      "status": "file-level identity was known in working context, but original URL/date and per-tag lineage were not retained",
+      "license": {
+        "declared": null,
+        "verification": "unknown",
+        "scopeNote": "Original source URL, revision, and license are not retained."
+      }
     },
     {
       "name": "tags-ja-progress.json",
       "role": "Japanese translation data, as described in README",
       "originUrl": null,
       "retrievedAt": null,
-      "status": "original URL/date and per-tag lineage were not retained"
+      "status": "original URL/date and per-tag lineage were not retained",
+      "license": {
+        "declared": null,
+        "verification": "unknown",
+        "scopeNote": "Original source URL, revision, and license are not retained."
+      }
     },
     {
       "name": "Perchance source JavaScript/text",
       "role": "additional tags and classification candidates",
       "originUrl": null,
       "retrievedAt": null,
-      "status": "the exact source revision and per-tag contribution were not retained"
+      "status": "the exact source revision and per-tag contribution were not retained",
+      "license": {
+        "declared": null,
+        "verification": "unknown",
+        "scopeNote": "Original source URL, revision, and license are not retained."
+      }
     },
     {
       "name": "boorutan/booru-japanese-tag",
       "role": "translation reference, according to README",
       "originUrl": "https://github.com/boorutan/booru-japanese-tag",
       "retrievedAt": null,
-      "status": "used as a reference for filling missing translations; no per-row source attribution was retained"
+      "status": "used as a reference for filling missing translations; no per-row source attribution was retained",
+      "license": {
+        "declared": "MIT",
+        "verification": "upstream README and LICENSE file are present",
+        "scopeNote": "This identifies the upstream repository's declared license only; Danbooru-derived source material and this project's bundled tags require separate review."
+      }
     },
     {
       "name": "PYU224/tagdb-updater",
       "role": "translation reference, according to README",
       "originUrl": "https://github.com/PYU224/tagdb-updater",
       "retrievedAt": null,
-      "status": "used as a reference for filling missing translations; no per-row source attribution was retained"
+      "status": "used as a reference for filling missing translations; no per-row source attribution was retained",
+      "license": {
+        "declared": null,
+        "verification": "not independently confirmed in this audit",
+        "scopeNote": "The local README previously described MIT, but the upstream license grant was not confirmed from an accessible license file. Do not treat this as cleared for redistribution."
+      }
+    },
+    {
+      "name": "Danbooru public tag data",
+      "role": "upstream data source described by PYU224/tagdb-updater; not confirmed as the source of this project's original tags-full.json",
+      "originUrl": "https://danbooru.donmai.us/",
+      "retrievedAt": null,
+      "license": {
+        "declared": null,
+        "verification": "not assessed for this project's bundled snapshot",
+        "scopeNote": "The source of individual tags and the licensing of the collected dataset must be assessed separately."
+      },
+      "status": "reference only; do not infer provenance for existing bundled rows"
+    },
+    {
+      "name": "menosgrande/prompt-tag-dictionary repository",
+      "role": "this project's code and bundled data",
+      "originUrl": "https://github.com/menosgrande/prompt-tag-dictionary",
+      "retrievedAt": null,
+      "license": {
+        "declared": null,
+        "verification": "no root LICENSE file found on 2026-10-31",
+        "scopeNote": "A repository-level license decision remains open."
+      },
+      "status": "public repository; reuse and redistribution permissions are not established by visibility alone"
     }
   ],
   "limitations": [
     "The existing bundled dataset cannot be fully reconstructed from source files that are not present in this repository.",
     "No source or translation confidence is inferred for historical rows.",
     "New JSON imports record filenames as provenance; that filename does not independently prove translation quality or license compatibility.",
-    "Unknown provenance must remain unknown rather than being guessed."
+    "Unknown provenance must remain unknown rather than being guessed.",
+    "The repository root currently has no LICENSE file; the code and bundled dataset do not have an explicit repository-level license declaration.",
+    "The MIT declaration in boorutan/booru-japanese-tag applies to that upstream repository; it does not by itself resolve the provenance or license of the underlying Danbooru-derived tag data.",
+    "The license for PYU224/tagdb-updater was not independently confirmed during the 2026-10-31 audit; keep it unverified until its upstream license file or maintainer statement is checked."
   ]
 }
