@@ -25,7 +25,7 @@ test("person appearance and work-character identity are separate",()=>{
   assert.ok(person.subcategories.some(s=>s.id==="hair-head"));
   assert.ok(!person.subcategories.some(s=>["works-series","characters","creators"].includes(s.id)));
   assert.deepEqual(character.subcategories.map(s=>s.id),["works-series","characters","creators"]);
-  assert.match(app,/candidate\.categoryId === "person".*works-series/);
+  assert.match(app,/candidate\\?\\.categoryId === "person".*works-series/);
 });
 
 test("negative tags are displayed under quality but retain a separate output target",()=>{
