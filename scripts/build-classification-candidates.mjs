@@ -22,6 +22,7 @@ const DIRECT = {
     "屋内":"background/locations","施設":"background/locations","自然":"background/nature-landscape",
     "都市":"background/locations","時間・天候":"background/weather-time"
   },
+  "背景": {"物体・小道具":"background/object-items"},
   "構図・視点": {
     "構図":"composition/composition-layout","撮影範囲":"composition/framing",
     "カメラ角度":"composition/camera-angle","視点":"composition/viewpoint-gaze"
