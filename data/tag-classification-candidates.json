@@ -4,10 +4,10 @@
   "taxonomy": "data/tag-taxonomy.json",
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
-    "totalTags": 11047,
+    "totalTags": 11029,
     "proposed": 5750,
     "needsReview": 136,
-    "unclassified": 5161,
+    "unclassified": 5143,
     "entries": 5886
   },
   "entries": [
