@@ -1,0 +1,440 @@
+{
+  "schema": "tag-taxonomy-v1",
+  "version": 1,
+  "updatedAt": "2026-10-31",
+  "description": "タグの意味分類と出力先を分離して管理するための正規定義。negativeは意味分類ではなく、独立した出力先と仮想ビュー。",
+  "semanticCategories": [
+    {
+      "id": "quality",
+      "name": "品質・スコア",
+      "order": 1,
+      "description": "品質評価、解像度、精細度、スコア。",
+      "subcategories": [
+        {
+          "id": "high-quality",
+          "name": "高品質・傑作"
+        },
+        {
+          "id": "resolution-detail",
+          "name": "解像度・精細度"
+        },
+        {
+          "id": "score",
+          "name": "スコア"
+        },
+        {
+          "id": "low-quality-noise",
+          "name": "低品質・ノイズ"
+        }
+      ]
+    },
+    {
+      "id": "person",
+      "name": "人物・キャラクター",
+      "order": 2,
+      "description": "人物属性、身体、顔、髪、種族、作品・キャラクター。",
+      "subcategories": [
+        {
+          "id": "people-count",
+          "name": "人数・人物属性"
+        },
+        {
+          "id": "face-expression",
+          "name": "顔・表情"
+        },
+        {
+          "id": "eyes",
+          "name": "目"
+        },
+        {
+          "id": "hair-head",
+          "name": "髪・頭部"
+        },
+        {
+          "id": "body-shape",
+          "name": "体型・身体的特徴"
+        },
+        {
+          "id": "body-parts",
+          "name": "身体部位・身体状態"
+        },
+        {
+          "id": "species-role",
+          "name": "種族・役割"
+        },
+        {
+          "id": "works-series",
+          "name": "作品・シリーズ"
+        },
+        {
+          "id": "characters",
+          "name": "キャラクター"
+        },
+        {
+          "id": "creators",
+          "name": "作者・配信者"
+        }
+      ]
+    },
+    {
+      "id": "clothing",
+      "name": "服装・装飾",
+      "order": 3,
+      "description": "衣服、下着、水着、露出、装飾品、小物。",
+      "subcategories": [
+        {
+          "id": "clothing",
+          "name": "衣服"
+        },
+        {
+          "id": "underwear",
+          "name": "下着"
+        },
+        {
+          "id": "swimwear",
+          "name": "水着"
+        },
+        {
+          "id": "clothing-state",
+          "name": "衣服の状態"
+        },
+        {
+          "id": "skin-exposure",
+          "name": "肌の露出"
+        },
+        {
+          "id": "nudity",
+          "name": "裸体・露出"
+        },
+        {
+          "id": "accessories",
+          "name": "装飾品"
+        },
+        {
+          "id": "props",
+          "name": "小物・道具"
+        }
+      ]
+    },
+    {
+      "id": "pose",
+      "name": "ポーズ・姿勢",
+      "order": 4,
+      "description": "静的な姿勢、身体の向き、手足や身体の配置。",
+      "subcategories": [
+        {
+          "id": "basic-posture",
+          "name": "基本姿勢"
+        },
+        {
+          "id": "body-orientation",
+          "name": "身体の向き"
+        },
+        {
+          "id": "limb-placement",
+          "name": "手足の配置"
+        },
+        {
+          "id": "body-arrangement",
+          "name": "身体の配置"
+        },
+        {
+          "id": "interpersonal-arrangement",
+          "name": "対人配置"
+        }
+      ]
+    },
+    {
+      "id": "action",
+      "name": "動作・接触",
+      "order": 5,
+      "description": "動作、身体・衣服・物・他者への接触。",
+      "subcategories": [
+        {
+          "id": "daily-action",
+          "name": "日常動作"
+        },
+        {
+          "id": "body-action",
+          "name": "身体動作"
+        },
+        {
+          "id": "hand-action",
+          "name": "手の動作"
+        },
+        {
+          "id": "body-contact",
+          "name": "身体への接触"
+        },
+        {
+          "id": "clothing-contact",
+          "name": "衣服への接触"
+        },
+        {
+          "id": "object-contact",
+          "name": "物への接触"
+        },
+        {
+          "id": "interpersonal-contact",
+          "name": "対人接触・動作"
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "name": "背景・環境",
+      "order": 6,
+      "description": "場所、室内外、家具、自然、天候、時間帯。",
+      "subcategories": [
+        {
+          "id": "locations",
+          "name": "場所・室内外"
+        },
+        {
+          "id": "furniture",
+          "name": "家具・設備"
+        },
+        {
+          "id": "nature-landscape",
+          "name": "自然・風景"
+        },
+        {
+          "id": "weather-time",
+          "name": "天候・時間帯"
+        }
+      ]
+    },
+    {
+      "id": "composition",
+      "name": "構図・カメラ",
+      "order": 7,
+      "description": "視点、角度、撮影距離、画面内の配置・フレーミング。",
+      "subcategories": [
+        {
+          "id": "viewpoint-gaze",
+          "name": "視点・視線"
+        },
+        {
+          "id": "camera-angle",
+          "name": "カメラアングル"
+        },
+        {
+          "id": "shot-distance",
+          "name": "撮影距離"
+        },
+        {
+          "id": "composition-layout",
+          "name": "構図・配置"
+        },
+        {
+          "id": "framing",
+          "name": "フレーミング"
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "name": "画風・描写",
+      "order": 8,
+      "description": "画風、描画技法、媒体、レンダリング表現。品質・スコアとは分離する。",
+      "subcategories": [
+        {
+          "id": "style-medium",
+          "name": "画風・表現様式"
+        },
+        {
+          "id": "drawing-technique",
+          "name": "描画技法"
+        },
+        {
+          "id": "medium",
+          "name": "媒体"
+        },
+        {
+          "id": "rendering",
+          "name": "レンダリング"
+        }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "光・色彩・演出",
+      "order": 9,
+      "description": "照明、影、色調、雰囲気、視覚効果。",
+      "subcategories": [
+        {
+          "id": "lighting-source",
+          "name": "照明・光源"
+        },
+        {
+          "id": "shadows",
+          "name": "影・陰影"
+        },
+        {
+          "id": "color-tone",
+          "name": "色調・色彩"
+        },
+        {
+          "id": "atmosphere",
+          "name": "雰囲気"
+        },
+        {
+          "id": "effects",
+          "name": "演出効果"
+        }
+      ]
+    }
+  ],
+  "outputTargets": [
+    {
+      "id": "positive",
+      "name": "ポジティブ",
+      "order": 1
+    },
+    {
+      "id": "negative",
+      "name": "ネガティブ",
+      "order": 2
+    }
+  ],
+  "virtualViews": [
+    {
+      "id": "negative-view",
+      "name": "ネガティブ",
+      "source": "outputTarget",
+      "target": "negative",
+      "independentOfSemanticCategory": true,
+      "description": "意味分類を変更せず、negative出力対象だけを横断表示する。"
+    }
+  ],
+  "rating": {
+    "levels": [
+      "全年齢",
+      "R-13",
+      "R-15",
+      "R-18",
+      "未判定"
+    ],
+    "defaultValue": null,
+    "unreviewedValue": "未判定",
+    "confirmedField": "rating",
+    "candidateField": "proposedRating",
+    "reviewStatusField": "ratingReviewStatus"
+  },
+  "reviewStatuses": {
+    "translation": [
+      "unreviewed",
+      "machine-translation",
+      "needs-review",
+      "verified",
+      "not-applicable"
+    ],
+    "classification": [
+      "unreviewed",
+      "provisional",
+      "needs-review",
+      "verified",
+      "not-applicable"
+    ]
+  },
+  "attributes": [
+    {
+      "id": "color",
+      "name": "色属性",
+      "description": "意味を損なわない複合タグに限って独立属性化する。固有名詞・慣用表現は分解しない。"
+    },
+    {
+      "id": "work",
+      "name": "作品・シリーズ"
+    },
+    {
+      "id": "character",
+      "name": "キャラクター"
+    },
+    {
+      "id": "aliases",
+      "name": "別名・検索語"
+    }
+  ],
+  "legacyMajorMapping": [
+    {
+      "major": "人物",
+      "strategy": "direct",
+      "category": "person"
+    },
+    {
+      "major": "作品・キャラクター",
+      "strategy": "direct",
+      "category": "person"
+    },
+    {
+      "major": "服装",
+      "strategy": "direct",
+      "category": "clothing"
+    },
+    {
+      "major": "ポーズ・動作",
+      "strategy": "split",
+      "categories": [
+        "pose",
+        "action"
+      ]
+    },
+    {
+      "major": "シチュエーション",
+      "strategy": "review",
+      "categories": [
+        "person",
+        "action",
+        "background"
+      ]
+    },
+    {
+      "major": "背景・場所",
+      "strategy": "direct",
+      "category": "background"
+    },
+    {
+      "major": "構図・視点",
+      "strategy": "direct",
+      "category": "composition"
+    },
+    {
+      "major": "画風・品質",
+      "strategy": "split",
+      "categories": [
+        "quality",
+        "style"
+      ]
+    },
+    {
+      "major": "光・色彩",
+      "strategy": "direct",
+      "category": "lighting"
+    },
+    {
+      "major": "成人向け",
+      "strategy": "review",
+      "categories": [
+        "person",
+        "clothing",
+        "pose",
+        "action"
+      ]
+    },
+    {
+      "major": "その他",
+      "strategy": "review",
+      "categories": [
+        "person",
+        "background",
+        "lighting"
+      ]
+    },
+    {
+      "major": "未分類",
+      "strategy": "unclassified",
+      "category": null
+    }
+  ]
+}
