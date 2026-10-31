@@ -194,30 +194,6 @@
     "proposedJa": null
   },
   {
-    "tag": "ace attorney",
-    "ja": "エース弁護士",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "adventurer (ff11)",
-    "ja": "アバター（FF11）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "aegis sword (xenoblade)",
     "ja": "エージスの剣（xenoblade）",
     "major": "その他",
@@ -977,20 +953,6 @@
     ],
     "confidence": "low",
     "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "caressing testicles",
-    "ja": "愛sist丸",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "known-mistranslation",
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -6432,16 +6394,14 @@
   },
   {
     "tag": "tamamo no mae (fate/extra)",
-    "ja": "Tamamo no Mae（運命/エクストラ）",
+    "ja": "玉藻の前（Fate/EXTRA）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
-      "known-mistranslation",
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
+      "english-remains-in-japanese"
     ],
-    "confidence": "high",
-    "status": "unreviewed",
+    "confidence": "low",
+    "status": "machine-translation",
     "proposedJa": null
   },
   {
