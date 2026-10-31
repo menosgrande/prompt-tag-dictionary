@@ -4,11 +4,11 @@
   "taxonomy": "data/tag-taxonomy.json",
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
-    "totalTags": 11047,
+    "totalTags": 11030,
     "proposed": 5750,
-    "needsReview": 136,
-    "unclassified": 5161,
-    "entries": 5886
+    "needsReview": 141,
+    "unclassified": 5139,
+    "entries": 5891
   },
   "entries": [
     {
@@ -3038,6 +3038,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "as109",
+      "legacyMajor": "人物",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧分類と小分類の対応が未定義のため保留。"
     },
     {
       "tag": "asashimo (kancolle)",
@@ -10452,6 +10461,15 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "catstudioinc (punepuni)",
+      "legacyMajor": "人物",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧分類と小分類の対応が未定義のため保留。"
+    },
+    {
       "tag": "cave",
       "legacyMajor": "背景・場所",
       "legacyMinor": "自然",
@@ -10460,6 +10478,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "cd",
+      "legacyMajor": "背景",
+      "legacyMinor": "物体・小道具",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧分類と小分類の対応が未定義のため保留。"
     },
     {
       "tag": "censored",
@@ -50718,6 +50745,15 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "swd3e2",
+      "legacyMajor": "人物",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧分類と小分類の対応が未定義のため保留。"
+    },
+    {
       "tag": "sweatdrop",
       "legacyMajor": "人物",
       "legacyMinor": "種族・役割",
@@ -52417,6 +52453,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "tk8d32",
+      "legacyMajor": "人物",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧分類と小分類の対応が未定義のため保留。"
     },
     {
       "tag": "to heart (series)",
