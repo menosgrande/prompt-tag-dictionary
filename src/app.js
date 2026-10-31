@@ -7,6 +7,8 @@
   let reviewRatings = {};
   let promptOrderOverrides = new Map();
   let promptTargetOverrides = new Map();
+  let tagTaxonomy = null;
+  let classificationCandidates = new Map();
   const PAGE_SIZE = 100;
   function pageSize() { return PAGE_SIZE; }
   const CATEGORIES = [
@@ -366,12 +368,28 @@
       return r.json();
     }).then(data => Array.isArray(data) ? data : []);
   }
+  function seedTaxonomy() {
+    return Promise.all([
+      fetch("./data/tag-taxonomy.json"),
+      fetch("./data/tag-classification-candidates.json")
+    ]).then(async ([taxonomyResponse, candidatesResponse]) => {
+      if (!taxonomyResponse.ok || !candidatesResponse.ok) throw new Error("taxonomy data missing");
+      const [taxonomy, candidates] = await Promise.all([taxonomyResponse.json(), candidatesResponse.json()]);
+      tagTaxonomy = taxonomy;
+      classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
+    });
+  }
+  function classificationOf(t) { return classificationCandidates.get(norm(t.tag)) || null; }
+  function taxonomyCategoryName(id) { return tagTaxonomy?.semanticCategories?.find(category => category.id === id)?.name || ""; }
+  function taxonomySubcategoryName(categoryId, subcategoryId) {
+    return tagTaxonomy?.semanticCategories?.find(category => category.id === categoryId)?.subcategories?.find(sub => sub.id === subcategoryId)?.name || "";
+  }
   function saveData() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.tags)); }
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { return (t.category && t.category[0]) || "未分類"; }
+  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
@@ -379,7 +397,12 @@
     if (promptTargetOf(t) === "negative") return "ネガティブ";
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
-    const major = majorOf(t), minor = minorOf(t), tag = norm(t.tag);
+    const candidate = classificationOf(t);
+    const taxonomyOutputIndex = { quality:0, person:1, clothing:2, pose:3, action:4, background:5, composition:6, style:7, lighting:8 }[candidate?.categoryId];
+    if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
+    const major = candidate?.status === "needs-review" ? ((t.category && t.category[0]) || "未分類") : majorOf(t);
+    const minor = candidate?.status === "needs-review" ? ((t.category && t.category[1]) || "未分類") : minorOf(t);
+    const tag = norm(t.tag);
     if (major === "画風・品質") {
       if (minor !== "品質") return PROMPT_ORDER[7];
       if (tag === "beautiful detailed eyes") return PROMPT_ORDER[1];
@@ -399,8 +422,8 @@
     if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
-  function minorOf(t) { return (t.category && t.category[1]) || "未分類"; }
-  function detailOf(t) { return (t.category && t.category[2]) || "—"; }
+  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
   function categoryText(t) {
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
@@ -429,8 +452,64 @@
     });
     return counts;
   }
+  function renderTaxonomyCategories(root) {
+    const counts = categoryCounts();
+    const addCount = (parent, value) => {
+      const count = document.createElement("span");
+      count.className = "count"; count.textContent = value.toLocaleString("ja-JP"); parent.append(count);
+    };
+    const addFilterButton = (label, count, selected, onClick, className="category-major-button") => {
+      const button = document.createElement("button");
+      button.type = "button"; button.className = className;
+      if (selected) button.classList.add("active");
+      button.setAttribute("aria-pressed", String(selected));
+      const text = document.createElement("span"); text.textContent = label;
+      button.append(text); addCount(button,count); button.addEventListener("click",onClick);
+      return button;
+    };
+    const categories = [...(tagTaxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
+    categories.forEach(category => {
+      const entry = counts.get(category.name) || {total:0,minors:new Map()};
+      const wrap = document.createElement("div"); wrap.className = "category-major";
+      const heading = document.createElement("div"); heading.className = "category-major-heading";
+      const active = state.category?.[0] === category.name && !state.category?.[1];
+      heading.append(addFilterButton(category.name,entry.total,active,()=>{
+        state.category = active ? null : [category.name,null,null]; state.page=0; renderAll();
+      }));
+      const expander = makeButton(state.expandedMajor===category.name?"▾":"▸","category-expander",()=>{
+        state.expandedMajor=state.expandedMajor===category.name?null:category.name;renderCategories();
+      });
+      expander.setAttribute("aria-label",category.name+"の小分類を展開");
+      expander.setAttribute("aria-expanded",String(state.expandedMajor===category.name));
+      heading.append(expander);wrap.append(heading);
+      if(state.expandedMajor===category.name){
+        const minors=document.createElement("div");minors.className="category-minors";
+        (category.subcategories||[]).forEach(sub=>{
+          const subEntry=entry.minors.get(sub.name);
+          if(!subEntry?.total)return;
+          const activeSub=state.category?.[0]===category.name&&state.category?.[1]===sub.name&&!state.category?.[2];
+          minors.append(addFilterButton(sub.name,subEntry.total,activeSub,()=>{
+            state.category=activeSub?[category.name,null,null]:[category.name,sub.name,null];state.page=0;renderAll();
+          },"category-minor"));
+        });
+        wrap.append(minors);
+      }
+      root.append(wrap);
+    });
+    const negativeCount=state.tags.filter(t=>promptTargetOf(t)==="negative").length;
+    root.append(addFilterButton("ネガティブ",negativeCount,state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative",()=>{
+      const active=state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative";
+      state.category=active?null:["__outputTarget","negative",null];state.page=0;renderAll();
+    }));
+    const unclassifiedCount=counts.get("未分類")?.total||0;
+    root.append(addFilterButton("未分類・要確認",unclassifiedCount,state.category?.[0]==="未分類"&&!state.category?.[1],()=>{
+      const active=state.category?.[0]==="未分類"&&!state.category?.[1];
+      state.category=active?null:["未分類",null,null];state.page=0;renderAll();
+    }));
+  }
   function renderCategories() {
     const root = $("#category-tree"); root.replaceChildren();
+    if (tagTaxonomy?.semanticCategories?.length) { renderTaxonomyCategories(root); return; }
     const counts = categoryCounts();
     const majors = [...new Set([...CATEGORIES.map(c => c[0]), ...counts.keys()])];
     majors.sort((a, b) => {
@@ -531,7 +610,8 @@
     const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
     let list = state.tags.filter(t => {
-      if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
+      if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
+      else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
       const rating = reviewRatings[norm(t.tag)] || {};
@@ -664,7 +744,8 @@
       button.textContent = label + (state.columnSort?.key === key ? (state.columnSort.dir === 1 ? " ↑" : " ↓") : " ↕");
       button.setAttribute("aria-sort", state.columnSort?.key === key ? (state.columnSort.dir === 1 ? "ascending" : "descending") : "none");
     });
-    $("#results-title").textContent = state.query ? "検索結果" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
+    const activeCategoryLabel = state.category ? (state.category[0] === "__outputTarget" ? "ネガティブ" : state.category.filter(Boolean).join(" › ")) : "";
+    $("#results-title").textContent = state.query ? "検索結果" : activeCategoryLabel || "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
@@ -728,8 +809,11 @@
       const categoryWrap = document.createElement("div"); categoryWrap.className = "tag-category-wrap";
       const categoryTrail = document.createElement("span");
       categoryTrail.className = "tag-category tag-category-trail";
+      const classification = classificationOf(t);
       categoryTrail.textContent = [majorOf(t), minorOf(t) !== "未分類" ? minorOf(t) : "", detailOf(t) !== "—" ? detailOf(t) : ""].filter(Boolean).join(" › ");
-      categoryTrail.title = categoryTrail.textContent;
+      if (classification?.status === "provisional") categoryTrail.textContent += " · 暫定";
+      else if (classification?.status === "needs-review") categoryTrail.textContent = "未分類 · 要確認";
+      categoryTrail.title = classification?.status === "provisional" ? "新分類のAI候補。確定済みではありません。" : classification?.status === "needs-review" ? "分類を確定できないため要確認です。" : categoryTrail.textContent;
       categoryWrap.append(categoryTrail);
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
@@ -1241,6 +1325,7 @@
     wire(); populateCustomCategories();
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
     try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
+    try { await seedTaxonomy(); } catch { tagTaxonomy = null; classificationCandidates = new Map(); }
     let saved = null;
     try { saved = localStorage.getItem(STORAGE_KEY); } catch {}
     try {
