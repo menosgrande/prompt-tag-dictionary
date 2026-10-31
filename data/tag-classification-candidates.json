@@ -3044,10 +3044,10 @@
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
       "categoryId": "person",
+      "subcategoryId": "creators",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
-      "subcategoryId": "creators"
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "asashimo (kancolle)",
@@ -10466,10 +10466,10 @@
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
       "categoryId": "person",
+      "subcategoryId": "creators",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
-      "subcategoryId": "creators"
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "cave",
@@ -50752,10 +50752,10 @@
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
       "categoryId": "person",
+      "subcategoryId": "creators",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
-      "subcategoryId": "creators"
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "sweatdrop",
@@ -52463,10 +52463,10 @@
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
       "categoryId": "person",
+      "subcategoryId": "creators",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
-      "subcategoryId": "creators"
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "to heart (series)",
