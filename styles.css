@@ -700,3 +700,23 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 /* Color-only variants are represented by one concept row and an exact source-tag selector. */
 @media(max-width:720px){
 }
+
+
+/* Work-title browser: work titles and characters remain independently selectable. */
+.work-group-card{margin:5px 8px;border:1px solid var(--line);border-radius:8px;background:var(--surface2);overflow:hidden}
+.work-group-summary{display:flex;align-items:center;gap:8px;min-height:36px;padding:6px 10px;cursor:pointer;list-style:none}
+.work-group-summary::-webkit-details-marker{display:none}
+.work-group-summary::before{content:"▸";color:var(--accent);font-size:12px;flex:0 0 auto}
+.work-group-card[open]>.work-group-summary::before{content:"▾"}
+.work-group-title{font-weight:650;color:var(--text);font-size:12px}
+.work-group-subtitle{color:var(--muted);font-size:10px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.work-group-count{margin-left:auto;color:var(--muted);font-size:10px;white-space:nowrap}
+.work-group-options{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:2px 8px;padding:7px 10px 9px;border-top:1px solid var(--line);max-height:260px;overflow:auto}
+.work-group-option{display:grid;grid-template-columns:14px minmax(0,1fr);gap:2px 7px;align-items:center;padding:4px 5px;border-radius:5px;min-width:0;cursor:pointer}
+.work-group-option:hover{background:var(--surface3)}
+.work-group-option input{grid-row:1/3;width:13px;height:13px;margin:0;accent-color:var(--accent)}
+.work-group-option span{font-size:11px;overflow-wrap:anywhere}
+.work-group-option small{font-size:9px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.work-group-option.is-title-tag{grid-column:1/-1;border-bottom:1px dashed var(--line);padding-bottom:7px;margin-bottom:3px}
+.work-group-option.is-title-tag span{font-weight:650;color:var(--accent)}
+@media(max-width:720px){.work-group-card{margin:4px 5px}.work-group-summary{gap:5px;padding:6px 8px}.work-group-title{font-size:11px}.work-group-subtitle{font-size:9px}.work-group-count{font-size:9px}.work-group-options{grid-template-columns:repeat(2,minmax(0,1fr));gap:2px 4px;padding:6px}.work-group-option{gap:2px 5px;padding:4px 3px}.work-group-option span{font-size:10px}.work-group-option small{font-size:8px}}
