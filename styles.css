@@ -967,39 +967,6 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 }
 
 
-/* Make column headings clearly visible above the scrolling result rows. */
-.table-head{
-  position:sticky;
-  top:0;
-  z-index:8;
-  min-height:40px;
-  background:var(--surface3,var(--surface2));
-  border-top:1px solid var(--line);
-  border-bottom:2px solid var(--line);
-  box-shadow:0 2px 5px rgba(0,0,0,.16);
-}
-.table-head-cell{
-  min-height:40px;
-  color:var(--text);
-  font-size:11px;
-  font-weight:700;
-  white-space:nowrap;
-}
-.table-head-cell>button{
-  color:var(--text);
-  font-weight:700;
-  font-size:11px;
-  overflow:visible;
-  text-overflow:clip;
-}
-.table-head-cell>span:not(.column-resize){
-  display:block;
-  min-width:0;
-  overflow:visible;
-  white-space:nowrap;
-}
-
-
 /* Stable spreadsheet viewport: header and rows share one horizontal scroller. */
 .table-scroll-shell{
   width:100%;
