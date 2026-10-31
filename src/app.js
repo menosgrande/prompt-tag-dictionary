@@ -870,6 +870,13 @@
     const b = document.createElement("button"); b.type = "button"; b.className = cls; b.textContent = text;
     b.addEventListener("click", action); return b;
   }
+  function resetResultsViewport() {
+    const rows = $("#tag-results");
+    const shell = $("#table-scroll-shell");
+    if (rows) rows.scrollTop = 0;
+    if (shell) shell.scrollLeft = 0;
+  }
+
   function renderResults() {
     const all = matchingTags(), size = pageSize(all.length), pageCount = Math.max(1, Math.ceil(all.length / size));
     state.page = Math.min(Math.max(0, state.page), pageCount - 1);
@@ -1240,7 +1247,7 @@
     $("#prompt-output").focus();
     setStatus("copy-status", item.tag + " を追加しました。");
   }
-  function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; renderStats(); renderCategories(); renderResults(); renderOutputCategories(); renderOutput(); }
+  function renderAll() { const loading = $("#loading-state"); if (loading) loading.hidden = true; resetResultsViewport(); renderStats(); renderCategories(); renderResults(); renderOutputCategories(); renderOutput(); }
 
   function parseJsonData(text, filename) {
     const parsed = JSON.parse(text), incoming = [];
@@ -1507,23 +1514,23 @@
         setStatus("copy-status", added ? added + "件のタグを追加しました。" : "このセットのタグはすでに選択済みです。");
       });
     });
-    $("#search").addEventListener("input", e => { state.query = e.target.value; state.page = 0; renderResults(); });
+    $("#search").addEventListener("input", e => { resetResultsViewport(); state.query = e.target.value; state.page = 0; renderResults(); });
     $("#search").addEventListener("keydown", e => { if (e.key === "Enter") { state.query = e.target.value; state.page = 0; renderResults(); } });
-    $("#sort-order").addEventListener("change", () => { state.columnSort = null; state.page = 0; renderResults(); });
+    $("#sort-order").addEventListener("change", () => { resetResultsViewport(); state.columnSort = null; state.page = 0; renderResults(); });
     $("#page-prev").addEventListener("click", () => {
-      if (state.page > 0) { state.page--; renderResults(); }
+      if (state.page > 0) { resetResultsViewport(); state.page--; renderResults(); }
     });
     $("#page-next").addEventListener("click", () => {
-      state.page++; renderResults();
+      resetResultsViewport(); state.page++; renderResults();
     });
     document.querySelectorAll("[data-column-sort]").forEach(button => {
       button.addEventListener("click", () => {
         const key = button.dataset.columnSort;
         state.columnSort = { key, dir: state.columnSort?.key === key ? -state.columnSort.dir : 1 };
-        state.page = 0; renderResults();
+        resetResultsViewport(); state.page = 0; renderResults();
       });
     });
-    ["level-filter", "review-filter"].forEach(id => $("#" + id).addEventListener("change", () => { state.page = 0; renderResults(); }));
+    ["level-filter", "review-filter"].forEach(id => $("#" + id).addEventListener("change", () => { resetResultsViewport(); state.page = 0; renderResults(); }));
     $("#clear-filters").addEventListener("click", () => {
       state.query = "";
       state.category = null;
