@@ -837,7 +837,19 @@
           return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b, "ja");
         });
         sorted.forEach(category => { if (comments) output.push(outputComment(category)); output.push(map.get(category).map(t => t.tag).join(", ")); count += map.get(category).length; });
-      } else { output.push(tags.map(t => t.tag).join(", ")); count = tags.length; }
+      } else {
+        // Keep quality/score tags first even when category grouping is disabled.
+        // Array#sort is stable, so the original order is preserved within each category.
+        const ordered = [...tags].sort((a, b) => {
+          const categoryIndex = tag => {
+            const index = PROMPT_ORDER.indexOf(promptOrderOf(tag));
+            return index < 0 ? 999 : index;
+          };
+          return categoryIndex(a) - categoryIndex(b);
+        });
+        output.push(ordered.map(t => t.tag).join(", "));
+        count = ordered.length;
+      }
       return { value: output.filter(Boolean).join("\n"), count };
     }
     const positive = buildSection(included.filter(t => promptTargetOf(t) !== "negative"));
