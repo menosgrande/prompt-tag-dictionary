@@ -14,6 +14,8 @@ on:
       - "scripts/audit-taxonomy.mjs"
       - "src/app.js"
       - "index.html"
+      - "styles.css"
+      - "tests/ui-layout.test.mjs"
       - "tests/taxonomy-browser.test.mjs"
       - "admin.html"
       - "admin.css"
