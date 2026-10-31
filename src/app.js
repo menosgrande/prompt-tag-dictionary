@@ -494,6 +494,7 @@
       if(state.expandedMajor===category.name){
         const minors=document.createElement("div");minors.className="category-minors";
         (category.subcategories||[]).forEach(sub=>{
+          if (sub.hidden || sub.deprecated) return;
           const subEntry=entry.minors.get(sub.name);
           if(!subEntry?.total)return;
           const activeSub=state.category?.[0]===category.name&&state.category?.[1]===sub.name&&!state.category?.[2];
