@@ -480,6 +480,7 @@
     const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
     set("tag-info-rating", ratingLabels[rating] || (t.nsfw === true ? "要判定（NSFW候補）" : t.nsfw === false ? "LV.1候補（未確認）" : "未判定"));
     set("tag-info-rating-status", t.ratingReviewStatus === "verified" ? "確認済み" : "未確認");
+    set("tag-info-rating-reason", t.ratingReason || "判定根拠はまだ登録されていません。");
     set("tag-info-meaning", t.explanation || "説明はまだ登録されていません。");
     set("tag-info-usage", t.usage || "用法はまだ登録されていません。");
     set("tag-info-examples", (t.examples || []).join(" / ") || "使用例はまだ登録されていません。");
