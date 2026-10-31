@@ -5,8 +5,8 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5751,
-    "needsReview": 140,
+    "proposed": 5755,
+    "needsReview": 136,
     "unclassified": 5138,
     "entries": 5891
   },
@@ -3043,10 +3043,11 @@
       "tag": "as109",
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類と小分類の対応が未定義のため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
+      "subcategoryId": "creators"
     },
     {
       "tag": "asashimo (kancolle)",
@@ -10464,10 +10465,11 @@
       "tag": "catstudioinc (punepuni)",
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類と小分類の対応が未定義のため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
+      "subcategoryId": "creators"
     },
     {
       "tag": "cave",
@@ -50749,10 +50751,11 @@
       "tag": "swd3e2",
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類と小分類の対応が未定義のため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
+      "subcategoryId": "creators"
     },
     {
       "tag": "sweatdrop",
@@ -52459,10 +52462,11 @@
       "tag": "tk8d32",
       "legacyMajor": "人物",
       "legacyMinor": "作者・配信者",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類と小分類の対応が未定義のため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
+      "subcategoryId": "creators"
     },
     {
       "tag": "to heart (series)",
