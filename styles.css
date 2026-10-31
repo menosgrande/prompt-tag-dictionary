@@ -660,14 +660,14 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .editor-builder-panel .builder-controls .control-grid{display:flex;gap:10px}
 .editor-builder-panel .category-includes{flex-basis:100%;max-height:none}
 .editor-builder-panel .output-stack{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
-  gap:0 14px;
+  display:flex;
+  flex-direction:column;
+  gap:0;
   flex:1 1 auto;
   min-height:0;
   padding:8px 14px 14px;
 }
-.editor-builder-panel .output-header{grid-column:1/-1;padding:8px 0}
+.editor-builder-panel .output-header{padding:8px 0}
 .editor-builder-panel #prompt-output,
 .editor-builder-panel #negative-output{
   width:100%;
@@ -676,9 +676,9 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   margin:0;
   resize:vertical;
 }
-.editor-builder-panel .output-actions{grid-column:1/-1;padding:8px 0 12px}
+.editor-builder-panel .output-actions{padding:8px 0 12px}
 .editor-builder-panel .negative-output-header{border-top:1px solid var(--line);margin-top:8px}
-.editor-builder-panel #copy-status{grid-column:1/-1}
+.editor-builder-panel #copy-status{margin-top:8px}
 @media(max-width:720px){
   .screen-nav{width:100%}
   .screen-tab{flex:1;padding-inline:8px}
