@@ -998,3 +998,67 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   overflow:visible;
   white-space:nowrap;
 }
+
+
+/* Stable spreadsheet viewport: header and rows share one horizontal scroller. */
+.table-scroll-shell{
+  width:100%;
+  min-width:0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  overscroll-behavior-x:contain;
+  scrollbar-gutter:stable;
+  border-bottom:1px solid var(--line);
+}
+.table-scroll-shell:focus-visible{
+  outline:2px solid var(--accent);
+  outline-offset:-2px;
+}
+.table-scroll-shell .table-head{
+  position:relative;
+  top:auto;
+  z-index:2;
+  width:max-content;
+  min-width:100%;
+  min-height:40px;
+  transform:none!important;
+  will-change:auto;
+  background:var(--surface3);
+  border-top:1px solid var(--line);
+  border-bottom:2px solid var(--line);
+  box-shadow:0 2px 5px rgba(0,0,0,.16);
+}
+.table-scroll-shell .table-head-cell{
+  min-height:40px;
+  color:var(--text);
+  font-size:11px;
+  font-weight:700;
+  white-space:nowrap;
+}
+.table-scroll-shell .table-head-cell>button{
+  color:var(--text);
+  font-size:11px;
+  font-weight:700;
+  overflow:visible;
+  text-overflow:clip;
+}
+.table-scroll-shell .table-head-cell>span:not(.column-resize){
+  display:block;
+  min-width:0;
+  overflow:visible;
+  white-space:nowrap;
+}
+.table-scroll-shell .tag-results{
+  display:block;
+  width:max-content;
+  min-width:100%;
+  max-width:none;
+  overflow-x:hidden;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  border:0;
+  max-height:580px;
+}
+@media(max-width:720px){
+  .table-scroll-shell .tag-results{max-height:65vh}
+}
