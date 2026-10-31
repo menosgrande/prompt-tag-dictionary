@@ -9,6 +9,13 @@ test("person face tags map to the new person taxonomy",()=>{
   assert.equal(item.status,"provisional");
 });
 
+test("creator tags remain in the creator subcategory",()=>{
+  const item=classifyLegacyRow(["as109","As109","人物","作者・配信者"]);
+  assert.equal(item.categoryId,"person");
+  assert.equal(item.subcategoryId,"creators");
+  assert.equal(item.status,"provisional");
+});
+
 test("clothing subtype is split by tag meaning",()=>{
   assert.equal(classifyLegacyRow(["bikini","ビキニ","服装","下着・水着"]).subcategoryId,"swimwear");
   assert.equal(classifyLegacyRow(["panties","パンティー","服装","下着・水着"]).subcategoryId,"underwear");
