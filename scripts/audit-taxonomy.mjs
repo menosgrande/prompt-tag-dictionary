@@ -9,7 +9,7 @@ const outputOrder = await readJson("data/prompt-order-categories.json");
 const errors = [];
 
 if (taxonomy.schema !== "tag-taxonomy-v1") errors.push("Unknown taxonomy schema");
-if (!Array.isArray(taxonomy.semanticCategories) || taxonomy.semanticCategories.length !== 9) errors.push("Expected exactly nine semantic categories");
+if (!Array.isArray(taxonomy.semanticCategories) || taxonomy.semanticCategories.length !== 10) errors.push("Expected exactly ten semantic categories");
 const categories = [...(taxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
 const categoryIds = new Set(), categoryNames = new Set(), subcategoryIds = new Set();
 categories.forEach((category,index)=>{
@@ -25,10 +25,10 @@ categories.forEach((category,index)=>{
 });
 const targets = new Set((taxonomy.outputTargets || []).map(x=>x.id));
 if (!targets.has("positive") || !targets.has("negative")) errors.push("positive/negative output targets are required");
-if (!(taxonomy.virtualViews || []).some(x=>x.id==="negative-view" && x.source==="outputTarget" && x.target==="negative" && x.independentOfSemanticCategory===true)) errors.push("Negative virtual view must remain independent of semantic classification");
+if (!(taxonomy.virtualViews || []).some(x=>x.id==="negative-view" && x.source==="outputTarget" && x.target==="negative" && x.independentOfSemanticCategory===true && x.parentCategory==="quality")) errors.push("Negative virtual view must remain an output-target view nested under quality");
 const promptCategories = [...(outputOrder.categories || [])].sort((a,b)=>a.order-b.order).map(x=>x.name);
 const taxonomyNames = categories.map(x=>x.name);
-if (promptCategories.length !== taxonomyNames.length || promptCategories.some((name,index)=>name!==taxonomyNames[index])) errors.push("Prompt output order must match the nine semantic category order");
+if (promptCategories.length !== taxonomyNames.length || promptCategories.some((name,index)=>name!==taxonomyNames[index])) errors.push("Prompt output order must match the ten semantic category order");
 for (const [kind,allowed] of Object.entries(taxonomy.reviewStatuses || {})) {
   if (!Array.isArray(allowed) || !allowed.includes("unreviewed") || !allowed.includes("needs-review") || !allowed.includes("verified")) errors.push("Invalid review statuses: "+kind);
 }
@@ -36,5 +36,5 @@ if (errors.length) {
   for (const error of errors) console.error("ERROR: "+error);
   process.exitCode = 1;
 } else {
-  console.log("Taxonomy audit passed: nine semantic categories, output order, negative target, and review states are consistent.");
+  console.log("Taxonomy audit passed: ten semantic categories, output order, negative target, and review states are consistent.");
 }
