@@ -301,6 +301,13 @@
         {
           "id": "effects",
           "name": "演出効果"
+        },
+        {
+          "id": "color-tone",
+          "name": "色調・色彩",
+          "hidden": true,
+          "deprecated": true,
+          "description": "既存候補データとの互換性専用。新規分類には使用せず、タグの意味に応じて人物・服装・背景などへ再分類する。"
         }
       ]
     }
