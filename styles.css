@@ -817,3 +817,14 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 /* Keep the fixed header aligned with the horizontally scrollable tag rows. */
 .table-head{will-change:transform}
 .column-resize:focus-visible{outline:2px solid var(--accent);outline-offset:-2px;background:var(--surface3)}
+
+/* Special shared-prefix rows use the same 12-column table tracks. */
+.tag-group-row{
+  grid-template-columns:var(--tag-list-columns,36px 190px 160px 120px 120px 120px 76px 64px 64px 64px 58px 42px);
+  width:max-content;
+  min-width:100%;
+}
+.tag-group-row>.tag-group-marker{grid-column:1}
+.tag-group-row>.tag-names{grid-column:2}
+.tag-group-row>.tag-category{grid-column:3/12;min-width:0}
+.tag-group-row>.tag-group-select{grid-column:12;min-width:0;width:100%}
