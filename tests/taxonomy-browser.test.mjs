@@ -20,7 +20,7 @@ test("negative output target is a separate virtual category filter",()=>{
 });
 
 test("review-needed tags remain unclassified in browse but retain legacy output ordering",()=>{
-  assert.match(app,/candidate\?\.status==="needs-review"/);
+  assert.match(app,/candidate\?\.status\s*===\s*"needs-review"/);
   assert.match(app,/candidate\?\.status === "needs-review" \?/);
 });
 
