@@ -3,6 +3,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const args = new Set(process.argv.slice(2));
 const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
 
 const DIRECT = {
@@ -56,8 +57,8 @@ function classifyAdult(tag) {
 function classifyAction(tag) {
   const t=norm(tag);
   if (/\b(sitting|standing|lying|kneeling|crouching|squatting|on all fours|seiza|crossed legs)\b/.test(t)) return pair("pose/basic-posture","provisional","medium","姿勢を表す語を検出。");
-  if (/\b(hand|hands|finger|fingers|fingertip)\b/.test(t)) return pair("action/hand-action","provisional","medium","手・指の動作を表す語を検出。");
   if (/\b(hugging|kissing|holding hands|hand holding|embracing|grabbing another|carrying another)\b/.test(t)) return pair("action/interpersonal-contact","provisional","medium","対人接触を表す語を検出。");
+  if (/\b(hand|hands|finger|fingers|fingertip)\b/.test(t)) return pair("action/hand-action","provisional","medium","手・指の動作を表す語を検出。");
   if (/\b(eating|drinking|reading|writing|cooking|cleaning|shopping|walking|sleeping|washing|bathing|studying)\b/.test(t)) return pair("action/daily-action","provisional","medium","日常動作を表す語を検出。");
   if (/\b(holding|carrying|touching|adjusting|pulling|pushing|raising|waving|pointing|looking|smiling|crying|laughing|running|jumping|dancing|playing|riding|fighting|working|stretching|exercising|climbing|swimming|flying)\b/.test(t)) return pair("action/body-action","provisional","medium","動作を表す語を検出。");
   return pair("","needs-review","low","旧「行動」分類だけでは動作と姿勢を区別できないため保留。");
@@ -122,7 +123,15 @@ export function buildClassificationCandidates(rows) {
 
 async function main(){
   const rows=await readJson("data/tags.json");
+  const taxonomy=await readJson("data/tag-taxonomy.json");
   const report=buildClassificationCandidates(rows);
+  const categoryIds=new Set(taxonomy.semanticCategories.map(category=>category.id));
+  const subcategories=new Map(taxonomy.semanticCategories.map(category=>[category.id,new Set(category.subcategories.map(item=>item.id))]));
+  for(const item of report.entries){
+    if(item.categoryId && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
+      throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
+    }
+  }
   const outputPath=resolve(root,"data/tag-classification-candidates.json");
   const serialized=JSON.stringify(report,null,2)+"\n";
   console.log("Classification candidate audit");
