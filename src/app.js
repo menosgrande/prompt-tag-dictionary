@@ -389,7 +389,7 @@
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; return "未分類"; }
+  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
@@ -420,10 +420,9 @@
     if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
-  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; return "未分類"; }
-  function detailOf(t) { return classificationOf(t)?.status==="provisional" ? "—" : "—"; }
+  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
   function categoryText(t) {
-    if (state.category?.[0] === "__outputTarget" && state.category?.[1] === "negative") return "ネガティブ";
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
     return [a, b !== "未分類" ? b : "", c !== "—" ? c : ""].filter(Boolean).join(" › ");
@@ -743,7 +742,7 @@
       button.textContent = label + (state.columnSort?.key === key ? (state.columnSort.dir === 1 ? " ↑" : " ↓") : " ↕");
       button.setAttribute("aria-sort", state.columnSort?.key === key ? (state.columnSort.dir === 1 ? "ascending" : "descending") : "none");
     });
-    $("#results-title").textContent = state.query ? "検索結果" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
+    $("#results-title").textContent = state.query ? "検索結果" : state.category?.[0] === "__outputTarget" ? "ネガティブ" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
