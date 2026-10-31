@@ -65,10 +65,6 @@ Gitのコミット履歴も変更履歴として残るが、タグ単位で検�
 5. `node scripts/audit-tags.mjs` と `node scripts/audit-tag-management.mjs` を実行する。
 6. 差分を確認し、タグ数・未分類数・未翻訳数に意図しない変化がないことを確認してからPRを作成する。
 
-## 色系タグのグループ管理
-
-色だけが異なるタグを辞典一覧で個別表示しない場合は、`data/color-variant-groups.json` の表示用グループを使う。元の `data/tags.json` からタグを削除せず、`scripts/build-color-variant-groups.mjs` でグループを再生成し、`scripts/audit-color-variant-groups.mjs` で元タグとの整合性を確認する。2色以上のバリエーションがある対象だけをグループ化し、括弧付きタグや意味が曖昧な語は自動統合しない。色選択から出力する値は、必ず `data/tags.json` に存在する元タグとする。
-
 ## 監査の範囲
 
 自動監査はJSON構造、既存タグへの参照、状態値、日付形式、変更履歴の必須項目を確認する。日本語訳や意味上の分類が正しいかは自動判定できない。確認台帳に登録しただけで内容が正しいと保証されるわけではない。

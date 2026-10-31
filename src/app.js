@@ -96,8 +96,6 @@
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
-  let colorVariantGroups = [];
-  let colorVariantMemberKeys = new Set();
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
   const outputHistory = { undo: [], redo: [], last: { positive: "", negative: "" } };
 
@@ -370,17 +368,6 @@
       return r.json();
     }).then(data => Array.isArray(data) ? data : []);
   }
-  function seedColorVariantGroups() {
-    return fetch("./data/color-variant-groups.json").then(r => {
-      if (!r.ok) throw new Error("color variant groups missing");
-      return r.json();
-    }).then(data => {
-      if (data?.schema !== "color-variant-groups-v1" || !Array.isArray(data.groups)) {
-        throw new Error("invalid color variant groups");
-      }
-      return data.groups;
-    });
-  }
   function seedTaxonomy() {
     return Promise.all([
       fetch("./data/tag-taxonomy.json"),
@@ -402,7 +389,7 @@
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[0] || "未分類"; const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
+  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
@@ -435,8 +422,8 @@
     if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
-  function minorOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[1] || "未分類"; const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
-  function detailOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[2] || "—"; return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
+  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
   function categoryText(t) {
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
@@ -452,111 +439,17 @@
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
   }
-  function colorGroupMembers(group) {
-    return (group.options || []).map(option =>
-      state.tags.find(tag => norm(tag.tag) === norm(option.tag))
-    ).filter(Boolean);
-  }
-  function legacyColorGroupCategory(tag) {
-    const major = tag.category?.[0] || "未分類";
-    const minor = tag.category?.[1] || "未分類";
-    const majorMap = {
-      "人物":"人物・キャラクター",
-      "作品・キャラクター":"人物・キャラクター",
-      "背景・場所":"背景・環境",
-      "構図・視点":"構図・カメラ",
-      "画風・品質":minor === "品質" ? "品質・スコア" : "画風・描写",
-      "光・色彩":"光・色彩・演出",
-      "服装":"服装・装飾",
-      "ポーズ・動作":minor === "姿勢" ? "ポーズ・姿勢" : "動作・接触",
-      "シチュエーション":"動作・接触",
-      "その他":"背景・環境",
-      "成人向け":minor === "身体・衣類" ? "服装・装飾" : "動作・接触"
-    };
-    const mappedMajor = majorMap[major];
-    if (!mappedMajor) return null;
-    const minorMaps = {
-      "人物": {"人数":"人数・人物属性","性別・体形":"人数・人物属性","年齢":"人数・人物属性","頭髪":"髪・頭部","顔・表情":"顔・表情","目":"目","胸":"身体部位・身体状態","身体・部位":"身体部位・身体状態","種族・役割":"種族・役割"},
-      "作品・キャラクター": {"作品名・シリーズ":"作品・シリーズ","キャラクター":"キャラクター","作者・配信者":"作者・配信者"},
-      "背景・場所": {"屋内":"場所・室内外","施設":"場所・室内外","都市":"場所・室内外","自然":"自然・風景","時間・天候":"天候・時間帯"},
-      "構図・視点": {"構図":"構図・配置","撮影範囲":"撮影距離","カメラ角度":"カメラアングル","視点":"視点・視線"},
-      "画風・品質": {"画風":"画風・表現様式","品質":"高品質・傑作","描写技法":"描画技法","媒体":"媒体"},
-      "光・色彩": {"色":"色調・色彩","色調":"色調・色彩","照明":"照明・光源"},
-      "服装": {"衣類":"衣服","靴":"靴・履物","小物":"装飾品","下着・水着":/bikini|swimsuit|swimwear/.test(groupBaseTagName(tag)) ? "水着" : "下着","装備":"装備・防具"},
-      "ポーズ・動作": {"姿勢":"基本姿勢","行動":"日常動作","手の動き":"手の動作","対人動作":"対人接触・動作"},
-      "シチュエーション": {"関係性":"対人接触・動作","日常":"日常動作","イベント":"日常動作","成人向け状況":"対人接触・動作"},
-      "その他": {"動物":"自然・風景","物":"物体・小道具","自然物":"自然・風景","記号・効果":"演出効果"},
-      "成人向け": {"身体・衣類":"下着","行為・状況":"身体への接触","表現・修正":"演出効果"}
-    };
-    return [mappedMajor, minorMaps[major]?.[minor] || "未分類", "—"];
-  }
-  function groupBaseTagName(tag) {
-    return String(tag.tag || "").toLowerCase();
-  }
-  function colorGroupCategory(group) {
-    const base = group.baseTag && state.tags.find(tag => norm(tag.tag) === norm(group.baseTag));
-    if (base) {
-      const candidate = classificationOf(base);
-      if (candidate?.status === "provisional" && candidate.categoryId) return [majorOf(base), minorOf(base), detailOf(base)];
-      const legacy = legacyColorGroupCategory(base);
-      if (legacy) return legacy;
-    }
-    const counts = new Map();
-    colorGroupMembers(group).forEach(tag => {
-      const candidate = classificationOf(tag);
-      if (candidate?.status !== "provisional" || !candidate.categoryId) return;
-      const category = [majorOf(tag), minorOf(tag), detailOf(tag)];
-      const key = JSON.stringify(category);
-      counts.set(key, { category, count: (counts.get(key)?.count || 0) + 1 });
-    });
-    const classified = [...counts.values()].sort((a,b)=>b.count-a.count)[0]?.category;
-    if (classified) return classified;
-    const baseOverrides = {
-      hair:["人物・キャラクター","髪・頭部","—"], eyes:["人物・キャラクター","目","—"],
-      pupils:["人物・キャラクター","目","—"], sclera:["人物・キャラクター","目","—"],
-      hands:["人物・キャラクター","身体部位・身体状態","—"], nails:["人物・キャラクター","身体部位・身体状態","—"],
-      skin:["人物・キャラクター","身体部位・身体状態","—"], fur:["人物・キャラクター","身体部位・身体状態","—"],
-      background:["背景・環境","場所・室内外","—"], sky:["背景・環境","自然・風景","—"],
-      feathers:["背景・環境","自然・風景","—"], fire:["背景・環境","自然・風景","—"],
-      petals:["背景・環境","自然・風景","—"], scales:["人物・キャラクター","身体部位・身体状態","—"],
-      gemstone:["背景・環境","物体・小道具","—"], rope:["背景・環境","物体・小道具","—"],
-      footwear:["服装・装飾","靴・履物","—"], sleeves:["服装・装飾","衣服","—"],
-      trim:["服装・装飾","衣服","—"], hood:["服装・装飾","衣服","—"],
-      capelet:["服装・装飾","衣服","—"], leotard:["服装・装飾","衣服","—"],
-      leggings:["服装・装飾","衣服","—"], "leg warmers":["服装・装飾","靴・履物","—"],
-      hakama:["服装・装飾","衣服","—"], serafuku:["服装・装飾","衣服","—"],
-      shawl:["服装・装飾","衣服","—"], shrug:["服装・装飾","衣服","—"],
-      tabard:["服装・装飾","衣服","—"], "tank top":["服装・装飾","衣服","—"],
-      "track suit":["服装・装飾","衣服","—"], "tube top":["服装・装飾","衣服","—"],
-      tunic:["服装・装飾","衣服","—"], undershirt:["服装・装飾","衣服","—"],
-      buruma:["服装・装飾","下着","—"], bandeau:["服装・装飾","下着","—"],
-      mittens:["服装・装飾","衣服","—"], sarong:["服装・装飾","衣服","—"],
-      veil:["服装・装飾","装飾品","—"], armband:["服装・装飾","装飾品","—"],
-      ascot:["服装・装飾","装飾品","—"], bandana:["服装・装飾","装飾品","—"],
-      bow:["服装・装飾","装飾品","—"], hairband:["服装・装飾","装飾品","—"],
-      neckerchief:["服装・装飾","装飾品","—"], sash:["服装・装飾","装飾品","—"],
-      scrunchie:["服装・装飾","装飾品","—"], visor:["服装・装飾","装飾品","—"],
-      "wrist cuffs":["服装・装飾","装飾品","—"], theme:["光・色彩・演出","色調・色彩","—"],
-      border:["光・色彩・演出","演出効果","—"], outline:["光・色彩・演出","演出効果","—"],
-      halo:["光・色彩・演出","演出効果","—"]
-    };
-    return baseOverrides[group.id] || ["未分類","未分類","—"];
-  }
   function categoryCounts() {
     const counts = new Map();
-    const add = (major, minor, detail) => {
+    state.tags.forEach(t => {
+      const major = majorOf(t), minor = minorOf(t), detail = detailOf(t);
       if (!counts.has(major)) counts.set(major, { total: 0, minors: new Map() });
       const entry = counts.get(major);
       entry.total++;
       if (!entry.minors.has(minor)) entry.minors.set(minor, { total: 0, details: new Map() });
       const m = entry.minors.get(minor); m.total++;
       if (detail && detail !== "—") m.details.set(detail, (m.details.get(detail) || 0) + 1);
-    };
-    state.tags.forEach(t => {
-      if (colorVariantMemberKeys.has(norm(t.tag))) return;
-      add(majorOf(t), minorOf(t), detailOf(t));
     });
-    colorVariantGroups.forEach(group => add(...colorGroupCategory(group)));
     return counts;
   }
   function renderTaxonomyCategories(root) {
@@ -716,9 +609,7 @@
   function matchingTags() {
     const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
-    const collapseColorVariants = reviewFilter === "all" && state.category?.[0] !== "__outputTarget";
     let list = state.tags.filter(t => {
-      if (collapseColorVariants && colorVariantMemberKeys.has(norm(t.tag))) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
@@ -736,23 +627,6 @@
       // Japanese queries without spaces remain a single substring search.
       return queryTerms.every(term => hay.includes(term));
     });
-    if (collapseColorVariants && state.category?.[0] !== "__outputTarget") {
-      const groups = colorVariantGroups.filter(group => {
-        const category = colorGroupCategory(group);
-        if (state.category && (category[0] !== state.category[0] ||
-            (state.category[1] && category[1] !== state.category[1]) ||
-            (state.category[2] && category[2] !== state.category[2]))) return false;
-        if (level === "known" && category[0] === "未分類") return false;
-        if (level === "unknown" && category[0] !== "未分類") return false;
-        if (!q) return true;
-        const groupText = norm([group.id, group.ja].join(" "));
-        const memberText = colorGroupMembers(group).map(member =>
-          norm([member.tag, member.ja, ...(member.aliases || [])].join(" "))
-        );
-        return queryTerms.every(term => groupText.includes(term) || memberText.some(text => text.includes(term)));
-      }).map(group => ({ ...group, category: colorGroupCategory(group), isTagGroup: true, isColorGroup: true, tag: group.id, ja: group.ja || "色違い" }));
-      list.push(...groups);
-    }
     const sort = $("#sort-order").value;
     const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
     // Keep punctuation-based emoticons/kaomoji from dominating the initial list.
@@ -876,36 +750,22 @@
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
       if (t.isTagGroup) {
-        const row = document.createElement("div"); row.className = "tag-row tag-group-row" + (t.isColorGroup ? " tag-color-group-row" : "");
-        const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = t.isColorGroup ? "◉" : "▾";
+        const row = document.createElement("div"); row.className = "tag-row tag-group-row";
+        const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = "▾";
         marker.setAttribute("aria-hidden", "true");
         const label = document.createElement("div"); label.className = "tag-names";
         const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.id;
         const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "統合グループ";
         label.append(english, japanese);
-        const selectedMembers = t.isColorGroup
-          ? (t.members || []).filter(name => state.selected.has(norm(name)))
-          : [];
-        const note = document.createElement("span"); note.className = "tag-category";
-        note.textContent = t.isColorGroup
-          ? (selectedMembers.length ? "選択中: " + selectedMembers.join(", ") : "色を選択（" + (t.options || []).length + "色）")
-          : "詳細タグを選択";
+        const note = document.createElement("span"); note.className = "tag-category"; note.textContent = "詳細タグを選択";
         const select = document.createElement("select"); select.className = "tag-group-select";
-        select.setAttribute("aria-label", t.id + (t.isColorGroup ? "の色を選択" : "の具体的なタグを選択"));
-        const placeholder = document.createElement("option"); placeholder.value = "";
-        placeholder.textContent = t.isColorGroup ? "色を選択…" : "詳細を選択…"; select.append(placeholder);
+        select.setAttribute("aria-label", t.id + "の具体的なタグを選択");
+        const placeholder = document.createElement("option"); placeholder.value = ""; placeholder.textContent = "詳細を選択…"; select.append(placeholder);
         (t.members || []).forEach(name => {
           const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
           if (!member) return;
           const option = document.createElement("option"); option.value = member.tag;
-          if (t.isColorGroup) {
-            const colorOption = (t.options || []).find(item => norm(item.tag) === norm(member.tag));
-            const colorLabel = member.tag === t.baseTag ? "色指定なし" : (colorOption?.color || "色");
-            option.textContent = colorLabel + " — " + member.tag + (member.ja ? "（" + member.ja + "）" : "");
-          } else {
-            option.textContent = member.tag + (member.ja ? " — " + member.ja : "");
-          }
-          select.append(option);
+          option.textContent = member.tag + (member.ja ? " — " + member.ja : ""); select.append(option);
         });
         select.addEventListener("change", () => {
           const member = state.tags.find(candidate => candidate.tag === select.value);
@@ -1504,15 +1364,7 @@
     }
     try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
     try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
-    normalizeRecords();
-    try {
-      colorVariantGroups = await seedColorVariantGroups();
-      colorVariantMemberKeys = new Set(colorVariantGroups.flatMap(group => group.members || []).map(norm));
-    } catch {
-      colorVariantGroups = [];
-      colorVariantMemberKeys = new Set();
-    }
-    renderAll();
+    normalizeRecords(); renderAll();
   }
   init();
 })();
