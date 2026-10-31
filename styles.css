@@ -697,3 +697,15 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 @media(max-width:1100px){.workspace{grid-template-columns:minmax(175px,205px) minmax(0,1fr)}}
 @media(max-width:720px){.workspace{display:flex;flex-direction:column;gap:10px}}
 .screen-nav{position:sticky;top:0;z-index:10;background:var(--bg)}
+
+
+/* Color-only variants are represented by one concept row and an exact source-tag selector. */
+.tag-color-group-row{background:rgba(116,145,178,.075)}
+.tag-color-group-row .tag-group-marker{color:var(--accent)}
+.tag-color-group-row .tag-english{color:var(--text)}
+.tag-color-group-row .tag-japanese{color:var(--muted)}
+.tag-color-group-row .tag-category{font-size:10px;color:var(--muted)}
+.tag-color-group-row .tag-group-select{border-color:var(--accent);max-width:220px}
+@media(max-width:720px){
+  .tag-color-group-row .tag-group-select{max-width:none}
+}
