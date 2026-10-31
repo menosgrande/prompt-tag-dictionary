@@ -28916,10 +28916,10 @@
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
       "categoryId": "action",
-      "subcategoryId": "hand-action",
+      "subcategoryId": "interpersonal-contact",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "手・指の動作を表す語を検出。"
+      "reason": "対人接触を表す語を検出。"
     },
     {
       "tag": "kissing neck",
