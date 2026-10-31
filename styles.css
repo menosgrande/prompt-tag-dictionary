@@ -883,3 +883,61 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .vote-inline-cell{gap:3px}
   .vote-inline-cell .vote-button{width:13px;min-width:13px;height:15px;min-height:15px;font-size:9px}
 }
+
+
+/* Final alignment normalization: one vertical and horizontal baseline for the dictionary. */
+.table-head-cell{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:left;
+}
+.table-head-cell>button{text-align:left}
+.tag-row{
+  align-items:stretch;
+}
+.tag-row>*{
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  text-align:left;
+  min-width:0;
+}
+.tag-row .tag-label-wrap,
+.tag-row .tag-japanese,
+.tag-row .tag-cell,
+.tag-row .tag-rating{
+  display:flex;
+  align-items:center;
+  align-content:normal;
+  justify-content:flex-start;
+  text-align:left;
+  min-width:0;
+}
+.tag-row .tag-rating{text-align:left}
+.tag-row .vote-inline-cell{
+  display:flex!important;
+  flex-direction:row;
+  align-items:center;
+  justify-content:flex-start;
+  gap:4px;
+}
+.tag-row .vote-inline-cell>.vote-group{
+  margin-left:0;
+  flex:0 0 auto;
+  align-self:center;
+}
+.tag-row>.tag-check{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  align-self:stretch;
+}
+.tag-row>.tag-edit-cell,
+.tag-row>.tag-info-cell{
+  justify-content:center;
+}
+.tag-row .tag-info-button,
+.tag-row .tag-edit-button{
+  align-self:center;
+}
