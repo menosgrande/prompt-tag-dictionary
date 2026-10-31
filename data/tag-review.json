@@ -37677,13 +37677,6 @@
       "reviewedAt": null,
       "note": "膣性交後の状態を示すタグとして修正。Gelbooru wikiのタグ説明に基づくAI一次訳。人手最終確認待ち。",
       "source": "https://gelbooru.com/index.php?page=wiki&s=view&id=22506"
-    },
-    "yuuji (and)": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "固有名詞・作品識別ができず、原文の意味を確定できないため既存訳を保持して要確認。",
-      "source": null
     }
   }
 }
