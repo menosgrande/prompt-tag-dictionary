@@ -5,6 +5,8 @@ on:
     paths:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
+      - "data/tag-taxonomy.json"
+      - "scripts/audit-taxonomy.mjs"
       - "admin.html"
       - "admin.css"
       - "src/admin.js"
@@ -24,6 +26,8 @@ on:
     paths:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
+      - "data/tag-taxonomy.json"
+      - "scripts/audit-taxonomy.mjs"
       - "admin.html"
       - "admin.css"
       - "src/admin.js"
@@ -58,6 +62,8 @@ jobs:
         run: node --check src/admin.js
       - name: Audit prompt output category order
         run: node scripts/audit-prompt-order.mjs
+      - name: Audit canonical tag taxonomy
+        run: node scripts/audit-taxonomy.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
