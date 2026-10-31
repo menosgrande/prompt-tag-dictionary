@@ -14,6 +14,11 @@ test("clothing subtype is split by tag meaning",()=>{
   assert.equal(classifyLegacyRow(["panties","パンティー","服装","下着・水着"]).subcategoryId,"underwear");
 });
 
+test("interpersonal hand contact is not misclassified as hand-only action",()=>{
+  const item=classifyLegacyRow(["holding hands","手をつなぐ","ポーズ・動作","行動"]);
+  assert.equal(item.subcategoryId,"interpersonal-contact");
+});
+
 test("ambiguous situation tags remain needs-review",()=>{
   const item=classifyLegacyRow(["wedding","結婚式","シチュエーション","イベント"]);
   assert.equal(item.status,"needs-review");
