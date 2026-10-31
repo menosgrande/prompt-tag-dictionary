@@ -828,3 +828,19 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .tag-group-row>.tag-names{grid-column:2}
 .tag-group-row>.tag-category{grid-column:3/12;min-width:0}
 .tag-group-row>.tag-group-select{grid-column:12;min-width:0;width:100%}
+
+
+/* Tighter dictionary row rhythm: reduce vertical whitespace without shrinking text. */
+.tag-row{min-height:34px}
+.tag-row>*{padding-top:3px;padding-bottom:3px}
+.tag-row>.tag-check{padding:0}
+.tag-vote-cell,.tag-edit-cell,.tag-info-cell{padding-top:2px!important;padding-bottom:2px!important}
+.tag-vote-cell .vote-button{min-height:20px}
+.tag-info-button{width:22px;height:22px}
+@media(max-width:720px){
+  .tag-row{min-height:32px}
+  .tag-row>*{padding-top:2px;padding-bottom:2px}
+  .tag-vote-cell,.tag-edit-cell,.tag-info-cell{padding-top:2px!important;padding-bottom:2px!important}
+  .tag-vote-cell .vote-button{min-height:18px}
+  .tag-info-button{width:21px;height:21px}
+}
