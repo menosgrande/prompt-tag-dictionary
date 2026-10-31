@@ -517,7 +517,6 @@
       const saved = JSON.parse(localStorage.getItem(key) || "null");
       if (Array.isArray(saved) && saved.length === defaults.length) widths = saved.map((v, i) => Math.max(32, Math.min(520, Number(v) || defaults[i])));
     } catch {}
-    const results = $("#tag-results");
     const save = () => { try { localStorage.setItem(key, JSON.stringify(widths)); } catch {} };
     const apply = () => {
       const template = widths.map((w, i) => (i === 0 || i >= 6 ? w + "px" : "minmax(70px," + w + "px)")).join(" ");
@@ -529,10 +528,6 @@
         handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
       });
     };
-    // The header sits outside the scrollable rows; mirror horizontal scrolling.
-    if (results) results.addEventListener("scroll", () => {
-      head.style.transform = "translateX(" + (-results.scrollLeft) + "px)";
-    }, { passive: true });
     apply();
     head.querySelectorAll(".column-resize").forEach(handle => {
       const index = Number(handle.dataset.columnIndex);
@@ -879,6 +874,7 @@
     const all = matchingTags(), size = pageSize(all.length), pageCount = Math.max(1, Math.ceil(all.length / size));
     state.page = Math.min(Math.max(0, state.page), pageCount - 1);
     const start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
+    const previousScrollTop = root.scrollTop;
     root.replaceChildren();
     const clearFilters = $("#clear-filters");
     if (clearFilters) {
@@ -1079,6 +1075,7 @@
       row.title = t.tag;
       root.append(row);
     });
+    root.scrollTop = previousScrollTop;
     $("#page-summary").textContent = all.length
       ? (start + 1).toLocaleString("ja-JP") + "–" + Math.min(start + size, all.length).toLocaleString("ja-JP") + "件 / " + all.length.toLocaleString("ja-JP") + "件（" + (state.page + 1) + "/" + pageCount + "ページ）"
       : "0件";
