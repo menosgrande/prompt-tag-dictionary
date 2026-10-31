@@ -640,7 +640,7 @@
   function matchingTags() {
     const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
-    const collapseColorVariants = reviewFilter === "all";
+    const collapseColorVariants = reviewFilter === "all" && state.category?.[0] !== "__outputTarget";
     let list = state.tags.filter(t => {
       if (collapseColorVariants && colorVariantMemberKeys.has(norm(t.tag))) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
