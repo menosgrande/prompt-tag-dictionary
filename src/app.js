@@ -96,6 +96,8 @@
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
+  let colorVariantGroups = [];
+  let colorVariantMemberKeys = new Set();
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, editMode: ADMIN_MODE, editingTag: null };
   const outputHistory = { undo: [], redo: [], last: { positive: "", negative: "" } };
 
@@ -368,6 +370,17 @@
       return r.json();
     }).then(data => Array.isArray(data) ? data : []);
   }
+  function seedColorVariantGroups() {
+    return fetch("./data/color-variant-groups.json").then(r => {
+      if (!r.ok) throw new Error("color variant groups missing");
+      return r.json();
+    }).then(data => {
+      if (data?.schema !== "color-variant-groups-v1" || !Array.isArray(data.groups)) {
+        throw new Error("invalid color variant groups");
+      }
+      return data.groups;
+    });
+  }
   function seedTaxonomy() {
     return Promise.all([
       fetch("./data/tag-taxonomy.json"),
@@ -439,17 +452,35 @@
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
   }
+  function colorGroupMembers(group) {
+    return (group.options || []).map(option =>
+      state.tags.find(tag => norm(tag.tag) === norm(option.tag))
+    ).filter(Boolean);
+  }
+  function colorGroupCategory(group) {
+    const counts = new Map();
+    colorGroupMembers(group).forEach(tag => {
+      const category = [majorOf(tag), minorOf(tag), detailOf(tag)];
+      const key = JSON.stringify(category);
+      counts.set(key, { category, count: (counts.get(key)?.count || 0) + 1 });
+    });
+    return [...counts.values()].sort((a,b)=>b.count-a.count)[0]?.category || ["未分類","未分類","—"];
+  }
   function categoryCounts() {
     const counts = new Map();
-    state.tags.forEach(t => {
-      const major = majorOf(t), minor = minorOf(t), detail = detailOf(t);
+    const add = (major, minor, detail) => {
       if (!counts.has(major)) counts.set(major, { total: 0, minors: new Map() });
       const entry = counts.get(major);
       entry.total++;
       if (!entry.minors.has(minor)) entry.minors.set(minor, { total: 0, details: new Map() });
       const m = entry.minors.get(minor); m.total++;
       if (detail && detail !== "—") m.details.set(detail, (m.details.get(detail) || 0) + 1);
+    };
+    state.tags.forEach(t => {
+      if (colorVariantMemberKeys.has(norm(t.tag))) return;
+      add(majorOf(t), minorOf(t), detailOf(t));
     });
+    colorVariantGroups.forEach(group => add(...colorGroupCategory(group)));
     return counts;
   }
   function renderTaxonomyCategories(root) {
@@ -609,7 +640,9 @@
   function matchingTags() {
     const q = norm(state.query), queryTerms = q.split(/\\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
+    const collapseColorVariants = reviewFilter === "all";
     let list = state.tags.filter(t => {
+      if (collapseColorVariants && colorVariantMemberKeys.has(norm(t.tag))) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
@@ -627,6 +660,23 @@
       // Japanese queries without spaces remain a single substring search.
       return queryTerms.every(term => hay.includes(term));
     });
+    if (collapseColorVariants && state.category?.[0] !== "__outputTarget") {
+      const groups = colorVariantGroups.filter(group => {
+        const category = colorGroupCategory(group);
+        if (state.category && (category[0] !== state.category[0] ||
+            (state.category[1] && category[1] !== state.category[1]) ||
+            (state.category[2] && category[2] !== state.category[2]))) return false;
+        if (level === "known" && category[0] === "未分類") return false;
+        if (level === "unknown" && category[0] !== "未分類") return false;
+        if (!q) return true;
+        const groupText = norm([group.id, group.ja].join(" "));
+        const memberText = colorGroupMembers(group).map(member =>
+          norm([member.tag, member.ja, ...(member.aliases || [])].join(" "))
+        );
+        return queryTerms.every(term => groupText.includes(term) || memberText.some(text => text.includes(term)));
+      }).map(group => ({ ...group, isTagGroup: true, isColorGroup: true, tag: group.id, ja: group.ja || "色違い" }));
+      list.push(...groups);
+    }
     const sort = $("#sort-order").value;
     const englishCompare = (a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" });
     // Keep punctuation-based emoticons/kaomoji from dominating the initial list.
@@ -750,22 +800,36 @@
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
       if (t.isTagGroup) {
-        const row = document.createElement("div"); row.className = "tag-row tag-group-row";
-        const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = "▾";
+        const row = document.createElement("div"); row.className = "tag-row tag-group-row" + (t.isColorGroup ? " tag-color-group-row" : "");
+        const marker = document.createElement("span"); marker.className = "tag-group-marker"; marker.textContent = t.isColorGroup ? "◉" : "▾";
         marker.setAttribute("aria-hidden", "true");
         const label = document.createElement("div"); label.className = "tag-names";
         const english = document.createElement("span"); english.className = "tag-english"; english.textContent = t.id;
         const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "統合グループ";
         label.append(english, japanese);
-        const note = document.createElement("span"); note.className = "tag-category"; note.textContent = "詳細タグを選択";
+        const selectedMembers = t.isColorGroup
+          ? (t.members || []).filter(name => state.selected.has(norm(name)))
+          : [];
+        const note = document.createElement("span"); note.className = "tag-category";
+        note.textContent = t.isColorGroup
+          ? (selectedMembers.length ? "選択中: " + selectedMembers.join(", ") : "色を選択")
+          : "詳細タグを選択";
         const select = document.createElement("select"); select.className = "tag-group-select";
-        select.setAttribute("aria-label", t.id + "の具体的なタグを選択");
-        const placeholder = document.createElement("option"); placeholder.value = ""; placeholder.textContent = "詳細を選択…"; select.append(placeholder);
+        select.setAttribute("aria-label", t.id + (t.isColorGroup ? "の色を選択" : "の具体的なタグを選択"));
+        const placeholder = document.createElement("option"); placeholder.value = "";
+        placeholder.textContent = t.isColorGroup ? "色を選択…" : "詳細を選択…"; select.append(placeholder);
         (t.members || []).forEach(name => {
           const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
           if (!member) return;
           const option = document.createElement("option"); option.value = member.tag;
-          option.textContent = member.tag + (member.ja ? " — " + member.ja : ""); select.append(option);
+          if (t.isColorGroup) {
+            const colorOption = (t.options || []).find(item => norm(item.tag) === norm(member.tag));
+            const colorLabel = member.tag === t.baseTag ? "色指定なし" : (colorOption?.color || "色");
+            option.textContent = colorLabel + " — " + member.tag + (member.ja ? "（" + member.ja + "）" : "");
+          } else {
+            option.textContent = member.tag + (member.ja ? " — " + member.ja : "");
+          }
+          select.append(option);
         });
         select.addEventListener("change", () => {
           const member = state.tags.find(candidate => candidate.tag === select.value);
@@ -1364,7 +1428,15 @@
     }
     try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
     try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
-    normalizeRecords(); renderAll();
+    normalizeRecords();
+    try {
+      colorVariantGroups = await seedColorVariantGroups();
+      colorVariantMemberKeys = new Set(colorVariantGroups.flatMap(group => group.members || []).map(norm));
+    } catch {
+      colorVariantGroups = [];
+      colorVariantMemberKeys = new Set();
+    }
+    renderAll();
   }
   init();
 })();
