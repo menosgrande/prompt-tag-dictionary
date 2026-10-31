@@ -1,31 +1,5 @@
 [
   {
-    "tag": ":/",
-    "ja": "歪嘴",
-    "major": "人物",
-    "minor": "顔・表情",
-    "reasons": [
-      "known-mistranslation",
-      "possible-chinese-text"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": ":|",
-    "ja": "平嘴",
-    "major": "人物",
-    "minor": "顔・表情",
-    "reasons": [
-      "known-mistranslation",
-      "possible-chinese-text"
-    ],
-    "confidence": "high",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "^ ^",
     "ja": "",
     "major": "未分類",
@@ -214,18 +188,6 @@
       "japanese-translation-missing"
     ],
     "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "after vaginal",
-    "ja": "膣の後",
-    "major": "成人向け",
-    "minor": "身体・衣類",
-    "reasons": [
-      "known-mistranslation"
-    ],
-    "confidence": "high",
     "status": "unreviewed",
     "proposedJa": null
   },
@@ -7111,7 +7073,7 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "high",
-    "status": "unreviewed",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
