@@ -400,7 +400,9 @@
     const candidate = classificationOf(t);
     const taxonomyOutputIndex = { quality:0, person:1, clothing:2, pose:3, action:4, background:5, composition:6, style:7, lighting:8 }[candidate?.categoryId];
     if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
-    const major = majorOf(t), minor = minorOf(t), tag = norm(t.tag);
+    const major = candidate?.status === "needs-review" ? ((t.category && t.category[0]) || "未分類") : majorOf(t);
+    const minor = candidate?.status === "needs-review" ? ((t.category && t.category[1]) || "未分類") : minorOf(t);
+    const tag = norm(t.tag);
     if (major === "画風・品質") {
       if (minor !== "品質") return PROMPT_ORDER[7];
       if (tag === "beautiful detailed eyes") return PROMPT_ORDER[1];
