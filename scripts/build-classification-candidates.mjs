@@ -127,8 +127,12 @@ async function main(){
   const report=buildClassificationCandidates(rows);
   const categoryIds=new Set(taxonomy.semanticCategories.map(category=>category.id));
   const subcategories=new Map(taxonomy.semanticCategories.map(category=>[category.id,new Set(category.subcategories.map(item=>item.id))]));
+  // The existing candidate sidecar still stores these three legacy pairs under person.
+  // The browser maps them to the dedicated character category at read time until the sidecar is regenerated.
+  const legacyCharacterSubcategories = new Set(["works-series","characters","creators"]);
   for(const item of report.entries){
-    if(item.categoryId && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
+    const legacyCharacterPair = item.categoryId === "person" && legacyCharacterSubcategories.has(item.subcategoryId);
+    if(item.categoryId && !legacyCharacterPair && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
       throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
     }
   }

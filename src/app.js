@@ -379,7 +379,14 @@
       classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
     });
   }
-  function classificationOf(t) { return classificationCandidates.get(norm(t.tag)) || null; }
+  // Legacy character candidates are routed to the dedicated character taxonomy.
+  function classificationOf(t) {
+    const candidate = classificationCandidates.get(norm(t.tag)) || null;
+    if (candidate?.categoryId === "person" && ["works-series", "characters", "creators"].includes(candidate.subcategoryId)) {
+      return { ...candidate, categoryId: "character" };
+    }
+    return candidate;
+  }
   function taxonomyCategoryName(id) { return tagTaxonomy?.semanticCategories?.find(category => category.id === id)?.name || ""; }
   function taxonomySubcategoryName(categoryId, subcategoryId) {
     return tagTaxonomy?.semanticCategories?.find(category => category.id === categoryId)?.subcategories?.find(sub => sub.id === subcategoryId)?.name || "";
@@ -391,14 +398,14 @@
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
-  let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
+  let PROMPT_ORDER = ["品質・ネガティブ", "人物・身体的特徴", "キャラクター・作品", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・演出"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
   function promptOrderOf(t) {
-    if (promptTargetOf(t) === "negative") return "ネガティブ";
+    if (promptTargetOf(t) === "negative") return PROMPT_ORDER[0];
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
     const candidate = classificationOf(t);
-    const taxonomyOutputIndex = { quality:0, person:1, clothing:2, pose:3, action:4, background:5, composition:6, style:7, lighting:8 }[candidate?.categoryId];
+    const taxonomyOutputIndex = { quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9 }[candidate?.categoryId];
     if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
     const major = candidate?.status === "needs-review" ? ((t.category && t.category[0]) || "未分類") : majorOf(t);
     const minor = candidate?.status === "needs-review" ? ((t.category && t.category[1]) || "未分類") : minorOf(t);
@@ -468,12 +475,14 @@
       return button;
     };
     const categories = [...(tagTaxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
+    const negativeCount = state.tags.filter(t => promptTargetOf(t) === "negative").length;
     categories.forEach(category => {
       const entry = counts.get(category.name) || {total:0,minors:new Map()};
+      const displayTotal = entry.total + (category.id === "quality" ? negativeCount : 0);
       const wrap = document.createElement("div"); wrap.className = "category-major";
       const heading = document.createElement("div"); heading.className = "category-major-heading";
       const active = state.category?.[0] === category.name && !state.category?.[1];
-      heading.append(addFilterButton(category.name,entry.total,active,()=>{
+      heading.append(addFilterButton(category.name,displayTotal,active,()=>{
         state.category = active ? null : [category.name,null,null]; state.page=0; renderAll();
       }));
       const expander = makeButton(state.expandedMajor===category.name?"▾":"▸","category-expander",()=>{
@@ -485,6 +494,7 @@
       if(state.expandedMajor===category.name){
         const minors=document.createElement("div");minors.className="category-minors";
         (category.subcategories||[]).forEach(sub=>{
+          if (sub.hidden || sub.deprecated) return;
           const subEntry=entry.minors.get(sub.name);
           if(!subEntry?.total)return;
           const activeSub=state.category?.[0]===category.name&&state.category?.[1]===sub.name&&!state.category?.[2];
@@ -492,15 +502,17 @@
             state.category=activeSub?[category.name,null,null]:[category.name,sub.name,null];state.page=0;renderAll();
           },"category-minor"));
         });
+        if (category.id === "quality" && negativeCount) {
+          const activeNegative = state.category?.[0] === "__outputTarget" && state.category?.[1] === "negative";
+          minors.append(addFilterButton("ネガティブ・除外指定",negativeCount,activeNegative,()=>{
+            state.category = activeNegative ? [category.name,null,null] : ["__outputTarget","negative",null];
+            state.expandedMajor = category.name; state.page = 0; renderAll();
+          },"category-minor"));
+        }
         wrap.append(minors);
       }
       root.append(wrap);
     });
-    const negativeCount=state.tags.filter(t=>promptTargetOf(t)==="negative").length;
-    root.append(addFilterButton("ネガティブ",negativeCount,state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative",()=>{
-      const active=state.category?.[0]==="__outputTarget"&&state.category?.[1]==="negative";
-      state.category=active?null:["__outputTarget","negative",null];state.page=0;renderAll();
-    }));
     const unclassifiedCount=counts.get("未分類")?.total||0;
     root.append(addFilterButton("未分類・要確認",unclassifiedCount,state.category?.[0]==="未分類"&&!state.category?.[1],()=>{
       const active=state.category?.[0]==="未分類"&&!state.category?.[1];
@@ -611,6 +623,7 @@
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
     let list = state.tags.filter(t => {
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
+      else if (state.category && state.category[0] === "品質・ネガティブ" && !state.category[1]) { if (promptOrderOf(t) !== "品質・ネガティブ") return false; }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
