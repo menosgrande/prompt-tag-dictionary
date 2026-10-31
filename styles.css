@@ -941,3 +941,27 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .tag-row .tag-edit-button{
   align-self:center;
 }
+
+
+/* Keep inline ratings on the same line as long values. */
+.tag-row .vote-inline-cell{
+  flex-wrap:nowrap;
+  white-space:nowrap;
+  overflow:hidden;
+  min-width:0;
+}
+.tag-row .vote-inline-cell>.vote-group{
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+.tag-row .tag-label-wrap>.tag-english{
+  display:block;
+  flex:1 1 auto;
+  min-width:0;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.tag-row .tag-japanese{
+  text-overflow:ellipsis;
+}
