@@ -113,6 +113,14 @@
         {
           "id": "props",
           "name": "小物・道具"
+        },
+        {
+          "id": "footwear",
+          "name": "靴・履物"
+        },
+        {
+          "id": "equipment",
+          "name": "装備・防具"
         }
       ]
     },
@@ -201,6 +209,10 @@
         {
           "id": "weather-time",
           "name": "天候・時間帯"
+        },
+        {
+          "id": "object-items",
+          "name": "物体・小道具"
         }
       ]
     },
