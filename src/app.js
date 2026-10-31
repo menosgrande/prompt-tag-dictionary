@@ -498,34 +498,56 @@
       const saved = JSON.parse(localStorage.getItem(key) || "null");
       if (Array.isArray(saved) && saved.length === defaults.length) widths = saved.map((v, i) => Math.max(32, Math.min(520, Number(v) || defaults[i])));
     } catch {}
+    const results = $("#tag-results");
+    const save = () => { try { localStorage.setItem(key, JSON.stringify(widths)); } catch {} };
     const apply = () => {
       const template = widths.map((w, i) => (i === 0 || i >= 6 ? w + "px" : "minmax(70px," + w + "px)")).join(" ");
       panel.style.setProperty("--tag-list-columns", template);
+      head.querySelectorAll(".column-resize").forEach(handle => {
+        const index = Number(handle.dataset.columnIndex);
+        handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
+      });
     };
+    // The header sits outside the scrollable rows; mirror horizontal scrolling.
+    if (results) results.addEventListener("scroll", () => {
+      head.style.transform = "translateX(" + (-results.scrollLeft) + "px)";
+    }, { passive: true });
     apply();
     head.querySelectorAll(".column-resize").forEach(handle => {
+      const index = Number(handle.dataset.columnIndex);
+      const min = index === 0 ? 30 : 48;
+      const resizeTo = value => {
+        widths[index] = Math.max(min, Math.min(520, value));
+        apply(); save();
+      };
+      handle.addEventListener("keydown", event => {
+        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+          event.preventDefault();
+          resizeTo(widths[index] + (event.key === "ArrowRight" ? 10 : -10));
+        } else if (event.key === "Home") {
+          event.preventDefault(); resizeTo(defaults[index]);
+        }
+      });
       handle.addEventListener("pointerdown", event => {
         event.preventDefault(); event.stopPropagation();
-        const index = Number(handle.dataset.columnIndex);
         const startX = event.clientX, startWidth = widths[index];
-        handle.setPointerCapture?.(event.pointerId);
         const move = e => {
-          widths[index] = Math.max(index === 0 ? 30 : 48, Math.min(520, startWidth + e.clientX - startX));
+          widths[index] = Math.max(min, Math.min(520, startWidth + e.clientX - startX));
           apply();
         };
         const finish = () => {
           document.removeEventListener("pointermove", move);
           document.removeEventListener("pointerup", finish);
-          try { localStorage.setItem(key, JSON.stringify(widths)); } catch {}
+          document.removeEventListener("pointercancel", finish);
+          save();
         };
         document.addEventListener("pointermove", move);
         document.addEventListener("pointerup", finish, { once: true });
+        document.addEventListener("pointercancel", finish, { once: true });
       });
       handle.addEventListener("dblclick", event => {
         event.preventDefault(); event.stopPropagation();
-        widths[Number(handle.dataset.columnIndex)] = defaults[Number(handle.dataset.columnIndex)];
-        apply();
-        try { localStorage.setItem(key, JSON.stringify(widths)); } catch {}
+        resizeTo(defaults[index]);
       });
     });
   }
