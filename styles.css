@@ -844,3 +844,28 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .tag-vote-cell .vote-button{min-height:18px}
   .tag-info-button{width:21px;height:21px}
 }
+
+
+/* Ultra-compact single-line tag rows. Keep each tag to one scan line. */
+.tag-row{min-height:26px;height:26px;align-items:center}
+.tag-row>*{min-height:0;padding:1px 6px;align-items:center}
+.tag-row .tag-label-wrap,.tag-row .tag-japanese{min-height:0;white-space:nowrap}
+.tag-row .tag-english{font-size:11px;line-height:1.15}
+.tag-row .tag-japanese{font-size:10px;line-height:1.15}
+.tag-cell{font-size:9px;line-height:1.15}
+.tag-vote-cell,.tag-edit-cell,.tag-info-cell{padding:1px 2px!important}
+.tag-vote-cell .vote-button{min-width:15px;min-height:17px;padding:0 1px;font-size:10px;line-height:1}
+.tag-info-button{width:19px;height:19px;border-radius:4px;font-size:12px}
+.tag-edit-cell .tag-edit-button{min-height:19px;padding:1px 4px;font-size:9px;line-height:1}
+.tag-row>.tag-check{width:12px;height:12px}
+@media(max-width:720px){
+  .tag-row{min-height:24px;height:24px}
+  .tag-row>*{padding:1px 4px}
+  .tag-row .tag-english{font-size:10px}
+  .tag-row .tag-japanese{font-size:9px}
+  .tag-cell{font-size:8px}
+  .tag-vote-cell,.tag-edit-cell,.tag-info-cell{padding:1px!important}
+  .tag-vote-cell .vote-button{min-width:13px;min-height:16px;font-size:9px}
+  .tag-info-button{width:17px;height:17px;font-size:11px}
+  .tag-edit-cell .tag-edit-button{min-height:17px;padding:1px 3px;font-size:8px}
+}
