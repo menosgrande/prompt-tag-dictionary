@@ -1258,6 +1258,7 @@
   }
 
   function wire() {
+    document.querySelectorAll("[data-screen]").forEach(button => button.addEventListener("click", () => switchScreen(button.dataset.screen)));
     const presets = {
       portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
       landscape: ["landscape", "scenery", "sky", "clouds", "wide shot"],
