@@ -274,6 +274,13 @@
       category, aliases, explanation: String(item.explanation ?? item.description ?? ""),
       related: Array.isArray(item.related) ? item.related : [],
       preview: String(item.preview ?? item.image ?? ""),
+      rating: String(item.rating ?? item.nsfwLevel ?? ""),
+      proposedRating: String(item.proposedRating ?? ""),
+      ratingReviewStatus: String(item.ratingReviewStatus ?? ""),
+      ratingReason: String(item.ratingReason ?? ""),
+      nsfw: typeof item.nsfw === "boolean" ? item.nsfw : null,
+      usage: String(item.usage ?? item.use ?? ""),
+      examples: Array.isArray(item.examples) ? item.examples.map(String) : [],
       source: sources[0] || UNKNOWN_SOURCE, sources
     };
   }
@@ -446,6 +453,64 @@
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
     renderSelectedDock();
+  }
+  function openTagInfo(t) {
+    const dialog = $("#tag-info-dialog");
+    const set = (id, value) => { const el = $("#" + id); if (el) el.textContent = value || "未登録"; };
+    set("tag-info-name", t.tag);
+    set("tag-info-ja", t.ja || "—");
+    set("tag-info-category", [majorOf(t), minorOf(t), detailOf(t)].filter(v => v && v !== "—").join(" › "));
+    const rating = String(t.rating || t.proposedRating || "");
+    const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
+    set("tag-info-rating", ratingLabels[rating] || (t.nsfw === true ? "要判定（NSFW候補）" : t.nsfw === false ? "LV.1候補（未確認）" : "未判定"));
+    set("tag-info-rating-status", t.ratingReviewStatus === "verified" ? "確認済み" : "未確認");
+    set("tag-info-meaning", t.explanation || "説明はまだ登録されていません。");
+    set("tag-info-usage", t.usage || "用法はまだ登録されていません。");
+    set("tag-info-examples", (t.examples || []).join(" / ") || "使用例はまだ登録されていません。");
+    set("tag-info-source", (t.sources || []).join("、") || "出典情報なし");
+    openDialog("tag-info-dialog");
+  }
+  function initColumnResizing() {
+    const panel = $("#results-panel");
+    const head = panel?.querySelector(".table-head");
+    if (!panel || !head) return;
+    const key = "ptd.tagColumns.v1";
+    const defaults = [36, 190, 160, 120, 120, 120, 76, 48, 48, 48, 58, 42];
+    let widths = defaults.slice();
+    try {
+      const saved = JSON.parse(localStorage.getItem(key) || "null");
+      if (Array.isArray(saved) && saved.length === defaults.length) widths = saved.map((v, i) => Math.max(32, Math.min(520, Number(v) || defaults[i])));
+    } catch {}
+    const apply = () => {
+      const template = widths.map((w, i) => (i === 0 || i >= 6 ? w + "px" : "minmax(70px," + w + "px)")).join(" ");
+      panel.style.setProperty("--tag-list-columns", template);
+    };
+    apply();
+    head.querySelectorAll(".column-resize").forEach(handle => {
+      handle.addEventListener("pointerdown", event => {
+        event.preventDefault(); event.stopPropagation();
+        const index = Number(handle.dataset.columnIndex);
+        const startX = event.clientX, startWidth = widths[index];
+        handle.setPointerCapture?.(event.pointerId);
+        const move = e => {
+          widths[index] = Math.max(index === 0 ? 30 : 48, Math.min(520, startWidth + e.clientX - startX));
+          apply();
+        };
+        const finish = () => {
+          document.removeEventListener("pointermove", move);
+          document.removeEventListener("pointerup", finish);
+          try { localStorage.setItem(key, JSON.stringify(widths)); } catch {}
+        };
+        document.addEventListener("pointermove", move);
+        document.addEventListener("pointerup", finish, { once: true });
+      });
+      handle.addEventListener("dblclick", event => {
+        event.preventDefault(); event.stopPropagation();
+        widths[Number(handle.dataset.columnIndex)] = defaults[Number(handle.dataset.columnIndex)];
+        apply();
+        try { localStorage.setItem(key, JSON.stringify(widths)); } catch {}
+      });
+    });
   }
   function renderSelectedDock() {
     const dock = $("#selected-dock");
@@ -862,6 +927,7 @@
       check.checked = state.selected.has(norm(t.tag));
       check.setAttribute("aria-label", (check.checked ? "選択解除 " : "選択 ") + t.tag);
       check.addEventListener("change", () => toggleSelected(t));
+
       const english = document.createElement("span"); english.className = "tag-english";
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
       if (parentIndex !== undefined) {
@@ -877,25 +943,36 @@
         marker.textContent = lastPrefixChild.has(index) ? "└─" : "├─";
         marker.setAttribute("aria-hidden", "true");
         tagLabel.append(marker);
-      } else {
-        english.textContent = t.tag;
-      }
+      } else english.textContent = t.tag;
       english.title = t.tag;
       english.setAttribute("aria-label", t.tag);
-      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      japanese.title = t.ja || "";
       tagLabel.append(english);
-      const japaneseWrap = document.createElement("div"); japaneseWrap.className = "tag-japanese-wrap";
-      japaneseWrap.append(japanese);
-      const categoryWrap = document.createElement("div"); categoryWrap.className = "tag-category-wrap";
-      const categoryTrail = document.createElement("span");
-      categoryTrail.className = "tag-category tag-category-trail";
+
+      const japanese = document.createElement("span");
+      japanese.className = "tag-japanese";
+      japanese.textContent = t.ja || "—";
+      japanese.title = t.ja || "";
+
+      const makeCell = (className, value, title = "") => {
+        const cell = document.createElement("div");
+        cell.className = className;
+        cell.textContent = value || "—";
+        if (title) cell.title = title;
+        return cell;
+      };
+      const majorCell = makeCell("tag-cell tag-major", majorOf(t));
+      const minorCell = makeCell("tag-cell tag-minor", minorOf(t));
+      const detailCell = makeCell("tag-cell tag-detail", detailOf(t) === "—" ? "未設定" : detailOf(t));
       const classification = classificationOf(t);
-      categoryTrail.textContent = [majorOf(t), minorOf(t) !== "未分類" ? minorOf(t) : "", detailOf(t) !== "—" ? detailOf(t) : ""].filter(Boolean).join(" › ");
-      if (classification?.status === "provisional") categoryTrail.textContent += " · 暫定";
-      else if (classification?.status === "needs-review") categoryTrail.textContent = "未分類 · 要確認";
-      categoryTrail.title = classification?.status === "provisional" ? "新分類のAI候補。確定済みではありません。" : classification?.status === "needs-review" ? "分類を確定できないため要確認です。" : categoryTrail.textContent;
-      categoryWrap.append(categoryTrail);
+      if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
+      else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
+
+      const rating = String(t.rating || t.proposedRating || "");
+      const ratingLabels = { "全年齢":"LV.1", "R-13":"LV.2", "R-15":"LV.3", "R-18":"LV.4", "LV.1":"LV.1", "LV.2":"LV.2", "LV.3":"LV.3", "LV.4":"LV.4" };
+      const ratingText = ratingLabels[rating] || (t.nsfw === true ? "要判定" : t.nsfw === false ? "LV.1?" : "未判定");
+      const ratingCell = makeCell("tag-cell tag-rating", ratingText, t.ratingReviewStatus === "verified" ? "確認済み" : "NSFWレベル未確認");
+      if (t.ratingReviewStatus !== "verified" && ratingText !== "未判定") ratingCell.classList.add("is-provisional");
+
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
         const group = document.createElement("span");
@@ -916,17 +993,27 @@
         });
         target.append(group);
       }
-      appendVotes(tagLabel, "タグ " + t.tag, "tag");
-      appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
-      appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
-      row.append(check, tagLabel, japaneseWrap, categoryWrap);
+      const tagVote = document.createElement("div"); tagVote.className = "tag-vote-cell";
+      const translationVote = document.createElement("div"); translationVote.className = "tag-vote-cell";
+      const categoryVote = document.createElement("div"); categoryVote.className = "tag-vote-cell";
+      appendVotes(tagVote, "タグ " + t.tag, "tag");
+      appendVotes(translationVote, "日本語訳 " + (t.ja || "訳なし"), "translation");
+      appendVotes(categoryVote, "分類 " + categoryText(t), "category");
+
+      const editCell = document.createElement("div"); editCell.className = "tag-edit-cell";
       if (state.editMode) {
         const edit = makeButton("修正", "tag-edit-button", () => openTagEditor(t));
         edit.setAttribute("aria-label", "タグを修正: " + t.tag);
         edit.title = "このタグの日本語訳・分類などを修正";
-        row.append(edit);
+        editCell.append(edit);
       }
-      row.title = t.explanation || t.tag;
+      const info = makeButton("ⓘ", "tag-info-button", () => openTagInfo(t));
+      info.setAttribute("aria-label", t.tag + "の意味・用法・NSFW情報");
+      info.title = "意味・用法・分類・NSFWレベルを確認";
+      const infoCell = document.createElement("div"); infoCell.className = "tag-info-cell"; infoCell.append(info);
+
+      row.append(check, tagLabel, japanese, majorCell, minorCell, detailCell, ratingCell, tagVote, translationVote, categoryVote, editCell, infoCell);
+      row.title = t.tag;
       root.append(row);
     });
     $("#page-summary").textContent = all.length
@@ -1414,6 +1501,7 @@
     $("#edit-cancel").addEventListener("click", () => closeDialog("tag-edit-dialog"));
     $("#edit-save").addEventListener("click", saveTagEdit);
     $("#export-edited-tags").addEventListener("click", exportEditedTags);
+    $("#tag-info-close").addEventListener("click", () => closeDialog("tag-info-dialog"));
     $("#data-note-close").addEventListener("click", () => closeDialog("data-note-dialog"));
     $("#show-data-note").addEventListener("click", () => openDialog("data-note-dialog"));
   }
@@ -1424,7 +1512,7 @@
       $("#admin-mode-banner").hidden = false;
       document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
     }
-    wire(); populateCustomCategories();
+    wire(); initColumnResizing(); populateCustomCategories();
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
     try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
     try { await seedTaxonomy(); } catch { tagTaxonomy = null; classificationCandidates = new Map(); }
