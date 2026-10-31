@@ -67,6 +67,16 @@
       </div>
     </aside>
   </section>
+  <aside id="selected-dock" class="selected-dock" aria-label="選択中のタグ" hidden>
+    <div class="selected-dock-content">
+      <strong id="selected-dock-count">選択中 0件</strong>
+      <div id="selected-dock-tags" class="selected-dock-tags"></div>
+    </div>
+    <div class="selected-dock-actions">
+      <button id="selected-dock-copy" class="button button-primary" type="button" disabled>ポジティブをコピー</button>
+      <button id="selected-dock-editor" class="button button-quiet" type="button">編集へ</button>
+    </div>
+  </aside>
   <footer class="footer"><span>Prompt Tag Dictionary · 初期開発版</span><button id="show-data-note" class="text-button">データについて</button></footer>
 </main>
 <dialog id="import-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
