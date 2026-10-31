@@ -67,7 +67,7 @@
 ## 4. タグデータの整理
 
 - [x] 新しい9意味分類と独立したnegative出力ビューの正規定義を作成（`data/tag-taxonomy.json`）
-- [x] 旧分類から新分類への移行候補を作成（5,751 provisional / 140 needs-review / 5,138 unclassified。タグ本体へは未反映）
+- [x] 旧分類から新分類への移行候補を作成（5,755 provisional / 136 needs-review / 5,138 unclassified。タグ本体へは未反映）
 - [ ] provisional 5,750件の精度監査と人手確認
 - [ ] 新分類の小分類・タグ属性を全件へ適用し、要確認を分離
 
