@@ -7,10 +7,12 @@
     "excludedBases": [
       "hour",
       "male underwear",
-      "male swimwear"
+      "male swimwear",
+      "bow",
+      "scales"
     ]
   },
-  "groupCount": 118,
+  "groupCount": 116,
   "groups": [
     {
       "id": "apron",
@@ -712,71 +714,6 @@
         },
         {
           "tag": "purple border",
-          "color": "purple"
-        }
-      ]
-    },
-    {
-      "id": "bow",
-      "ja": "リボン結び",
-      "baseTag": "bow",
-      "members": [
-        "bow",
-        "black bow",
-        "white bow",
-        "grey bow",
-        "red bow",
-        "pink bow",
-        "orange bow",
-        "yellow bow",
-        "brown bow",
-        "green bow",
-        "blue bow",
-        "purple bow"
-      ],
-      "options": [
-        {
-          "tag": "black bow",
-          "color": "black"
-        },
-        {
-          "tag": "white bow",
-          "color": "white"
-        },
-        {
-          "tag": "grey bow",
-          "color": "grey"
-        },
-        {
-          "tag": "red bow",
-          "color": "red"
-        },
-        {
-          "tag": "pink bow",
-          "color": "pink"
-        },
-        {
-          "tag": "orange bow",
-          "color": "orange"
-        },
-        {
-          "tag": "yellow bow",
-          "color": "yellow"
-        },
-        {
-          "tag": "brown bow",
-          "color": "brown"
-        },
-        {
-          "tag": "green bow",
-          "color": "green"
-        },
-        {
-          "tag": "blue bow",
-          "color": "blue"
-        },
-        {
-          "tag": "purple bow",
           "color": "purple"
         }
       ]
@@ -3281,7 +3218,7 @@
     },
     {
       "id": "outline",
-      "ja": "概要",
+      "ja": "輪郭線",
       "baseTag": "outline",
       "members": [
         "outline",
@@ -3915,31 +3852,6 @@
         {
           "tag": "purple sash",
           "color": "purple"
-        }
-      ]
-    },
-    {
-      "id": "scales",
-      "ja": "鱗",
-      "baseTag": "scales",
-      "members": [
-        "scales",
-        "black scales",
-        "white scales",
-        "red scales"
-      ],
-      "options": [
-        {
-          "tag": "black scales",
-          "color": "black"
-        },
-        {
-          "tag": "white scales",
-          "color": "white"
-        },
-        {
-          "tag": "red scales",
-          "color": "red"
         }
       ]
     },
