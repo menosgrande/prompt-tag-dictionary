@@ -14,7 +14,7 @@ const colors = [
   "blonde", "blond", "dark red", "light red", "dark blue", "light blue",
   "dark green", "light green", "dark brown", "light brown", "dark pink", "light pink"
 ];
-const excludedBases = new Set(["hour", "male underwear", "male swimwear"]);
+const excludedBases = new Set(["hour", "male underwear", "male swimwear", "bow", "scales"]);
 const colorPattern = new RegExp("^(" + colors.slice().sort((a,b)=>b.length-a.length).join("|") + ") (.+)$", "i");
 const byBase = new Map();
 
@@ -35,14 +35,14 @@ const specialJapanese = {
   hair:"髪色", eyes:"目の色", background:"背景色", footwear:"履物の色",
   fur:"毛色", hands:"手の色", nails:"爪の色", sclera:"強膜の色",
   skin:"肌の色", sleeves:"袖の色", theme:"色調", gemstone:"宝石の色",
-  pupils:"瞳孔の色", trim:"縁取りの色"
+  pupils:"瞳孔の色", trim:"縁取りの色", outline:"輪郭線"
 };
 const groups = [...byBase]
   .filter(([,items]) => new Set(items.map(item=>item.color)).size >= 2)
   .map(([base,items]) => {
     const options = items.sort((a,b)=>(colorOrder.get(a.color)??999)-(colorOrder.get(b.color)??999)||a.tag.localeCompare(b.tag));
     const baseRow = tagMap.get(base);
-    const ja = baseRow?.[1] || specialJapanese[base] || "色違いを選択";
+    const ja = specialJapanese[base] || baseRow?.[1] || "色違いを選択";
     return {
       id:base,
       ja,
