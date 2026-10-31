@@ -10,7 +10,7 @@ const DIRECT = {
   "人物": {
     "人数":"person/people-count","性別・体形":"person/body-shape","年齢":"person/people-count",
     "頭髪":"person/hair-head","顔・表情":"person/face-expression","目":"person/eyes",
-    "胸":"person/body-parts","身体・部位":"person/body-parts","種族・役割":"person/species-role"
+    "胸":"person/body-parts","身体・部位":"person/body-parts","種族・役割":"person/species-role","作者・配信者":"person/creators"
   },
   "作品・キャラクター": {
     "作品名・シリーズ":"person/works-series","キャラクター":"person/characters","作者・配信者":"person/creators"
