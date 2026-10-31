@@ -62896,6 +62896,66 @@
       },
       "reason": "英語タグを原文とした再翻訳差分を反映。AIによる一次確認であり、人手の最終確認は未実施。",
       "source": null
+    },
+    {
+      "tag": "ace attorney",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "エース弁護士"
+      },
+      "after": {
+        "ja": "逆転裁判"
+      },
+      "reason": "カプコン公式ストアの日本語シリーズ表記に合わせて修正。人手の最終確認待ち。",
+      "source": "https://store.captown.capcom.com/collections/ace-attorney"
+    },
+    {
+      "tag": "adventurer (ff11)",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "アバター（FF11）"
+      },
+      "after": {
+        "ja": "冒険者（FF11）"
+      },
+      "reason": "FF11用語辞典の「冒険者／Adventurer」の説明に合わせて修正。人手の最終確認待ち。",
+      "source": "https://wiki.ffo.jp/html/139.html"
+    },
+    {
+      "tag": "caressing testicles",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "愛sist丸"
+      },
+      "after": {
+        "ja": "睾丸を愛撫"
+      },
+      "reason": "英語タグの意味に沿って直訳誤りを修正。人手の最終確認待ち。",
+      "source": null
+    },
+    {
+      "tag": "tamamo no mae (fate/extra)",
+      "changedAt": "2026-10-31",
+      "fields": [
+        "ja"
+      ],
+      "before": {
+        "ja": "Tamamo no Mae（運命/エクストラ）"
+      },
+      "after": {
+        "ja": "玉藻の前（Fate/EXTRA）"
+      },
+      "reason": "Fate公式サイトの日本語キャラクター表記に合わせて修正。人手の最終確認待ち。",
+      "source": "https://fate-extella.jp/character/tamamonomae.html"
     }
   ]
 }
