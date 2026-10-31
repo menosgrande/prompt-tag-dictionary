@@ -96,6 +96,7 @@
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
+  let nsfwAudit = new Map();
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, expandedWorkGroups: new Set(), editMode: ADMIN_MODE, editingTag: null };
   const outputHistory = { undo: [], redo: [], last: { positive: "", negative: "" } };
 
@@ -274,6 +275,13 @@
       category, aliases, explanation: String(item.explanation ?? item.description ?? ""),
       related: Array.isArray(item.related) ? item.related : [],
       preview: String(item.preview ?? item.image ?? ""),
+      rating: String(item.rating ?? item.nsfwLevel ?? ""),
+      proposedRating: String(item.proposedRating ?? ""),
+      ratingReviewStatus: String(item.ratingReviewStatus ?? ""),
+      ratingReason: String(item.ratingReason ?? ""),
+      nsfw: typeof item.nsfw === "boolean" ? item.nsfw : null,
+      usage: String(item.usage ?? item.use ?? ""),
+      examples: Array.isArray(item.examples) ? item.examples.map(String) : [],
       source: sources[0] || UNKNOWN_SOURCE, sources
     };
   }
@@ -368,6 +376,15 @@
       return r.json();
     }).then(data => Array.isArray(data) ? data : []);
   }
+  function seedNsfwAudit() {
+    return fetch("./data/nsfw-prompt-tag-audit.json").then(r => {
+      if (!r.ok) throw new Error("NSFW audit data missing");
+      return r.json();
+    }).then(data => {
+      const rows = Array.isArray(data.candidates) ? data.candidates : [];
+      nsfwAudit = new Map(rows.filter(item => item && item.tag).map(item => [norm(item.tag), item]));
+    });
+  }
   function seedTaxonomy() {
     return Promise.all([
       fetch("./data/tag-taxonomy.json"),
@@ -430,7 +447,22 @@
     return "未分類";
   }
   function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
-  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
+  function detailOf(t) { return (t.category && t.category[2]) || "—"; }
+  function displayClassification(t) {
+    const candidate = classificationOf(t);
+    if (candidate?.status === "provisional" && candidate.categoryId) {
+      return {
+        major: taxonomyCategoryName(candidate.categoryId) || (t.category && t.category[0]) || "未分類",
+        minor: taxonomySubcategoryName(candidate.categoryId, candidate.subcategoryId) || (t.category && t.category[1]) || "未分類",
+        detail: (t.category && t.category[2]) || "—"
+      };
+    }
+    return {
+      major: (t.category && t.category[0]) || "未分類",
+      minor: (t.category && t.category[1]) || "未分類",
+      detail: (t.category && t.category[2]) || "—"
+    };
+  }
   function categoryText(t) {
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
@@ -445,6 +477,127 @@
   function renderStats() {
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
+    renderSelectedDock();
+  }
+  function nsfwInfoOf(t) {
+    const audit = nsfwAudit.get(norm(t.tag)) || {};
+    return {
+      rating: String(t.rating || t.proposedRating || ""),
+      nsfw: typeof t.nsfw === "boolean" ? t.nsfw : typeof audit.nsfw === "boolean" ? audit.nsfw : null,
+      status: t.ratingReviewStatus || (audit.review_status === "確認済み" ? "verified" : "unverified"),
+      reason: t.ratingReason || audit.review || ""
+    };
+  }
+  function openTagInfo(t) {
+    const dialog = $("#tag-info-dialog");
+    const set = (id, value) => { const el = $("#" + id); if (el) el.textContent = value || "未登録"; };
+    set("tag-info-name", t.tag);
+    set("tag-info-ja", t.ja || "—");
+    const displayed = displayClassification(t);
+    set("tag-info-category", [displayed.major, displayed.minor, displayed.detail].filter(v => v && v !== "—").join(" › "));
+    const nsfw = nsfwInfoOf(t);
+    const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
+    set("tag-info-rating", ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補（レベル未判定）" : nsfw.nsfw === false ? "全年齢候補（未確認）" : "未判定"));
+    set("tag-info-rating-status", nsfw.status === "verified" ? "確認済み" : "未確認");
+    set("tag-info-rating-reason", nsfw.reason || "判定根拠はまだ登録されていません。");
+    set("tag-info-meaning", t.explanation || "説明はまだ登録されていません。");
+    set("tag-info-usage", t.usage || "用法はまだ登録されていません。");
+    set("tag-info-examples", (t.examples || []).join(" / ") || "使用例はまだ登録されていません。");
+    set("tag-info-source", (t.sources || []).join("、") || "出典情報なし");
+    openDialog("tag-info-dialog");
+  }
+  function initColumnResizing() {
+    const panel = $("#results-panel");
+    const head = panel?.querySelector(".table-head");
+    if (!panel || !head) return;
+    const key = "ptd.tagColumns.v1";
+    const defaults = [36, 190, 160, 120, 120, 120, 76, 64, 64, 64, 58, 42];
+    let widths = defaults.slice();
+    try {
+      const saved = JSON.parse(localStorage.getItem(key) || "null");
+      if (Array.isArray(saved) && saved.length === defaults.length) widths = saved.map((v, i) => Math.max(32, Math.min(520, Number(v) || defaults[i])));
+    } catch {}
+    const results = $("#tag-results");
+    const save = () => { try { localStorage.setItem(key, JSON.stringify(widths)); } catch {} };
+    const apply = () => {
+      const template = widths.map((w, i) => (i === 0 || i >= 6 ? w + "px" : "minmax(70px," + w + "px)")).join(" ");
+      panel.style.setProperty("--tag-list-columns", template);
+      head.querySelectorAll(".column-resize").forEach(handle => {
+        const index = Number(handle.dataset.columnIndex);
+        handle.setAttribute("aria-valuemin", String(index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48));
+        handle.setAttribute("aria-valuemax", "520");
+        handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
+      });
+    };
+    // The header sits outside the scrollable rows; mirror horizontal scrolling.
+    if (results) results.addEventListener("scroll", () => {
+      head.style.transform = "translateX(" + (-results.scrollLeft) + "px)";
+    }, { passive: true });
+    apply();
+    head.querySelectorAll(".column-resize").forEach(handle => {
+      const index = Number(handle.dataset.columnIndex);
+      const min = index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48;
+      const resizeTo = value => {
+        widths[index] = Math.max(min, Math.min(520, value));
+        apply(); save();
+      };
+      handle.addEventListener("keydown", event => {
+        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+          event.preventDefault();
+          resizeTo(widths[index] + (event.key === "ArrowRight" ? 10 : -10));
+        } else if (event.key === "Home") {
+          event.preventDefault(); resizeTo(defaults[index]);
+        }
+      });
+      handle.addEventListener("pointerdown", event => {
+        event.preventDefault(); event.stopPropagation();
+        const startX = event.clientX, startWidth = widths[index];
+        const move = e => {
+          widths[index] = Math.max(min, Math.min(520, startWidth + e.clientX - startX));
+          apply();
+        };
+        const finish = () => {
+          document.removeEventListener("pointermove", move);
+          document.removeEventListener("pointerup", finish);
+          document.removeEventListener("pointercancel", finish);
+          save();
+        };
+        document.addEventListener("pointermove", move);
+        document.addEventListener("pointerup", finish, { once: true });
+        document.addEventListener("pointercancel", finish, { once: true });
+      });
+      handle.addEventListener("dblclick", event => {
+        event.preventDefault(); event.stopPropagation();
+        resizeTo(defaults[index]);
+      });
+    });
+  }
+  function renderSelectedDock() {
+    const dock = $("#selected-dock");
+    const root = $("#selected-dock-tags");
+    if (!dock || !root) return;
+    const items = state.tags.filter(t => state.selected.has(norm(t.tag)));
+    dock.hidden = items.length === 0;
+    $("#selected-dock-count").textContent = "選択中 " + items.length.toLocaleString("ja-JP") + "件";
+    root.replaceChildren();
+    items.slice(0, 12).forEach(t => {
+      const chip = document.createElement("span");
+      chip.className = "selected-dock-chip";
+      const label = document.createElement("span");
+      label.textContent = t.tag;
+      const remove = makeButton("×", "selected-dock-remove", () => toggleSelected(t));
+      remove.setAttribute("aria-label", t.tag + "を選択解除");
+      chip.append(label, remove);
+      root.append(chip);
+    });
+    if (items.length > 12) {
+      const more = document.createElement("span");
+      more.className = "selected-dock-more";
+      more.textContent = "ほか " + (items.length - 12).toLocaleString("ja-JP") + "件";
+      root.append(more);
+    }
+    const copy = $("#selected-dock-copy");
+    if (copy) copy.disabled = !$("#prompt-output").value.trim();
   }
   function categoryCounts() {
     const counts = new Map();
@@ -834,6 +987,7 @@
       check.checked = state.selected.has(norm(t.tag));
       check.setAttribute("aria-label", (check.checked ? "選択解除 " : "選択 ") + t.tag);
       check.addEventListener("change", () => toggleSelected(t));
+
       const english = document.createElement("span"); english.className = "tag-english";
       const tagLabel = document.createElement("div"); tagLabel.className = "tag-label-wrap";
       if (parentIndex !== undefined) {
@@ -849,25 +1003,39 @@
         marker.textContent = lastPrefixChild.has(index) ? "└─" : "├─";
         marker.setAttribute("aria-hidden", "true");
         tagLabel.append(marker);
-      } else {
-        english.textContent = t.tag;
-      }
+      } else english.textContent = t.tag;
       english.title = t.tag;
       english.setAttribute("aria-label", t.tag);
-      const japanese = document.createElement("span"); japanese.className = "tag-japanese"; japanese.textContent = t.ja || "—";
-      japanese.title = t.ja || "";
       tagLabel.append(english);
-      const japaneseWrap = document.createElement("div"); japaneseWrap.className = "tag-japanese-wrap";
-      japaneseWrap.append(japanese);
-      const categoryWrap = document.createElement("div"); categoryWrap.className = "tag-category-wrap";
-      const categoryTrail = document.createElement("span");
-      categoryTrail.className = "tag-category tag-category-trail";
+
+      const japanese = document.createElement("span");
+      japanese.className = "tag-japanese";
+      japanese.textContent = t.ja || "—";
+      japanese.title = t.ja || "";
+
+      const makeCell = (className, value, title = "") => {
+        const cell = document.createElement("div");
+        cell.className = className;
+        cell.textContent = value || "—";
+        if (title) cell.title = title;
+        return cell;
+      };
+      const displayed = displayClassification(t);
       const classification = classificationOf(t);
-      categoryTrail.textContent = [majorOf(t), minorOf(t) !== "未分類" ? minorOf(t) : "", detailOf(t) !== "—" ? detailOf(t) : ""].filter(Boolean).join(" › ");
-      if (classification?.status === "provisional") categoryTrail.textContent += " · 暫定";
-      else if (classification?.status === "needs-review") categoryTrail.textContent = "未分類 · 要確認";
-      categoryTrail.title = classification?.status === "provisional" ? "新分類のAI候補。確定済みではありません。" : classification?.status === "needs-review" ? "分類を確定できないため要確認です。" : categoryTrail.textContent;
-      categoryWrap.append(categoryTrail);
+      const majorCell = makeCell("tag-cell tag-major", displayed.major + (classification?.status === "provisional" ? " · 暫定" : classification?.status === "needs-review" ? " · 要確認" : ""));
+      if (classification?.status === "provisional") majorCell.title = "新分類のAI候補。確定済みではありません。";
+      else if (classification?.status === "needs-review") majorCell.title = "分類を確定できないため要確認です。";
+      const minorCell = makeCell("tag-cell tag-minor", displayed.minor);
+      const detailCell = makeCell("tag-cell tag-detail", displayed.detail === "—" ? "未設定" : displayed.detail);
+      if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
+      else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
+
+      const nsfw = nsfwInfoOf(t);
+      const ratingLabels = { "全年齢":"LV.1", "R-13":"LV.2", "R-15":"LV.3", "R-18":"LV.4", "LV.1":"LV.1", "LV.2":"LV.2", "LV.3":"LV.3", "LV.4":"LV.4" };
+      const ratingText = ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補" : nsfw.nsfw === false ? "全年齢候補" : "未判定");
+      const ratingCell = makeCell("tag-cell tag-rating", ratingText, nsfw.status === "verified" ? "確認済み" : "未確認。詳細で判定根拠を確認できます。");
+      if (nsfw.status !== "verified" && ratingText !== "未判定") ratingCell.classList.add("is-provisional");
+
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
         const group = document.createElement("span");
@@ -888,17 +1056,27 @@
         });
         target.append(group);
       }
-      appendVotes(tagLabel, "タグ " + t.tag, "tag");
-      appendVotes(japaneseWrap, "日本語訳 " + (t.ja || "訳なし"), "translation");
-      appendVotes(categoryWrap, "分類 " + minorOf(t), "category");
-      row.append(check, tagLabel, japaneseWrap, categoryWrap);
+      const tagVote = document.createElement("div"); tagVote.className = "tag-vote-cell";
+      const translationVote = document.createElement("div"); translationVote.className = "tag-vote-cell";
+      const categoryVote = document.createElement("div"); categoryVote.className = "tag-vote-cell";
+      appendVotes(tagVote, "タグ " + t.tag, "tag");
+      appendVotes(translationVote, "日本語訳 " + (t.ja || "訳なし"), "translation");
+      appendVotes(categoryVote, "分類 " + categoryText(t), "category");
+
+      const editCell = document.createElement("div"); editCell.className = "tag-edit-cell";
       if (state.editMode) {
         const edit = makeButton("修正", "tag-edit-button", () => openTagEditor(t));
         edit.setAttribute("aria-label", "タグを修正: " + t.tag);
         edit.title = "このタグの日本語訳・分類などを修正";
-        row.append(edit);
+        editCell.append(edit);
       }
-      row.title = t.explanation || t.tag;
+      const info = makeButton("ⓘ", "tag-info-button", () => openTagInfo(t));
+      info.setAttribute("aria-label", t.tag + "の意味・用法・NSFW情報");
+      info.title = "意味・用法・分類・NSFWレベルを確認";
+      const infoCell = document.createElement("div"); infoCell.className = "tag-info-cell"; infoCell.append(info);
+
+      row.append(check, tagLabel, japanese, majorCell, minorCell, detailCell, ratingCell, tagVote, translationVote, categoryVote, editCell, infoCell);
+      row.title = t.tag;
       root.append(row);
     });
     $("#page-summary").textContent = all.length
@@ -996,6 +1174,7 @@
     $("#output-count").textContent = (positive.count + negative.count) + " tags";
     $("#copy-output").disabled = !positive.value.trim(); $("#download-output").disabled = !positive.value.trim();
     $("#copy-negative-output").disabled = !negative.value.trim(); $("#download-negative-output").disabled = !negative.value.trim();
+    renderSelectedDock();
   }
   function updateOutputHistoryButtons() {
     $("#output-undo").disabled = outputHistory.undo.length === 0;
@@ -1374,6 +1553,8 @@
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", () => copyOutput("positive")); $("#download-output").addEventListener("click", () => downloadText("positive"));
     $("#copy-negative-output").addEventListener("click", () => copyOutput("negative")); $("#download-negative-output").addEventListener("click", () => downloadText("negative"));
+    $("#selected-dock-copy").addEventListener("click", () => copyOutput("positive"));
+    $("#selected-dock-editor").addEventListener("click", () => switchScreen("editor"));
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
     $("#import-cancel").addEventListener("click", () => closeDialog("import-dialog"));
     $("#import-run").addEventListener("click", importFiles);
@@ -1383,6 +1564,7 @@
     $("#edit-cancel").addEventListener("click", () => closeDialog("tag-edit-dialog"));
     $("#edit-save").addEventListener("click", saveTagEdit);
     $("#export-edited-tags").addEventListener("click", exportEditedTags);
+    $("#tag-info-close").addEventListener("click", () => closeDialog("tag-info-dialog"));
     $("#data-note-close").addEventListener("click", () => closeDialog("data-note-dialog"));
     $("#show-data-note").addEventListener("click", () => openDialog("data-note-dialog"));
   }
@@ -1393,8 +1575,9 @@
       $("#admin-mode-banner").hidden = false;
       document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
     }
-    wire(); populateCustomCategories();
+    wire(); initColumnResizing(); populateCustomCategories();
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
+    try { await seedNsfwAudit(); } catch { nsfwAudit = new Map(); }
     try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
     try { await seedTaxonomy(); } catch { tagTaxonomy = null; classificationCandidates = new Map(); }
     let saved = null;
