@@ -617,3 +617,83 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .builder-panel .output-stack .output-actions{padding-bottom:2px}
 @media(max-width:1100px){.builder-panel .output-stack{grid-column:2}.builder-panel .output-stack textarea{min-height:120px}}
 @media(max-width:720px){.builder-panel .output-stack{width:100%}.builder-panel .output-stack textarea{margin-inline:9px;min-height:110px}.builder-panel .output-stack #negative-output{min-height:100px}}
+
+
+/* In-app two-screen workspace: dictionary and prompt editor share the same state. */
+.screen-nav{
+  display:flex;
+  gap:6px;
+  margin:0 0 18px;
+  padding:4px;
+  width:max-content;
+  max-width:100%;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--surface);
+}
+.screen-tab{
+  min-height:36px;
+  padding:7px 18px;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:700;
+}
+.screen-tab:hover{background:var(--surface2);color:var(--text)}
+.screen-tab.active{background:var(--accent);color:var(--accent-ink)}
+.app-screen[hidden]{display:none!important}
+.editor-screen{min-width:0}
+.editor-builder-panel{
+  width:100%;
+  min-height:calc(100vh - 210px);
+  max-width:none;
+  display:flex;
+  flex-direction:column;
+}
+.editor-builder-panel .panel-heading{position:sticky;top:0;z-index:2;background:var(--surface)}
+.editor-builder-panel .preview-add-row{max-width:760px}
+.editor-builder-panel .preview-help{max-width:760px}
+.editor-builder-panel .builder-controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px}
+.editor-builder-panel .builder-controls>.check-row{margin:0}
+.editor-builder-panel .builder-controls .control-grid{display:flex;gap:10px}
+.editor-builder-panel .category-includes{flex-basis:100%;max-height:none}
+.editor-builder-panel .output-stack{
+  display:flex;
+  flex-direction:column;
+  gap:0;
+  flex:1 1 auto;
+  min-height:0;
+  padding:8px 14px 14px;
+}
+.editor-builder-panel .output-header{padding:8px 0}
+.editor-builder-panel #prompt-output,
+.editor-builder-panel #negative-output{
+  width:100%;
+  min-width:0;
+  min-height:clamp(220px,42vh,560px);
+  margin:0;
+  resize:vertical;
+}
+.editor-builder-panel .output-actions{padding:8px 0 12px}
+.editor-builder-panel .negative-output-header{border-top:1px solid var(--line);margin-top:8px}
+.editor-builder-panel #copy-status{margin-top:8px}
+@media(max-width:720px){
+  .screen-nav{width:100%}
+  .screen-tab{flex:1;padding-inline:8px}
+  .editor-builder-panel .builder-controls{display:block}
+  .editor-builder-panel .builder-controls>.check-row{margin-bottom:9px}
+  .editor-builder-panel .builder-controls .control-grid{display:grid}
+  .editor-builder-panel .output-stack{display:flex;flex-direction:column;padding:6px 9px 12px}
+  .editor-builder-panel #prompt-output,
+  .editor-builder-panel #negative-output{min-height:180px}
+  .editor-builder-panel .output-header{padding-inline:0}
+}
+
+
+/* The dictionary workspace now has two panels; the prompt editor is a separate screen. */
+.workspace{display:grid;grid-template-columns:minmax(190px,240px) minmax(0,1fr);gap:14px}
+@media(max-width:1100px){.workspace{grid-template-columns:minmax(175px,205px) minmax(0,1fr)}}
+@media(max-width:720px){.workspace{display:flex;flex-direction:column;gap:10px}}
+.screen-nav{position:sticky;top:0;z-index:10;background:var(--bg)}
