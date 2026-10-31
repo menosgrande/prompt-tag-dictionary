@@ -724,7 +724,7 @@
     let list = state.tags.filter(t => {
       if (collapseColorVariants && colorVariantMemberKeys.has(norm(t.tag))) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
-      else if (state.category && state.category[0] === "品質・スコア" && !state.category[1]) { if (promptTargetOf(t) !== "negative" && majorOf(t) !== "品質・スコア") return false; }
+      else if (state.category && state.category[0] === "品質・スコア" && !state.category[1]) { if (promptOrderOf(t) !== "品質・スコア") return false; }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
