@@ -6,22 +6,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
 
 const KNOWN_MISTRANSLATIONS = new Map([
-  ["ace attorney", ["エース弁護士"]],
-  ["adventure time", ["冒険の時間"]],
-  ["adventurer (ff11)", ["アバター（FF11）"]],
-  ["after vaginal", ["膣の後"]],
-  ["battle axe", ["戦いx"]],
-  ["bb (fate/extra)", ["BB（運命/エクストラ）"]],
-  ["blue poison (arknights)", ["青い毒（arknights）"]],
-  ["boruto: naruto next generations", ["Boruto：NARUTO-次の世代"]],
-  ["breast envy", ["胸のen望"]],
-  ["caressing testicles", ["愛sist丸"]],
-  ["fate/extra", ["運命/エクストラ"]],
-  ["imizu (nitro unknown)", ["イミズ（ニトロ不明）"]],
-  ["tamamo no mae (fate/extra)", ["Tamamo no Mae（運命/エクストラ）"]],
-  ["yuuji (and)", ["ユウジ（そして）"]],
-  [":/", ["歪嘴"]],
-  [":|", ["平嘴"]]
+  ["imizu (nitro unknown)", ["イミズ（ニトロ不明）"]]
 ]);
 
 const SUSPICIOUS_PATTERNS = [
