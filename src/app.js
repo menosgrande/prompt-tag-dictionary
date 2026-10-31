@@ -742,7 +742,8 @@
       button.textContent = label + (state.columnSort?.key === key ? (state.columnSort.dir === 1 ? " ↑" : " ↓") : " ↕");
       button.setAttribute("aria-sort", state.columnSort?.key === key ? (state.columnSort.dir === 1 ? "ascending" : "descending") : "none");
     });
-    $("#results-title").textContent = state.query ? "検索結果" : state.category?.[0] === "__outputTarget" ? "ネガティブ" : state.category ? categoryText({ category: state.category }) : "タグ一覧";
+    const activeCategoryLabel = state.category ? (state.category[0] === "__outputTarget" ? "ネガティブ" : state.category.filter(Boolean).join(" › ")) : "";
+    $("#results-title").textContent = state.query ? "検索結果" : activeCategoryLabel || "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
