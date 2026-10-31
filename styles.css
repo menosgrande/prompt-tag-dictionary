@@ -820,7 +820,7 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 
 /* Special shared-prefix rows use the same 12-column table tracks. */
 .tag-group-row{
-  grid-template-columns:var(--tag-list-columns,36px 190px 160px 120px 120px 120px 76px 64px 64px 64px 58px 42px);
+  grid-template-columns:var(--tag-list-columns,36px 190px 160px 120px 120px 120px 76px 58px 42px);
   width:max-content;
   min-width:100%;
 }
