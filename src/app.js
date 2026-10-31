@@ -1240,6 +1240,23 @@
     a.href = url; a.download = negative ? "negative-prompt-tags.txt" : "positive-prompt-tags.txt"; a.click(); URL.revokeObjectURL(url);
   }
 
+  let activeScreen = "dictionary";
+  const screenScroll = { dictionary: 0, editor: 0 };
+  function switchScreen(next) {
+    if (!["dictionary", "editor"].includes(next) || next === activeScreen) return;
+    screenScroll[activeScreen] = window.scrollY;
+    activeScreen = next;
+    $("#dictionary-screen").hidden = next !== "dictionary";
+    $("#editor-screen").hidden = next !== "editor";
+    document.querySelectorAll("[data-screen]").forEach(button => {
+      const selected = button.dataset.screen === next;
+      button.classList.toggle("active", selected);
+      button.setAttribute("aria-pressed", String(selected));
+    });
+    document.body.dataset.activeScreen = next;
+    requestAnimationFrame(() => window.scrollTo(0, screenScroll[next] || 0));
+  }
+
   function wire() {
     const presets = {
       portrait: ["portrait", "upper body", "looking at viewer", "soft lighting", "smile"],
