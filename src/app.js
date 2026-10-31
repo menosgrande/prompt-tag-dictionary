@@ -445,6 +445,34 @@
   function renderStats() {
     $("#stat-total").textContent = state.tags.length.toLocaleString("ja-JP");
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
+    renderSelectedDock();
+  }
+  function renderSelectedDock() {
+    const dock = $("#selected-dock");
+    const root = $("#selected-dock-tags");
+    if (!dock || !root) return;
+    const items = state.tags.filter(t => state.selected.has(norm(t.tag)));
+    dock.hidden = items.length === 0;
+    $("#selected-dock-count").textContent = "選択中 " + items.length.toLocaleString("ja-JP") + "件";
+    root.replaceChildren();
+    items.slice(0, 12).forEach(t => {
+      const chip = document.createElement("span");
+      chip.className = "selected-dock-chip";
+      const label = document.createElement("span");
+      label.textContent = t.tag;
+      const remove = makeButton("×", "selected-dock-remove", () => toggleSelected(t));
+      remove.setAttribute("aria-label", t.tag + "を選択解除");
+      chip.append(label, remove);
+      root.append(chip);
+    });
+    if (items.length > 12) {
+      const more = document.createElement("span");
+      more.className = "selected-dock-more";
+      more.textContent = "ほか " + (items.length - 12).toLocaleString("ja-JP") + "件";
+      root.append(more);
+    }
+    const copy = $("#selected-dock-copy");
+    if (copy) copy.disabled = !$("#prompt-output").value.trim();
   }
   function categoryCounts() {
     const counts = new Map();
@@ -996,6 +1024,7 @@
     $("#output-count").textContent = (positive.count + negative.count) + " tags";
     $("#copy-output").disabled = !positive.value.trim(); $("#download-output").disabled = !positive.value.trim();
     $("#copy-negative-output").disabled = !negative.value.trim(); $("#download-negative-output").disabled = !negative.value.trim();
+    renderSelectedDock();
   }
   function updateOutputHistoryButtons() {
     $("#output-undo").disabled = outputHistory.undo.length === 0;
@@ -1374,6 +1403,8 @@
     ["group-by-category", "include-comments", "category-language", "comment-style"].forEach(id => $( "#" + id).addEventListener("change", () => { renderOutputCategories(); renderOutput(); }));
     $("#copy-output").addEventListener("click", () => copyOutput("positive")); $("#download-output").addEventListener("click", () => downloadText("positive"));
     $("#copy-negative-output").addEventListener("click", () => copyOutput("negative")); $("#download-negative-output").addEventListener("click", () => downloadText("negative"));
+    $("#selected-dock-copy").addEventListener("click", () => copyOutput("positive"));
+    $("#selected-dock-editor").addEventListener("click", () => switchScreen("editor"));
     $("#import-open").addEventListener("click", () => { setStatus("import-status", ""); openDialog("import-dialog"); });
     $("#import-cancel").addEventListener("click", () => closeDialog("import-dialog"));
     $("#import-run").addEventListener("click", importFiles);
