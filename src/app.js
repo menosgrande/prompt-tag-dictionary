@@ -437,7 +437,22 @@
     return "未分類";
   }
   function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
-  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
+  function detailOf(t) { return (t.category && t.category[2]) || "—"; }
+  function displayClassification(t) {
+    const candidate = classificationOf(t);
+    if (candidate?.status === "provisional" && candidate.categoryId) {
+      return {
+        major: taxonomyCategoryName(candidate.categoryId) || (t.category && t.category[0]) || "未分類",
+        minor: taxonomySubcategoryName(candidate.categoryId, candidate.subcategoryId) || (t.category && t.category[1]) || "未分類",
+        detail: (t.category && t.category[2]) || "—"
+      };
+    }
+    return {
+      major: (t.category && t.category[0]) || "未分類",
+      minor: (t.category && t.category[1]) || "未分類",
+      detail: (t.category && t.category[2]) || "—"
+    };
+  }
   function categoryText(t) {
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
@@ -459,7 +474,8 @@
     const set = (id, value) => { const el = $("#" + id); if (el) el.textContent = value || "未登録"; };
     set("tag-info-name", t.tag);
     set("tag-info-ja", t.ja || "—");
-    set("tag-info-category", [majorOf(t), minorOf(t), detailOf(t)].filter(v => v && v !== "—").join(" › "));
+    const displayed = displayClassification(t);
+    set("tag-info-category", [displayed.major, displayed.minor, displayed.detail].filter(v => v && v !== "—").join(" › "));
     const rating = String(t.rating || t.proposedRating || "");
     const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
     set("tag-info-rating", ratingLabels[rating] || (t.nsfw === true ? "要判定（NSFW候補）" : t.nsfw === false ? "LV.1候補（未確認）" : "未判定"));
@@ -960,9 +976,10 @@
         if (title) cell.title = title;
         return cell;
       };
-      const majorCell = makeCell("tag-cell tag-major", majorOf(t));
-      const minorCell = makeCell("tag-cell tag-minor", minorOf(t));
-      const detailCell = makeCell("tag-cell tag-detail", detailOf(t) === "—" ? "未設定" : detailOf(t));
+      const displayed = displayClassification(t);
+      const majorCell = makeCell("tag-cell tag-major", displayed.major);
+      const minorCell = makeCell("tag-cell tag-minor", displayed.minor);
+      const detailCell = makeCell("tag-cell tag-detail", displayed.detail === "—" ? "未設定" : displayed.detail);
       const classification = classificationOf(t);
       if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
