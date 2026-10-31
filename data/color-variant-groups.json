@@ -1,0 +1,5460 @@
+{
+  "schema": "color-variant-groups-v1",
+  "generatedFrom": "data/tags.json",
+  "rules": {
+    "minimumDistinctColors": 2,
+    "excludeParentheticalTags": true,
+    "excludedBases": [
+      "hour",
+      "male underwear",
+      "male swimwear"
+    ]
+  },
+  "groupCount": 118,
+  "groups": [
+    {
+      "id": "apron",
+      "ja": "エプロン",
+      "baseTag": "apron",
+      "members": [
+        "apron",
+        "black apron",
+        "white apron",
+        "grey apron",
+        "red apron",
+        "pink apron",
+        "orange apron",
+        "yellow apron",
+        "brown apron",
+        "green apron",
+        "blue apron",
+        "purple apron"
+      ],
+      "options": [
+        {
+          "tag": "black apron",
+          "color": "black"
+        },
+        {
+          "tag": "white apron",
+          "color": "white"
+        },
+        {
+          "tag": "grey apron",
+          "color": "grey"
+        },
+        {
+          "tag": "red apron",
+          "color": "red"
+        },
+        {
+          "tag": "pink apron",
+          "color": "pink"
+        },
+        {
+          "tag": "orange apron",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow apron",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown apron",
+          "color": "brown"
+        },
+        {
+          "tag": "green apron",
+          "color": "green"
+        },
+        {
+          "tag": "blue apron",
+          "color": "blue"
+        },
+        {
+          "tag": "purple apron",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "arm warmers",
+      "ja": "アームウォーマー",
+      "baseTag": "arm warmers",
+      "members": [
+        "arm warmers",
+        "black arm warmers",
+        "pink arm warmers"
+      ],
+      "options": [
+        {
+          "tag": "black arm warmers",
+          "color": "black"
+        },
+        {
+          "tag": "pink arm warmers",
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "id": "armband",
+      "ja": "腕章",
+      "baseTag": "armband",
+      "members": [
+        "armband",
+        "black armband",
+        "red armband",
+        "yellow armband",
+        "green armband",
+        "blue armband"
+      ],
+      "options": [
+        {
+          "tag": "black armband",
+          "color": "black"
+        },
+        {
+          "tag": "red armband",
+          "color": "red"
+        },
+        {
+          "tag": "yellow armband",
+          "color": "yellow"
+        },
+        {
+          "tag": "green armband",
+          "color": "green"
+        },
+        {
+          "tag": "blue armband",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "armor",
+      "ja": "鎧",
+      "baseTag": "armor",
+      "members": [
+        "armor",
+        "black armor",
+        "white armor",
+        "red armor",
+        "gold armor",
+        "green armor",
+        "blue armor",
+        "purple armor"
+      ],
+      "options": [
+        {
+          "tag": "black armor",
+          "color": "black"
+        },
+        {
+          "tag": "white armor",
+          "color": "white"
+        },
+        {
+          "tag": "red armor",
+          "color": "red"
+        },
+        {
+          "tag": "gold armor",
+          "color": "gold"
+        },
+        {
+          "tag": "green armor",
+          "color": "green"
+        },
+        {
+          "tag": "blue armor",
+          "color": "blue"
+        },
+        {
+          "tag": "purple armor",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "ascot",
+      "ja": "アスコットタイ",
+      "baseTag": "ascot",
+      "members": [
+        "ascot",
+        "black ascot",
+        "white ascot",
+        "grey ascot",
+        "red ascot",
+        "pink ascot",
+        "orange ascot",
+        "yellow ascot",
+        "brown ascot",
+        "green ascot",
+        "blue ascot",
+        "purple ascot"
+      ],
+      "options": [
+        {
+          "tag": "black ascot",
+          "color": "black"
+        },
+        {
+          "tag": "white ascot",
+          "color": "white"
+        },
+        {
+          "tag": "grey ascot",
+          "color": "grey"
+        },
+        {
+          "tag": "red ascot",
+          "color": "red"
+        },
+        {
+          "tag": "pink ascot",
+          "color": "pink"
+        },
+        {
+          "tag": "orange ascot",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow ascot",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown ascot",
+          "color": "brown"
+        },
+        {
+          "tag": "green ascot",
+          "color": "green"
+        },
+        {
+          "tag": "blue ascot",
+          "color": "blue"
+        },
+        {
+          "tag": "purple ascot",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "babydoll",
+      "ja": "ベビードール",
+      "baseTag": "babydoll",
+      "members": [
+        "babydoll",
+        "black babydoll",
+        "white babydoll"
+      ],
+      "options": [
+        {
+          "tag": "black babydoll",
+          "color": "black"
+        },
+        {
+          "tag": "white babydoll",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "ja": "背景色",
+      "baseTag": null,
+      "members": [
+        "black background",
+        "white background",
+        "grey background",
+        "red background",
+        "pink background",
+        "orange background",
+        "yellow background",
+        "brown background",
+        "green background",
+        "blue background",
+        "purple background"
+      ],
+      "options": [
+        {
+          "tag": "black background",
+          "color": "black"
+        },
+        {
+          "tag": "white background",
+          "color": "white"
+        },
+        {
+          "tag": "grey background",
+          "color": "grey"
+        },
+        {
+          "tag": "red background",
+          "color": "red"
+        },
+        {
+          "tag": "pink background",
+          "color": "pink"
+        },
+        {
+          "tag": "orange background",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow background",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown background",
+          "color": "brown"
+        },
+        {
+          "tag": "green background",
+          "color": "green"
+        },
+        {
+          "tag": "blue background",
+          "color": "blue"
+        },
+        {
+          "tag": "purple background",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bag",
+      "ja": "バッグ",
+      "baseTag": "bag",
+      "members": [
+        "bag",
+        "black bag",
+        "white bag",
+        "grey bag",
+        "red bag",
+        "pink bag",
+        "yellow bag",
+        "brown bag",
+        "green bag",
+        "blue bag"
+      ],
+      "options": [
+        {
+          "tag": "black bag",
+          "color": "black"
+        },
+        {
+          "tag": "white bag",
+          "color": "white"
+        },
+        {
+          "tag": "grey bag",
+          "color": "grey"
+        },
+        {
+          "tag": "red bag",
+          "color": "red"
+        },
+        {
+          "tag": "pink bag",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow bag",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown bag",
+          "color": "brown"
+        },
+        {
+          "tag": "green bag",
+          "color": "green"
+        },
+        {
+          "tag": "blue bag",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "bandana",
+      "ja": "バンダナ",
+      "baseTag": "bandana",
+      "members": [
+        "bandana",
+        "white bandana",
+        "red bandana",
+        "green bandana",
+        "blue bandana"
+      ],
+      "options": [
+        {
+          "tag": "white bandana",
+          "color": "white"
+        },
+        {
+          "tag": "red bandana",
+          "color": "red"
+        },
+        {
+          "tag": "green bandana",
+          "color": "green"
+        },
+        {
+          "tag": "blue bandana",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "bandeau",
+      "ja": "バンドゥトップ",
+      "baseTag": "bandeau",
+      "members": [
+        "bandeau",
+        "black bandeau",
+        "white bandeau",
+        "red bandeau"
+      ],
+      "options": [
+        {
+          "tag": "black bandeau",
+          "color": "black"
+        },
+        {
+          "tag": "white bandeau",
+          "color": "white"
+        },
+        {
+          "tag": "red bandeau",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "id": "belt",
+      "ja": "ベルト",
+      "baseTag": "belt",
+      "members": [
+        "belt",
+        "black belt",
+        "white belt",
+        "grey belt",
+        "red belt",
+        "pink belt",
+        "orange belt",
+        "yellow belt",
+        "brown belt",
+        "green belt",
+        "blue belt",
+        "purple belt"
+      ],
+      "options": [
+        {
+          "tag": "black belt",
+          "color": "black"
+        },
+        {
+          "tag": "white belt",
+          "color": "white"
+        },
+        {
+          "tag": "grey belt",
+          "color": "grey"
+        },
+        {
+          "tag": "red belt",
+          "color": "red"
+        },
+        {
+          "tag": "pink belt",
+          "color": "pink"
+        },
+        {
+          "tag": "orange belt",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow belt",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown belt",
+          "color": "brown"
+        },
+        {
+          "tag": "green belt",
+          "color": "green"
+        },
+        {
+          "tag": "blue belt",
+          "color": "blue"
+        },
+        {
+          "tag": "purple belt",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bikini",
+      "ja": "ビキニ",
+      "baseTag": "bikini",
+      "members": [
+        "bikini",
+        "black bikini",
+        "white bikini",
+        "grey bikini",
+        "red bikini",
+        "pink bikini",
+        "orange bikini",
+        "yellow bikini",
+        "gold bikini",
+        "brown bikini",
+        "green bikini",
+        "blue bikini",
+        "purple bikini"
+      ],
+      "options": [
+        {
+          "tag": "black bikini",
+          "color": "black"
+        },
+        {
+          "tag": "white bikini",
+          "color": "white"
+        },
+        {
+          "tag": "grey bikini",
+          "color": "grey"
+        },
+        {
+          "tag": "red bikini",
+          "color": "red"
+        },
+        {
+          "tag": "pink bikini",
+          "color": "pink"
+        },
+        {
+          "tag": "orange bikini",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow bikini",
+          "color": "yellow"
+        },
+        {
+          "tag": "gold bikini",
+          "color": "gold"
+        },
+        {
+          "tag": "brown bikini",
+          "color": "brown"
+        },
+        {
+          "tag": "green bikini",
+          "color": "green"
+        },
+        {
+          "tag": "blue bikini",
+          "color": "blue"
+        },
+        {
+          "tag": "purple bikini",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bird",
+      "ja": "鳥",
+      "baseTag": "bird",
+      "members": [
+        "bird",
+        "black bird",
+        "white bird",
+        "blue bird"
+      ],
+      "options": [
+        {
+          "tag": "black bird",
+          "color": "black"
+        },
+        {
+          "tag": "white bird",
+          "color": "white"
+        },
+        {
+          "tag": "blue bird",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "bodysuit",
+      "ja": "ボディスーツ",
+      "baseTag": "bodysuit",
+      "members": [
+        "bodysuit",
+        "black bodysuit",
+        "white bodysuit",
+        "grey bodysuit",
+        "red bodysuit",
+        "pink bodysuit",
+        "orange bodysuit",
+        "yellow bodysuit",
+        "green bodysuit",
+        "blue bodysuit",
+        "purple bodysuit"
+      ],
+      "options": [
+        {
+          "tag": "black bodysuit",
+          "color": "black"
+        },
+        {
+          "tag": "white bodysuit",
+          "color": "white"
+        },
+        {
+          "tag": "grey bodysuit",
+          "color": "grey"
+        },
+        {
+          "tag": "red bodysuit",
+          "color": "red"
+        },
+        {
+          "tag": "pink bodysuit",
+          "color": "pink"
+        },
+        {
+          "tag": "orange bodysuit",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow bodysuit",
+          "color": "yellow"
+        },
+        {
+          "tag": "green bodysuit",
+          "color": "green"
+        },
+        {
+          "tag": "blue bodysuit",
+          "color": "blue"
+        },
+        {
+          "tag": "purple bodysuit",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "border",
+      "ja": "枠線",
+      "baseTag": "border",
+      "members": [
+        "border",
+        "black border",
+        "white border",
+        "grey border",
+        "red border",
+        "pink border",
+        "yellow border",
+        "brown border",
+        "green border",
+        "blue border",
+        "purple border"
+      ],
+      "options": [
+        {
+          "tag": "black border",
+          "color": "black"
+        },
+        {
+          "tag": "white border",
+          "color": "white"
+        },
+        {
+          "tag": "grey border",
+          "color": "grey"
+        },
+        {
+          "tag": "red border",
+          "color": "red"
+        },
+        {
+          "tag": "pink border",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow border",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown border",
+          "color": "brown"
+        },
+        {
+          "tag": "green border",
+          "color": "green"
+        },
+        {
+          "tag": "blue border",
+          "color": "blue"
+        },
+        {
+          "tag": "purple border",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bow",
+      "ja": "リボン結び",
+      "baseTag": "bow",
+      "members": [
+        "bow",
+        "black bow",
+        "white bow",
+        "grey bow",
+        "red bow",
+        "pink bow",
+        "orange bow",
+        "yellow bow",
+        "brown bow",
+        "green bow",
+        "blue bow",
+        "purple bow"
+      ],
+      "options": [
+        {
+          "tag": "black bow",
+          "color": "black"
+        },
+        {
+          "tag": "white bow",
+          "color": "white"
+        },
+        {
+          "tag": "grey bow",
+          "color": "grey"
+        },
+        {
+          "tag": "red bow",
+          "color": "red"
+        },
+        {
+          "tag": "pink bow",
+          "color": "pink"
+        },
+        {
+          "tag": "orange bow",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow bow",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown bow",
+          "color": "brown"
+        },
+        {
+          "tag": "green bow",
+          "color": "green"
+        },
+        {
+          "tag": "blue bow",
+          "color": "blue"
+        },
+        {
+          "tag": "purple bow",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bowtie",
+      "ja": "蝶ネクタイ",
+      "baseTag": "bowtie",
+      "members": [
+        "bowtie",
+        "black bowtie",
+        "white bowtie",
+        "grey bowtie",
+        "red bowtie",
+        "pink bowtie",
+        "orange bowtie",
+        "yellow bowtie",
+        "brown bowtie",
+        "green bowtie",
+        "blue bowtie",
+        "purple bowtie"
+      ],
+      "options": [
+        {
+          "tag": "black bowtie",
+          "color": "black"
+        },
+        {
+          "tag": "white bowtie",
+          "color": "white"
+        },
+        {
+          "tag": "grey bowtie",
+          "color": "grey"
+        },
+        {
+          "tag": "red bowtie",
+          "color": "red"
+        },
+        {
+          "tag": "pink bowtie",
+          "color": "pink"
+        },
+        {
+          "tag": "orange bowtie",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow bowtie",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown bowtie",
+          "color": "brown"
+        },
+        {
+          "tag": "green bowtie",
+          "color": "green"
+        },
+        {
+          "tag": "blue bowtie",
+          "color": "blue"
+        },
+        {
+          "tag": "purple bowtie",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "bra",
+      "ja": "ブラジャー",
+      "baseTag": "bra",
+      "members": [
+        "bra",
+        "black bra",
+        "white bra",
+        "grey bra",
+        "red bra",
+        "pink bra",
+        "orange bra",
+        "yellow bra",
+        "brown bra",
+        "green bra",
+        "blue bra",
+        "purple bra"
+      ],
+      "options": [
+        {
+          "tag": "black bra",
+          "color": "black"
+        },
+        {
+          "tag": "white bra",
+          "color": "white"
+        },
+        {
+          "tag": "grey bra",
+          "color": "grey"
+        },
+        {
+          "tag": "red bra",
+          "color": "red"
+        },
+        {
+          "tag": "pink bra",
+          "color": "pink"
+        },
+        {
+          "tag": "orange bra",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow bra",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown bra",
+          "color": "brown"
+        },
+        {
+          "tag": "green bra",
+          "color": "green"
+        },
+        {
+          "tag": "blue bra",
+          "color": "blue"
+        },
+        {
+          "tag": "purple bra",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "brooch",
+      "ja": "ブローチ",
+      "baseTag": "brooch",
+      "members": [
+        "brooch",
+        "red brooch",
+        "blue brooch"
+      ],
+      "options": [
+        {
+          "tag": "red brooch",
+          "color": "red"
+        },
+        {
+          "tag": "blue brooch",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "buruma",
+      "ja": "ブルマ",
+      "baseTag": "buruma",
+      "members": [
+        "buruma",
+        "black buruma",
+        "red buruma",
+        "blue buruma"
+      ],
+      "options": [
+        {
+          "tag": "black buruma",
+          "color": "black"
+        },
+        {
+          "tag": "red buruma",
+          "color": "red"
+        },
+        {
+          "tag": "blue buruma",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "butterfly",
+      "ja": "蝶",
+      "baseTag": "butterfly",
+      "members": [
+        "butterfly",
+        "white butterfly",
+        "red butterfly",
+        "yellow butterfly",
+        "blue butterfly",
+        "purple butterfly"
+      ],
+      "options": [
+        {
+          "tag": "white butterfly",
+          "color": "white"
+        },
+        {
+          "tag": "red butterfly",
+          "color": "red"
+        },
+        {
+          "tag": "yellow butterfly",
+          "color": "yellow"
+        },
+        {
+          "tag": "blue butterfly",
+          "color": "blue"
+        },
+        {
+          "tag": "purple butterfly",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "camisole",
+      "ja": "キャミソール",
+      "baseTag": "camisole",
+      "members": [
+        "camisole",
+        "black camisole",
+        "white camisole",
+        "red camisole",
+        "pink camisole",
+        "yellow camisole",
+        "blue camisole"
+      ],
+      "options": [
+        {
+          "tag": "black camisole",
+          "color": "black"
+        },
+        {
+          "tag": "white camisole",
+          "color": "white"
+        },
+        {
+          "tag": "red camisole",
+          "color": "red"
+        },
+        {
+          "tag": "pink camisole",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow camisole",
+          "color": "yellow"
+        },
+        {
+          "tag": "blue camisole",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "cape",
+      "ja": "マント",
+      "baseTag": "cape",
+      "members": [
+        "cape",
+        "black cape",
+        "white cape",
+        "grey cape",
+        "red cape",
+        "pink cape",
+        "orange cape",
+        "yellow cape",
+        "brown cape",
+        "green cape",
+        "blue cape",
+        "purple cape"
+      ],
+      "options": [
+        {
+          "tag": "black cape",
+          "color": "black"
+        },
+        {
+          "tag": "white cape",
+          "color": "white"
+        },
+        {
+          "tag": "grey cape",
+          "color": "grey"
+        },
+        {
+          "tag": "red cape",
+          "color": "red"
+        },
+        {
+          "tag": "pink cape",
+          "color": "pink"
+        },
+        {
+          "tag": "orange cape",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow cape",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown cape",
+          "color": "brown"
+        },
+        {
+          "tag": "green cape",
+          "color": "green"
+        },
+        {
+          "tag": "blue cape",
+          "color": "blue"
+        },
+        {
+          "tag": "purple cape",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "capelet",
+      "ja": "ケープレット",
+      "baseTag": "capelet",
+      "members": [
+        "capelet",
+        "black capelet",
+        "white capelet",
+        "grey capelet",
+        "red capelet",
+        "pink capelet",
+        "brown capelet",
+        "green capelet",
+        "blue capelet",
+        "purple capelet"
+      ],
+      "options": [
+        {
+          "tag": "black capelet",
+          "color": "black"
+        },
+        {
+          "tag": "white capelet",
+          "color": "white"
+        },
+        {
+          "tag": "grey capelet",
+          "color": "grey"
+        },
+        {
+          "tag": "red capelet",
+          "color": "red"
+        },
+        {
+          "tag": "pink capelet",
+          "color": "pink"
+        },
+        {
+          "tag": "brown capelet",
+          "color": "brown"
+        },
+        {
+          "tag": "green capelet",
+          "color": "green"
+        },
+        {
+          "tag": "blue capelet",
+          "color": "blue"
+        },
+        {
+          "tag": "purple capelet",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "cardigan",
+      "ja": "カーディガン",
+      "baseTag": "cardigan",
+      "members": [
+        "cardigan",
+        "black cardigan",
+        "white cardigan",
+        "grey cardigan",
+        "red cardigan",
+        "pink cardigan",
+        "yellow cardigan",
+        "brown cardigan",
+        "green cardigan",
+        "blue cardigan",
+        "purple cardigan"
+      ],
+      "options": [
+        {
+          "tag": "black cardigan",
+          "color": "black"
+        },
+        {
+          "tag": "white cardigan",
+          "color": "white"
+        },
+        {
+          "tag": "grey cardigan",
+          "color": "grey"
+        },
+        {
+          "tag": "red cardigan",
+          "color": "red"
+        },
+        {
+          "tag": "pink cardigan",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow cardigan",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown cardigan",
+          "color": "brown"
+        },
+        {
+          "tag": "green cardigan",
+          "color": "green"
+        },
+        {
+          "tag": "blue cardigan",
+          "color": "blue"
+        },
+        {
+          "tag": "purple cardigan",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "ja": "猫",
+      "baseTag": "cat",
+      "members": [
+        "cat",
+        "black cat",
+        "white cat",
+        "grey cat"
+      ],
+      "options": [
+        {
+          "tag": "black cat",
+          "color": "black"
+        },
+        {
+          "tag": "white cat",
+          "color": "white"
+        },
+        {
+          "tag": "grey cat",
+          "color": "grey"
+        }
+      ]
+    },
+    {
+      "id": "choker",
+      "ja": "チョーカー",
+      "baseTag": "choker",
+      "members": [
+        "choker",
+        "black choker",
+        "white choker",
+        "grey choker",
+        "red choker",
+        "pink choker",
+        "orange choker",
+        "yellow choker",
+        "gold choker",
+        "brown choker",
+        "green choker",
+        "blue choker",
+        "purple choker"
+      ],
+      "options": [
+        {
+          "tag": "black choker",
+          "color": "black"
+        },
+        {
+          "tag": "white choker",
+          "color": "white"
+        },
+        {
+          "tag": "grey choker",
+          "color": "grey"
+        },
+        {
+          "tag": "red choker",
+          "color": "red"
+        },
+        {
+          "tag": "pink choker",
+          "color": "pink"
+        },
+        {
+          "tag": "orange choker",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow choker",
+          "color": "yellow"
+        },
+        {
+          "tag": "gold choker",
+          "color": "gold"
+        },
+        {
+          "tag": "brown choker",
+          "color": "brown"
+        },
+        {
+          "tag": "green choker",
+          "color": "green"
+        },
+        {
+          "tag": "blue choker",
+          "color": "blue"
+        },
+        {
+          "tag": "purple choker",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "cloak",
+      "ja": "マント",
+      "baseTag": "cloak",
+      "members": [
+        "cloak",
+        "black cloak",
+        "white cloak",
+        "grey cloak",
+        "red cloak",
+        "brown cloak",
+        "green cloak",
+        "blue cloak",
+        "purple cloak"
+      ],
+      "options": [
+        {
+          "tag": "black cloak",
+          "color": "black"
+        },
+        {
+          "tag": "white cloak",
+          "color": "white"
+        },
+        {
+          "tag": "grey cloak",
+          "color": "grey"
+        },
+        {
+          "tag": "red cloak",
+          "color": "red"
+        },
+        {
+          "tag": "brown cloak",
+          "color": "brown"
+        },
+        {
+          "tag": "green cloak",
+          "color": "green"
+        },
+        {
+          "tag": "blue cloak",
+          "color": "blue"
+        },
+        {
+          "tag": "purple cloak",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "coat",
+      "ja": "コート",
+      "baseTag": "coat",
+      "members": [
+        "coat",
+        "black coat",
+        "white coat",
+        "grey coat",
+        "red coat",
+        "pink coat",
+        "orange coat",
+        "yellow coat",
+        "brown coat",
+        "green coat",
+        "blue coat",
+        "purple coat"
+      ],
+      "options": [
+        {
+          "tag": "black coat",
+          "color": "black"
+        },
+        {
+          "tag": "white coat",
+          "color": "white"
+        },
+        {
+          "tag": "grey coat",
+          "color": "grey"
+        },
+        {
+          "tag": "red coat",
+          "color": "red"
+        },
+        {
+          "tag": "pink coat",
+          "color": "pink"
+        },
+        {
+          "tag": "orange coat",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow coat",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown coat",
+          "color": "brown"
+        },
+        {
+          "tag": "green coat",
+          "color": "green"
+        },
+        {
+          "tag": "blue coat",
+          "color": "blue"
+        },
+        {
+          "tag": "purple coat",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "collar",
+      "ja": "首輪",
+      "baseTag": "collar",
+      "members": [
+        "collar",
+        "black collar",
+        "white collar",
+        "red collar",
+        "pink collar",
+        "brown collar",
+        "blue collar",
+        "purple collar"
+      ],
+      "options": [
+        {
+          "tag": "black collar",
+          "color": "black"
+        },
+        {
+          "tag": "white collar",
+          "color": "white"
+        },
+        {
+          "tag": "red collar",
+          "color": "red"
+        },
+        {
+          "tag": "pink collar",
+          "color": "pink"
+        },
+        {
+          "tag": "brown collar",
+          "color": "brown"
+        },
+        {
+          "tag": "blue collar",
+          "color": "blue"
+        },
+        {
+          "tag": "purple collar",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "corset",
+      "ja": "コルセット",
+      "baseTag": "corset",
+      "members": [
+        "corset",
+        "black corset",
+        "white corset",
+        "brown corset"
+      ],
+      "options": [
+        {
+          "tag": "black corset",
+          "color": "black"
+        },
+        {
+          "tag": "white corset",
+          "color": "white"
+        },
+        {
+          "tag": "brown corset",
+          "color": "brown"
+        }
+      ]
+    },
+    {
+      "id": "crown",
+      "ja": "王冠",
+      "baseTag": "crown",
+      "members": [
+        "crown",
+        "red crown",
+        "gold crown"
+      ],
+      "options": [
+        {
+          "tag": "red crown",
+          "color": "red"
+        },
+        {
+          "tag": "gold crown",
+          "color": "gold"
+        }
+      ]
+    },
+    {
+      "id": "dress",
+      "ja": "ドレス",
+      "baseTag": "dress",
+      "members": [
+        "dress",
+        "black dress",
+        "white dress",
+        "grey dress",
+        "silver dress",
+        "red dress",
+        "pink dress",
+        "orange dress",
+        "yellow dress",
+        "brown dress",
+        "green dress",
+        "blue dress",
+        "purple dress"
+      ],
+      "options": [
+        {
+          "tag": "black dress",
+          "color": "black"
+        },
+        {
+          "tag": "white dress",
+          "color": "white"
+        },
+        {
+          "tag": "grey dress",
+          "color": "grey"
+        },
+        {
+          "tag": "silver dress",
+          "color": "silver"
+        },
+        {
+          "tag": "red dress",
+          "color": "red"
+        },
+        {
+          "tag": "pink dress",
+          "color": "pink"
+        },
+        {
+          "tag": "orange dress",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow dress",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown dress",
+          "color": "brown"
+        },
+        {
+          "tag": "green dress",
+          "color": "green"
+        },
+        {
+          "tag": "blue dress",
+          "color": "blue"
+        },
+        {
+          "tag": "purple dress",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "eyeliner",
+      "ja": "アイライナー",
+      "baseTag": "eyeliner",
+      "members": [
+        "eyeliner",
+        "black eyeliner",
+        "red eyeliner"
+      ],
+      "options": [
+        {
+          "tag": "black eyeliner",
+          "color": "black"
+        },
+        {
+          "tag": "red eyeliner",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "ja": "目の色",
+      "baseTag": null,
+      "members": [
+        "black eyes",
+        "white eyes",
+        "grey eyes",
+        "red eyes",
+        "pink eyes",
+        "orange eyes",
+        "yellow eyes",
+        "brown eyes",
+        "green eyes",
+        "blue eyes",
+        "purple eyes"
+      ],
+      "options": [
+        {
+          "tag": "black eyes",
+          "color": "black"
+        },
+        {
+          "tag": "white eyes",
+          "color": "white"
+        },
+        {
+          "tag": "grey eyes",
+          "color": "grey"
+        },
+        {
+          "tag": "red eyes",
+          "color": "red"
+        },
+        {
+          "tag": "pink eyes",
+          "color": "pink"
+        },
+        {
+          "tag": "orange eyes",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow eyes",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown eyes",
+          "color": "brown"
+        },
+        {
+          "tag": "green eyes",
+          "color": "green"
+        },
+        {
+          "tag": "blue eyes",
+          "color": "blue"
+        },
+        {
+          "tag": "purple eyes",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "eyeshadow",
+      "ja": "アイシャドウ",
+      "baseTag": "eyeshadow",
+      "members": [
+        "eyeshadow",
+        "black eyeshadow",
+        "red eyeshadow",
+        "pink eyeshadow",
+        "green eyeshadow",
+        "blue eyeshadow",
+        "purple eyeshadow"
+      ],
+      "options": [
+        {
+          "tag": "black eyeshadow",
+          "color": "black"
+        },
+        {
+          "tag": "red eyeshadow",
+          "color": "red"
+        },
+        {
+          "tag": "pink eyeshadow",
+          "color": "pink"
+        },
+        {
+          "tag": "green eyeshadow",
+          "color": "green"
+        },
+        {
+          "tag": "blue eyeshadow",
+          "color": "blue"
+        },
+        {
+          "tag": "purple eyeshadow",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "feathers",
+      "ja": "羽毛",
+      "baseTag": "feathers",
+      "members": [
+        "feathers",
+        "black feathers",
+        "white feathers",
+        "red feathers",
+        "yellow feathers",
+        "green feathers",
+        "blue feathers"
+      ],
+      "options": [
+        {
+          "tag": "black feathers",
+          "color": "black"
+        },
+        {
+          "tag": "white feathers",
+          "color": "white"
+        },
+        {
+          "tag": "red feathers",
+          "color": "red"
+        },
+        {
+          "tag": "yellow feathers",
+          "color": "yellow"
+        },
+        {
+          "tag": "green feathers",
+          "color": "green"
+        },
+        {
+          "tag": "blue feathers",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "ja": "火",
+      "baseTag": "fire",
+      "members": [
+        "fire",
+        "green fire",
+        "blue fire",
+        "purple fire"
+      ],
+      "options": [
+        {
+          "tag": "green fire",
+          "color": "green"
+        },
+        {
+          "tag": "blue fire",
+          "color": "blue"
+        },
+        {
+          "tag": "purple fire",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "flower",
+      "ja": "花",
+      "baseTag": "flower",
+      "members": [
+        "flower",
+        "black flower",
+        "white flower",
+        "grey flower",
+        "red flower",
+        "pink flower",
+        "orange flower",
+        "yellow flower",
+        "brown flower",
+        "green flower",
+        "blue flower",
+        "purple flower"
+      ],
+      "options": [
+        {
+          "tag": "black flower",
+          "color": "black"
+        },
+        {
+          "tag": "white flower",
+          "color": "white"
+        },
+        {
+          "tag": "grey flower",
+          "color": "grey"
+        },
+        {
+          "tag": "red flower",
+          "color": "red"
+        },
+        {
+          "tag": "pink flower",
+          "color": "pink"
+        },
+        {
+          "tag": "orange flower",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow flower",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown flower",
+          "color": "brown"
+        },
+        {
+          "tag": "green flower",
+          "color": "green"
+        },
+        {
+          "tag": "blue flower",
+          "color": "blue"
+        },
+        {
+          "tag": "purple flower",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "footwear",
+      "ja": "履物の色",
+      "baseTag": null,
+      "members": [
+        "black footwear",
+        "white footwear",
+        "grey footwear",
+        "red footwear",
+        "pink footwear",
+        "orange footwear",
+        "yellow footwear",
+        "gold footwear",
+        "brown footwear",
+        "green footwear",
+        "blue footwear",
+        "purple footwear"
+      ],
+      "options": [
+        {
+          "tag": "black footwear",
+          "color": "black"
+        },
+        {
+          "tag": "white footwear",
+          "color": "white"
+        },
+        {
+          "tag": "grey footwear",
+          "color": "grey"
+        },
+        {
+          "tag": "red footwear",
+          "color": "red"
+        },
+        {
+          "tag": "pink footwear",
+          "color": "pink"
+        },
+        {
+          "tag": "orange footwear",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow footwear",
+          "color": "yellow"
+        },
+        {
+          "tag": "gold footwear",
+          "color": "gold"
+        },
+        {
+          "tag": "brown footwear",
+          "color": "brown"
+        },
+        {
+          "tag": "green footwear",
+          "color": "green"
+        },
+        {
+          "tag": "blue footwear",
+          "color": "blue"
+        },
+        {
+          "tag": "purple footwear",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "fur",
+      "ja": "毛色",
+      "baseTag": null,
+      "members": [
+        "black fur",
+        "white fur",
+        "grey fur",
+        "red fur",
+        "pink fur",
+        "orange fur",
+        "yellow fur",
+        "brown fur",
+        "green fur",
+        "blue fur",
+        "purple fur"
+      ],
+      "options": [
+        {
+          "tag": "black fur",
+          "color": "black"
+        },
+        {
+          "tag": "white fur",
+          "color": "white"
+        },
+        {
+          "tag": "grey fur",
+          "color": "grey"
+        },
+        {
+          "tag": "red fur",
+          "color": "red"
+        },
+        {
+          "tag": "pink fur",
+          "color": "pink"
+        },
+        {
+          "tag": "orange fur",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow fur",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown fur",
+          "color": "brown"
+        },
+        {
+          "tag": "green fur",
+          "color": "green"
+        },
+        {
+          "tag": "blue fur",
+          "color": "blue"
+        },
+        {
+          "tag": "purple fur",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "garter belt",
+      "ja": "ガーターベルト",
+      "baseTag": "garter belt",
+      "members": [
+        "garter belt",
+        "black garter belt",
+        "white garter belt"
+      ],
+      "options": [
+        {
+          "tag": "black garter belt",
+          "color": "black"
+        },
+        {
+          "tag": "white garter belt",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "garter straps",
+      "ja": "ガーターストラップ",
+      "baseTag": "garter straps",
+      "members": [
+        "garter straps",
+        "black garter straps",
+        "white garter straps"
+      ],
+      "options": [
+        {
+          "tag": "black garter straps",
+          "color": "black"
+        },
+        {
+          "tag": "white garter straps",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "gemstone",
+      "ja": "宝石の色",
+      "baseTag": null,
+      "members": [
+        "red gemstone",
+        "pink gemstone",
+        "yellow gemstone",
+        "green gemstone",
+        "blue gemstone",
+        "purple gemstone"
+      ],
+      "options": [
+        {
+          "tag": "red gemstone",
+          "color": "red"
+        },
+        {
+          "tag": "pink gemstone",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow gemstone",
+          "color": "yellow"
+        },
+        {
+          "tag": "green gemstone",
+          "color": "green"
+        },
+        {
+          "tag": "blue gemstone",
+          "color": "blue"
+        },
+        {
+          "tag": "purple gemstone",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "gloves",
+      "ja": "手袋",
+      "baseTag": "gloves",
+      "members": [
+        "gloves",
+        "black gloves",
+        "white gloves",
+        "grey gloves",
+        "red gloves",
+        "pink gloves",
+        "orange gloves",
+        "yellow gloves",
+        "brown gloves",
+        "green gloves",
+        "blue gloves",
+        "purple gloves"
+      ],
+      "options": [
+        {
+          "tag": "black gloves",
+          "color": "black"
+        },
+        {
+          "tag": "white gloves",
+          "color": "white"
+        },
+        {
+          "tag": "grey gloves",
+          "color": "grey"
+        },
+        {
+          "tag": "red gloves",
+          "color": "red"
+        },
+        {
+          "tag": "pink gloves",
+          "color": "pink"
+        },
+        {
+          "tag": "orange gloves",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow gloves",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown gloves",
+          "color": "brown"
+        },
+        {
+          "tag": "green gloves",
+          "color": "green"
+        },
+        {
+          "tag": "blue gloves",
+          "color": "blue"
+        },
+        {
+          "tag": "purple gloves",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "hair",
+      "ja": "髪色",
+      "baseTag": null,
+      "members": [
+        "black hair",
+        "white hair",
+        "grey hair",
+        "silver hair",
+        "red hair",
+        "pink hair",
+        "orange hair",
+        "brown hair",
+        "green hair",
+        "blue hair",
+        "purple hair",
+        "blonde hair",
+        "dark blue hair",
+        "light blue hair"
+      ],
+      "options": [
+        {
+          "tag": "black hair",
+          "color": "black"
+        },
+        {
+          "tag": "white hair",
+          "color": "white"
+        },
+        {
+          "tag": "grey hair",
+          "color": "grey"
+        },
+        {
+          "tag": "silver hair",
+          "color": "silver"
+        },
+        {
+          "tag": "red hair",
+          "color": "red"
+        },
+        {
+          "tag": "pink hair",
+          "color": "pink"
+        },
+        {
+          "tag": "orange hair",
+          "color": "orange"
+        },
+        {
+          "tag": "brown hair",
+          "color": "brown"
+        },
+        {
+          "tag": "green hair",
+          "color": "green"
+        },
+        {
+          "tag": "blue hair",
+          "color": "blue"
+        },
+        {
+          "tag": "purple hair",
+          "color": "purple"
+        },
+        {
+          "tag": "blonde hair",
+          "color": "blonde"
+        },
+        {
+          "tag": "dark blue hair",
+          "color": "dark blue"
+        },
+        {
+          "tag": "light blue hair",
+          "color": "light blue"
+        }
+      ]
+    },
+    {
+      "id": "hairband",
+      "ja": "ヘアバンド",
+      "baseTag": "hairband",
+      "members": [
+        "hairband",
+        "black hairband",
+        "white hairband",
+        "grey hairband",
+        "red hairband",
+        "pink hairband",
+        "orange hairband",
+        "yellow hairband",
+        "gold hairband",
+        "brown hairband",
+        "green hairband",
+        "blue hairband",
+        "purple hairband"
+      ],
+      "options": [
+        {
+          "tag": "black hairband",
+          "color": "black"
+        },
+        {
+          "tag": "white hairband",
+          "color": "white"
+        },
+        {
+          "tag": "grey hairband",
+          "color": "grey"
+        },
+        {
+          "tag": "red hairband",
+          "color": "red"
+        },
+        {
+          "tag": "pink hairband",
+          "color": "pink"
+        },
+        {
+          "tag": "orange hairband",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow hairband",
+          "color": "yellow"
+        },
+        {
+          "tag": "gold hairband",
+          "color": "gold"
+        },
+        {
+          "tag": "brown hairband",
+          "color": "brown"
+        },
+        {
+          "tag": "green hairband",
+          "color": "green"
+        },
+        {
+          "tag": "blue hairband",
+          "color": "blue"
+        },
+        {
+          "tag": "purple hairband",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "hakama",
+      "ja": "袴",
+      "baseTag": "hakama",
+      "members": [
+        "hakama",
+        "black hakama",
+        "red hakama",
+        "pink hakama",
+        "green hakama",
+        "blue hakama",
+        "purple hakama"
+      ],
+      "options": [
+        {
+          "tag": "black hakama",
+          "color": "black"
+        },
+        {
+          "tag": "red hakama",
+          "color": "red"
+        },
+        {
+          "tag": "pink hakama",
+          "color": "pink"
+        },
+        {
+          "tag": "green hakama",
+          "color": "green"
+        },
+        {
+          "tag": "blue hakama",
+          "color": "blue"
+        },
+        {
+          "tag": "purple hakama",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "halo",
+      "ja": "天使の輪",
+      "baseTag": "halo",
+      "members": [
+        "halo",
+        "black halo",
+        "white halo",
+        "grey halo",
+        "red halo",
+        "pink halo",
+        "orange halo",
+        "yellow halo",
+        "green halo",
+        "blue halo",
+        "purple halo"
+      ],
+      "options": [
+        {
+          "tag": "black halo",
+          "color": "black"
+        },
+        {
+          "tag": "white halo",
+          "color": "white"
+        },
+        {
+          "tag": "grey halo",
+          "color": "grey"
+        },
+        {
+          "tag": "red halo",
+          "color": "red"
+        },
+        {
+          "tag": "pink halo",
+          "color": "pink"
+        },
+        {
+          "tag": "orange halo",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow halo",
+          "color": "yellow"
+        },
+        {
+          "tag": "green halo",
+          "color": "green"
+        },
+        {
+          "tag": "blue halo",
+          "color": "blue"
+        },
+        {
+          "tag": "purple halo",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "hands",
+      "ja": "手の色",
+      "baseTag": null,
+      "members": [
+        "black hands",
+        "red hands"
+      ],
+      "options": [
+        {
+          "tag": "black hands",
+          "color": "black"
+        },
+        {
+          "tag": "red hands",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "id": "hat",
+      "ja": "帽子",
+      "baseTag": "hat",
+      "members": [
+        "hat",
+        "black hat",
+        "white hat",
+        "grey hat",
+        "red hat",
+        "pink hat",
+        "orange hat",
+        "yellow hat",
+        "brown hat",
+        "green hat",
+        "blue hat",
+        "purple hat"
+      ],
+      "options": [
+        {
+          "tag": "black hat",
+          "color": "black"
+        },
+        {
+          "tag": "white hat",
+          "color": "white"
+        },
+        {
+          "tag": "grey hat",
+          "color": "grey"
+        },
+        {
+          "tag": "red hat",
+          "color": "red"
+        },
+        {
+          "tag": "pink hat",
+          "color": "pink"
+        },
+        {
+          "tag": "orange hat",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow hat",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown hat",
+          "color": "brown"
+        },
+        {
+          "tag": "green hat",
+          "color": "green"
+        },
+        {
+          "tag": "blue hat",
+          "color": "blue"
+        },
+        {
+          "tag": "purple hat",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "headband",
+      "ja": "ヘッドバンド",
+      "baseTag": "headband",
+      "members": [
+        "headband",
+        "black headband",
+        "white headband",
+        "red headband",
+        "orange headband",
+        "green headband",
+        "blue headband"
+      ],
+      "options": [
+        {
+          "tag": "black headband",
+          "color": "black"
+        },
+        {
+          "tag": "white headband",
+          "color": "white"
+        },
+        {
+          "tag": "red headband",
+          "color": "red"
+        },
+        {
+          "tag": "orange headband",
+          "color": "orange"
+        },
+        {
+          "tag": "green headband",
+          "color": "green"
+        },
+        {
+          "tag": "blue headband",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "helmet",
+      "ja": "ヘルメット",
+      "baseTag": "helmet",
+      "members": [
+        "helmet",
+        "black helmet",
+        "red helmet",
+        "blue helmet"
+      ],
+      "options": [
+        {
+          "tag": "black helmet",
+          "color": "black"
+        },
+        {
+          "tag": "red helmet",
+          "color": "red"
+        },
+        {
+          "tag": "blue helmet",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "hood",
+      "ja": "フード",
+      "baseTag": "hood",
+      "members": [
+        "hood",
+        "black hood",
+        "white hood",
+        "red hood",
+        "blue hood"
+      ],
+      "options": [
+        {
+          "tag": "black hood",
+          "color": "black"
+        },
+        {
+          "tag": "white hood",
+          "color": "white"
+        },
+        {
+          "tag": "red hood",
+          "color": "red"
+        },
+        {
+          "tag": "blue hood",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "hoodie",
+      "ja": "パーカー",
+      "baseTag": "hoodie",
+      "members": [
+        "hoodie",
+        "black hoodie",
+        "white hoodie",
+        "grey hoodie",
+        "red hoodie",
+        "pink hoodie",
+        "orange hoodie",
+        "yellow hoodie",
+        "brown hoodie",
+        "green hoodie",
+        "blue hoodie",
+        "purple hoodie"
+      ],
+      "options": [
+        {
+          "tag": "black hoodie",
+          "color": "black"
+        },
+        {
+          "tag": "white hoodie",
+          "color": "white"
+        },
+        {
+          "tag": "grey hoodie",
+          "color": "grey"
+        },
+        {
+          "tag": "red hoodie",
+          "color": "red"
+        },
+        {
+          "tag": "pink hoodie",
+          "color": "pink"
+        },
+        {
+          "tag": "orange hoodie",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow hoodie",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown hoodie",
+          "color": "brown"
+        },
+        {
+          "tag": "green hoodie",
+          "color": "green"
+        },
+        {
+          "tag": "blue hoodie",
+          "color": "blue"
+        },
+        {
+          "tag": "purple hoodie",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "horns",
+      "ja": "角",
+      "baseTag": "horns",
+      "members": [
+        "horns",
+        "black horns",
+        "white horns",
+        "grey horns",
+        "red horns",
+        "pink horns",
+        "orange horns",
+        "yellow horns",
+        "brown horns",
+        "green horns",
+        "blue horns",
+        "purple horns"
+      ],
+      "options": [
+        {
+          "tag": "black horns",
+          "color": "black"
+        },
+        {
+          "tag": "white horns",
+          "color": "white"
+        },
+        {
+          "tag": "grey horns",
+          "color": "grey"
+        },
+        {
+          "tag": "red horns",
+          "color": "red"
+        },
+        {
+          "tag": "pink horns",
+          "color": "pink"
+        },
+        {
+          "tag": "orange horns",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow horns",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown horns",
+          "color": "brown"
+        },
+        {
+          "tag": "green horns",
+          "color": "green"
+        },
+        {
+          "tag": "blue horns",
+          "color": "blue"
+        },
+        {
+          "tag": "purple horns",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "jacket",
+      "ja": "ジャケット",
+      "baseTag": "jacket",
+      "members": [
+        "jacket",
+        "black jacket",
+        "white jacket",
+        "grey jacket",
+        "red jacket",
+        "pink jacket",
+        "orange jacket",
+        "yellow jacket",
+        "brown jacket",
+        "green jacket",
+        "blue jacket",
+        "purple jacket"
+      ],
+      "options": [
+        {
+          "tag": "black jacket",
+          "color": "black"
+        },
+        {
+          "tag": "white jacket",
+          "color": "white"
+        },
+        {
+          "tag": "grey jacket",
+          "color": "grey"
+        },
+        {
+          "tag": "red jacket",
+          "color": "red"
+        },
+        {
+          "tag": "pink jacket",
+          "color": "pink"
+        },
+        {
+          "tag": "orange jacket",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow jacket",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown jacket",
+          "color": "brown"
+        },
+        {
+          "tag": "green jacket",
+          "color": "green"
+        },
+        {
+          "tag": "blue jacket",
+          "color": "blue"
+        },
+        {
+          "tag": "purple jacket",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "jumpsuit",
+      "ja": "ジャンプスーツ",
+      "baseTag": "jumpsuit",
+      "members": [
+        "jumpsuit",
+        "black jumpsuit",
+        "white jumpsuit",
+        "orange jumpsuit",
+        "green jumpsuit",
+        "blue jumpsuit"
+      ],
+      "options": [
+        {
+          "tag": "black jumpsuit",
+          "color": "black"
+        },
+        {
+          "tag": "white jumpsuit",
+          "color": "white"
+        },
+        {
+          "tag": "orange jumpsuit",
+          "color": "orange"
+        },
+        {
+          "tag": "green jumpsuit",
+          "color": "green"
+        },
+        {
+          "tag": "blue jumpsuit",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "kimono",
+      "ja": "着物",
+      "baseTag": "kimono",
+      "members": [
+        "kimono",
+        "black kimono",
+        "white kimono",
+        "grey kimono",
+        "red kimono",
+        "pink kimono",
+        "orange kimono",
+        "yellow kimono",
+        "brown kimono",
+        "green kimono",
+        "blue kimono",
+        "purple kimono"
+      ],
+      "options": [
+        {
+          "tag": "black kimono",
+          "color": "black"
+        },
+        {
+          "tag": "white kimono",
+          "color": "white"
+        },
+        {
+          "tag": "grey kimono",
+          "color": "grey"
+        },
+        {
+          "tag": "red kimono",
+          "color": "red"
+        },
+        {
+          "tag": "pink kimono",
+          "color": "pink"
+        },
+        {
+          "tag": "orange kimono",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow kimono",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown kimono",
+          "color": "brown"
+        },
+        {
+          "tag": "green kimono",
+          "color": "green"
+        },
+        {
+          "tag": "blue kimono",
+          "color": "blue"
+        },
+        {
+          "tag": "purple kimono",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "leg warmers",
+      "ja": "レッグウォーマー",
+      "baseTag": "leg warmers",
+      "members": [
+        "leg warmers",
+        "black leg warmers",
+        "white leg warmers"
+      ],
+      "options": [
+        {
+          "tag": "black leg warmers",
+          "color": "black"
+        },
+        {
+          "tag": "white leg warmers",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "leggings",
+      "ja": "レギンス",
+      "baseTag": "leggings",
+      "members": [
+        "leggings",
+        "black leggings",
+        "white leggings"
+      ],
+      "options": [
+        {
+          "tag": "black leggings",
+          "color": "black"
+        },
+        {
+          "tag": "white leggings",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "leotard",
+      "ja": "レオタード",
+      "baseTag": "leotard",
+      "members": [
+        "leotard",
+        "black leotard",
+        "white leotard",
+        "grey leotard",
+        "red leotard",
+        "pink leotard",
+        "orange leotard",
+        "yellow leotard",
+        "brown leotard",
+        "green leotard",
+        "blue leotard",
+        "purple leotard"
+      ],
+      "options": [
+        {
+          "tag": "black leotard",
+          "color": "black"
+        },
+        {
+          "tag": "white leotard",
+          "color": "white"
+        },
+        {
+          "tag": "grey leotard",
+          "color": "grey"
+        },
+        {
+          "tag": "red leotard",
+          "color": "red"
+        },
+        {
+          "tag": "pink leotard",
+          "color": "pink"
+        },
+        {
+          "tag": "orange leotard",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow leotard",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown leotard",
+          "color": "brown"
+        },
+        {
+          "tag": "green leotard",
+          "color": "green"
+        },
+        {
+          "tag": "blue leotard",
+          "color": "blue"
+        },
+        {
+          "tag": "purple leotard",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "lips",
+      "ja": "唇",
+      "baseTag": "lips",
+      "members": [
+        "lips",
+        "black lips",
+        "red lips",
+        "pink lips",
+        "brown lips",
+        "green lips",
+        "blue lips",
+        "purple lips"
+      ],
+      "options": [
+        {
+          "tag": "black lips",
+          "color": "black"
+        },
+        {
+          "tag": "red lips",
+          "color": "red"
+        },
+        {
+          "tag": "pink lips",
+          "color": "pink"
+        },
+        {
+          "tag": "brown lips",
+          "color": "brown"
+        },
+        {
+          "tag": "green lips",
+          "color": "green"
+        },
+        {
+          "tag": "blue lips",
+          "color": "blue"
+        },
+        {
+          "tag": "purple lips",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "mask",
+      "ja": "マスク",
+      "baseTag": "mask",
+      "members": [
+        "mask",
+        "black mask",
+        "white mask",
+        "red mask"
+      ],
+      "options": [
+        {
+          "tag": "black mask",
+          "color": "black"
+        },
+        {
+          "tag": "white mask",
+          "color": "white"
+        },
+        {
+          "tag": "red mask",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "id": "mittens",
+      "ja": "ミトン",
+      "baseTag": "mittens",
+      "members": [
+        "mittens",
+        "white mittens",
+        "red mittens",
+        "brown mittens"
+      ],
+      "options": [
+        {
+          "tag": "white mittens",
+          "color": "white"
+        },
+        {
+          "tag": "red mittens",
+          "color": "red"
+        },
+        {
+          "tag": "brown mittens",
+          "color": "brown"
+        }
+      ]
+    },
+    {
+      "id": "nails",
+      "ja": "爪の色",
+      "baseTag": null,
+      "members": [
+        "black nails",
+        "white nails",
+        "grey nails",
+        "red nails",
+        "pink nails",
+        "orange nails",
+        "yellow nails",
+        "brown nails",
+        "green nails",
+        "blue nails",
+        "purple nails"
+      ],
+      "options": [
+        {
+          "tag": "black nails",
+          "color": "black"
+        },
+        {
+          "tag": "white nails",
+          "color": "white"
+        },
+        {
+          "tag": "grey nails",
+          "color": "grey"
+        },
+        {
+          "tag": "red nails",
+          "color": "red"
+        },
+        {
+          "tag": "pink nails",
+          "color": "pink"
+        },
+        {
+          "tag": "orange nails",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow nails",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown nails",
+          "color": "brown"
+        },
+        {
+          "tag": "green nails",
+          "color": "green"
+        },
+        {
+          "tag": "blue nails",
+          "color": "blue"
+        },
+        {
+          "tag": "purple nails",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "neckerchief",
+      "ja": "スカーフ",
+      "baseTag": "neckerchief",
+      "members": [
+        "neckerchief",
+        "black neckerchief",
+        "white neckerchief",
+        "grey neckerchief",
+        "red neckerchief",
+        "pink neckerchief",
+        "orange neckerchief",
+        "yellow neckerchief",
+        "brown neckerchief",
+        "green neckerchief",
+        "blue neckerchief",
+        "purple neckerchief"
+      ],
+      "options": [
+        {
+          "tag": "black neckerchief",
+          "color": "black"
+        },
+        {
+          "tag": "white neckerchief",
+          "color": "white"
+        },
+        {
+          "tag": "grey neckerchief",
+          "color": "grey"
+        },
+        {
+          "tag": "red neckerchief",
+          "color": "red"
+        },
+        {
+          "tag": "pink neckerchief",
+          "color": "pink"
+        },
+        {
+          "tag": "orange neckerchief",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow neckerchief",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown neckerchief",
+          "color": "brown"
+        },
+        {
+          "tag": "green neckerchief",
+          "color": "green"
+        },
+        {
+          "tag": "blue neckerchief",
+          "color": "blue"
+        },
+        {
+          "tag": "purple neckerchief",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "necktie",
+      "ja": "ネクタイ",
+      "baseTag": "necktie",
+      "members": [
+        "necktie",
+        "black necktie",
+        "white necktie",
+        "grey necktie",
+        "red necktie",
+        "pink necktie",
+        "orange necktie",
+        "yellow necktie",
+        "brown necktie",
+        "green necktie",
+        "blue necktie",
+        "purple necktie"
+      ],
+      "options": [
+        {
+          "tag": "black necktie",
+          "color": "black"
+        },
+        {
+          "tag": "white necktie",
+          "color": "white"
+        },
+        {
+          "tag": "grey necktie",
+          "color": "grey"
+        },
+        {
+          "tag": "red necktie",
+          "color": "red"
+        },
+        {
+          "tag": "pink necktie",
+          "color": "pink"
+        },
+        {
+          "tag": "orange necktie",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow necktie",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown necktie",
+          "color": "brown"
+        },
+        {
+          "tag": "green necktie",
+          "color": "green"
+        },
+        {
+          "tag": "blue necktie",
+          "color": "blue"
+        },
+        {
+          "tag": "purple necktie",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "one-piece swimsuit",
+      "ja": "一部位の水着",
+      "baseTag": "one-piece swimsuit",
+      "members": [
+        "one-piece swimsuit",
+        "black one-piece swimsuit",
+        "white one-piece swimsuit",
+        "red one-piece swimsuit",
+        "pink one-piece swimsuit",
+        "yellow one-piece swimsuit",
+        "green one-piece swimsuit",
+        "blue one-piece swimsuit",
+        "purple one-piece swimsuit"
+      ],
+      "options": [
+        {
+          "tag": "black one-piece swimsuit",
+          "color": "black"
+        },
+        {
+          "tag": "white one-piece swimsuit",
+          "color": "white"
+        },
+        {
+          "tag": "red one-piece swimsuit",
+          "color": "red"
+        },
+        {
+          "tag": "pink one-piece swimsuit",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow one-piece swimsuit",
+          "color": "yellow"
+        },
+        {
+          "tag": "green one-piece swimsuit",
+          "color": "green"
+        },
+        {
+          "tag": "blue one-piece swimsuit",
+          "color": "blue"
+        },
+        {
+          "tag": "purple one-piece swimsuit",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "outline",
+      "ja": "概要",
+      "baseTag": "outline",
+      "members": [
+        "outline",
+        "black outline",
+        "white outline",
+        "red outline",
+        "pink outline",
+        "yellow outline",
+        "blue outline"
+      ],
+      "options": [
+        {
+          "tag": "black outline",
+          "color": "black"
+        },
+        {
+          "tag": "white outline",
+          "color": "white"
+        },
+        {
+          "tag": "red outline",
+          "color": "red"
+        },
+        {
+          "tag": "pink outline",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow outline",
+          "color": "yellow"
+        },
+        {
+          "tag": "blue outline",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "pajamas",
+      "ja": "パジャマ",
+      "baseTag": "pajamas",
+      "members": [
+        "pajamas",
+        "pink pajamas",
+        "blue pajamas"
+      ],
+      "options": [
+        {
+          "tag": "pink pajamas",
+          "color": "pink"
+        },
+        {
+          "tag": "blue pajamas",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "panties",
+      "ja": "パンティー",
+      "baseTag": "panties",
+      "members": [
+        "panties",
+        "black panties",
+        "white panties",
+        "grey panties",
+        "red panties",
+        "pink panties",
+        "orange panties",
+        "yellow panties",
+        "brown panties",
+        "green panties",
+        "blue panties",
+        "purple panties"
+      ],
+      "options": [
+        {
+          "tag": "black panties",
+          "color": "black"
+        },
+        {
+          "tag": "white panties",
+          "color": "white"
+        },
+        {
+          "tag": "grey panties",
+          "color": "grey"
+        },
+        {
+          "tag": "red panties",
+          "color": "red"
+        },
+        {
+          "tag": "pink panties",
+          "color": "pink"
+        },
+        {
+          "tag": "orange panties",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow panties",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown panties",
+          "color": "brown"
+        },
+        {
+          "tag": "green panties",
+          "color": "green"
+        },
+        {
+          "tag": "blue panties",
+          "color": "blue"
+        },
+        {
+          "tag": "purple panties",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "pants",
+      "ja": "ズボン",
+      "baseTag": "pants",
+      "members": [
+        "pants",
+        "black pants",
+        "white pants",
+        "grey pants",
+        "red pants",
+        "pink pants",
+        "orange pants",
+        "yellow pants",
+        "brown pants",
+        "green pants",
+        "blue pants",
+        "purple pants"
+      ],
+      "options": [
+        {
+          "tag": "black pants",
+          "color": "black"
+        },
+        {
+          "tag": "white pants",
+          "color": "white"
+        },
+        {
+          "tag": "grey pants",
+          "color": "grey"
+        },
+        {
+          "tag": "red pants",
+          "color": "red"
+        },
+        {
+          "tag": "pink pants",
+          "color": "pink"
+        },
+        {
+          "tag": "orange pants",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow pants",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown pants",
+          "color": "brown"
+        },
+        {
+          "tag": "green pants",
+          "color": "green"
+        },
+        {
+          "tag": "blue pants",
+          "color": "blue"
+        },
+        {
+          "tag": "purple pants",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "pantyhose",
+      "ja": "パンスト",
+      "baseTag": "pantyhose",
+      "members": [
+        "pantyhose",
+        "black pantyhose",
+        "white pantyhose",
+        "grey pantyhose",
+        "red pantyhose",
+        "pink pantyhose",
+        "orange pantyhose",
+        "yellow pantyhose",
+        "brown pantyhose",
+        "green pantyhose",
+        "blue pantyhose",
+        "purple pantyhose"
+      ],
+      "options": [
+        {
+          "tag": "black pantyhose",
+          "color": "black"
+        },
+        {
+          "tag": "white pantyhose",
+          "color": "white"
+        },
+        {
+          "tag": "grey pantyhose",
+          "color": "grey"
+        },
+        {
+          "tag": "red pantyhose",
+          "color": "red"
+        },
+        {
+          "tag": "pink pantyhose",
+          "color": "pink"
+        },
+        {
+          "tag": "orange pantyhose",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow pantyhose",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown pantyhose",
+          "color": "brown"
+        },
+        {
+          "tag": "green pantyhose",
+          "color": "green"
+        },
+        {
+          "tag": "blue pantyhose",
+          "color": "blue"
+        },
+        {
+          "tag": "purple pantyhose",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "petals",
+      "ja": "花びら",
+      "baseTag": "petals",
+      "members": [
+        "petals",
+        "red petals",
+        "pink petals"
+      ],
+      "options": [
+        {
+          "tag": "red petals",
+          "color": "red"
+        },
+        {
+          "tag": "pink petals",
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "id": "pupils",
+      "ja": "瞳孔の色",
+      "baseTag": null,
+      "members": [
+        "white pupils",
+        "red pupils",
+        "pink pupils",
+        "orange pupils",
+        "yellow pupils",
+        "green pupils",
+        "blue pupils",
+        "purple pupils"
+      ],
+      "options": [
+        {
+          "tag": "white pupils",
+          "color": "white"
+        },
+        {
+          "tag": "red pupils",
+          "color": "red"
+        },
+        {
+          "tag": "pink pupils",
+          "color": "pink"
+        },
+        {
+          "tag": "orange pupils",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow pupils",
+          "color": "yellow"
+        },
+        {
+          "tag": "green pupils",
+          "color": "green"
+        },
+        {
+          "tag": "blue pupils",
+          "color": "blue"
+        },
+        {
+          "tag": "purple pupils",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "ribbon",
+      "ja": "リボン",
+      "baseTag": "ribbon",
+      "members": [
+        "ribbon",
+        "black ribbon",
+        "white ribbon",
+        "grey ribbon",
+        "red ribbon",
+        "pink ribbon",
+        "orange ribbon",
+        "yellow ribbon",
+        "brown ribbon",
+        "green ribbon",
+        "blue ribbon",
+        "purple ribbon"
+      ],
+      "options": [
+        {
+          "tag": "black ribbon",
+          "color": "black"
+        },
+        {
+          "tag": "white ribbon",
+          "color": "white"
+        },
+        {
+          "tag": "grey ribbon",
+          "color": "grey"
+        },
+        {
+          "tag": "red ribbon",
+          "color": "red"
+        },
+        {
+          "tag": "pink ribbon",
+          "color": "pink"
+        },
+        {
+          "tag": "orange ribbon",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow ribbon",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown ribbon",
+          "color": "brown"
+        },
+        {
+          "tag": "green ribbon",
+          "color": "green"
+        },
+        {
+          "tag": "blue ribbon",
+          "color": "blue"
+        },
+        {
+          "tag": "purple ribbon",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "robe",
+      "ja": "ローブ",
+      "baseTag": "robe",
+      "members": [
+        "robe",
+        "black robe",
+        "white robe",
+        "red robe",
+        "blue robe",
+        "purple robe"
+      ],
+      "options": [
+        {
+          "tag": "black robe",
+          "color": "black"
+        },
+        {
+          "tag": "white robe",
+          "color": "white"
+        },
+        {
+          "tag": "red robe",
+          "color": "red"
+        },
+        {
+          "tag": "blue robe",
+          "color": "blue"
+        },
+        {
+          "tag": "purple robe",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "rope",
+      "ja": "ロープ",
+      "baseTag": "rope",
+      "members": [
+        "rope",
+        "red rope",
+        "purple rope"
+      ],
+      "options": [
+        {
+          "tag": "red rope",
+          "color": "red"
+        },
+        {
+          "tag": "purple rope",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "rose",
+      "ja": "バラ",
+      "baseTag": "rose",
+      "members": [
+        "rose",
+        "black rose",
+        "white rose",
+        "red rose",
+        "pink rose",
+        "orange rose",
+        "yellow rose",
+        "green rose",
+        "blue rose",
+        "purple rose"
+      ],
+      "options": [
+        {
+          "tag": "black rose",
+          "color": "black"
+        },
+        {
+          "tag": "white rose",
+          "color": "white"
+        },
+        {
+          "tag": "red rose",
+          "color": "red"
+        },
+        {
+          "tag": "pink rose",
+          "color": "pink"
+        },
+        {
+          "tag": "orange rose",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow rose",
+          "color": "yellow"
+        },
+        {
+          "tag": "green rose",
+          "color": "green"
+        },
+        {
+          "tag": "blue rose",
+          "color": "blue"
+        },
+        {
+          "tag": "purple rose",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sailor collar",
+      "ja": "セーラー襟",
+      "baseTag": "sailor collar",
+      "members": [
+        "sailor collar",
+        "black sailor collar",
+        "white sailor collar",
+        "grey sailor collar",
+        "red sailor collar",
+        "pink sailor collar",
+        "orange sailor collar",
+        "yellow sailor collar",
+        "brown sailor collar",
+        "green sailor collar",
+        "blue sailor collar",
+        "purple sailor collar"
+      ],
+      "options": [
+        {
+          "tag": "black sailor collar",
+          "color": "black"
+        },
+        {
+          "tag": "white sailor collar",
+          "color": "white"
+        },
+        {
+          "tag": "grey sailor collar",
+          "color": "grey"
+        },
+        {
+          "tag": "red sailor collar",
+          "color": "red"
+        },
+        {
+          "tag": "pink sailor collar",
+          "color": "pink"
+        },
+        {
+          "tag": "orange sailor collar",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow sailor collar",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown sailor collar",
+          "color": "brown"
+        },
+        {
+          "tag": "green sailor collar",
+          "color": "green"
+        },
+        {
+          "tag": "blue sailor collar",
+          "color": "blue"
+        },
+        {
+          "tag": "purple sailor collar",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sarong",
+      "ja": "サロン",
+      "baseTag": "sarong",
+      "members": [
+        "sarong",
+        "white sarong",
+        "blue sarong"
+      ],
+      "options": [
+        {
+          "tag": "white sarong",
+          "color": "white"
+        },
+        {
+          "tag": "blue sarong",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "sash",
+      "ja": "帯",
+      "baseTag": "sash",
+      "members": [
+        "sash",
+        "black sash",
+        "white sash",
+        "red sash",
+        "pink sash",
+        "yellow sash",
+        "brown sash",
+        "green sash",
+        "blue sash",
+        "purple sash"
+      ],
+      "options": [
+        {
+          "tag": "black sash",
+          "color": "black"
+        },
+        {
+          "tag": "white sash",
+          "color": "white"
+        },
+        {
+          "tag": "red sash",
+          "color": "red"
+        },
+        {
+          "tag": "pink sash",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow sash",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown sash",
+          "color": "brown"
+        },
+        {
+          "tag": "green sash",
+          "color": "green"
+        },
+        {
+          "tag": "blue sash",
+          "color": "blue"
+        },
+        {
+          "tag": "purple sash",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "scales",
+      "ja": "鱗",
+      "baseTag": "scales",
+      "members": [
+        "scales",
+        "black scales",
+        "white scales",
+        "red scales"
+      ],
+      "options": [
+        {
+          "tag": "black scales",
+          "color": "black"
+        },
+        {
+          "tag": "white scales",
+          "color": "white"
+        },
+        {
+          "tag": "red scales",
+          "color": "red"
+        }
+      ]
+    },
+    {
+      "id": "scarf",
+      "ja": "スカーフ",
+      "baseTag": "scarf",
+      "members": [
+        "scarf",
+        "black scarf",
+        "white scarf",
+        "grey scarf",
+        "red scarf",
+        "pink scarf",
+        "orange scarf",
+        "yellow scarf",
+        "brown scarf",
+        "green scarf",
+        "blue scarf",
+        "purple scarf"
+      ],
+      "options": [
+        {
+          "tag": "black scarf",
+          "color": "black"
+        },
+        {
+          "tag": "white scarf",
+          "color": "white"
+        },
+        {
+          "tag": "grey scarf",
+          "color": "grey"
+        },
+        {
+          "tag": "red scarf",
+          "color": "red"
+        },
+        {
+          "tag": "pink scarf",
+          "color": "pink"
+        },
+        {
+          "tag": "orange scarf",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow scarf",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown scarf",
+          "color": "brown"
+        },
+        {
+          "tag": "green scarf",
+          "color": "green"
+        },
+        {
+          "tag": "blue scarf",
+          "color": "blue"
+        },
+        {
+          "tag": "purple scarf",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sclera",
+      "ja": "強膜の色",
+      "baseTag": null,
+      "members": [
+        "black sclera",
+        "red sclera",
+        "yellow sclera",
+        "green sclera",
+        "blue sclera"
+      ],
+      "options": [
+        {
+          "tag": "black sclera",
+          "color": "black"
+        },
+        {
+          "tag": "red sclera",
+          "color": "red"
+        },
+        {
+          "tag": "yellow sclera",
+          "color": "yellow"
+        },
+        {
+          "tag": "green sclera",
+          "color": "green"
+        },
+        {
+          "tag": "blue sclera",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "scrunchie",
+      "ja": "シュシュ",
+      "baseTag": "scrunchie",
+      "members": [
+        "scrunchie",
+        "black scrunchie",
+        "white scrunchie",
+        "red scrunchie",
+        "pink scrunchie",
+        "orange scrunchie",
+        "yellow scrunchie",
+        "green scrunchie",
+        "blue scrunchie",
+        "purple scrunchie"
+      ],
+      "options": [
+        {
+          "tag": "black scrunchie",
+          "color": "black"
+        },
+        {
+          "tag": "white scrunchie",
+          "color": "white"
+        },
+        {
+          "tag": "red scrunchie",
+          "color": "red"
+        },
+        {
+          "tag": "pink scrunchie",
+          "color": "pink"
+        },
+        {
+          "tag": "orange scrunchie",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow scrunchie",
+          "color": "yellow"
+        },
+        {
+          "tag": "green scrunchie",
+          "color": "green"
+        },
+        {
+          "tag": "blue scrunchie",
+          "color": "blue"
+        },
+        {
+          "tag": "purple scrunchie",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "serafuku",
+      "ja": "セーラー服",
+      "baseTag": "serafuku",
+      "members": [
+        "serafuku",
+        "black serafuku",
+        "white serafuku",
+        "grey serafuku",
+        "blue serafuku",
+        "purple serafuku"
+      ],
+      "options": [
+        {
+          "tag": "black serafuku",
+          "color": "black"
+        },
+        {
+          "tag": "white serafuku",
+          "color": "white"
+        },
+        {
+          "tag": "grey serafuku",
+          "color": "grey"
+        },
+        {
+          "tag": "blue serafuku",
+          "color": "blue"
+        },
+        {
+          "tag": "purple serafuku",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "shawl",
+      "ja": "ショール",
+      "baseTag": "shawl",
+      "members": [
+        "shawl",
+        "white shawl",
+        "red shawl",
+        "blue shawl"
+      ],
+      "options": [
+        {
+          "tag": "white shawl",
+          "color": "white"
+        },
+        {
+          "tag": "red shawl",
+          "color": "red"
+        },
+        {
+          "tag": "blue shawl",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "shirt",
+      "ja": "シャツ",
+      "baseTag": "shirt",
+      "members": [
+        "shirt",
+        "black shirt",
+        "white shirt",
+        "grey shirt",
+        "red shirt",
+        "pink shirt",
+        "orange shirt",
+        "yellow shirt",
+        "brown shirt",
+        "green shirt",
+        "blue shirt",
+        "purple shirt"
+      ],
+      "options": [
+        {
+          "tag": "black shirt",
+          "color": "black"
+        },
+        {
+          "tag": "white shirt",
+          "color": "white"
+        },
+        {
+          "tag": "grey shirt",
+          "color": "grey"
+        },
+        {
+          "tag": "red shirt",
+          "color": "red"
+        },
+        {
+          "tag": "pink shirt",
+          "color": "pink"
+        },
+        {
+          "tag": "orange shirt",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow shirt",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown shirt",
+          "color": "brown"
+        },
+        {
+          "tag": "green shirt",
+          "color": "green"
+        },
+        {
+          "tag": "blue shirt",
+          "color": "blue"
+        },
+        {
+          "tag": "purple shirt",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "shorts",
+      "ja": "半ズボン",
+      "baseTag": "shorts",
+      "members": [
+        "shorts",
+        "black shorts",
+        "white shorts",
+        "grey shorts",
+        "red shorts",
+        "pink shorts",
+        "orange shorts",
+        "yellow shorts",
+        "brown shorts",
+        "green shorts",
+        "blue shorts",
+        "purple shorts"
+      ],
+      "options": [
+        {
+          "tag": "black shorts",
+          "color": "black"
+        },
+        {
+          "tag": "white shorts",
+          "color": "white"
+        },
+        {
+          "tag": "grey shorts",
+          "color": "grey"
+        },
+        {
+          "tag": "red shorts",
+          "color": "red"
+        },
+        {
+          "tag": "pink shorts",
+          "color": "pink"
+        },
+        {
+          "tag": "orange shorts",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow shorts",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown shorts",
+          "color": "brown"
+        },
+        {
+          "tag": "green shorts",
+          "color": "green"
+        },
+        {
+          "tag": "blue shorts",
+          "color": "blue"
+        },
+        {
+          "tag": "purple shorts",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "shrug",
+      "ja": "色違いを選択",
+      "baseTag": null,
+      "members": [
+        "black shrug",
+        "white shrug"
+      ],
+      "options": [
+        {
+          "tag": "black shrug",
+          "color": "black"
+        },
+        {
+          "tag": "white shrug",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "ja": "肌の色",
+      "baseTag": null,
+      "members": [
+        "black skin",
+        "white skin",
+        "grey skin",
+        "red skin",
+        "pink skin",
+        "orange skin",
+        "yellow skin",
+        "green skin",
+        "blue skin",
+        "purple skin"
+      ],
+      "options": [
+        {
+          "tag": "black skin",
+          "color": "black"
+        },
+        {
+          "tag": "white skin",
+          "color": "white"
+        },
+        {
+          "tag": "grey skin",
+          "color": "grey"
+        },
+        {
+          "tag": "red skin",
+          "color": "red"
+        },
+        {
+          "tag": "pink skin",
+          "color": "pink"
+        },
+        {
+          "tag": "orange skin",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow skin",
+          "color": "yellow"
+        },
+        {
+          "tag": "green skin",
+          "color": "green"
+        },
+        {
+          "tag": "blue skin",
+          "color": "blue"
+        },
+        {
+          "tag": "purple skin",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "skirt",
+      "ja": "スカート",
+      "baseTag": "skirt",
+      "members": [
+        "skirt",
+        "black skirt",
+        "white skirt",
+        "grey skirt",
+        "red skirt",
+        "pink skirt",
+        "orange skirt",
+        "yellow skirt",
+        "brown skirt",
+        "green skirt",
+        "blue skirt",
+        "purple skirt"
+      ],
+      "options": [
+        {
+          "tag": "black skirt",
+          "color": "black"
+        },
+        {
+          "tag": "white skirt",
+          "color": "white"
+        },
+        {
+          "tag": "grey skirt",
+          "color": "grey"
+        },
+        {
+          "tag": "red skirt",
+          "color": "red"
+        },
+        {
+          "tag": "pink skirt",
+          "color": "pink"
+        },
+        {
+          "tag": "orange skirt",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow skirt",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown skirt",
+          "color": "brown"
+        },
+        {
+          "tag": "green skirt",
+          "color": "green"
+        },
+        {
+          "tag": "blue skirt",
+          "color": "blue"
+        },
+        {
+          "tag": "purple skirt",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sky",
+      "ja": "空",
+      "baseTag": "sky",
+      "members": [
+        "sky",
+        "black sky",
+        "white sky",
+        "grey sky",
+        "red sky",
+        "pink sky",
+        "orange sky",
+        "yellow sky",
+        "blue sky",
+        "purple sky"
+      ],
+      "options": [
+        {
+          "tag": "black sky",
+          "color": "black"
+        },
+        {
+          "tag": "white sky",
+          "color": "white"
+        },
+        {
+          "tag": "grey sky",
+          "color": "grey"
+        },
+        {
+          "tag": "red sky",
+          "color": "red"
+        },
+        {
+          "tag": "pink sky",
+          "color": "pink"
+        },
+        {
+          "tag": "orange sky",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow sky",
+          "color": "yellow"
+        },
+        {
+          "tag": "blue sky",
+          "color": "blue"
+        },
+        {
+          "tag": "purple sky",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sleeves",
+      "ja": "袖の色",
+      "baseTag": null,
+      "members": [
+        "black sleeves",
+        "white sleeves",
+        "grey sleeves",
+        "red sleeves",
+        "pink sleeves",
+        "orange sleeves",
+        "yellow sleeves",
+        "brown sleeves",
+        "green sleeves",
+        "blue sleeves",
+        "purple sleeves"
+      ],
+      "options": [
+        {
+          "tag": "black sleeves",
+          "color": "black"
+        },
+        {
+          "tag": "white sleeves",
+          "color": "white"
+        },
+        {
+          "tag": "grey sleeves",
+          "color": "grey"
+        },
+        {
+          "tag": "red sleeves",
+          "color": "red"
+        },
+        {
+          "tag": "pink sleeves",
+          "color": "pink"
+        },
+        {
+          "tag": "orange sleeves",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow sleeves",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown sleeves",
+          "color": "brown"
+        },
+        {
+          "tag": "green sleeves",
+          "color": "green"
+        },
+        {
+          "tag": "blue sleeves",
+          "color": "blue"
+        },
+        {
+          "tag": "purple sleeves",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "socks",
+      "ja": "靴下",
+      "baseTag": "socks",
+      "members": [
+        "socks",
+        "black socks",
+        "white socks",
+        "grey socks",
+        "red socks",
+        "pink socks",
+        "orange socks",
+        "yellow socks",
+        "brown socks",
+        "green socks",
+        "blue socks",
+        "purple socks"
+      ],
+      "options": [
+        {
+          "tag": "black socks",
+          "color": "black"
+        },
+        {
+          "tag": "white socks",
+          "color": "white"
+        },
+        {
+          "tag": "grey socks",
+          "color": "grey"
+        },
+        {
+          "tag": "red socks",
+          "color": "red"
+        },
+        {
+          "tag": "pink socks",
+          "color": "pink"
+        },
+        {
+          "tag": "orange socks",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow socks",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown socks",
+          "color": "brown"
+        },
+        {
+          "tag": "green socks",
+          "color": "green"
+        },
+        {
+          "tag": "blue socks",
+          "color": "blue"
+        },
+        {
+          "tag": "purple socks",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sports bra",
+      "ja": "スポーツブラ",
+      "baseTag": "sports bra",
+      "members": [
+        "sports bra",
+        "black sports bra",
+        "white sports bra",
+        "grey sports bra",
+        "red sports bra",
+        "pink sports bra",
+        "blue sports bra"
+      ],
+      "options": [
+        {
+          "tag": "black sports bra",
+          "color": "black"
+        },
+        {
+          "tag": "white sports bra",
+          "color": "white"
+        },
+        {
+          "tag": "grey sports bra",
+          "color": "grey"
+        },
+        {
+          "tag": "red sports bra",
+          "color": "red"
+        },
+        {
+          "tag": "pink sports bra",
+          "color": "pink"
+        },
+        {
+          "tag": "blue sports bra",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "suit",
+      "ja": "スーツ",
+      "baseTag": "suit",
+      "members": [
+        "suit",
+        "black suit",
+        "white suit",
+        "grey suit",
+        "red suit",
+        "blue suit"
+      ],
+      "options": [
+        {
+          "tag": "black suit",
+          "color": "black"
+        },
+        {
+          "tag": "white suit",
+          "color": "white"
+        },
+        {
+          "tag": "grey suit",
+          "color": "grey"
+        },
+        {
+          "tag": "red suit",
+          "color": "red"
+        },
+        {
+          "tag": "blue suit",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "sweater",
+      "ja": "セーター",
+      "baseTag": "sweater",
+      "members": [
+        "sweater",
+        "black sweater",
+        "white sweater",
+        "grey sweater",
+        "red sweater",
+        "pink sweater",
+        "orange sweater",
+        "yellow sweater",
+        "brown sweater",
+        "green sweater",
+        "blue sweater",
+        "purple sweater"
+      ],
+      "options": [
+        {
+          "tag": "black sweater",
+          "color": "black"
+        },
+        {
+          "tag": "white sweater",
+          "color": "white"
+        },
+        {
+          "tag": "grey sweater",
+          "color": "grey"
+        },
+        {
+          "tag": "red sweater",
+          "color": "red"
+        },
+        {
+          "tag": "pink sweater",
+          "color": "pink"
+        },
+        {
+          "tag": "orange sweater",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow sweater",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown sweater",
+          "color": "brown"
+        },
+        {
+          "tag": "green sweater",
+          "color": "green"
+        },
+        {
+          "tag": "blue sweater",
+          "color": "blue"
+        },
+        {
+          "tag": "purple sweater",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "sweater vest",
+      "ja": "セーターベスト",
+      "baseTag": "sweater vest",
+      "members": [
+        "sweater vest",
+        "black sweater vest",
+        "grey sweater vest",
+        "yellow sweater vest",
+        "brown sweater vest",
+        "green sweater vest",
+        "blue sweater vest"
+      ],
+      "options": [
+        {
+          "tag": "black sweater vest",
+          "color": "black"
+        },
+        {
+          "tag": "grey sweater vest",
+          "color": "grey"
+        },
+        {
+          "tag": "yellow sweater vest",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown sweater vest",
+          "color": "brown"
+        },
+        {
+          "tag": "green sweater vest",
+          "color": "green"
+        },
+        {
+          "tag": "blue sweater vest",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "tabard",
+      "ja": "タバード",
+      "baseTag": "tabard",
+      "members": [
+        "tabard",
+        "red tabard",
+        "blue tabard",
+        "purple tabard"
+      ],
+      "options": [
+        {
+          "tag": "red tabard",
+          "color": "red"
+        },
+        {
+          "tag": "blue tabard",
+          "color": "blue"
+        },
+        {
+          "tag": "purple tabard",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "ja": "しっぽ",
+      "baseTag": "tail",
+      "members": [
+        "tail",
+        "black tail",
+        "white tail",
+        "grey tail",
+        "red tail",
+        "pink tail",
+        "orange tail",
+        "yellow tail",
+        "brown tail",
+        "green tail",
+        "blue tail",
+        "purple tail"
+      ],
+      "options": [
+        {
+          "tag": "black tail",
+          "color": "black"
+        },
+        {
+          "tag": "white tail",
+          "color": "white"
+        },
+        {
+          "tag": "grey tail",
+          "color": "grey"
+        },
+        {
+          "tag": "red tail",
+          "color": "red"
+        },
+        {
+          "tag": "pink tail",
+          "color": "pink"
+        },
+        {
+          "tag": "orange tail",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow tail",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown tail",
+          "color": "brown"
+        },
+        {
+          "tag": "green tail",
+          "color": "green"
+        },
+        {
+          "tag": "blue tail",
+          "color": "blue"
+        },
+        {
+          "tag": "purple tail",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "tank top",
+      "ja": "タンクトップ",
+      "baseTag": "tank top",
+      "members": [
+        "tank top",
+        "black tank top",
+        "white tank top",
+        "grey tank top",
+        "red tank top",
+        "pink tank top",
+        "yellow tank top",
+        "green tank top",
+        "blue tank top"
+      ],
+      "options": [
+        {
+          "tag": "black tank top",
+          "color": "black"
+        },
+        {
+          "tag": "white tank top",
+          "color": "white"
+        },
+        {
+          "tag": "grey tank top",
+          "color": "grey"
+        },
+        {
+          "tag": "red tank top",
+          "color": "red"
+        },
+        {
+          "tag": "pink tank top",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow tank top",
+          "color": "yellow"
+        },
+        {
+          "tag": "green tank top",
+          "color": "green"
+        },
+        {
+          "tag": "blue tank top",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "theme",
+      "ja": "色調",
+      "baseTag": null,
+      "members": [
+        "black theme",
+        "white theme",
+        "grey theme",
+        "red theme",
+        "pink theme",
+        "orange theme",
+        "yellow theme",
+        "brown theme",
+        "green theme",
+        "blue theme",
+        "purple theme"
+      ],
+      "options": [
+        {
+          "tag": "black theme",
+          "color": "black"
+        },
+        {
+          "tag": "white theme",
+          "color": "white"
+        },
+        {
+          "tag": "grey theme",
+          "color": "grey"
+        },
+        {
+          "tag": "red theme",
+          "color": "red"
+        },
+        {
+          "tag": "pink theme",
+          "color": "pink"
+        },
+        {
+          "tag": "orange theme",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow theme",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown theme",
+          "color": "brown"
+        },
+        {
+          "tag": "green theme",
+          "color": "green"
+        },
+        {
+          "tag": "blue theme",
+          "color": "blue"
+        },
+        {
+          "tag": "purple theme",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "thighhighs",
+      "ja": "ニーソックス",
+      "baseTag": "thighhighs",
+      "members": [
+        "thighhighs",
+        "black thighhighs",
+        "white thighhighs",
+        "grey thighhighs",
+        "red thighhighs",
+        "pink thighhighs",
+        "orange thighhighs",
+        "yellow thighhighs",
+        "brown thighhighs",
+        "green thighhighs",
+        "blue thighhighs",
+        "purple thighhighs"
+      ],
+      "options": [
+        {
+          "tag": "black thighhighs",
+          "color": "black"
+        },
+        {
+          "tag": "white thighhighs",
+          "color": "white"
+        },
+        {
+          "tag": "grey thighhighs",
+          "color": "grey"
+        },
+        {
+          "tag": "red thighhighs",
+          "color": "red"
+        },
+        {
+          "tag": "pink thighhighs",
+          "color": "pink"
+        },
+        {
+          "tag": "orange thighhighs",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow thighhighs",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown thighhighs",
+          "color": "brown"
+        },
+        {
+          "tag": "green thighhighs",
+          "color": "green"
+        },
+        {
+          "tag": "blue thighhighs",
+          "color": "blue"
+        },
+        {
+          "tag": "purple thighhighs",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "tongue",
+      "ja": "舌",
+      "baseTag": "tongue",
+      "members": [
+        "tongue",
+        "blue tongue",
+        "purple tongue"
+      ],
+      "options": [
+        {
+          "tag": "blue tongue",
+          "color": "blue"
+        },
+        {
+          "tag": "purple tongue",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "track suit",
+      "ja": "ジャージ",
+      "baseTag": "track suit",
+      "members": [
+        "track suit",
+        "red track suit",
+        "pink track suit"
+      ],
+      "options": [
+        {
+          "tag": "red track suit",
+          "color": "red"
+        },
+        {
+          "tag": "pink track suit",
+          "color": "pink"
+        }
+      ]
+    },
+    {
+      "id": "trim",
+      "ja": "縁取りの色",
+      "baseTag": null,
+      "members": [
+        "white trim",
+        "silver trim",
+        "red trim",
+        "pink trim",
+        "yellow trim",
+        "gold trim",
+        "blue trim"
+      ],
+      "options": [
+        {
+          "tag": "white trim",
+          "color": "white"
+        },
+        {
+          "tag": "silver trim",
+          "color": "silver"
+        },
+        {
+          "tag": "red trim",
+          "color": "red"
+        },
+        {
+          "tag": "pink trim",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow trim",
+          "color": "yellow"
+        },
+        {
+          "tag": "gold trim",
+          "color": "gold"
+        },
+        {
+          "tag": "blue trim",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "tube top",
+      "ja": "チューブトップ",
+      "baseTag": "tube top",
+      "members": [
+        "tube top",
+        "black tube top",
+        "white tube top"
+      ],
+      "options": [
+        {
+          "tag": "black tube top",
+          "color": "black"
+        },
+        {
+          "tag": "white tube top",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "tunic",
+      "ja": "チュニック",
+      "baseTag": "tunic",
+      "members": [
+        "tunic",
+        "white tunic",
+        "green tunic",
+        "blue tunic"
+      ],
+      "options": [
+        {
+          "tag": "white tunic",
+          "color": "white"
+        },
+        {
+          "tag": "green tunic",
+          "color": "green"
+        },
+        {
+          "tag": "blue tunic",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "umbrella",
+      "ja": "傘",
+      "baseTag": "umbrella",
+      "members": [
+        "umbrella",
+        "black umbrella",
+        "white umbrella",
+        "red umbrella",
+        "pink umbrella",
+        "blue umbrella",
+        "purple umbrella"
+      ],
+      "options": [
+        {
+          "tag": "black umbrella",
+          "color": "black"
+        },
+        {
+          "tag": "white umbrella",
+          "color": "white"
+        },
+        {
+          "tag": "red umbrella",
+          "color": "red"
+        },
+        {
+          "tag": "pink umbrella",
+          "color": "pink"
+        },
+        {
+          "tag": "blue umbrella",
+          "color": "blue"
+        },
+        {
+          "tag": "purple umbrella",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "undershirt",
+      "ja": "肌着",
+      "baseTag": "undershirt",
+      "members": [
+        "undershirt",
+        "black undershirt",
+        "white undershirt"
+      ],
+      "options": [
+        {
+          "tag": "black undershirt",
+          "color": "black"
+        },
+        {
+          "tag": "white undershirt",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "id": "veil",
+      "ja": "ベール",
+      "baseTag": "veil",
+      "members": [
+        "veil",
+        "black veil",
+        "white veil",
+        "blue veil",
+        "purple veil"
+      ],
+      "options": [
+        {
+          "tag": "black veil",
+          "color": "black"
+        },
+        {
+          "tag": "white veil",
+          "color": "white"
+        },
+        {
+          "tag": "blue veil",
+          "color": "blue"
+        },
+        {
+          "tag": "purple veil",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "vest",
+      "ja": "ベスト",
+      "baseTag": "vest",
+      "members": [
+        "vest",
+        "black vest",
+        "white vest",
+        "grey vest",
+        "red vest",
+        "pink vest",
+        "orange vest",
+        "yellow vest",
+        "brown vest",
+        "green vest",
+        "blue vest",
+        "purple vest"
+      ],
+      "options": [
+        {
+          "tag": "black vest",
+          "color": "black"
+        },
+        {
+          "tag": "white vest",
+          "color": "white"
+        },
+        {
+          "tag": "grey vest",
+          "color": "grey"
+        },
+        {
+          "tag": "red vest",
+          "color": "red"
+        },
+        {
+          "tag": "pink vest",
+          "color": "pink"
+        },
+        {
+          "tag": "orange vest",
+          "color": "orange"
+        },
+        {
+          "tag": "yellow vest",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown vest",
+          "color": "brown"
+        },
+        {
+          "tag": "green vest",
+          "color": "green"
+        },
+        {
+          "tag": "blue vest",
+          "color": "blue"
+        },
+        {
+          "tag": "purple vest",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "visor",
+      "ja": "色違いを選択",
+      "baseTag": null,
+      "members": [
+        "green visor",
+        "blue visor"
+      ],
+      "options": [
+        {
+          "tag": "green visor",
+          "color": "green"
+        },
+        {
+          "tag": "blue visor",
+          "color": "blue"
+        }
+      ]
+    },
+    {
+      "id": "wings",
+      "ja": "翼",
+      "baseTag": "wings",
+      "members": [
+        "wings",
+        "black wings",
+        "white wings",
+        "grey wings",
+        "red wings",
+        "pink wings",
+        "yellow wings",
+        "brown wings",
+        "green wings",
+        "blue wings",
+        "purple wings"
+      ],
+      "options": [
+        {
+          "tag": "black wings",
+          "color": "black"
+        },
+        {
+          "tag": "white wings",
+          "color": "white"
+        },
+        {
+          "tag": "grey wings",
+          "color": "grey"
+        },
+        {
+          "tag": "red wings",
+          "color": "red"
+        },
+        {
+          "tag": "pink wings",
+          "color": "pink"
+        },
+        {
+          "tag": "yellow wings",
+          "color": "yellow"
+        },
+        {
+          "tag": "brown wings",
+          "color": "brown"
+        },
+        {
+          "tag": "green wings",
+          "color": "green"
+        },
+        {
+          "tag": "blue wings",
+          "color": "blue"
+        },
+        {
+          "tag": "purple wings",
+          "color": "purple"
+        }
+      ]
+    },
+    {
+      "id": "wrist cuffs",
+      "ja": "手首のカフス",
+      "baseTag": "wrist cuffs",
+      "members": [
+        "wrist cuffs",
+        "black wrist cuffs",
+        "white wrist cuffs",
+        "pink wrist cuffs",
+        "blue wrist cuffs"
+      ],
+      "options": [
+        {
+          "tag": "black wrist cuffs",
+          "color": "black"
+        },
+        {
+          "tag": "white wrist cuffs",
+          "color": "white"
+        },
+        {
+          "tag": "pink wrist cuffs",
+          "color": "pink"
+        },
+        {
+          "tag": "blue wrist cuffs",
+          "color": "blue"
+        }
+      ]
+    }
+  ]
+}
