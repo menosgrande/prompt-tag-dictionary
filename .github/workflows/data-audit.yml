@@ -6,6 +6,9 @@ on:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
+      - "data/tag-classification-candidates.json"
+      - "scripts/build-classification-candidates.mjs"
+      - "tests/build-classification-candidates.test.mjs"
       - "scripts/audit-taxonomy.mjs"
       - "admin.html"
       - "admin.css"
@@ -27,6 +30,9 @@ on:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
+      - "data/tag-classification-candidates.json"
+      - "scripts/build-classification-candidates.mjs"
+      - "tests/build-classification-candidates.test.mjs"
       - "scripts/audit-taxonomy.mjs"
       - "admin.html"
       - "admin.css"
@@ -64,6 +70,12 @@ jobs:
         run: node scripts/audit-prompt-order.mjs
       - name: Audit canonical tag taxonomy
         run: node scripts/audit-taxonomy.mjs
+      - name: Check classification candidate generator syntax
+        run: node --check scripts/build-classification-candidates.mjs
+      - name: Test classification candidate generator
+        run: node --test tests/build-classification-candidates.test.mjs
+      - name: Audit classification candidates are current
+        run: node scripts/build-classification-candidates.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
