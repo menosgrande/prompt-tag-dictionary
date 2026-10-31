@@ -457,14 +457,70 @@
       state.tags.find(tag => norm(tag.tag) === norm(option.tag))
     ).filter(Boolean);
   }
+  function legacyColorGroupCategory(tag) {
+    const major = tag.category?.[0] || "未分類";
+    const minor = tag.category?.[1] || "未分類";
+    const majorMap = {
+      "人物":"人物・キャラクター",
+      "作品・キャラクター":"人物・キャラクター",
+      "背景・場所":"背景・環境",
+      "構図・視点":"構図・カメラ",
+      "画風・品質":minor === "品質" ? "品質・スコア" : "画風・描写",
+      "光・色彩":"光・色彩・演出",
+      "服装":"服装・装飾",
+      "ポーズ・動作":minor === "姿勢" ? "ポーズ・姿勢" : "動作・接触",
+      "シチュエーション":"動作・接触",
+      "その他":"背景・環境",
+      "成人向け":minor === "身体・衣類" ? "服装・装飾" : "動作・接触"
+    };
+    const mappedMajor = majorMap[major];
+    if (!mappedMajor) return null;
+    const minorMaps = {
+      "人物": {"人数":"人数・人物属性","性別・体形":"人数・人物属性","年齢":"人数・人物属性","頭髪":"髪・頭部","顔・表情":"顔・表情","目":"目","胸":"身体部位・身体状態","身体・部位":"身体部位・身体状態","種族・役割":"種族・役割"},
+      "作品・キャラクター": {"作品名・シリーズ":"作品・シリーズ","キャラクター":"キャラクター","作者・配信者":"作者・配信者"},
+      "背景・場所": {"屋内":"場所・室内外","施設":"場所・室内外","都市":"場所・室内外","自然":"自然・風景","時間・天候":"天候・時間帯"},
+      "構図・視点": {"構図":"構図・配置","撮影範囲":"撮影距離","カメラ角度":"カメラアングル","視点":"視点・視線"},
+      "画風・品質": {"画風":"画風・表現様式","品質":"高品質・傑作","描写技法":"描画技法","媒体":"媒体"},
+      "光・色彩": {"色":"色調・色彩","色調":"色調・色彩","照明":"照明・光源"},
+      "服装": {"衣類":"衣服","靴":"靴・履物","小物":"装飾品","下着・水着":/bikini|swimsuit|swimwear/.test(groupBaseTagName(tag)) ? "水着" : "下着","装備":"装備・防具"},
+      "ポーズ・動作": {"姿勢":"基本姿勢","行動":"日常動作","手の動き":"手の動作","対人動作":"対人接触・動作"},
+      "シチュエーション": {"関係性":"対人接触・動作","日常":"日常動作","イベント":"日常動作","成人向け状況":"対人接触・動作"},
+      "その他": {"動物":"自然・風景","物":"物体・小道具","自然物":"自然・風景","記号・効果":"演出効果"},
+      "成人向け": {"身体・衣類":"下着","行為・状況":"身体への接触","表現・修正":"演出効果"}
+    };
+    return [mappedMajor, minorMaps[major]?.[minor] || "未分類", "—"];
+  }
+  function groupBaseTagName(tag) {
+    return String(tag.tag || "").toLowerCase();
+  }
   function colorGroupCategory(group) {
+    const base = group.baseTag && state.tags.find(tag => norm(tag.tag) === norm(group.baseTag));
+    if (base) {
+      const candidate = classificationOf(base);
+      if (candidate?.status === "provisional" && candidate.categoryId) return [majorOf(base), minorOf(base), detailOf(base)];
+      const legacy = legacyColorGroupCategory(base);
+      if (legacy) return legacy;
+    }
     const counts = new Map();
     colorGroupMembers(group).forEach(tag => {
+      const candidate = classificationOf(tag);
+      if (candidate?.status !== "provisional" || !candidate.categoryId) return;
       const category = [majorOf(tag), minorOf(tag), detailOf(tag)];
       const key = JSON.stringify(category);
       counts.set(key, { category, count: (counts.get(key)?.count || 0) + 1 });
     });
-    return [...counts.values()].sort((a,b)=>b.count-a.count)[0]?.category || ["未分類","未分類","—"];
+    const classified = [...counts.values()].sort((a,b)=>b.count-a.count)[0]?.category;
+    if (classified) return classified;
+    const baseOverrides = {
+      hair:["人物・キャラクター","髪・頭部","—"], eyes:["人物・キャラクター","目","—"],
+      pupils:["人物・キャラクター","目","—"], sclera:["人物・キャラクター","目","—"],
+      background:["背景・環境","場所・室内外","—"], footwear:["服装・装飾","靴・履物","—"],
+      fur:["人物・キャラクター","身体部位・身体状態","—"], hands:["人物・キャラクター","身体部位・身体状態","—"],
+      nails:["人物・キャラクター","身体部位・身体状態","—"], skin:["人物・キャラクター","身体部位・身体状態","—"],
+      sleeves:["服装・装飾","衣服","—"], theme:["光・色彩・演出","色調・色彩","—"],
+      gemstone:["背景・環境","物体・小道具","—"], trim:["服装・装飾","衣服","—"]
+    };
+    return baseOverrides[group.id] || ["未分類","未分類","—"];
   }
   function categoryCounts() {
     const counts = new Map();
