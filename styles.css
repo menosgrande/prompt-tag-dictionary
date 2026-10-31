@@ -600,8 +600,6 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .tag-group-row{grid-template-columns:24px minmax(0,1fr) minmax(100px,130px) minmax(150px,210px);background:#242a33}
 .tag-group-marker{color:var(--accent);font-size:15px;text-align:center}
 .tag-group-row .tag-english{color:var(--accent)}
-.tag-group-select{width:100%;min-width:0;height:32px;border:1px solid var(--line);border-radius:7px;background:var(--surface);padding:0 7px;font-size:11px}
-@media(max-width:720px){.tag-group-row{grid-template-columns:16px minmax(0,1fr) minmax(110px,42%);gap:6px}.tag-group-row .tag-category{display:none}.tag-group-select{grid-column:3;grid-row:1;height:30px;font-size:10px}}
 
 /* Compact undo/redo controls for the editable prompt preview. */
 .edit-history{display:inline-flex;gap:4px;margin-left:auto}
@@ -700,12 +698,5 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 
 
 /* Color-only variants are represented by one concept row and an exact source-tag selector. */
-.tag-color-group-row{background:rgba(116,145,178,.075)}
-.tag-color-group-row .tag-group-marker{color:var(--accent)}
-.tag-color-group-row .tag-english{color:var(--text)}
-.tag-color-group-row .tag-japanese{color:var(--muted)}
-.tag-color-group-row .tag-category{font-size:10px;color:var(--muted)}
-.tag-color-group-row .tag-group-select{border-color:var(--accent);max-width:220px}
 @media(max-width:720px){
-  .tag-color-group-row .tag-group-select{max-width:none}
 }
