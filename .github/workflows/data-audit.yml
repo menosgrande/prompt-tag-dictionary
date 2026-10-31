@@ -6,6 +6,8 @@ on:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
+      - "data/tag-groups.json"
+      - "scripts/audit-tag-groups.mjs"
       - "data/tag-classification-candidates.json"
       - "scripts/build-classification-candidates.mjs"
       - "tests/build-classification-candidates.test.mjs"
@@ -33,6 +35,8 @@ on:
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
+      - "data/tag-groups.json"
+      - "scripts/audit-tag-groups.mjs"
       - "data/tag-classification-candidates.json"
       - "scripts/build-classification-candidates.mjs"
       - "tests/build-classification-candidates.test.mjs"
@@ -98,3 +102,5 @@ jobs:
         run: node scripts/audit-tag-management.mjs
       - name: Audit translation candidates are current
         run: node scripts/audit-translations.mjs
+      - name: Audit work and tag groups
+        run: node scripts/audit-tag-groups.mjs
