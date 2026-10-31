@@ -92,6 +92,8 @@ jobs:
         run: node --check src/app.js
       - name: Test taxonomy browser integration
         run: node --test tests/taxonomy-browser.test.mjs
+      - name: Test dictionary UI layout
+        run: node --test tests/ui-layout.test.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
