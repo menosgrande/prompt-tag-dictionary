@@ -96,6 +96,7 @@
   };
   const ADMIN_MODE = false; // 編集は admin.html に集約。通常辞典は常に閲覧専用。
   let tagGroups = [];
+  let nsfwAudit = new Map();
   const state = { tags: [], selected: new Set(), category: null, page: 0, query: "", outputExcluded: new Set(), columnSort: null, expandedMajor: null, expandedMinor: null, expandedWorkGroups: new Set(), editMode: ADMIN_MODE, editingTag: null };
   const outputHistory = { undo: [], redo: [], last: { positive: "", negative: "" } };
 
@@ -375,6 +376,15 @@
       return r.json();
     }).then(data => Array.isArray(data) ? data : []);
   }
+  function seedNsfwAudit() {
+    return fetch("./data/nsfw-prompt-tag-audit.json").then(r => {
+      if (!r.ok) throw new Error("NSFW audit data missing");
+      return r.json();
+    }).then(data => {
+      const rows = Array.isArray(data.candidates) ? data.candidates : [];
+      nsfwAudit = new Map(rows.filter(item => item && item.tag).map(item => [norm(item.tag), item]));
+    });
+  }
   function seedTaxonomy() {
     return Promise.all([
       fetch("./data/tag-taxonomy.json"),
@@ -469,6 +479,15 @@
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
     renderSelectedDock();
   }
+  function nsfwInfoOf(t) {
+    const audit = nsfwAudit.get(norm(t.tag)) || {};
+    return {
+      rating: String(t.rating || t.proposedRating || ""),
+      nsfw: typeof t.nsfw === "boolean" ? t.nsfw : typeof audit.nsfw === "boolean" ? audit.nsfw : null,
+      status: t.ratingReviewStatus || (audit.review_status === "確認済み" ? "verified" : "unverified"),
+      reason: t.ratingReason || audit.review || ""
+    };
+  }
   function openTagInfo(t) {
     const dialog = $("#tag-info-dialog");
     const set = (id, value) => { const el = $("#" + id); if (el) el.textContent = value || "未登録"; };
@@ -476,11 +495,11 @@
     set("tag-info-ja", t.ja || "—");
     const displayed = displayClassification(t);
     set("tag-info-category", [displayed.major, displayed.minor, displayed.detail].filter(v => v && v !== "—").join(" › "));
-    const rating = String(t.rating || t.proposedRating || "");
+    const nsfw = nsfwInfoOf(t);
     const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
-    set("tag-info-rating", ratingLabels[rating] || (t.nsfw === true ? "要判定（NSFW候補）" : t.nsfw === false ? "LV.1候補（未確認）" : "未判定"));
-    set("tag-info-rating-status", t.ratingReviewStatus === "verified" ? "確認済み" : "未確認");
-    set("tag-info-rating-reason", t.ratingReason || "判定根拠はまだ登録されていません。");
+    set("tag-info-rating", ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補（レベル未判定）" : nsfw.nsfw === false ? "全年齢候補（未確認）" : "未判定"));
+    set("tag-info-rating-status", nsfw.status === "verified" ? "確認済み" : "未確認");
+    set("tag-info-rating-reason", nsfw.reason || "判定根拠はまだ登録されていません。");
     set("tag-info-meaning", t.explanation || "説明はまだ登録されていません。");
     set("tag-info-usage", t.usage || "用法はまだ登録されていません。");
     set("tag-info-examples", (t.examples || []).join(" / ") || "使用例はまだ登録されていません。");
@@ -1011,11 +1030,11 @@
       if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
 
-      const rating = String(t.rating || t.proposedRating || "");
+      const nsfw = nsfwInfoOf(t);
       const ratingLabels = { "全年齢":"LV.1", "R-13":"LV.2", "R-15":"LV.3", "R-18":"LV.4", "LV.1":"LV.1", "LV.2":"LV.2", "LV.3":"LV.3", "LV.4":"LV.4" };
-      const ratingText = ratingLabels[rating] || (t.nsfw === true ? "要判定" : t.nsfw === false ? "LV.1?" : "未判定");
-      const ratingCell = makeCell("tag-cell tag-rating", ratingText, t.ratingReviewStatus === "verified" ? "確認済み" : "NSFWレベル未確認");
-      if (t.ratingReviewStatus !== "verified" && ratingText !== "未判定") ratingCell.classList.add("is-provisional");
+      const ratingText = ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補" : nsfw.nsfw === false ? "全年齢候補" : "未判定");
+      const ratingCell = makeCell("tag-cell tag-rating", ratingText, nsfw.status === "verified" ? "確認済み" : "未確認。詳細で判定根拠を確認できます。");
+      if (nsfw.status !== "verified" && ratingText !== "未判定") ratingCell.classList.add("is-provisional");
 
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
@@ -1558,6 +1577,7 @@
     }
     wire(); initColumnResizing(); populateCustomCategories();
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
+    try { await seedNsfwAudit(); } catch { nsfwAudit = new Map(); }
     try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
     try { await seedTaxonomy(); } catch { tagTaxonomy = null; classificationCandidates = new Map(); }
     let saved = null;
