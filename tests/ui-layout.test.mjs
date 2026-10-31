@@ -27,4 +27,6 @@ test("rerendering the tag list preserves its vertical scroll position", () => {
   assert.match(app, /const previousScrollTop = root\.scrollTop;/);
   assert.match(app, /root\.scrollTop = previousScrollTop;/);
   assert.doesNotMatch(app, /head\.style\.transform\s*=\s*"translateX/);
+  assert.match(app, /function resetResultsViewport\(\)/);
+  assert.match(app, /resetResultsViewport\(\); state\.query = e\.target\.value/);
 });
