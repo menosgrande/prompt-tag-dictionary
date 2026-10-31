@@ -402,7 +402,7 @@
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
+  function majorOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[0] || "未分類"; const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・スコア", "人物・キャラクター", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・色彩・演出", "ネガティブ"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
@@ -435,8 +435,8 @@
     if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
-  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
-  function detailOf(t) { return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
+  function minorOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[1] || "未分類"; const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function detailOf(t) { if(t?.isColorGroup && Array.isArray(t.category)) return t.category[2] || "—"; return tagTaxonomy ? "—" : (t.category && t.category[2]) || "—"; }
   function categoryText(t) {
     const a = majorOf(t), b = minorOf(t), c = detailOf(t);
     if (a === "未分類") return "未分類";
@@ -750,7 +750,7 @@
           norm([member.tag, member.ja, ...(member.aliases || [])].join(" "))
         );
         return queryTerms.every(term => groupText.includes(term) || memberText.some(text => text.includes(term)));
-      }).map(group => ({ ...group, isTagGroup: true, isColorGroup: true, tag: group.id, ja: group.ja || "色違い" }));
+      }).map(group => ({ ...group, category: colorGroupCategory(group), isTagGroup: true, isColorGroup: true, tag: group.id, ja: group.ja || "色違い" }));
       list.push(...groups);
     }
     const sort = $("#sort-order").value;
