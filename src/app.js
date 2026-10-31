@@ -510,8 +510,8 @@
     const panel = $("#results-panel");
     const head = panel?.querySelector(".table-head");
     if (!panel || !head) return;
-    const key = "ptd.tagColumns.v1";
-    const defaults = [36, 190, 160, 120, 120, 120, 76, 64, 64, 64, 58, 42];
+    const key = "ptd.tagColumns.v2";
+    const defaults = [36, 190, 160, 120, 120, 120, 76, 58, 42];
     let widths = defaults.slice();
     try {
       const saved = JSON.parse(localStorage.getItem(key) || "null");
@@ -524,7 +524,7 @@
       panel.style.setProperty("--tag-list-columns", template);
       head.querySelectorAll(".column-resize").forEach(handle => {
         const index = Number(handle.dataset.columnIndex);
-        handle.setAttribute("aria-valuemin", String(index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48));
+        handle.setAttribute("aria-valuemin", String(index === 0 ? 30 : index >= 7 ? 48 : 48));
         handle.setAttribute("aria-valuemax", "520");
         handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
       });
@@ -1056,12 +1056,12 @@
         });
         target.append(group);
       }
-      const tagVote = document.createElement("div"); tagVote.className = "tag-vote-cell";
-      const translationVote = document.createElement("div"); translationVote.className = "tag-vote-cell";
-      const categoryVote = document.createElement("div"); categoryVote.className = "tag-vote-cell";
-      appendVotes(tagVote, "タグ " + t.tag, "tag");
-      appendVotes(translationVote, "日本語訳 " + (t.ja || "訳なし"), "translation");
-      appendVotes(categoryVote, "分類 " + categoryText(t), "category");
+      tagLabel.classList.add("vote-inline-cell");
+      japanese.classList.add("vote-inline-cell");
+      majorCell.classList.add("vote-inline-cell");
+      appendVotes(tagLabel, "タグ " + t.tag, "tag");
+      appendVotes(japanese, "日本語訳 " + (t.ja || "訳なし"), "translation");
+      appendVotes(majorCell, "分類 " + categoryText(t), "category");
 
       const editCell = document.createElement("div"); editCell.className = "tag-edit-cell";
       if (state.editMode) {
@@ -1075,7 +1075,7 @@
       info.title = "意味・用法・分類・NSFWレベルを確認";
       const infoCell = document.createElement("div"); infoCell.className = "tag-info-cell"; infoCell.append(info);
 
-      row.append(check, tagLabel, japanese, majorCell, minorCell, detailCell, ratingCell, tagVote, translationVote, categoryVote, editCell, infoCell);
+      row.append(check, tagLabel, japanese, majorCell, minorCell, detailCell, ratingCell, editCell, infoCell);
       row.title = t.tag;
       root.append(row);
     });
