@@ -492,7 +492,7 @@
     const head = panel?.querySelector(".table-head");
     if (!panel || !head) return;
     const key = "ptd.tagColumns.v1";
-    const defaults = [36, 190, 160, 120, 120, 120, 76, 48, 48, 48, 58, 42];
+    const defaults = [36, 190, 160, 120, 120, 120, 76, 64, 64, 64, 58, 42];
     let widths = defaults.slice();
     try {
       const saved = JSON.parse(localStorage.getItem(key) || "null");
@@ -505,6 +505,8 @@
       panel.style.setProperty("--tag-list-columns", template);
       head.querySelectorAll(".column-resize").forEach(handle => {
         const index = Number(handle.dataset.columnIndex);
+        handle.setAttribute("aria-valuemin", String(index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48));
+        handle.setAttribute("aria-valuemax", "520");
         handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
       });
     };
@@ -515,7 +517,7 @@
     apply();
     head.querySelectorAll(".column-resize").forEach(handle => {
       const index = Number(handle.dataset.columnIndex);
-      const min = index === 0 ? 30 : 48;
+      const min = index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48;
       const resizeTo = value => {
         widths[index] = Math.max(min, Math.min(520, value));
         apply(); save();
