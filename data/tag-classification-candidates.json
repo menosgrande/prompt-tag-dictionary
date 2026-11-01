@@ -5,9 +5,9 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5881,
-    "needsReview": 135,
-    "unclassified": 5013,
+    "proposed": 5877,
+    "needsReview": 139,
+    "unclassified": 5017,
     "entries": 6016
   },
   "entries": [
@@ -59740,11 +59740,11 @@
       "tag": "abandoned",
       "legacyMajor": "未分類",
       "legacyMinor": "未分類",
-      "categoryId": "background",
-      "subcategoryId": "locations",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは分類先を一意に判断できないため保留。"
     },
     {
       "tag": "abstract background",
@@ -59910,11 +59910,11 @@
       "tag": "adidas",
       "legacyMajor": "未分類",
       "legacyMinor": "未分類",
-      "categoryId": "clothing",
-      "subcategoryId": "accessories",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは分類先を一意に判断できないため保留。"
     },
     {
       "tag": "aiguillette",
@@ -59931,7 +59931,7 @@
       "legacyMajor": "未分類",
       "legacyMinor": "未分類",
       "categoryId": "clothing",
-      "subcategoryId": "headwear",
+      "subcategoryId": "accessories",
       "status": "provisional",
       "confidence": "medium",
       "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
@@ -59980,21 +59980,21 @@
       "tag": "accident",
       "legacyMajor": "未分類",
       "legacyMinor": "未分類",
-      "categoryId": "action",
-      "subcategoryId": "body-action",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは分類先を一意に判断できないため保留。"
     },
     {
       "tag": "affectionate",
       "legacyMajor": "未分類",
       "legacyMinor": "未分類",
-      "categoryId": "lighting",
-      "subcategoryId": "atmosphere",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは分類先を一意に判断できないため保留。"
     },
     {
       "tag": "afloat",
