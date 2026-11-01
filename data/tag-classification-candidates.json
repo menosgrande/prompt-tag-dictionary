@@ -5,10 +5,10 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5750,
-    "needsReview": 136,
-    "unclassified": 5143,
-    "entries": 5886
+    "proposed": 5808,
+    "needsReview": 135,
+    "unclassified": 5086,
+    "entries": 5943
   },
   "entries": [
     {
@@ -412,10 +412,10 @@
     },
     {
       "tag": "7th dragon (series)",
-      "legacyMajor": "その他",
-      "legacyMinor": "動物",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "species-role",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -462,10 +462,10 @@
     },
     {
       "tag": "abigail williams (swimsuit foreigner) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -568,6 +568,16 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "動作を表す語を検出。"
+    },
+    {
+      "tag": "ace attorney",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "acheron (honkai: star rail)",
@@ -695,6 +705,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "adventure time",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -845,6 +865,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aikatsu!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1345,6 +1375,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "among us",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2981,10 +3021,10 @@
     },
     {
       "tag": "artoria pendragon (alter swimsuit rider) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -3021,10 +3061,10 @@
     },
     {
       "tag": "artoria pendragon (swimsuit ruler) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -3423,6 +3463,16 @@
       "legacyMinor": "装備",
       "categoryId": "clothing",
       "subcategoryId": "equipment",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "axis powers hetalia",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -3995,6 +4045,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "bang dream!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "bangboo (zenless zone zero)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -4345,10 +4405,10 @@
     },
     {
       "tag": "bb (swimsuit mooncancer) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -4748,6 +4808,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "bemani",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -6462,6 +6532,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "bleach: sennen kessen-hen",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "blonde hair",
       "legacyMajor": "人物",
       "legacyMinor": "頭髪",
@@ -8016,6 +8096,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "boruto: naruto next generations",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -12486,6 +12576,16 @@
       "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
+      "tag": "covered testicles",
+      "legacyMajor": "成人向け",
+      "legacyMinor": "身体・衣類",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に身体部位を示す語があるため。"
+    },
+    {
       "tag": "covering breasts",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
@@ -13702,6 +13802,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "dark souls iii",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "dark-skinned female",
       "legacyMajor": "人物",
       "legacyMinor": "性別・体形",
@@ -13723,10 +13833,10 @@
     },
     {
       "tag": "darker than black",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -13773,6 +13883,16 @@
     },
     {
       "tag": "deadpool (series)",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "death note",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
@@ -14409,10 +14529,10 @@
     },
     {
       "tag": "dog days",
-      "legacyMajor": "その他",
-      "legacyMinor": "動物",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "species-role",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -14489,10 +14609,10 @@
     },
     {
       "tag": "don quixote (project moon)",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -14669,10 +14789,10 @@
     },
     {
       "tag": "dragon ball gt",
-      "legacyMajor": "その他",
-      "legacyMinor": "動物",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "species-role",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -15103,6 +15223,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "dungeon and fighter",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -16562,21 +16692,111 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "fate/apocrypha",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/extella",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/extra",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/extra ccc",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/grand order",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/hollow ataraxia",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/prototype",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "fate/prototype: fragments of blue and silver",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/samurai remnant",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "fate/stay night",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "時間・天候",
-      "categoryId": "background",
-      "subcategoryId": "weather-time",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "fate/zero",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -16602,10 +16822,10 @@
     },
     {
       "tag": "faust (project moon)",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -16871,6 +17091,36 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "final fantasy vii advent children",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "final fantasy vii ever crisis",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "final fantasy vii remake",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "fine details",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
@@ -17030,6 +17280,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "fire emblem echoes: shadows of valentia",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "fire emblem engage",
       "legacyMajor": "その他",
       "legacyMinor": "記号・効果",
@@ -17041,10 +17301,10 @@
     },
     {
       "tag": "fire emblem fates",
-      "legacyMajor": "その他",
-      "legacyMinor": "記号・効果",
-      "categoryId": "lighting",
-      "subcategoryId": "effects",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -18324,6 +18584,16 @@
       "legacyMinor": "顔・表情",
       "categoryId": "person",
       "subcategoryId": "face-expression",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "free!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -19646,6 +19916,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "glowing tattoo",
+      "legacyMajor": "人物",
+      "legacyMinor": "身体・部位",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "glowing weapon",
       "legacyMajor": "その他",
       "legacyMinor": "物",
@@ -19711,6 +19991,16 @@
       "legacyMinor": "照明",
       "categoryId": "lighting",
       "subcategoryId": "lighting-source",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "goddess of victory: nikke",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -21715,6 +22005,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "guilty gear xrd",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "guitar",
       "legacyMajor": "その他",
       "legacyMinor": "物",
@@ -21780,6 +22080,16 @@
       "legacyMinor": "動物",
       "categoryId": "person",
       "subcategoryId": "species-role",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "gundam zz",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -24222,10 +24532,10 @@
     },
     {
       "tag": "high school dxd",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -26581,10 +26891,10 @@
     },
     {
       "tag": "hong lu (project moon)",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -28286,6 +28596,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "kagerou project",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "kaito (vocaloid)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -28471,6 +28791,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "katekyo hitman reborn!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -28797,6 +29127,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "kirakira precure a la mode",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -31255,20 +31595,20 @@
     },
     {
       "tag": "love live! school idol festival all stars",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "love live! school idol project",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "自然",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -31668,6 +32008,26 @@
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "mahou shoujo lyrical nanoha",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "mahou shoujo lyrical nanoha strikers",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -32584,10 +32944,10 @@
     },
     {
       "tag": "meltryllis (swimsuit lancer) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -33083,10 +33443,10 @@
     },
     {
       "tag": "miyamoto musashi (swimsuit berserker) (fate)",
-      "legacyMajor": "服装",
-      "legacyMinor": "衣類",
-      "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -34679,7 +35039,27 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "naruto",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "naruto (series)",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "naruto shippuuden",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
@@ -34900,10 +35280,10 @@
     },
     {
       "tag": "needy girl overdose",
-      "legacyMajor": "人物",
-      "legacyMinor": "性別・体形",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "body-shape",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -35545,6 +35925,16 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "no testicles",
+      "legacyMajor": "成人向け",
+      "legacyMinor": "身体・衣類",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に身体部位を示す語があるため。"
     },
     {
       "tag": "no wings",
@@ -46801,10 +47191,10 @@
     },
     {
       "tag": "show by rock!!",
-      "legacyMajor": "その他",
-      "legacyMinor": "自然物",
-      "categoryId": "background",
-      "subcategoryId": "nature-landscape",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -52560,12 +52950,13 @@
     },
     {
       "tag": "tokyo 7th sisters",
-      "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "tokyo-3 middle school uniform",
@@ -58426,6 +58817,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "yoisaki kanade",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "yoru (chainsaw man)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -58436,11 +58837,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "yoshida yuuko (machikado mazoku)",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "yoshimi (blue archive)",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yotsubato!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58457,10 +58878,10 @@
     },
     {
       "tag": "youkai watch",
-      "legacyMajor": "人物",
-      "legacyMinor": "種族・役割",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "species-role",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58486,6 +58907,46 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "yu-gi-oh!",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yu-gi-oh! arc-v",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yu-gi-oh! duel monsters",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yu-gi-oh! gx",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "yuigaoka school uniform",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
@@ -58506,11 +58967,41 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "yuki judai",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yuki miku",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "yukikaze (kancolle)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yume nikki",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58531,6 +59022,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yurucamp",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58577,30 +59078,70 @@
     },
     {
       "tag": "yuuka (blue archive)",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "yuuka (track) (blue archive)",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yuusha de aru",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "yuzu (blue archive)",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "色",
-      "categoryId": "lighting",
-      "subcategoryId": "color-tone",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yuzuki choco",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "person",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yuzuki yukari",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "yuzuriha inori",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58646,11 +59187,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "zenless zone zero",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "zero (mega man)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
       "categoryId": "person",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "zero no tsukaima",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "person",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58687,10 +59248,10 @@
     },
     {
       "tag": "zombie land saga",
-      "legacyMajor": "人物",
-      "legacyMinor": "種族・役割",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
       "categoryId": "person",
-      "subcategoryId": "species-role",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -58731,6 +59292,16 @@
       "legacyMinor": "画風",
       "categoryId": "style",
       "subcategoryId": "style-medium",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "zundamon",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "person",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
