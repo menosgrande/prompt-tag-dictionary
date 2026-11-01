@@ -5,8 +5,8 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5872,
-    "needsReview": 135,
+    "proposed": 5870,
+    "needsReview": 137,
     "unclassified": 5022,
     "entries": 6007
   },
@@ -1224,7 +1224,7 @@
       "legacyMajor": "服装",
       "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "accessories",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
@@ -1253,21 +1253,21 @@
       "tag": "aiming",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "action",
-      "subcategoryId": "body-action",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧「行動」分類の既存判定規則では意味を確定できないため保留。"
     },
     {
       "tag": "aiming at viewer",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "action",
-      "subcategoryId": "body-action",
-      "status": "provisional",
-      "confidence": "medium",
-      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+      "categoryId": "",
+      "subcategoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧「行動」分類の既存判定規則では意味を確定できないため保留。"
     },
     {
       "tag": "aino minako",
@@ -1384,7 +1384,7 @@
       "legacyMajor": "服装",
       "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "accessories",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
