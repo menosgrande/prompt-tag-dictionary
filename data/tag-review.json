@@ -18099,13 +18099,6 @@
       "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
       "source": null
     },
-    "e.o.": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
-      "source": null
-    },
     "eagle": {
       "translationStatus": "machine-translation",
       "classificationStatus": "unreviewed",
@@ -18615,13 +18608,6 @@
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
       "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
-      "source": null
-    },
-    "eu03": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
       "source": null
     },
     "eula (genshin impact)": {
@@ -29299,20 +29285,6 @@
       "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
       "source": null
     },
-    "jjune": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
-      "source": null
-    },
-    "jmg": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
-      "source": null
-    },
     "joestar birthmark": {
       "translationStatus": "machine-translation",
       "classificationStatus": "unreviewed",
@@ -30340,13 +30312,6 @@
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
       "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
-      "source": null
-    },
-    "kfr": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
       "source": null
     },
     "kiana kaslana": {
@@ -32267,13 +32232,6 @@
       "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
       "source": null
     },
-    "lets0020": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
-      "source": null
-    },
     "letter": {
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
@@ -33301,13 +33259,6 @@
       "classificationStatus": "unreviewed",
       "reviewedAt": null,
       "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
-      "source": null
-    },
-    "lpip": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
       "source": null
     },
     "lube": {
