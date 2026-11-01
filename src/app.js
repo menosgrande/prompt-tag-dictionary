@@ -396,13 +396,8 @@
       classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
     });
   }
-  // Legacy character candidates are routed to the dedicated character taxonomy.
   function classificationOf(t) {
-    const candidate = classificationCandidates.get(norm(t.tag)) || null;
-    if (candidate?.categoryId === "person" && ["works-series", "characters", "creators"].includes(candidate.subcategoryId)) {
-      return { ...candidate, categoryId: "character" };
-    }
-    return candidate;
+    return classificationCandidates.get(norm(t.tag)) || null;
   }
   function taxonomyCategoryName(id) { return tagTaxonomy?.semanticCategories?.find(category => category.id === id)?.name || ""; }
   function taxonomySubcategoryName(categoryId, subcategoryId) {
