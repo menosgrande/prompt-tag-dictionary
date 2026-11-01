@@ -13,7 +13,7 @@ const DIRECT = {
     "胸":"person/body-parts","身体・部位":"person/body-parts","種族・役割":"person/species-role"
   },
   "作品・キャラクター": {
-    "作品名・シリーズ":"person/works-series","キャラクター":"person/characters","作者・配信者":"person/creators"
+    "作品名・シリーズ":"character/works-series","キャラクター":"character/characters","作者・配信者":"character/creators"
   },
   "服装": {
     "衣類":"clothing/clothing","靴":"clothing/footwear","小物":"clothing/props","装備":"clothing/equipment"
@@ -127,12 +127,8 @@ async function main(){
   const report=buildClassificationCandidates(rows);
   const categoryIds=new Set(taxonomy.semanticCategories.map(category=>category.id));
   const subcategories=new Map(taxonomy.semanticCategories.map(category=>[category.id,new Set(category.subcategories.map(item=>item.id))]));
-  // The existing candidate sidecar still stores these three legacy pairs under person.
-  // The browser maps them to the dedicated character category at read time until the sidecar is regenerated.
-  const legacyCharacterSubcategories = new Set(["works-series","characters","creators"]);
   for(const item of report.entries){
-    const legacyCharacterPair = item.categoryId === "person" && legacyCharacterSubcategories.has(item.subcategoryId);
-    if(item.categoryId && !legacyCharacterPair && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
+    if(item.categoryId && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
       throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
     }
   }
