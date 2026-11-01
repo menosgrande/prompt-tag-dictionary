@@ -27,7 +27,7 @@ const DIRECT = {
     "カメラ角度":"composition/camera-angle","視点":"composition/viewpoint-gaze"
   },
   "光・色彩": {
-    "照明":"lighting/lighting-source","色":"lighting/color-tone","色調":"lighting/color-tone"
+    "照明":"lighting/lighting-source","色調":"lighting/color-tone"
   },
   "その他": {
     "動物":"person/species-role","物":"background/object-items","自然物":"background/nature-landscape",
@@ -79,7 +79,8 @@ export function classifyLegacyRow(row) {
   if (major === "未分類") return null;
   let result;
   const direct = DIRECT[major]?.[minor];
-  if (direct) result = pair(direct);
+  if (major === "光・色彩" && minor === "色") result = pair("","needs-review","low","旧「色」分類は色そのものを独立カテゴリにしない方針のため、タグの意味に応じた分類先を個別確認する。");
+  else if (direct) result = pair(direct);
   else if (major === "服装" && minor === "下着・水着") {
     const t=norm(tag);
     result = /\b(swimsuit|bikini|swimwear)\b/.test(t) ? pair("clothing/swimwear","provisional","medium","タグ名から水着を識別。")
