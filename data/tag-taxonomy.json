@@ -451,8 +451,15 @@
     },
     {
       "major": "光・色彩",
-      "strategy": "direct",
-      "category": "lighting"
+      "strategy": "review",
+      "categories": [
+        "person",
+        "clothing",
+        "background",
+        "style",
+        "lighting"
+      ],
+      "description": "照明はlightingへ、色を含むタグは対象・意味に応じた分類先へ個別確認する。色独立カテゴリは使用しない。"
     },
     {
       "major": "成人向け",
