@@ -50,3 +50,17 @@ test("work, character, and creator tags map directly to the character taxonomy",
     assert.equal(item.subcategoryId,subcategory);
   }
 });
+
+
+test("legacy color tags are not assigned to an independent color category",()=>{
+  const item=classifyLegacyRow(["black hair","黒髪","光・色彩","色"]);
+  assert.equal(item.categoryId,"");
+  assert.equal(item.status,"needs-review");
+  assert.match(item.reason,/色そのものを独立カテゴリにしない/);
+});
+
+test("legacy lighting tags still map to lighting",()=>{
+  const item=classifyLegacyRow(["backlighting","逆光","光・色彩","照明"]);
+  assert.equal(item.categoryId,"lighting");
+  assert.equal(item.subcategoryId,"lighting-source");
+});
