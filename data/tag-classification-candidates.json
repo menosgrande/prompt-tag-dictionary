@@ -5,10 +5,10 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5808,
+    "proposed": 5881,
     "needsReview": 135,
-    "unclassified": 5086,
-    "entries": 5943
+    "unclassified": 5013,
+    "entries": 6016
   },
   "entries": [
     {
@@ -59305,6 +59305,736 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "1other",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "2others",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "3others",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "4others",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "6+others",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "6+girls",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "1koma",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "2koma",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "3koma",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "4koma",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "5koma",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "6 (yuchae)",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "a1 (initial-g)",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "abubu",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "adachi rei",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ado (utaite)",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "afrobull",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "agahari",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "agawa ryou",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aida mana",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aino minako",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aisaka taiga",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akagi miria",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akai haato",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akamatsu kaede",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akatsuki kirika",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akaza akari",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akemi homura",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aki minoriko",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aki shizuha",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akiyama mio",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akiyama mizuki",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akiyama yukari",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "akizuki ritsuko",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "alice margatroid",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "amami haruka",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "amamiya ren",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "amane kanata",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "afro",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "hair-head",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aegyo sal",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "eyes",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ahegao",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "face-expression",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "albino",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ainu",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "person",
+      "subcategoryId": "species-role",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "abandoned",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "locations",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "abstract background",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "locations",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "air conditioner",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "furniture",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aircraft",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "airship",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "acorn",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "nature-landscape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "air bubble",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "adjusting headwear",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "clothing-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "adjusting legwear",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "clothing-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aiming",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aiming at viewer",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "after bathing",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "daily-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "against glass",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "pose",
+      "subcategoryId": "body-arrangement",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "against railing",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "pose",
+      "subcategoryId": "body-arrangement",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "against wall",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "pose",
+      "subcategoryId": "body-arrangement",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "all fours",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "pose",
+      "subcategoryId": "basic-posture",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "adapted costume",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "adidas",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "clothing",
+      "subcategoryId": "accessories",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "aiguillette",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "clothing",
+      "subcategoryId": "accessories",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ajirogasa",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "clothing",
+      "subcategoryId": "headwear",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ak-47",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ace of hearts",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ace of spades",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "ad",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "accident",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "affectionate",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "lighting",
+      "subcategoryId": "atmosphere",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "afloat",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "pose",
+      "subcategoryId": "body-orientation",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "afterglow",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "lighting",
+      "subcategoryId": "effects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "afterimage",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "lighting",
+      "subcategoryId": "effects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
+    },
+    {
+      "tag": "against fourth wall",
+      "legacyMajor": "未分類",
+      "legacyMinor": "未分類",
+      "categoryId": "composition",
+      "subcategoryId": "viewpoint-gaze",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名と日本語訳の意味が分類先と明確に一致するため候補化。自動提案であり、最終的な分類監査は継続。"
     }
   ]
 }
