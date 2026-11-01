@@ -1,17 +1,5 @@
 [
   {
-    "tag": "7th dragon (series)",
-    "ja": "7th Dragon（シリーズ）",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "a.i. voice",
     "ja": "A.I.VOICE",
     "major": "未分類",
