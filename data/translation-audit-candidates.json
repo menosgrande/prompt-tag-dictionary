@@ -1,5 +1,17 @@
 [
   {
+    "tag": "7th dragon (series)",
+    "ja": "7th Dragon（シリーズ）",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
     "tag": "a.i. voice",
     "ja": "A.I.VOICE",
     "major": "未分類",
@@ -38,6 +50,18 @@
   {
     "tag": "abigail williams (fate)",
     "ja": "アビゲイル・ウィリアムズ（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "abigail williams (swimsuit foreigner) (fate)",
+    "ja": "アビゲイル・ウィリアムズ（水着フォーリナー）（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -135,8 +159,8 @@
   {
     "tag": "among us",
     "ja": "Among Us（ゲーム）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -254,6 +278,18 @@
     "proposedJa": null
   },
   {
+    "tag": "artoria pendragon (alter swimsuit rider) (fate)",
+    "ja": "アルトリア・ペンドラゴン〔オルタ〕（水着ライダー）（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "artoria pendragon (fate)",
     "ja": "アルトリア・ペンドラゴン（Fate）",
     "major": "作品・キャラクター",
@@ -280,6 +316,18 @@
   {
     "tag": "artoria pendragon (lancer) (fate)",
     "ja": "アルトリア・ペンドラゴン〔ランサー〕（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "artoria pendragon (swimsuit ruler) (fate)",
+    "ja": "アルトリア・ペンドラゴン（水着ルーラー）（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -389,8 +437,8 @@
   {
     "tag": "axis powers hetalia",
     "ja": "ヘタリア Axis Powers",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -437,8 +485,8 @@
   {
     "tag": "bang dream!",
     "ja": "BanG Dream!",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -510,8 +558,8 @@
   {
     "tag": "bb (swimsuit mooncancer) (fate)",
     "ja": "BB〔水着／ムーンキャンサー〕（Fate）",
-    "major": "服装",
-    "minor": "衣類",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -559,8 +607,8 @@
   {
     "tag": "bemani",
     "ja": "BEMANIシリーズ",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -572,8 +620,8 @@
   {
     "tag": "bleach: sennen kessen-hen",
     "ja": "BLEACH 千年血戦篇",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -584,8 +632,8 @@
   {
     "tag": "boruto: naruto next generations",
     "ja": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -728,10 +776,23 @@
     "proposedJa": null
   },
   {
+    "tag": "dark souls iii",
+    "ja": "ダークソウルIII",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
     "tag": "darker than black",
     "ja": "DARKER THAN BLACK",
-    "major": "光・色彩",
-    "minor": "色",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -767,8 +828,8 @@
   {
     "tag": "death note",
     "ja": "DEATH NOTE（デスノート）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -842,8 +903,8 @@
   {
     "tag": "dog days",
     "ja": "DOG DAYS（作品）",
-    "major": "その他",
-    "minor": "動物",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -854,13 +915,25 @@
   {
     "tag": "don quixote (project moon)",
     "ja": "ドンキホーテ（Project Moon）",
-    "major": "背景・場所",
-    "minor": "自然",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
     "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "dragon ball gt",
+    "ja": "ドラゴンボールGT",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -878,8 +951,8 @@
   {
     "tag": "dungeon and fighter",
     "ja": "アラド戦記（Dungeon Fighter）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1052,8 +1125,8 @@
   {
     "tag": "fate/apocrypha",
     "ja": "Fate/Apocrypha",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1065,8 +1138,8 @@
   {
     "tag": "fate/extella",
     "ja": "Fate/EXTELLA",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1078,8 +1151,8 @@
   {
     "tag": "fate/extra",
     "ja": "Fate/EXTRA",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1091,8 +1164,8 @@
   {
     "tag": "fate/extra ccc",
     "ja": "Fate/EXTRA CCC",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1104,8 +1177,8 @@
   {
     "tag": "fate/grand order",
     "ja": "Fate/Grand Order",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1117,8 +1190,8 @@
   {
     "tag": "fate/hollow ataraxia",
     "ja": "Fate/hollow ataraxia",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1130,8 +1203,8 @@
   {
     "tag": "fate/prototype",
     "ja": "Fate/Prototype",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1143,8 +1216,8 @@
   {
     "tag": "fate/prototype: fragments of blue and silver",
     "ja": "Fate/Prototype 蒼銀のフラグメンツ",
-    "major": "光・色彩",
-    "minor": "色",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1155,8 +1228,8 @@
   {
     "tag": "fate/samurai remnant",
     "ja": "Fate/Samurai Remnant",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1168,8 +1241,8 @@
   {
     "tag": "fate/stay night",
     "ja": "Fate/stay night",
-    "major": "背景・場所",
-    "minor": "時間・天候",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1181,8 +1254,8 @@
   {
     "tag": "fate/zero",
     "ja": "Fate/Zero",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -1194,8 +1267,8 @@
   {
     "tag": "faust (project moon)",
     "ja": "ファウスト（Project Moon）",
-    "major": "背景・場所",
-    "minor": "自然",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1243,8 +1316,8 @@
   {
     "tag": "final fantasy vii advent children",
     "ja": "ファイナルファンタジーVII アドベントチルドレン",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1255,13 +1328,25 @@
   {
     "tag": "final fantasy vii ever crisis",
     "ja": "ファイナルファンタジーVII エバークライシス",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
     "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "final fantasy vii remake",
+    "ja": "ファイナルファンタジーVII リメイク",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1303,12 +1388,24 @@
   {
     "tag": "fire emblem echoes: shadows of valentia",
     "ja": "ファイアーエムブレム Echoes もうひとりの英雄王",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
     "confidence": "low",
+    "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "fire emblem fates",
+    "ja": "ファイアーエムブレムif",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
     "status": "machine-translation",
     "proposedJa": null
   },
@@ -1339,8 +1436,8 @@
   {
     "tag": "free!",
     "ja": "Free!（作品）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1447,8 +1544,8 @@
   {
     "tag": "goddess of victory: nikke",
     "ja": "勝利の女神：NIKKE",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1470,12 +1567,37 @@
     "proposedJa": null
   },
   {
+    "tag": "guilty gear xrd",
+    "ja": "GUILTY GEAR Xrd",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese",
+      "same-as-latin-tag"
+    ],
+    "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "gumroad username",
     "ja": "Gumroadユーザー名",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "gundam zz",
+    "ja": "機動戦士ガンダムZZ",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
@@ -1774,8 +1896,8 @@
   {
     "tag": "hong lu (project moon)",
     "ja": "ホンル（Project Moon）",
-    "major": "背景・場所",
-    "minor": "自然",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -2266,6 +2388,19 @@
     "proposedJa": null
   },
   {
+    "tag": "katekyo hitman reborn!",
+    "ja": "家庭教師ヒットマンREBORN!",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
     "tag": "katsuki yuuri",
     "ja": "yuuriのkats",
     "major": "未分類",
@@ -2275,6 +2410,18 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "katsushika hokusai (fate)",
+    "ja": "葛飾北斎（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -2504,8 +2651,8 @@
   {
     "tag": "love live! school idol festival all stars",
     "ja": "ラブライブ！スクールアイドルフェスティバル ALL STARS",
-    "major": "背景・場所",
-    "minor": "自然",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -2516,8 +2663,8 @@
   {
     "tag": "love live! school idol project",
     "ja": "ラブライブ！ School idol project",
-    "major": "背景・場所",
-    "minor": "自然",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -2566,6 +2713,19 @@
     "ja": "大川miku",
     "major": "未分類",
     "minor": "未分類",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "needs-review",
+    "proposedJa": null
+  },
+  {
+    "tag": "mahou shoujo lyrical nanoha strikers",
+    "ja": "魔法少女リリカルなのはStrikerS",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -2723,8 +2883,8 @@
   {
     "tag": "meltryllis (swimsuit lancer) (fate)",
     "ja": "メルトリリス（水着ランサー／Fate）",
-    "major": "服装",
-    "minor": "衣類",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -2878,6 +3038,18 @@
     ],
     "confidence": "low",
     "status": "machine-translation",
+    "proposedJa": null
+  },
+  {
+    "tag": "miyamoto musashi (swimsuit berserker) (fate)",
+    "ja": "宮本武蔵（水着バーサーカー）（Fate）",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
+    "reasons": [
+      "english-remains-in-japanese"
+    ],
+    "confidence": "low",
+    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3118,8 +3290,8 @@
   {
     "tag": "naruto",
     "ja": "NARUTO",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -3144,8 +3316,8 @@
   {
     "tag": "naruto shippuuden",
     "ja": "NARUTO -ナルト- 疾風伝",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -3168,8 +3340,8 @@
   {
     "tag": "needy girl overdose",
     "ja": "NEEDY GIRL OVERDOSE",
-    "major": "人物",
-    "minor": "性別・体形",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -4319,8 +4491,8 @@
   {
     "tag": "show by rock!!",
     "ja": "SHOW BY ROCK!!",
-    "major": "その他",
-    "minor": "自然物",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -4765,8 +4937,8 @@
   {
     "tag": "tokyo 7th sisters",
     "ja": "Tokyo 7th シスターズ",
-    "major": "シチュエーション",
-    "minor": "関係性",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -5091,9 +5263,9 @@
   },
   {
     "tag": "yu-gi-oh! arc-v",
-    "ja": "遊戯王ARC-V女性向け",
-    "major": "未分類",
-    "minor": "未分類",
+    "ja": "遊☆戯☆王ARC-V",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -5104,9 +5276,9 @@
   },
   {
     "tag": "yu-gi-oh! gx",
-    "ja": "遊戯王GX女性向け",
-    "major": "未分類",
-    "minor": "未分類",
+    "ja": "遊☆戯☆王GX",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
