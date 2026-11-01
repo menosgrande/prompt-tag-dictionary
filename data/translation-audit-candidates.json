@@ -60,18 +60,6 @@
     "proposedJa": null
   },
   {
-    "tag": "abigail williams (swimsuit foreigner) (fate)",
-    "ja": "アビゲイル・ウィリアムズ（水着外国人）（Fate）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "aegis sword (xenoblade)",
     "ja": "エージスの剣（xenoblade）",
     "major": "その他",
@@ -278,18 +266,6 @@
     "proposedJa": null
   },
   {
-    "tag": "artoria pendragon (alter swimsuit rider) (fate)",
-    "ja": "アルトリア・ペンドラゴン〔オルタ／水着・ライダー〕（Fate）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
     "tag": "artoria pendragon (fate)",
     "ja": "アルトリア・ペンドラゴン（Fate）",
     "major": "作品・キャラクター",
@@ -318,18 +294,6 @@
     "ja": "アルトリア・ペンドラゴン〔ランサー〕（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "artoria pendragon (swimsuit ruler) (fate)",
-    "ja": "アルトリア・ペンドラゴン〔水着・ルーラー〕（Fate）",
-    "major": "服装",
-    "minor": "衣類",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -752,19 +716,6 @@
     "proposedJa": null
   },
   {
-    "tag": "covered testicles",
-    "ja": "覆われたtest丸",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "cu chulainn (fate)",
     "ja": "クー・フーリン（Fate）",
     "major": "作品・キャラクター",
@@ -785,19 +736,6 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "dark souls iii",
-    "ja": "ダークソウルIII",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
     "status": "machine-translation",
     "proposedJa": null
   },
@@ -935,18 +873,6 @@
     ],
     "confidence": "low",
     "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "dragon ball gt",
-    "ja": "ドラゴンボールGT",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
     "proposedJa": null
   },
   {
@@ -1351,19 +1277,6 @@
     "proposedJa": null
   },
   {
-    "tag": "final fantasy vii remake",
-    "ja": "ファイナルファンタジーVIIリメイク",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
     "tag": "final fantasy viii",
     "ja": "ファイナルファンタジーVIII",
     "major": "未分類",
@@ -1408,18 +1321,6 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "fire emblem fates",
-    "ja": "ファイアーエムブレムif",
-    "major": "その他",
-    "minor": "記号・効果",
-    "reasons": [
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
     "status": "machine-translation",
     "proposedJa": null
   },
@@ -1556,149 +1457,6 @@
     "proposedJa": null
   },
   {
-    "tag": "glowing butterfly",
-    "ja": "発光するbutterfly",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing eye",
-    "ja": "発光するeye",
-    "major": "人物",
-    "minor": "目",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing eyes",
-    "ja": "発光するeyes",
-    "major": "人物",
-    "minor": "目",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing flower",
-    "ja": "発光するflower",
-    "major": "その他",
-    "minor": "物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing hair",
-    "ja": "発光するhair",
-    "major": "人物",
-    "minor": "頭髪",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing hand",
-    "ja": "発光するhand",
-    "major": "人物",
-    "minor": "身体・部位",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing horns",
-    "ja": "発光するhorns",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing sword",
-    "ja": "発光するsword",
-    "major": "その他",
-    "minor": "物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing tattoo",
-    "ja": "発光するtattoo",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing weapon",
-    "ja": "発光するweapon",
-    "major": "その他",
-    "minor": "物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "glowing wings",
-    "ja": "発光するwings",
-    "major": "その他",
-    "minor": "動物",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
     "tag": "goddess of victory: nikke",
     "ja": "勝利の女神：NIKKE",
     "major": "未分類",
@@ -1724,37 +1482,12 @@
     "proposedJa": null
   },
   {
-    "tag": "guilty gear xrd",
-    "ja": "ギルティギアXrd",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "gumroad username",
     "ja": "Gumroadユーザー名",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "gundam zz",
-    "ja": "機動戦士ガンダムZZ",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
@@ -1894,19 +1627,6 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "high school dxd",
-    "ja": "高校DXD",
-    "major": "背景・場所",
-    "minor": "自然",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -2486,19 +2206,6 @@
     "proposedJa": null
   },
   {
-    "tag": "kagerou project",
-    "ja": "Kagerouプロジェクト",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "kama (fate)",
     "ja": "カマ（Fate）",
     "major": "作品・キャラクター",
@@ -2571,19 +2278,6 @@
     "proposedJa": null
   },
   {
-    "tag": "katekyo hitman reborn!",
-    "ja": "家庭教師ヒットマンREBORN!",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
     "tag": "katsuki yuuri",
     "ja": "yuuriのkats",
     "major": "未分類",
@@ -2593,18 +2287,6 @@
       "unnatural-or-mixed-script"
     ],
     "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "katsushika hokusai (fate)",
-    "ja": "北朝鮮（Fate）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -2625,19 +2307,6 @@
     "ja": "Kemonomimiモード",
     "major": "人物",
     "minor": "種族・役割",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "kirakira precure a la mode",
-    "ja": "Kirakira Precure a laモード",
-    "major": "未分類",
-    "minor": "未分類",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -2767,19 +2436,6 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "last order (toaru majutsu no index)",
-    "ja": "最後の注文（toaru majutsu indexなし）",
-    "major": "作品・キャラクター",
-    "minor": "キャラクター",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
     "status": "needs-review",
     "proposedJa": null
   },
@@ -2920,32 +2576,6 @@
   {
     "tag": "maekawa miku",
     "ja": "大川miku",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "mahou shoujo lyrical nanoha",
-    "ja": "Mahou Shoujo叙情的なナノハ",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
-    "status": "needs-review",
-    "proposedJa": null
-  },
-  {
-    "tag": "mahou shoujo lyrical nanoha strikers",
-    "ja": "Mahou shoujo叙情的なナノハストライカー",
     "major": "未分類",
     "minor": "未分類",
     "reasons": [
@@ -3260,18 +2890,6 @@
     ],
     "confidence": "low",
     "status": "machine-translation",
-    "proposedJa": null
-  },
-  {
-    "tag": "miyamoto musashi (swimsuit berserker) (fate)",
-    "ja": "宮本蘇省（水着バーサーカー）（Fate）",
-    "major": "服装",
-    "minor": "衣類",
-    "reasons": [
-      "english-remains-in-japanese"
-    ],
-    "confidence": "low",
-    "status": "needs-review",
     "proposedJa": null
   },
   {
@@ -3713,19 +3331,6 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
-    "status": "unreviewed",
-    "proposedJa": null
-  },
-  {
-    "tag": "no testicles",
-    "ja": "test丸はありません",
-    "major": "未分類",
-    "minor": "未分類",
-    "reasons": [
-      "english-remains-in-japanese",
-      "unnatural-or-mixed-script"
-    ],
-    "confidence": "medium",
     "status": "unreviewed",
     "proposedJa": null
   },
