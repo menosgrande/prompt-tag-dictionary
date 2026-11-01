@@ -41,3 +41,12 @@ test("summary accounts for every tag",()=>{
   assert.equal(report.summary.needsReview,1);
   assert.equal(report.summary.unclassified,1);
 });
+
+
+test("work, character, and creator tags map directly to the character taxonomy",()=>{
+  for (const [minor,subcategory] of [["作品名・シリーズ","works-series"],["キャラクター","characters"],["作者・配信者","creators"]]) {
+    const item=classifyLegacyRow(["example","例","作品・キャラクター",minor]);
+    assert.equal(item.categoryId,"character");
+    assert.equal(item.subcategoryId,subcategory);
+  }
+});
