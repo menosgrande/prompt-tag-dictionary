@@ -6,23 +6,24 @@
   "policy": "色独立カテゴリを使わず、対象の意味に応じた分類先を提案する監査候補。タグ本体・翻訳は変更しない。固有名詞と曖昧語は要確認として保護する。",
   "summary": {
     "total": 699,
-    "proposed": 438,
-    "needsReview": 261,
+    "proposed": 521,
+    "needsReview": 178,
     "byTarget": {
       "character/characters": 85,
-      "style/style-medium": 7,
+      "style/style-medium": 19,
       "person/body-parts": 83,
-      "background/object-items": 18,
-      "needs-review": 172,
+      "background/object-items": 53,
+      "needs-review": 89,
       "clothing/clothing": 173,
       "clothing/underwear": 2,
       "person/species-role": 14,
-      "clothing/accessories": 89,
+      "clothing/accessories": 110,
+      "person/face-expression": 8,
       "background/nature-landscape": 21,
       "clothing/footwear": 23,
+      "lighting/effects": 10,
       "character/works-series": 4,
-      "person/eyes": 5,
-      "lighting/effects": 3
+      "person/eyes": 5
     }
   },
   "entries": [
@@ -40,7 +41,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 226,
@@ -56,7 +57,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 251,
@@ -120,7 +121,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 526,
@@ -136,7 +137,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 550,
@@ -152,7 +153,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 583,
@@ -168,7 +169,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 584,
@@ -184,7 +185,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 641,
@@ -200,7 +201,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 862,
@@ -364,10 +365,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 977,
@@ -393,10 +397,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 979,
@@ -406,10 +413,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 980,
@@ -419,10 +429,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 982,
@@ -576,10 +589,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 995,
@@ -605,10 +621,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 999,
@@ -618,10 +637,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 1000,
@@ -743,10 +765,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 1011,
@@ -804,10 +829,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1016,
@@ -1006,10 +1034,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1039,
@@ -1057,7 +1088,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 1042,
@@ -1131,10 +1162,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 1049,
@@ -1230,7 +1264,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 1065,
@@ -1272,10 +1306,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 1068,
@@ -1333,10 +1370,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1072,
@@ -1394,10 +1434,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 1076,
@@ -1596,10 +1639,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1143,
@@ -1609,10 +1655,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1144,
@@ -1622,10 +1671,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 1146,
@@ -1776,10 +1828,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 1160,
@@ -1805,13 +1860,10 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "光・発光・陰影の演出を表すタグ。"
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "色語だけでは対象・役割を特定できないため要確認。"
     },
     {
       "index": 1162,
@@ -1917,10 +1969,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 1172,
@@ -2100,10 +2155,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1191,
@@ -2148,7 +2206,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 1199,
@@ -2235,10 +2293,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 1207,
@@ -2354,10 +2415,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 1224,
@@ -2409,10 +2473,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1229,
@@ -2592,10 +2659,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1452,
@@ -2605,10 +2675,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 1453,
@@ -2618,10 +2691,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 1455,
@@ -2916,10 +2992,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 1498,
@@ -3051,7 +3130,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 2784,
@@ -3067,7 +3146,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 2901,
@@ -3083,7 +3162,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 3147,
@@ -3457,10 +3536,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 3679,
@@ -3470,10 +3552,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 3680,
@@ -3483,10 +3568,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 3682,
@@ -3576,10 +3664,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 3691,
@@ -3605,13 +3696,10 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "光・発光・陰影の演出を表すタグ。"
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "色語だけでは対象・役割を特定できないため要確認。"
     },
     {
       "index": 3693,
@@ -3717,10 +3805,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 3703,
@@ -3890,10 +3981,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 3728,
@@ -3964,10 +4058,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 3738,
@@ -4147,10 +4244,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 3755,
@@ -4160,10 +4260,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 3756,
@@ -4173,10 +4276,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 3758,
@@ -4346,10 +4452,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 3776,
@@ -4519,10 +4628,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 3804,
@@ -4586,7 +4698,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 3808,
@@ -4647,7 +4759,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4104,
@@ -4663,7 +4775,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4106,
@@ -4679,7 +4791,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4115,
@@ -4695,7 +4807,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4116,
@@ -4711,7 +4823,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4224,
@@ -4740,7 +4852,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4253,
@@ -4756,7 +4868,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4262,
@@ -4772,7 +4884,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4294,
@@ -4788,7 +4900,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4304,
@@ -4804,7 +4916,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4310,
@@ -4820,7 +4932,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4635,
@@ -4836,7 +4948,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4712,
@@ -4852,7 +4964,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4721,
@@ -4868,7 +4980,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4869,
@@ -4884,7 +4996,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4876,
@@ -4900,7 +5012,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 4909,
@@ -4916,7 +5028,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5062,
@@ -4932,7 +5044,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5084,
@@ -4948,7 +5060,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5085,
@@ -4964,7 +5076,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5118,
@@ -4980,7 +5092,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5123,
@@ -4996,7 +5108,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5165,
@@ -5012,7 +5124,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5202,
@@ -5028,7 +5140,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5222,
@@ -5044,7 +5156,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5263,
@@ -5060,7 +5172,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5270,
@@ -5076,7 +5188,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5556,
@@ -5121,7 +5233,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5591,
@@ -5137,7 +5249,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5818,
@@ -5166,7 +5278,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 5838,
@@ -5182,7 +5294,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6021,
@@ -5198,7 +5310,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6029,
@@ -5214,7 +5326,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6055,
@@ -5230,7 +5342,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6126,
@@ -5246,7 +5358,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6132,
@@ -5262,7 +5374,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6177,
@@ -5278,7 +5390,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6195,
@@ -5339,7 +5451,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6400,
@@ -5355,7 +5467,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6468,
@@ -5371,7 +5483,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6526,
@@ -5387,7 +5499,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6633,
@@ -5403,7 +5515,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6642,
@@ -5419,7 +5531,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6650,
@@ -5435,7 +5547,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6669,
@@ -5451,7 +5563,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6736,
@@ -5496,7 +5608,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6871,
@@ -5570,10 +5682,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 6878,
@@ -5583,10 +5698,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 6880,
@@ -5705,10 +5823,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 6894,
@@ -5836,7 +5957,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 6910,
@@ -5862,10 +5983,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 6916,
@@ -5920,10 +6044,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 6925,
@@ -6013,7 +6140,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 7258,
@@ -6129,10 +6256,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7269,
@@ -6142,10 +6272,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7270,
@@ -6155,10 +6288,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7272,
@@ -6248,10 +6384,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 7282,
@@ -6357,10 +6496,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 7293,
@@ -6450,10 +6592,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7303,
@@ -6521,10 +6666,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7317,
@@ -6582,10 +6730,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 7327,
@@ -6640,10 +6791,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7331,
@@ -6739,7 +6893,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 7676,
@@ -6842,10 +6996,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7690,
@@ -6855,10 +7012,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7691,
@@ -6868,10 +7028,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7693,
@@ -6977,10 +7140,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 7704,
@@ -6990,13 +7156,10 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "光・発光・陰影の演出を表すタグ。"
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "色語だけでは対象・役割を特定できないため要確認。"
     },
     {
       "index": 7705,
@@ -7102,10 +7265,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 7715,
@@ -7121,7 +7287,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 7717,
@@ -7272,10 +7438,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7738,
@@ -7346,10 +7515,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 7750,
@@ -7375,10 +7547,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7753,
@@ -7503,7 +7678,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 7874,
@@ -7625,10 +7800,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7886,
@@ -7638,10 +7816,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7887,
@@ -7651,10 +7832,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7889,
@@ -7844,10 +8028,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 7906,
@@ -7857,10 +8044,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "face-expression"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "化粧・顔の描写属性。"
     },
     {
       "index": 7907,
@@ -7982,10 +8172,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 7917,
@@ -8181,10 +8374,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7942,
@@ -8300,10 +8496,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 7954,
@@ -8419,10 +8618,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 7970,
@@ -8477,10 +8679,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 7974,
@@ -8573,7 +8778,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8221,
@@ -8589,7 +8794,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8277,
@@ -8605,7 +8810,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8399,
@@ -8621,7 +8826,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8435,
@@ -8637,7 +8842,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8445,
@@ -8653,7 +8858,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8592,
@@ -8669,7 +8874,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8594,
@@ -8685,7 +8890,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8688,
@@ -8701,7 +8906,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8689,
@@ -8717,7 +8922,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8743,
@@ -8746,7 +8951,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8746,
@@ -8762,7 +8967,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 8748,
@@ -8791,7 +8996,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 9123,
@@ -8820,7 +9025,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 9849,
@@ -8836,7 +9041,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 10039,
@@ -8852,7 +9057,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 10159,
@@ -8868,7 +9073,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 10380,
@@ -8897,7 +9102,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 10564,
@@ -9045,10 +9250,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10579,
@@ -9058,10 +9266,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10580,
@@ -9071,10 +9282,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 10582,
@@ -9337,10 +9551,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 10607,
@@ -9591,10 +9808,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10635,
@@ -9694,10 +9914,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 10644,
@@ -9848,10 +10071,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 10662,
@@ -9935,10 +10161,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10668,
@@ -10050,7 +10279,7 @@
       },
       "status": "needs-review",
       "confidence": "medium",
-      "reason": "括弧付きの固有名詞・作品関連表記。名称として保護し、色属性分類へ移さない。"
+      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
       "index": 10840,
@@ -10153,10 +10382,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10850,
@@ -10166,10 +10398,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10851,
@@ -10179,10 +10414,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 10853,
@@ -10368,10 +10606,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光・発光・陰影の演出を表すタグ。"
     },
     {
       "index": 10871,
@@ -10461,10 +10702,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "背景・自然物・物体の色属性。"
     },
     {
       "index": 10884,
@@ -10535,10 +10779,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "衣服・装飾品・履物の色属性。"
     },
     {
       "index": 10894,
@@ -10596,10 +10843,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "配色・模様・色表現に関するタグ。"
     },
     {
       "index": 10904,
