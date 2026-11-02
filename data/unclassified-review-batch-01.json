@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 462,
-    "needsReview": 538
+    "proposed": 467,
+    "needsReview": 533
   },
   "entries": [
     {
@@ -52,13 +52,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -70,13 +66,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -772,9 +764,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "pose",
-        "subcategoryId": "body-arrangement"
+        "subcategoryId": "limb-placement"
       },
-      "reason": "身体の姿勢・配置を示す。"
+      "reason": "脚の配置を示す姿勢。"
     },
     {
       "batch": 1,
@@ -846,9 +838,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "interpersonal-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "授乳という対人行為。"
     },
     {
       "batch": 1,
@@ -874,13 +866,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "対象物・人物・背景のいずれにもかかり得る状態語のため、文脈なしで品質分類にしない。"
     },
     {
       "batch": 1,
@@ -956,9 +944,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "interpersonal-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者への対人行為。"
     },
     {
       "batch": 1,
@@ -1048,9 +1036,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "body-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "身体への性的接触・行為。"
     },
     {
       "batch": 1,
@@ -1188,13 +1176,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -1280,9 +1264,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "hand-action"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "手で股間を覆う動作。"
     },
     {
       "batch": 1,
@@ -1298,9 +1282,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "object-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "物を身体に掛ける動作。"
     },
     {
       "batch": 1,
@@ -1344,13 +1328,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -1759,10 +1739,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "categoryId": "living-things",
+        "subcategoryId": "plants"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "植物名。"
     },
     {
       "batch": 1,
@@ -1788,13 +1768,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "対象物・人物・背景のいずれにもかかり得る状態語のため、文脈なしで品質分類にしない。"
     },
     {
       "batch": 1,
@@ -1810,9 +1786,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -1896,9 +1872,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "locations"
+        "subcategoryId": "environment"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "背景の明暗・空間表現。"
     },
     {
       "batch": 1,
@@ -1946,9 +1922,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -1978,13 +1954,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -2000,9 +1972,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "locations"
+        "subcategoryId": "weather-time"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "時間帯・時刻に関する背景指定。"
     },
     {
       "batch": 1,
@@ -2362,9 +2334,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -2398,9 +2370,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "machines"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "電子機器。"
     },
     {
       "batch": 1,
@@ -2478,7 +2450,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "動物・古生物名。"
     },
     {
       "batch": 1,
@@ -2522,13 +2494,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "対象物・人物・背景のいずれにもかかり得る状態語のため、文脈なしで品質分類にしない。"
     },
     {
       "batch": 1,
@@ -2603,10 +2571,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
       },
-      "reason": "視覚効果・演出表現を示す。色彩そのものを独立分類にはしない。"
+      "reason": "描画・画像の歪み表現。"
     },
     {
       "batch": 1,
@@ -2621,10 +2589,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
       },
-      "reason": "視覚効果・演出表現を示す。色彩そのものを独立分類にはしない。"
+      "reason": "画像表現のディザリング技法。"
     },
     {
       "batch": 1,
@@ -2868,9 +2836,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "locations"
+        "subcategoryId": "environment"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "背景の視覚的パターン。"
     },
     {
       "batch": 1,
@@ -3144,9 +3112,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "clothing-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者の衣服を着せる動作。"
     },
     {
       "batch": 1,
@@ -3295,10 +3263,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "action",
-        "subcategoryId": "body-action"
+        "categoryId": "pose",
+        "subcategoryId": "body-arrangement"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "両手に武器を持った身体配置。"
     },
     {
       "batch": 1,
@@ -3364,9 +3332,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -3382,9 +3350,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -3414,9 +3382,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "tools"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "清掃用具を示すタグ。"
     },
     {
       "batch": 1,
@@ -3570,7 +3538,7 @@
         "categoryId": "background",
         "subcategoryId": "architecture"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "建築様式。"
     },
     {
       "batch": 1,
@@ -3652,7 +3620,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "動物名。"
     },
     {
       "batch": 1,
@@ -3667,10 +3635,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "character",
+        "subcategoryId": "characters"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -3696,9 +3664,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食材・食品としての物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -3724,9 +3696,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "野菜・食材としての物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -3758,7 +3734,7 @@
         "categoryId": "text-symbols",
         "subcategoryId": "symbols"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "音符の記号。"
     },
     {
       "batch": 1,
@@ -3844,9 +3820,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "家具・設備の一部。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "furniture-items"
+      }
     },
     {
       "batch": 1,
@@ -3862,9 +3842,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "machines"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "電気機械・家電。"
     },
     {
       "batch": 1,
@@ -3946,7 +3926,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "動物名。"
     },
     {
       "batch": 1,
@@ -4252,9 +4232,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -4398,9 +4378,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -4432,7 +4412,7 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -4466,9 +4446,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -4484,9 +4464,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "locations"
+        "subcategoryId": "weather-time"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "時間帯・時刻に関する背景指定。"
     },
     {
       "batch": 1,
@@ -4700,13 +4680,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -4860,9 +4836,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "daily-action"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "自分を扇ぐ日常動作。"
     },
     {
       "batch": 1,
@@ -4978,9 +4954,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -5078,9 +5054,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "鳥類由来の羽毛。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 1,
@@ -5130,7 +5110,7 @@
         "categoryId": "background",
         "subcategoryId": "architecture"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "境界を構成する構造物。"
     },
     {
       "batch": 1,
@@ -5159,10 +5139,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "background",
-        "subcategoryId": "architecture"
+        "categoryId": "objects",
+        "subcategoryId": "machines"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "独立した大型機械・遊具。"
     },
     {
       "batch": 1,
@@ -5192,9 +5172,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "daily-action"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "落ち着きなく動く仕草。"
     },
     {
       "batch": 1,
@@ -5212,7 +5192,7 @@
         "categoryId": "vehicles",
         "subcategoryId": "aircraft"
       },
-      "reason": "航空機・鉄道車両を示す。"
+      "reason": "航空機。"
     },
     {
       "batch": 1,
@@ -5292,9 +5272,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "動物の身体構造。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 1,
@@ -5326,7 +5310,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "昆虫名。"
     },
     {
       "batch": 1,
@@ -5406,9 +5390,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "interpersonal-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者との接触を伴う挨拶動作。"
     },
     {
       "batch": 1,
@@ -5588,9 +5572,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "architecture"
+        "subcategoryId": "locations"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "航空機・船舶の甲板という場所指定。"
     },
     {
       "batch": 1,
@@ -5650,7 +5634,7 @@
         "categoryId": "background",
         "subcategoryId": "architecture"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "室内空間を構成する床面。"
     },
     {
       "batch": 1,
@@ -5662,13 +5646,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "reason": "視覚効果・演出表現を示す。色彩そのものを独立分類にはしない。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "質感を示す語だが、毛並み・素材・画風の複数用途があるため保留。"
     },
     {
       "batch": 1,
@@ -5822,9 +5802,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "body-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "身体への性的接触・行為。"
     },
     {
       "batch": 1,
@@ -5842,7 +5822,7 @@
         "categoryId": "composition",
         "subcategoryId": "composition-layout"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "遠近法による短縮表現。"
     },
     {
       "batch": 1,
@@ -5886,13 +5866,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "composition",
-        "subcategoryId": "composition-layout"
-      },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -5950,9 +5926,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -5968,9 +5948,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "フランス語の文字表現。"
     },
     {
       "batch": 1,
@@ -5982,9 +5962,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -5996,9 +5980,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -6010,9 +5998,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -6110,9 +6102,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "家具・寝具の種類。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "furniture-items"
+      }
     },
     {
       "batch": 1,
@@ -6192,9 +6188,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "composition",
-        "subcategoryId": "composition-layout"
+        "subcategoryId": "viewpoint-gaze"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "背後から見た視点。"
     },
     {
       "batch": 1,
@@ -6210,9 +6206,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "composition",
-        "subcategoryId": "composition-layout"
+        "subcategoryId": "viewpoint-gaze"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "外側から見た視点。"
     },
     {
       "batch": 1,
@@ -6228,9 +6224,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "composition",
-        "subcategoryId": "composition-layout"
+        "subcategoryId": "viewpoint-gaze"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "横方向から見た視点。"
     },
     {
       "batch": 1,
@@ -6288,9 +6284,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食材・食品としての物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -6461,10 +6461,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "hair",
+        "subcategoryId": "hair-head-core"
       },
-      "reason": "人体の部位・身体状態を直接示す。"
+      "reason": "ひげ・頭髪に関する外見特徴。"
     },
     {
       "batch": 1,
@@ -6480,9 +6480,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "pose",
-        "subcategoryId": "body-arrangement"
+        "subcategoryId": "interpersonal-arrangement"
       },
-      "reason": "身体の姿勢・配置を示す。"
+      "reason": "他者を拘束する対人姿勢。"
     },
     {
       "batch": 1,
@@ -6512,9 +6512,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -6638,9 +6638,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "文字に付す読み仮名。"
     },
     {
       "batch": 1,
@@ -6750,7 +6750,7 @@
         "categoryId": "background",
         "subcategoryId": "architecture"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "日本建築の建具。"
     },
     {
       "batch": 1,
@@ -6762,9 +6762,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "作品・シリーズ名として認識できる固有名詞。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "works-series"
+      }
     },
     {
       "batch": 1,
@@ -6808,9 +6812,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "家具・寝具の種類。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "furniture-items"
+      }
     },
     {
       "batch": 1,
@@ -6890,9 +6898,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -6908,9 +6916,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -6944,9 +6952,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -7106,7 +7114,7 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -7124,7 +7132,7 @@
         "categoryId": "background",
         "subcategoryId": "architecture"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "建築・敷地の構造物。"
     },
     {
       "batch": 1,
@@ -7222,9 +7230,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -7298,7 +7306,7 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -7314,9 +7322,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "ドイツ語の文字表現。"
     },
     {
       "batch": 1,
@@ -7546,7 +7554,7 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -7694,9 +7702,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "interpersonal-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者へ飛びつく対人動作。"
     },
     {
       "batch": 1,
@@ -7850,9 +7858,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品・果実を示す物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -7966,9 +7978,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "locations"
+        "subcategoryId": "architecture"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "道路・施設に付随する構造物。"
     },
     {
       "batch": 1,
@@ -7982,7 +7994,7 @@
       },
       "status": "needs-review",
       "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -8110,9 +8122,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -8488,9 +8500,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -8752,9 +8764,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "furniture-items"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "家具・設備の一部。"
     },
     {
       "batch": 1,
@@ -8787,10 +8799,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "categoryId": "text-symbols",
+        "subcategoryId": "symbols"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "図形・記号としてのハート。"
     },
     {
       "batch": 1,
@@ -8834,9 +8846,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -9350,7 +9362,7 @@
       },
       "status": "needs-review",
       "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -9632,9 +9644,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -10014,9 +10030,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "machines"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "電子機器・ヘッドセット。"
     },
     {
       "batch": 1,
@@ -10060,9 +10076,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -10112,7 +10132,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "動物名。"
     },
     {
       "batch": 1,
@@ -10240,7 +10260,7 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "ポケモンの固有キャラクター名。"
     },
     {
       "batch": 1,
@@ -10406,9 +10426,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -10424,9 +10444,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "pose",
-        "subcategoryId": "body-arrangement"
+        "subcategoryId": "basic-posture"
       },
-      "reason": "身体の姿勢・配置を示す。"
+      "reason": "特定作品由来のポーズ表現。"
     },
     {
       "batch": 1,
@@ -10438,9 +10458,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "作品・シリーズ名として認識できる固有名詞。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "works-series"
+      }
     },
     {
       "batch": 1,
@@ -10472,7 +10496,7 @@
         "categoryId": "text-symbols",
         "subcategoryId": "symbols"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "海賊旗の図像・記号。"
     },
     {
       "batch": 1,
@@ -10574,9 +10598,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "machines"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "ゲーム機用コントローラー。"
     },
     {
       "batch": 1,
@@ -10592,9 +10616,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "machines"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "入力装置。"
     },
     {
       "batch": 1,
@@ -10606,9 +10630,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "飲料。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -10642,9 +10670,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -10688,9 +10716,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "background",
-        "subcategoryId": "architecture"
+        "subcategoryId": "nature-landscape"
       },
-      "reason": "建築・構造物・環境を示す。"
+      "reason": "自然環境・風景。"
     },
     {
       "batch": 1,
@@ -10734,9 +10762,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -10780,9 +10808,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "interpersonal-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者に対する接近・接触動作。"
     },
     {
       "batch": 1,
@@ -11496,9 +11524,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -11510,13 +11538,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "character",
-        "subcategoryId": "characters"
-      },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -11596,9 +11620,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -11628,9 +11652,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -11998,9 +12022,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "立入禁止を示す標識・文字。"
     },
     {
       "batch": 1,
@@ -12158,9 +12182,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "subcategoryId": "other-objects"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "食品・調味料。"
     },
     {
       "batch": 1,
@@ -12178,7 +12202,7 @@
         "categoryId": "objects",
         "subcategoryId": "everyday-objects"
       },
-      "reason": "独立した物品・道具・設備を示す。武器・機械などの専用細分類はタグごとに要確認。"
+      "reason": "食品容器。"
     },
     {
       "batch": 1,
@@ -12408,9 +12432,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -12440,9 +12464,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -12504,9 +12528,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -12942,7 +12966,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "動物名。"
     },
     {
       "batch": 1,
@@ -12974,7 +12998,7 @@
       },
       "status": "needs-review",
       "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -13040,9 +13064,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "composition",
-        "subcategoryId": "composition-layout"
+        "subcategoryId": "shot-distance"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "膝上までを写す撮影距離。"
     },
     {
       "batch": 1,
@@ -13138,7 +13162,7 @@
         "categoryId": "living-things",
         "subcategoryId": "animals"
       },
-      "reason": "動物・ポケモン等の生物タグ。架空生物と既存作品キャラクターの区別は必要に応じて確認。"
+      "reason": "魚類名。"
     },
     {
       "batch": 1,
@@ -13250,9 +13274,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "韓国語の文字表現。"
     },
     {
       "batch": 1,
@@ -13580,13 +13604,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "quality",
-        "subcategoryId": "low-quality-noise"
-      },
-      "reason": "品質・状態を示す語。ただし用途が曖昧なものは再確認対象。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "状態・状況・評価語であり、品質・ネガティブに直結するとは限らないため保留。"
     },
     {
       "batch": 1,
@@ -13615,10 +13635,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "background",
-        "subcategoryId": "locations"
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
       },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "reason": "照明設備としての物品。"
     },
     {
       "batch": 1,
@@ -13630,13 +13650,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "locations"
-      },
-      "reason": "背景・場所・環境に関するタグ。建築物と物品の区別は必要に応じて再確認。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名だけでは意味・用途を一意に確定できないため保留。"
     },
     {
       "batch": 1,
@@ -13670,9 +13686,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "pose",
-        "subcategoryId": "body-arrangement"
+        "subcategoryId": "interpersonal-arrangement"
       },
-      "reason": "身体の姿勢・配置を示す。"
+      "reason": "他者の膝を枕にする対人配置。"
     },
     {
       "batch": 1,
@@ -13688,9 +13704,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -13740,7 +13756,7 @@
         "categoryId": "text-symbols",
         "subcategoryId": "symbols"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "十字形の記号。"
     },
     {
       "batch": 1,
@@ -13930,9 +13946,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "composition",
-        "subcategoryId": "composition-layout"
+        "subcategoryId": "framing"
       },
-      "reason": "画面内の見せ方・構図・フレーミングを示す。"
+      "reason": "画面上下などのレターボックス形式。"
     },
     {
       "batch": 1,
@@ -14064,9 +14080,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -14196,9 +14212,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -14214,9 +14230,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "vehicles",
-        "subcategoryId": "aircraft"
+        "subcategoryId": "rail-vehicles"
       },
-      "reason": "航空機・鉄道車両を示す。"
+      "reason": "鉄道車両。"
     },
     {
       "batch": 1,
@@ -14380,9 +14396,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "text-symbols",
-        "subcategoryId": "symbols"
+        "subcategoryId": "text"
       },
-      "reason": "文字・記号・標識を示す。文章・ロゴ等の用途は個別確認する。"
+      "reason": "歌詞という文字情報。"
     },
     {
       "batch": 1,
@@ -14508,9 +14524,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -14840,9 +14856,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "作品・シリーズ名として認識できる固有名詞。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "works-series"
+      }
     },
     {
       "batch": 1,
@@ -14964,9 +14984,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "body-contact"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "他者の身体への接触動作。"
     },
     {
       "batch": 1,
@@ -15402,9 +15422,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "action",
-        "subcategoryId": "body-action"
+        "subcategoryId": "daily-action"
       },
-      "reason": "動作・行為を示すタグ。対人・性的な接触の細分類は別途確認する。"
+      "reason": "測定する行為。"
     },
     {
       "batch": 1,
@@ -15756,9 +15776,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -15844,9 +15864,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "character",
-        "subcategoryId": "characters"
+        "subcategoryId": "works-series"
       },
-      "reason": "作品・シリーズまたはキャラクター名として認識できる固有名詞候補。タグ表記・作品帰属は別途確認する。"
+      "reason": "作品・シリーズ名として認識できる固有名詞。"
     },
     {
       "batch": 1,
@@ -15862,5 +15882,9 @@
       "confidence": "low",
       "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
     }
-  ]
+  ],
+  "audit": {
+    "note": "候補データの初回自動棚卸し。提案は未確定であり、tags.jsonへ反映していない。カテゴリ体系も最終承認前。誤分類候補を含むため、PR上でレビューを継続する。",
+    "taxonomyValidation": "all target category/subcategory IDs checked against current tag-taxonomy.json"
+  }
 }
