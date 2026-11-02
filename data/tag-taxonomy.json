@@ -1,5 +1,5 @@
 {
-  "schema": "tag-taxonomy-v2",
+  "schema": "tag-taxonomy-v1",
   "version": 2,
   "updatedAt": "2026-11-02",
   "description": "Stable Diffusion系プロンプトの組み立て順を基準にした正規分類定義。人物・背景は用途別に分割し、背景内の独立した物品は物品系へ分離する。ネガティブは品質カテゴリ内に表示しつつ出力先を独立して保持する。",
