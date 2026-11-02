@@ -16,7 +16,7 @@ const DIRECT = {
     "作品名・シリーズ":"character/works-series","キャラクター":"character/characters","作者・配信者":"character/creators"
   },
   "服装": {
-    "衣類":"clothing/clothing","靴":"clothing/footwear","小物":"clothing/props","装備":"clothing/equipment"
+    "衣類":"clothing/clothing","靴":"clothing/footwear","装備":"clothing/equipment"
   },
   "背景・場所": {
     "屋内":"background/locations","施設":"background/locations","自然":"background/nature-landscape",
@@ -27,11 +27,10 @@ const DIRECT = {
     "カメラ角度":"composition/camera-angle","視点":"composition/viewpoint-gaze"
   },
   "光・色彩": {
-    "照明":"lighting/lighting-source","色調":"lighting/color-tone"
+    "照明":"lighting/lighting-source"
   },
   "その他": {
-    "動物":"person/species-role","物":"background/object-items","自然物":"background/nature-landscape",
-    "記号・効果":"lighting/effects"
+    "動物":"living-things/animals","物":"objects/other-objects"
   },
   "ポーズ・動作": {
     "姿勢":"pose/basic-posture","手の動き":"action/hand-action","対人動作":"action/interpersonal-contact"
