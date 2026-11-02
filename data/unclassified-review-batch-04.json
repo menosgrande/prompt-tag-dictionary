@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 319,
-    "proposed": 38,
-    "needsReview": 281
+    "proposed": 91,
+    "needsReview": 228
   },
   "audit": {
     "uniqueTags": 319,
@@ -31,9 +31,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "着用していないヘルメットという装備。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
+      }
     },
     {
       "batch": 4,
@@ -73,9 +77,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ファスナーが開いた衣服の状態。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing-state"
+      }
     },
     {
       "batch": 4,
@@ -87,9 +95,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ファスナーを開ける動作。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "clothing-contact"
+      }
     },
     {
       "batch": 4,
@@ -101,9 +113,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "髪をまとめ上げた髪型。",
+      "target": {
+        "categoryId": "hair",
+        "subcategoryId": "hair-head-core"
+      }
     },
     {
       "batch": 4,
@@ -115,9 +131,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "直立したまたがり姿勢。",
+      "target": {
+        "categoryId": "pose",
+        "subcategoryId": "basic-posture"
+      }
     },
     {
       "batch": 4,
@@ -161,9 +181,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "上下逆さまの身体の向き。",
+      "target": {
+        "categoryId": "pose",
+        "subcategoryId": "body-orientation"
+      }
     },
     {
       "batch": 4,
@@ -203,9 +227,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "小便器という設備。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
+      }
     },
     {
       "batch": 4,
@@ -347,9 +375,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ウシャンカという帽子。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 4,
@@ -445,9 +477,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "子宮という身体部位。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 4,
@@ -459,9 +495,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "電柱という屋外構造物。",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "architecture"
+      }
     },
     {
       "batch": 4,
@@ -501,9 +541,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "上履きという履物。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
+      }
     },
     {
       "batch": 4,
@@ -543,9 +587,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "Vサインという手の動作。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "hand-action"
+      }
     },
     {
       "batch": 4,
@@ -585,9 +633,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "掃除機という家電。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 4,
@@ -613,9 +665,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ワルキューレという神話上の存在。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "fantasy-creatures"
+      }
     },
     {
       "batch": 4,
@@ -645,9 +701,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "バンという道路車両。",
+      "target": {
+        "categoryId": "vehicles",
+        "subcategoryId": "road-vehicles"
+      }
     },
     {
       "batch": 4,
@@ -659,9 +719,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "遠近法における消失点。",
+      "target": {
+        "categoryId": "composition",
+        "subcategoryId": "composition-layout"
+      }
     },
     {
       "batch": 4,
@@ -729,9 +793,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "花瓶という物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -760,10 +828,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "background",
-        "subcategoryId": "furniture"
+        "categoryId": "living-things",
+        "subcategoryId": "plants"
       },
-      "reason": "背景内の家具を示すタグ。"
+      "reason": "野菜という植物・食品素材。"
     },
     {
       "batch": 4,
@@ -778,10 +846,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "vehicles",
+        "subcategoryId": "road-vehicles"
       },
-      "reason": "動物を示すタグ。"
+      "reason": "乗り物の擬人化表現。"
     },
     {
       "batch": 4,
@@ -793,9 +861,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ベールという身につける装飾品。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 4,
@@ -807,9 +879,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "静脈の視認表現。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 4,
@@ -821,9 +897,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "自動販売機という機械。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 4,
@@ -849,9 +929,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ベランダという場所・建築空間。",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "locations"
+      }
     },
     {
       "batch": 4,
@@ -863,9 +947,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "銃器に装着するフォアグリップ。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 4,
@@ -898,10 +986,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "hair",
+        "subcategoryId": "hair-head-core"
       },
-      "reason": "動物を示すタグ。"
+      "reason": "長いひげという頭部の毛。"
     },
     {
       "batch": 4,
@@ -913,9 +1001,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "長い爪という身体的特徴。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 4,
@@ -927,9 +1019,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "大量に汗をかいた身体状態。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 4,
@@ -941,9 +1037,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "小型の瓶という物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -955,9 +1055,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ビクトリア朝様式。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      }
     },
     {
       "batch": 4,
@@ -997,9 +1101,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "カメラのファインダーという機器部品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
+      }
     },
     {
       "batch": 4,
@@ -1011,9 +1119,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "画面周辺が暗くなる周辺減光効果。",
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      }
     },
     {
       "batch": 4,
@@ -1057,9 +1169,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "バイオリンという楽器。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -1099,9 +1215,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ビジュアルノベルという表現形式。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      }
     },
     {
       "batch": 4,
@@ -1225,9 +1345,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "火山という自然景観。",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      }
     },
     {
       "batch": 4,
@@ -1239,9 +1363,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "バレーボールという球技用具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -1253,9 +1381,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "バレーボール用ネットという設備。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
+      }
     },
     {
       "batch": 4,
@@ -1323,9 +1455,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "和風ロリータ衣装。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 4,
@@ -1337,9 +1473,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "和風メイド衣装。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 4,
@@ -1351,9 +1491,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "浅瀬を歩く・水遊びする動作。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "daily-action"
+      }
     },
     {
       "batch": 4,
@@ -1365,9 +1509,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "水遊び用プールという設備。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
+      }
     },
     {
       "batch": 4,
@@ -1393,9 +1541,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ウエハーススティックという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -1407,9 +1559,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "和菓子という食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -1559,9 +1715,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "脇差という刀剣。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      }
     },
     {
       "batch": 4,
@@ -1587,9 +1747,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "携帯型無線機という通信機器。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 4,
@@ -1651,9 +1815,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "杖状の道具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 4,
@@ -1799,9 +1967,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "警告を示す標識・記号。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "symbols"
+      }
     },
     {
       "batch": 4,
@@ -1863,9 +2035,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "洗濯機という家電。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 4,
@@ -1877,9 +2053,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "綿帽子という頭部の装飾。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 4,
@@ -2061,9 +2241,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "スイカという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -2089,9 +2273,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "切り分けたスイカという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 4,
@@ -2177,9 +2365,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "結婚指輪という装飾品。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 4,
@@ -2339,9 +2531,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ウェットスーツという衣服。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 4,
@@ -2385,9 +2581,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "車輪という機械部品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 4,
@@ -2505,9 +2705,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ひげ状の顔の模様。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
+      }
     },
     {
       "batch": 4,
@@ -2519,9 +2723,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ひげ状の顔の特徴。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
+      }
     },
     {
       "batch": 4,
@@ -2819,9 +3027,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "翼飾りのあるヘルメット。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
+      }
     },
     {
       "batch": 4,
@@ -4639,5 +4851,11 @@
       "confidence": "low",
       "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
     }
-  ]
+  ],
+  "review": {
+    "reviewedAt": "2026-11-02",
+    "method": "high-precision exact-tag review; ambiguous terms and proper names retained for manual review",
+    "newlyProposed": 53,
+    "correctedExistingTargets": 3
+  }
 }
