@@ -458,11 +458,6 @@
       "成人向け": /身体・衣類/.test(minor) ? "服装・装飾" : /表現・修正/.test(minor) ? "光・演出" : "動作・接触",
       "その他": /動物/.test(minor) ? "生物・動植物" : /記号・効果/.test(minor) ? "光・演出" : "背景・場所"
     };
-    if (major === "画風・品質") {
-      if (minor !== "品質") return "画風・描写";
-      if (["text", "signature", "username", "watermark"].includes(tag)) return "文字・記号";
-      return "品質・ネガティブ";
-    }
     if (legacyOrder[major]) return legacyOrder[major];
     return "未分類";
   }
