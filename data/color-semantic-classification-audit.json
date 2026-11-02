@@ -5,28 +5,49 @@
   "taxonomy": "data/tag-taxonomy.json",
   "policy": "色独立カテゴリを使わず、対象の意味に応じた分類先を提案する監査候補。タグ本体・翻訳は変更しない。固有名詞と曖昧語は要確認として保護する。",
   "summary": {
-    "total": 699,
-    "proposed": 521,
-    "needsReview": 178,
+    "total": 758,
+    "proposed": 576,
+    "needsReview": 182,
     "byTarget": {
-      "character/characters": 85,
-      "style/style-medium": 19,
-      "person/body-parts": 83,
-      "background/object-items": 53,
-      "needs-review": 89,
-      "clothing/clothing": 173,
+      "background/nature-landscape": 25,
+      "character/characters": 86,
+      "style/style-medium": 25,
+      "person/body-parts": 87,
+      "background/object-items": 55,
+      "lighting/lighting-source": 9,
+      "needs-review": 93,
+      "clothing/clothing": 178,
       "clothing/underwear": 2,
       "person/species-role": 14,
-      "clothing/accessories": 110,
+      "clothing/accessories": 115,
       "person/face-expression": 8,
-      "background/nature-landscape": 21,
       "clothing/footwear": 23,
-      "lighting/effects": 10,
+      "lighting/effects": 16,
       "character/works-series": 4,
-      "person/eyes": 5
+      "person/eyes": 5,
+      "background/weather-time": 7,
+      "lighting/shadows": 4,
+      "composition/framing": 1,
+      "style/rendering": 1
     }
   },
   "entries": [
+    {
+      "index": 99,
+      "tag": "above clouds",
+      "ja": "雲の上",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "雲上の環境・風景を示す。"
+    },
     {
       "index": 205,
       "tag": "akane (blue archive)",
@@ -188,6 +209,22 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 615,
+      "tag": "aurora",
+      "ja": "オーロラ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "自然現象としてのオーロラを示す。"
+    },
+    {
       "index": 641,
       "tag": "azusa (blue archive)",
       "ja": "アズサ（ブルーアーカイブ）",
@@ -202,6 +239,38 @@
       "status": "needs-review",
       "confidence": "medium",
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+    },
+    {
+      "index": 660,
+      "tag": "backlight",
+      "ja": "逆光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "光源の方向・逆光照明を示す。"
+    },
+    {
+      "index": 661,
+      "tag": "backlighting",
+      "ja": "逆光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "光源の方向・逆光照明を示す。"
     },
     {
       "index": 862,
@@ -2042,6 +2111,22 @@
       "reason": "髪・目・肌・身体部位の色属性。"
     },
     {
+      "index": 1177,
+      "tag": "blue hour",
+      "ja": "ブルーアワー",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "日の出前・日没後の時間帯を示す。"
+    },
+    {
       "index": 1179,
       "tag": "blue jumpsuit",
       "ja": "青いジャンプスーツ",
@@ -2591,6 +2676,22 @@
       "reason": "衣服・装飾品・履物の色属性。"
     },
     {
+      "index": 1269,
+      "tag": "bokeh",
+      "ja": "玉ボケ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "レンズのボケ表現・光学的な視覚効果を示す。"
+    },
+    {
       "index": 1444,
       "tag": "brown",
       "ja": "茶色",
@@ -3078,6 +3179,54 @@
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
     },
     {
+      "index": 1618,
+      "tag": "candlelight",
+      "ja": "ろうそくの光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ろうそくを光源とする照明を示す。"
+    },
+    {
+      "index": 1918,
+      "tag": "clear sky",
+      "ja": "快晴",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "空模様・天候状態を示す。"
+    },
+    {
+      "index": 1973,
+      "tag": "cloudy",
+      "ja": "曇り",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "曇天という天候状態を示す。"
+    },
+    {
       "index": 2023,
       "tag": "color connection",
       "ja": "色接続",
@@ -3117,6 +3266,99 @@
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
     },
     {
+      "index": 2032,
+      "tag": "colored shadow",
+      "ja": "色付きの影",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "shadows"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "影の色・陰影表現を示す。"
+    },
+    {
+      "index": 2094,
+      "tag": "cool colors",
+      "ja": "寒色",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "寒色系の配色・色調表現を示す。"
+    },
+    {
+      "index": 2366,
+      "tag": "dappled sunlight",
+      "ja": "木漏れ日",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "木漏れ日による光の斑・照明効果を示す。"
+    },
+    {
+      "index": 2373,
+      "tag": "dark clouds",
+      "ja": "暗雲",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "雲・空の自然景観を示す。"
+    },
+    {
+      "index": 2439,
+      "tag": "depth of field",
+      "ja": "被写界深度",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "composition",
+        "subcategoryId": "framing"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "被写界深度による焦点・ボケ範囲を示す撮影表現。"
+    },
+    {
+      "index": 2480,
+      "tag": "different shadow",
+      "ja": "異なる影",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "何と異なる影なのかタグ単独では意味を確定できない。"
+    },
+    {
       "index": 2560,
       "tag": "doodle sensei (blue archive)",
       "ja": "ドゥードゥー先生（ブルーアーカイブ）",
@@ -3131,6 +3373,35 @@
       "status": "needs-review",
       "confidence": "medium",
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+    },
+    {
+      "index": 2574,
+      "tag": "double fox shadow puppet",
+      "ja": "二匹のキツネの影絵",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "影絵の題材・構成をタグ単独では確定できない。"
+    },
+    {
+      "index": 2654,
+      "tag": "drop shadow",
+      "ja": "ドロップシャドウ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "shadows"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "図形・文字等に付与する影の描画効果を示す。"
     },
     {
       "index": 2784,
@@ -3165,6 +3436,22 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 3037,
+      "tag": "film grain",
+      "ja": "フィルムグレイン",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "rendering"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "フィルム粒子状の質感・レンダリング表現を示す。"
+    },
+    {
       "index": 3147,
       "tag": "flat color",
       "ja": "ベタ塗り",
@@ -3176,6 +3463,51 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
+    },
+    {
+      "index": 3214,
+      "tag": "fog",
+      "ja": "霧",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "霧という自然環境・気象現象を示す。"
+    },
+    {
+      "index": 3277,
+      "tag": "fox shadow puppet",
+      "ja": "キツネの影絵",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "キツネの影絵を指す可能性はあるが用法確認が必要。"
+    },
+    {
+      "index": 3590,
+      "tag": "god rays",
+      "ja": "光芒",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "光芒・体積光の視覚効果を示す。"
     },
     {
       "index": 3602,
@@ -3341,6 +3673,22 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
+    },
+    {
+      "index": 3620,
+      "tag": "golden hour",
+      "ja": "ゴールデンアワー",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "日の出直後・日没前の時間帯を示す。"
     },
     {
       "index": 3646,
@@ -5191,6 +5539,38 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 5496,
+      "tag": "lens flare",
+      "ja": "レンズフレア",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "レンズフレアという光学的な視覚効果を示す。"
+    },
+    {
+      "index": 5539,
+      "tag": "light rays",
+      "ja": "光線",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "光線の視覚表現を示す。"
+    },
+    {
       "index": 5556,
       "tag": "lily white",
       "ja": "リリーホワイト",
@@ -5202,6 +5582,22 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
+    },
+    {
+      "index": 5559,
+      "tag": "limited palette",
+      "ja": "限られたパレット",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "使用色数を制限する配色・画風上の表現を示す。"
     },
     {
       "index": 5589,
@@ -5393,6 +5789,22 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 6194,
+      "tag": "monochrome",
+      "ja": "モノクロ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "単色・モノクロの画面表現を示す。"
+    },
+    {
       "index": 6195,
       "tag": "monochrome background",
       "ja": "モノクロの背景",
@@ -5407,6 +5819,134 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "配色・模様・色表現に関するタグ。"
+    },
+    {
+      "index": 6214,
+      "tag": "moonlight",
+      "ja": "月光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "月光を光源とする照明を示す。"
+    },
+    {
+      "index": 6281,
+      "tag": "multicolored background",
+      "ja": "多色の背景",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "多色の背景表現を示す。"
+    },
+    {
+      "index": 6284,
+      "tag": "multicolored bow",
+      "ja": "多色の弓",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "リボン状アクセサリーを示す。"
+    },
+    {
+      "index": 6286,
+      "tag": "multicolored cape",
+      "ja": "多色のケープ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ケープという衣服を示す。"
+    },
+    {
+      "index": 6292,
+      "tag": "multicolored fur",
+      "ja": "多色の毛皮",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "人物・動物の毛皮の色属性を示す。"
+    },
+    {
+      "index": 6295,
+      "tag": "multicolored hairband",
+      "ja": "多色ヘアバンド",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ヘアバンドという装飾品を示す。"
+    },
+    {
+      "index": 6301,
+      "tag": "multicolored leotard",
+      "ja": "多色のレオタード",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "レオタードという衣服を示す。"
+    },
+    {
+      "index": 6302,
+      "tag": "multicolored nails",
+      "ja": "マルチカラーネイル",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "爪という身体部位の色・装飾を示す。"
     },
     {
       "index": 6327,
@@ -5484,6 +6024,22 @@
       "status": "needs-review",
       "confidence": "medium",
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+    },
+    {
+      "index": 6516,
+      "tag": "neon light",
+      "ja": "ネオン",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ネオンを光源とする照明を示す。"
     },
     {
       "index": 6526,
@@ -7636,6 +8192,38 @@
       "reason": "衣服・装飾品・履物の色属性。"
     },
     {
+      "index": 7819,
+      "tag": "rain",
+      "ja": "雨",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "雨という天候状態を示す。"
+    },
+    {
+      "index": 7822,
+      "tag": "rainbow colors",
+      "ja": "虹色",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "虹色の配色・色調表現を示す。"
+    },
+    {
       "index": 7823,
       "tag": "rainbow gradient",
       "ja": "虹色のグラデーション",
@@ -8765,6 +9353,22 @@
       "reason": "衣服・装飾品・履物の色属性。"
     },
     {
+      "index": 8071,
+      "tag": "rim light",
+      "ja": "リムライト",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "輪郭を縁取る照明を示す。"
+    },
+    {
       "index": 8080,
       "tag": "rio (blue archive)",
       "ja": "調月リオ",
@@ -8845,6 +9449,22 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 8439,
+      "tag": "sepia",
+      "ja": "セピア",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "セピア調の色調・画面表現を示す。"
+    },
+    {
       "index": 8445,
       "tag": "serika (blue archive)",
       "ja": "セリカ（ブルーアーカイブ）",
@@ -8859,6 +9479,38 @@
       "status": "needs-review",
       "confidence": "medium",
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+    },
+    {
+      "index": 8467,
+      "tag": "shadow",
+      "ja": "影",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "shadows"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "影・陰影そのものを示す。"
+    },
+    {
+      "index": 8468,
+      "tag": "shadow the hedgehog",
+      "ja": "シャドウ・ザ・ヘッジホッグ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "characters"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "固有のキャラクター名を示す。"
     },
     {
       "index": 8592,
@@ -8999,6 +9651,51 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 8953,
+      "tag": "snow leopard tail",
+      "ja": "ユキヒョウのしっぽ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ユキヒョウの尾という身体部位・外見属性を示す。"
+    },
+    {
+      "index": 8954,
+      "tag": "snow rabbit",
+      "ja": "雪うさぎ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": null,
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "雪うさぎ（雪像）を指すか別の意味か、タグ単独では確定できない。"
+    },
+    {
+      "index": 8979,
+      "tag": "soft lighting",
+      "ja": "柔らかな光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "柔らかい光質の照明を示す。"
+    },
+    {
       "index": 9123,
       "tag": "spot color",
       "ja": "スポットカラー",
@@ -9010,6 +9707,86 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "色語だけでは対象・役割を特定できないため要確認。"
+    },
+    {
+      "index": 9124,
+      "tag": "spotlight",
+      "ja": "スポットライト",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "スポットライトによる照明を示す。"
+    },
+    {
+      "index": 9263,
+      "tag": "storm",
+      "ja": "嵐",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "嵐という天候状態を示す。"
+    },
+    {
+      "index": 9409,
+      "tag": "sunlight",
+      "ja": "日光",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "lighting-source"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "太陽光を光源とする照明を示す。"
+    },
+    {
+      "index": 9415,
+      "tag": "sunset glow",
+      "ja": "夕焼け",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "夕焼け時の発光・色づきの視覚表現を示す。"
+    },
+    {
+      "index": 9775,
+      "tag": "thunderstorm",
+      "ja": "雷雨",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "weather-time"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "雷雨という天候状態を示す。"
     },
     {
       "index": 9848,
@@ -9060,6 +9837,134 @@
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
     },
     {
+      "index": 10114,
+      "tag": "two-tone background",
+      "ja": "ツートンの背景",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "二色構成の背景表現を示す。"
+    },
+    {
+      "index": 10117,
+      "tag": "two-tone bow",
+      "ja": "ツートンリボン",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "リボン状アクセサリーを示す。"
+    },
+    {
+      "index": 10119,
+      "tag": "two-tone cape",
+      "ja": "ツートンケープ",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ケープという衣服を示す。"
+    },
+    {
+      "index": 10124,
+      "tag": "two-tone fur",
+      "ja": "ツートンの毛皮",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "人物・動物の毛皮の色属性を示す。"
+    },
+    {
+      "index": 10127,
+      "tag": "two-tone hairband",
+      "ja": "ツートンヘアバンド",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ヘアバンドという装飾品を示す。"
+    },
+    {
+      "index": 10128,
+      "tag": "two-tone headwear",
+      "ja": "ツートンヘッドウェア",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "帽子等の頭部装飾品を示す。"
+    },
+    {
+      "index": 10132,
+      "tag": "two-tone legwear",
+      "ja": "ツートンレッグウェア",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "レッグウェアという衣服を示す。"
+    },
+    {
+      "index": 10133,
+      "tag": "two-tone leotard",
+      "ja": "ツートンレオタード",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "レオタードという衣服を示す。"
+    },
+    {
       "index": 10159,
       "tag": "ui (blue archive)",
       "ja": "ウイ（ブルーアーカイブ）",
@@ -9103,6 +10008,22 @@
       "status": "needs-review",
       "confidence": "medium",
       "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+    },
+    {
+      "index": 10467,
+      "tag": "warm colors",
+      "ja": "暖色",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "色調"
+      },
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "暖色系の配色・色調表現を示す。"
     },
     {
       "index": 10564,
@@ -10264,6 +11185,22 @@
       "status": "proposed",
       "confidence": "high",
       "reason": "衣服・装飾品・履物の色属性。"
+    },
+    {
+      "index": 10697,
+      "tag": "window shadow",
+      "ja": "窓の影",
+      "legacy": {
+        "major": "光・色彩",
+        "minor": "照明"
+      },
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "shadows"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "窓枠等によって生じる影の表現を示す。"
     },
     {
       "index": 10831,
