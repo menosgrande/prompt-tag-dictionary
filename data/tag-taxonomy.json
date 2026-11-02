@@ -39,7 +39,7 @@
       "description": "人数、単独・複数人、人物の構成。",
       "subcategories": [
         {
-          "id": "people-count",
+          "id": "people-count-value",
           "name": "人数・人物構成"
         }
       ]
@@ -106,6 +106,13 @@
         {
           "id": "species-role",
           "name": "種族・役割",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
+        },
+        {
+          "id": "people-count",
+          "name": "人数・人物属性",
           "hidden": true,
           "deprecated": true,
           "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
