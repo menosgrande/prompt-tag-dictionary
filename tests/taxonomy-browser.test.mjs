@@ -50,3 +50,11 @@ test("provisional classifications remain visibly labeled",()=>{
   assert.match(app,/新分類のAI候補。確定済みではありません。/);
   assert.ok(html.includes("暫定"));
 });
+
+test("needs-review and unclassified tags have separate filters and counts",()=>{
+  assert.match(app,/__classificationStatus/);
+  assert.match(app,/candidate\?\.status==="needs-review"/);
+  assert.match(app,/!classificationOf\(t\) && majorOf\(t\)==="未分類"/);
+  assert.match(app,/addFilterButton\("要確認",needsReviewCount/);
+  assert.match(app,/addFilterButton\("未分類",unclassifiedCount/);
+});

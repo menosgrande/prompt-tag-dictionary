@@ -666,10 +666,15 @@
       }
       root.append(wrap);
     });
-    const unclassifiedCount=counts.get("未分類")?.total||0;
-    root.append(addFilterButton("未分類・要確認",unclassifiedCount,state.category?.[0]==="未分類"&&!state.category?.[1],()=>{
-      const active=state.category?.[0]==="未分類"&&!state.category?.[1];
-      state.category=active?null:["未分類",null,null];state.page=0;renderAll();
+    const needsReviewCount=state.tags.filter(t=>classificationOf(t)?.status==="needs-review").length;
+    const unclassifiedCount=state.tags.filter(t=>!classificationOf(t) && majorOf(t)==="未分類").length;
+    const needsReviewActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="needs-review";
+    root.append(addFilterButton("要確認",needsReviewCount,needsReviewActive,()=>{
+      state.category=needsReviewActive?null:["__classificationStatus","needs-review",null];state.page=0;renderAll();
+    }));
+    const unclassifiedActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="unclassified";
+    root.append(addFilterButton("未分類",unclassifiedCount,unclassifiedActive,()=>{
+      state.category=unclassifiedActive?null:["__classificationStatus","unclassified",null];state.page=0;renderAll();
     }));
   }
   function renderCategories() {
@@ -778,6 +783,10 @@
     let list = state.tags.filter(t => {
       if (workBrowse) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
+      else if (state.category?.[0] === "__classificationStatus") {
+        const candidate=classificationOf(t);
+        if(state.category[1]==="needs-review" ? candidate?.status!=="needs-review" : candidate || majorOf(t)!=="未分類") return false;
+      }
       else if (state.category && state.category[0] === "品質・ネガティブ" && !state.category[1]) { if (promptOrderOf(t) !== "品質・ネガティブ") return false; }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
