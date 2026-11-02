@@ -121,6 +121,8 @@ export function buildClassificationCandidates(rows, audits = []) {
     const byTag=new Map(entries.map(item=>[norm(item.tag),item]));
     const auditSummaries=[];
     for(const audit of audits){
+    const auditSummaries=[];
+    for(const audit of audits){
     const auditEntries=Array.isArray(audit.entries)?audit.entries:[];
     for(const reviewed of auditEntries){
       const key=norm(reviewed.tag);
