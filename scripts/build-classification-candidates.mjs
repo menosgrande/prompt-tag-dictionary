@@ -123,6 +123,8 @@ export function buildClassificationCandidates(rows, audits = []) {
     for(const audit of audits){
     const auditSummaries=[];
     for(const audit of audits){
+    const auditSummaries=[];
+    for(const audit of audits){
     const auditEntries=Array.isArray(audit.entries)?audit.entries:[];
     for(const reviewed of auditEntries){
       const key=norm(reviewed.tag);
