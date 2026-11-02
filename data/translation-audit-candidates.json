@@ -38,8 +38,8 @@
   {
     "tag": "aaaa (quad-a)",
     "ja": "AAAA（Quad-A）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -110,8 +110,8 @@
   {
     "tag": "akinbo (hyouka fuyou)",
     "ja": "アキンボ（hyoukafuyou）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -207,8 +207,8 @@
   {
     "tag": "anti (untea9)",
     "ja": "アンティ（untea9）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -449,8 +449,8 @@
   {
     "tag": "ayu (mog)",
     "ja": "あゆ（mog）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -473,8 +473,8 @@
   {
     "tag": "ban! (bansankan)",
     "ja": "禁止！ （Bansankan）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -522,8 +522,8 @@
   {
     "tag": "bb (baalbuddy)",
     "ja": "BB（Baalbuddy）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -644,8 +644,8 @@
   {
     "tag": "bow (bhp)",
     "ja": "弓（BHP）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "物",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -680,8 +680,8 @@
   {
     "tag": "catstudioinc (punepuni)",
     "ja": "catstudioinc（punepuni）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -692,8 +692,8 @@
   {
     "tag": "cevio",
     "ja": "CeVIO",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -705,8 +705,8 @@
   {
     "tag": "chaldea logo",
     "ja": "Chaldeaロゴ",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -718,8 +718,8 @@
   {
     "tag": "chanta (ayatakaoisii)",
     "ja": "チャンタ（ayatakaoisii）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -742,8 +742,8 @@
   {
     "tag": "cougar (cougar1404)",
     "ja": "クーガー（cougar1404）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -804,8 +804,8 @@
   {
     "tag": "dc comics",
     "ja": "DCコミックス",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -816,8 +816,8 @@
   {
     "tag": "dd (ijigendd)",
     "ja": "DD（異次元DD）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -878,8 +878,8 @@
   {
     "tag": "diva (hyxpk)",
     "ja": "歌姫（hyxpk）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1001,8 +1001,8 @@
   {
     "tag": "eiri (eirri)",
     "ja": "えいり（eirri）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1073,8 +1073,8 @@
   {
     "tag": "facebook logo",
     "ja": "Facebookのロゴ",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -1304,8 +1304,8 @@
   {
     "tag": "final fantasy vii",
     "ja": "ファイナルファンタジーVII",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1352,8 +1352,8 @@
   {
     "tag": "final fantasy viii",
     "ja": "ファイナルファンタジーVIII",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1364,8 +1364,8 @@
   {
     "tag": "final fantasy xiv",
     "ja": "ファイナルファンタジーXIV",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1376,8 +1376,8 @@
   {
     "tag": "final fantasy xvi",
     "ja": "ファイナルファンタジーXVI",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1448,8 +1448,8 @@
   {
     "tag": "fumihiko (fu mihi ko)",
     "ja": "ふみひこ（fu mihi ko）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1460,8 +1460,8 @@
   {
     "tag": "fumio (rsqkr)",
     "ja": "ふみお（rsqkr）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -1496,8 +1496,8 @@
   {
     "tag": "gaoo (frpjx283)",
     "ja": "がおー（frpjx283）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
