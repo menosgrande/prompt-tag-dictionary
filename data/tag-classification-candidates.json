@@ -552,7 +552,6 @@
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
@@ -743,7 +742,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
@@ -1082,7 +1080,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "関係性",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
@@ -1322,7 +1319,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "関係性",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
@@ -2144,7 +2140,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
@@ -3165,7 +3160,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
@@ -3345,7 +3339,6 @@
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留."
@@ -3355,7 +3348,6 @@
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
       "categoryId": "",
-      "subcategoryId": "",
       "status": "needs-review",
       "confidence": "low",
       "reason": "関係性・イベントは意味が広いため個別確認が必要。"
