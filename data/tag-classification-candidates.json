@@ -12,7 +12,7 @@
   },
   "migrationAudit": {
     "source": "data/color-semantic-classification-audit.json",
-    "source_blob_sha": "a1d410eefc7c24f236c008a954e6ad01314dbe5b",
+    "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
     "covered": 758,
     "proposed": 716,
     "needsReview": 42
