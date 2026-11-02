@@ -9,6 +9,7 @@ on:
       - "data/tag-groups.json"
       - "scripts/audit-tag-groups.mjs"
       - "data/tag-classification-candidates.json"
+      - "data/tag-classification-review-audit.json"
       - "scripts/build-classification-candidates.mjs"
       - "tests/build-classification-candidates.test.mjs"
       - "scripts/audit-taxonomy.mjs"

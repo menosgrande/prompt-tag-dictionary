@@ -417,7 +417,7 @@
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
     const candidate = classificationOf(t);
-    const taxonomyOutputIndex = { quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9 }[candidate?.categoryId];
+    const taxonomyOutputIndex = { quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9, "living-things":10, objects:11 }[candidate?.categoryId];
     if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
     const major = majorOf(t);
     const minor = minorOf(t);
