@@ -444,12 +444,11 @@
     const minor = minorOf(t);
     const tag = norm(t.tag);
     if (major === "画風・品質") {
-      if (minor !== "品質") return PROMPT_ORDER[7];
-      if (tag === "beautiful detailed eyes") return PROMPT_ORDER[1];
-      if (tag === "detailed background") return PROMPT_ORDER[5];
-      if (tag === "nsfw") return PROMPT_ORDER[4];
-      if (["text", "signature", "username", "watermark", "wallpaper", "official art", "key visual"].includes(tag)) return PROMPT_ORDER[7];
-      return PROMPT_ORDER[0];
+      if (tag === "beautiful detailed eyes") return "顔・表情";
+      if (tag === "detailed background") return "背景・場所";
+      if (tag === "nsfw") return "動作・接触";
+      if (["text", "signature", "username", "watermark", "wallpaper", "official art", "key visual"].includes(tag)) return "文字・記号";
+      return minor === "品質" ? "品質・ネガティブ" : "画風・描写";
     }
     const legacyOrder = {
       "人物": "人物の特徴", "作品・キャラクター": "キャラクター・作品",
