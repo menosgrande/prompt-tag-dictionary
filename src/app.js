@@ -408,7 +408,7 @@
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[0]) || "未分類"; }
+  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(candidate?.status==="needs-review") return "未分類"; const legacyMajor=(t.category && t.category[0]) || "未分類"; return legacyMajor === "光・色彩" ? "未分類" : legacyMajor; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・ネガティブ", "人物・身体的特徴", "キャラクター・作品", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・演出"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
@@ -419,8 +419,8 @@
     const candidate = classificationOf(t);
     const taxonomyOutputIndex = { quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9 }[candidate?.categoryId];
     if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
-    const major = candidate?.status === "needs-review" ? ((t.category && t.category[0]) || "未分類") : majorOf(t);
-    const minor = candidate?.status === "needs-review" ? ((t.category && t.category[1]) || "未分類") : minorOf(t);
+    const major = majorOf(t);
+    const minor = minorOf(t);
     const tag = norm(t.tag);
     if (major === "画風・品質") {
       if (minor !== "品質") return PROMPT_ORDER[7];
@@ -441,7 +441,7 @@
     if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
     return "未分類";
   }
-  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(tagTaxonomy) return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(candidate?.status==="needs-review" || (t.category && t.category[0]) === "光・色彩") return "未分類"; return (t.category && t.category[1]) || "未分類"; }
   function detailOf(t) { return (t.category && t.category[2]) || "—"; }
   function displayClassification(t) {
     const candidate = classificationOf(t);
@@ -451,6 +451,9 @@
         minor: taxonomySubcategoryName(candidate.categoryId, candidate.subcategoryId) || (t.category && t.category[1]) || "未分類",
         detail: (t.category && t.category[2]) || "—"
       };
+    }
+    if (candidate?.status === "needs-review" || (t.category && t.category[0]) === "光・色彩") {
+      return { major: "未分類", minor: "要確認", detail: (t.category && t.category[2]) || "—" };
     }
     return {
       major: (t.category && t.category[0]) || "未分類",
@@ -617,7 +620,14 @@
       button.append(text); addCount(button,count); button.addEventListener("click",onClick);
       return button;
     };
-    const categories = [...(tagTaxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
+    const taxonomyCategories = [...(tagTaxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
+    const taxonomyNames = new Set(taxonomyCategories.map(category=>category.name));
+    const legacyOrder = new Map(CATEGORIES.map((category,index)=>[category[0],index]));
+    const legacyCategories = [...counts.entries()]
+      .filter(([name,entry])=>name!=="未分類" && !taxonomyNames.has(name) && entry.total>0)
+      .sort((a,b)=>(legacyOrder.get(a[0])??999)-(legacyOrder.get(b[0])??999)||a[0].localeCompare(b[0],"ja"))
+      .map(([name,entry])=>({id:null,name,order:100+(legacyOrder.get(name)??999),subcategories:[...entry.minors.keys()].map(subName=>({name:subName}))}));
+    const categories = [...taxonomyCategories,...legacyCategories];
     const negativeCount = state.tags.filter(t => promptTargetOf(t) === "negative").length;
     categories.forEach(category => {
       const entry = counts.get(category.name) || {total:0,minors:new Map()};
