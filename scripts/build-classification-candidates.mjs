@@ -106,7 +106,7 @@ export function classifyLegacyRow(row) {
   return { tag, legacyMajor:major, legacyMinor:minor, ...result };
 }
 
-export function buildClassificationCandidates(rows, audit = null) {
+export function buildClassificationCandidates(rows, audits = []) {
   const entries=[];
   let unclassified=0;
   for(const row of rows){
@@ -115,9 +115,12 @@ export function buildClassificationCandidates(rows, audit = null) {
     entries.push(item);
   }
   let migrationAudit=null;
-  if(audit){
+  if(!Array.isArray(audits)) audits=[audits];
+  if(audits.length){
     const seen=new Set();
     const byTag=new Map(entries.map(item=>[norm(item.tag),item]));
+    const auditSummaries=[];
+    for(const audit of audits){
     const auditEntries=Array.isArray(audit.entries)?audit.entries:[];
     for(const reviewed of auditEntries){
       const key=norm(reviewed.tag);
@@ -157,13 +160,9 @@ export function buildClassificationCandidates(rows, audit = null) {
         throw new Error("Unknown audit status for tag: "+reviewed.tag);
       }
     }
-    migrationAudit={
-      source:"data/color-semantic-classification-audit.json",
-      source_blob_sha:audit.source_blob_sha,
-      covered:auditEntries.length,
-      proposed:auditEntries.filter(item=>item.status==="proposed").length,
-      needsReview:auditEntries.filter(item=>item.status==="needs-review").length
-    };
+    auditSummaries.push({source:audit.source,source_blob_sha:audit.source_blob_sha,covered:auditEntries.length,proposed:auditEntries.filter(item=>item.status==="proposed").length,needsReview:auditEntries.filter(item=>item.status==="needs-review").length});
+    }
+    migrationAudit={audits:auditSummaries,covered:auditSummaries.reduce((n,x)=>n+x.covered,0),proposed:auditSummaries.reduce((n,x)=>n+x.proposed,0),needsReview:auditSummaries.reduce((n,x)=>n+x.needsReview,0)};
   }
   const provisional=entries.filter(item=>item.status==="provisional").length;
   const needsReview=entries.filter(item=>item.status==="needs-review").length;
@@ -182,8 +181,8 @@ export function buildClassificationCandidates(rows, audit = null) {
 async function main(){
   const rows=await readJson("data/tags.json");
   const taxonomy=await readJson("data/tag-taxonomy.json");
-  const audit=await readJson("data/color-semantic-classification-audit.json");
-  const report=buildClassificationCandidates(rows,audit);
+  const audits=await Promise.all(["data/color-semantic-classification-audit.json","data/tag-classification-review-audit.json"].map(path=>readJson(path)));
+  const report=buildClassificationCandidates(rows,audits);
   const categoryIds=new Set(taxonomy.semanticCategories.map(category=>category.id));
   const subcategories=new Map(taxonomy.semanticCategories.map(category=>[category.id,new Set(category.subcategories.map(item=>item.id))]));
   for(const item of report.entries){
