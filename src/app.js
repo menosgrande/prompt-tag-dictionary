@@ -413,7 +413,7 @@
   function taxonomyCategoryName(id) { return tagTaxonomy?.semanticCategories?.find(category => category.id === id)?.name || ""; }
   function taxonomySubcategoryName(categoryId, subcategoryId) {
     const mappedCategoryId = taxonomyCategoryId({categoryId, subcategoryId});
-    const mappedSubcategoryId = categoryId === "person" && subcategoryId === "people-count" ? "people-count"
+    const mappedSubcategoryId = categoryId === "person" && subcategoryId === "people-count" ? "people-count-value"
       : categoryId === "person" && subcategoryId === "face-expression" ? "face-expression-core"
       : categoryId === "person" && subcategoryId === "eyes" ? "eyes-feature"
       : categoryId === "person" && subcategoryId === "hair-head" ? "hair-head-core"
