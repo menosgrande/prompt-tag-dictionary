@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 103,
-    "needsReview": 897
+    "proposed": 144,
+    "needsReview": 856
   },
   "entries": [
     {
@@ -138,9 +138,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "自然物ではなく制作物・作品を指す可能性があり、分類先を追加確認する必要があるため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "砂で作られた彫刻物。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 3,
@@ -170,9 +174,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "他者や物の間に挟まれた状態・対人状況。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "interpersonal-contact"
+      }
     },
     {
       "batch": 3,
@@ -214,10 +222,10 @@
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "三白眼という目の形状・特徴を示すタグ。",
+      "reason": "三白眼という目の特徴。",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       }
     },
     {
@@ -258,9 +266,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サンタクロース風の衣装。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 3,
@@ -286,9 +298,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "さらしという衣服・布装備。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 3,
@@ -300,9 +316,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サロンという巻きスカート状の衣服。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 3,
@@ -346,9 +366,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "肩掛け鞄という身につける小物。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 3,
@@ -444,9 +468,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ソースという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 3,
@@ -472,9 +500,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サウナという場所・施設。",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "locations"
+      }
     },
     {
       "batch": 3,
@@ -486,9 +518,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サンマという魚。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 3,
@@ -500,9 +536,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ソーセージという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 3,
@@ -584,9 +624,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "医療用メスという器具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 3,
@@ -662,9 +706,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "景色・風景。",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      }
     },
     {
       "batch": 3,
@@ -690,9 +738,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "SFというジャンル・表現様式。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      }
     },
     {
       "batch": 3,
@@ -768,9 +820,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ヒバニーというポケモン種。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 3,
@@ -796,9 +852,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "しかめ面という表情。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 3,
@@ -824,9 +884,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "手で頭をかく動作。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "hand-action"
+      }
     },
     {
       "batch": 3,
@@ -880,9 +944,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "漫画のスクリーントーンという描画技法。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
+      }
     },
     {
       "batch": 3,
@@ -908,9 +976,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ねじ回し工具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 3,
@@ -922,9 +994,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "落書き状の記号で隠す表現。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "symbols"
+      }
     },
     {
       "batch": 3,
@@ -950,9 +1026,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "髪を束ねるシュシュ。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 3,
@@ -964,9 +1044,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "スキュラという神話上の怪物。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "fantasy-creatures"
+      }
     },
     {
       "batch": 3,
@@ -978,9 +1062,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "大鎌という武器。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      }
     },
     {
       "batch": 3,
@@ -992,9 +1080,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "カモメという鳥。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 3,
@@ -1006,9 +1098,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "縫い目のあるレッグウェア。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
+      }
     },
     {
       "batch": 3,
@@ -1034,9 +1130,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サーチライトという照明設備。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "fixtures"
+      }
     },
     {
       "batch": 3,
@@ -1048,9 +1148,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "貝殻という物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 3,
@@ -1090,9 +1194,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "海藻という植物。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "plants"
+      }
     },
     {
       "batch": 3,
@@ -1104,9 +1212,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "透けるレッグウェア。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
+      }
     },
     {
       "batch": 3,
@@ -1136,9 +1248,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "透けたサロンという衣服の状態。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing-state"
+      }
     },
     {
       "batch": 3,
@@ -1164,9 +1280,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "透けるベールという装飾品。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 3,
@@ -1318,9 +1438,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "自傷による傷痕。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 3,
@@ -1556,9 +1680,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "セーラー服という衣服。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 3,
@@ -1626,9 +1754,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "サーバル柄のプリントを施した衣服。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing-state"
+      }
     },
     {
       "batch": 3,
@@ -1952,9 +2084,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "複数人で一緒に入浴する行為。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "interpersonal-contact"
+      }
     },
     {
       "batch": 3,
@@ -2052,9 +2188,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "鋭く尖った爪という身体的特徴。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 3,
@@ -2066,9 +2206,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "鋭く尖った足の爪。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 3,
@@ -2214,9 +2358,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "棚という家具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "furniture-items"
+      }
     },
     {
       "batch": 3,
@@ -2256,9 +2404,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "柴犬という犬種。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 3,
@@ -2298,9 +2450,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "七面鳥という鳥。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      }
     },
     {
       "batch": 3,
@@ -2550,9 +2706,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "竹刀という武具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      }
     },
     {
       "batch": 3,
@@ -2718,9 +2878,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "光沢のあるレッグウェア。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
+      }
     },
     {
       "batch": 3,
@@ -14433,5 +14597,11 @@
     "noOverlapWithPriorBatches": true,
     "allLegacyUnclassified": true,
     "validTargets": false
+  },
+  "review": {
+    "reviewedAt": "2026-11-02",
+    "method": "high-precision exact-tag review; ambiguous terms and proper names retained for manual review",
+    "newlyProposed": 41,
+    "correctedExistingTargets": 1
   }
 }
