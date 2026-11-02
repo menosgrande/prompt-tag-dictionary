@@ -114,59 +114,59 @@ export function buildClassificationCandidates(rows, audits = []) {
     if(!item){unclassified++;continue;}
     entries.push(item);
   }
-  let migrationAudit=null;
   if(!Array.isArray(audits)) audits=[audits];
+  const auditSummaries=[];
   if(audits.length){
     const seen=new Set();
     const byTag=new Map(entries.map(item=>[norm(item.tag),item]));
-    const auditSummaries=[];
     for(const audit of audits){
-    const auditSummaries=[];
-    for(const audit of audits){
-    const auditSummaries=[];
-    for(const audit of audits){
-    const auditEntries=Array.isArray(audit.entries)?audit.entries:[];
-    for(const reviewed of auditEntries){
-      const key=norm(reviewed.tag);
-      if(!key || seen.has(key)) throw new Error("Duplicate or empty audit tag: "+reviewed.tag);
-      seen.add(key);
-      const row=rows.find(item=>norm(item[0])===key);
-      if(!row) throw new Error("Audit tag is missing from data/tags.json: "+reviewed.tag);
-      if(row[1]!==reviewed.ja || row[2]!==reviewed.legacy?.major || row[3]!==reviewed.legacy?.minor){
-        throw new Error("Audit source mismatch for tag: "+reviewed.tag);
-      }
-      const candidate=byTag.get(key);
-      if(!candidate) throw new Error("Audit tag has no legacy classification candidate: "+reviewed.tag);
-      candidate.legacyMajor=reviewed.legacy.major;
-      candidate.legacyMinor=reviewed.legacy.minor;
-      candidate.auditSourceIndex=reviewed.index;
-      candidate.confidence=reviewed.confidence;
-      candidate.reason=reviewed.reason;
-      if(reviewed.status==="proposed"){
-        if(!reviewed.target?.categoryId || !reviewed.target?.subcategoryId) throw new Error("Proposed audit entry has no target: "+reviewed.tag);
-        candidate.categoryId=reviewed.target.categoryId;
-        candidate.subcategoryId=reviewed.target.subcategoryId;
-        candidate.status="provisional";
-        delete candidate.proposedCategoryId;
-        delete candidate.proposedSubcategoryId;
-      } else if(reviewed.status==="needs-review"){
-        candidate.categoryId="";
-        candidate.subcategoryId="";
-        candidate.status="needs-review";
-        if(reviewed.target?.categoryId && reviewed.target?.subcategoryId){
-          candidate.proposedCategoryId=reviewed.target.categoryId;
-          candidate.proposedSubcategoryId=reviewed.target.subcategoryId;
-        } else {
+      const auditEntries=Array.isArray(audit.entries)?audit.entries:[];
+      for(const reviewed of auditEntries){
+        const key=norm(reviewed.tag);
+        if(!key || seen.has(key)) throw new Error("Duplicate or empty audit tag: "+reviewed.tag);
+        seen.add(key);
+        const row=rows.find(item=>norm(item[0])===key);
+        if(!row) throw new Error("Audit tag is missing from data/tags.json: "+reviewed.tag);
+        if(row[1]!==reviewed.ja || row[2]!==reviewed.legacy?.major || row[3]!==reviewed.legacy?.minor){
+          throw new Error("Audit source mismatch for tag: "+reviewed.tag);
+        }
+        const candidate=byTag.get(key);
+        if(!candidate) throw new Error("Audit tag has no legacy classification candidate: "+reviewed.tag);
+        candidate.legacyMajor=reviewed.legacy.major;
+        candidate.legacyMinor=reviewed.legacy.minor;
+        candidate.auditSourceIndex=reviewed.index;
+        candidate.confidence=reviewed.confidence;
+        candidate.reason=reviewed.reason;
+        if(reviewed.status==="proposed"){
+          if(!reviewed.target?.categoryId || !reviewed.target?.subcategoryId) throw new Error("Proposed audit entry has no target: "+reviewed.tag);
+          candidate.categoryId=reviewed.target.categoryId;
+          candidate.subcategoryId=reviewed.target.subcategoryId;
+          candidate.status="provisional";
           delete candidate.proposedCategoryId;
           delete candidate.proposedSubcategoryId;
+        } else if(reviewed.status==="needs-review"){
+          candidate.categoryId="";
+          candidate.subcategoryId="";
+          candidate.status="needs-review";
+          if(reviewed.target?.categoryId && reviewed.target?.subcategoryId){
+            candidate.proposedCategoryId=reviewed.target.categoryId;
+            candidate.proposedSubcategoryId=reviewed.target.subcategoryId;
+          } else {
+            delete candidate.proposedCategoryId;
+            delete candidate.proposedSubcategoryId;
+          }
+        } else {
+          throw new Error("Unknown audit status for tag: "+reviewed.tag);
         }
-      } else {
-        throw new Error("Unknown audit status for tag: "+reviewed.tag);
       }
+      auditSummaries.push({
+        source:audit.source,
+        source_blob_sha:audit.source_blob_sha,
+        covered:auditEntries.length,
+        proposed:auditEntries.filter(item=>item.status==="proposed").length,
+        needsReview:auditEntries.filter(item=>item.status==="needs-review").length
+      });
     }
-    auditSummaries.push({source:audit.source,source_blob_sha:audit.source_blob_sha,covered:auditEntries.length,proposed:auditEntries.filter(item=>item.status==="proposed").length,needsReview:auditEntries.filter(item=>item.status==="needs-review").length});
-    }
-    migrationAudit={audits:auditSummaries,covered:auditSummaries.reduce((n,x)=>n+x.covered,0),proposed:auditSummaries.reduce((n,x)=>n+x.proposed,0),needsReview:auditSummaries.reduce((n,x)=>n+x.needsReview,0)};
   }
   const provisional=entries.filter(item=>item.status==="provisional").length;
   const needsReview=entries.filter(item=>item.status==="needs-review").length;
@@ -177,8 +177,14 @@ export function buildClassificationCandidates(rows, audits = []) {
     description:"旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
     summary:{totalTags:rows.length,proposed:provisional,needsReview,unclassified,entries:entries.length}
   };
-  if(migrationAudit) report.migrationAudit=migrationAudit;
-  report.entries=entries;
+  if(auditSummaries.length){
+    report.migrationAudit={
+      audits:auditSummaries,
+      covered:auditSummaries.reduce((n,x)=>n+x.covered,0),
+      proposed:auditSummaries.reduce((n,x)=>n+x.proposed,0),
+      needsReview:auditSummaries.reduce((n,x)=>n+x.needsReview,0)
+    };
+  }
   return report;
 }
 
