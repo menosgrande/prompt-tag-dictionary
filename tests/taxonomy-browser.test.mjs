@@ -12,11 +12,11 @@ test("browser loads canonical taxonomy and candidate sidecar",()=>{
   assert.match(app,/\.\/data\/tag-classification-candidates\.json/);
 });
 
-test("canonical taxonomy defines ten categories in prompt order",()=>{
+test("canonical taxonomy defines all categories in prompt order",()=>{
   const ids = taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.id);
-  assert.deepEqual(ids,["quality","person","character","clothing","pose","action","background","composition","style","lighting"]);
+  assert.deepEqual(ids,["quality","person","character","clothing","pose","action","background","composition","style","lighting","living-things","objects"]);
   assert.deepEqual(promptOrder.categories.map(c=>c.name),taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.name));
-  assert.match(app,/quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9/);
+  assert.match(app,/quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9, "living-things":10, objects:11/);
 });
 
 test("person appearance and work-character identity are separate",()=>{
