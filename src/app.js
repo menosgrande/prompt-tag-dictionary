@@ -365,7 +365,7 @@
     }).then(data => {
       const entries = Array.isArray(data.overrides) ? data.overrides : [];
       const ordered = Array.isArray(data.categories) ? data.categories.slice().sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999)).map(x=>x&&x.name).filter(name=>typeof name==="string"&&name.trim()) : [];
-      if (ordered.length) PROMPT_ORDER = [...new Set([...ordered, "ネガティブ"])];
+      if (ordered.length) PROMPT_ORDER = [...new Set(ordered)];
       promptOrderOverrides = new Map(entries.filter(x => x && x.tag && x.category).map(x => [norm(x.tag), x.category]));
       promptTargetOverrides = new Map((Array.isArray(data.negative_tags) ? data.negative_tags : []).map(tag => [norm(tag), "negative"]));
     });
@@ -410,15 +410,15 @@
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
   function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(candidate?.status==="needs-review") return "未分類"; const legacyMajor=(t.category && t.category[0]) || "未分類"; return legacyMajor === "光・色彩" ? "未分類" : legacyMajor; }
   // Prompt assembly order is shared by the output UI and the category navigation.
-  let PROMPT_ORDER = ["品質・ネガティブ", "人物・身体的特徴", "キャラクター・作品", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・環境", "構図・カメラ", "画風・描写", "光・演出"];
+  let PROMPT_ORDER = ["品質・ネガティブ", "人数・人物構成", "キャラクター・作品", "人物の特徴", "顔・表情", "髪・頭部", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・場所", "家具・設備・物品", "乗り物", "構図・カメラ", "画風・描写", "光・演出", "生物・動植物", "文字・記号"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
   function promptOrderOf(t) {
     if (promptTargetOf(t) === "negative") return PROMPT_ORDER[0];
     const override = promptOrderOverrides.get(norm(t.tag));
     if (PROMPT_ORDER.includes(override)) return override;
     const candidate = classificationOf(t);
-    const taxonomyOutputIndex = { quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9, "living-things":10, objects:11 }[candidate?.categoryId];
-    if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex)) return PROMPT_ORDER[taxonomyOutputIndex];
+    const taxonomyOutputIndex = tagTaxonomy?.semanticCategories?.find(category => category.id === candidate?.categoryId)?.order - 1;
+    if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex) && taxonomyOutputIndex >= 0) return PROMPT_ORDER[taxonomyOutputIndex];
     const major = majorOf(t);
     const minor = minorOf(t);
     const tag = norm(t.tag);
