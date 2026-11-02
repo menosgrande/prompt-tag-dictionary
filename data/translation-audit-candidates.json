@@ -3620,8 +3620,8 @@
   {
     "tag": "onegai my melody",
     "ja": "Onegai私のメロディー",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3684,8 +3684,8 @@
   {
     "tag": "ore no imouto ga konna ni kawaii wake ga nai",
     "ja": "鉱石no imouto ga konna ni kawaii wake ga nai",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3697,8 +3697,8 @@
   {
     "tag": "oryo (oryo04)",
     "ja": "おりょう（oryo04）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese"
     ],
@@ -3709,8 +3709,8 @@
   {
     "tag": "os-tan",
     "ja": "OSたん",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -3721,8 +3721,8 @@
   {
     "tag": "osomatsu-kun",
     "ja": "大us-kun",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3734,8 +3734,8 @@
   {
     "tag": "osomatsu-san",
     "ja": "大us-ssan",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3747,8 +3747,8 @@
   {
     "tag": "oyama mihari",
     "ja": "大山mihari",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "キャラクター",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3760,8 +3760,8 @@
   {
     "tag": "p90",
     "ja": "P90",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "服装",
+    "minor": "装備",
     "reasons": [
       "same-as-latin-tag"
     ],
@@ -3784,8 +3784,8 @@
   {
     "tag": "panzer iv",
     "ja": "IV号戦車",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "服装",
+    "minor": "装備",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -3796,8 +3796,8 @@
   {
     "tag": "patreon username",
     "ja": "Patreonユーザー名",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3821,8 +3821,8 @@
   {
     "tag": "pentagram",
     "ja": "五gram星",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "記号・効果",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3846,8 +3846,8 @@
   {
     "tag": "pixiv fantasia",
     "ja": "pixivファンタジア",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3885,8 +3885,8 @@
   {
     "tag": "pixiv username",
     "ja": "Pixivユーザー名",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3898,8 +3898,8 @@
   {
     "tag": "playstation controller",
     "ja": "PlayStationコントローラー",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "物",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3911,8 +3911,8 @@
   {
     "tag": "playstation portable",
     "ja": "PlayStationポータブル",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "物",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3937,8 +3937,8 @@
   {
     "tag": "pokemon bw",
     "ja": "ポケモンBW",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -3949,8 +3949,8 @@
   {
     "tag": "pokemon bw2",
     "ja": "ポケモンBW2",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -3961,8 +3961,8 @@
   {
     "tag": "pokemon dppt",
     "ja": "ポケモンdppt",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -3987,8 +3987,8 @@
   {
     "tag": "pokemon frlg",
     "ja": "ポケモンFRLG",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4000,8 +4000,8 @@
   {
     "tag": "pokemon go",
     "ja": "ポケモンGO",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -4012,8 +4012,8 @@
   {
     "tag": "pokemon gsc",
     "ja": "ポケモンGSC",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4025,8 +4025,8 @@
   {
     "tag": "pokemon hgss",
     "ja": "ポケモンHGSS",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4038,8 +4038,8 @@
   {
     "tag": "pokemon rgby",
     "ja": "ポケモンRGBY",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4051,8 +4051,8 @@
   {
     "tag": "pokemon rse",
     "ja": "ポケモンRSE",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4064,8 +4064,8 @@
   {
     "tag": "pokemon sm",
     "ja": "ポケモンSM",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -4088,8 +4088,8 @@
   {
     "tag": "pokemon sv",
     "ja": "ポケモンSV",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -4100,8 +4100,8 @@
   {
     "tag": "pokemon swsh",
     "ja": "ポケモンSWSH",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4113,8 +4113,8 @@
   {
     "tag": "pokemon xy",
     "ja": "ポケモンxy",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "unnatural-or-mixed-script"
     ],
@@ -4466,8 +4466,8 @@
   {
     "tag": "shin jigen game neptune vii",
     "ja": "新次元ゲイムネプテューヌVII",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -4516,8 +4516,8 @@
   {
     "tag": "sig sauer",
     "ja": "SIG Sauer",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "服装",
+    "minor": "装備",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
@@ -4553,8 +4553,8 @@
   {
     "tag": "snk",
     "ja": "SNK",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作品名・シリーズ",
     "reasons": [
       "english-remains-in-japanese",
       "same-as-latin-tag"
