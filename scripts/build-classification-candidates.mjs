@@ -77,6 +77,10 @@ export function classifyLegacyRow(row) {
   if (!Array.isArray(row) || row.length !== 4) throw new Error("Expected [tag, ja, major, minor]");
   const [tag, , major, minor] = row;
   if (major === "未分類") return null;
+  // Clothing items must not inherit a person/body-parts category from legacy data.
+  if (norm(tag) === "arm warmers") {
+    return { tag, legacyMajor: major, legacyMinor: minor, ...pair("clothing/clothing", "provisional", "high", "アームウォーマーという着用する衣類を示す。") };
+  }
   let result;
   const direct = DIRECT[major]?.[minor];
   if (major === "光・色彩" && minor === "色") result = pair("","needs-review","low","旧「色」分類は色そのものを独立カテゴリにしない方針のため、タグの意味に応じた分類先を個別確認する。");
