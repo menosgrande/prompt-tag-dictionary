@@ -195,8 +195,24 @@ async function main(){
   if(args.has("--write")){await writeFile(outputPath,serialized,"utf8");console.log("Wrote data/tag-classification-candidates.json");}
   else{
     const current=await readFile(outputPath,"utf8").catch(()=>"");
-    if(current!==serialized){console.error("ERROR: classification candidates are stale. Run with --write.");process.exitCode=1;}
-    else console.log("Classification candidate report is up to date.");
+    const stable=value=>JSON.stringify(value,(_,item)=>{
+      if(item && typeof item==="object" && !Array.isArray(item)){
+        return Object.fromEntries(Object.keys(item).sort().map(key=>[key,item[key]]));
+      }
+      return item;
+    });
+    let currentReport=null;
+    try{currentReport=JSON.parse(current);}catch{}
+    if(!currentReport || stable(currentReport)!==stable(report)){
+      console.error("ERROR: classification candidates are stale. Run with --write.");
+      if(currentReport){
+        const currentByTag=new Map((currentReport.entries||[]).map(item=>[item.tag,item]));
+        const mismatch=report.entries.find(item=>stable(currentByTag.get(item.tag)||null)!==stable(item));
+        if(mismatch) console.error("First candidate mismatch: "+mismatch.tag+"\nexpected="+JSON.stringify(mismatch)+"\nactual="+JSON.stringify(currentByTag.get(mismatch.tag)||null));
+        else console.error("Top-level metadata or candidate ordering differs.");
+      }
+      process.exitCode=1;
+    } else console.log("Classification candidate report is up to date.");
   }
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)) await main();
