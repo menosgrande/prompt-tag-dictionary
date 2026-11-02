@@ -3341,7 +3341,7 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留."
+      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
     },
     {
       "tag": "april fools",
