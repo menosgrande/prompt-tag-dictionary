@@ -77,6 +77,10 @@
         {
           "id": "person-attributes",
           "name": "人物属性"
+        },
+        {
+          "id": "body-parts",
+          "name": "身体部位・身体状態"
         }
       ]
     },
