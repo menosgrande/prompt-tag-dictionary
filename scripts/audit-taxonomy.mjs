@@ -10,6 +10,7 @@ const errors = [];
 
 if (taxonomy.schema !== "tag-taxonomy-v1") errors.push("Unknown taxonomy schema");
 if (!Array.isArray(taxonomy.semanticCategories) || taxonomy.semanticCategories.length === 0) errors.push("At least one semantic category is required");
+if (Array.isArray(taxonomy.semanticCategories) && taxonomy.semanticCategories.length !== 17) errors.push("Expected exactly 17 semantic categories");
 const categories = [...(taxonomy.semanticCategories || [])].sort((a,b)=>a.order-b.order);
 const categoryIds = new Set(), categoryNames = new Set(), subcategoryIds = new Set();
 categories.forEach((category,index)=>{
@@ -29,6 +30,14 @@ if (!(taxonomy.virtualViews || []).some(x=>x.id==="negative-view" && x.source===
 const promptCategories = [...(outputOrder.categories || [])].sort((a,b)=>a.order-b.order).map(x=>x.name);
 const taxonomyNames = categories.map(x=>x.name);
 if (promptCategories.length !== taxonomyNames.length || promptCategories.some((name,index)=>name!==taxonomyNames[index])) errors.push("Prompt output order must match the semantic category order");
+for (const category of categories) {
+  const outputCategory = (outputOrder.categories || []).find(item => item.name === category.name);
+  const taxonomySubcategories = (category.subcategories || []).filter(item => !item.hidden).map(item => item.name);
+  const outputSubcategories = outputCategory?.subcategories || [];
+  if (taxonomySubcategories.length !== outputSubcategories.length || taxonomySubcategories.some((name,index)=>name!==outputSubcategories[index])) {
+    errors.push("Prompt subcategory order must match the visible taxonomy subcategory order: " + category.name);
+  }
+}
 for (const [kind,allowed] of Object.entries(taxonomy.reviewStatuses || {})) {
   if (!Array.isArray(allowed) || !allowed.includes("unreviewed") || !allowed.includes("needs-review") || !allowed.includes("verified")) errors.push("Invalid review statuses: "+kind);
 }
