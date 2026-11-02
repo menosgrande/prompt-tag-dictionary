@@ -5,10 +5,10 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11010,
-    "proposed": 7239,
-    "needsReview": 318,
-    "unclassified": 3453,
-    "entries": 7557
+    "proposed": 7241,
+    "needsReview": 317,
+    "unclassified": 3452,
+    "entries": 7558
   },
   "migrationAudit": {
     "source": "data/color-semantic-classification-audit.json",
@@ -22573,6 +22573,15 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "dating",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "関係性",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+    },
+    {
       "tag": "dawn",
       "legacyMajor": "背景・場所",
       "legacyMinor": "時間・天候",
@@ -34258,7 +34267,7 @@
     {
       "tag": "half-erect",
       "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMinor": "身体・衣類",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -35935,9 +35944,9 @@
     {
       "tag": "head chain",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -36055,9 +36064,9 @@
     {
       "tag": "head wreath",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -36095,9 +36104,9 @@
     {
       "tag": "headgear",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -36145,9 +36154,9 @@
     {
       "tag": "headpiece",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -36185,9 +36194,9 @@
     {
       "tag": "headset",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -36384,7 +36393,7 @@
     {
       "tag": "heart maebari",
       "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMinor": "身体・衣類",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -36433,7 +36442,7 @@
     {
       "tag": "heart pasties",
       "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMinor": "身体・衣類",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -37033,9 +37042,9 @@
     {
       "tag": "high tops",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "靴",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "footwear",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -37103,7 +37112,7 @@
     {
       "tag": "highleg",
       "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMinor": "身体・衣類",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -37202,10 +37211,10 @@
     },
     {
       "tag": "hill",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMajor": "その他",
+      "legacyMinor": "自然物",
       "categoryId": "background",
-      "subcategoryId": "locations",
+      "subcategoryId": "nature-landscape",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -39972,10 +39981,10 @@
     },
     {
       "tag": "horizon",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMajor": "その他",
+      "legacyMinor": "自然物",
       "categoryId": "background",
-      "subcategoryId": "locations",
+      "subcategoryId": "nature-landscape",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -40003,9 +40012,9 @@
     {
       "tag": "horn bow",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -40023,9 +40032,9 @@
     {
       "tag": "horn ornament",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -40103,7 +40112,7 @@
     {
       "tag": "horror (theme)",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
+      "legacyMinor": "イベント",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -40681,7 +40690,7 @@
     {
       "tag": "humiliation",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
+      "legacyMinor": "イベント",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -40710,11 +40719,12 @@
     {
       "tag": "hungry",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "legacyMinor": "日常",
+      "categoryId": "action",
+      "subcategoryId": "daily-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧「日常」分類を日常動作候補として移行。"
     },
     {
       "tag": "hunter x hunter",
@@ -40747,10 +40757,10 @@
     },
     {
       "tag": "hydrokinesis",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "照明",
+      "legacyMajor": "その他",
+      "legacyMinor": "記号・効果",
       "categoryId": "lighting",
-      "subcategoryId": "lighting-source",
+      "subcategoryId": "effects",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -40778,7 +40788,7 @@
     {
       "tag": "hypnosis",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
+      "legacyMinor": "イベント",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -40938,9 +40948,9 @@
     {
       "tag": "ice skates",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "靴",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "footwear",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -41504,7 +41514,7 @@
     {
       "tag": "in-universe location",
       "legacyMajor": "背景・場所",
-      "legacyMinor": "屋内",
+      "legacyMinor": "施設",
       "categoryId": "background",
       "subcategoryId": "locations",
       "status": "provisional",
@@ -41711,9 +41721,9 @@
     {
       "tag": "industrial piercing",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -41761,7 +41771,7 @@
     {
       "tag": "infirmary",
       "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMinor": "施設",
       "categoryId": "background",
       "subcategoryId": "locations",
       "status": "provisional",
@@ -41780,12 +41790,13 @@
     },
     {
       "tag": "inflatable toy",
-      "legacyMajor": "成人向け",
-      "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "injury",
@@ -41869,9 +41880,9 @@
     {
       "tag": "inline skates",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "靴",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "footwear",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -41949,7 +41960,7 @@
     {
       "tag": "instant loss",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
+      "legacyMinor": "イベント",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -42006,21 +42017,21 @@
     },
     {
       "tag": "interracial",
-      "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "関係性",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "interspecies",
-      "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "関係性",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "intestines",
@@ -44661,9 +44672,9 @@
     {
       "tag": "labret piercing",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -45021,9 +45032,9 @@
     {
       "tag": "lapel pin",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -46213,7 +46224,7 @@
     {
       "tag": "lighthouse",
       "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMinor": "施設",
       "categoryId": "background",
       "subcategoryId": "locations",
       "status": "provisional",
@@ -46424,9 +46435,9 @@
     {
       "tag": "linked piercing",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -46494,9 +46505,9 @@
     {
       "tag": "lipgloss",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -46514,9 +46525,9 @@
     {
       "tag": "lipstick",
       "legacyMajor": "服装",
-      "legacyMinor": "衣類",
+      "legacyMinor": "小物",
       "categoryId": "clothing",
-      "subcategoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -46726,7 +46737,7 @@
     {
       "tag": "locker room",
       "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMinor": "施設",
       "categoryId": "background",
       "subcategoryId": "locations",
       "status": "provisional",
@@ -46816,9 +46827,9 @@
     {
       "tag": "long beard",
       "legacyMajor": "人物",
-      "legacyMinor": "身体・部位",
+      "legacyMinor": "頭髪",
       "categoryId": "person",
-      "subcategoryId": "body-parts",
+      "subcategoryId": "hair-head",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -46986,9 +46997,9 @@
     {
       "tag": "long sideburns",
       "legacyMajor": "人物",
-      "legacyMinor": "身体・部位",
+      "legacyMinor": "頭髪",
       "categoryId": "person",
-      "subcategoryId": "body-parts",
+      "subcategoryId": "hair-head",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -47665,7 +47676,7 @@
     {
       "tag": "lube",
       "legacyMajor": "成人向け",
-      "legacyMinor": "行為・状況",
+      "legacyMinor": "身体・衣類",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
@@ -48172,20 +48183,20 @@
     },
     {
       "tag": "magic",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "照明",
+      "legacyMajor": "その他",
+      "legacyMinor": "記号・効果",
       "categoryId": "lighting",
-      "subcategoryId": "lighting-source",
+      "subcategoryId": "effects",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
       "tag": "magic circle",
-      "legacyMajor": "光・色彩",
-      "legacyMinor": "照明",
+      "legacyMajor": "その他",
+      "legacyMinor": "記号・効果",
       "categoryId": "lighting",
-      "subcategoryId": "lighting-source",
+      "subcategoryId": "effects",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -48543,9 +48554,9 @@
     {
       "tag": "mane",
       "legacyMajor": "人物",
-      "legacyMinor": "身体・部位",
+      "legacyMinor": "頭髪",
       "categoryId": "person",
-      "subcategoryId": "body-parts",
+      "subcategoryId": "hair-head",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -48795,7 +48806,7 @@
     {
       "tag": "marriage proposal",
       "legacyMajor": "シチュエーション",
-      "legacyMinor": "関係性",
+      "legacyMinor": "イベント",
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
