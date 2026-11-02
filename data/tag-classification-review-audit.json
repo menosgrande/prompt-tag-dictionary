@@ -5,9 +5,9 @@
   "taxonomy": "data/tag-taxonomy.json",
   "policy": "分類候補323件を個別監査。明確なもののみ既存の意味分類へ提案し、分類先がないものや曖昧なものは保留。タグ本文と翻訳は変更しない。",
   "summary": {
-    "total": 323,
-    "proposed": 217,
-    "needsReview": 106
+    "total": 281,
+    "proposed": 186,
+    "needsReview": 95
   },
   "entries": [
     {
@@ -543,22 +543,6 @@
       "reason": "目の描写特徴。"
     },
     {
-      "index": 843,
-      "tag": "beige",
-      "ja": "ベージュ",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
       "index": 928,
       "tag": "birthday",
       "ja": "誕生日",
@@ -597,22 +581,6 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 944,
-      "tag": "black",
-      "ja": "黒",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
     },
     {
       "index": 1064,
@@ -693,50 +661,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "動作・行為を示す。"
-    },
-    {
-      "index": 1110,
-      "tag": "blue",
-      "ja": "青",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 1169,
-      "tag": "blue oak",
-      "ja": "青いオーク",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 1207,
-      "tag": "blue trim",
-      "ja": "青い縁取り",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
     },
     {
       "index": 1221,
@@ -873,22 +797,6 @@
       "status": "needs-review",
       "confidence": "low",
       "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 1425,
-      "tag": "brown",
-      "ja": "茶色",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
     },
     {
       "index": 1510,
@@ -1483,42 +1391,6 @@
       "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
     },
     {
-      "index": 2004,
-      "tag": "color connection",
-      "ja": "色接続",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 2005,
-      "tag": "color guide",
-      "ja": "色見本・カラーガイド",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 2006,
-      "tag": "color trace",
-      "ja": "色トレス",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
       "index": 2011,
       "tag": "colored nipples",
       "ja": "乳首",
@@ -1923,18 +1795,6 @@
       "reason": "下着・衣類の種類。"
     },
     {
-      "index": 2461,
-      "tag": "different shadow",
-      "ja": "異なる影",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "照明"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
       "index": 2488,
       "tag": "disfigured",
       "ja": "変形した容貌",
@@ -1965,22 +1825,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "動作・行為を示す。"
-    },
-    {
-      "index": 2555,
-      "tag": "double fox shadow puppet",
-      "ja": "二匹のキツネの影絵",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "照明"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "影絵による演出表現。"
     },
     {
       "index": 2576,
@@ -2371,22 +2215,6 @@
       "reason": "動作・行為を示す。"
     },
     {
-      "index": 3258,
-      "tag": "fox shadow puppet",
-      "ja": "キツネの影絵",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "照明"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "effects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "影絵による演出表現。"
-    },
-    {
       "index": 3274,
       "tag": "friends",
       "ja": "友人同士",
@@ -2447,88 +2275,12 @@
       "reason": "下着・衣類の種類。"
     },
     {
-      "index": 3583,
-      "tag": "gold",
-      "ja": "金",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 3598,
-      "tag": "gold trim",
-      "ja": "ゴールドトリム",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
-    },
-    {
       "index": 3632,
       "tag": "graduation",
       "ja": "卒業",
       "legacy": {
         "major": "シチュエーション",
         "minor": "イベント"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 3643,
-      "tag": "gray",
-      "ja": "グレー",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 3648,
-      "tag": "green",
-      "ja": "緑",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 3717,
-      "tag": "green tea",
-      "ja": "緑色の茶",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
       },
       "status": "needs-review",
       "confidence": "low",
@@ -3603,22 +3355,6 @@
       "reason": "人体・描画の不具合を避けるネガティブ指定。"
     },
     {
-      "index": 6351,
-      "tag": "muted color",
-      "ja": "落ち着いた色",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
       "index": 6567,
       "tag": "nipples",
       "ja": "乳首",
@@ -3707,22 +3443,6 @@
       "reason": "衣服を開く・ずらす・脱ぐ動作。"
     },
     {
-      "index": 6850,
-      "tag": "orange",
-      "ja": "オレンジ",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
       "index": 6948,
       "tag": "out of focus",
       "ja": "ピンボケ",
@@ -3737,22 +3457,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "低解像度・ピンぼけを避ける指定。"
-    },
-    {
-      "index": 7011,
-      "tag": "pale color",
-      "ja": "淡い色",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
     },
     {
       "index": 7087,
@@ -3781,22 +3485,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "季節行事に使われる物品。"
-    },
-    {
-      "index": 7091,
-      "tag": "pastel colors",
-      "ja": "パステル",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
     },
     {
       "index": 7116,
@@ -3829,50 +3517,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "下着・衣類の種類。"
-    },
-    {
-      "index": 7239,
-      "tag": "pink",
-      "ja": "ピンク",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 7247,
-      "tag": "pink blood",
-      "ja": "ピンクの血",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 7310,
-      "tag": "pink trim",
-      "ja": "ピンクのトリム",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
     },
     {
       "index": 7505,
@@ -3923,34 +3567,6 @@
       "reason": "人物の身体部位・身体状態。"
     },
     {
-      "index": 7662,
-      "tag": "purple",
-      "ja": "紫",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 7713,
-      "tag": "purple rope",
-      "ja": "紫色のロープ",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
       "index": 7835,
       "tag": "reaching",
       "ja": "到達",
@@ -3981,98 +3597,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "動作・行為を示す。"
-    },
-    {
-      "index": 7853,
-      "tag": "red",
-      "ja": "赤",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 7882,
-      "tag": "red cross",
-      "ja": "赤十字",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "objects",
-        "subcategoryId": "other-objects"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "赤十字の記号・標章。"
-    },
-    {
-      "index": 7918,
-      "tag": "red oni",
-      "ja": "赤鬼",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "fantasy-creatures"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "鬼という架空の存在。"
-    },
-    {
-      "index": 7923,
-      "tag": "red petals",
-      "ja": "赤い花びら",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "nature-landscape"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "花弁を含む自然・風景表現。"
-    },
-    {
-      "index": 7927,
-      "tag": "red rope",
-      "ja": "赤いロープ",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 7953,
-      "tag": "red trim",
-      "ja": "赤い縁取り",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
     },
     {
       "index": 8398,
@@ -4145,38 +3669,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "人物の身体部位・身体状態。"
-    },
-    {
-      "index": 8724,
-      "tag": "silver",
-      "ja": "銀",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 8729,
-      "tag": "silver trim",
-      "ja": "シルバートリム",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
     },
     {
       "index": 8737,
@@ -4285,22 +3777,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "動作・行為を示す。"
-    },
-    {
-      "index": 8935,
-      "tag": "snow rabbit",
-      "ja": "雪うさぎ",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "照明"
-      },
-      "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "雪うさぎの造形を示す。"
     },
     {
       "index": 9109,
@@ -4595,22 +4071,6 @@
       "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
     },
     {
-      "index": 10361,
-      "tag": "vibrant colors",
-      "ja": "鮮やかな色",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
       "index": 10434,
       "tag": "wallpaper",
       "ja": "壁紙品質",
@@ -4635,50 +4095,6 @@
       "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
     },
     {
-      "index": 10545,
-      "tag": "white",
-      "ja": "白",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 10574,
-      "tag": "white day",
-      "ja": "ホワイトデー",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 10645,
-      "tag": "white trim",
-      "ja": "白いトリム",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
-    },
-    {
       "index": 10695,
       "tag": "winking",
       "ja": "ウインク",
@@ -4693,50 +4109,6 @@
       "status": "proposed",
       "confidence": "medium",
       "reason": "動作・行為を示す。"
-    },
-    {
-      "index": 10812,
-      "tag": "yd (orange maru)",
-      "ja": "YD（オレンジマル）",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。"
-    },
-    {
-      "index": 10821,
-      "tag": "yellow",
-      "ja": "黄色",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
-    },
-    {
-      "index": 10886,
-      "tag": "yellow trim",
-      "ja": "黄色い縁取り",
-      "legacy": {
-        "major": "光・色彩",
-        "minor": "色"
-      },
-      "target": {
-        "categoryId": "clothing",
-        "subcategoryId": "clothing-state"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "衣服・装飾の縁取りや配色状態。"
     },
     {
       "index": 10900,
