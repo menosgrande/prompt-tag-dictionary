@@ -231,8 +231,8 @@
   {
     "tag": "ar-15",
     "ja": "AR-15",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "その他",
+    "minor": "物",
     "reasons": [
       "same-as-latin-tag"
     ],
@@ -340,8 +340,8 @@
   {
     "tag": "as109",
     "ja": "As109",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "same-as-latin-tag"
     ],
@@ -413,8 +413,8 @@
   {
     "tag": "au ra",
     "ja": "アウラ（ファイナルファンタジーXIV）",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "人物",
+    "minor": "種族・役割",
     "reasons": [
       "english-remains-in-japanese"
     ],
