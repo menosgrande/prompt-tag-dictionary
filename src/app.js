@@ -427,7 +427,25 @@
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(taxonomyCategoryId(candidate)) || "未分類"; if(candidate?.status==="needs-review") return "未分類"; const legacyMajor=(t.category && t.category[0]) || "未分類"; return legacyMajor === "光・色彩" ? "未分類" : legacyMajor; }
+  function majorOf(t) {
+    const candidate = classificationOf(t);
+    if (candidate?.status === "provisional" && candidate.categoryId) return taxonomyCategoryName(taxonomyCategoryId(candidate)) || "未分類";
+    if (candidate?.status === "needs-review") return "未分類";
+    const legacyMajor = (t.category && t.category[0]) || "未分類";
+    const legacyMinor = (t.category && t.category[1]) || "";
+    if (legacyMajor === "光・色彩") return "未分類";
+    if (legacyMajor === "人物") return "人物の特徴";
+    if (legacyMajor === "作品・キャラクター") return "キャラクター・作品";
+    if (legacyMajor === "服装") return "服装・装飾";
+    if (legacyMajor === "ポーズ・動作") return legacyMinor === "姿勢" ? "ポーズ・姿勢" : "動作・接触";
+    if (legacyMajor === "シチュエーション") return "動作・接触";
+    if (legacyMajor === "背景・場所") return "背景・場所";
+    if (legacyMajor === "構図・視点") return "構図・カメラ";
+    if (legacyMajor === "画風・品質") return legacyMinor === "品質" ? "品質・ネガティブ" : "画風・描写";
+    if (legacyMajor === "成人向け") return /身体・衣類/.test(legacyMinor) ? "服装・装飾" : "動作・接触";
+    if (legacyMajor === "その他") return /動物/.test(legacyMinor) ? "生物・動植物" : /記号・効果/.test(legacyMinor) ? "文字・記号" : "背景・場所";
+    return legacyMajor;
+  }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・ネガティブ", "人数・人物構成", "キャラクター・作品", "人物の特徴", "顔・表情", "髪・頭部", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・場所", "家具・設備・物品", "乗り物", "構図・カメラ", "画風・描写", "光・演出", "生物・動植物", "文字・記号"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
