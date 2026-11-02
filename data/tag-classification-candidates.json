@@ -5,8 +5,8 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11029,
-    "proposed": 5688,
-    "needsReview": 319,
+    "proposed": 5828,
+    "needsReview": 179,
     "unclassified": 5022,
     "entries": 6007
   },
@@ -14,8 +14,8 @@
     "source": "data/color-semantic-classification-audit.json",
     "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
     "covered": 758,
-    "proposed": 576,
-    "needsReview": 182
+    "proposed": 716,
+    "needsReview": 42
   },
   "entries": [
     {
@@ -1449,14 +1449,12 @@
       "tag": "akane (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 205,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "akari (pokemon)",
@@ -1632,14 +1630,12 @@
       "tag": "ako (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 226,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "alarm clock",
@@ -3138,14 +3134,12 @@
       "tag": "aris (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 466,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "arlecchino (genshin impact)",
@@ -3611,14 +3605,12 @@
       "tag": "arona (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 526,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "arrow (symbol)",
@@ -3734,14 +3726,12 @@
       "tag": "aru (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 550,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "asashimo (kancolle)",
@@ -3866,27 +3856,23 @@
       "tag": "asuna (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 583,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "asuna (bunny) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 584,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "asuna (sao)",
@@ -4182,14 +4168,12 @@
       "tag": "azusa (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 641,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "baby",
@@ -6644,14 +6628,12 @@
       "tag": "black lagoon",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。",
       "auditSourceIndex": 1022,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "works-series"
+      "subcategoryId": "works-series"
     },
     {
       "tag": "black leg warmers",
@@ -6700,12 +6682,12 @@
       "tag": "black male swimwear",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "男性用水着。",
       "auditSourceIndex": 1027,
-      "subcategoryId": ""
+      "subcategoryId": "swimwear"
     },
     {
       "tag": "black male underwear",
@@ -6837,27 +6819,23 @@
       "tag": "black rock shooter",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。",
       "auditSourceIndex": 1040,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "works-series"
+      "subcategoryId": "works-series"
     },
     {
       "tag": "black rock shooter (character)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 1041,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "black rose",
@@ -7062,27 +7040,23 @@
       "tag": "black survival",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。",
       "auditSourceIndex": 1061,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "works-series"
+      "subcategoryId": "works-series"
     },
     {
       "tag": "black swan (honkai: star rail)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 1062,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "black sweater",
@@ -7513,14 +7487,12 @@
       "tag": "blue archive",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。",
       "auditSourceIndex": 1131,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "works-series"
+      "subcategoryId": "works-series"
     },
     {
       "tag": "blue armband",
@@ -7675,12 +7647,12 @@
       "tag": "blue brooch",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ブローチ。",
       "auditSourceIndex": 1146,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "blue buruma",
@@ -7836,12 +7808,12 @@
       "tag": "blue fire",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。",
       "auditSourceIndex": 1161,
-      "subcategoryId": ""
+      "subcategoryId": "effects"
     },
     {
       "tag": "blue flower",
@@ -8071,12 +8043,12 @@
       "tag": "blue male swimwear",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "男性用水着。",
       "auditSourceIndex": 1183,
-      "subcategoryId": ""
+      "subcategoryId": "swimwear"
     },
     {
       "tag": "blue male underwear",
@@ -8168,12 +8140,12 @@
       "tag": "blue pajamas",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "パジャマ。",
       "auditSourceIndex": 1192,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "blue panties",
@@ -8209,14 +8181,12 @@
       "tag": "blue poison (arknights)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 1196,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "blue pupils",
@@ -8274,12 +8244,12 @@
       "tag": "blue sarong",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "サロン。",
       "auditSourceIndex": 1202,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "blue sash",
@@ -8339,12 +8309,12 @@
       "tag": "blue shawl",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ショール。",
       "auditSourceIndex": 1208,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "blue shirt",
@@ -8462,12 +8432,12 @@
       "tag": "blue tabard",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "タバード。",
       "auditSourceIndex": 1220,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "blue tail",
@@ -8538,12 +8508,12 @@
       "tag": "blue tunic",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "チュニック。",
       "auditSourceIndex": 1227,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "blue umbrella",
@@ -8582,12 +8552,12 @@
       "tag": "blue visor",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "バイザー。",
       "auditSourceIndex": 1231,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "blue wings",
@@ -10142,12 +10112,12 @@
       "tag": "brown mittens",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ミトン。",
       "auditSourceIndex": 1478,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "brown nails",
@@ -10880,12 +10850,12 @@
       "tag": "cammy white",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 1609,
-      "subcategoryId": ""
+      "subcategoryId": "characters"
     },
     {
       "tag": "camouflage jacket",
@@ -15518,14 +15488,12 @@
       "tag": "doodle sensei (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 2560,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "door",
@@ -16612,14 +16580,12 @@
       "tag": "elysia (miss pink elf) (honkai impact)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 2784,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "embarrassed",
@@ -17231,14 +17197,12 @@
       "tag": "ezo red fox (kemono friends)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 2901,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "face between breasts",
@@ -18572,12 +18536,12 @@
       "tag": "flat color",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "style",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ベタ塗りという描画技法。",
       "auditSourceIndex": 3147,
-      "subcategoryId": ""
+      "subcategoryId": "drawing-technique"
     },
     {
       "tag": "flat design",
@@ -20943,12 +20907,12 @@
       "tag": "gold armlet",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "腕輪。",
       "auditSourceIndex": 3603,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold armor",
@@ -20974,23 +20938,23 @@
       "tag": "gold bracelet",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ブレスレット。",
       "auditSourceIndex": 3606,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold chain",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "身につけるチェーン装飾。",
       "auditSourceIndex": 3607,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold choker",
@@ -21007,34 +20971,34 @@
       "tag": "gold coin",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "硬貨。",
       "auditSourceIndex": 3609,
-      "subcategoryId": ""
+      "subcategoryId": "object-items"
     },
     {
       "tag": "gold crown",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "王冠。",
       "auditSourceIndex": 3610,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold earrings",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "イヤリング。",
       "auditSourceIndex": 3611,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold footwear",
@@ -21072,12 +21036,12 @@
       "tag": "gold ring",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "指輪。",
       "auditSourceIndex": 3615,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "gold ship (umamusume)",
@@ -21646,12 +21610,12 @@
       "tag": "green fire",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。",
       "auditSourceIndex": 3692,
-      "subcategoryId": ""
+      "subcategoryId": "effects"
     },
     {
       "tag": "green flower",
@@ -22141,12 +22105,12 @@
       "tag": "green tunic",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "チュニック。",
       "auditSourceIndex": 3739,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "green vest",
@@ -22163,12 +22127,12 @@
       "tag": "green visor",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "バイザー。",
       "auditSourceIndex": 3741,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "green wings",
@@ -22839,14 +22803,12 @@
       "tag": "grey wolf (kemono friends)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 3807,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "grey-framed eyewear",
@@ -22863,12 +22825,12 @@
       "tag": "greyscale",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "style",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "グレースケールによるレンダリング表現。",
       "auditSourceIndex": 3809,
-      "subcategoryId": ""
+      "subcategoryId": "rendering"
     },
     {
       "tag": "greyscale with colored background",
@@ -23832,14 +23794,12 @@
       "tag": "hanako (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 3979,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hanako (swimsuit) (blue archive)",
@@ -24765,27 +24725,23 @@
       "tag": "haruka (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4104,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "haruna (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4106,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "haruna (kancolle)",
@@ -24831,27 +24787,23 @@
       "tag": "hasumi (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4115,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hasumi (track) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4116,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hat",
@@ -25347,12 +25299,12 @@
       "tag": "heaven burns red",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。",
       "auditSourceIndex": 4224,
-      "subcategoryId": ""
+      "subcategoryId": "works-series"
     },
     {
       "tag": "hedgehog girl",
@@ -25437,27 +25389,23 @@
       "tag": "hibiki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4252,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hibiki (cheer squad) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4253,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hibiki (kancolle)",
@@ -25493,14 +25441,12 @@
       "tag": "hifumi (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4262,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "high collar",
@@ -25676,14 +25622,12 @@
       "tag": "hikari (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4294,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hikarizaka private high school uniform",
@@ -25719,14 +25663,12 @@
       "tag": "himari (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4304,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hime cut",
@@ -25752,14 +25694,12 @@
       "tag": "hina (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4310,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hina (swimsuit) (blue archive)",
@@ -28224,14 +28164,12 @@
       "tag": "hoshino (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4635,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "hoshino (swimsuit) (blue archive)",
@@ -28546,14 +28484,12 @@
       "tag": "ibuki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4712,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "ice wings",
@@ -28569,14 +28505,12 @@
       "tag": "ichika (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4721,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "icho private high school uniform",
@@ -29049,14 +28983,12 @@
       "tag": "iori (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4869,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "iowa (kancolle)",
@@ -29092,14 +29024,12 @@
       "tag": "iroha (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4876,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "irys (hololive)",
@@ -29205,14 +29135,12 @@
       "tag": "izuna (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 4909,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "jack the ripper (fate/apocrypha)",
@@ -29758,14 +29686,12 @@
       "tag": "kanna (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5062,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kanna (swimsuit) (blue archive)",
@@ -29791,27 +29717,23 @@
       "tag": "karin (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5084,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "karin (bunny) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5085,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kariyushi shirt",
@@ -29957,27 +29879,23 @@
       "tag": "kayoko (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5118,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kazusa (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5123,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "keizoku military uniform",
@@ -30119,14 +30037,12 @@
       "tag": "kikyou (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5165,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kill me baby",
@@ -30252,14 +30168,12 @@
       "tag": "kisaki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5202,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kisaragi (kancolle)",
@@ -30375,14 +30289,12 @@
       "tag": "kitasan black (umamusume)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 5222,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kitauji high school uniform",
@@ -30558,14 +30470,12 @@
       "tag": "koharu (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5263,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kokkoro (princess connect!)",
@@ -30581,14 +30491,12 @@
       "tag": "kokona (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5270,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "kongou (kancolle)",
@@ -31908,12 +31816,12 @@
       "tag": "lily white",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 5556,
-      "subcategoryId": ""
+      "subcategoryId": "characters"
     },
     {
       "tag": "limited palette",
@@ -32071,27 +31979,23 @@
       "tag": "little red riding hood (grimm)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 5590,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "little red riding hood (grimm) (cosplay)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 5591,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "little witch academia",
@@ -33336,12 +33240,12 @@
       "tag": "mandarin orange",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "柑橘類の果物。",
       "auditSourceIndex": 5818,
-      "subcategoryId": ""
+      "subcategoryId": "object-items"
     },
     {
       "tag": "manga",
@@ -33437,14 +33341,12 @@
       "tag": "mari (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5836,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "mari (omori)",
@@ -33460,14 +33362,12 @@
       "tag": "mari (track) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 5838,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "marie (splatoon)",
@@ -34222,14 +34122,12 @@
       "tag": "midori (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6021,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "mihono bourbon (umamusume)",
@@ -34245,14 +34143,12 @@
       "tag": "mika (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6029,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "mika (girls und panzer)",
@@ -34318,14 +34214,12 @@
       "tag": "millennium cheerleader outfit (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品固有の衣装名であり、キャラクター名ではない。",
       "auditSourceIndex": 6055,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "clothing"
     },
     {
       "tag": "mima (touhou)",
@@ -34541,14 +34435,12 @@
       "tag": "miyako (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6126,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "miyamoto musashi (fate)",
@@ -34574,14 +34466,12 @@
       "tag": "miyu (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6132,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "miyuki (kancolle)",
@@ -34727,14 +34617,12 @@
       "tag": "momoi (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6177,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "mona (genshin impact)",
@@ -35749,14 +35637,12 @@
       "tag": "mutsuki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6372,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "mutsuki (kancolle)",
@@ -35882,14 +35768,12 @@
       "tag": "nagisa (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6400,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "nahida (genshin impact)",
@@ -36215,14 +36099,12 @@
       "tag": "natsu (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6468,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "naughty face",
@@ -36529,14 +36411,12 @@
       "tag": "neru (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6526,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "nervous smile",
@@ -37100,14 +36980,12 @@
       "tag": "noa (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6633,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "noelle (genshin impact)",
@@ -37173,14 +37051,12 @@
       "tag": "nonomi (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6642,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "northern ocean princess",
@@ -37196,14 +37072,12 @@
       "tag": "northern white-faced owl (kemono friends)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 6650,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "nose",
@@ -37279,14 +37153,12 @@
       "tag": "nozomi (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 6669,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "nsfw",
@@ -38330,14 +38202,12 @@
       "tag": "orange (fruit)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "果物のオレンジを示す。キャラクター名ではない。",
       "auditSourceIndex": 6870,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "object-items"
     },
     {
       "tag": "orange apron",
@@ -38534,12 +38404,12 @@
       "tag": "orange goggles",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ゴーグル。",
       "auditSourceIndex": 6889,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "orange hair",
@@ -38724,14 +38594,12 @@
       "tag": "orange pekoe (girls und panzer)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 6907,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "orange pupils",
@@ -38860,12 +38728,12 @@
       "tag": "orange slice",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "切り分けた果物。",
       "auditSourceIndex": 6920,
-      "subcategoryId": ""
+      "subcategoryId": "object-items"
     },
     {
       "tag": "orange socks",
@@ -40123,14 +39991,12 @@
       "tag": "peroro (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 7186,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "person on head",
@@ -40845,12 +40711,12 @@
       "tag": "pink pajamas",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "パジャマ。",
       "auditSourceIndex": 7303,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "pink panties",
@@ -40886,12 +40752,12 @@
       "tag": "pink petals",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "花弁。",
       "auditSourceIndex": 7307,
-      "subcategoryId": ""
+      "subcategoryId": "nature-landscape"
     },
     {
       "tag": "pink pupils",
@@ -41443,14 +41309,12 @@
       "tag": "plana (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 7380,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "planet hair ornament",
@@ -43099,12 +42963,12 @@
       "tag": "purple fire",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。",
       "auditSourceIndex": 7704,
-      "subcategoryId": ""
+      "subcategoryId": "effects"
     },
     {
       "tag": "purple flower",
@@ -43217,14 +43081,12 @@
       "tag": "purple heart (neptunia)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 7715,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "purple hoodie",
@@ -43552,12 +43414,12 @@
       "tag": "purple tabard",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "タバード。",
       "auditSourceIndex": 7747,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "purple tail",
@@ -44174,14 +44036,12 @@
       "tag": "red (pokemon)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 7873,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "red apron",
@@ -44347,12 +44207,12 @@
       "tag": "red brooch",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ブローチ。",
       "auditSourceIndex": 7889,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "red buruma",
@@ -44424,12 +44284,12 @@
       "tag": "red carpet",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "敷物。",
       "auditSourceIndex": 7896,
-      "subcategoryId": ""
+      "subcategoryId": "object-items"
     },
     {
       "tag": "red choker",
@@ -44488,12 +44348,12 @@
       "tag": "red crown",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "王冠。",
       "auditSourceIndex": 7902,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "red dress",
@@ -44786,12 +44646,12 @@
       "tag": "red mittens",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ミトン。",
       "auditSourceIndex": 7930,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "red moon",
@@ -45040,12 +44900,12 @@
       "tag": "red shawl",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ショール。",
       "auditSourceIndex": 7954,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "red shirt",
@@ -45164,12 +45024,12 @@
       "tag": "red tabard",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "タバード。",
       "auditSourceIndex": 7966,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "red tail",
@@ -45263,12 +45123,12 @@
       "tag": "red wine",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "飲料。",
       "auditSourceIndex": 7975,
-      "subcategoryId": ""
+      "subcategoryId": "object-items"
     },
     {
       "tag": "red wings",
@@ -45808,14 +45668,12 @@
       "tag": "rio (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8080,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "river",
@@ -46481,14 +46339,12 @@
       "tag": "saki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8221,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "saki (manga)",
@@ -46674,14 +46530,12 @@
       "tag": "saori (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8277,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "saratoga (kancolle)",
@@ -47257,14 +47111,12 @@
       "tag": "seia (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8399,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "seiran (touhou)",
@@ -47389,14 +47241,12 @@
       "tag": "sensei (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8435,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "sepia",
@@ -47423,14 +47273,12 @@
       "tag": "serika (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8445,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "serval (kemono friends)",
@@ -47956,14 +47804,12 @@
       "tag": "shiroko (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8592,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "shiroko (swimsuit) (blue archive)",
@@ -47979,14 +47825,12 @@
       "tag": "shiroko terror (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8594,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "shirt",
@@ -48662,27 +48506,23 @@
       "tag": "shun (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8688,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "shun (small) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 8689,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "shuten douji (fate)",
@@ -48987,14 +48827,12 @@
       "tag": "silver (pokemon)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 8744,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "silver dress",
@@ -49010,14 +48848,12 @@
       "tag": "silver fox (kemono friends)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 8746,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "silver hair",
@@ -49044,14 +48880,12 @@
       "tag": "silver wolf (honkai: star rail)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。",
       "auditSourceIndex": 8749,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "simple background",
@@ -50873,12 +50707,12 @@
       "tag": "spot color",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "style",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "スポットカラーという描画技法。",
       "auditSourceIndex": 9123,
-      "subcategoryId": ""
+      "subcategoryId": "drawing-technique"
     },
     {
       "tag": "spotlight",
@@ -54307,27 +54141,23 @@
       "tag": "toki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 9848,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "toki (bunny) (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 9849,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "tokin hat",
@@ -55172,14 +55002,12 @@
       "tag": "tsubaki (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 10039,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "tsugu (vtuber)",
@@ -55763,14 +55591,12 @@
       "tag": "ui (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 10159,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "ukiyo-e",
@@ -57160,14 +56986,12 @@
       "tag": "wakamo (blue archive)",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。",
+      "categoryId": "character",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。",
       "auditSourceIndex": 10441,
-      "subcategoryId": "",
-      "proposedCategoryId": "character",
-      "proposedSubcategoryId": "characters"
+      "subcategoryId": "characters"
     },
     {
       "tag": "walker (robot)",
@@ -57789,12 +57613,12 @@
       "tag": "white bloomers",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ブルマー。",
       "auditSourceIndex": 10576,
-      "subcategoryId": ""
+      "subcategoryId": "underwear"
     },
     {
       "tag": "white bodysuit",
@@ -58121,12 +57945,12 @@
       "tag": "white hanfu",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "漢服。",
       "auditSourceIndex": 10607,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white hat",
@@ -58153,12 +57977,12 @@
       "tag": "white headdress",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "頭飾り。",
       "auditSourceIndex": 10610,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "white hood",
@@ -58260,12 +58084,12 @@
       "tag": "white lily",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "background",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ユリの花。",
       "auditSourceIndex": 10620,
-      "subcategoryId": ""
+      "subcategoryId": "nature-landscape"
     },
     {
       "tag": "white male underwear",
@@ -58292,12 +58116,12 @@
       "tag": "white mittens",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ミトン。",
       "auditSourceIndex": 10623,
-      "subcategoryId": ""
+      "subcategoryId": "accessories"
     },
     {
       "tag": "white nails",
@@ -58336,12 +58160,12 @@
       "tag": "white nightgown",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ナイトガウン。",
       "auditSourceIndex": 10627,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white one-piece swimsuit",
@@ -58429,12 +58253,12 @@
       "tag": "white romper",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ロンパー。",
       "auditSourceIndex": 10636,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white rose",
@@ -58461,12 +58285,12 @@
       "tag": "white sarong",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "サロン。",
       "auditSourceIndex": 10639,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white sash",
@@ -58526,12 +58350,12 @@
       "tag": "white shawl",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "ショール。",
       "auditSourceIndex": 10645,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white shirt",
@@ -58749,12 +58573,12 @@
       "tag": "white tunic",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "チュニック。",
       "auditSourceIndex": 10666,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white umbrella",
@@ -60077,12 +59901,12 @@
       "tag": "yellow raincoat",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。",
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "high",
+      "reason": "レインコート。",
       "auditSourceIndex": 10884,
-      "subcategoryId": ""
+      "subcategoryId": "clothing"
     },
     {
       "tag": "yellow ribbon",
