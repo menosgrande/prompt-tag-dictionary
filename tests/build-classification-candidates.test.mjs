@@ -64,3 +64,36 @@ test("legacy lighting tags still map to lighting",()=>{
   assert.equal(item.categoryId,"lighting");
   assert.equal(item.subcategoryId,"lighting-source");
 });
+
+test("semantic color audit overrides candidates while retaining review states",()=>{
+  const rows=[
+    ["red shirt","赤いシャツ","光・色彩","色"],
+    ["fox shadow puppet","キツネの影絵","光・色彩","影"]
+  ];
+  const audit={
+    source_blob_sha:"test-sha",
+    entries:[
+      {index:0,tag:"red shirt",ja:"赤いシャツ",legacy:{major:"光・色彩",minor:"色"},target:{categoryId:"clothing",subcategoryId:"clothing"},status:"proposed",confidence:"high",reason:"衣服を示す。"},
+      {index:1,tag:"fox shadow puppet",ja:"キツネの影絵",legacy:{major:"光・色彩",minor:"影"},target:null,status:"needs-review",confidence:"low",reason:"意味の確認が必要。"}
+    ]
+  };
+  const report=buildClassificationCandidates(rows,audit);
+  const proposed=report.entries.find(item=>item.tag==="red shirt");
+  const review=report.entries.find(item=>item.tag==="fox shadow puppet");
+  assert.equal(proposed.categoryId,"clothing");
+  assert.equal(proposed.subcategoryId,"clothing");
+  assert.equal(proposed.status,"provisional");
+  assert.equal(proposed.auditSourceIndex,0);
+  assert.equal(review.status,"needs-review");
+  assert.equal(review.categoryId,"");
+  assert.equal(review.subcategoryId,"");
+  assert.equal(report.summary.proposed,1);
+  assert.equal(report.summary.needsReview,1);
+  assert.equal(report.migrationAudit.covered,2);
+});
+
+test("semantic color audit rejects stale tag, translation, or legacy source data",()=>{
+  const rows=[["red shirt","赤いシャツ","光・色彩","色"]];
+  const audit={entries:[{index:0,tag:"red shirt",ja:"赤いシャツ",legacy:{major:"光・色彩",minor:"照明"},target:{categoryId:"clothing",subcategoryId:"clothing"},status:"proposed",confidence:"high",reason:"衣服。"}]};
+  assert.throws(()=>buildClassificationCandidates(rows,audit),/Audit source mismatch/);
+});
