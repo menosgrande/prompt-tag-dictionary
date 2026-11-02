@@ -19,12 +19,12 @@
         "minor": "身体・衣類"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "people-count"
+        "categoryId": "people-count",
+        "subcategoryId": "people-count-value"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "複数人物の人数指定。"
+      "reason": "人数指定のタグは独立した人数・人物構成カテゴリへ分類。"
     },
     {
       "index": 69,
@@ -222,13 +222,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "色調単独の分類先は設けず、タグの対象と用途を確認してから分類する。"
     },
     {
       "index": 418,
@@ -535,12 +531,12 @@
         "minor": "品質"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "目の描写特徴。"
+      "reason": "目の描写特徴は顔・表情カテゴリへ分類。"
     },
     {
       "index": 928,
@@ -1414,13 +1410,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "color-tone"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "色調単独の分類先は設けず、タグの対象と用途を確認してから分類する。"
     },
     {
       "index": 2034,
