@@ -10,6 +10,13 @@
     "unclassified": 5022,
     "entries": 6007
   },
+  "migrationAudit": {
+    "source": "data/color-semantic-classification-audit.json",
+    "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
+    "covered": 758,
+    "proposed": 576,
+    "needsReview": 182
+  },
   "entries": [
     {
       "tag": ";)",
@@ -60880,12 +60887,5 @@
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     }
-  ],
-  "migrationAudit": {
-    "source": "data/color-semantic-classification-audit.json",
-    "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
-    "covered": 758,
-    "proposed": 576,
-    "needsReview": 182
-  }
+  ]
 }
