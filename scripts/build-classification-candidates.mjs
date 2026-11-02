@@ -185,6 +185,7 @@ export function buildClassificationCandidates(rows, audits = []) {
       needsReview:auditSummaries.reduce((n,x)=>n+x.needsReview,0)
     };
   }
+  report.entries=entries;
   return report;
 }
 
