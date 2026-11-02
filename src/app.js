@@ -414,10 +414,10 @@
   function taxonomySubcategoryName(categoryId, subcategoryId) {
     const mappedCategoryId = taxonomyCategoryId({categoryId, subcategoryId});
     const mappedSubcategoryId = categoryId === "person" && subcategoryId === "people-count" ? "people-count"
-      : categoryId === "person" && subcategoryId === "face-expression" ? "face-expression"
-      : categoryId === "person" && subcategoryId === "eyes" ? "eyes"
-      : categoryId === "person" && subcategoryId === "hair-head" ? "hair-head"
-      : categoryId === "background" && subcategoryId === "furniture" ? "furniture"
+      : categoryId === "person" && subcategoryId === "face-expression" ? "face-expression-core"
+      : categoryId === "person" && subcategoryId === "eyes" ? "eyes-feature"
+      : categoryId === "person" && subcategoryId === "hair-head" ? "hair-head-core"
+      : categoryId === "background" && subcategoryId === "furniture" ? "furniture-items"
       : categoryId === "background" && subcategoryId === "object-items" ? "other-objects"
       : subcategoryId;
     return tagTaxonomy?.semanticCategories?.find(category => category.id === mappedCategoryId)?.subcategories?.find(sub => sub.id === mappedSubcategoryId)?.name || "";
