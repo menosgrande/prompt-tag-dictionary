@@ -81,6 +81,34 @@
         {
           "id": "body-parts",
           "name": "身体部位・身体状態"
+        },
+        {
+          "id": "face-expression",
+          "name": "顔・表情",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
+        },
+        {
+          "id": "eyes",
+          "name": "目",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
+        },
+        {
+          "id": "hair-head",
+          "name": "髪・頭部",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
+        },
+        {
+          "id": "species-role",
+          "name": "種族・役割",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
         }
       ]
     },
@@ -161,6 +189,13 @@
         {
           "id": "equipment",
           "name": "装備・防具"
+        },
+        {
+          "id": "props",
+          "name": "小物・道具",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
         }
       ]
     },
@@ -253,6 +288,20 @@
         {
           "id": "environment",
           "name": "空間・環境表現"
+        },
+        {
+          "id": "furniture",
+          "name": "家具・設備",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
+        },
+        {
+          "id": "object-items",
+          "name": "物体・小道具",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
         }
       ]
     },
@@ -389,6 +438,13 @@
         {
           "id": "effects",
           "name": "演出効果"
+        },
+        {
+          "id": "color-tone",
+          "name": "色調・色彩",
+          "hidden": true,
+          "deprecated": true,
+          "description": "旧分類候補データとの互換性専用。新規分類には使用しない。"
         }
       ]
     },
