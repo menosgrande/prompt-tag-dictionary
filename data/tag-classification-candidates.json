@@ -5,10 +5,10 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11010,
-    "proposed": 7230,
-    "needsReview": 323,
-    "unclassified": 3457,
-    "entries": 7553
+    "proposed": 7239,
+    "needsReview": 318,
+    "unclassified": 3453,
+    "entries": 7557
   },
   "migrationAudit": {
     "source": "data/color-semantic-classification-audit.json",
@@ -31485,10 +31485,10 @@
     },
     {
       "tag": "grave",
-      "legacyMajor": "背景・場所",
-      "legacyMinor": "都市",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
       "categoryId": "background",
-      "subcategoryId": "locations",
+      "subcategoryId": "object-items",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -32373,6 +32373,16 @@
       "auditSourceIndex": 3744
     },
     {
+      "tag": "grenade",
+      "legacyMajor": "服装",
+      "legacyMinor": "装備",
+      "categoryId": "clothing",
+      "subcategoryId": "equipment",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "grenade launcher",
       "legacyMajor": "服装",
       "legacyMinor": "装備",
@@ -33141,10 +33151,11 @@
       "tag": "grinding",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "groceries",
@@ -33342,6 +33353,16 @@
       "legacyMinor": "物",
       "categoryId": "background",
       "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "gumroad username",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "character",
+      "subcategoryId": "creators",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -34078,10 +34099,11 @@
       "tag": "hairjob",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "hairpin",
@@ -35297,6 +35319,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "hanging",
+      "legacyMajor": "ポーズ・動作",
+      "legacyMinor": "行動",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
     },
     {
       "tag": "hanging breasts",
@@ -37453,10 +37484,11 @@
       "tag": "hogtie",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "hogwarts school uniform",
@@ -40659,10 +40691,11 @@
       "tag": "humping",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "hunched over",
@@ -41374,10 +41407,11 @@
       "tag": "impregnation",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "impressionism",
@@ -41903,6 +41937,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "instagram username",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作者・配信者",
+      "categoryId": "character",
+      "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "instant loss",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "関係性",
@@ -42212,10 +42256,11 @@
       "tag": "irrumatio",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "subcategoryId": "body-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "タグ名に行為・接触を示す語があるため。"
     },
     {
       "tag": "irys (hololive)",
