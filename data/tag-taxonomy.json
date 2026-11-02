@@ -1,7 +1,7 @@
 {
   "schema": "tag-taxonomy-v1",
   "version": 1,
-  "updatedAt": "2026-10-31",
+  "updatedAt": "2026-11-02",
   "description": "タグの意味分類、出力先、レーティングを分離して管理する正規定義。ネガティブは品質カテゴリ内に表示するが、出力先は独立して保持する。",
   "semanticCategories": [
     {
@@ -308,6 +308,58 @@
           "hidden": true,
           "deprecated": true,
           "description": "既存候補データとの互換性専用。新規分類には使用せず、タグの意味に応じて人物・服装・背景などへ再分類する。"
+        }
+      ]
+    },
+    {
+      "id": "living-things",
+      "name": "生物・種族",
+      "order": 11,
+      "description": "動物、植物、架空生物、モンスターなどの生物・種族。人物の身体的特徴や作品固有のキャラクター指定とは分ける。",
+      "subcategories": [
+        {
+          "id": "animals",
+          "name": "動物"
+        },
+        {
+          "id": "plants",
+          "name": "植物"
+        },
+        {
+          "id": "fantasy-creatures",
+          "name": "架空生物・モンスター"
+        },
+        {
+          "id": "species-types",
+          "name": "種族"
+        }
+      ]
+    },
+    {
+      "id": "objects",
+      "name": "物品・小道具",
+      "order": 12,
+      "description": "武器、道具、機械、日用品など、服装・装飾品や背景設備に属さない独立した物品。",
+      "subcategories": [
+        {
+          "id": "weapons",
+          "name": "武器"
+        },
+        {
+          "id": "tools",
+          "name": "道具"
+        },
+        {
+          "id": "machines",
+          "name": "機械・装置"
+        },
+        {
+          "id": "everyday-objects",
+          "name": "日用品"
+        },
+        {
+          "id": "other-objects",
+          "name": "その他の物品"
         }
       ]
     }
