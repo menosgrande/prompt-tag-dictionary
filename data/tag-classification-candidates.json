@@ -5,10 +5,10 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11010,
-    "proposed": 5828,
-    "needsReview": 179,
-    "unclassified": 5003,
-    "entries": 6007
+    "proposed": 5888,
+    "needsReview": 187,
+    "unclassified": 4935,
+    "entries": 6075
   },
   "migrationAudit": {
     "source": "data/color-semantic-classification-audit.json",
@@ -518,6 +518,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "6+boys",
+      "legacyMajor": "人物",
+      "legacyMinor": "人数",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "6+girls",
       "legacyMajor": "人物",
       "legacyMinor": "人数",
@@ -536,6 +546,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "69",
+      "legacyMajor": "成人向け",
+      "legacyMinor": "身体・衣類",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
     },
     {
       "tag": "7th dragon (series)",
@@ -629,11 +648,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "absolutely everyone",
+      "legacyMajor": "人物",
+      "legacyMinor": "人数",
+      "categoryId": "person",
+      "subcategoryId": "people-count",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "abstract",
       "legacyMajor": "画風・品質",
       "legacyMinor": "画風",
       "categoryId": "style",
       "subcategoryId": "style-medium",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "abstract background",
+      "legacyMajor": "背景・場所",
+      "legacyMinor": "自然",
+      "categoryId": "background",
+      "subcategoryId": "nature-landscape",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -697,6 +736,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "accident",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "イベント",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "accidental exposure",
@@ -858,6 +906,26 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "adjusting headwear",
+      "legacyMajor": "ポーズ・動作",
+      "legacyMinor": "行動",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作を表す語を検出。"
+    },
+    {
+      "tag": "adjusting legwear",
+      "legacyMajor": "ポーズ・動作",
+      "legacyMinor": "行動",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作を表す語を検出。"
+    },
+    {
       "tag": "adjusting necktie",
       "legacyMajor": "服装",
       "legacyMinor": "小物",
@@ -988,6 +1056,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "aerith gainsborough",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "aether (genshin impact)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -996,6 +1074,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "affectionate",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "関係性",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "afloat",
@@ -1093,6 +1180,16 @@
       "legacyMinor": "作者・配信者",
       "categoryId": "character",
       "subcategoryId": "creators",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "against fourth wall",
+      "legacyMajor": "構図・視点",
+      "legacyMinor": "構図",
+      "categoryId": "composition",
+      "subcategoryId": "composition-layout",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1216,6 +1313,15 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ai ai gasa",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "関係性",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "aida mana",
@@ -1396,6 +1502,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ak-47",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "akagi (azur lane)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -1441,6 +1557,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "character",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "akanbe",
+      "legacyMajor": "人物",
+      "legacyMinor": "顔・表情",
+      "categoryId": "person",
+      "subcategoryId": "face-expression",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1638,6 +1764,16 @@
       "subcategoryId": "characters"
     },
     {
+      "tag": "akuma homura",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "alarm clock",
       "legacyMajor": "その他",
       "legacyMinor": "物",
@@ -1678,6 +1814,36 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "alchemy stars",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alcohol",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aldnoah.zero",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "alear (fire emblem)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -1713,6 +1879,26 @@
       "legacyMinor": "キャラクター",
       "categoryId": "character",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alice gear aegis",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alice in wonderland",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1819,11 +2005,31 @@
       "subcategoryId": "style-medium"
     },
     {
+      "tag": "alternate costume",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "alternate eye color",
       "legacyMajor": "人物",
       "legacyMinor": "目",
       "categoryId": "person",
       "subcategoryId": "eyes",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alternate form",
+      "legacyMajor": "人物",
+      "legacyMinor": "種族・役割",
+      "categoryId": "person",
+      "subcategoryId": "species-role",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1869,6 +2075,46 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "alternate headwear",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alternate legwear",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alternate muscle size",
+      "legacyMajor": "人物",
+      "legacyMinor": "性別・体形",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alternate pectoral size",
+      "legacyMajor": "人物",
+      "legacyMinor": "胸",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "alternate skin color",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
@@ -1878,6 +2124,25 @@
       "reason": "髪・目・肌・身体部位の色属性。",
       "auditSourceIndex": 263,
       "subcategoryId": "body-parts"
+    },
+    {
+      "tag": "alternate species",
+      "legacyMajor": "人物",
+      "legacyMinor": "種族・役割",
+      "categoryId": "person",
+      "subcategoryId": "species-role",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "alternate universe",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "イベント",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "alternate weapon",
@@ -1900,11 +2165,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "amagami",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "amagi brilliant park",
       "legacyMajor": "背景・場所",
       "legacyMinor": "自然",
       "categoryId": "background",
       "subcategoryId": "nature-landscape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "amagi yukiko",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "character",
+      "subcategoryId": "characters",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -1960,6 +2245,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ambiguous gender",
+      "legacyMajor": "人物",
+      "legacyMinor": "性別・体形",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "ambiguous red liquid",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
@@ -1981,6 +2276,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "american flag",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "american flag bikini",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
@@ -1992,6 +2297,16 @@
     },
     {
       "tag": "american flag dress",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "american flag legwear",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
       "categoryId": "clothing",
@@ -2021,6 +2336,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ammunition",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "ammunition belt",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
@@ -2031,11 +2356,51 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ammunition pouch",
+      "legacyMajor": "服装",
+      "legacyMinor": "装備",
+      "categoryId": "clothing",
+      "subcategoryId": "equipment",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "among us",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "作品名・シリーズ",
       "categoryId": "character",
       "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "amplifier",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "amputee",
+      "legacyMajor": "人物",
+      "legacyMinor": "身体・部位",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "amulet",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2071,6 +2436,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "analogous colors",
+      "legacyMajor": "光・色彩",
+      "legacyMinor": "色調",
+      "categoryId": "lighting",
+      "subcategoryId": "color-tone",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "anastasia (fate)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -2086,6 +2461,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "character",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "anchor",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2116,6 +2501,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "anchor ornament",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2276,6 +2671,16 @@
       "legacyMinor": "キャラクター",
       "categoryId": "character",
       "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "anglerfish",
+      "legacyMajor": "その他",
+      "legacyMinor": "動物",
+      "categoryId": "person",
+      "subcategoryId": "species-role",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2601,6 +3006,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "animalization",
+      "legacyMajor": "人物",
+      "legacyMinor": "種族・役割",
+      "categoryId": "person",
+      "subcategoryId": "species-role",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "anime",
       "legacyMajor": "画風・品質",
       "legacyMinor": "画風",
@@ -2631,7 +3046,57 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ankh",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "ankle boots",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ankle bow",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ankle cuffs",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ankle grab",
+      "legacyMajor": "ポーズ・動作",
+      "legacyMinor": "対人動作",
+      "categoryId": "action",
+      "subcategoryId": "interpersonal-contact",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ankle lace-up",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
       "categoryId": "clothing",
@@ -2661,6 +3126,45 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ankle strap",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "ankle wrap",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "anklet",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "anniversary",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "イベント",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+    },
+    {
       "tag": "annoyed",
       "legacyMajor": "人物",
       "legacyMinor": "顔・表情",
@@ -2681,6 +3185,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "antennae",
+      "legacyMajor": "人物",
+      "legacyMinor": "身体・部位",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "anti-materiel rifle",
       "legacyMajor": "服装",
       "legacyMinor": "装備",
@@ -2691,11 +3205,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "antique firearm",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "antique phone",
       "legacyMajor": "その他",
       "legacyMinor": "物",
       "categoryId": "background",
       "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "antlers",
+      "legacyMajor": "人物",
+      "legacyMinor": "身体・部位",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2731,6 +3265,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "ao dai",
+      "legacyMajor": "服装",
+      "legacyMinor": "衣類",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "aoba (kancolle)",
       "legacyMajor": "作品・キャラクター",
       "legacyMinor": "キャラクター",
@@ -2739,6 +3283,74 @@
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aoki hagane no arpeggio",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aoki reika",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "キャラクター",
+      "categoryId": "character",
+      "subcategoryId": "characters",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "apartment",
+      "legacyMajor": "背景・場所",
+      "legacyMinor": "施設",
+      "categoryId": "background",
+      "subcategoryId": "locations",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "apex legends",
+      "legacyMajor": "作品・キャラクター",
+      "legacyMinor": "作品名・シリーズ",
+      "categoryId": "character",
+      "subcategoryId": "works-series",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "apple",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "applying makeup",
+      "legacyMajor": "ポーズ・動作",
+      "legacyMinor": "行動",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+    },
+    {
+      "tag": "april fools",
+      "legacyMajor": "シチュエーション",
+      "legacyMinor": "イベント",
+      "categoryId": "",
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
     },
     {
       "tag": "apron",
@@ -2771,11 +3383,31 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "aqua background",
+      "legacyMajor": "背景・場所",
+      "legacyMinor": "自然",
+      "categoryId": "background",
+      "subcategoryId": "nature-landscape",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "aqua bikini",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aqua bow",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2841,6 +3473,16 @@
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
     },
     {
+      "tag": "aqua gemstone",
+      "legacyMajor": "その他",
+      "legacyMinor": "物",
+      "categoryId": "background",
+      "subcategoryId": "object-items",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
       "tag": "aqua gloves",
       "legacyMajor": "服装",
       "legacyMinor": "衣類",
@@ -2856,6 +3498,26 @@
       "legacyMinor": "頭髪",
       "categoryId": "person",
       "subcategoryId": "hair-head",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aqua hairband",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aqua halo",
+      "legacyMajor": "服装",
+      "legacyMinor": "小物",
+      "categoryId": "clothing",
+      "subcategoryId": "props",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
@@ -2886,6 +3548,16 @@
       "legacyMinor": "衣類",
       "categoryId": "clothing",
       "subcategoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
+    },
+    {
+      "tag": "aqua nails",
+      "legacyMajor": "人物",
+      "legacyMinor": "身体・部位",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
       "status": "provisional",
       "confidence": "medium",
       "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。"
