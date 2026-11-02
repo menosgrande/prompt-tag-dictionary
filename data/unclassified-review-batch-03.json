@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 109,
-    "needsReview": 891
+    "proposed": 103,
+    "needsReview": 897
   },
   "entries": [
     {
@@ -170,13 +170,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "action",
-        "subcategoryId": "daily-action"
-      },
-      "reason": "日常的な行動・動作を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -605,10 +601,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "pose",
-        "subcategoryId": "basic-posture"
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
       },
-      "reason": "身体の姿勢・基本的な配置を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -637,10 +633,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "pose",
-        "subcategoryId": "basic-posture"
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
       },
-      "reason": "身体の姿勢・基本的な配置を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -1154,13 +1150,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "shadows"
-      },
-      "reason": "光源・陰影・視覚効果を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -1368,13 +1360,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
-      },
-      "reason": "人物の職業・役割・属性を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -1922,13 +1910,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
-      },
-      "reason": "具体的な日用品・道具・小物を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -2035,10 +2019,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -2053,10 +2037,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -3060,9 +3044,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "person",
-        "subcategoryId": "person-attributes"
+        "subcategoryId": "hair-head"
       },
-      "reason": "人物の性別・年齢・体格などの属性を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -3147,10 +3131,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -3685,10 +3669,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -3815,10 +3799,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -4001,10 +3985,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -4540,9 +4524,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "person",
-        "subcategoryId": "person-attributes"
+        "subcategoryId": "body-shape"
       },
-      "reason": "人物の性別・年齢・体格などの属性を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -5167,10 +5151,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "objects",
-        "subcategoryId": "everyday-objects"
+        "categoryId": "character",
+        "subcategoryId": "works-series"
       },
-      "reason": "具体的な日用品・道具・小物を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -5746,9 +5730,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "subcategoryId": "plants"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -5763,10 +5747,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "background",
+        "subcategoryId": "environment"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -5781,10 +5765,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -5799,10 +5783,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "character",
+        "subcategoryId": "works-series"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -6333,10 +6317,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "pose",
+        "subcategoryId": "limb-placement"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -7873,10 +7857,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -7891,10 +7875,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "animals"
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
       },
-      "reason": "動物の種類・動物に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -10283,10 +10267,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "fantasy-creatures"
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
       },
-      "reason": "幻想生物・超自然的存在を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -10371,10 +10355,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "living-things",
-        "subcategoryId": "fantasy-creatures"
+        "categoryId": "character",
+        "subcategoryId": "works-series"
       },
-      "reason": "幻想生物・超自然的存在を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -10769,10 +10753,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -10959,10 +10943,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "objects",
-        "subcategoryId": "weapons"
+        "categoryId": "action",
+        "subcategoryId": "hand-action"
       },
-      "reason": "武器の種類・武器に関するタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -11349,10 +11333,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "person-attributes"
+        "categoryId": "character",
+        "subcategoryId": "works-series"
       },
-      "reason": "人物の性別・年齢・体格などの属性を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -12406,13 +12390,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
-      },
-      "reason": "人物の職業・役割・属性を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -12544,13 +12524,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "lighting",
-        "subcategoryId": "lighting-source"
-      },
-      "reason": "光源・陰影・視覚効果を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "固有名詞・複合的な意味などがあり、既存分類だけでは安全に確定できないため保留。"
     },
     {
       "batch": 3,
@@ -13812,9 +13788,9 @@
       "confidence": "medium",
       "target": {
         "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "subcategoryId": "body-shape"
       },
-      "reason": "身体部位・身体の特徴を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
@@ -14134,7 +14110,7 @@
         "categoryId": "person",
         "subcategoryId": "species-role"
       },
-      "reason": "人物の職業・役割・属性を示すタグ。"
+      "reason": "タグの意味に即して分類先を修正。"
     },
     {
       "batch": 3,
