@@ -59,10 +59,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "text-symbols",
-        "subcategoryId": "logos"
+        "categoryId": "quality",
+        "subcategoryId": "negative-exclusions"
       },
-      "reason": "画像内の文字・ロゴ・表記要素を示すタグ。"
+      "reason": "透かしの混入を避けるための除外対象を示すタグ。"
     },
     {
       "batch": 3,
@@ -77,10 +77,10 @@
       "status": "proposed",
       "confidence": "medium",
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "character",
+        "subcategoryId": "works-series"
       },
-      "reason": "人物の職業・役割・属性を示すタグ。"
+      "reason": "既知のゲーム作品名を示すタグ。"
     },
     {
       "batch": 3,
@@ -138,13 +138,9 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "proposed",
-      "confidence": "medium",
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "nature-landscape"
-      },
-      "reason": "場所・自然環境・建築物を示すタグ。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "自然物ではなく制作物・作品を指す可能性があり、分類先を追加確認する必要があるため保留。"
     },
     {
       "batch": 3,
@@ -220,9 +216,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "三白眼という目の形状・特徴を示すタグ。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "eyes"
+      }
     },
     {
       "batch": 3,
@@ -14456,6 +14456,6 @@
     "uniqueSourceIndexes": 1000,
     "noOverlapWithPriorBatches": true,
     "allLegacyUnclassified": true,
-    "validTargets": true
+    "validTargets": false
   }
 }
