@@ -1582,8 +1582,8 @@
   {
     "tag": "gumroad username",
     "ja": "Gumroadユーザー名",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
@@ -2080,8 +2080,8 @@
   {
     "tag": "instagram username",
     "ja": "Instagramのユーザー名",
-    "major": "未分類",
-    "minor": "未分類",
+    "major": "作品・キャラクター",
+    "minor": "作者・配信者",
     "reasons": [
       "english-remains-in-japanese",
       "unnatural-or-mixed-script"
