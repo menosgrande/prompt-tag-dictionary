@@ -6760,7 +6760,7 @@
       "categoryId": "action",
       "status": "provisional",
       "confidence": "medium",
-      "reason": "旧分類の小分類を新分類へ対応付けた候補。意味上の最終確認は未実施。",
+      "reason": "日常動作を表す語を検出。",
       "subcategoryId": "daily-action"
     },
     {
