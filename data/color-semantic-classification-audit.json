@@ -6,29 +6,31 @@
   "policy": "色独立カテゴリを使わず、対象の意味に応じた分類先を提案する監査候補。タグ本体・翻訳は変更しない。固有名詞と曖昧語は要確認として保護する。",
   "summary": {
     "total": 758,
-    "proposed": 576,
-    "needsReview": 182,
+    "proposed": 716,
+    "needsReview": 42,
     "byTarget": {
-      "background/nature-landscape": 25,
+      "background/nature-landscape": 27,
       "character/characters": 86,
       "style/style-medium": 25,
-      "person/body-parts": 87,
-      "background/object-items": 55,
+      "person/body-parts": 83,
+      "background/object-items": 61,
       "lighting/lighting-source": 9,
-      "needs-review": 93,
-      "clothing/clothing": 178,
-      "clothing/underwear": 2,
+      "needs-review": 41,
+      "clothing/clothing": 200,
+      "clothing/underwear": 3,
       "person/species-role": 14,
-      "clothing/accessories": 115,
+      "clothing/accessories": 131,
       "person/face-expression": 8,
       "clothing/footwear": 23,
-      "lighting/effects": 16,
-      "character/works-series": 4,
+      "lighting/effects": 19,
+      "character/works-series": 5,
+      "clothing/swimwear": 2,
       "person/eyes": 5,
       "background/weather-time": 7,
       "lighting/shadows": 4,
       "composition/framing": 1,
-      "style/rendering": 1
+      "style/rendering": 2,
+      "style/drawing-technique": 2
     }
   },
   "entries": [
@@ -60,9 +62,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 226,
@@ -76,9 +78,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 251,
@@ -140,9 +142,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 526,
@@ -156,9 +158,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 550,
@@ -172,9 +174,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 583,
@@ -188,9 +190,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 584,
@@ -204,9 +206,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 615,
@@ -236,9 +238,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 660,
@@ -323,12 +325,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 966,
@@ -966,9 +968,9 @@
         "categoryId": "character",
         "subcategoryId": "works-series"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。"
     },
     {
       "index": 1023,
@@ -979,12 +981,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 1024,
@@ -1026,10 +1028,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "swimwear"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "男性用水着。"
     },
     {
       "index": 1029,
@@ -1139,9 +1144,9 @@
         "categoryId": "character",
         "subcategoryId": "works-series"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。"
     },
     {
       "index": 1041,
@@ -1155,9 +1160,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 1042,
@@ -1315,9 +1320,9 @@
         "categoryId": "character",
         "subcategoryId": "works-series"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。"
     },
     {
       "index": 1062,
@@ -1331,9 +1336,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 1065,
@@ -1600,9 +1605,9 @@
         "categoryId": "character",
         "subcategoryId": "works-series"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "作品・シリーズ名として扱う候補。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。"
     },
     {
       "index": 1132,
@@ -1756,10 +1761,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ブローチ。"
     },
     {
       "index": 1147,
@@ -1929,10 +1937,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。"
     },
     {
       "index": 1162,
@@ -2166,10 +2177,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "swimwear"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "男性用水着。"
     },
     {
       "index": 1185,
@@ -2272,10 +2286,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "パジャマ。"
     },
     {
       "index": 1196,
@@ -2289,9 +2306,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 1199,
@@ -2333,10 +2350,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "サロン。"
     },
     {
       "index": 1203,
@@ -2410,10 +2430,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ショール。"
     },
     {
       "index": 1211,
@@ -2455,10 +2478,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "タバード。"
     },
     {
       "index": 1221,
@@ -2545,10 +2571,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "チュニック。"
     },
     {
       "index": 1228,
@@ -2606,10 +2635,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "バイザー。"
     },
     {
       "index": 1232,
@@ -3000,10 +3032,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ミトン。"
     },
     {
       "index": 1479,
@@ -3173,10 +3208,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "characters"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 1618,
@@ -3370,9 +3408,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 2574,
@@ -3415,9 +3453,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 2901,
@@ -3431,9 +3469,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 3037,
@@ -3459,10 +3497,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ベタ塗りという描画技法。"
     },
     {
       "index": 3214,
@@ -3530,10 +3571,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "腕輪。"
     },
     {
       "index": 3606,
@@ -3543,10 +3587,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ブレスレット。"
     },
     {
       "index": 3607,
@@ -3556,10 +3603,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "身につけるチェーン装飾。"
     },
     {
       "index": 3608,
@@ -3585,10 +3635,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "硬貨。"
     },
     {
       "index": 3610,
@@ -3598,10 +3651,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "王冠。"
     },
     {
       "index": 3611,
@@ -3611,10 +3667,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "イヤリング。"
     },
     {
       "index": 3612,
@@ -3656,10 +3715,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "指輪。"
     },
     {
       "index": 3617,
@@ -4044,10 +4106,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。"
     },
     {
       "index": 3693,
@@ -4438,10 +4503,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "チュニック。"
     },
     {
       "index": 3740,
@@ -4467,10 +4535,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "バイザー。"
     },
     {
       "index": 3742,
@@ -5044,9 +5115,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 3808,
@@ -5072,10 +5143,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "rendering"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "グレースケールによるレンダリング表現。"
     },
     {
       "index": 3810,
@@ -5105,9 +5179,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4104,
@@ -5121,9 +5195,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4106,
@@ -5137,9 +5211,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4115,
@@ -5153,9 +5227,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4116,
@@ -5169,9 +5243,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4224,
@@ -5181,10 +5255,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "works-series"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品・シリーズ名として識別できる固有名詞。"
     },
     {
       "index": 4252,
@@ -5198,9 +5275,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4253,
@@ -5214,9 +5291,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4262,
@@ -5230,9 +5307,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4294,
@@ -5246,9 +5323,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4304,
@@ -5262,9 +5339,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4310,
@@ -5278,9 +5355,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4635,
@@ -5294,9 +5371,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4712,
@@ -5310,9 +5387,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4721,
@@ -5326,9 +5403,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4869,
@@ -5342,9 +5419,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4876,
@@ -5358,9 +5435,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 4909,
@@ -5374,9 +5451,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5062,
@@ -5390,9 +5467,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5084,
@@ -5406,9 +5483,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5085,
@@ -5422,9 +5499,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5118,
@@ -5438,9 +5515,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5123,
@@ -5454,9 +5531,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5165,
@@ -5470,9 +5547,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5202,
@@ -5486,9 +5563,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5222,
@@ -5502,9 +5579,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 5263,
@@ -5518,9 +5595,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5270,
@@ -5534,9 +5611,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5496,
@@ -5578,10 +5655,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "characters"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 5559,
@@ -5627,9 +5707,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 5591,
@@ -5643,9 +5723,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 5818,
@@ -5655,10 +5735,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "柑橘類の果物。"
     },
     {
       "index": 5836,
@@ -5672,9 +5755,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 5838,
@@ -5688,9 +5771,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6021,
@@ -5704,9 +5787,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6029,
@@ -5720,9 +5803,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6055,
@@ -5733,12 +5816,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "character",
-        "subcategoryId": "characters"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品固有の衣装名であり、キャラクター名ではない。"
     },
     {
       "index": 6126,
@@ -5752,9 +5835,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6132,
@@ -5768,9 +5851,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6177,
@@ -5784,9 +5867,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6194,
@@ -5989,9 +6072,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6400,
@@ -6005,9 +6088,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6468,
@@ -6021,9 +6104,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6516,
@@ -6053,9 +6136,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6633,
@@ -6069,9 +6152,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6642,
@@ -6085,9 +6168,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6650,
@@ -6101,9 +6184,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 6669,
@@ -6117,9 +6200,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 6736,
@@ -6159,12 +6242,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "character",
-        "subcategoryId": "characters"
+        "categoryId": "background",
+        "subcategoryId": "object-items"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "果物のオレンジを示す。キャラクター名ではない。"
     },
     {
       "index": 6871,
@@ -6350,10 +6433,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ゴーグル。"
     },
     {
       "index": 6891,
@@ -6511,9 +6597,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 6910,
@@ -6571,10 +6657,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "切り分けた果物。"
     },
     {
       "index": 6923,
@@ -6694,9 +6783,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 7258,
@@ -6736,12 +6825,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 7261,
@@ -7164,10 +7253,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "パジャマ。"
     },
     {
       "index": 7307,
@@ -7177,10 +7269,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "花弁。"
     },
     {
       "index": 7310,
@@ -7447,9 +7542,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 7676,
@@ -7712,10 +7807,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "炎の色彩を伴う視覚効果。"
     },
     {
       "index": 7705,
@@ -7841,9 +7939,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 7717,
@@ -8042,10 +8140,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "タバード。"
     },
     {
       "index": 7748,
@@ -8264,9 +8365,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 7874,
@@ -8436,10 +8537,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ブローチ。"
     },
     {
       "index": 7890,
@@ -8545,10 +8649,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "敷物。"
     },
     {
       "index": 7897,
@@ -8603,10 +8710,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "王冠。"
     },
     {
       "index": 7904,
@@ -8888,10 +8998,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ミトン。"
     },
     {
       "index": 7932,
@@ -9100,10 +9213,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ショール。"
     },
     {
       "index": 7957,
@@ -9161,10 +9277,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "タバード。"
     },
     {
       "index": 7967,
@@ -9299,10 +9418,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "object-items"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "飲料。"
     },
     {
       "index": 7976,
@@ -9380,9 +9502,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8221,
@@ -9396,9 +9518,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8277,
@@ -9412,9 +9534,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8399,
@@ -9428,9 +9550,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8435,
@@ -9444,9 +9566,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8439,
@@ -9476,9 +9598,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8467,
@@ -9524,9 +9646,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8594,
@@ -9540,9 +9662,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8688,
@@ -9556,9 +9678,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8689,
@@ -9572,9 +9694,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 8743,
@@ -9601,9 +9723,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 8746,
@@ -9617,9 +9739,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 8748,
@@ -9646,9 +9768,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "作品名・シリーズを伴う、または既知のキャラクター名として識別できる。"
     },
     {
       "index": 8953,
@@ -9703,10 +9825,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "スポットカラーという描画技法。"
     },
     {
       "index": 9124,
@@ -9800,9 +9925,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 9849,
@@ -9816,9 +9941,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 10039,
@@ -9832,9 +9957,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 10114,
@@ -9976,9 +10101,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 10380,
@@ -10005,9 +10130,9 @@
         "categoryId": "character",
         "subcategoryId": "characters"
       },
-      "status": "needs-review",
-      "confidence": "medium",
-      "reason": "括弧付き固有名詞・作品関連表記。名称として保護する。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "Blue Archiveのキャラクター名として識別できる。"
     },
     {
       "index": 10467,
@@ -10142,10 +10267,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "underwear"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ブルマー。"
     },
     {
       "index": 10577,
@@ -10488,10 +10616,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "漢服。"
     },
     {
       "index": 10609,
@@ -10517,10 +10648,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "頭飾り。"
     },
     {
       "index": 10611,
@@ -10579,12 +10713,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 10618,
@@ -10626,10 +10760,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "nature-landscape"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ユリの花。"
     },
     {
       "index": 10622,
@@ -10655,10 +10792,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ミトン。"
     },
     {
       "index": 10624,
@@ -10716,10 +10856,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ナイトガウン。"
     },
     {
       "index": 10629,
@@ -10761,10 +10904,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ロンパー。"
     },
     {
       "index": 10637,
@@ -10790,10 +10936,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "サロン。"
     },
     {
       "index": 10640,
@@ -10867,10 +11016,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ショール。"
     },
     {
       "index": 10648,
@@ -11069,10 +11221,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "チュニック。"
     },
     {
       "index": 10667,
@@ -11655,10 +11810,13 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": null,
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "色語だけでは対象・役割を特定できないため要確認。"
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "レインコート。"
     },
     {
       "index": 10886,
