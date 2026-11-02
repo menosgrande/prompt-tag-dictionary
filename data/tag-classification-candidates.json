@@ -5,17 +5,31 @@
   "description": "旧分類から新分類への移行候補。provisionalは自動確定ではなく、既存タグデータへは未反映。needs-reviewは意味分類を推測で確定しない。",
   "summary": {
     "totalTags": 11010,
-    "proposed": 7235,
-    "needsReview": 323,
+    "proposed": 7421,
+    "needsReview": 137,
     "unclassified": 3452,
     "entries": 7558
   },
   "migrationAudit": {
-    "source": "data/color-semantic-classification-audit.json",
-    "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
-    "covered": 758,
-    "proposed": 716,
-    "needsReview": 42
+    "audits": [
+      {
+        "source": "data/tags.json",
+        "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
+        "covered": 758,
+        "proposed": 716,
+        "needsReview": 42
+      },
+      {
+        "source": "data/tags.json",
+        "source_blob_sha": "99144bd2da41c834bff2081acd43e05a77d9a4a1",
+        "covered": 281,
+        "proposed": 186,
+        "needsReview": 95
+      }
+    ],
+    "covered": 1039,
+    "proposed": 902,
+    "needsReview": 137
   },
   "entries": [
     {
@@ -462,10 +476,12 @@
       "tag": "2boys",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "複数人物の人数指定。",
+      "auditSourceIndex": 45,
+      "subcategoryId": "people-count"
     },
     {
       "tag": "2girls",
@@ -704,7 +720,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 69,
+      "subcategoryId": ""
     },
     {
       "tag": "7th dragon (series)",
@@ -904,16 +922,20 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 92,
+      "subcategoryId": ""
     },
     {
       "tag": "accidental exposure",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "成人向け状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 93,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "ace (playing card)",
@@ -1242,7 +1264,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 129,
+      "subcategoryId": ""
     },
     {
       "tag": "afloat",
@@ -1431,7 +1455,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 148,
+      "subcategoryId": ""
     },
     {
       "tag": "age progression",
@@ -1540,7 +1566,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 159,
+      "subcategoryId": ""
     },
     {
       "tag": "aida mana",
@@ -1586,19 +1614,23 @@
       "tag": "aiming",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 164,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "aiming at viewer",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 165,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "aino minako",
@@ -1888,7 +1920,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 195,
+      "subcategoryId": ""
     },
     {
       "tag": "aki minoriko",
@@ -2380,7 +2414,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 246,
+      "subcategoryId": ""
     },
     {
       "tag": "alternate weapon",
@@ -2967,10 +3003,12 @@
       "tag": "anilingus",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 312,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "animal",
@@ -3429,7 +3467,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 360,
+      "subcategoryId": ""
     },
     {
       "tag": "annoyed",
@@ -3635,10 +3675,12 @@
       "tag": "applying makeup",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 383,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "april fools",
@@ -3647,7 +3689,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 384,
+      "subcategoryId": ""
     },
     {
       "tag": "apron",
@@ -3963,10 +4007,12 @@
       "tag": "aqua theme",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「色」分類は色そのものを独立カテゴリにしない方針のため、タグの意味に応じた分類先を個別確認する。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。",
+      "auditSourceIndex": 416,
+      "subcategoryId": "color-tone"
     },
     {
       "tag": "aqua thighhighs",
@@ -3982,10 +4028,12 @@
       "tag": "aqua trim",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「色」分類は色そのものを独立カテゴリにしない方針のため、タグの意味に応じた分類先を個別確認する。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服・装飾の縁取りや配色状態。",
+      "auditSourceIndex": 418,
+      "subcategoryId": "clothing-state"
     },
     {
       "tag": "aquarium",
@@ -4151,10 +4199,12 @@
       "tag": "archery",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 435,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "architecture",
@@ -5313,10 +5363,12 @@
       "tag": "assisted exposure",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "成人向け状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 558,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "asticassia school uniform",
@@ -5584,10 +5636,12 @@
       "tag": "attack",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 589,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "au ra",
@@ -5636,7 +5690,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 594,
+      "subcategoryId": ""
     },
     {
       "tag": "aura",
@@ -5763,10 +5819,12 @@
       "tag": "award winning",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "受賞級の品質を示す評価語。",
+      "auditSourceIndex": 608,
+      "subcategoryId": "high-quality"
     },
     {
       "tag": "axe",
@@ -5933,10 +5991,12 @@
       "tag": "babydoll",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 626,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "back",
@@ -6134,10 +6194,12 @@
       "tag": "bad anatomy",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 646,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "bad end",
@@ -6146,7 +6208,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 647,
+      "subcategoryId": ""
     },
     {
       "tag": "bad feet",
@@ -6192,10 +6256,12 @@
       "tag": "bad proportions",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 652,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "badge",
@@ -6301,10 +6367,12 @@
       "tag": "baking",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 664,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "bakugou katsuki",
@@ -6330,10 +6398,12 @@
       "tag": "balancing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 667,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "balcony",
@@ -6399,10 +6469,12 @@
       "tag": "ballet",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 674,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "ballet slippers",
@@ -6788,10 +6860,12 @@
       "tag": "bandaids on nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 713,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "bandana",
@@ -6927,10 +7001,12 @@
       "tag": "bar censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 727,
+      "subcategoryId": "effects"
     },
     {
       "tag": "bar stool",
@@ -7016,19 +7092,23 @@
       "tag": "bare back",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 737,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "bare hips",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 738,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "bare legs",
@@ -7044,10 +7124,12 @@
       "tag": "bare pectorals",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 740,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "bare shoulders",
@@ -7443,10 +7525,12 @@
       "tag": "battle",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 781,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "battle axe",
@@ -7892,10 +7976,12 @@
       "tag": "beautiful detailed eyes",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "目の描写特徴。",
+      "auditSourceIndex": 826,
+      "subcategoryId": "eyes"
     },
     {
       "tag": "beckoning",
@@ -8855,7 +8941,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 928,
+      "subcategoryId": ""
     },
     {
       "tag": "birthday cake",
@@ -8951,10 +9039,12 @@
       "tag": "biting",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 938,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "biting ear",
@@ -8973,7 +9063,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 940,
+      "subcategoryId": ""
     },
     {
       "tag": "biting own lip",
@@ -10279,10 +10371,12 @@
       "tag": "blank censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1064,
+      "subcategoryId": "effects"
     },
     {
       "tag": "blank eyes",
@@ -10628,10 +10722,12 @@
       "tag": "bloomers",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1103,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "bloop (gawr gura)",
@@ -10657,19 +10753,23 @@
       "tag": "blowing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1106,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "blowing bubbles",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1107,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "blowing kiss",
@@ -10685,10 +10785,12 @@
       "tag": "blowing smoke",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1109,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "blue",
@@ -11876,10 +11978,12 @@
       "tag": "blur censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1221,
+      "subcategoryId": "effects"
     },
     {
       "tag": "blurry",
@@ -12806,19 +12910,23 @@
       "tag": "boxer briefs",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1320,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "boxers",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1321,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "boxing gloves",
@@ -13414,10 +13522,12 @@
       "tag": "breath of fire",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1385,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "breath weapon",
@@ -13433,10 +13543,12 @@
       "tag": "breathing fire",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1387,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "bremerton (azur lane)",
@@ -13502,10 +13614,12 @@
       "tag": "bridal garter",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1394,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "bridal gauntlets",
@@ -13591,10 +13705,12 @@
       "tag": "briefs",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1404,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "bright pupils",
@@ -13773,7 +13889,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1423,
+      "subcategoryId": ""
     },
     {
       "tag": "brothers",
@@ -13782,7 +13900,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1424,
+      "subcategoryId": ""
     },
     {
       "tag": "brown",
@@ -14618,10 +14738,12 @@
       "tag": "bulma",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1510,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "bun",
@@ -14670,7 +14792,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1515,
+      "subcategoryId": ""
     },
     {
       "tag": "bunny girl",
@@ -14726,28 +14850,34 @@
       "tag": "buruma",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1522,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "buruma aside",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 1523,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "buruma pull",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 1524,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "bus",
@@ -14803,10 +14933,12 @@
       "tag": "bustier",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1531,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "butler",
@@ -15332,19 +15464,23 @@
       "tag": "camisole",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 1588,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "camisole lift",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 1589,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "cammy white",
@@ -15615,7 +15751,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1616,
+      "subcategoryId": ""
     },
     {
       "tag": "car",
@@ -15911,10 +16049,12 @@
       "tag": "casing ejection",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1647,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "casino",
@@ -15940,10 +16080,12 @@
       "tag": "casting spell",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1651,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "castle",
@@ -16282,7 +16424,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1685,
+      "subcategoryId": ""
     },
     {
       "tag": "cauldron",
@@ -16398,37 +16542,45 @@
       "tag": "censored",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1697,
+      "subcategoryId": "effects"
     },
     {
       "tag": "censored identity",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1698,
+      "subcategoryId": "effects"
     },
     {
       "tag": "censored nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1699,
+      "subcategoryId": "effects"
     },
     {
       "tag": "censored text",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1700,
+      "subcategoryId": "effects"
     },
     {
       "tag": "centaur",
@@ -16534,10 +16686,12 @@
       "tag": "cervix",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 1711,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "cetacean tail",
@@ -16616,7 +16770,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1719,
+      "subcategoryId": ""
     },
     {
       "tag": "chained wrists",
@@ -16625,7 +16781,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1720,
+      "subcategoryId": ""
     },
     {
       "tag": "chainmail",
@@ -16831,10 +16989,12 @@
       "tag": "character censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 1742,
+      "subcategoryId": "effects"
     },
     {
       "tag": "character charm",
@@ -16960,10 +17120,12 @@
       "tag": "chasing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1755,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "chastity cage",
@@ -16972,7 +17134,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1756,
+      "subcategoryId": ""
     },
     {
       "tag": "chat log",
@@ -16991,7 +17155,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1758,
+      "subcategoryId": ""
     },
     {
       "tag": "checkerboard cookie",
@@ -17207,10 +17373,12 @@
       "tag": "cheering",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1780,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "cheerleader",
@@ -17466,10 +17634,12 @@
       "tag": "chewing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1806,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "chewing gum",
@@ -17608,7 +17778,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1821,
+      "subcategoryId": ""
     },
     {
       "tag": "child",
@@ -17717,7 +17889,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1833,
+      "subcategoryId": ""
     },
     {
       "tag": "chinese text",
@@ -17823,10 +17997,12 @@
       "tag": "chocolate making",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 1844,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "chocolate on body",
@@ -17935,43 +18111,53 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1856,
+      "subcategoryId": ""
     },
     {
       "tag": "christmas lights",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 1857,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "christmas ornaments",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 1858,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "christmas present",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 1859,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "christmas stocking",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 1860,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "christmas tree",
@@ -18358,10 +18544,12 @@
       "tag": "cleavage",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 1901,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "cleavage cutout",
@@ -18387,10 +18575,12 @@
       "tag": "cleft of venus",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 1904,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "clenched hand",
@@ -18456,19 +18646,23 @@
       "tag": "clitoral hood",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 1911,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "clitoral stimulation",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 1912,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "cloak",
@@ -18517,7 +18711,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1917,
+      "subcategoryId": ""
     },
     {
       "tag": "clorinde (genshin impact)",
@@ -18743,10 +18939,12 @@
       "tag": "clothes lift",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 1941,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "clothes pin",
@@ -18986,7 +19184,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 1965,
+      "subcategoryId": ""
     },
     {
       "tag": "coat",
@@ -19445,10 +19645,12 @@
       "tag": "colored nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 2011,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "colored sclera",
@@ -19525,10 +19727,12 @@
       "tag": "colorful",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「色」分類は色そのものを独立カテゴリにしない方針のため、タグの意味に応じた分類先を個別確認する。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "色調・配色。色独立カテゴリを設けず色調表現へ分類。",
+      "auditSourceIndex": 2019,
+      "subcategoryId": "color-tone"
     },
     {
       "tag": "column",
@@ -19677,7 +19881,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2034,
+      "subcategoryId": ""
     },
     {
       "tag": "company name",
@@ -19796,7 +20002,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2046,
+      "subcategoryId": ""
     },
     {
       "tag": "concrete",
@@ -19885,7 +20093,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2055,
+      "subcategoryId": ""
     },
     {
       "tag": "constellation",
@@ -20001,10 +20211,12 @@
       "tag": "convenient censoring",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 2067,
+      "subcategoryId": "effects"
     },
     {
       "tag": "convenient leg",
@@ -20104,7 +20316,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2077,
+      "subcategoryId": ""
     },
     {
       "tag": "copyright name",
@@ -20220,10 +20434,12 @@
       "tag": "corset",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 2090,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "cosmetics",
@@ -20292,7 +20508,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2098,
+      "subcategoryId": ""
     },
     {
       "tag": "counter:side",
@@ -20311,7 +20529,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2101,
+      "subcategoryId": ""
     },
     {
       "tag": "couple",
@@ -20330,7 +20550,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2103,
+      "subcategoryId": ""
     },
     {
       "tag": "cover",
@@ -20419,7 +20641,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2115,
+      "subcategoryId": ""
     },
     {
       "tag": "covered penetration",
@@ -20465,10 +20689,12 @@
       "tag": "covering nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体を覆い隠す動作。",
+      "auditSourceIndex": 2121,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "covering one breast",
@@ -20524,10 +20750,12 @@
       "tag": "covering privates",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体を覆い隠す動作。",
+      "auditSourceIndex": 2127,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "cow",
@@ -20766,7 +20994,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2154,
+      "subcategoryId": ""
     },
     {
       "tag": "crate",
@@ -20785,7 +21015,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2156,
+      "subcategoryId": ""
     },
     {
       "tag": "crayon",
@@ -20854,7 +21086,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2164,
+      "subcategoryId": ""
     },
     {
       "tag": "credits",
@@ -21230,10 +21464,12 @@
       "tag": "cross pasties",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 2207,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "cross print",
@@ -21419,10 +21655,12 @@
       "tag": "crossed arms",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 2226,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "crossed bandaids",
@@ -21588,10 +21826,12 @@
       "tag": "crushing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2252,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "crying",
@@ -21930,7 +22170,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2289,
+      "subcategoryId": ""
     },
     {
       "tag": "curtained hair",
@@ -22026,10 +22268,12 @@
       "tag": "cutting",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2302,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "cutting board",
@@ -22457,10 +22701,12 @@
       "tag": "dark nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 2359,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "dark skin",
@@ -22579,7 +22825,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2376,
+      "subcategoryId": ""
     },
     {
       "tag": "dawn",
@@ -22735,10 +22983,12 @@
       "tag": "deformed",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 2401,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "dehya (genshin impact)",
@@ -22757,7 +23007,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2404,
+      "subcategoryId": ""
     },
     {
       "tag": "demon",
@@ -22934,10 +23186,12 @@
       "tag": "destruction",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2425,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "detached ahoge",
@@ -23006,7 +23260,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2433,
+      "subcategoryId": ""
     },
     {
       "tag": "detective",
@@ -23172,10 +23428,12 @@
       "tag": "diaper",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 2456,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "diarmuid ua duibhne (lancer) (fate)",
@@ -23332,10 +23590,12 @@
       "tag": "disfigured",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 2488,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "disgaea",
@@ -23431,10 +23691,12 @@
       "tag": "diving",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2503,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "diving mask",
@@ -23902,10 +24164,12 @@
       "tag": "dragging",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2576,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "dragon",
@@ -24271,10 +24535,12 @@
       "tag": "dressing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2619,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "drill hair",
@@ -24370,10 +24636,12 @@
       "tag": "driving",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2632,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "drop shadow",
@@ -24400,19 +24668,23 @@
       "tag": "dropping",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2637,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "drowning",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2638,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "drum",
@@ -24648,10 +24920,12 @@
       "tag": "dynamic pose",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 2677,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "e.g.o (project moon)",
@@ -24850,7 +25124,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2704,
+      "subcategoryId": ""
     },
     {
       "tag": "easter egg",
@@ -24859,7 +25135,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2705,
+      "subcategoryId": ""
     },
     {
       "tag": "eastern dragon",
@@ -25536,19 +25814,23 @@
       "tag": "exercise ball",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "運動用具。",
+      "auditSourceIndex": 2835,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "exhibitionism",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 2838,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "exploding clothes",
@@ -25574,10 +25856,12 @@
       "tag": "exposed pocket",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "成人向け状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 2843,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "expression chart",
@@ -25673,10 +25957,12 @@
       "tag": "extra limbs",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 2853,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "extra mouth",
@@ -25692,10 +25978,12 @@
       "tag": "extremely detailed",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "精細さ・解像感を示す品質指定。",
+      "auditSourceIndex": 2855,
+      "subcategoryId": "resolution-detail"
     },
     {
       "tag": "exusiai (arknights)",
@@ -26315,7 +26603,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2930,
+      "subcategoryId": ""
     },
     {
       "tag": "falling leaves",
@@ -26354,7 +26644,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2935,
+      "subcategoryId": ""
     },
     {
       "tag": "family crest",
@@ -26593,7 +26885,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2969,
+      "subcategoryId": ""
     },
     {
       "tag": "father and son",
@@ -26602,7 +26896,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 2970,
+      "subcategoryId": ""
     },
     {
       "tag": "fatui coat",
@@ -26698,10 +26994,12 @@
       "tag": "feeding",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 2986,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "feet",
@@ -27118,10 +27416,12 @@
       "tag": "fine details",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "精細さ・解像感を示す品質指定。",
+      "auditSourceIndex": 3037,
+      "subcategoryId": "resolution-detail"
     },
     {
       "tag": "finger frame",
@@ -27477,10 +27777,12 @@
       "tag": "firing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3079,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "fischl (genshin impact)",
@@ -27596,10 +27898,12 @@
       "tag": "fishing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3092,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "fishing line",
@@ -27725,10 +28029,12 @@
       "tag": "flailing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3111,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "flak jacket",
@@ -27794,10 +28100,12 @@
       "tag": "flapping",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3120,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "flashback",
@@ -27806,7 +28114,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3121,
+      "subcategoryId": ""
     },
     {
       "tag": "flask",
@@ -27873,10 +28183,12 @@
       "tag": "fleeing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3131,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "fletcher (kancolle)",
@@ -27952,10 +28264,12 @@
       "tag": "floating",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3142,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "floating book",
@@ -29006,7 +29320,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3274,
+      "subcategoryId": ""
     },
     {
       "tag": "frilled apron",
@@ -29042,10 +29358,12 @@
       "tag": "frilled camisole",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 3282,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "frilled capelet",
@@ -29621,10 +29939,12 @@
       "tag": "fundoshi",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 3369,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "fur boots",
@@ -30210,10 +30530,12 @@
       "tag": "garter straps",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 3463,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "gas mask",
@@ -31410,7 +31732,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3632,
+      "subcategoryId": ""
     },
     {
       "tag": "graf zeppelin (kancolle)",
@@ -33121,10 +33445,12 @@
       "tag": "grilling",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3797,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "grimace",
@@ -33160,10 +33486,12 @@
       "tag": "grinding",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 3802,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "groceries",
@@ -33589,10 +33917,12 @@
       "tag": "gymnastics",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 3853,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "h&k hk416",
@@ -34098,19 +34428,23 @@
       "tag": "hairdressing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 3912,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "hairjob",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 3913,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "hairpin",
@@ -34266,10 +34600,12 @@
       "tag": "half-erect",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物・生物の身体状態。",
+      "auditSourceIndex": 3936,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "half-skirt",
@@ -34318,16 +34654,20 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3941,
+      "subcategoryId": ""
     },
     {
       "tag": "halloween bucket",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 3942,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "halloween costume",
@@ -34336,7 +34676,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3943,
+      "subcategoryId": ""
     },
     {
       "tag": "hallway",
@@ -34476,7 +34818,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 3962,
+      "subcategoryId": ""
     },
     {
       "tag": "hanasakigawa school uniform",
@@ -35315,7 +35659,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4049,
+      "subcategoryId": ""
     },
     {
       "tag": "hanfu",
@@ -35331,10 +35677,12 @@
       "tag": "hanging",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4051,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "hanging breasts",
@@ -35513,7 +35861,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4076,
+      "subcategoryId": ""
     },
     {
       "tag": "harem outfit",
@@ -36273,10 +36623,12 @@
       "tag": "heart censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 4170,
+      "subcategoryId": "effects"
     },
     {
       "tag": "heart choker",
@@ -36392,10 +36744,12 @@
       "tag": "heart maebari",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 4184,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "heart necklace",
@@ -36441,10 +36795,12 @@
       "tag": "heart pasties",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 4189,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "heart pendant",
@@ -36731,10 +37087,12 @@
       "tag": "henshin",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4222,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "hestia (danmachi)",
@@ -36753,7 +37111,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4224,
+      "subcategoryId": ""
     },
     {
       "tag": "heterochromia",
@@ -36881,10 +37241,12 @@
       "tag": "hiding",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4240,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "hieda no akyuu",
@@ -37111,10 +37473,12 @@
       "tag": "highleg",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 4264,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "highleg bikini",
@@ -37383,10 +37747,12 @@
       "tag": "hires",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "精細さ・解像感を示す品質指定。",
+      "auditSourceIndex": 4304,
+      "subcategoryId": "resolution-detail"
     },
     {
       "tag": "hiro (darling in the franxx)",
@@ -37452,10 +37818,12 @@
       "tag": "hitachi magic wand",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "電動器具を示す物品。",
+      "auditSourceIndex": 4317,
+      "subcategoryId": "machines"
     },
     {
       "tag": "hitodama",
@@ -37491,10 +37859,12 @@
       "tag": "hogtie",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 4324,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "hogwarts school uniform",
@@ -40113,7 +40483,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4599,
+      "subcategoryId": ""
     },
     {
       "tag": "horse",
@@ -40483,7 +40855,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4644,
+      "subcategoryId": ""
     },
     {
       "tag": "hu tao (genshin impact)",
@@ -40569,10 +40943,12 @@
       "tag": "huge nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 4654,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "huge pectorals",
@@ -40691,16 +41067,20 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4668,
+      "subcategoryId": ""
     },
     {
       "tag": "humping",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 4669,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "hunched over",
@@ -40739,7 +41119,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4674,
+      "subcategoryId": ""
     },
     {
       "tag": "hydrangea",
@@ -40788,7 +41170,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4679,
+      "subcategoryId": ""
     },
     {
       "tag": "hyur",
@@ -41146,10 +41530,12 @@
       "tag": "if they mated",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "living-things",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "生物の交配仮定を示す。",
+      "auditSourceIndex": 4725,
+      "subcategoryId": "species-types"
     },
     {
       "tag": "igarashi futaba (shiromanta)",
@@ -41285,10 +41671,12 @@
       "tag": "imagining",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4744,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "imminent kiss",
@@ -41347,7 +41735,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4754,
+      "subcategoryId": ""
     },
     {
       "tag": "implied sex",
@@ -41413,10 +41803,12 @@
       "tag": "impregnation",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "妊娠させる行為・状況。",
+      "auditSourceIndex": 4762,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "impressionism",
@@ -41452,10 +41844,12 @@
       "tag": "in heat",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物・生物の身体状態。",
+      "auditSourceIndex": 4770,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "in palm",
@@ -41504,7 +41898,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4775,
+      "subcategoryId": ""
     },
     {
       "tag": "in-universe location",
@@ -41583,16 +41979,20 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4783,
+      "subcategoryId": ""
     },
     {
       "tag": "incoming attack",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4784,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "incoming food",
@@ -41608,10 +42008,12 @@
       "tag": "incoming gift",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 4786,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "incoming hug",
@@ -41860,7 +42262,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4814,
+      "subcategoryId": ""
     },
     {
       "tag": "inkwell",
@@ -41959,7 +42363,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4826,
+      "subcategoryId": ""
     },
     {
       "tag": "instrument",
@@ -42008,7 +42414,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4832,
+      "subcategoryId": ""
     },
     {
       "tag": "interracial",
@@ -42017,7 +42425,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4833,
+      "subcategoryId": ""
     },
     {
       "tag": "interspecies",
@@ -42026,7 +42436,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4834,
+      "subcategoryId": ""
     },
     {
       "tag": "intestines",
@@ -42042,10 +42454,12 @@
       "tag": "intricate details",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "精細さ・解像感を示す品質指定。",
+      "auditSourceIndex": 4837,
+      "subcategoryId": "resolution-detail"
     },
     {
       "tag": "inubashiri momiji",
@@ -42121,10 +42535,12 @@
       "tag": "inverted nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 4845,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "invisible",
@@ -42262,10 +42678,12 @@
       "tag": "irrumatio",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 4859,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "irys (hololive)",
@@ -42825,7 +43243,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 4920,
+      "subcategoryId": ""
     },
     {
       "tag": "jean (genshin impact)",
@@ -43429,7 +43849,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5111,
+      "subcategoryId": ""
     },
     {
       "tag": "kemono friends 3",
@@ -43438,7 +43860,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5112,
+      "subcategoryId": ""
     },
     {
       "tag": "kemono friends v project",
@@ -43447,7 +43871,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5113,
+      "subcategoryId": ""
     },
     {
       "tag": "kemonomimi mode",
@@ -43486,7 +43912,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5129,
+      "subcategoryId": ""
     },
     {
       "tag": "kibito high school uniform",
@@ -45127,10 +45555,12 @@
       "tag": "large insertion",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体への性的接触・行為。",
+      "auditSourceIndex": 5393,
+      "subcategoryId": "body-contact"
     },
     {
       "tag": "large pectorals",
@@ -45456,64 +45886,78 @@
       "tag": "leaning",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5434,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning back",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5435,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning forward",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5436,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning on object",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5437,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning on person",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5438,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning on table",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5439,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leaning to the side",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5440,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "leash pull",
@@ -45819,10 +46263,12 @@
       "tag": "legwear garter",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 5473,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "lelouch vi britannia",
@@ -46149,10 +46595,12 @@
       "tag": "light censor",
       "legacyMajor": "成人向け",
       "legacyMinor": "表現・修正",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 5516,
+      "subcategoryId": "effects"
     },
     {
       "tag": "light frown",
@@ -46411,10 +46859,12 @@
       "tag": "lineup",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "pose",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体の配置・ポーズを示す。",
+      "auditSourceIndex": 5546,
+      "subcategoryId": "body-arrangement"
     },
     {
       "tag": "lingerie",
@@ -46550,10 +47000,12 @@
       "tag": "listening to music",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 5566,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "little busters!",
@@ -47522,10 +47974,12 @@
       "tag": "low resolution",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "低解像度・ピンぼけを避ける指定。",
+      "auditSourceIndex": 5676,
+      "subcategoryId": "low-quality-noise"
     },
     {
       "tag": "low twin braids",
@@ -47674,7 +48128,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5691,
+      "subcategoryId": ""
     },
     {
       "tag": "lucario",
@@ -48090,10 +48546,12 @@
       "tag": "maebari",
       "legacyMajor": "成人向け",
       "legacyMinor": "行為・状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 5740,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "magatama earrings",
@@ -48372,7 +48830,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5773,
+      "subcategoryId": ""
     },
     {
       "tag": "maid headdress",
@@ -48804,7 +49264,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5835,
+      "subcategoryId": ""
     },
     {
       "tag": "mars symbol",
@@ -48840,10 +49302,12 @@
       "tag": "martial arts",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 5839,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "martial arts belt",
@@ -49362,7 +49826,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 5969,
+      "subcategoryId": ""
     },
     {
       "tag": "messenger bag",
@@ -50257,10 +50723,12 @@
       "tag": "mosaic censoring",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "lighting",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "検閲・隠蔽の視覚効果。",
+      "auditSourceIndex": 6215,
+      "subcategoryId": "effects"
     },
     {
       "tag": "mostima (arknights)",
@@ -50299,7 +50767,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 6224,
+      "subcategoryId": ""
     },
     {
       "tag": "motion lines",
@@ -50973,10 +51443,12 @@
       "tag": "mutated hands",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 6350,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "muted color",
@@ -52098,10 +52570,12 @@
       "tag": "nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 6567,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "nissin cup noodle",
@@ -52237,10 +52711,12 @@
       "tag": "no nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 6602,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "no nose",
@@ -52533,7 +53009,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 6651,
+      "subcategoryId": ""
     },
     {
       "tag": "nude",
@@ -52973,7 +53451,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 6723,
+      "subcategoryId": ""
     },
     {
       "tag": "official style",
@@ -53209,10 +53689,12 @@
       "tag": "one-piece thong",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 6789,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "one-punch man",
@@ -53358,10 +53840,12 @@
       "tag": "open clothes",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 6825,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "open coat",
@@ -54290,10 +54774,12 @@
       "tag": "out of focus",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "低解像度・ピンぼけを避ける指定。",
+      "auditSourceIndex": 6948,
+      "subcategoryId": "low-quality-noise"
     },
     {
       "tag": "outdoors",
@@ -55053,7 +55539,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 7087,
+      "subcategoryId": ""
     },
     {
       "tag": "party hat",
@@ -55069,10 +55557,12 @@
       "tag": "party popper",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "イベント",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "categoryId": "objects",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "季節行事に使われる物品。",
+      "auditSourceIndex": 7089,
+      "subcategoryId": "everyday-objects"
     },
     {
       "tag": "pastel colors",
@@ -55149,10 +55639,12 @@
       "tag": "peace sign",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "手によるジェスチャー。",
+      "auditSourceIndex": 7116,
+      "subcategoryId": "hand-action"
     },
     {
       "tag": "peace symbol",
@@ -55238,10 +55730,12 @@
       "tag": "pearl thong",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 7127,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "pecorine (princess connect!)",
@@ -57316,19 +57810,23 @@
       "tag": "poorly drawn face",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 7505,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "poorly drawn hands",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人体・描画の不具合を避けるネガティブ指定。",
+      "auditSourceIndex": 7506,
+      "subcategoryId": "negative-exclusions"
     },
     {
       "tag": "pop art",
@@ -57974,10 +58472,12 @@
       "tag": "puffy nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 7643,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "puffy pants",
@@ -59323,19 +59823,23 @@
       "tag": "reaching",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 7835,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "reaching towards viewer",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 7836,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "reading",
@@ -62548,10 +63052,12 @@
       "tag": "selfie",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 8398,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "semi-rimless eyewear",
@@ -62703,7 +63209,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 8442,
+      "subcategoryId": ""
     },
     {
       "tag": "shaded face",
@@ -62851,10 +63359,12 @@
       "tag": "sharp focus",
       "legacyMajor": "画風・品質",
       "legacyMinor": "品質",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "categoryId": "quality",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "精細さ・解像感を示す品質指定。",
+      "auditSourceIndex": 8479,
+      "subcategoryId": "resolution-detail"
     },
     {
       "tag": "sharp teeth",
@@ -63937,7 +64447,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 8677,
+      "subcategoryId": ""
     },
     {
       "tag": "side ahoge",
@@ -64053,10 +64565,12 @@
       "tag": "sideboob",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 8697,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "sideless dress",
@@ -64287,10 +64801,12 @@
       "tag": "singing",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 8737,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "single arm warmer",
@@ -64376,10 +64892,12 @@
       "tag": "single garter strap",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 8753,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "single hair bun",
@@ -64538,7 +65056,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 8791,
+      "subcategoryId": ""
     },
     {
       "tag": "sitting",
@@ -64994,10 +65514,12 @@
       "tag": "sleeve garter",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 8864,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "sleeve ribbon",
@@ -65303,28 +65825,34 @@
       "tag": "smoking",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 8912,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "smoking barrel",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 8913,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "smoking pipe",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 8914,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "snake",
@@ -66115,10 +66643,12 @@
       "tag": "spread legs",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 9109,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "spread wings",
@@ -66587,7 +67117,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 9210,
+      "subcategoryId": ""
     },
     {
       "tag": "sticker on face",
@@ -66673,10 +67205,12 @@
       "tag": "stockings",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 9228,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "stone lantern",
@@ -67845,10 +68379,12 @@
       "tag": "swim briefs",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "水着の種類。",
+      "auditSourceIndex": 9459,
+      "subcategoryId": "swimwear"
     },
     {
       "tag": "swim cap",
@@ -67874,10 +68410,12 @@
       "tag": "swim trunks",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "水着の種類。",
+      "auditSourceIndex": 9462,
+      "subcategoryId": "swimwear"
     },
     {
       "tag": "swimming",
@@ -68483,10 +69021,12 @@
       "tag": "tape on nipples",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "身体に貼るカバー用品・装飾。",
+      "auditSourceIndex": 9599,
+      "subcategoryId": "accessories"
     },
     {
       "tag": "tapir tail",
@@ -68665,7 +69205,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 9633,
+      "subcategoryId": ""
     },
     {
       "tag": "teardrop earrings",
@@ -68844,7 +69386,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 9683,
+      "subcategoryId": ""
     },
     {
       "tag": "text focus",
@@ -69160,19 +69704,23 @@
       "tag": "thong",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 9735,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "thong aside",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 9736,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "thong bikini",
@@ -69188,10 +69736,12 @@
       "tag": "thong leotard",
       "legacyMajor": "服装",
       "legacyMinor": "下着・水着",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "下着・水着が旧小分類で統合されており、タグ名から分離できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "下着・衣類の種類。",
+      "auditSourceIndex": 9738,
+      "subcategoryId": "underwear"
     },
     {
       "tag": "three quarter view",
@@ -69227,10 +69777,12 @@
       "tag": "thumbs up",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "手によるジェスチャー。",
+      "auditSourceIndex": 9755,
+      "subcategoryId": "hand-action"
     },
     {
       "tag": "thunderstorm",
@@ -70202,7 +70754,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 9977,
+      "subcategoryId": ""
     },
     {
       "tag": "treasure chest",
@@ -71031,7 +71585,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 10157,
+      "subcategoryId": ""
     },
     {
       "tag": "under night in-birth",
@@ -71077,10 +71633,12 @@
       "tag": "underboob",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "person",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "人物の身体部位・身体状態。",
+      "auditSourceIndex": 10168,
+      "subcategoryId": "body-parts"
     },
     {
       "tag": "underboob cutout",
@@ -71089,7 +71647,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 10169,
+      "subcategoryId": ""
     },
     {
       "tag": "undercut",
@@ -71185,19 +71745,23 @@
       "tag": "undressing",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "成人向け状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 10184,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "undressing another",
       "legacyMajor": "シチュエーション",
       "legacyMinor": "成人向け状況",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "衣服を開く・ずらす・脱ぐ動作。",
+      "auditSourceIndex": 10185,
+      "subcategoryId": "clothing-contact"
     },
     {
       "tag": "uneven eyes",
@@ -71613,10 +72177,12 @@
       "tag": "upskirt",
       "legacyMajor": "成人向け",
       "legacyMinor": "身体・衣類",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "成人向け旧分類だけでは意味分類を確定できないため保留。"
+      "categoryId": "clothing",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "肌や下着の露出状態。",
+      "auditSourceIndex": 10250,
+      "subcategoryId": "skin-exposure"
     },
     {
       "tag": "upturned eyes",
@@ -71675,7 +72241,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 10270,
+      "subcategoryId": ""
     },
     {
       "tag": "ushio (kancolle)",
@@ -72406,7 +72974,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "旧「品質」分類だけでは品質・解像度・スコアの区別を確定できないため保留。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 10434,
+      "subcategoryId": ""
     },
     {
       "tag": "wallpaper (object)",
@@ -72686,7 +73256,9 @@
       "categoryId": "",
       "status": "needs-review",
       "confidence": "low",
-      "reason": "関係性・イベントは意味が広いため個別確認が必要。"
+      "reason": "旧分類とタグ名だけでは意味分類を一意に確定できないため保留。",
+      "auditSourceIndex": 10501,
+      "subcategoryId": ""
     },
     {
       "tag": "wedding dress",
@@ -74258,10 +74830,12 @@
       "tag": "winking",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 10695,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "winter clothes",
@@ -75562,10 +76136,12 @@
       "tag": "yoga",
       "legacyMajor": "ポーズ・動作",
       "legacyMinor": "行動",
-      "categoryId": "",
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "旧「行動」分類だけでは動作と姿勢を区別できないため保留。"
+      "categoryId": "action",
+      "status": "provisional",
+      "confidence": "medium",
+      "reason": "動作・行為を示す。",
+      "auditSourceIndex": 10900,
+      "subcategoryId": "body-action"
     },
     {
       "tag": "yoga pants",
