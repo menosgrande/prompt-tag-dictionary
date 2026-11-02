@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 467,
-    "needsReview": 533
+    "proposed": 493,
+    "needsReview": 507
   },
   "entries": [
     {
@@ -662,9 +662,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "混色・ブレンドの描画技法。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "drawing-technique"
+      }
     },
     {
       "batch": 1,
@@ -778,9 +782,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "パッケージ用イラストという表現形式。",
+      "target": {
+        "categoryId": "style",
+        "subcategoryId": "style-medium"
+      }
     },
     {
       "batch": 1,
@@ -806,9 +814,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ブランド表記の模倣。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "logos"
+      }
     },
     {
       "batch": 1,
@@ -1190,9 +1202,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "衣装を示す一般タグ。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -1644,9 +1660,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "身体にできた切り傷。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 1,
@@ -2248,9 +2268,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "身につけるリボン状の装飾品。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 1,
@@ -2956,9 +2980,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "同人誌の表紙・誌面表現。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "text"
+      }
     },
     {
       "batch": 1,
@@ -2970,9 +2998,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "胸元を上から覗く視点・構図。",
+      "target": {
+        "categoryId": "composition",
+        "subcategoryId": "viewpoint-gaze"
+      }
     },
     {
       "batch": 1,
@@ -3278,9 +3310,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "伝統的な胸当て衣装。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -3806,9 +3842,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "肘当ての装備。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
+      }
     },
     {
       "batch": 1,
@@ -4694,9 +4734,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "架空の表紙表現。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "text"
+      }
     },
     {
       "batch": 1,
@@ -4708,9 +4752,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "雑誌表紙の文字・誌面表現。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "text"
+      }
     },
     {
       "batch": 1,
@@ -4758,9 +4806,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "画面内に偽のスクリーンショットを配置する構図。",
+      "target": {
+        "categoryId": "composition",
+        "subcategoryId": "composition-layout"
+      }
     },
     {
       "batch": 1,
@@ -5372,9 +5424,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "網タイツなどのレッグウェア。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "footwear"
+      }
     },
     {
       "batch": 1,
@@ -5706,9 +5762,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "汗の飛沫を視覚効果として描く表現。",
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      }
     },
     {
       "batch": 1,
@@ -5720,9 +5780,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "涙の飛沫を伴う顔の表情表現。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 1,
@@ -6830,9 +6894,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "杖状の道具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 1,
@@ -7212,9 +7280,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "歯車という機械部品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 1,
@@ -7386,9 +7458,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "幽霊を模した衣装。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -9346,9 +9422,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "武器をホルスターに収めた装備状態。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
+      }
     },
     {
       "batch": 1,
@@ -9516,9 +9596,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "千鳥格子という衣服の柄。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing-state"
+      }
     },
     {
       "batch": 1,
@@ -10340,9 +10424,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "ジト目という目・視線の特徴。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
+      }
     },
     {
       "batch": 1,
@@ -10684,9 +10772,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "縄跳び用具。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "tools"
+      }
     },
     {
       "batch": 1,
@@ -10854,9 +10946,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "門松という飾り物。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -10936,9 +11032,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "鏡餅という正月飾り・食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -11890,9 +11990,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "刀剣。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      }
     },
     {
       "batch": 1,
@@ -15886,5 +15990,11 @@
   "audit": {
     "note": "候補データの初回自動棚卸し。提案は未確定であり、tags.jsonへ反映していない。カテゴリ体系も最終承認前。誤分類候補を含むため、PR上でレビューを継続する。",
     "taxonomyValidation": "all target category/subcategory IDs checked against current tag-taxonomy.json"
+  },
+  "review": {
+    "reviewedAt": "2026-11-02",
+    "method": "high-precision exact-tag review; ambiguous terms and proper names retained for manual review",
+    "newlyProposed": 26,
+    "correctedExistingTargets": 0
   }
 }
