@@ -399,25 +399,46 @@
   function classificationOf(t) {
     return classificationCandidates.get(norm(t.tag)) || null;
   }
+  function taxonomyCategoryId(candidate) {
+    if (!candidate?.categoryId) return "";
+    const sub = candidate.subcategoryId;
+    if (candidate.categoryId === "person") {
+      if (sub === "people-count") return "people-count";
+      if (["face-expression", "eyes"].includes(sub)) return "face";
+      if (sub === "hair-head") return "hair";
+    }
+    if (candidate.categoryId === "background" && ["furniture", "object-items"].includes(sub)) return "objects";
+    return candidate.categoryId;
+  }
   function taxonomyCategoryName(id) { return tagTaxonomy?.semanticCategories?.find(category => category.id === id)?.name || ""; }
   function taxonomySubcategoryName(categoryId, subcategoryId) {
-    return tagTaxonomy?.semanticCategories?.find(category => category.id === categoryId)?.subcategories?.find(sub => sub.id === subcategoryId)?.name || "";
+    const mappedCategoryId = taxonomyCategoryId({categoryId, subcategoryId});
+    const mappedSubcategoryId = categoryId === "person" && subcategoryId === "people-count" ? "people-count"
+      : categoryId === "person" && subcategoryId === "face-expression" ? "face-expression"
+      : categoryId === "person" && subcategoryId === "eyes" ? "eyes"
+      : categoryId === "person" && subcategoryId === "hair-head" ? "hair-head"
+      : categoryId === "background" && subcategoryId === "furniture" ? "furniture"
+      : categoryId === "background" && subcategoryId === "object-items" ? "other-objects"
+      : subcategoryId;
+    return tagTaxonomy?.semanticCategories?.find(category => category.id === mappedCategoryId)?.subcategories?.find(sub => sub.id === mappedSubcategoryId)?.name || "";
   }
   function saveData() {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state.tags)); }
     catch (e) { setStatus("import-status", "ブラウザの保存容量を超えたため、今回のデータは保存できませんでした。", true); }
   }
   function saveSelected() { try { localStorage.setItem(SELECTED_KEY, JSON.stringify([...state.selected])); } catch {} }
-  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(candidate.categoryId) || "未分類"; if(candidate?.status==="needs-review") return "未分類"; const legacyMajor=(t.category && t.category[0]) || "未分類"; return legacyMajor === "光・色彩" ? "未分類" : legacyMajor; }
+  function majorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomyCategoryName(taxonomyCategoryId(candidate)) || "未分類"; if(candidate?.status==="needs-review") return "未分類"; const legacyMajor=(t.category && t.category[0]) || "未分類"; return legacyMajor === "光・色彩" ? "未分類" : legacyMajor; }
   // Prompt assembly order is shared by the output UI and the category navigation.
   let PROMPT_ORDER = ["品質・ネガティブ", "人数・人物構成", "キャラクター・作品", "人物の特徴", "顔・表情", "髪・頭部", "服装・装飾", "ポーズ・姿勢", "動作・接触", "背景・場所", "家具・設備・物品", "乗り物", "構図・カメラ", "画風・描写", "光・演出", "生物・動植物", "文字・記号"];
   function promptTargetOf(t) { return promptTargetOverrides.get(norm(t.tag)) || "positive"; }
   function promptOrderOf(t) {
     if (promptTargetOf(t) === "negative") return PROMPT_ORDER[0];
     const override = promptOrderOverrides.get(norm(t.tag));
-    if (PROMPT_ORDER.includes(override)) return override;
+    const overrideAliases = {"人物・身体的特徴":"人物の特徴","背景・環境":"背景・場所","物品・小道具":"家具・設備・物品","生物・種族":"生物・動植物"};
+    const normalizedOverride = overrideAliases[override] || override;
+    if (PROMPT_ORDER.includes(normalizedOverride)) return normalizedOverride;
     const candidate = classificationOf(t);
-    const taxonomyOutputIndex = tagTaxonomy?.semanticCategories?.find(category => category.id === candidate?.categoryId)?.order - 1;
+    const taxonomyOutputIndex = tagTaxonomy?.semanticCategories?.find(category => category.id === taxonomyCategoryId(candidate))?.order - 1;
     if (candidate?.status === "provisional" && Number.isInteger(taxonomyOutputIndex) && taxonomyOutputIndex >= 0) return PROMPT_ORDER[taxonomyOutputIndex];
     const major = majorOf(t);
     const minor = minorOf(t);
@@ -430,15 +451,20 @@
       if (["text", "signature", "username", "watermark", "wallpaper", "official art", "key visual"].includes(tag)) return PROMPT_ORDER[7];
       return PROMPT_ORDER[0];
     }
-    if (major === "人物" || major === "作品・キャラクター") return PROMPT_ORDER[1];
-    if (major === "服装") return PROMPT_ORDER[2];
-    if (major === "ポーズ・動作") return minor === "姿勢" ? PROMPT_ORDER[3] : PROMPT_ORDER[4];
-    if (major === "シチュエーション") return PROMPT_ORDER[4];
-    if (major === "背景・場所") return PROMPT_ORDER[5];
-    if (major === "構図・視点") return PROMPT_ORDER[6];
-    if (major === "光・色彩") return PROMPT_ORDER[8];
-    if (major === "成人向け") return /身体・衣類/.test(minor) ? PROMPT_ORDER[2] : /表現・修正/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[4];
-    if (major === "その他") return /動物/.test(minor) ? PROMPT_ORDER[1] : /記号・効果/.test(minor) ? PROMPT_ORDER[8] : PROMPT_ORDER[5];
+    const legacyOrder = {
+      "人物": "人物の特徴", "作品・キャラクター": "キャラクター・作品",
+      "服装": "服装・装飾", "ポーズ・動作": minor === "姿勢" ? "ポーズ・姿勢" : "動作・接触",
+      "シチュエーション": "動作・接触", "背景・場所": "背景・場所",
+      "構図・視点": "構図・カメラ", "光・色彩": "光・演出",
+      "成人向け": /身体・衣類/.test(minor) ? "服装・装飾" : /表現・修正/.test(minor) ? "光・演出" : "動作・接触",
+      "その他": /動物/.test(minor) ? "生物・動植物" : /記号・効果/.test(minor) ? "光・演出" : "背景・場所"
+    };
+    if (major === "画風・品質") {
+      if (minor !== "品質") return "画風・描写";
+      if (["text", "signature", "username", "watermark"].includes(tag)) return "文字・記号";
+      return "品質・ネガティブ";
+    }
+    if (legacyOrder[major]) return legacyOrder[major];
     return "未分類";
   }
   function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(candidate?.status==="needs-review" || (t.category && t.category[0]) === "光・色彩") return "未分類"; return (t.category && t.category[1]) || "未分類"; }
@@ -447,7 +473,7 @@
     const candidate = classificationOf(t);
     if (candidate?.status === "provisional" && candidate.categoryId) {
       return {
-        major: taxonomyCategoryName(candidate.categoryId) || (t.category && t.category[0]) || "未分類",
+        major: taxonomyCategoryName(taxonomyCategoryId(candidate)) || (t.category && t.category[0]) || "未分類",
         minor: taxonomySubcategoryName(candidate.categoryId, candidate.subcategoryId) || (t.category && t.category[1]) || "未分類",
         detail: (t.category && t.category[2]) || "—"
       };
