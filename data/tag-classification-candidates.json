@@ -12,7 +12,7 @@
   },
   "migrationAudit": {
     "source": "data/color-semantic-classification-audit.json",
-    "source_blob_sha": "14d951f5300113ccb5b32fbf32ea3ce81d1305eb",
+    "source_blob_sha": "a1d410eefc7c24f236c008a954e6ad01314dbe5b",
     "covered": 758,
     "proposed": 716,
     "needsReview": 42
@@ -6018,12 +6018,12 @@
       "tag": "black arm warmers",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "person",
+      "categoryId": "clothing",
       "status": "provisional",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。",
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。",
       "auditSourceIndex": 965,
-      "subcategoryId": "body-parts"
+      "subcategoryId": "clothing"
     },
     {
       "tag": "black armband",
@@ -6639,12 +6639,12 @@
       "tag": "black leg warmers",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "person",
+      "categoryId": "clothing",
       "status": "provisional",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。",
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。",
       "auditSourceIndex": 1023,
-      "subcategoryId": "body-parts"
+      "subcategoryId": "clothing"
     },
     {
       "tag": "black leggings",
@@ -40254,12 +40254,12 @@
       "tag": "pink arm warmers",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "person",
+      "categoryId": "clothing",
       "status": "provisional",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。",
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。",
       "auditSourceIndex": 7260,
-      "subcategoryId": "body-parts"
+      "subcategoryId": "clothing"
     },
     {
       "tag": "pink ascot",
@@ -58051,12 +58051,12 @@
       "tag": "white leg warmers",
       "legacyMajor": "光・色彩",
       "legacyMinor": "色",
-      "categoryId": "person",
+      "categoryId": "clothing",
       "status": "provisional",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。",
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。",
       "auditSourceIndex": 10617,
-      "subcategoryId": "body-parts"
+      "subcategoryId": "clothing"
     },
     {
       "tag": "white leggings",
