@@ -119,11 +119,11 @@
       "description": "顔立ち、表情、目、視線など顔周辺の特徴。",
       "subcategories": [
         {
-          "id": "face-expression",
+          "id": "face-expression-core",
           "name": "顔・表情"
         },
         {
-          "id": "eyes",
+          "id": "eyes-feature",
           "name": "目"
         },
         {
@@ -139,7 +139,7 @@
       "description": "髪型、髪の状態、耳、角、頭部の装飾など。",
       "subcategories": [
         {
-          "id": "hair-head",
+          "id": "hair-head-core",
           "name": "髪・頭部"
         },
         {
@@ -312,7 +312,7 @@
       "description": "家具、設備、道具、武器、機械、日用品などの独立した物体。背景にあるという理由だけで背景分類にしない。",
       "subcategories": [
         {
-          "id": "furniture",
+          "id": "furniture-items",
           "name": "家具"
         },
         {
