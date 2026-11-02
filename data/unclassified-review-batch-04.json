@@ -1,0 +1,4643 @@
+{
+  "schema": "unclassified-review-batch-v1",
+  "generatedAt": "2026-11-02",
+  "source": "data/tags.json on main; batches 01-03 excluded by tag identity",
+  "taxonomy": "data/tag-taxonomy.json (provisional; not finally approved)",
+  "batch": {
+    "number": 4,
+    "range": "remaining 319 unclassified tags after batches 01-03 in current data order",
+    "policy": "Only semantically clear general tags receive provisional category suggestions. Proper names, works, creators, ambiguous tags and context-dependent terms remain needs-review. Audit sidecar only; no data/tags.json rows are changed."
+  },
+  "summary": {
+    "total": 319,
+    "proposed": 38,
+    "needsReview": 281
+  },
+  "audit": {
+    "uniqueTags": 319,
+    "uniqueSourceIndexes": 319,
+    "noOverlapWithPriorBatches": true,
+    "allLegacyUnclassified": true,
+    "validTargets": true
+  },
+  "entries": [
+    {
+      "batch": 4,
+      "position": 1,
+      "sourceIndex": 10227,
+      "tag": "unworn helmet",
+      "ja": "かぶっていないヘルメット",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 2,
+      "sourceIndex": 10239,
+      "tag": "unya",
+      "ja": "うんにゃ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 3,
+      "sourceIndex": 10240,
+      "tag": "unzan",
+      "ja": "雲山",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 4,
+      "sourceIndex": 10241,
+      "tag": "unzipped",
+      "ja": "ファスナーを開けた状態",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 5,
+      "sourceIndex": 10242,
+      "tag": "unzipping",
+      "ja": "ファスナーを開ける",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 6,
+      "sourceIndex": 10243,
+      "tag": "updo",
+      "ja": "アップヘア",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 7,
+      "sourceIndex": 10246,
+      "tag": "upright straddle",
+      "ja": "直立したまたがりポーズ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 8,
+      "sourceIndex": 10247,
+      "tag": "upshirt",
+      "ja": "アップシャツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 9,
+      "sourceIndex": 10248,
+      "tag": "upshorts",
+      "ja": "アップショート",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 10,
+      "sourceIndex": 10249,
+      "tag": "upside-down",
+      "ja": "逆さま",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 11,
+      "sourceIndex": 10254,
+      "tag": "uraraka ochaco",
+      "ja": "麗日お茶子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 12,
+      "sourceIndex": 10256,
+      "tag": "urethral insertion",
+      "ja": "尿道への挿入",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 13,
+      "sourceIndex": 10257,
+      "tag": "urinal",
+      "ja": "便器",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 14,
+      "sourceIndex": 10258,
+      "tag": "uruha rushia",
+      "ja": "潤羽るしあ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 15,
+      "sourceIndex": 10260,
+      "tag": "urusei yatsura",
+      "ja": "うる星やつら",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 16,
+      "sourceIndex": 10261,
+      "tag": "urushihara satoshi",
+      "ja": "漆原智志",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 17,
+      "sourceIndex": 10262,
+      "tag": "usada pekora",
+      "ja": "兎田ぺこら",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 18,
+      "sourceIndex": 10264,
+      "tag": "usami renko",
+      "ja": "宇佐見蓮子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 19,
+      "sourceIndex": 10265,
+      "tag": "usami sumireko",
+      "ja": "宇佐見菫子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 20,
+      "sourceIndex": 10266,
+      "tag": "usashiro mani",
+      "ja": "ウサシロマニ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 21,
+      "sourceIndex": 10267,
+      "tag": "used tissue",
+      "ja": "使用済みティッシュ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 22,
+      "sourceIndex": 10269,
+      "tag": "user interface",
+      "ja": "ユーザーインターフェース",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 23,
+      "sourceIndex": 10271,
+      "tag": "ushanka",
+      "ja": "ロシア帽",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 24,
+      "sourceIndex": 10273,
+      "tag": "ushiromiya ange",
+      "ja": "右代宮縁寿",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 25,
+      "sourceIndex": 10274,
+      "tag": "ushiromiya battler",
+      "ja": "右代宮戦人",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 26,
+      "sourceIndex": 10276,
+      "tag": "utaite",
+      "ja": "歌い手",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 27,
+      "sourceIndex": 10277,
+      "tag": "utano",
+      "ja": "ウタノ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 28,
+      "sourceIndex": 10278,
+      "tag": "utau",
+      "ja": "UTAU",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 29,
+      "sourceIndex": 10279,
+      "tag": "utawarerumono",
+      "ja": "うたわれるもの",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 30,
+      "sourceIndex": 10281,
+      "tag": "uterus",
+      "ja": "子宮",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 31,
+      "sourceIndex": 10283,
+      "tag": "utility pole",
+      "ja": "電柱",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 32,
+      "sourceIndex": 10284,
+      "tag": "utsugi noriyuki",
+      "ja": "宇津木徳幸",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 33,
+      "sourceIndex": 10286,
+      "tag": "uvula",
+      "ja": "口蓋垂",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 34,
+      "sourceIndex": 10287,
+      "tag": "uwabaki",
+      "ja": "上履き",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 35,
+      "sourceIndex": 10288,
+      "tag": "uzaki-chan wa asobitai!",
+      "ja": "宇崎ちゃんは遊びたい!",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 36,
+      "sourceIndex": 10290,
+      "tag": "uzumaki naruto",
+      "ja": "うずまきナルト",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 37,
+      "sourceIndex": 10291,
+      "tag": "v",
+      "ja": "ピースサイン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 38,
+      "sourceIndex": 10295,
+      "tag": "v-fin",
+      "ja": "V字アンテナ(ガンダム)",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 39,
+      "sourceIndex": 10299,
+      "tag": "va-11 hall-a",
+      "ja": "VA-11ホールA",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 40,
+      "sourceIndex": 10300,
+      "tag": "vacuum cleaner",
+      "ja": "掃除機",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 41,
+      "sourceIndex": 10303,
+      "tag": "valentine",
+      "ja": "バレンタイン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 42,
+      "sourceIndex": 10304,
+      "tag": "valkyrie",
+      "ja": "ヴァルキリー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 43,
+      "sourceIndex": 10305,
+      "tag": "vambraces",
+      "ja": "腕甲",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "underwear"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 44,
+      "sourceIndex": 10308,
+      "tag": "van",
+      "ja": "バン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 45,
+      "sourceIndex": 10309,
+      "tag": "vanishing point",
+      "ja": "消失点",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 46,
+      "sourceIndex": 10310,
+      "tag": "vaporeon",
+      "ja": "シャワーズ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 47,
+      "sourceIndex": 10312,
+      "tag": "varia suit",
+      "ja": "Variaスーツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 48,
+      "sourceIndex": 10313,
+      "tag": "variable fighter",
+      "ja": "可変戦闘機",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 49,
+      "sourceIndex": 10314,
+      "tag": "variations",
+      "ja": "バリエーション",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 50,
+      "sourceIndex": 10315,
+      "tag": "vase",
+      "ja": "花瓶",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 51,
+      "sourceIndex": 10317,
+      "tag": "vegeta",
+      "ja": "ベジータ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 52,
+      "sourceIndex": 10318,
+      "tag": "vegetable",
+      "ja": "野菜",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "furniture"
+      },
+      "reason": "背景内の家具を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 53,
+      "sourceIndex": 10319,
+      "tag": "vehicle and personification",
+      "ja": "乗り物の擬人化",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      },
+      "reason": "動物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 54,
+      "sourceIndex": 10322,
+      "tag": "veil",
+      "ja": "ベール",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 55,
+      "sourceIndex": 10323,
+      "tag": "veins",
+      "ja": "静脈",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 56,
+      "sourceIndex": 10327,
+      "tag": "vending machine",
+      "ja": "自動販売機",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 57,
+      "sourceIndex": 10329,
+      "tag": "vento aureo",
+      "ja": "黄金の風",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 58,
+      "sourceIndex": 10331,
+      "tag": "veranda",
+      "ja": "ベランダ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 59,
+      "sourceIndex": 10333,
+      "tag": "vertical foregrip",
+      "ja": "垂直フォアグリップ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 60,
+      "sourceIndex": 10337,
+      "tag": "vertical-striped headwear",
+      "ja": "垂直縞模様の帽子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 61,
+      "sourceIndex": 10351,
+      "tag": "very long beard",
+      "ja": "非常に長いひげ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
+      },
+      "reason": "動物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 62,
+      "sourceIndex": 10352,
+      "tag": "very long fingernails",
+      "ja": "非常に長い爪",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 63,
+      "sourceIndex": 10357,
+      "tag": "very sweaty",
+      "ja": "汗だく",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 64,
+      "sourceIndex": 10360,
+      "tag": "vial",
+      "ja": "瓶",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 65,
+      "sourceIndex": 10362,
+      "tag": "victorian",
+      "ja": "ビクトリア朝",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 66,
+      "sourceIndex": 10364,
+      "tag": "video game",
+      "ja": "テレビゲーム",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 67,
+      "sourceIndex": 10365,
+      "tag": "viera",
+      "ja": "ヴィエラ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 68,
+      "sourceIndex": 10367,
+      "tag": "viewfinder",
+      "ja": "ファインダー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 69,
+      "sourceIndex": 10368,
+      "tag": "vignetting",
+      "ja": "周辺減光",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 70,
+      "sourceIndex": 10369,
+      "tag": "viktor nikiforov",
+      "ja": "ヴィクトル・ニキフォロフ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 71,
+      "sourceIndex": 10371,
+      "tag": "vines",
+      "ja": "蔓",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "plants"
+      },
+      "reason": "植物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 72,
+      "sourceIndex": 10373,
+      "tag": "violin",
+      "ja": "バイオリン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 73,
+      "sourceIndex": 10377,
+      "tag": "virtual youtuber",
+      "ja": "バーチャルYouTuber",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 74,
+      "sourceIndex": 10378,
+      "tag": "visible air",
+      "ja": "目に見える空気",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 75,
+      "sourceIndex": 10382,
+      "tag": "visual novel",
+      "ja": "ビジュアルノベル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 76,
+      "sourceIndex": 10384,
+      "tag": "vivio",
+      "ja": "高町ヴィヴィオ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 77,
+      "sourceIndex": 10385,
+      "tag": "vocaloid",
+      "ja": "ボーカロイド",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 78,
+      "sourceIndex": 10386,
+      "tag": "vocaloid append",
+      "ja": "VOCALOID2 Append",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 79,
+      "sourceIndex": 10388,
+      "tag": "voice actor",
+      "ja": "声優",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 80,
+      "sourceIndex": 10389,
+      "tag": "voice actor connection",
+      "ja": "声優のつながり",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 81,
+      "sourceIndex": 10390,
+      "tag": "voiceroid",
+      "ja": "VOICEROID",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 82,
+      "sourceIndex": 10391,
+      "tag": "voicevox",
+      "ja": "VOICEVOX",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 83,
+      "sourceIndex": 10392,
+      "tag": "voile",
+      "ja": "ヴワル魔法図書館",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 84,
+      "sourceIndex": 10393,
+      "tag": "volcano",
+      "ja": "火山",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 85,
+      "sourceIndex": 10394,
+      "tag": "volleyball",
+      "ja": "バレーボール",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 86,
+      "sourceIndex": 10396,
+      "tag": "volleyball net",
+      "ja": "バレーボールネット",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 87,
+      "sourceIndex": 10399,
+      "tag": "voyeurism",
+      "ja": "盗撮",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 88,
+      "sourceIndex": 10400,
+      "tag": "vshojo",
+      "ja": "VShojo",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 89,
+      "sourceIndex": 10401,
+      "tag": "vspo!",
+      "ja": "ぶいすぽっ!",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 90,
+      "sourceIndex": 10402,
+      "tag": "w",
+      "ja": "スリーピース",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 91,
+      "sourceIndex": 10406,
+      "tag": "wa lolita",
+      "ja": "和風ロリータ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 92,
+      "sourceIndex": 10407,
+      "tag": "wa maid",
+      "ja": "和風メイド",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 93,
+      "sourceIndex": 10408,
+      "tag": "wading",
+      "ja": "水遊び",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 94,
+      "sourceIndex": 10409,
+      "tag": "wading pool",
+      "ja": "水遊び用プール",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 95,
+      "sourceIndex": 10410,
+      "tag": "waero",
+      "ja": "ワエロ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 96,
+      "sourceIndex": 10411,
+      "tag": "wafer stick",
+      "ja": "ウェーハスティック",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 97,
+      "sourceIndex": 10412,
+      "tag": "wagashi",
+      "ja": "和菓子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 98,
+      "sourceIndex": 10414,
+      "tag": "waist bow",
+      "ja": "腰のリボン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      },
+      "reason": "武器の種類・武器に関するタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 99,
+      "sourceIndex": 10415,
+      "tag": "waist cape",
+      "ja": "腰マント",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 100,
+      "sourceIndex": 10417,
+      "tag": "waistcoat",
+      "ja": "チョッキ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 101,
+      "sourceIndex": 10418,
+      "tag": "waiter",
+      "ja": "ウェイター",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 102,
+      "sourceIndex": 10419,
+      "tag": "waitress",
+      "ja": "ウェイトレス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 103,
+      "sourceIndex": 10420,
+      "tag": "wakabayashi toshiya",
+      "ja": "ワカバヤシ・トシヤ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 104,
+      "sourceIndex": 10421,
+      "tag": "wakamezake",
+      "ja": "わかめ酒",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 105,
+      "sourceIndex": 10423,
+      "tag": "wakasagihime",
+      "ja": "わかさぎ姫",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 106,
+      "sourceIndex": 10424,
+      "tag": "waking up",
+      "ja": "目を覚ます",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 107,
+      "sourceIndex": 10425,
+      "tag": "wakizashi",
+      "ja": "脇差",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 108,
+      "sourceIndex": 10426,
+      "tag": "walk-in",
+      "ja": "ウォークイン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 109,
+      "sourceIndex": 10428,
+      "tag": "walkie-talkie",
+      "ja": "トランシーバー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 110,
+      "sourceIndex": 10432,
+      "tag": "wall of text",
+      "ja": "テキストの壁",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "text"
+      },
+      "reason": "画像内の文字・ロゴ・表記要素を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 111,
+      "sourceIndex": 10433,
+      "tag": "wallet",
+      "ja": "財布",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 112,
+      "sourceIndex": 10436,
+      "tag": "walther",
+      "ja": "ウォルサー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 113,
+      "sourceIndex": 10437,
+      "tag": "wand",
+      "ja": "杖",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 114,
+      "sourceIndex": 10439,
+      "tag": "wanted poster",
+      "ja": "指名手配ポスター",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 115,
+      "sourceIndex": 10440,
+      "tag": "war",
+      "ja": "戦争",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 116,
+      "sourceIndex": 10441,
+      "tag": "war hammer",
+      "ja": "ウォーハンマー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 117,
+      "sourceIndex": 10442,
+      "tag": "warcraft",
+      "ja": "ウォークラフト",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 118,
+      "sourceIndex": 10443,
+      "tag": "wardrobe error",
+      "ja": "ワードローブエラー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 119,
+      "sourceIndex": 10444,
+      "tag": "wardrobe malfunction",
+      "ja": "ワードローブの誤動作",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 120,
+      "sourceIndex": 10445,
+      "tag": "warhammer 40k",
+      "ja": "ウォーハンマー40k",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 121,
+      "sourceIndex": 10446,
+      "tag": "warioware",
+      "ja": "ワリオワレ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 122,
+      "sourceIndex": 10447,
+      "tag": "wariza",
+      "ja": "ぺたん座り",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 123,
+      "sourceIndex": 10449,
+      "tag": "warning sign",
+      "ja": "警告サイン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 124,
+      "sourceIndex": 10452,
+      "tag": "warship",
+      "ja": "軍艦",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "vehicles",
+        "subcategoryId": "road-vehicles"
+      },
+      "reason": "道路車両を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 125,
+      "sourceIndex": 10453,
+      "tag": "warship girls r",
+      "ja": "軍艦の女の子r",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "vehicles",
+        "subcategoryId": "road-vehicles"
+      },
+      "reason": "道路車両を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 126,
+      "sourceIndex": 10456,
+      "tag": "washing",
+      "ja": "洗浄",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 127,
+      "sourceIndex": 10457,
+      "tag": "washing machine",
+      "ja": "洗濯機",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 128,
+      "sourceIndex": 10458,
+      "tag": "wataboushi",
+      "ja": "綿帽子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 129,
+      "sourceIndex": 10459,
+      "tag": "watanabe you",
+      "ja": "渡辺曜",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 130,
+      "sourceIndex": 10460,
+      "tag": "watashi ni tenshi ga maiorita!",
+      "ja": "私に天使が舞い降りた!",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 131,
+      "sourceIndex": 10461,
+      "tag": "watatsuki no yorihime",
+      "ja": "綿月依姫",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 132,
+      "sourceIndex": 10462,
+      "tag": "watch",
+      "ja": "時計",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 133,
+      "sourceIndex": 10463,
+      "tag": "watching",
+      "ja": "見ている",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 134,
+      "sourceIndex": 10464,
+      "tag": "watching television",
+      "ja": "テレビを見る",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 135,
+      "sourceIndex": 10465,
+      "tag": "water",
+      "ja": "水",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 136,
+      "sourceIndex": 10466,
+      "tag": "water bottle",
+      "ja": "ウォーターボトル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 137,
+      "sourceIndex": 10467,
+      "tag": "water drop",
+      "ja": "水滴",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 138,
+      "sourceIndex": 10471,
+      "tag": "watercraft",
+      "ja": "船舶",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 139,
+      "sourceIndex": 10473,
+      "tag": "watering can",
+      "ja": "じょうろ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 140,
+      "sourceIndex": 10475,
+      "tag": "watermelon",
+      "ja": "スイカ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 141,
+      "sourceIndex": 10476,
+      "tag": "watermelon bar",
+      "ja": "スイカバー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 142,
+      "sourceIndex": 10477,
+      "tag": "watermelon slice",
+      "ja": "スイカの一切れ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 143,
+      "sourceIndex": 10478,
+      "tag": "watson amelia",
+      "ja": "ワトソンアメリア",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 144,
+      "sourceIndex": 10480,
+      "tag": "watson cross",
+      "ja": "ワトソンクロス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 145,
+      "sourceIndex": 10482,
+      "tag": "waver velvet",
+      "ja": "ウェイバーベルベット",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 146,
+      "sourceIndex": 10483,
+      "tag": "waves",
+      "ja": "波",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 147,
+      "sourceIndex": 10499,
+      "tag": "web address",
+      "ja": "ウェブアドレス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 148,
+      "sourceIndex": 10503,
+      "tag": "wedding ring",
+      "ja": "結婚指輪",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 149,
+      "sourceIndex": 10505,
+      "tag": "wedgie",
+      "ja": "食い込み",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 150,
+      "sourceIndex": 10506,
+      "tag": "weibo logo",
+      "ja": "Weiboロゴ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "logos"
+      },
+      "reason": "画像内の文字・ロゴ・表記要素を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 151,
+      "sourceIndex": 10507,
+      "tag": "weibo watermark",
+      "ja": "Weiboロゴ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "quality",
+        "subcategoryId": "negative-exclusions"
+      },
+      "reason": "画像内の文字・ロゴ・表記要素を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 152,
+      "sourceIndex": 10508,
+      "tag": "weighing scale",
+      "ja": "計量スケール",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 153,
+      "sourceIndex": 10509,
+      "tag": "weight conscious",
+      "ja": "体重を気にする",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 154,
+      "sourceIndex": 10510,
+      "tag": "weightlifting",
+      "ja": "重量挙げ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 155,
+      "sourceIndex": 10511,
+      "tag": "weights",
+      "ja": "ウェイト",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 156,
+      "sourceIndex": 10512,
+      "tag": "weiss schnee",
+      "ja": "ワイス・シュニー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 157,
+      "sourceIndex": 10516,
+      "tag": "wet",
+      "ja": "濡れ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 158,
+      "sourceIndex": 10524,
+      "tag": "wet towel",
+      "ja": "ぬれたタオル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 159,
+      "sourceIndex": 10525,
+      "tag": "wetsuit",
+      "ja": "ウェットスーツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 160,
+      "sourceIndex": 10527,
+      "tag": "what",
+      "ja": "何",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 161,
+      "sourceIndex": 10528,
+      "tag": "wheat",
+      "ja": "小麦",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 162,
+      "sourceIndex": 10530,
+      "tag": "wheel",
+      "ja": "車輪",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 163,
+      "sourceIndex": 10531,
+      "tag": "wheelbarrow",
+      "ja": "手押し車",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      },
+      "reason": "武器の種類・武器に関するタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 164,
+      "sourceIndex": 10532,
+      "tag": "wheelchair",
+      "ja": "車椅子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "hair-head"
+      },
+      "reason": "髪型・頭髪の特徴を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 165,
+      "sourceIndex": 10533,
+      "tag": "when you see it",
+      "ja": "あなたがそれを見た時",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 166,
+      "sourceIndex": 10534,
+      "tag": "whip",
+      "ja": "鞭",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 167,
+      "sourceIndex": 10535,
+      "tag": "whip marks",
+      "ja": "鞭跡",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 168,
+      "sourceIndex": 10537,
+      "tag": "whipped cream",
+      "ja": "ホイップクリーム",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 169,
+      "sourceIndex": 10538,
+      "tag": "whisk",
+      "ja": "泡立て器",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 170,
+      "sourceIndex": 10539,
+      "tag": "whisker markings",
+      "ja": "ひげ模様",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 171,
+      "sourceIndex": 10540,
+      "tag": "whiskers",
+      "ja": "ひげ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 172,
+      "sourceIndex": 10541,
+      "tag": "whiskey",
+      "ja": "ウィスキー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 173,
+      "sourceIndex": 10542,
+      "tag": "whispering",
+      "ja": "ささやき",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 174,
+      "sourceIndex": 10543,
+      "tag": "whistle",
+      "ja": "ホイッスル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 175,
+      "sourceIndex": 10655,
+      "tag": "whiteboard",
+      "ja": "ホワイトボード",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 176,
+      "sourceIndex": 10664,
+      "tag": "wife and wife",
+      "ja": "妻と妻",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 177,
+      "sourceIndex": 10667,
+      "tag": "wince",
+      "ja": "眉をひそめる",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 178,
+      "sourceIndex": 10668,
+      "tag": "wind",
+      "ja": "風",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 179,
+      "sourceIndex": 10669,
+      "tag": "wind chime",
+      "ja": "風鈴",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 180,
+      "sourceIndex": 10670,
+      "tag": "wind lift",
+      "ja": "風リフト",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 181,
+      "sourceIndex": 10671,
+      "tag": "wind turbine",
+      "ja": "風力タービン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 182,
+      "sourceIndex": 10672,
+      "tag": "winding key",
+      "ja": "ぜんまいキー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 183,
+      "sourceIndex": 10673,
+      "tag": "windmill",
+      "ja": "風車",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 184,
+      "sourceIndex": 10679,
+      "tag": "windowsill",
+      "ja": "窓辺",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "architecture"
+      },
+      "reason": "建築物・建築要素を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 185,
+      "sourceIndex": 10680,
+      "tag": "wine",
+      "ja": "ワイン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 186,
+      "sourceIndex": 10681,
+      "tag": "wine bottle",
+      "ja": "ワインボトル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 187,
+      "sourceIndex": 10682,
+      "tag": "wine glass",
+      "ja": "ワイングラス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 188,
+      "sourceIndex": 10687,
+      "tag": "wing ornament",
+      "ja": "翼の飾り",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 189,
+      "sourceIndex": 10691,
+      "tag": "winged heart",
+      "ja": "翼のある心",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 190,
+      "sourceIndex": 10692,
+      "tag": "winged heart tattoo",
+      "ja": "翼の付いたハートのタトゥー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 191,
+      "sourceIndex": 10693,
+      "tag": "winged helmet",
+      "ja": "翼のあるヘルメット",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 192,
+      "sourceIndex": 10696,
+      "tag": "winter",
+      "ja": "冬",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 193,
+      "sourceIndex": 10702,
+      "tag": "wiping sweat",
+      "ja": "汗を拭く",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 194,
+      "sourceIndex": 10704,
+      "tag": "wire",
+      "ja": "ワイヤー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 195,
+      "sourceIndex": 10706,
+      "tag": "wisteria",
+      "ja": "藤",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 196,
+      "sourceIndex": 10712,
+      "tag": "wizarding world",
+      "ja": "ウィザーディング・ワールド",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 197,
+      "sourceIndex": 10713,
+      "tag": "wo-class aircraft carrier",
+      "ja": "ヲ級空母",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "vehicles",
+        "subcategoryId": "road-vehicles"
+      },
+      "reason": "道路車両を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 198,
+      "sourceIndex": 10722,
+      "tag": "wonderful precure!",
+      "ja": "わんだふるぷりきゅあ!",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 199,
+      "sourceIndex": 10723,
+      "tag": "wooden bucket",
+      "ja": "木製のバケツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 200,
+      "sourceIndex": 10725,
+      "tag": "wooden fence",
+      "ja": "木製のフェンス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "background",
+        "subcategoryId": "architecture"
+      },
+      "reason": "建築物・建築要素を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 201,
+      "sourceIndex": 10726,
+      "tag": "wooden floor",
+      "ja": "木の床",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 202,
+      "sourceIndex": 10729,
+      "tag": "wooden wall",
+      "ja": "木製の壁",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 203,
+      "sourceIndex": 10730,
+      "tag": "working!!",
+      "ja": "働く！！",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 204,
+      "sourceIndex": 10731,
+      "tag": "world flipper",
+      "ja": "ワールドフリッパー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 205,
+      "sourceIndex": 10732,
+      "tag": "world of warcraft",
+      "ja": "ワールド オブ ウォークラフト",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 206,
+      "sourceIndex": 10733,
+      "tag": "world trigger",
+      "ja": "ワールドトリガー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 207,
+      "sourceIndex": 10734,
+      "tag": "world war ii",
+      "ja": "第二次世界大戦",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 208,
+      "sourceIndex": 10735,
+      "tag": "world witches series",
+      "ja": "ワールドウィッチーズシリーズ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 209,
+      "sourceIndex": 10736,
+      "tag": "worldwide miku",
+      "ja": "ご当地ミク",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 210,
+      "sourceIndex": 10737,
+      "tag": "worm",
+      "ja": "ワーム",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 211,
+      "sourceIndex": 10741,
+      "tag": "wrapped candy",
+      "ja": "包まれたキャンディー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 212,
+      "sourceIndex": 10742,
+      "tag": "wreath",
+      "ja": "花輪",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 213,
+      "sourceIndex": 10743,
+      "tag": "wreckage",
+      "ja": "残骸",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 214,
+      "sourceIndex": 10744,
+      "tag": "wrench",
+      "ja": "レンチ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 215,
+      "sourceIndex": 10746,
+      "tag": "wrestling outfit",
+      "ja": "レスリングウェア",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 216,
+      "sourceIndex": 10747,
+      "tag": "wrestling ring",
+      "ja": "レスリングリング",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 217,
+      "sourceIndex": 10748,
+      "tag": "wriggle nightbug",
+      "ja": "うねりのナイトバグ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 218,
+      "sourceIndex": 10752,
+      "tag": "wrist bow",
+      "ja": "手首のリボン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      },
+      "reason": "武器の種類・武器に関するタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 219,
+      "sourceIndex": 10753,
+      "tag": "wrist cuffs",
+      "ja": "手首のカフス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 220,
+      "sourceIndex": 10754,
+      "tag": "wrist guards",
+      "ja": "リストガード",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 221,
+      "sourceIndex": 10756,
+      "tag": "wrist scrunchie",
+      "ja": "手首用シュシュ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 222,
+      "sourceIndex": 10757,
+      "tag": "wrist wrap",
+      "ja": "リストラップ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 223,
+      "sourceIndex": 10758,
+      "tag": "wristband",
+      "ja": "リストバンド",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 224,
+      "sourceIndex": 10759,
+      "tag": "wristwatch",
+      "ja": "腕時計",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      },
+      "reason": "具体的な日用品・道具・小物を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 225,
+      "sourceIndex": 10762,
+      "tag": "wuthering waves",
+      "ja": "鳴潮",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 226,
+      "sourceIndex": 10763,
+      "tag": "wyvern",
+      "ja": "ワイバーン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 227,
+      "sourceIndex": 10764,
+      "tag": "x",
+      "ja": "バツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 228,
+      "sourceIndex": 10766,
+      "tag": "x x",
+      "ja": "バツ目",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 229,
+      "sourceIndex": 10767,
+      "tag": "x-men",
+      "ja": "エックスメン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 230,
+      "sourceIndex": 10768,
+      "tag": "x-ray",
+      "ja": "X線",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 231,
+      "sourceIndex": 10770,
+      "tag": "xd",
+      "ja": "（笑い顔の絵文字）",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 232,
+      "sourceIndex": 10772,
+      "tag": "xenoblade chronicles 1",
+      "ja": "ゼノブレイド",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 233,
+      "sourceIndex": 10773,
+      "tag": "xenoblade chronicles 2",
+      "ja": "ゼノブレイド2",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 234,
+      "sourceIndex": 10774,
+      "tag": "xenoblade chronicles 3",
+      "ja": "ゼノブレイド3",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 235,
+      "sourceIndex": 10775,
+      "tag": "xenosaga",
+      "ja": "ゼノサーガ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 236,
+      "sourceIndex": 10778,
+      "tag": "xinzoruo",
+      "ja": "シンゾルオ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 237,
+      "sourceIndex": 10779,
+      "tag": "y2k fashion",
+      "ja": "2000年代ファッション",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 238,
+      "sourceIndex": 10780,
+      "tag": "yabuki kentarou",
+      "ja": "矢吹健太朗",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 239,
+      "sourceIndex": 10781,
+      "tag": "yae miko",
+      "ja": "八重神子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 240,
+      "sourceIndex": 10782,
+      "tag": "yae sakura",
+      "ja": "八重桜",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 241,
+      "sourceIndex": 10783,
+      "tag": "yaegashi nan",
+      "ja": "八重樫南",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 242,
+      "sourceIndex": 10784,
+      "tag": "yagami hayate",
+      "ja": "八神はやて",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 243,
+      "sourceIndex": 10785,
+      "tag": "yagasuri",
+      "ja": "矢絣",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 244,
+      "sourceIndex": 10786,
+      "tag": "yagokoro eirin",
+      "ja": "八意永琳",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 245,
+      "sourceIndex": 10788,
+      "tag": "yahari ore no seishun lovecome wa machigatteiru.",
+      "ja": "やはり俺の青春ラブコメはまちがっている。",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 246,
+      "sourceIndex": 10789,
+      "tag": "yakumo ran",
+      "ja": "八雲藍",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 247,
+      "sourceIndex": 10790,
+      "tag": "yakumo yukari",
+      "ja": "ゆかりん",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 248,
+      "sourceIndex": 10791,
+      "tag": "yamada ryo",
+      "ja": "山田リョウ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 249,
+      "sourceIndex": 10793,
+      "tag": "yamamoto souichirou",
+      "ja": "山本崇一朗",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 250,
+      "sourceIndex": 10797,
+      "tag": "yami kawaii",
+      "ja": "病みかわいい",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 251,
+      "sourceIndex": 10798,
+      "tag": "yandere",
+      "ja": "ヤンデレ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 252,
+      "sourceIndex": 10801,
+      "tag": "yang xiao long",
+      "ja": "ヤン・シャオロン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 253,
+      "sourceIndex": 10802,
+      "tag": "yano toshinori",
+      "ja": "ヤノ・トシノリ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 254,
+      "sourceIndex": 10804,
+      "tag": "yaoyorozu momo",
+      "ja": "八百万百",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 255,
+      "sourceIndex": 10805,
+      "tag": "yarn",
+      "ja": "糸",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 256,
+      "sourceIndex": 10806,
+      "tag": "yarn ball",
+      "ja": "糸ボール",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 257,
+      "sourceIndex": 10807,
+      "tag": "yasaka kanako",
+      "ja": "八坂神奈子",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 258,
+      "sourceIndex": 10811,
+      "tag": "yazawa nico",
+      "ja": "矢澤にこ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 259,
+      "sourceIndex": 10815,
+      "tag": "year of the ox",
+      "ja": "丑年",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 260,
+      "sourceIndex": 10816,
+      "tag": "year of the pig",
+      "ja": "亥年",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 261,
+      "sourceIndex": 10818,
+      "tag": "year of the rat",
+      "ja": "子年",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 262,
+      "sourceIndex": 10891,
+      "tag": "yes",
+      "ja": "はい",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 263,
+      "sourceIndex": 10892,
+      "tag": "yes-no pillow",
+      "ja": "YES/NO枕",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 264,
+      "sourceIndex": 10893,
+      "tag": "yes! precure 5",
+      "ja": "Yes!プリキュア5",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 265,
+      "sourceIndex": 10895,
+      "tag": "yin yang",
+      "ja": "陰陽",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 266,
+      "sourceIndex": 10896,
+      "tag": "yin yang orb",
+      "ja": "陰陽オーブ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 267,
+      "sourceIndex": 10897,
+      "tag": "yin yang print",
+      "ja": "陰陽印刷",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 268,
+      "sourceIndex": 10899,
+      "tag": "yo-yo",
+      "ja": "ヨーヨー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 269,
+      "sourceIndex": 10902,
+      "tag": "yohane",
+      "ja": "ヨハネ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 270,
+      "sourceIndex": 10905,
+      "tag": "yoko littner",
+      "ja": "ヨーコ・リットナー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 271,
+      "sourceIndex": 10906,
+      "tag": "yokochou",
+      "ja": "横浜",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 272,
+      "sourceIndex": 10907,
+      "tag": "yokozuwari",
+      "ja": "横座り",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 273,
+      "sourceIndex": 10908,
+      "tag": "yomu (sgt epper)",
+      "ja": "ヨム（軍曹）",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 274,
+      "sourceIndex": 10909,
+      "tag": "yopparai oni",
+      "ja": "ヨッパライオニ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 275,
+      "sourceIndex": 10910,
+      "tag": "yor briar",
+      "ja": "ヨル・ブライア",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 276,
+      "sourceIndex": 10911,
+      "tag": "yordle",
+      "ja": "ヨードル",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 277,
+      "sourceIndex": 10912,
+      "tag": "yorigami shion",
+      "ja": "依神紫苑",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 278,
+      "sourceIndex": 10914,
+      "tag": "yoshi tama",
+      "ja": "ヨッシータマ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 279,
+      "sourceIndex": 10919,
+      "tag": "you gonna get raped",
+      "ja": "レイプされる",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 280,
+      "sourceIndex": 10922,
+      "tag": "youmu-kun",
+      "ja": "妖夢くん",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 281,
+      "sourceIndex": 10924,
+      "tag": "yowane haku",
+      "ja": "弱音ハク",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 282,
+      "sourceIndex": 10930,
+      "tag": "yua (checkmate)",
+      "ja": "ユア（チェックメイト）",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 283,
+      "sourceIndex": 10931,
+      "tag": "yuffie kisaragi",
+      "ja": "ユフィ・キサラギ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 284,
+      "sourceIndex": 10932,
+      "tag": "yugake",
+      "ja": "弓懸け",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 285,
+      "sourceIndex": 10933,
+      "tag": "yugiri tsuzuri",
+      "ja": "夕霧綴理",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 286,
+      "sourceIndex": 10934,
+      "tag": "yuichirou",
+      "ja": "ユイチルー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 287,
+      "sourceIndex": 10939,
+      "tag": "yuki setsuna",
+      "ja": "優木せつ菜",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 288,
+      "sourceIndex": 10940,
+      "tag": "yukie (kusaka shi)",
+      "ja": "ユキエ（熊田shi）",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 289,
+      "sourceIndex": 10941,
+      "tag": "yukihana lamy",
+      "ja": "雪花ラミィ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 290,
+      "sourceIndex": 10942,
+      "tag": "yukihana lamy (1st costume)",
+      "ja": "雪花ラミィ(通常)",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 291,
+      "sourceIndex": 10945,
+      "tag": "yukine chris",
+      "ja": "雪音クリス",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 292,
+      "sourceIndex": 10946,
+      "tag": "yukinoshita yukino",
+      "ja": "雪ノ下雪乃",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 293,
+      "sourceIndex": 10947,
+      "tag": "yukishiro honoka",
+      "ja": "雪城ほのか",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 294,
+      "sourceIndex": 10949,
+      "tag": "yukkuri shiteitte ne",
+      "ja": "ゆっくりしていってね",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 295,
+      "sourceIndex": 10950,
+      "tag": "yume kawaii",
+      "ja": "ゆめかわいい",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 296,
+      "sourceIndex": 10952,
+      "tag": "yumemi riamu",
+      "ja": "夢見りあむ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 297,
+      "sourceIndex": 10954,
+      "tag": "yunamaro",
+      "ja": "ユナマロ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 298,
+      "sourceIndex": 10955,
+      "tag": "yunomi",
+      "ja": "湯のみ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 299,
+      "sourceIndex": 10957,
+      "tag": "yuri!!! on ice",
+      "ja": "ユーリ!!! on ICE",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 300,
+      "sourceIndex": 10964,
+      "tag": "yuuhagi (amaretto-no-natsu)",
+      "ja": "ユハギ（アマレットノツナツ）",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 301,
+      "sourceIndex": 10967,
+      "tag": "yuuki bakuhatsu bang bravern",
+      "ja": "勇気爆発バーンブレイバーン",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "underwear"
+      },
+      "reason": "衣類または身につける装備を示すタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 302,
+      "sourceIndex": 10979,
+      "tag": "zabuton",
+      "ja": "座布団",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 303,
+      "sourceIndex": 10980,
+      "tag": "zanntetu",
+      "ja": "ざんてつ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 304,
+      "sourceIndex": 10983,
+      "tag": "zeon",
+      "ja": "ジオン公国",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 305,
+      "sourceIndex": 10985,
+      "tag": "zero gravity",
+      "ja": "無重力",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 306,
+      "sourceIndex": 10987,
+      "tag": "zero suit",
+      "ja": "ゼロスーツ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 307,
+      "sourceIndex": 10989,
+      "tag": "zeta gundam",
+      "ja": "機動戦士Ζガンダム",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "proposed",
+      "confidence": "medium",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      },
+      "reason": "武器の種類・武器に関するタグ。"
+    },
+    {
+      "batch": 4,
+      "position": 308,
+      "sourceIndex": 10990,
+      "tag": "zettai ryouiki",
+      "ja": "絶対領域",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 309,
+      "sourceIndex": 10992,
+      "tag": "zhu yuan",
+      "ja": "朱鳶",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 310,
+      "sourceIndex": 10993,
+      "tag": "zipper",
+      "ja": "ジッパー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 311,
+      "sourceIndex": 10994,
+      "tag": "zipper pull tab",
+      "ja": "ジッパープルタブ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 312,
+      "sourceIndex": 10995,
+      "tag": "zodiac",
+      "ja": "十二星座",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 313,
+      "sourceIndex": 10999,
+      "tag": "zoom layer",
+      "ja": "ズームレイヤー",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 314,
+      "sourceIndex": 11000,
+      "tag": "zora",
+      "ja": "ゾーラ族",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 315,
+      "sourceIndex": 11001,
+      "tag": "zounose",
+      "ja": "ぞうのせ",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 316,
+      "sourceIndex": 11002,
+      "tag": "zouri",
+      "ja": "ぞうり",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 317,
+      "sourceIndex": 11007,
+      "tag": "zunusama",
+      "ja": "ずぬ様",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 318,
+      "sourceIndex": 11008,
+      "tag": "zyugoya",
+      "ja": "じゅうごや",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    },
+    {
+      "batch": 4,
+      "position": 319,
+      "sourceIndex": 11009,
+      "tag": "zzz",
+      "ja": "睡眠中",
+      "legacy": {
+        "major": "未分類",
+        "minor": "未分類"
+      },
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "タグ名・既存訳だけでは分類先を安全に確定できないため保留。"
+    }
+  ]
+}
