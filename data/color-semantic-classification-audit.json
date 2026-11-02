@@ -12,11 +12,11 @@
       "background/nature-landscape": 27,
       "character/characters": 86,
       "style/style-medium": 25,
-      "person/body-parts": 87,
+      "person/body-parts": 83,
       "background/object-items": 61,
       "lighting/lighting-source": 9,
       "needs-review": 41,
-      "clothing/clothing": 196,
+      "clothing/clothing": 200,
       "clothing/underwear": 3,
       "person/species-role": 14,
       "clothing/accessories": 131,
@@ -325,12 +325,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 966,
@@ -981,12 +981,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 1024,
@@ -6825,12 +6825,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 7261,
@@ -10713,12 +10713,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "body-parts"
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "アームウォーマー／レッグウォーマーという着用する衣類を示す。"
     },
     {
       "index": 10618,
