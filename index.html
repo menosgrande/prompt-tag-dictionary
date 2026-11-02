@@ -19,17 +19,8 @@
     <button type="button" class="screen-tab" data-screen="editor" aria-pressed="false">プロンプト編集</button>
   </nav>
   <section id="dictionary-screen" class="app-screen">
-  <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類・セット追加からタグを選択。</p></div>
+  <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類からタグを選択。</p></div>
     <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div><div><strong id="stat-selected">0</strong><span>選択中</span></div></div>
-  </section>
-  <section class="starter-section" aria-label="セット追加">
-    <div class="starter-heading"><h2>セット追加</h2><span>クリックでタグを追加</span></div>
-    <div class="starter-presets">
-      <button class="starter-preset" type="button" data-preset="portrait"><strong>人物・ポートレート</strong><span>portrait · upper body · soft lighting</span><b>＋ 追加</b></button>
-      <button class="starter-preset" type="button" data-preset="landscape"><strong>風景・背景</strong><span>landscape · scenery · sky · clouds</span><b>＋ 追加</b></button>
-      <button class="starter-preset" type="button" data-preset="lighting"><strong>構図・ライティング</strong><span>wide shot · backlighting · depth of field</span><b>＋ 追加</b></button>
-      <button class="starter-preset" type="button" data-preset="quality"><strong>画風・品質</strong><span>masterpiece · best quality · illustration</span><b>＋ 追加</b></button>
-    </div>
   </section>
   <section class="search-row" aria-label="タグ検索">
     <label class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="日本語・英語で検索（例：笑顔 / smile / grimace）" autocomplete="off"><kbd>Enter</kbd></label>
@@ -65,6 +56,15 @@
     <aside class="panel builder-panel editor-builder-panel"><div class="panel-heading"><div><span class="eyebrow">PROMPT BUILDER</span><h2>プロンプト編集</h2></div><button id="clear-selected" class="text-button">全解除</button></div>
       <div class="preview-add-row"><label for="preview-add">タグを追加<input id="preview-add" type="search" list="tag-suggestions" placeholder="英語タグ・日本語で検索" autocomplete="off"><datalist id="tag-suggestions"></datalist></label><button id="preview-add-button" class="button button-quiet" type="button">＋追加</button></div>
       <p class="preview-help">タグ一覧から選択するか、ここで候補を選んで追加できます。プレビュー内のタグ名を編集・削除できます。</p>
+  <section class="starter-section" aria-label="セット追加">
+    <div class="starter-heading"><h2>セット追加</h2><span>クリックでタグを追加</span></div>
+    <div class="starter-presets">
+      <button class="starter-preset" type="button" data-preset="portrait"><strong>人物・ポートレート</strong><span>portrait · upper body · soft lighting</span><b>＋ 追加</b></button>
+      <button class="starter-preset" type="button" data-preset="landscape"><strong>風景・背景</strong><span>landscape · scenery · sky · clouds</span><b>＋ 追加</b></button>
+      <button class="starter-preset" type="button" data-preset="lighting"><strong>構図・ライティング</strong><span>wide shot · backlighting · depth of field</span><b>＋ 追加</b></button>
+      <button class="starter-preset" type="button" data-preset="quality"><strong>画風・品質</strong><span>masterpiece · best quality · illustration</span><b>＋ 追加</b></button>
+    </div>
+  </section>
       <div class="builder-controls">
         <label class="check-row"><input id="group-by-category" type="checkbox" checked> カテゴリ別に出力</label><label class="check-row"><input id="include-comments" type="checkbox"> コメント行を付ける</label>
         <div class="control-grid"><label>カテゴリ名<select id="category-language"><option value="ja">日本語</option><option value="en">English</option></select></label><label>コメント形式<select id="comment-style"><option value="slash">// コメント</option><option value="block">/* コメント */</option><option value="hash"># コメント</option></select></label></div>
