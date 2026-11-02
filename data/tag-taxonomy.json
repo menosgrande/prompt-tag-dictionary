@@ -650,12 +650,19 @@
       "strategy": "review",
       "categories": [
         "person",
+        "face",
+        "hair",
         "clothing",
         "background",
+        "objects",
+        "vehicles",
         "style",
-        "lighting"
+        "lighting",
+        "living-things",
+        "text-symbols",
+        "composition"
       ],
-      "description": "照明はlightingへ、色を含むタグは対象・意味に応じた分類先へ個別確認する。色独立カテゴリは使用しない。"
+      "description": "照明はlightingへ。色を含むタグは色独立カテゴリを設けず、修飾対象・意味に応じて個別分類する。"
     },
     {
       "major": "成人向け",
@@ -671,10 +678,13 @@
       "major": "その他",
       "strategy": "review",
       "categories": [
-        "person",
+        "objects",
+        "living-things",
+        "text-symbols",
         "background",
         "lighting"
-      ]
+      ],
+      "description": "旧「その他」の物品・生物・記号・自然物は意味に応じて新分類へ移行する。曖昧なものは要確認とし、旧分類をそのまま確定しない。"
     },
     {
       "major": "未分類",
