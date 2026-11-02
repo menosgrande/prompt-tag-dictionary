@@ -97,3 +97,10 @@ test("semantic color audit rejects stale tag, translation, or legacy source data
   const audit={entries:[{index:0,tag:"red shirt",ja:"赤いシャツ",legacy:{major:"光・色彩",minor:"照明"},target:{categoryId:"clothing",subcategoryId:"clothing"},status:"proposed",confidence:"high",reason:"衣服。"}]};
   assert.throws(()=>buildClassificationCandidates(rows,audit),/Audit source mismatch/);
 });
+
+test("arm warmers are classified as clothing rather than body parts",()=>{
+  const item=classifyLegacyRow(["arm warmers","アームウォーマー","人物","身体・部位"]);
+  assert.equal(item.categoryId,"clothing");
+  assert.equal(item.subcategoryId,"clothing");
+  assert.equal(item.status,"provisional");
+});
