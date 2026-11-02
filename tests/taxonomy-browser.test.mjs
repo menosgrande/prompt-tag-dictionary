@@ -14,15 +14,17 @@ test("browser loads canonical taxonomy and candidate sidecar",()=>{
 
 test("canonical taxonomy defines all categories in prompt order",()=>{
   const ids = taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.id);
-  assert.deepEqual(ids,["quality","person","character","clothing","pose","action","background","composition","style","lighting","living-things","objects"]);
+  assert.deepEqual(ids,["quality","people-count","character","person","face","hair","clothing","pose","action","background","objects","vehicles","composition","style","lighting","living-things","text-symbols"]);
   assert.deepEqual(promptOrder.categories.map(c=>c.name),taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.name));
-  assert.match(app,/quality:0, person:1, character:2, clothing:3, pose:4, action:5, background:6, composition:7, style:8, lighting:9, "living-things":10, objects:11/);
+  assert.match(app,/find\(category => category\.id === taxonomyCategoryId\(candidate\)\)/);
 });
 
 test("person appearance and work-character identity are separate",()=>{
   const person = taxonomy.semanticCategories.find(c=>c.id==="person");
   const character = taxonomy.semanticCategories.find(c=>c.id==="character");
-  assert.ok(person.subcategories.some(s=>s.id==="hair-head"));
+  assert.ok(person.subcategories.some(s=>s.id==="body-shape"));
+  assert.ok(taxonomy.semanticCategories.find(c=>c.id==="face").subcategories.some(s=>s.id==="eyes-feature"));
+  assert.ok(taxonomy.semanticCategories.find(c=>c.id==="hair").subcategories.some(s=>s.id==="hair-head-core"));
   assert.ok(!person.subcategories.some(s=>["works-series","characters","creators"].includes(s.id)));
   assert.equal(taxonomy.semanticCategories.find(c=>c.id==="lighting").subcategories.find(s=>s.id==="color-tone").hidden,true);
   assert.deepEqual(character.subcategories.map(s=>s.id),["works-series","characters","creators"]);
