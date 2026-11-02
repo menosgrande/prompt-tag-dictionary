@@ -122,13 +122,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 466,
@@ -388,13 +384,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 972,
@@ -421,12 +413,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 976,
@@ -468,13 +460,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 979,
@@ -484,13 +472,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 980,
@@ -613,12 +597,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 989,
@@ -660,13 +644,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 995,
@@ -693,12 +673,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 999,
@@ -709,12 +689,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 1000,
@@ -900,13 +880,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1016,
@@ -1108,13 +1084,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1039,
@@ -1221,12 +1193,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "強膜など目の特徴を示すタグ。"
     },
     {
       "index": 1048,
@@ -1444,13 +1416,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1072,
@@ -1649,13 +1617,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1137,
@@ -1682,12 +1646,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 1141,
@@ -1713,13 +1677,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1143,
@@ -1729,13 +1689,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1144,
@@ -1794,12 +1750,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 1149,
@@ -1906,12 +1862,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 1160,
@@ -2001,13 +1957,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1168,
@@ -2254,13 +2206,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1191,
@@ -2383,12 +2331,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "強膜など目の特徴を示すタグ。"
     },
     {
       "index": 1206,
@@ -2587,13 +2535,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1229,
@@ -2776,13 +2720,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1451,
@@ -2792,13 +2732,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1452,
@@ -2808,13 +2744,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 1453,
@@ -3635,13 +3567,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "硬貨。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3610,
@@ -3898,13 +3826,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3674,
@@ -3946,13 +3870,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3679,
@@ -3962,13 +3882,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3680,
@@ -4075,12 +3991,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 3691,
@@ -4170,13 +4086,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3699,
@@ -4379,12 +4291,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "強膜など目の特徴を示すタグ。"
     },
     {
       "index": 3725,
@@ -4631,13 +4543,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3753,
@@ -4663,13 +4571,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3755,
@@ -4679,13 +4583,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3756,
@@ -4760,12 +4660,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 3762,
@@ -5159,13 +5059,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 3979,
@@ -5735,13 +5631,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "柑橘類の果物。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 5836,
@@ -5927,13 +5819,9 @@
         "major": "光・色彩",
         "minor": "色調"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "多色の背景表現を示す。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 6284,
@@ -6241,13 +6129,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "果物のオレンジを示す。キャラクター名ではない。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 6871,
@@ -6289,13 +6173,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 6876,
@@ -6321,13 +6201,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 6878,
@@ -6657,13 +6533,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "切り分けた果物。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 6923,
@@ -6856,13 +6728,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7266,
@@ -6901,13 +6769,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7269,
@@ -6917,13 +6781,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7270,
@@ -7030,12 +6890,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 7282,
@@ -7093,13 +6953,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7288,
@@ -7237,13 +7093,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7303,
@@ -7442,13 +7294,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7331,
@@ -7555,12 +7403,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 7681,
@@ -7615,13 +7463,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7688,
@@ -7647,13 +7491,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7690,
@@ -7663,13 +7503,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7691,
@@ -7696,12 +7532,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 7694,
@@ -7792,12 +7628,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 7704,
@@ -7871,13 +7707,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7711,
@@ -8204,13 +8036,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7753,
@@ -8425,13 +8253,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7880,
@@ -8489,13 +8313,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7886,
@@ -8505,13 +8325,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7887,
@@ -8570,12 +8386,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 7892,
@@ -8649,13 +8465,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "敷物。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7897,
@@ -8727,12 +8539,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 7906,
@@ -8743,12 +8555,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "face-expression"
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "化粧・顔の描写属性。"
+      "reason": "アイライナー・アイシャドウなど顔の化粧表現。"
     },
     {
       "index": 7907,
@@ -8822,13 +8634,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7914,
@@ -9075,13 +8883,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7942,
@@ -9182,12 +8986,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "強膜など目の特徴を示すタグ。"
     },
     {
       "index": 7953,
@@ -9386,13 +9190,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7974,
@@ -9418,13 +9218,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "high",
-      "reason": "飲料。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 7976,
@@ -9969,13 +9765,9 @@
         "major": "光・色彩",
         "minor": "色調"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "二色構成の背景表現を示す。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10117,
@@ -10252,12 +10044,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10576,
@@ -10299,13 +10091,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10579,
@@ -10315,13 +10103,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10580,
@@ -10348,12 +10132,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10583,
@@ -10428,12 +10212,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10588,
@@ -10872,13 +10656,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10635,
@@ -11065,12 +10845,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10656,
@@ -11177,12 +10957,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10664,
@@ -11237,13 +11017,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10668,
@@ -11442,13 +11218,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10848,
@@ -11474,13 +11246,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10850,
@@ -11490,13 +11258,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10851,
@@ -11523,12 +11287,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "species-role"
+        "categoryId": "living-things",
+        "subcategoryId": "animals"
       },
       "status": "proposed",
       "confidence": "medium",
-      "reason": "動物・生物の種別に付随する色属性。"
+      "reason": "動物そのものを示すタグ。人物の種族ではなく生物・動植物へ分類。"
     },
     {
       "index": 10854,
@@ -11666,13 +11430,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10867,
@@ -11794,13 +11554,9 @@
         "major": "光・色彩",
         "minor": "色"
       },
-      "target": {
-        "categoryId": "background",
-        "subcategoryId": "object-items"
-      },
-      "status": "proposed",
-      "confidence": "medium",
-      "reason": "背景・自然物・物体の色属性。"
+      "status": "needs-review",
+      "confidence": "low",
+      "reason": "旧物品候補は背景・家具・衣服・自然物などにまたがるため、17分類の意味基準で個別確認が必要。"
     },
     {
       "index": 10884,
@@ -11859,12 +11615,12 @@
         "minor": "色"
       },
       "target": {
-        "categoryId": "person",
-        "subcategoryId": "eyes"
+        "categoryId": "face",
+        "subcategoryId": "eyes-feature"
       },
       "status": "proposed",
       "confidence": "high",
-      "reason": "髪・目・肌・身体部位の色属性。"
+      "reason": "強膜など目の特徴を示すタグ。"
     },
     {
       "index": 10891,
