@@ -3,6 +3,7 @@ name: Data quality audit
 on:
   push:
     paths:
+      - "data/dictionary-data.json"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
@@ -35,6 +36,7 @@ on:
       - ".github/workflows/data-audit.yml"
   pull_request:
     paths:
+      - "data/dictionary-data.json"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
