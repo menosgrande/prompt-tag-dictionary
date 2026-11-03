@@ -4,7 +4,8 @@ const $ = s => document.querySelector(s), DRAFT_KEY = "ptd.admin.draft.v1", LAYO
 const STATUS_LABEL = {unreviewed:"未確認","needs-review":"要確認",verified:"確認済み",provisional:"暫定","machine-translation":"機械翻訳","not-applicable":"対象外"};
 const state = {tags:[],review:{schemaVersion:1,entries:{}},log:{schemaVersion:1,changes:[]},promptOrder:{schema:"prompt-order-taxonomy-v1",categories:[],overrides:[]},selected:null,page:0,query:"",filter:"all",sort:"source",dirty:false,sourceFingerprint:""};
  let initialPromptOrder = null;
-const norm = s => String(s ?? "").normalize("NFKC").toLocaleLowerCase().trim(), today = () => new Date().toISOString().slice(0,10);\nfunction fingerprintSource(bundle,review,log){const source=JSON.stringify([bundle.tags,bundle.promptOrder,review,log]);let hash=2166136261;for(let i=0;i<source.length;i++){hash^=source.charCodeAt(i);hash=Math.imul(hash,16777619);}return "ptd-v1-"+(hash>>>0).toString(16);}
+const norm = s => String(s ?? "").normalize("NFKC").toLocaleLowerCase().trim(), today = () => new Date().toISOString().slice(0,10);
+function fingerprintSource(bundle,review,log){const source=JSON.stringify([bundle.tags,bundle.promptOrder,review,log]);let hash=2166136261;for(let i=0;i<source.length;i++){hash^=source.charCodeAt(i);hash=Math.imul(hash,16777619);}return "ptd-v1-"+(hash>>>0).toString(16);}
 function split(row){return {tag:String(row[0]??""),ja:String(row[1]??""),major:String(row[2]??"未分類"),minor:String(row[3]??"未分類"),detail:String(row[4]??""),aliases:Array.isArray(row[5])?row[5]:String(row[5]??"").split(",").map(s=>s.trim()).filter(Boolean)};}
 function current(){return state.tags.find(t=>t[0]===state.selected);}
 function entry(){return state.review.entries[state.selected]||{};}
