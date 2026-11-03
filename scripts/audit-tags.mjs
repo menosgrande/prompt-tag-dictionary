@@ -41,7 +41,7 @@ if (!Array.isArray(rows)) {
 for (let i = 0; i < rows.length; i++) {
   const row = rows[i];
   const label = "row " + (i + 1);
-  if (!Array.isArray(row) || ![4, 6].includes(row.length)) {
+  if (!Array.isArray(row) || ![4, 6, 7].includes(row.length)) {
     errors.push(label + ": expected [tag, ja, major, minor] with optional [detail, aliases]");
     continue;
   }
@@ -50,10 +50,11 @@ for (let i = 0; i < rows.length; i++) {
     errors.push(label + ": the first four fields must be strings");
     continue;
   }
-  if (row.length === 6 && (typeof detail !== "string" || !Array.isArray(aliases) || aliases.some(value => typeof value !== "string"))) {
+  if (row.length >= 6 && (typeof detail !== "string" || !Array.isArray(aliases) || aliases.some(value => typeof value !== "string"))) {
     errors.push(label + ": optional detail must be a string and aliases must be an array of strings");
     continue;
   }
+  if (row.length === 7 && (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6]))) errors.push(label + ": metadata must be an object");
   if (!tag.trim()) errors.push(label + ": empty tag");
   const key = normalizeTag(tag);
   if (seen.has(key)) errors.push(label + ": normalized duplicate of row " + seen.get(key) + " (" + tag + ")");
