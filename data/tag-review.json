@@ -529,111 +529,6 @@
       "note": "公式日本語タイトル／表記に合わせたAI一括修正。人手の最終確認待ち。",
       "source": "https://bluearchive.jp/"
     },
-    ";3": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ";d": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ";o": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ";p": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ";q": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":/": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":|": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":3": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「口・唇」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":c": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":d": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":o": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":p": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「口・唇」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":q": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「口・唇」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":t": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
-    ":x": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「口・唇」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
     "@ @": {
       "translationStatus": "unreviewed",
       "classificationStatus": "provisional",
@@ -17365,13 +17260,6 @@
       "source": null
     },
     "cutesexyrobutts": {
-      "translationStatus": "needs-review",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "再翻訳時に意味・用法の確証が不足。既存訳を保持し、要確認として保留。",
-      "source": null
-    },
-    "d:": {
       "translationStatus": "needs-review",
       "classificationStatus": "unreviewed",
       "reviewedAt": null,

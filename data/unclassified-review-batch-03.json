@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 144,
-    "needsReview": 856
+    "proposed": 147,
+    "needsReview": 853
   },
   "entries": [
     {
@@ -596,9 +596,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "NEKO WORKsのイラストレーターSayoriを示す作者タグ。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "creators"
+      }
     },
     {
       "batch": 3,
@@ -756,9 +760,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "『キルラキル』に登場する武器。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "weapons"
+      }
     },
     {
       "batch": 3,
@@ -9368,9 +9376,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "固有名詞・作品名・作者名・文脈依存語の可能性があり、タグ名と既存訳だけでは安全に分類できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "小鳥遊キアラの1st costume版を示すキャラクタータグ。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "characters"
+      }
     },
     {
       "batch": 3,
