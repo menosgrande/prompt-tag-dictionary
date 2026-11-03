@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { readMasterSource } from "./lib/master-data.mjs";
+import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -113,8 +113,9 @@ for (const [reason, count] of Object.entries(counts).sort((a, b) => a[0].localeC
 }
 
 if (args.has("--write")) {
+  await writeMasterSources(root, { "translation-audit-candidates.json": candidates });
   await writeFile(outputPath, serialized, "utf8");
-  console.log("Wrote data/translation-audit-candidates.json");
+  console.log("Updated master-data.json and data/translation-audit-candidates.json");
 } else {
   const existing = await readFile(outputPath, "utf8").catch(() => "");
   if (existing !== serialized) {
