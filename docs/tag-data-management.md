@@ -90,3 +90,20 @@ node scripts/apply-safe-category-candidates.mjs --write
 ```
 
 この処理は「未分類」の行だけを対象にするため、同じデータに再実行しても既に変更した行を重ねて変更しません。
+
+
+## 管理画面の一括エクスポート
+
+管理画面の「一括エクスポート」は、タグ本体・確認台帳・変更履歴・プロンプト出力カテゴリ順を `prompt-tag-admin-export.json` にまとめます。個別JSON出力も引き続き利用できます。
+
+出力ファイルをリポジトリのルートに置き、まず検証のみ実行します。
+
+```sh
+node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --check
+```
+
+問題がなければ `--write` を付けて原本4ファイルを更新し、ランタイム統合JSONを再生成します。エクスポート時点の原本フィンガープリントが現在の原本と一致しない場合は、古いデータによる上書きを防ぐため適用を拒否します。
+
+```sh
+node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --write
+```
