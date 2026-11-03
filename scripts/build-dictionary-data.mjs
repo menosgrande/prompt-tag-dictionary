@@ -7,25 +7,39 @@ const readJson = async path => JSON.parse(await readFile(resolve(root, path), "u
 const paths = {
   tags: "data/tags.json",
   taxonomy: "data/tag-taxonomy.json",
-  classificationCandidates: "data/tag-classification-candidates.json",
   promptOrder: "data/prompt-order-categories.json",
   tagGroups: "data/tag-groups.json",
   nsfwAudit: "data/nsfw-prompt-tag-audit.json"
 };
-const [tags, taxonomy, classificationCandidates, promptOrder, tagGroups, nsfwAudit] = await Promise.all(
+const [tags, taxonomy, promptOrder, tagGroups, nsfwAudit] = await Promise.all(
   Object.values(paths).map(readJson)
 );
 if (!Array.isArray(tags) || taxonomy.schema !== "tag-taxonomy-v1" ||
-    classificationCandidates.schema !== "tag-classification-candidates-v1" ||
-    !Array.isArray(classificationCandidates.entries) ||
     !Array.isArray(promptOrder.categories) || !Array.isArray(promptOrder.overrides) ||
     !Array.isArray(tagGroups) || !Array.isArray(nsfwAudit.candidates)) {
   throw new Error("Unexpected source schema; dictionary-data.json was not changed.");
 }
+const candidateEntries = tags.flatMap(row =>
+  Array.isArray(row) && row[6]?.classification
+    ? [{ tag: row[0], ...row[6].classification }]
+    : []
+);
+const classificationCandidates = {
+  schema: "tag-classification-candidates-v1",
+  generatedAt: new Date().toISOString(),
+  source: "data/tags.json row[6].classification",
+  description: "正本 tags.json に統合された分類候補。status が provisional / needs-review の間は確定分類として扱わない。",
+  summary: {
+    total: candidateEntries.length,
+    provisional: candidateEntries.filter(item => item.status === "provisional").length,
+    needsReview: candidateEntries.filter(item => item.status === "needs-review").length
+  },
+  entries: candidateEntries
+};
 const generated = {
   schema: "prompt-tag-dictionary-runtime-v1",
   generatedAt: new Date().toISOString().slice(0, 10),
-  description: "通常画面が参照するランタイムデータを一元化した配布バンドル。監査履歴・未確定候補の原本は個別ファイルに保持する。",
+  description: "通常画面が参照するランタイムデータを一元化した配布バンドル。タグ・翻訳候補・分類候補・確認待ちは data/tags.json を正本とする。",
   tags,
   taxonomy,
   classificationCandidates,
