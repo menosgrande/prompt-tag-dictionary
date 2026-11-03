@@ -64,9 +64,9 @@ function classifyTranslation(tag, ja) {
 export function collectCandidates(records, reviewEntries = {}) {
   const candidates = [];
   for (const row of records) {
-    if (!Array.isArray(row) || ![4, 6].includes(row.length) ||
+    if (!Array.isArray(row) || ![4, 6, 7].includes(row.length) ||
         row.slice(0, 4).some(value => typeof value !== "string") ||
-        (row.length === 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(value => typeof value !== "string")))) continue;
+        (row.length >= 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(value => typeof value !== "string")))) continue;
     const [tag, rawJa, major, minor] = row;
     const ja = rawJa.trim();
     const { reasons, confidence } = classifyTranslation(tag, ja);
