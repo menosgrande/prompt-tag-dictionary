@@ -92,8 +92,3 @@ try {
   for (const [path, bytes] of originals) await writeFile(path, bytes).catch(() => {});
   throw new Error("Apply failed; master and runtime bundle were restored where possible. " + error.message);
 }
-} catch (error) {
-  for (const [path, bytes] of originals) await writeFile(resolve(root, path), bytes).catch(() => {});
-  for (const [temp] of temps) await unlink(temp).catch(() => {});
-  throw new Error("Apply failed; original files were restored where possible. " + error.message);
-}
