@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Set(process.argv.slice(2));
@@ -86,7 +87,8 @@ if (write) {
     writeFile(paths.review, JSON.stringify(review, null, 2) + "\n", "utf8"),
     writeFile(paths.log, JSON.stringify(log, null, 2) + "\n", "utf8")
   ]);
-  console.log("Updated tags.json, tag-review.json, and tag-change-log.json");
+  await rebuildDictionaryData(root);
+  console.log("Updated source data and rebuilt data/dictionary-data.json");
 } else {
   console.log("Dry run only. Pass --write to apply.");
 }
