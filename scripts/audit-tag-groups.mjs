@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import assert from "node:assert/strict";
-const tags = JSON.parse(fs.readFileSync("data/tags.json", "utf8"));
-const groups = JSON.parse(fs.readFileSync("data/tag-groups.json", "utf8"));
+import { readMasterSource } from "./lib/master-data.mjs";
+const root = process.cwd();
+const [tags, groups] = await Promise.all(["tags.json", "tag-groups.json"].map(name => readMasterSource(root, name)));
 const norm = value => String(value || "").normalize("NFKC").toLocaleLowerCase().trim();
 const tagMap = new Map(tags.map(row => [norm(Array.isArray(row) ? row[0] : row.tag), row]));
 const ids = new Set();
