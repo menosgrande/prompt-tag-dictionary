@@ -1,12 +1,12 @@
 {
   "schema": "tag-classification-candidates-v1",
-  "generatedAt": "2026-11-02T15:03:22.042Z",
+  "generatedAt": "2026-11-03T06:30:00Z",
   "source": "data/unclassified-review-batch-01..04.json",
   "description": "精査済みの分類候補。サイト上では仮分類として表示し、タグ本体の旧分類値は保持する。",
   "summary": {
     "total": 3319,
-    "provisional": 931,
-    "needsReview": 2388
+    "provisional": 956,
+    "needsReview": 2363
   },
   "entries": [
     {
@@ -7456,6 +7456,206 @@
       "subcategoryId": "weapons",
       "confidence": "medium",
       "reason": "武器の種類・武器に関するタグ。"
+    },
+    {
+      "tag": "bridle",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "accessories",
+      "confidence": "high",
+      "reason": "馬具の頭絡。身につける装具。"
+    },
+    {
+      "tag": "cutoffs",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "confidence": "medium",
+      "reason": "裾を切り落とした衣服を示す一般的な服装タグ。"
+    },
+    {
+      "tag": "deerstalker",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "accessories",
+      "confidence": "high",
+      "reason": "鹿撃ち帽という帽子の種類。"
+    },
+    {
+      "tag": "creature on head",
+      "status": "provisional",
+      "categoryId": "pose",
+      "subcategoryId": "body-arrangement",
+      "confidence": "high",
+      "reason": "生物が人物の頭上に乗っている配置。"
+    },
+    {
+      "tag": "delinquent",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "person-attributes",
+      "confidence": "high",
+      "reason": "不良・非行者という人物属性。"
+    },
+    {
+      "tag": "digitigrade",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "confidence": "high",
+      "reason": "趾行性という身体構造・歩行形態。"
+    },
+    {
+      "tag": "disembodied head",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "confidence": "high",
+      "reason": "胴体から分離した頭部という身体状態。"
+    },
+    {
+      "tag": "double amputee",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "confidence": "high",
+      "reason": "両肢を切断した人物の身体的特徴。"
+    },
+    {
+      "tag": "drugs",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "other-objects",
+      "confidence": "medium",
+      "reason": "薬物・薬品を示す物品タグ。"
+    },
+    {
+      "tag": "drunk",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "person-attributes",
+      "confidence": "high",
+      "reason": "酔った状態という人物の状態・属性。"
+    },
+    {
+      "tag": "elevator",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "machines",
+      "confidence": "high",
+      "reason": "昇降機という機械設備。"
+    },
+    {
+      "tag": "erection",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "body-parts",
+      "confidence": "high",
+      "reason": "勃起という身体状態。"
+    },
+    {
+      "tag": "exoskeleton",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "equipment",
+      "confidence": "high",
+      "reason": "外骨格型の装備・防具。"
+    },
+    {
+      "tag": "facepaint",
+      "status": "provisional",
+      "categoryId": "face",
+      "subcategoryId": "facial-features",
+      "confidence": "medium",
+      "reason": "顔に施すペイント・化粧表現。"
+    },
+    {
+      "tag": "depressed",
+      "status": "provisional",
+      "categoryId": "face",
+      "subcategoryId": "face-expression-core",
+      "confidence": "medium",
+      "reason": "落ち込んだ感情を示す表情・顔の状態。"
+    },
+    {
+      "tag": "determined",
+      "status": "provisional",
+      "categoryId": "face",
+      "subcategoryId": "face-expression-core",
+      "confidence": "medium",
+      "reason": "決意した感情を示す表情。"
+    },
+    {
+      "tag": "excited",
+      "status": "provisional",
+      "categoryId": "face",
+      "subcategoryId": "face-expression-core",
+      "confidence": "medium",
+      "reason": "興奮した感情を示す表情。"
+    },
+    {
+      "tag": "exhausted",
+      "status": "provisional",
+      "categoryId": "face",
+      "subcategoryId": "face-expression-core",
+      "confidence": "medium",
+      "reason": "疲労困憊した様子を示す表情・顔の状態。"
+    },
+    {
+      "tag": "burning",
+      "status": "provisional",
+      "categoryId": "lighting",
+      "subcategoryId": "effects",
+      "confidence": "medium",
+      "reason": "燃焼・炎上という視覚的な演出効果。"
+    },
+    {
+      "tag": "electricity",
+      "status": "provisional",
+      "categoryId": "lighting",
+      "subcategoryId": "effects",
+      "confidence": "medium",
+      "reason": "電気・電流の視覚的な演出表現。"
+    },
+    {
+      "tag": "defeat",
+      "status": "provisional",
+      "categoryId": "action",
+      "subcategoryId": "body-action",
+      "confidence": "medium",
+      "reason": "敗北・打ち負かされる状況を示す行為・結果。"
+    },
+    {
+      "tag": "defloration",
+      "status": "provisional",
+      "categoryId": "action",
+      "subcategoryId": "interpersonal-contact",
+      "confidence": "medium",
+      "reason": "他者との性的行為を示すタグ。"
+    },
+    {
+      "tag": "bestiality",
+      "status": "provisional",
+      "categoryId": "action",
+      "subcategoryId": "interpersonal-contact",
+      "confidence": "high",
+      "reason": "人と動物の性的行為を示すタグ。"
+    },
+    {
+      "tag": "drugged",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "person-attributes",
+      "confidence": "high",
+      "reason": "薬物の影響下にある人物の状態。"
+    },
+    {
+      "tag": "drying",
+      "status": "provisional",
+      "categoryId": "action",
+      "subcategoryId": "daily-action",
+      "confidence": "medium",
+      "reason": "乾燥させる・乾いていく動作や過程。"
     }
   ]
 }
