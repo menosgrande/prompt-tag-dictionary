@@ -1,0 +1,260 @@
+{
+  "generatedAt": "2026-11-03",
+  "source": {
+    "repository": "menosgrande/prompt-tag-dictionary",
+    "branch": "backup/pre-json-reset-20261103",
+    "path": "data/tags.json",
+    "format": "[tag, ja, category, subcategory]",
+    "sha": "59cbb9824e8bc78fe9e0b33ea3657c9917c0bd51"
+  },
+  "totalRecords": 10988,
+  "categoryCounts": [
+    {
+      "name": "未分類",
+      "count": 3318
+    },
+    {
+      "name": "服装",
+      "count": 1921
+    },
+    {
+      "name": "人物",
+      "count": 1270
+    },
+    {
+      "name": "作品・キャラクター",
+      "count": 1243
+    },
+    {
+      "name": "その他",
+      "count": 1085
+    },
+    {
+      "name": "光・色彩",
+      "count": 774
+    },
+    {
+      "name": "ポーズ・動作",
+      "count": 486
+    },
+    {
+      "name": "成人向け",
+      "count": 285
+    },
+    {
+      "name": "背景・場所",
+      "count": 263
+    },
+    {
+      "name": "画風・品質",
+      "count": 165
+    },
+    {
+      "name": "シチュエーション",
+      "count": 91
+    },
+    {
+      "name": "構図・視点",
+      "count": 87
+    }
+  ],
+  "subcategoryCounts": [
+    {
+      "name": "未分類 / 未分類",
+      "count": 3318
+    },
+    {
+      "name": "服装 / 衣類",
+      "count": 1471
+    },
+    {
+      "name": "作品・キャラクター / キャラクター",
+      "count": 846
+    },
+    {
+      "name": "光・色彩 / 色",
+      "count": 702
+    },
+    {
+      "name": "その他 / 物",
+      "count": 573
+    },
+    {
+      "name": "ポーズ・動作 / 行動",
+      "count": 398
+    },
+    {
+      "name": "人物 / 身体・部位",
+      "count": 329
+    },
+    {
+      "name": "その他 / 動物",
+      "count": 320
+    },
+    {
+      "name": "服装 / 小物",
+      "count": 294
+    },
+    {
+      "name": "人物 / 種族・役割",
+      "count": 294
+    },
+    {
+      "name": "作品・キャラクター / 作品名・シリーズ",
+      "count": 275
+    },
+    {
+      "name": "成人向け / 身体・衣類",
+      "count": 257
+    },
+    {
+      "name": "人物 / 頭髪",
+      "count": 217
+    },
+    {
+      "name": "背景・場所 / 自然",
+      "count": 164
+    },
+    {
+      "name": "人物 / 顔・表情",
+      "count": 151
+    },
+    {
+      "name": "その他 / 記号・効果",
+      "count": 127
+    },
+    {
+      "name": "作品・キャラクター / 作者・配信者",
+      "count": 122
+    },
+    {
+      "name": "画風・品質 / 画風",
+      "count": 113
+    },
+    {
+      "name": "人物 / 目",
+      "count": 111
+    },
+    {
+      "name": "人物 / 性別・体形",
+      "count": 80
+    },
+    {
+      "name": "服装 / 装備",
+      "count": 69
+    },
+    {
+      "name": "構図・視点 / 構図",
+      "count": 66
+    },
+    {
+      "name": "その他 / 自然物",
+      "count": 65
+    },
+    {
+      "name": "服装 / 靴",
+      "count": 55
+    },
+    {
+      "name": "背景・場所 / 施設",
+      "count": 51
+    },
+    {
+      "name": "人物 / 人数",
+      "count": 49
+    },
+    {
+      "name": "光・色彩 / 照明",
+      "count": 47
+    },
+    {
+      "name": "ポーズ・動作 / 対人動作",
+      "count": 43
+    },
+    {
+      "name": "シチュエーション / イベント",
+      "count": 40
+    },
+    {
+      "name": "ポーズ・動作 / 姿勢",
+      "count": 40
+    },
+    {
+      "name": "画風・品質 / 品質",
+      "count": 36
+    },
+    {
+      "name": "シチュエーション / 関係性",
+      "count": 36
+    },
+    {
+      "name": "服装 / 下着・水着",
+      "count": 32
+    },
+    {
+      "name": "光・色彩 / 色調",
+      "count": 25
+    },
+    {
+      "name": "人物 / 胸",
+      "count": 23
+    },
+    {
+      "name": "背景・場所 / 時間・天候",
+      "count": 18
+    },
+    {
+      "name": "背景・場所 / 屋内",
+      "count": 17
+    },
+    {
+      "name": "人物 / 年齢",
+      "count": 16
+    },
+    {
+      "name": "成人向け / 行為・状況",
+      "count": 15
+    },
+    {
+      "name": "背景・場所 / 都市",
+      "count": 13
+    },
+    {
+      "name": "画風・品質 / 描写技法",
+      "count": 12
+    },
+    {
+      "name": "構図・視点 / 撮影範囲",
+      "count": 12
+    },
+    {
+      "name": "シチュエーション / 日常",
+      "count": 10
+    },
+    {
+      "name": "成人向け / 表現・修正",
+      "count": 10
+    },
+    {
+      "name": "構図・視点 / カメラ角度",
+      "count": 9
+    },
+    {
+      "name": "シチュエーション / 成人向け状況",
+      "count": 5
+    },
+    {
+      "name": "ポーズ・動作 / 手の動き",
+      "count": 5
+    },
+    {
+      "name": "画風・品質 / 媒体",
+      "count": 4
+    },
+    {
+      "name": "成人向け / 成人向け状況",
+      "count": 3
+    }
+  ],
+  "note": "Counts are a baseline inventory only. They do not imply that legacy classifications are correct or that migration is complete."
+}
