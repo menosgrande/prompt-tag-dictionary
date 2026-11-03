@@ -1,10 +1,10 @@
-import fs from "node:fs";
-import path from "node:path";
+import { writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
 
 const root = process.cwd();
-const input = path.join(root, "data/tags.json");
-const output = path.join(root, "data/color-clothing-audit.json");
-const rows = JSON.parse(fs.readFileSync(input, "utf8"));
+const output = resolve(root, "data/color-clothing-audit.json");
+const rows = await readMasterSource(root, "tags.json");
 const colors = ["red","blue","green","yellow","orange","pink","purple","violet","black","white","gray","grey","brown","beige","blonde","golden","silver","crimson","scarlet","navy","cyan","magenta","turquoise","teal","ivory","maroon","burgundy","lavender","indigo","khaki","cream","coral","mint","emerald","ruby","sapphire"];
 const garments = ["apron","armor","armour","belt","bikini","bowtie","cape","cardigan","cloak","coat","collar","corset","dress","garter belt","garter straps","gloves","hat","hoodie","jacket","kimono","leotard","necktie","one-piece swimsuit","overalls","pants","ribbon","robe","sailor collar","scarf","shirt","shorts","skirt","sleeves","socks","suit","sweater","sweater vest","tie","vest","uniform","outfit","stockings","shoes","boots","heels","gown","swimsuit"];
 const escapeRe = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -54,5 +54,6 @@ const result = {
   candidates
 };
 
-fs.writeFileSync(output, JSON.stringify(result, null, 2) + "\n");
+await writeMasterSources(root, { "color-clothing-audit.json": result });
+await writeFile(output, JSON.stringify(result, null, 2) + "\n");
 console.log(JSON.stringify(result.summary));
