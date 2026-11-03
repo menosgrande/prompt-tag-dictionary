@@ -1,6 +1,4 @@
 // Audit color-prefixed tags and hair-color overlaps. Audit only; never mutates tags.json.
-import { writeFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
 import { readMasterSource, writeMasterSources } from './lib/master-data.mjs';
 const root=process.cwd();
 const rows=await readMasterSource(root,'tags.json');
@@ -20,5 +18,4 @@ const needsReview=all.filter(x=>!protectedRows.includes(x)&&(!enRe.test(x.tag)||
 const likely=all.filter(x=>!protectedRows.includes(x)&&enRe.test(x.tag)&&!needsReview.includes(x));
 const report={schema:'color-prefix-audit-v1',source:'data/tags.json',total_tags:rows.length,summary:{english_color_prefix_candidates:en.length,japanese_color_prefix_candidates:ja.length,unique_candidates:all.length,likely_separable:likely.length,needs_review:needsReview.length,protected_or_named:protectedRows.length,hair_color_tags:hairColor.length,hair_translation_overlap_groups:overlaps.length},policy:'Audit only. No tags are removed, renamed, merged, or reclassified.',hair_translation_overlaps:overlaps,hair_color_tags:hairColor,likely_separable:likely,needs_review:needsReview,protected_or_named:protectedRows};
 await writeMasterSources(root, {'color-prefix-audit.json':report});
-await writeFile(resolve(root,'data/color-prefix-audit.json'),JSON.stringify(report,null,2)+'\\n');
 console.log(report.summary);
