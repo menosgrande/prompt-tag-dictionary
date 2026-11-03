@@ -7,7 +7,10 @@
     "importedRecordCount": 755,
     "excludedNeedsReviewCount": 245,
     "importedReviewStatus": "provisional",
-    "note": "Only records with a provisional classification and valid category ID are imported. promptTarget and rating remain null where not assessed."
+    "manuallyReviewedRange": "batchOrder 1-500",
+    "manuallyReviewedProvisionalCount": 357,
+    "manuallyReviewedNeedsReviewCount": 143,
+    "note": "batchOrder 1-500 reflects manual review-001 through review-005; batchOrder 501-1000 retains the existing provisional/needs-review triage. Only provisional records with valid category IDs are imported. promptTarget and rating remain null where not assessed."
   },
   "tags": [
     {
@@ -28,7 +31,8 @@
         "batchOrder": 3,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -49,7 +53,8 @@
         "batchOrder": 5,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -70,7 +75,8 @@
         "batchOrder": 6,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -91,7 +97,8 @@
         "batchOrder": 14,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -112,7 +119,8 @@
         "batchOrder": 15,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -133,7 +141,8 @@
         "batchOrder": 16,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -154,7 +163,8 @@
         "batchOrder": 17,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -175,7 +185,8 @@
         "batchOrder": 18,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -196,7 +207,8 @@
         "batchOrder": 22,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -217,7 +229,8 @@
         "batchOrder": 26,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -238,7 +251,8 @@
         "batchOrder": 27,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -259,7 +273,8 @@
         "batchOrder": 28,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -280,7 +295,8 @@
         "batchOrder": 36,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -301,7 +317,8 @@
         "batchOrder": 37,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -322,7 +339,8 @@
         "batchOrder": 41,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -343,7 +361,8 @@
         "batchOrder": 43,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -364,7 +383,8 @@
         "batchOrder": 49,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -385,7 +405,8 @@
         "batchOrder": 51,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -406,7 +427,8 @@
         "batchOrder": 52,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -427,7 +449,8 @@
         "batchOrder": 53,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -448,7 +471,8 @@
         "batchOrder": 54,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -469,7 +493,8 @@
         "batchOrder": 55,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -490,7 +515,8 @@
         "batchOrder": 58,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -511,7 +537,8 @@
         "batchOrder": 59,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -532,7 +559,8 @@
         "batchOrder": 61,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -553,7 +581,8 @@
         "batchOrder": 63,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -574,7 +603,8 @@
         "batchOrder": 64,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -595,7 +625,8 @@
         "batchOrder": 65,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -616,7 +647,8 @@
         "batchOrder": 66,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -637,7 +669,8 @@
         "batchOrder": 69,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -658,7 +691,8 @@
         "batchOrder": 70,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -679,7 +713,8 @@
         "batchOrder": 71,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -700,7 +735,8 @@
         "batchOrder": 82,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -721,7 +757,8 @@
         "batchOrder": 85,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -742,7 +779,8 @@
         "batchOrder": 86,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -763,7 +801,8 @@
         "batchOrder": 87,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -784,7 +823,8 @@
         "batchOrder": 88,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -805,7 +845,8 @@
         "batchOrder": 89,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -826,7 +867,8 @@
         "batchOrder": 92,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -847,7 +889,8 @@
         "batchOrder": 94,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -868,7 +911,8 @@
         "batchOrder": 97,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -889,7 +933,8 @@
         "batchOrder": 98,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -910,7 +955,8 @@
         "batchOrder": 99,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -931,7 +977,8 @@
         "batchOrder": 100,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。"
+        "note": "意味が明確なため暫定分類。翻訳・分類とも公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -952,7 +999,8 @@
         "batchOrder": 103,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -973,7 +1021,8 @@
         "batchOrder": 104,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -994,7 +1043,8 @@
         "batchOrder": 105,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1015,7 +1065,8 @@
         "batchOrder": 108,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1036,7 +1087,8 @@
         "batchOrder": 110,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1057,7 +1109,8 @@
         "batchOrder": 111,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1078,7 +1131,8 @@
         "batchOrder": 112,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1099,7 +1153,8 @@
         "batchOrder": 113,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1120,7 +1175,8 @@
         "batchOrder": 114,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1141,7 +1197,8 @@
         "batchOrder": 116,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1162,7 +1219,8 @@
         "batchOrder": 120,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1183,7 +1241,8 @@
         "batchOrder": 122,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1204,7 +1263,8 @@
         "batchOrder": 128,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1225,7 +1285,8 @@
         "batchOrder": 129,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1246,7 +1307,8 @@
         "batchOrder": 131,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1267,7 +1329,8 @@
         "batchOrder": 132,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1288,7 +1351,8 @@
         "batchOrder": 135,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1309,7 +1373,8 @@
         "batchOrder": 136,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1330,7 +1395,8 @@
         "batchOrder": 137,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1351,7 +1417,8 @@
         "batchOrder": 138,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1372,7 +1439,8 @@
         "batchOrder": 139,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1393,7 +1461,8 @@
         "batchOrder": 142,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1414,7 +1483,8 @@
         "batchOrder": 143,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1435,7 +1505,8 @@
         "batchOrder": 144,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1456,7 +1527,8 @@
         "batchOrder": 145,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1477,7 +1549,8 @@
         "batchOrder": 146,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1498,7 +1571,8 @@
         "batchOrder": 147,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1519,7 +1593,8 @@
         "batchOrder": 148,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1540,7 +1615,8 @@
         "batchOrder": 149,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1561,7 +1637,8 @@
         "batchOrder": 150,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1582,7 +1659,8 @@
         "batchOrder": 151,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1603,7 +1681,8 @@
         "batchOrder": 152,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1624,7 +1703,8 @@
         "batchOrder": 153,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1645,7 +1725,8 @@
         "batchOrder": 154,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1666,7 +1747,8 @@
         "batchOrder": 155,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1687,7 +1769,8 @@
         "batchOrder": 156,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1708,7 +1791,8 @@
         "batchOrder": 157,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1729,7 +1813,8 @@
         "batchOrder": 161,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1750,7 +1835,8 @@
         "batchOrder": 162,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1771,7 +1857,8 @@
         "batchOrder": 163,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1792,7 +1879,8 @@
         "batchOrder": 165,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1813,7 +1901,8 @@
         "batchOrder": 166,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1834,7 +1923,8 @@
         "batchOrder": 175,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1855,7 +1945,8 @@
         "batchOrder": 176,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1876,7 +1967,8 @@
         "batchOrder": 177,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1897,7 +1989,8 @@
         "batchOrder": 178,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1918,7 +2011,8 @@
         "batchOrder": 180,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1939,7 +2033,8 @@
         "batchOrder": 181,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1960,7 +2055,8 @@
         "batchOrder": 182,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -1981,7 +2077,8 @@
         "batchOrder": 183,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2002,7 +2099,8 @@
         "batchOrder": 184,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2023,7 +2121,8 @@
         "batchOrder": 185,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2044,7 +2143,8 @@
         "batchOrder": 186,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2065,7 +2165,8 @@
         "batchOrder": 188,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2086,7 +2187,8 @@
         "batchOrder": 189,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2107,7 +2209,8 @@
         "batchOrder": 190,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2128,7 +2231,8 @@
         "batchOrder": 191,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2149,7 +2253,8 @@
         "batchOrder": 192,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2170,7 +2275,8 @@
         "batchOrder": 193,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2191,7 +2297,8 @@
         "batchOrder": 195,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2212,7 +2319,8 @@
         "batchOrder": 196,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2233,7 +2341,8 @@
         "batchOrder": 199,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2254,7 +2363,8 @@
         "batchOrder": 200,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。"
+        "note": "意味が比較的明確なため暫定分類。固有名詞・用法・翻訳は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2275,7 +2385,8 @@
         "batchOrder": 202,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2296,7 +2407,8 @@
         "batchOrder": 203,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2317,7 +2429,8 @@
         "batchOrder": 204,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2338,7 +2451,8 @@
         "batchOrder": 205,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2359,7 +2473,8 @@
         "batchOrder": 206,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2380,7 +2495,8 @@
         "batchOrder": 207,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2401,7 +2517,8 @@
         "batchOrder": 208,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2422,7 +2539,8 @@
         "batchOrder": 209,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2443,7 +2561,8 @@
         "batchOrder": 210,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2464,7 +2583,8 @@
         "batchOrder": 211,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2485,7 +2605,8 @@
         "batchOrder": 212,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2506,7 +2627,8 @@
         "batchOrder": 213,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2527,7 +2649,8 @@
         "batchOrder": 214,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2548,7 +2671,8 @@
         "batchOrder": 215,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2569,7 +2693,8 @@
         "batchOrder": 216,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2590,7 +2715,8 @@
         "batchOrder": 217,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2611,7 +2737,8 @@
         "batchOrder": 218,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2632,7 +2759,8 @@
         "batchOrder": 219,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2653,7 +2781,8 @@
         "batchOrder": 220,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2674,7 +2803,8 @@
         "batchOrder": 221,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2695,7 +2825,8 @@
         "batchOrder": 222,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2716,7 +2847,8 @@
         "batchOrder": 223,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2737,7 +2869,8 @@
         "batchOrder": 224,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2758,7 +2891,8 @@
         "batchOrder": 225,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2779,7 +2913,8 @@
         "batchOrder": 226,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2800,7 +2935,8 @@
         "batchOrder": 227,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2821,7 +2957,8 @@
         "batchOrder": 228,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2842,7 +2979,8 @@
         "batchOrder": 229,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2863,7 +3001,8 @@
         "batchOrder": 232,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2884,7 +3023,8 @@
         "batchOrder": 233,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2905,7 +3045,8 @@
         "batchOrder": 234,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2926,7 +3067,8 @@
         "batchOrder": 235,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2947,7 +3089,8 @@
         "batchOrder": 237,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2968,7 +3111,8 @@
         "batchOrder": 238,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -2989,7 +3133,8 @@
         "batchOrder": 239,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3010,7 +3155,8 @@
         "batchOrder": 240,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3031,7 +3177,8 @@
         "batchOrder": 241,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3052,7 +3199,8 @@
         "batchOrder": 242,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3073,7 +3221,8 @@
         "batchOrder": 243,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3094,7 +3243,8 @@
         "batchOrder": 245,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3115,7 +3265,8 @@
         "batchOrder": 246,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3136,7 +3287,8 @@
         "batchOrder": 247,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3157,7 +3309,8 @@
         "batchOrder": 248,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3178,7 +3331,8 @@
         "batchOrder": 249,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3199,7 +3353,8 @@
         "batchOrder": 250,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3220,7 +3375,8 @@
         "batchOrder": 251,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3241,7 +3397,8 @@
         "batchOrder": 252,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3262,7 +3419,8 @@
         "batchOrder": 253,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3283,7 +3441,8 @@
         "batchOrder": 254,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3304,7 +3463,8 @@
         "batchOrder": 255,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3325,7 +3485,8 @@
         "batchOrder": 256,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3346,7 +3507,8 @@
         "batchOrder": 257,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3367,7 +3529,8 @@
         "batchOrder": 258,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3388,7 +3551,8 @@
         "batchOrder": 259,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3409,7 +3573,8 @@
         "batchOrder": 260,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3430,7 +3595,8 @@
         "batchOrder": 261,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3451,7 +3617,8 @@
         "batchOrder": 262,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3472,7 +3639,8 @@
         "batchOrder": 263,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3493,7 +3661,8 @@
         "batchOrder": 265,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3514,7 +3683,8 @@
         "batchOrder": 266,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3535,7 +3705,8 @@
         "batchOrder": 267,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3556,7 +3727,8 @@
         "batchOrder": 271,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3577,7 +3749,8 @@
         "batchOrder": 273,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3598,7 +3771,8 @@
         "batchOrder": 274,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3619,7 +3793,8 @@
         "batchOrder": 275,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3640,7 +3815,8 @@
         "batchOrder": 276,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3661,7 +3837,8 @@
         "batchOrder": 278,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3682,7 +3859,8 @@
         "batchOrder": 279,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3703,7 +3881,8 @@
         "batchOrder": 282,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3724,7 +3903,8 @@
         "batchOrder": 284,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3745,7 +3925,8 @@
         "batchOrder": 285,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3766,7 +3947,8 @@
         "batchOrder": 286,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3787,7 +3969,8 @@
         "batchOrder": 287,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3808,7 +3991,8 @@
         "batchOrder": 288,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3829,7 +4013,8 @@
         "batchOrder": 291,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3850,7 +4035,8 @@
         "batchOrder": 292,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3871,7 +4057,8 @@
         "batchOrder": 293,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3892,7 +4079,8 @@
         "batchOrder": 294,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3913,7 +4101,8 @@
         "batchOrder": 296,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3934,7 +4123,8 @@
         "batchOrder": 297,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3955,7 +4145,8 @@
         "batchOrder": 299,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3976,7 +4167,8 @@
         "batchOrder": 300,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。"
+        "note": "意味に基づく暫定分類。用法・翻訳・属性は公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -3997,7 +4189,8 @@
         "batchOrder": 301,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4018,7 +4211,8 @@
         "batchOrder": 302,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4039,7 +4233,8 @@
         "batchOrder": 303,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4060,7 +4255,8 @@
         "batchOrder": 304,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4081,7 +4277,8 @@
         "batchOrder": 305,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4102,7 +4299,8 @@
         "batchOrder": 307,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4123,7 +4321,8 @@
         "batchOrder": 308,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4144,7 +4343,8 @@
         "batchOrder": 309,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4165,7 +4365,8 @@
         "batchOrder": 311,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4186,7 +4387,8 @@
         "batchOrder": 312,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4207,7 +4409,8 @@
         "batchOrder": 313,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4228,7 +4431,8 @@
         "batchOrder": 314,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4249,7 +4453,8 @@
         "batchOrder": 315,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4270,7 +4475,8 @@
         "batchOrder": 317,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4291,7 +4497,8 @@
         "batchOrder": 318,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4312,7 +4519,8 @@
         "batchOrder": 319,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4333,7 +4541,8 @@
         "batchOrder": 320,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4354,7 +4563,8 @@
         "batchOrder": 321,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4375,7 +4585,8 @@
         "batchOrder": 322,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4396,7 +4607,8 @@
         "batchOrder": 323,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4417,7 +4629,8 @@
         "batchOrder": 324,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4438,7 +4651,8 @@
         "batchOrder": 325,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4459,7 +4673,8 @@
         "batchOrder": 326,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4480,7 +4695,8 @@
         "batchOrder": 327,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4501,7 +4717,8 @@
         "batchOrder": 328,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4522,7 +4739,8 @@
         "batchOrder": 329,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4543,7 +4761,8 @@
         "batchOrder": 330,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4564,7 +4783,8 @@
         "batchOrder": 331,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4585,7 +4805,8 @@
         "batchOrder": 332,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4606,7 +4827,8 @@
         "batchOrder": 333,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4627,7 +4849,8 @@
         "batchOrder": 334,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4648,7 +4871,8 @@
         "batchOrder": 335,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4669,7 +4893,8 @@
         "batchOrder": 336,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4690,7 +4915,8 @@
         "batchOrder": 337,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4711,7 +4937,8 @@
         "batchOrder": 338,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4719,7 +4946,7 @@
       "tag": "fireflies",
       "ja": "ホタル",
       "categoryId": "flora-fauna",
-      "subcategoryId": "reptiles-insects",
+      "subcategoryId": "insects",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -4732,7 +4959,8 @@
         "batchOrder": 339,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4753,7 +4981,8 @@
         "batchOrder": 341,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4774,7 +5003,8 @@
         "batchOrder": 342,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4795,7 +5025,8 @@
         "batchOrder": 343,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4816,7 +5047,8 @@
         "batchOrder": 344,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4837,7 +5069,8 @@
         "batchOrder": 345,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4858,7 +5091,8 @@
         "batchOrder": 348,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4879,7 +5113,8 @@
         "batchOrder": 349,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4900,7 +5135,8 @@
         "batchOrder": 350,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4921,7 +5157,8 @@
         "batchOrder": 351,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4942,7 +5179,8 @@
         "batchOrder": 352,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4963,7 +5201,8 @@
         "batchOrder": 353,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -4984,7 +5223,8 @@
         "batchOrder": 355,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5005,7 +5245,8 @@
         "batchOrder": 356,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5026,7 +5267,8 @@
         "batchOrder": 357,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5047,7 +5289,8 @@
         "batchOrder": 358,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5068,7 +5311,8 @@
         "batchOrder": 359,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5089,7 +5333,8 @@
         "batchOrder": 360,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5110,7 +5355,8 @@
         "batchOrder": 361,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5131,7 +5377,8 @@
         "batchOrder": 362,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5152,7 +5399,8 @@
         "batchOrder": 363,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5173,7 +5421,8 @@
         "batchOrder": 364,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5194,7 +5443,8 @@
         "batchOrder": 365,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5215,7 +5465,8 @@
         "batchOrder": 366,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5236,7 +5487,8 @@
         "batchOrder": 368,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5257,7 +5509,8 @@
         "batchOrder": 369,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5278,7 +5531,8 @@
         "batchOrder": 371,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5299,7 +5553,8 @@
         "batchOrder": 374,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5320,7 +5575,8 @@
         "batchOrder": 375,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5341,7 +5597,8 @@
         "batchOrder": 377,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5362,7 +5619,8 @@
         "batchOrder": 378,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5383,7 +5641,8 @@
         "batchOrder": 379,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5404,7 +5663,8 @@
         "batchOrder": 380,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5425,7 +5685,8 @@
         "batchOrder": 381,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5446,7 +5707,8 @@
         "batchOrder": 382,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5467,7 +5729,8 @@
         "batchOrder": 383,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5488,7 +5751,8 @@
         "batchOrder": 384,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5509,7 +5773,8 @@
         "batchOrder": 385,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5530,7 +5795,8 @@
         "batchOrder": 386,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5551,7 +5817,8 @@
         "batchOrder": 387,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5572,7 +5839,8 @@
         "batchOrder": 388,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5593,7 +5861,8 @@
         "batchOrder": 389,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5614,7 +5883,8 @@
         "batchOrder": 390,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5635,7 +5905,8 @@
         "batchOrder": 391,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5656,7 +5927,8 @@
         "batchOrder": 393,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5677,7 +5949,8 @@
         "batchOrder": 394,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5698,7 +5971,8 @@
         "batchOrder": 395,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5719,7 +5993,8 @@
         "batchOrder": 396,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5740,7 +6015,8 @@
         "batchOrder": 398,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5761,7 +6037,8 @@
         "batchOrder": 399,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5782,7 +6059,8 @@
         "batchOrder": 400,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。"
+        "note": "意味に基づく暫定分類。翻訳・分類・タグの用法を公開前に再検証。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5803,7 +6081,8 @@
         "batchOrder": 401,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5824,7 +6103,8 @@
         "batchOrder": 403,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5845,7 +6125,8 @@
         "batchOrder": 404,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5866,7 +6147,8 @@
         "batchOrder": 405,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5887,7 +6169,8 @@
         "batchOrder": 406,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5908,7 +6191,8 @@
         "batchOrder": 407,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5929,7 +6213,8 @@
         "batchOrder": 408,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5950,7 +6235,8 @@
         "batchOrder": 409,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5971,7 +6257,8 @@
         "batchOrder": 410,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -5992,7 +6279,8 @@
         "batchOrder": 411,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6013,7 +6301,8 @@
         "batchOrder": 412,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6034,7 +6323,8 @@
         "batchOrder": 413,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6055,7 +6345,8 @@
         "batchOrder": 414,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6076,7 +6367,8 @@
         "batchOrder": 415,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6097,7 +6389,8 @@
         "batchOrder": 416,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6118,7 +6411,8 @@
         "batchOrder": 417,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6139,7 +6433,8 @@
         "batchOrder": 418,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6160,7 +6455,8 @@
         "batchOrder": 419,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6181,7 +6477,8 @@
         "batchOrder": 420,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6202,7 +6499,8 @@
         "batchOrder": 422,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6223,7 +6521,8 @@
         "batchOrder": 423,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6244,7 +6543,8 @@
         "batchOrder": 424,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6265,7 +6565,8 @@
         "batchOrder": 425,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6286,7 +6587,8 @@
         "batchOrder": 426,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6307,7 +6609,8 @@
         "batchOrder": 427,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6328,7 +6631,8 @@
         "batchOrder": 428,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6349,7 +6653,8 @@
         "batchOrder": 430,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6370,7 +6675,8 @@
         "batchOrder": 431,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6391,7 +6697,8 @@
         "batchOrder": 432,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6412,7 +6719,8 @@
         "batchOrder": 434,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6433,7 +6741,8 @@
         "batchOrder": 436,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6454,7 +6763,8 @@
         "batchOrder": 437,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6475,7 +6785,8 @@
         "batchOrder": 438,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6496,7 +6807,8 @@
         "batchOrder": 439,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6517,7 +6829,8 @@
         "batchOrder": 440,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6538,7 +6851,8 @@
         "batchOrder": 441,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6559,7 +6873,8 @@
         "batchOrder": 442,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6580,7 +6895,8 @@
         "batchOrder": 443,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6601,7 +6917,8 @@
         "batchOrder": 445,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6622,7 +6939,8 @@
         "batchOrder": 446,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6643,7 +6961,8 @@
         "batchOrder": 449,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6664,7 +6983,8 @@
         "batchOrder": 450,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6685,7 +7005,8 @@
         "batchOrder": 451,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6706,7 +7027,8 @@
         "batchOrder": 452,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6727,7 +7049,8 @@
         "batchOrder": 453,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6748,7 +7071,8 @@
         "batchOrder": 454,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6769,7 +7093,8 @@
         "batchOrder": 455,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6790,7 +7115,8 @@
         "batchOrder": 456,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6811,7 +7137,8 @@
         "batchOrder": 457,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6832,7 +7159,8 @@
         "batchOrder": 458,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6853,7 +7181,8 @@
         "batchOrder": 459,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6874,7 +7203,8 @@
         "batchOrder": 460,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6895,7 +7225,8 @@
         "batchOrder": 461,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6916,7 +7247,8 @@
         "batchOrder": 463,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6937,7 +7269,8 @@
         "batchOrder": 464,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6958,7 +7291,8 @@
         "batchOrder": 465,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -6979,7 +7313,8 @@
         "batchOrder": 466,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7000,7 +7335,8 @@
         "batchOrder": 468,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7021,7 +7357,8 @@
         "batchOrder": 469,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7042,7 +7379,8 @@
         "batchOrder": 470,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7063,7 +7401,8 @@
         "batchOrder": 471,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7084,7 +7423,8 @@
         "batchOrder": 472,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7105,7 +7445,8 @@
         "batchOrder": 474,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7126,7 +7467,8 @@
         "batchOrder": 475,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7147,7 +7489,8 @@
         "batchOrder": 477,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7168,7 +7511,8 @@
         "batchOrder": 479,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7189,7 +7533,8 @@
         "batchOrder": 480,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7210,7 +7555,8 @@
         "batchOrder": 481,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7231,7 +7577,8 @@
         "batchOrder": 483,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7252,7 +7599,8 @@
         "batchOrder": 484,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7273,7 +7621,8 @@
         "batchOrder": 485,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7294,7 +7643,8 @@
         "batchOrder": 486,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7315,7 +7665,8 @@
         "batchOrder": 487,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7336,7 +7687,8 @@
         "batchOrder": 488,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7357,7 +7709,8 @@
         "batchOrder": 489,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7378,7 +7731,8 @@
         "batchOrder": 490,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7399,7 +7753,8 @@
         "batchOrder": 491,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7420,7 +7775,8 @@
         "batchOrder": 493,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7441,7 +7797,8 @@
         "batchOrder": 494,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7462,7 +7819,8 @@
         "batchOrder": 496,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7483,7 +7841,8 @@
         "batchOrder": 499,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
@@ -7504,7 +7863,8 @@
         "batchOrder": 500,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。"
+        "note": "意味に基づく暫定分類。公開前にタグの用法・翻訳を再確認。",
+        "reviewBatch": "review-001-005"
       }
     },
     {
