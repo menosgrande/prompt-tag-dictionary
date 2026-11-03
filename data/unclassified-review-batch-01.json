@@ -1,6 +1,6 @@
 {
   "schema": "unclassified-review-batch-v1",
-  "generatedAt": "2026-11-02",
+  "generatedAt": "2026-11-03",
   "source": "data/tags.json on main before this batch",
   "taxonomy": "data/tag-taxonomy.json (provisional; not finally approved)",
   "batch": {
@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 589,
-    "needsReview": 411
+    "proposed": 614,
+    "needsReview": 386
   },
   "entries": [
     {
@@ -598,9 +598,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "人と動物の性的行為を示すタグ。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "interpersonal-contact"
+      }
     },
     {
       "batch": 1,
@@ -904,9 +908,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "馬具の頭絡。身につける装具。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 1,
@@ -1010,9 +1018,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "燃焼・炎上という視覚的な演出効果。",
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      }
     },
     {
       "batch": 1,
@@ -1438,9 +1450,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "生物が人物の頭上に乗っている配置。",
+      "target": {
+        "categoryId": "pose",
+        "subcategoryId": "body-arrangement"
+      }
     },
     {
       "batch": 1,
@@ -1698,9 +1714,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "裾を切り落とした衣服を示す一般的な服装タグ。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -2148,9 +2168,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "鹿撃ち帽という帽子の種類。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 1,
@@ -2162,9 +2186,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "敗北・打ち負かされる状況を示す行為・結果。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "body-action"
+      }
     },
     {
       "batch": 1,
@@ -2176,9 +2204,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "他者との性的行為を示すタグ。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "interpersonal-contact"
+      }
     },
     {
       "batch": 1,
@@ -2204,9 +2236,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "不良・非行者という人物属性。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "person-attributes"
+      }
     },
     {
       "batch": 1,
@@ -2232,9 +2268,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "落ち込んだ感情を示す表情・顔の状態。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 1,
@@ -2264,9 +2304,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "決意した感情を示す表情。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 1,
@@ -2464,9 +2508,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "趾行性という身体構造・歩行形態。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-shape"
+      }
     },
     {
       "batch": 1,
@@ -2588,9 +2636,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "胴体から分離した頭部という身体状態。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 1,
@@ -2952,9 +3004,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "両肢を切断した人物の身体的特徴。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-shape"
+      }
     },
     {
       "batch": 1,
@@ -3302,9 +3358,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "薬物の影響下にある人物の状態。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "person-attributes"
+      }
     },
     {
       "batch": 1,
@@ -3316,9 +3376,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "薬物・薬品を示す物品タグ。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -3330,9 +3394,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "酔った状態という人物の状態・属性。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "person-attributes"
+      }
     },
     {
       "batch": 1,
@@ -3344,9 +3412,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "乾燥させる・乾いていく動作や過程。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "daily-action"
+      }
     },
     {
       "batch": 1,
@@ -4020,9 +4092,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "電気・電流の視覚的な演出表現。",
+      "target": {
+        "categoryId": "lighting",
+        "subcategoryId": "effects"
+      }
     },
     {
       "batch": 1,
@@ -4066,9 +4142,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "昇降機という機械設備。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "machines"
+      }
     },
     {
       "batch": 1,
@@ -4444,9 +4524,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "勃起という身体状態。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-parts"
+      }
     },
     {
       "batch": 1,
@@ -4676,9 +4760,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "興奮した感情を示す表情。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 1,
@@ -4708,9 +4796,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "疲労困憊した様子を示す表情・顔の状態。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "face-expression-core"
+      }
     },
     {
       "batch": 1,
@@ -4722,9 +4814,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "外骨格型の装備・防具。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "equipment"
+      }
     },
     {
       "batch": 1,
@@ -4800,9 +4896,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "顔に施すペイント・化粧表現。",
+      "target": {
+        "categoryId": "face",
+        "subcategoryId": "facial-features"
+      }
     },
     {
       "batch": 1,
