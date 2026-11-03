@@ -40,3 +40,10 @@ test("missing translations are detected and review status is read without being 
   assert.equal(result.find(x => x.tag === "empty").status, "needs-review");
   assert.equal(result.find(x => x.tag === "ace attorney").status, "unreviewed");
 });
+
+
+test("optional detail and aliases fields remain eligible for translation audit",()=>{
+  const result=collectCandidates([["ace attorney","エース弁護士","作品・キャラクター","作品名・シリーズ","ゲーム作品",["逆転裁判"]]]);
+  assert.equal(result.length,1);
+  assert.equal(result[0].tag,"ace attorney");
+});
