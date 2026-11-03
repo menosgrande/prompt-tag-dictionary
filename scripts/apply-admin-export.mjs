@@ -51,7 +51,7 @@ const log = exportData.log;
 if (!log || log.schemaVersion !== 1 || !Array.isArray(log.changes)) errors.push("Invalid change log.");
 else for (let i = 0; i < log.changes.length; i++) {
   const item = log.changes[i];
-  if (!item || typeof item !== "object" || typeof item.tag !== "string" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(item.changedAt || "") || !Array.isArray(item.fields) || !item.fields.length || !item.before || typeof item.before !== "object" || !item.after || typeof item.after !== "object" || typeof item.reason !== "string" || !(item.source === null || typeof item.source === "string")) errors.push("Invalid change log entry at index " + i);
+  if (!item || typeof item !== "object" || typeof item.tag !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(item.changedAt || "") || !Array.isArray(item.fields) || !item.fields.length || !item.before || typeof item.before !== "object" || !item.after || typeof item.after !== "object" || typeof item.reason !== "string" || !(item.source === null || typeof item.source === "string")) errors.push("Invalid change log entry at index " + i);
 }
 const promptOrder = exportData.promptOrder;
 if (!promptOrder || typeof promptOrder.schema !== "string" || !Array.isArray(promptOrder.categories) || !Array.isArray(promptOrder.overrides)) errors.push("Invalid prompt order data.");
