@@ -1,12 +1,12 @@
 {
   "schema": "tag-classification-candidates-v1",
-  "generatedAt": "2026-11-03T06:30:00Z",
+  "generatedAt": "2026-11-03T06:48:00Z",
   "source": "data/unclassified-review-batch-01..04.json",
   "description": "精査済みの分類候補。サイト上では仮分類として表示し、タグ本体の旧分類値は保持する。",
   "summary": {
     "total": 3319,
-    "provisional": 956,
-    "needsReview": 2363
+    "provisional": 976,
+    "needsReview": 2343
   },
   "entries": [
     {
@@ -7656,6 +7656,166 @@
       "subcategoryId": "daily-action",
       "confidence": "medium",
       "reason": "乾燥させる・乾いていく動作や過程。"
+    },
+    {
+      "tag": "gauze",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "high",
+      "reason": "ガーゼという医療・衛生用の日用品。"
+    },
+    {
+      "tag": "genderswap",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "person-attributes",
+      "confidence": "medium",
+      "reason": "人物の性別を入れ替えた表現。"
+    },
+    {
+      "tag": "giantess",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "body-shape",
+      "confidence": "high",
+      "reason": "巨大な女性という体格・身体サイズの特徴。"
+    },
+    {
+      "tag": "gift",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "high",
+      "reason": "贈り物という物品。"
+    },
+    {
+      "tag": "giving",
+      "status": "provisional",
+      "categoryId": "action",
+      "subcategoryId": "interpersonal-contact",
+      "confidence": "medium",
+      "reason": "他者に物を与える対人動作。"
+    },
+    {
+      "tag": "gibson les paul",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "other-objects",
+      "confidence": "high",
+      "reason": "ギターの製品名。描写対象となる楽器。"
+    },
+    {
+      "tag": "gorget",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "accessories",
+      "confidence": "high",
+      "reason": "首周りを保護するゴルゲットという装飾・防具。"
+    },
+    {
+      "tag": "gusset",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "confidence": "medium",
+      "reason": "衣服のまち・補強布を示す服飾用語。"
+    },
+    {
+      "tag": "head fins",
+      "status": "provisional",
+      "categoryId": "hair",
+      "subcategoryId": "head-features",
+      "confidence": "high",
+      "reason": "頭部にあるヒレ状の特徴。"
+    },
+    {
+      "tag": "horn/wood",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "other-objects",
+      "confidence": "medium",
+      "reason": "金管楽器・木管楽器を示す楽器群。"
+    },
+    {
+      "tag": "icing",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "medium",
+      "reason": "菓子などに用いるアイシング。"
+    },
+    {
+      "tag": "in box",
+      "status": "provisional",
+      "categoryId": "pose",
+      "subcategoryId": "body-arrangement",
+      "confidence": "high",
+      "reason": "人物が箱の中に収まっている配置。"
+    },
+    {
+      "tag": "i-class destroyer",
+      "status": "provisional",
+      "categoryId": "vehicles",
+      "subcategoryId": "watercraft",
+      "confidence": "high",
+      "reason": "I級駆逐艦という艦艇。"
+    },
+    {
+      "tag": "jersey maid",
+      "status": "provisional",
+      "categoryId": "clothing",
+      "subcategoryId": "clothing",
+      "confidence": "high",
+      "reason": "ジャージ素材・意匠のメイド服。"
+    },
+    {
+      "tag": "jester",
+      "status": "provisional",
+      "categoryId": "person",
+      "subcategoryId": "person-attributes",
+      "confidence": "medium",
+      "reason": "道化師という人物の役割・職業。"
+    },
+    {
+      "tag": "kaiju",
+      "status": "provisional",
+      "categoryId": "living-things",
+      "subcategoryId": "fantasy-creatures",
+      "confidence": "high",
+      "reason": "怪獣という架空生物。"
+    },
+    {
+      "tag": "kamaboko",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "high",
+      "reason": "かまぼこという食品。"
+    },
+    {
+      "tag": "kanikama",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "high",
+      "reason": "カニカマという食品。"
+    },
+    {
+      "tag": "karakasa obake",
+      "status": "provisional",
+      "categoryId": "living-things",
+      "subcategoryId": "fantasy-creatures",
+      "confidence": "high",
+      "reason": "唐傘お化けという妖怪・架空生物。"
+    },
+    {
+      "tag": "kinchaku",
+      "status": "provisional",
+      "categoryId": "objects",
+      "subcategoryId": "everyday-objects",
+      "confidence": "high",
+      "reason": "巾着袋という日用品。"
     }
   ]
 }
