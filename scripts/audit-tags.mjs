@@ -1,10 +1,10 @@
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readMasterSource } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const file = resolve(root, "data/tags.json");
-const rows = JSON.parse(await readFile(file, "utf8"));
+const rows = await readMasterSource(root, "tags.json");
 
 const categories = {
   "人物": ["人数", "性別・体形", "年齢", "頭髪", "顔・表情", "目", "胸", "身体・部位", "種族・役割"],
