@@ -1,7 +1,6 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Set(process.argv.slice(2));
@@ -204,39 +203,12 @@ async function main(){
       throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
     }
   }
-  // This generator audits legacy-category migration candidates. The site-facing
-  // tag-classification-candidates.json is a separate curated queue built from
-  // unclassified-review-batch-*.json and must never be overwritten here.
-  if(args.has("--check-only")){
-    console.log("Legacy classification candidate rules and taxonomy are valid.");
-    return;
-  }
-  const outputPath=resolve(root,"data/tag-classification-candidates.json");
-  const serialized=JSON.stringify(report,null,2)+"\n";
-  console.log("Classification candidate audit");
+  // This is a validation-only audit of legacy category mapping rules.
+  // The site-facing classification candidates now live in data/tags.json row[6].classification.
+  console.log("Legacy classification mapping audit");
   console.log(JSON.stringify(report.summary));
   if(new Set(report.entries.map(x=>x.tag)).size!==report.entries.length) throw new Error("Duplicate candidate tags");
-  if(args.has("--write")){await writeFile(outputPath,serialized,"utf8");await rebuildDictionaryData(root);console.log("Wrote data/tag-classification-candidates.json and rebuilt data/dictionary-data.json");}
-  else{
-    const current=await readFile(outputPath,"utf8").catch(()=>"");
-    const stable=value=>JSON.stringify(value,(_,item)=>{
-      if(item && typeof item==="object" && !Array.isArray(item)){
-        return Object.fromEntries(Object.keys(item).sort().map(key=>[key,item[key]]));
-      }
-      return item;
-    });
-    let currentReport=null;
-    try{currentReport=JSON.parse(current);}catch{}
-    if(!currentReport || stable(currentReport)!==stable(report)){
-      console.error("ERROR: classification candidates are stale. Run with --write.");
-      if(currentReport){
-        const currentByTag=new Map((currentReport.entries||[]).map(item=>[item.tag,item]));
-        const mismatch=report.entries.find(item=>stable(currentByTag.get(item.tag)||null)!==stable(item));
-        if(mismatch) console.error("First candidate mismatch: "+mismatch.tag+"\nexpected="+JSON.stringify(mismatch)+"\nactual="+JSON.stringify(currentByTag.get(mismatch.tag)||null));
-        else console.error("Top-level metadata or candidate ordering differs.");
-      }
-      process.exitCode=1;
-    } else console.log("Classification candidate report is up to date.");
-  }
+  if(args.has("--write")) throw new Error("This audit is no longer written to a sidecar file. Canonical review data is stored in data/tags.json.");
+  console.log("Validation complete; canonical tag data was not modified.");
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)) await main();
