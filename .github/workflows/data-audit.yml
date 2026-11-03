@@ -124,6 +124,8 @@ jobs:
         run: node --check scripts/lib/rebuild-dictionary-data.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
+      - name: Dry-run master-backed category candidate application
+        run: node scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax
         run: node --check scripts/build-tag-metadata-review.mjs
       - name: Dry-run metadata review candidate generation
