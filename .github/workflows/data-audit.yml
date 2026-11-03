@@ -3,6 +3,8 @@ name: Data quality audit
 on:
   push:
     paths:
+      - "data/master-data.json"
+      - "scripts/lib/master-data.mjs"
       - "data/dictionary-data.json"
       - "scripts/build-dictionary-data.mjs"
       - "scripts/lib/rebuild-dictionary-data.mjs"
