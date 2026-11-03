@@ -5,9 +5,8 @@ import { resolve } from "node:path";
 const execFileAsync = promisify(execFile);
 
 /**
- * Rebuild the single browser/admin runtime bundle after a source-data mutation.
- * The component JSON files remain the editable source files; dictionary-data.json
- * is always regenerated through the same validated builder.
+ * Rebuild the browser/admin runtime bundle from data/master-data.json.
+ * Source mutations must be written to the master JSON before this helper runs.
  */
 export async function rebuildDictionaryData(root) {
   const { stdout, stderr } = await execFileAsync(
