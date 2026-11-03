@@ -26,7 +26,6 @@ const candidateEntries = tags.flatMap(row =>
 );
 const classificationCandidates = {
   schema: "tag-classification-candidates-v1",
-  generatedAt: new Date().toISOString(),
   source: "data/tags.json row[6].classification",
   description: "正本 tags.json に統合された分類候補。status が provisional / needs-review の間は確定分類として扱わない。",
   summary: {
