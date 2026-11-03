@@ -58,6 +58,8 @@ on:
       - "admin.html"
       - "admin.css"
       - "src/admin.js"
+      - "scripts/apply-admin-export.mjs"
+      - "tests/apply-admin-export.test.mjs"
       - "scripts/audit-prompt-order.mjs"
       - "data/tag-review.json"
       - "data/tag-change-log.json"
