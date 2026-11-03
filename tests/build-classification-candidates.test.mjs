@@ -104,3 +104,10 @@ test("arm warmers are classified as clothing rather than body parts",()=>{
   assert.equal(item.subcategoryId,"clothing");
   assert.equal(item.status,"provisional");
 });
+
+
+test("optional detail and aliases fields are accepted without changing classification",()=>{
+  const item=classifyLegacyRow(["smile","笑顔","人物","顔・表情","微笑み",["grin","smiling"]]);
+  assert.equal(item.categoryId,"person");
+  assert.equal(item.subcategoryId,"face-expression");
+});
