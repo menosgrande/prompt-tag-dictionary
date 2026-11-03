@@ -5003,11 +5003,11 @@
     },
     {
       "tag": "mismatched sclera",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "eyes",
       "confidence": "medium",
-      "reason": "目の特徴を示すタグ。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/eyes"
     },
     {
       "tag": "missile",
@@ -5283,11 +5283,11 @@
     },
     {
       "tag": "no sclera",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "eyes",
       "confidence": "medium",
-      "reason": "目の特徴を示すタグ。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/eyes"
     },
     {
       "tag": "nontraditional miko",
@@ -6011,11 +6011,11 @@
     },
     {
       "tag": "short sidetail",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "hair-head",
       "confidence": "medium",
-      "reason": "タグの意味に即して分類先を修正。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/hair-head"
     },
     {
       "tag": "shoulder holster",
@@ -6387,11 +6387,11 @@
     },
     {
       "tag": "teacher and student",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "species-role",
       "confidence": "medium",
-      "reason": "人物の職業・役割・属性を示すタグ。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/species-role"
     },
     {
       "tag": "television",
@@ -6643,11 +6643,11 @@
     },
     {
       "tag": "unconventional maid",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "species-role",
       "confidence": "medium",
-      "reason": "タグの意味に即して分類先を修正。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/species-role"
     },
     {
       "tag": "untying",
@@ -7299,11 +7299,11 @@
     },
     {
       "tag": "wheelchair",
-      "status": "provisional",
+      "status": "needs_review",
       "categoryId": "person",
       "subcategoryId": "hair-head",
       "confidence": "medium",
-      "reason": "髪型・頭髪の特徴を示すタグ。"
+      "reason": "旧分類との互換性用に非推奨となった小分類が指定されているため、自動採用を停止。正規分類への再判定が必要。旧候補: person/hair-head"
     },
     {
       "tag": "whisker markings",
