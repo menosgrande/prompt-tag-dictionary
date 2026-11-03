@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 95,
-    "needsReview": 905
+    "proposed": 99,
+    "needsReview": 901
   },
   "entries": [
     {
@@ -2294,9 +2294,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ポケモンのモルペコのフォルム違い。Danbooruの投稿でCharacter欄に分類される。",
+      "target": {
+        "categoryId": "character",
+        "subcategoryId": "characters"
+      }
     },
     {
       "batch": 2,
@@ -3806,9 +3810,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "「なのです」という発話・口癖を示すフレーズタグ。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "text"
+      }
     },
     {
       "batch": 2,
@@ -4590,9 +4598,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "企業ブランド名を示すタグ。ロゴ・ブランド表記として扱う。",
+      "target": {
+        "categoryId": "text-symbols",
+        "subcategoryId": "logos"
+      }
     },
     {
       "batch": 2,
@@ -9746,9 +9758,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ポケモン作品内の道具であるモンスターボールの基本形。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 2,
