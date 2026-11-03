@@ -1,4 +1,3 @@
-import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
@@ -212,22 +211,19 @@ async function main(){
     console.log("Legacy classification candidate rules and taxonomy are valid.");
     return;
   }
-  const outputPath=resolve(root,"data/tag-classification-candidates.json");
   const serialized=JSON.stringify(report,null,2)+"\n";
   console.log("Classification candidate audit");
   console.log(JSON.stringify(report.summary));
   if(new Set(report.entries.map(x=>x.tag)).size!==report.entries.length) throw new Error("Duplicate candidate tags");
-  if(args.has("--write")){await writeMasterSources(root, {"tag-classification-candidates.json": report});await writeFile(outputPath,serialized,"utf8");await rebuildDictionaryData(root);console.log("Updated master-data.json, compatibility JSON, and runtime bundle");}
+  if(args.has("--write")){await writeMasterSources(root, {"tag-classification-candidates.json": report});await rebuildDictionaryData(root);console.log("Updated master-data.json and runtime bundle");}
   else{
-    const current=await readFile(outputPath,"utf8").catch(()=>"");
     const stable=value=>JSON.stringify(value,(_,item)=>{
       if(item && typeof item==="object" && !Array.isArray(item)){
         return Object.fromEntries(Object.keys(item).sort().map(key=>[key,item[key]]));
       }
       return item;
     });
-    let currentReport=null;
-    try{currentReport=JSON.parse(current);}catch{}
+    const currentReport=await readMasterSource(root,"tag-classification-candidates.json").catch(()=>null);
     if(!currentReport || stable(currentReport)!==stable(report)){
       console.error("ERROR: classification candidates are stale. Run with --write.");
       if(currentReport){
