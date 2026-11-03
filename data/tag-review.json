@@ -529,13 +529,6 @@
       "note": "公式日本語タイトル／表記に合わせたAI一括修正。人手の最終確認待ち。",
       "source": "https://bluearchive.jp/"
     },
-    ";)": {
-      "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「表情」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-01.jsonl"
-    },
     ";3": {
       "translationStatus": "unreviewed",
       "classificationStatus": "provisional",
