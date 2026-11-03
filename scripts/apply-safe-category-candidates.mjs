@@ -2,16 +2,13 @@ import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
+import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Set(process.argv.slice(2));
 const write = args.has("--write");
 const date = new Date().toISOString().slice(0, 10);
-const paths = {
-  tags: resolve(root, "data/tags.json"),
-  review: resolve(root, "data/tag-review.json"),
-  log: resolve(root, "data/tag-change-log.json")
-};
+
 const allowed = {
   "人物": ["人数", "性別・体形", "年齢", "頭髪", "顔・表情", "目", "胸", "身体・部位", "種族・役割"],
   "作品・キャラクター": ["作品名・シリーズ", "キャラクター", "作者・配信者"],
@@ -26,9 +23,8 @@ const allowed = {
   "成人向け": ["身体・衣類", "行為・状況", "表現・修正"],
   "未分類": ["未分類"]
 };
-const readJson = async path => JSON.parse(await readFile(path, "utf8"));
 const [tags, review, log] = await Promise.all([
-  readJson(paths.tags), readJson(paths.review), readJson(paths.log)
+  readMasterSource(root, "tags.json"), readMasterSource(root, "tag-review.json"), readMasterSource(root, "tag-change-log.json")
 ]);
 if (!Array.isArray(tags) || review.schemaVersion !== 1 || !review.entries || log.schemaVersion !== 1 || !Array.isArray(log.changes)) {
   throw new Error("Unexpected tags/review/log schema; no files were changed.");
@@ -82,11 +78,7 @@ console.log("Canonical tag schema: [tag, ja, major, minor] (unchanged)");
 console.log("Human-reviewed / needs-review entries: skipped");
 console.log("Third-level proposals: retained in audit source, not written to tags.json");
 if (write) {
-  await Promise.all([
-    writeFile(paths.tags, JSON.stringify(tags, null, 2) + "\n", "utf8"),
-    writeFile(paths.review, JSON.stringify(review, null, 2) + "\n", "utf8"),
-    writeFile(paths.log, JSON.stringify(log, null, 2) + "\n", "utf8")
-  ]);
+  await writeMasterSources(root, { "tags.json": tags, "tag-review.json": review, "tag-change-log.json": log });
   await rebuildDictionaryData(root);
   console.log("Updated source data and rebuilt data/dictionary-data.json");
 } else {
