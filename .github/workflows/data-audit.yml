@@ -36,9 +36,6 @@ on:
       - "scripts/audit-tag-management.mjs"
       - "scripts/audit-translations.mjs"
       - "scripts/apply-safe-category-candidates.mjs"
-      - "scripts/import-category-audit-jsonl.mjs"
-      - "data/category-audit-candidates-*.jsonl"
-      - "data/category-audit-existing-flags.jsonl"
       - "scripts/build-tag-metadata-review.mjs"
       - "scripts/audit-color-clothing.mjs"
       - "scripts/audit-color-prefixes.mjs"
@@ -46,7 +43,6 @@ on:
       - "data/nsfw-prompt-tag-audit.json"
       - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
-      - ".github/workflows/refresh-translation-audit.yml"
   pull_request:
     paths:
       - "data/dictionary-data.json"
