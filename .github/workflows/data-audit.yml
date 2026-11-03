@@ -87,8 +87,8 @@ jobs:
         run: node --check scripts/build-classification-candidates.mjs
       - name: Test classification candidate generator
         run: node --test tests/build-classification-candidates.test.mjs
-      - name: Audit classification candidates are current
-        run: node scripts/build-classification-candidates.mjs
+      - name: Validate legacy classification candidate rules without overwriting site review data
+        run: node scripts/build-classification-candidates.mjs --check-only
       - name: Check browser app syntax
         run: node --check src/app.js
       - name: Test taxonomy browser integration
