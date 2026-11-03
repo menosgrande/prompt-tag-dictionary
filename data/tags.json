@@ -4,13 +4,13 @@
   "migrationSummary": {
     "sourceBatch": "migration-unclassified-batch-01",
     "sourceRecordCount": 1000,
-    "importedRecordCount": 718,
-    "excludedNeedsReviewCount": 282,
+    "importedRecordCount": 703,
+    "excludedNeedsReviewCount": 297,
     "importedReviewStatus": "provisional",
-    "manuallyReviewedRange": "batchOrder 1-900",
-    "manuallyReviewedProvisionalCount": 627,
-    "manuallyReviewedNeedsReviewCount": 273,
-    "note": "batchOrder 1-500 reflects review-001 through review-005; 501-600 reflects review-007; 601-700 reflects review-008; 701-800 reflects review-009; 801-900 reflects review-010; batchOrder 901-1000 retains initial triage pending manual review. Only provisional records with valid category IDs are imported. promptTarget and rating remain null where not assessed."
+    "manuallyReviewedRange": "batchOrder 1-1000",
+    "manuallyReviewedProvisionalCount": 703,
+    "manuallyReviewedNeedsReviewCount": 297,
+    "note": "All 1,000 records in migration-unclassified-batch-01 have been manually reviewed through review-001..review-011. Only provisional records with valid category IDs are imported. promptTarget and rating remain null where not assessed."
   },
   "tags": [
     {
@@ -13451,7 +13451,8 @@
         "batchOrder": 901,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13472,7 +13473,8 @@
         "batchOrder": 903,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13493,7 +13495,8 @@
         "batchOrder": 904,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13514,28 +13517,8 @@
         "batchOrder": 905,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5702",
-      "tag": "m.u.g.e.n",
-      "ja": "M.U.G.E.N",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5702,
-        "batchOrder": 907,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13556,13 +13539,14 @@
         "batchOrder": 908,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5720",
       "tag": "maekawa miku",
-      "ja": "大川miku",
+      "ja": "前川みく",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -13577,15 +13561,16 @@
         "batchOrder": 909,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5721",
       "tag": "magatama",
       "ja": "勾玉",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "clothing-accessories",
+      "subcategoryId": "accessories",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13598,15 +13583,16 @@
         "batchOrder": 910,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5736",
       "tag": "magician",
       "ja": "魔術師",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "person-traits",
+      "subcategoryId": "occupation-role",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13619,7 +13605,8 @@
         "batchOrder": 911,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13640,15 +13627,16 @@
         "batchOrder": 912,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5739",
       "tag": "mahjong soul",
-      "ja": "マジョンソウル",
+      "ja": "雀魂",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "works-series",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13661,7 +13649,8 @@
         "batchOrder": 913,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13682,15 +13671,16 @@
         "batchOrder": 914,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5755",
       "tag": "makeup",
-      "ja": "補う",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "ja": "化粧・メイク",
+      "categoryId": "face-expression",
+      "subcategoryId": "facial-makeup-marks",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13703,13 +13693,14 @@
         "batchOrder": 915,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5756",
       "tag": "makeup brush",
-      "ja": "化粧用ブラシ",
+      "ja": "化粧ブラシ",
       "categoryId": "objects-equipment",
       "subcategoryId": "daily-items",
       "aliases": [],
@@ -13724,7 +13715,8 @@
         "batchOrder": 916,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13745,7 +13737,8 @@
         "batchOrder": 917,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13766,7 +13759,8 @@
         "batchOrder": 918,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13787,13 +13781,14 @@
         "batchOrder": 919,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5762",
       "tag": "makoto nanaya",
-      "ja": "マコトナナヤ",
+      "ja": "マコト＝ナナヤ",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -13808,7 +13803,8 @@
         "batchOrder": 920,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13816,7 +13812,7 @@
       "tag": "makuwauri",
       "ja": "マクワウリ",
       "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "subcategoryId": "food-drink",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13829,7 +13825,8 @@
         "batchOrder": 921,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13837,7 +13834,7 @@
       "tag": "mallet",
       "ja": "木槌",
       "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "subcategoryId": "tools-weapons",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13850,7 +13847,8 @@
         "batchOrder": 922,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13871,7 +13869,8 @@
         "batchOrder": 923,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13892,7 +13891,8 @@
         "batchOrder": 924,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13913,7 +13913,8 @@
         "batchOrder": 925,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13934,28 +13935,8 @@
         "batchOrder": 926,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5799",
-      "tag": "maria the ripper",
-      "ja": "マリア・ザ・リッパー",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5799,
-        "batchOrder": 927,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -13963,7 +13944,7 @@
       "tag": "maria-sama ga miteru",
       "ja": "マリア様がみてる",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "works-series",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -13976,13 +13957,14 @@
         "batchOrder": 928,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5801",
       "tag": "marianne von edmund",
-      "ja": "マリアン・フォン・エドマンド",
+      "ja": "マリアンヌ・フォン・エドマンド",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -13997,13 +13979,14 @@
         "batchOrder": 929,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5802",
       "tag": "maribel hearn",
-      "ja": "マリベルハーン",
+      "ja": "マエリベリー・ハーン",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14018,7 +14001,8 @@
         "batchOrder": 930,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14039,7 +14023,8 @@
         "batchOrder": 931,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14060,15 +14045,16 @@
         "batchOrder": 932,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5821",
       "tag": "marvel",
-      "ja": "マーベル",
+      "ja": "マーベル作品",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "works-series",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14081,15 +14067,16 @@
         "batchOrder": 933,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5823",
       "tag": "mary janes",
-      "ja": "メアリー・ジェーンズ",
+      "ja": "メリージェーン",
       "categoryId": "clothing-accessories",
-      "subcategoryId": "upper-body-clothing",
+      "subcategoryId": "footwear",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14102,15 +14089,16 @@
         "batchOrder": 934,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5824",
       "tag": "mascara",
       "ja": "マスカラ",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "face-expression",
+      "subcategoryId": "facial-makeup-marks",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14123,28 +14111,8 @@
         "batchOrder": 935,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5825",
-      "tag": "mascot",
-      "ja": "マスコット",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5825,
-        "batchOrder": 936,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14165,13 +14133,14 @@
         "batchOrder": 937,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5831",
       "tag": "mask around neck",
-      "ja": "首の周りにマスク",
+      "ja": "首に掛けたマスク",
       "categoryId": "clothing-accessories",
       "subcategoryId": "accessories",
       "aliases": [],
@@ -14186,13 +14155,14 @@
         "batchOrder": 938,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5834",
       "tag": "masked",
-      "ja": "マスク",
+      "ja": "マスクを着用した状態",
       "categoryId": "clothing-accessories",
       "subcategoryId": "accessories",
       "aliases": [],
@@ -14207,15 +14177,16 @@
         "batchOrder": 939,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5836",
       "tag": "massage",
       "ja": "マッサージ",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "pose-action",
+      "subcategoryId": "contact-interaction",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14228,49 +14199,8 @@
         "batchOrder": 941,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5837",
-      "tag": "massakasama",
-      "ja": "マッサカサマ",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5837,
-        "batchOrder": 942,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5838",
-      "tag": "mast",
-      "ja": "マスト",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5838,
-        "batchOrder": 943,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14291,7 +14221,8 @@
         "batchOrder": 944,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14312,7 +14243,8 @@
         "batchOrder": 946,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14333,13 +14265,14 @@
         "batchOrder": 947,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5845",
       "tag": "matching outfits",
-      "ja": "お揃いの衣装",
+      "ja": "お揃いの服装",
       "categoryId": "clothing-accessories",
       "subcategoryId": "upper-body-clothing",
       "aliases": [],
@@ -14354,49 +14287,8 @@
         "batchOrder": 948,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5847",
-      "tag": "material growth",
-      "ja": "物質的成長",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5847,
-        "batchOrder": 950,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5848",
-      "tag": "math",
-      "ja": "数学",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5848,
-        "batchOrder": 951,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14417,7 +14309,8 @@
         "batchOrder": 953,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14438,7 +14331,8 @@
         "batchOrder": 954,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14459,34 +14353,14 @@
         "batchOrder": 955,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5855",
-      "tag": "matsunaga kouyou",
-      "ja": "松田kouyou",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5855,
-        "batchOrder": 956,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5856",
       "tag": "matsuno choromatsu",
-      "ja": "松野丸",
+      "ja": "松野チョロ松",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14501,13 +14375,14 @@
         "batchOrder": 957,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5857",
       "tag": "matsuno ichimatsu",
-      "ja": "松野松道",
+      "ja": "松野一松",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14522,7 +14397,8 @@
         "batchOrder": 958,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14543,13 +14419,14 @@
         "batchOrder": 959,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5859",
       "tag": "matsuno karamatsu",
-      "ja": "カラマツノ漫画",
+      "ja": "松野カラ松",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14564,13 +14441,14 @@
         "batchOrder": 960,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5860",
       "tag": "matsuno osomatsu",
-      "ja": "松野夏",
+      "ja": "松野おそ松",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14585,13 +14463,14 @@
         "batchOrder": 961,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5861",
       "tag": "matsuno todomatsu",
-      "ja": "松野松田",
+      "ja": "松野トド松",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14606,28 +14485,8 @@
         "batchOrder": 962,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5862",
-      "tag": "matsuryuu",
-      "ja": "まつりゅう",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5862,
-        "batchOrder": 963,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14648,76 +14507,14 @@
         "batchOrder": 964,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5864",
-      "tag": "mattaku mousuke",
-      "ja": "まったくもうすけ",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5864,
-        "batchOrder": 965,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5868",
-      "tag": "maturiuta sorato",
-      "ja": "祭唄そらと",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5868,
-        "batchOrder": 966,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5869",
-      "tag": "mauve",
-      "ja": "モーブ",
-      "categoryId": "lighting-effects",
-      "subcategoryId": "particles-atmosphere",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5869,
-        "batchOrder": 967,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5873",
       "tag": "mayuzumi fuyuko",
-      "ja": "マユズミフユーコ",
+      "ja": "黛冬優子",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -14732,7 +14529,8 @@
         "batchOrder": 968,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14740,7 +14538,7 @@
       "tag": "meandros",
       "ja": "メアンドロス模様",
       "categoryId": "text-symbols",
-      "subcategoryId": "numbers-symbols",
+      "subcategoryId": "shapes-marks",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14753,28 +14551,8 @@
         "batchOrder": 969,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5876",
-      "tag": "measuring",
-      "ja": "測定",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5876,
-        "batchOrder": 970,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14795,28 +14573,8 @@
         "batchOrder": 971,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5880",
-      "tag": "mecha musume",
-      "ja": "メカ少女",
-      "categoryId": "clothing-accessories",
-      "subcategoryId": "upper-body-clothing",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5880,
-        "batchOrder": 973,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14824,7 +14582,7 @@
       "tag": "mecha pilot suit",
       "ja": "メカパイロットスーツ",
       "categoryId": "clothing-accessories",
-      "subcategoryId": "upper-body-clothing",
+      "subcategoryId": "full-body-uniforms",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14837,7 +14595,8 @@
         "batchOrder": 974,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14858,15 +14617,16 @@
         "batchOrder": 976,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5887",
       "tag": "mechanical halo",
-      "ja": "機械の光輪",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "tools-weapons",
+      "ja": "機械仕掛けの光輪",
+      "categoryId": "clothing-accessories",
+      "subcategoryId": "wearable-equipment",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14879,7 +14639,8 @@
         "batchOrder": 977,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14900,36 +14661,16 @@
         "batchOrder": 978,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5894",
-      "tag": "mechanization",
-      "ja": "機械化",
-      "categoryId": "style-rendering",
-      "subcategoryId": "3d-cg",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5894,
-        "batchOrder": 979,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5895",
       "tag": "medal",
       "ja": "メダル",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "clothing-accessories",
+      "subcategoryId": "accessories",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14942,15 +14683,16 @@
         "batchOrder": 980,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5896",
       "tag": "medallion",
       "ja": "メダリオン",
-      "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "categoryId": "clothing-accessories",
+      "subcategoryId": "accessories",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -14963,7 +14705,8 @@
         "batchOrder": 981,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -14984,7 +14727,8 @@
         "batchOrder": 982,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15005,13 +14749,14 @@
         "batchOrder": 983,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5899",
       "tag": "medicine melancholy",
-      "ja": "薬の憂鬱",
+      "ja": "メディスン・メランコリー",
       "categoryId": "character-work",
       "subcategoryId": "characters",
       "aliases": [],
@@ -15026,15 +14771,16 @@
         "batchOrder": 984,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5904",
       "tag": "medium sideburns",
       "ja": "中くらいの長さのもみあげ",
-      "categoryId": "person-traits",
-      "subcategoryId": "skin-body",
+      "categoryId": "hair-head",
+      "subcategoryId": "hair-style-length",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15047,7 +14793,8 @@
         "batchOrder": 986,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15068,15 +14815,16 @@
         "batchOrder": 987,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5916",
       "tag": "mega pokemon",
       "ja": "メガシンカしたポケモン",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "categoryId": "flora-fauna",
+      "subcategoryId": "species",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15089,7 +14837,8 @@
         "batchOrder": 988,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15097,7 +14846,7 @@
       "tag": "megami magazine",
       "ja": "メガミマガジン",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "brands-organizations",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15110,7 +14859,8 @@
         "batchOrder": 989,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15118,7 +14868,7 @@
       "tag": "megaphone",
       "ja": "メガホン",
       "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "subcategoryId": "tools-weapons",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15131,7 +14881,8 @@
         "batchOrder": 990,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15152,7 +14903,8 @@
         "batchOrder": 991,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15173,7 +14925,8 @@
         "batchOrder": 992,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15181,7 +14934,7 @@
       "tag": "meitantei conan",
       "ja": "名探偵コナン",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "works-series",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15194,28 +14947,8 @@
         "batchOrder": 993,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
-      }
-    },
-    {
-      "id": "legacy-5926",
-      "tag": "meito (maze)",
-      "ja": "Meito（迷路）",
-      "categoryId": "character-work",
-      "subcategoryId": "characters",
-      "aliases": [],
-      "keywords": [],
-      "promptTarget": null,
-      "rating": null,
-      "reviewStatus": "provisional",
-      "sourceIds": [],
-      "migration": {
-        "source": "legacy-unclassified-batch-01",
-        "legacyIndex": 5926,
-        "batchOrder": 994,
-        "legacyCategory": "未分類",
-        "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15223,7 +14956,7 @@
       "tag": "melon",
       "ja": "メロン",
       "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "subcategoryId": "food-drink",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15236,7 +14969,8 @@
         "batchOrder": 995,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15244,7 +14978,7 @@
       "tag": "melon bread",
       "ja": "メロンパン",
       "categoryId": "objects-equipment",
-      "subcategoryId": "daily-items",
+      "subcategoryId": "food-drink",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15257,7 +14991,8 @@
         "batchOrder": 996,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15265,7 +15000,7 @@
       "tag": "melonbooks",
       "ja": "メロンブックス",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "brands-organizations",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15278,13 +15013,14 @@
         "batchOrder": 997,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5932",
       "tag": "melting",
-      "ja": "溶ける",
+      "ja": "溶ける・融解する視覚効果",
       "categoryId": "lighting-effects",
       "subcategoryId": "particles-atmosphere",
       "aliases": [],
@@ -15299,15 +15035,16 @@
         "batchOrder": 998,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
       "id": "legacy-5935",
       "tag": "melty blood",
-      "ja": "溶けた血",
+      "ja": "メルティブラッド",
       "categoryId": "character-work",
-      "subcategoryId": "characters",
+      "subcategoryId": "works-series",
       "aliases": [],
       "keywords": [],
       "promptTarget": null,
@@ -15320,7 +15057,8 @@
         "batchOrder": 999,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15341,7 +15079,8 @@
         "batchOrder": 1000,
         "legacyCategory": "未分類",
         "legacySubcategory": "未分類",
-        "note": "タグ文字列に基づく暫定的な意味分類。日本語訳・分類・タグの適用範囲を公開前に要確認。"
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     },
     {
@@ -15716,6 +15455,28 @@
         "legacySubcategory": "未分類",
         "note": "意味・用法を確認して暫定分類。固有名詞・作品名は日本語表記を修正。公開前に出典と適用範囲を再確認。",
         "reviewBatch": "review-010"
+      }
+    },
+    {
+      "id": "legacy-5851",
+      "tag": "mating press",
+      "ja": "マティングプレス",
+      "categoryId": "pose-action",
+      "subcategoryId": "contact-interaction",
+      "aliases": [],
+      "keywords": [],
+      "promptTarget": null,
+      "rating": null,
+      "reviewStatus": "provisional",
+      "sourceIds": [],
+      "migration": {
+        "source": "legacy-unclassified-batch-01",
+        "legacyIndex": 5851,
+        "batchOrder": 952,
+        "legacyCategory": "未分類",
+        "legacySubcategory": "未分類",
+        "note": "意味・用法を確認して暫定分類。翻訳・分類は公開前に出典と適用範囲を再確認。",
+        "reviewBatch": "review-011"
       }
     }
   ]
