@@ -200,7 +200,7 @@ async function main(){
       throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
     }
   }
-  const outputPath=resolve(root,"data/tag-classification-candidates.json");
+  // This generator audits legacy-category migration candidates. The site-facing\n  // tag-classification-candidates.json is a separate curated queue built from\n  // unclassified-review-batch-*.json and must never be overwritten here.\n  if(args.has("--check-only")){\n    console.log("Legacy classification candidate rules and taxonomy are valid.");\n    return;\n  }\n  const outputPath=resolve(root,"data/tag-classification-candidates.json");
   const serialized=JSON.stringify(report,null,2)+"\n";
   console.log("Classification candidate audit");
   console.log(JSON.stringify(report.summary));
