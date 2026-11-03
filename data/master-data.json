@@ -2,7 +2,7 @@
   "schema": "prompt-tag-dictionary-master-v1",
   "description": "辞典プロジェクトのJSON原本をファイル名単位で保持する統合マスター。各セクションの構造・履歴・監査データを変更せず格納する。",
   "sourceCommit": "2a0ce8bb1335699dec54e3b73fa84590b013d71c",
-  "generatedAt": "2026-11-03T13:57:06.657Z",
+  "generatedAt": "2026-11-03T14:11:09.938Z",
   "inventory": [
     {
       "file": "color-clothing-audit.json",
@@ -120,7 +120,7 @@
     },
     {
       "file": "translation-audit-candidates.json",
-      "bytes": 133257,
+      "bytes": 133356,
       "topLevel": "array",
       "entries": 444
     },
@@ -318296,7 +318296,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318309,7 +318309,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318322,7 +318322,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318335,7 +318335,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318348,7 +318348,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318361,7 +318361,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318374,7 +318374,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318387,7 +318387,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318400,7 +318400,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318413,7 +318413,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
@@ -318426,7 +318426,7 @@
           "unnatural-or-mixed-script"
         ],
         "confidence": "medium",
-        "status": "unreviewed",
+        "status": "machine-translation",
         "proposedJa": null
       },
       {
