@@ -31,7 +31,7 @@ else {
   const seen = new Set();
   for (let i = 0; i < exportData.tags.length; i++) {
     const row = exportData.tags[i];
-    if (!Array.isArray(row) || ![4, 6].includes(row.length) || row.slice(0, 4).some(v => typeof v !== "string") || (row.length === 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(v => typeof v !== "string")))) { errors.push("Invalid tag row at index " + i); continue; }
+    if (!Array.isArray(row) || ![4, 6, 7].includes(row.length) || row.slice(0, 4).some(v => typeof v !== "string") || (row.length >= 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(v => typeof v !== "string"))) || (row.length === 7 && (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])))) { errors.push("Invalid tag row at index " + i); continue; }
     const key = row[0].normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
     if (!key || seen.has(key)) errors.push("Empty or duplicate tag at index " + i + ": " + row[0]);
     seen.add(key);
