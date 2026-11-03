@@ -41,13 +41,17 @@ if (!Array.isArray(rows)) {
 for (let i = 0; i < rows.length; i++) {
   const row = rows[i];
   const label = "row " + (i + 1);
-  if (!Array.isArray(row) || row.length !== 4) {
-    errors.push(label + ": expected [tag, ja, major, minor]");
+  if (!Array.isArray(row) || ![4, 6].includes(row.length)) {
+    errors.push(label + ": expected [tag, ja, major, minor] with optional [detail, aliases]");
     continue;
   }
-  const [tag, ja, major, minor] = row;
+  const [tag, ja, major, minor, detail, aliases] = row;
   if ([tag, ja, major, minor].some(value => typeof value !== "string")) {
-    errors.push(label + ": all four fields must be strings");
+    errors.push(label + ": the first four fields must be strings");
+    continue;
+  }
+  if (row.length === 6 && (typeof detail !== "string" || !Array.isArray(aliases) || aliases.some(value => typeof value !== "string"))) {
+    errors.push(label + ": optional detail must be a string and aliases must be an array of strings");
     continue;
   }
   if (!tag.trim()) errors.push(label + ": empty tag");
