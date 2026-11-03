@@ -5,6 +5,7 @@ on:
     paths:
       - "data/dictionary-data.json"
       - "scripts/build-dictionary-data.mjs"
+      - "scripts/lib/rebuild-dictionary-data.mjs"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
@@ -39,6 +40,7 @@ on:
     paths:
       - "data/dictionary-data.json"
       - "scripts/build-dictionary-data.mjs"
+      - "scripts/lib/rebuild-dictionary-data.mjs"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
@@ -101,6 +103,8 @@ jobs:
         run: node --test tests/taxonomy-browser.test.mjs
       - name: Test dictionary UI layout
         run: node --test tests/ui-layout.test.mjs
+      - name: Check shared dictionary rebuild helper syntax
+        run: node --check scripts/lib/rebuild-dictionary-data.mjs
       - name: Check category automation script syntax
         run: node --check scripts/apply-safe-category-candidates.mjs
       - name: Check metadata review generator syntax

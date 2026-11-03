@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Set(process.argv.slice(2));
@@ -212,7 +213,7 @@ async function main(){
   console.log("Classification candidate audit");
   console.log(JSON.stringify(report.summary));
   if(new Set(report.entries.map(x=>x.tag)).size!==report.entries.length) throw new Error("Duplicate candidate tags");
-  if(args.has("--write")){await writeFile(outputPath,serialized,"utf8");console.log("Wrote data/tag-classification-candidates.json");}
+  if(args.has("--write")){await writeFile(outputPath,serialized,"utf8");await rebuildDictionaryData(root);console.log("Wrote data/tag-classification-candidates.json and rebuilt data/dictionary-data.json");}
   else{
     const current=await readFile(outputPath,"utf8").catch(()=>"");
     const stable=value=>JSON.stringify(value,(_,item)=>{
