@@ -78,7 +78,7 @@ try {
   originals.set("data/dictionary-data.json", await readFile(resolve(root, "data/dictionary-data.json")));
   for (const [path, value] of targets) {
     const temp = resolve(root, path + ".admin-export.tmp");
-    await writeFile(temp, JSON.stringify(value, null, 2) + "\\n", "utf8");
+    await writeFile(temp, JSON.stringify(value, null, 2) + "\n", "utf8");
     temps.push([temp, resolve(root, path)]);
   }
   for (const [temp, destination] of temps) await rename(temp, destination);
