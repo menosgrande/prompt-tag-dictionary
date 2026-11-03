@@ -74,7 +74,10 @@ function classifyQuality(tag) {
 }
 
 export function classifyLegacyRow(row) {
-  if (!Array.isArray(row) || row.length !== 4) throw new Error("Expected [tag, ja, major, minor]");
+  if (!Array.isArray(row) || ![4, 6].includes(row.length) || row.slice(0, 4).some(value => typeof value !== "string") ||
+      (row.length === 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(value => typeof value !== "string")))) {
+    throw new Error("Expected [tag, ja, major, minor] with optional [detail, aliases]");
+  }
   const [tag, , major, minor] = row;
   if (major === "未分類") return null;
   // Clothing items must not inherit a person/body-parts category from legacy data.

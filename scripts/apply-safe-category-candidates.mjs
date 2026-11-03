@@ -45,7 +45,7 @@ for (let n = 1; n <= 12; n++) {
     const i = index.get(value[0]);
     if (i === undefined) continue;
     const row = tags[i];
-    if (!Array.isArray(row) || row.length !== 4 || row[2] !== "未分類" || row[3] !== "未分類") continue;
+    if (!Array.isArray(row) || ![4, 6].includes(row.length) || row[2] !== "未分類" || row[3] !== "未分類") continue;
     if (!allowed[major]?.includes(minor)) continue;
     const prior = review.entries[value[0]] || {};
     if (["verified", "needs-review"].includes(prior.classificationStatus)) continue;
