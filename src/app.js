@@ -234,7 +234,7 @@
     const guess = inferDetail(t, major, minor);
     return [major, minor, choices.includes(guess) ? guess : choices.includes("その他") ? "その他" : choices[0]];
   }  const UNKNOWN_SOURCE = "unknown";
-  const SEED_SOURCE = "seed:data/tags.json";
+  const SEED_SOURCE = "seed:master-data.json#tags.json";
   let lastMergeStats = null;
 
   function normalizeSource(value) {

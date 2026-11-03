@@ -43,7 +43,7 @@ function movePromptCategory(index,delta){
  const next=index+delta;if(next<0||next>=state.promptOrder.categories.length)return;
  const rows=state.promptOrder.categories;[rows[index],rows[next]]=[rows[next],rows[index]];
  rows.forEach((row,i)=>row.order=i+1);persist();renderPromptOrder();
- $("#prompt-order-status").textContent="並び順をこの端末に保存しました。JSON出力後、data/prompt-order-categories.json に反映してください。";
+ $("#prompt-order-status").textContent="並び順をこの端末に保存しました。JSON出力後、管理用エクスポートをマスターJSONへ適用してください。";
 }
 function resetPromptOrder(){
  if(!initialPromptOrder){$("#prompt-order-status").textContent="初期順を復元できません。ページを再読み込みしてください。";return;}
@@ -53,7 +53,7 @@ function resetPromptOrder(){
 function exportPromptOrder(){
  const output={...state.promptOrder,categories:state.promptOrder.categories.map((c,i)=>({...c,order:i+1}))};
  download("prompt-order-categories.json",output);
- $("#prompt-order-status").textContent="prompt-order-categories.json を出力しました。これをリポジトリの data/ に反映してください。";
+ $("#prompt-order-status").textContent="prompt-order-categories.json を出力しました。この設定を管理用エクスポート経由でマスターJSONへ反映してください。";
 }
 function exportAdminBundle(){
  if(state.dirty){$("#export-status").textContent="未保存の入力があります。先に「変更を保存」を押してください。";return;}
