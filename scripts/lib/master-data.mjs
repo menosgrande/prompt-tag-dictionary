@@ -20,15 +20,17 @@ export async function readMasterSource(root, filename) {
 export async function writeMasterSources(root, updates) {
   const master = await readMaster(root);
   for (const [filename, value] of Object.entries(updates)) {
-    if (!Object.hasOwn(master.sources, filename)) throw new Error("Cannot add unknown master source: " + filename);
     master.sources[filename] = value;
-    const inventory = master.inventory.find(item => item.file === filename);
-    if (inventory) {
-      const serialized = JSON.stringify(value, null, 2) + "\n";
-      inventory.bytes = Buffer.byteLength(serialized);
-      inventory.topLevel = Array.isArray(value) ? "array" : typeof value;
-      inventory.entries = Array.isArray(value) ? value.length : Object.keys(value).length;
-    }
+    const serialized = JSON.stringify(value, null, 2) + "\n";
+    const metadata = {
+      file: filename,
+      bytes: Buffer.byteLength(serialized),
+      topLevel: Array.isArray(value) ? "array" : typeof value,
+      entries: Array.isArray(value) ? value.length : Object.keys(value).length
+    };
+    const index = master.inventory.findIndex(item => item.file === filename);
+    if (index >= 0) master.inventory[index] = metadata;
+    else master.inventory.push(metadata);
   }
   master.generatedAt = new Date().toISOString();
   await writeFile(resolve(root, MASTER_PATH), JSON.stringify(master, null, 2) + "\n", "utf8");
