@@ -1,0 +1,767 @@
+[
+  {
+    "id": "quality-negative",
+    "nameJa": "品質・ネガティブ",
+    "nameEn": "Quality & Negative",
+    "description": "品質・仕上がりの評価、描画上の問題、不要要素の除外指定。Positive / Negativeの出力先はタグ属性で管理する。",
+    "order": 1,
+    "subcategories": [
+      {
+        "id": "quality",
+        "nameJa": "品質・評価",
+        "nameEn": "Quality",
+        "description": "品質や完成度を示す評価語。"
+      },
+      {
+        "id": "detail-resolution",
+        "nameJa": "精細さ・解像",
+        "nameEn": "Detail & Resolution",
+        "description": "細部の精密さ、解像感、描写密度。"
+      },
+      {
+        "id": "artifacts-defects",
+        "nameJa": "描画破綻・ノイズ",
+        "nameEn": "Artifacts & Defects",
+        "description": "ノイズ、ぼけ、破綻、崩れなどの描画上の問題。"
+      },
+      {
+        "id": "anatomy-defects",
+        "nameJa": "身体・構造の破綻",
+        "nameEn": "Anatomical & Structural Defects",
+        "description": "手指・身体構造・物体形状などの破綻。"
+      },
+      {
+        "id": "exclusions",
+        "nameJa": "不要要素の除外",
+        "nameEn": "Exclusions",
+        "description": "不要な人物・物体・文字・透かしなどの除外指定。"
+      }
+    ]
+  },
+  {
+    "id": "subject-count",
+    "nameJa": "人数・被写体構成",
+    "nameEn": "Subject Count & Arrangement",
+    "description": "画面に含まれる被写体の数や組み合わせ、主役と脇役などの構成。画面内の位置・画角は構図・カメラに分類する。",
+    "order": 2,
+    "subcategories": [
+      {
+        "id": "single-subject",
+        "nameJa": "単独・1人",
+        "nameEn": "Single Subject",
+        "description": "単独の人物・被写体を示す語。"
+      },
+      {
+        "id": "two-subjects",
+        "nameJa": "2人・2体",
+        "nameEn": "Two Subjects",
+        "description": "2人または2体の組み合わせ。"
+      },
+      {
+        "id": "multiple-subjects",
+        "nameJa": "複数人・複数体",
+        "nameEn": "Multiple Subjects",
+        "description": "3人以上など複数の被写体。"
+      },
+      {
+        "id": "crowds",
+        "nameJa": "群衆",
+        "nameEn": "Crowds",
+        "description": "群衆や大人数の集まり。"
+      },
+      {
+        "id": "subject-combinations",
+        "nameJa": "被写体の組み合わせ",
+        "nameEn": "Subject Combinations",
+        "description": "主役・脇役、人物と動物など被写体の構成。"
+      }
+    ]
+  },
+  {
+    "id": "character-work",
+    "nameJa": "キャラクター・作品",
+    "nameEn": "Characters & Works",
+    "description": "作品・シリーズ・キャラクター・作者・ブランド・団体など、固有名詞を中心とするタグ。",
+    "order": 3,
+    "subcategories": [
+      {
+        "id": "works-series",
+        "nameJa": "作品・シリーズ",
+        "nameEn": "Works & Series",
+        "description": "漫画、アニメ、ゲームなどの作品名・シリーズ名。"
+      },
+      {
+        "id": "characters",
+        "nameJa": "キャラクター",
+        "nameEn": "Characters",
+        "description": "作品に登場する固有のキャラクター名。"
+      },
+      {
+        "id": "authors-creators",
+        "nameJa": "作者・制作者",
+        "nameEn": "Authors & Creators",
+        "description": "作者、イラストレーター、制作者などの固有名。"
+      },
+      {
+        "id": "brands-organizations",
+        "nameJa": "ブランド・団体",
+        "nameEn": "Brands & Organizations",
+        "description": "ブランド、企業、団体などの固有名。"
+      }
+    ]
+  },
+  {
+    "id": "person-traits",
+    "nameJa": "人物の特徴",
+    "nameEn": "Person Attributes",
+    "description": "人物の属性・体格・身体的特徴・人間型の種族や役割。顔面のパーツ・表情と髪・頭部の特徴は別分類。",
+    "order": 4,
+    "subcategories": [
+      {
+        "id": "age-gender",
+        "nameJa": "年齢・性別表現",
+        "nameEn": "Age & Gender",
+        "description": "年齢層や性別表現。"
+      },
+      {
+        "id": "body-build",
+        "nameJa": "体格・体型",
+        "nameEn": "Body Build",
+        "description": "身長、体格、体型、身体の比率。"
+      },
+      {
+        "id": "skin-body",
+        "nameJa": "肌・身体的特徴",
+        "nameEn": "Skin & Physical Traits",
+        "description": "肌、身体の特徴、身体部位に関する属性。"
+      },
+      {
+        "id": "species",
+        "nameJa": "種族・人外属性",
+        "nameEn": "Species & Nonhuman Traits",
+        "description": "人間型キャラクターの種族、人外属性、獣人など。"
+      },
+      {
+        "id": "occupation-role",
+        "nameJa": "職業・役割",
+        "nameEn": "Occupation & Role",
+        "description": "職業、立場、役割、一般的な属性。"
+      }
+    ]
+  },
+  {
+    "id": "face-expression",
+    "nameJa": "顔・表情",
+    "nameEn": "Face & Expression",
+    "description": "顔のパーツ、目、視線、口、表情、顔面の化粧・傷・模様。",
+    "order": 5,
+    "subcategories": [
+      {
+        "id": "expressions-emotions",
+        "nameJa": "表情・感情",
+        "nameEn": "Expressions & Emotions",
+        "description": "笑顔、怒り、悲しみなど表情・感情。"
+      },
+      {
+        "id": "eyes-gaze",
+        "nameJa": "目・瞳・視線",
+        "nameEn": "Eyes & Gaze",
+        "description": "目の形・色ではなく目の特徴、瞳、視線。"
+      },
+      {
+        "id": "mouth-teeth",
+        "nameJa": "口・唇・歯",
+        "nameEn": "Mouth, Lips & Teeth",
+        "description": "口、唇、歯、舌など顔の口周辺。"
+      },
+      {
+        "id": "facial-features",
+        "nameJa": "眉・鼻・輪郭",
+        "nameEn": "Facial Features",
+        "description": "眉、鼻、頬、輪郭など。"
+      },
+      {
+        "id": "facial-makeup-marks",
+        "nameJa": "顔の化粧・装飾・傷",
+        "nameEn": "Facial Makeup & Marks",
+        "description": "化粧、顔面装飾、傷、顔の模様。"
+      }
+    ]
+  },
+  {
+    "id": "hair-head",
+    "nameJa": "髪・頭部",
+    "nameEn": "Hair & Head",
+    "description": "髪型・髪質・前髪・頭部装飾・耳・角など頭部領域。顔の表情や顔面化粧は含めない。",
+    "order": 6,
+    "subcategories": [
+      {
+        "id": "hair-style-length",
+        "nameJa": "髪型・長さ",
+        "nameEn": "Hairstyle & Length",
+        "description": "髪型、髪の長さ、まとめ方。"
+      },
+      {
+        "id": "hair-bangs-parting",
+        "nameJa": "前髪・分け目",
+        "nameEn": "Bangs & Parting",
+        "description": "前髪、分け目、生え際。"
+      },
+      {
+        "id": "hair-texture-state",
+        "nameJa": "髪質・状態",
+        "nameEn": "Hair Texture & State",
+        "description": "髪質、ウェーブ、乱れ、濡れなど。"
+      },
+      {
+        "id": "head-accessories",
+        "nameJa": "頭部アクセサリー",
+        "nameEn": "Head Accessories",
+        "description": "帽子、ヘッドドレス、髪飾りなど。"
+      },
+      {
+        "id": "ears-horns-head",
+        "nameJa": "耳・角・頭部の特徴",
+        "nameEn": "Ears, Horns & Head Traits",
+        "description": "耳、角、頭部の非顔面特徴。"
+      }
+    ]
+  },
+  {
+    "id": "clothing-accessories",
+    "nameJa": "服装・装飾",
+    "nameEn": "Clothing & Accessories",
+    "description": "身体に着用・装着する衣服、靴、アクセサリー、防具。手に持つ道具や周囲の物品は含めない。",
+    "order": 7,
+    "subcategories": [
+      {
+        "id": "upper-body-clothing",
+        "nameJa": "上半身の衣服",
+        "nameEn": "Upper-body Clothing",
+        "description": "シャツ、ジャケット、上着など。"
+      },
+      {
+        "id": "lower-body-clothing",
+        "nameJa": "下半身の衣服",
+        "nameEn": "Lower-body Clothing",
+        "description": "ズボン、スカートなど。"
+      },
+      {
+        "id": "full-body-uniforms",
+        "nameJa": "全身衣装・制服",
+        "nameEn": "Full-body Outfits & Uniforms",
+        "description": "ドレス、着ぐるみ、制服など全身を構成する衣装。"
+      },
+      {
+        "id": "underwear-swimwear",
+        "nameJa": "下着・水着",
+        "nameEn": "Underwear & Swimwear",
+        "description": "下着、水着、関連衣類。"
+      },
+      {
+        "id": "footwear",
+        "nameJa": "靴・靴下",
+        "nameEn": "Footwear",
+        "description": "靴、ブーツ、靴下など。"
+      },
+      {
+        "id": "accessories",
+        "nameJa": "アクセサリー・装飾",
+        "nameEn": "Accessories",
+        "description": "身体に身につける装飾品。"
+      },
+      {
+        "id": "wearable-equipment",
+        "nameJa": "防具・装着装備",
+        "nameEn": "Wearable Equipment",
+        "description": "鎧、身につける装備、保護具。"
+      }
+    ]
+  },
+  {
+    "id": "pose-action",
+    "nameJa": "ポーズ・動作",
+    "nameEn": "Pose & Action",
+    "description": "身体の姿勢、動き、ジェスチャー、接触を伴う動作。場面や関係性そのものはシチュエーションへ。",
+    "order": 8,
+    "subcategories": [
+      {
+        "id": "standing-walking",
+        "nameJa": "立つ・歩く",
+        "nameEn": "Standing & Walking",
+        "description": "立位、歩行、走行など。"
+      },
+      {
+        "id": "sitting-kneeling",
+        "nameJa": "座る・しゃがむ・跪く",
+        "nameEn": "Sitting & Kneeling",
+        "description": "座る、しゃがむ、跪く姿勢。"
+      },
+      {
+        "id": "lying-resting",
+        "nameJa": "寝る・横たわる",
+        "nameEn": "Lying & Resting",
+        "description": "横たわる、寝る、休む姿勢。"
+      },
+      {
+        "id": "hands-arms",
+        "nameJa": "手・指・腕の動き",
+        "nameEn": "Hand, Finger & Arm Actions",
+        "description": "手指や腕の動き、ジェスチャー。"
+      },
+      {
+        "id": "legs-feet",
+        "nameJa": "脚・足の動き",
+        "nameEn": "Leg & Foot Actions",
+        "description": "脚や足の動き、足取り。"
+      },
+      {
+        "id": "body-sports",
+        "nameJa": "身体動作・スポーツ",
+        "nameEn": "Body Actions & Sports",
+        "description": "運動、踊り、スポーツなど身体全体の動作。"
+      },
+      {
+        "id": "contact-interaction",
+        "nameJa": "接触・対人動作",
+        "nameEn": "Contact & Interaction",
+        "description": "抱擁、手をつなぐなど身体接触を伴う動作。"
+      }
+    ]
+  },
+  {
+    "id": "situation-relationship",
+    "nameJa": "シチュエーション・関係性",
+    "nameEn": "Situation & Relationships",
+    "description": "場面の意味、生活・仕事・学校・行事、人物間の関係性。場所や身体の具体的動作は別分類。",
+    "order": 9,
+    "subcategories": [
+      {
+        "id": "daily-life",
+        "nameJa": "日常・生活",
+        "nameEn": "Daily Life",
+        "description": "日常生活や家庭内の場面。"
+      },
+      {
+        "id": "school-work",
+        "nameJa": "学校・仕事",
+        "nameEn": "School & Work",
+        "description": "学校生活、職場、仕事上の状況。"
+      },
+      {
+        "id": "relationships",
+        "nameJa": "恋愛・家族・友人",
+        "nameEn": "Romance, Family & Friendship",
+        "description": "人物間の関係性や社会的つながり。"
+      },
+      {
+        "id": "events-ceremonies",
+        "nameJa": "行事・イベント",
+        "nameEn": "Events & Ceremonies",
+        "description": "祭り、式典、催事、季節行事。"
+      },
+      {
+        "id": "travel-outings",
+        "nameJa": "旅行・外出",
+        "nameEn": "Travel & Outings",
+        "description": "旅行、観光、外出などの状況。"
+      },
+      {
+        "id": "scene-context",
+        "nameJa": "場面・状況",
+        "nameEn": "Scene & Context",
+        "description": "特定の行為に限定されない場面設定。"
+      }
+    ]
+  },
+  {
+    "id": "background-location",
+    "nameJa": "背景・場所",
+    "nameEn": "Background & Location",
+    "description": "空間、場所、建物、自然環境、時間帯、季節、天候。空間内の個別物体は物品へ。",
+    "order": 10,
+    "subcategories": [
+      {
+        "id": "interior-rooms",
+        "nameJa": "室内・部屋",
+        "nameEn": "Interiors & Rooms",
+        "description": "部屋、室内空間、内装。"
+      },
+      {
+        "id": "buildings-facilities",
+        "nameJa": "建物・施設",
+        "nameEn": "Buildings & Facilities",
+        "description": "建築物、施設、建物の外観。"
+      },
+      {
+        "id": "urban-places",
+        "nameJa": "街・都市・交通空間",
+        "nameEn": "Urban & Transit Spaces",
+        "description": "街路、都市、駅、道路などの空間。"
+      },
+      {
+        "id": "nature-terrain",
+        "nameJa": "自然・地形・水辺",
+        "nameEn": "Nature, Terrain & Waters",
+        "description": "山、森、海、川など自然環境。"
+      },
+      {
+        "id": "sky-space-fantasy",
+        "nameJa": "空・宇宙・異世界環境",
+        "nameEn": "Sky, Space & Otherworlds",
+        "description": "空、宇宙、異世界などの環境。"
+      },
+      {
+        "id": "time-season-weather",
+        "nameJa": "時間帯・季節・天候",
+        "nameEn": "Time, Season & Weather",
+        "description": "昼夜、季節、天候など環境条件。"
+      }
+    ]
+  },
+  {
+    "id": "objects-equipment",
+    "nameJa": "家具・設備・物品",
+    "nameEn": "Objects, Furniture & Equipment",
+    "description": "家具、設備、日用品、道具、武器、楽器、食べ物・飲み物など個別の物体。",
+    "order": 11,
+    "subcategories": [
+      {
+        "id": "furniture",
+        "nameJa": "家具・室内用品",
+        "nameEn": "Furniture",
+        "description": "椅子、机、ベッドなど家具や室内用品。"
+      },
+      {
+        "id": "appliances-fixtures",
+        "nameJa": "家電・設備",
+        "nameEn": "Appliances & Fixtures",
+        "description": "家電、照明器具、設備など。"
+      },
+      {
+        "id": "daily-items",
+        "nameJa": "日用品・小物",
+        "nameEn": "Daily Items & Small Objects",
+        "description": "日用品、携帯品、小物。"
+      },
+      {
+        "id": "tools-weapons",
+        "nameJa": "道具・武器",
+        "nameEn": "Tools & Weapons",
+        "description": "工具、器具、武器など。"
+      },
+      {
+        "id": "musical-instruments",
+        "nameJa": "楽器",
+        "nameEn": "Musical Instruments",
+        "description": "楽器、音響機材。"
+      },
+      {
+        "id": "food-drink",
+        "nameJa": "食べ物・飲み物",
+        "nameEn": "Food & Drink",
+        "description": "食品、料理、飲料。"
+      },
+      {
+        "id": "other-objects",
+        "nameJa": "その他の物品",
+        "nameEn": "Other Objects",
+        "description": "上記に該当しない個別の物体。"
+      }
+    ]
+  },
+  {
+    "id": "vehicles",
+    "nameJa": "乗り物",
+    "nameEn": "Vehicles",
+    "description": "実際の車両・乗り物。模型・玩具・ミニチュアが主題の場合は物品に分類する。",
+    "order": 12,
+    "subcategories": [
+      {
+        "id": "cars-motorcycles",
+        "nameJa": "自動車・二輪車",
+        "nameEn": "Cars & Motorcycles",
+        "description": "自動車、バイク、自転車など。"
+      },
+      {
+        "id": "rail-transit",
+        "nameJa": "鉄道・路面交通",
+        "nameEn": "Rail & Ground Transit",
+        "description": "列車、地下鉄、路面電車など。"
+      },
+      {
+        "id": "aircraft",
+        "nameJa": "航空機",
+        "nameEn": "Aircraft",
+        "description": "飛行機、ヘリコプターなど。"
+      },
+      {
+        "id": "watercraft",
+        "nameJa": "船舶",
+        "nameEn": "Watercraft",
+        "description": "船、ボートなど。"
+      },
+      {
+        "id": "fictional-space-vehicles",
+        "nameJa": "架空・宇宙の乗り物",
+        "nameEn": "Fictional & Space Vehicles",
+        "description": "架空世界・宇宙空間の乗り物。"
+      },
+      {
+        "id": "other-vehicles",
+        "nameJa": "その他の乗り物",
+        "nameEn": "Other Vehicles",
+        "description": "上記に該当しない乗り物。"
+      }
+    ]
+  },
+  {
+    "id": "composition-camera",
+    "nameJa": "構図・カメラ",
+    "nameEn": "Composition & Camera",
+    "description": "撮影範囲、画角、視点、アングル、レンズ、遠近、フレーミング。人物の姿勢や動作は含めない。",
+    "order": 13,
+    "subcategories": [
+      {
+        "id": "shot-size",
+        "nameJa": "撮影範囲・ショット",
+        "nameEn": "Shot Size",
+        "description": "クローズアップ、全身、遠景など撮影範囲。"
+      },
+      {
+        "id": "camera-angle",
+        "nameJa": "カメラ角度・アングル",
+        "nameEn": "Camera Angle",
+        "description": "俯瞰、煽り、正面、斜めなど。"
+      },
+      {
+        "id": "viewpoint-pov",
+        "nameJa": "視点・POV",
+        "nameEn": "Viewpoint & POV",
+        "description": "一人称視点、視点位置など。"
+      },
+      {
+        "id": "framing-layout",
+        "nameJa": "フレーミング・画面配置",
+        "nameEn": "Framing & Layout",
+        "description": "画面内の配置、余白、トリミングなど。"
+      },
+      {
+        "id": "lens-focal-length",
+        "nameJa": "レンズ・焦点距離",
+        "nameEn": "Lens & Focal Length",
+        "description": "レンズ特性、焦点距離など。"
+      },
+      {
+        "id": "depth-of-field",
+        "nameJa": "被写界深度・ボケ",
+        "nameEn": "Depth of Field & Bokeh",
+        "description": "被写界深度、背景ボケなど。"
+      },
+      {
+        "id": "perspective",
+        "nameJa": "遠近・パース",
+        "nameEn": "Perspective",
+        "description": "遠近法、パース、歪みなど。"
+      }
+    ]
+  },
+  {
+    "id": "style-rendering",
+    "nameJa": "画風・描写",
+    "nameEn": "Style & Rendering",
+    "description": "媒体、画材、作風、線・塗り、質感、描画技法。品質評価や照明効果とは分ける。",
+    "order": 14,
+    "subcategories": [
+      {
+        "id": "anime-manga",
+        "nameJa": "アニメ・漫画",
+        "nameEn": "Anime & Manga",
+        "description": "アニメ調、漫画表現など。"
+      },
+      {
+        "id": "illustration-painting",
+        "nameJa": "イラスト・絵画",
+        "nameEn": "Illustration & Painting",
+        "description": "イラスト、絵画などの表現様式。"
+      },
+      {
+        "id": "photo-realism",
+        "nameJa": "写真・写実",
+        "nameEn": "Photography & Realism",
+        "description": "写真表現、写実表現。"
+      },
+      {
+        "id": "3d-cg",
+        "nameJa": "3D・CG",
+        "nameEn": "3D & CG",
+        "description": "3Dレンダリング、CG表現。"
+      },
+      {
+        "id": "medium-material",
+        "nameJa": "画材・媒体",
+        "nameEn": "Medium & Materials",
+        "description": "水彩、油彩、鉛筆など画材・媒体。"
+      },
+      {
+        "id": "line-coloring",
+        "nameJa": "線画・塗り",
+        "nameEn": "Linework & Coloring",
+        "description": "線の処理、塗り方、陰影の描き方。"
+      },
+      {
+        "id": "texture-technique",
+        "nameJa": "質感・描写技法",
+        "nameEn": "Texture & Rendering Techniques",
+        "description": "質感表現、描写技法、表現上の処理。"
+      }
+    ]
+  },
+  {
+    "id": "lighting-effects",
+    "nameJa": "光・演出",
+    "nameEn": "Lighting & Effects",
+    "description": "光源、照明、影、発光、粒子、煙、霧、レンズ効果など光学的・視覚的演出。色名や色値は収録しない。",
+    "order": 15,
+    "subcategories": [
+      {
+        "id": "light-source",
+        "nameJa": "光源・照明",
+        "nameEn": "Light Sources & Lighting",
+        "description": "光源の種類、照明環境。"
+      },
+      {
+        "id": "light-direction-quality",
+        "nameJa": "光の方向・質",
+        "nameEn": "Light Direction & Quality",
+        "description": "逆光、側光、柔らかい光など。"
+      },
+      {
+        "id": "shadows",
+        "nameJa": "影・陰影",
+        "nameEn": "Shadows",
+        "description": "影、落ち影、陰影の状態。"
+      },
+      {
+        "id": "glow-rays",
+        "nameJa": "発光・光線",
+        "nameEn": "Glow & Light Rays",
+        "description": "発光、光線、光芒など。"
+      },
+      {
+        "id": "particles-atmosphere",
+        "nameJa": "粒子・煙・霧",
+        "nameEn": "Particles & Atmosphere",
+        "description": "粒子、煙、霧、霞などの演出。"
+      },
+      {
+        "id": "lens-screen-effects",
+        "nameJa": "レンズ効果・画面効果",
+        "nameEn": "Lens & Screen Effects",
+        "description": "レンズフレア、グレアなど画面上の効果。"
+      }
+    ]
+  },
+  {
+    "id": "flora-fauna",
+    "nameJa": "生物・動植物",
+    "nameEn": "Animals & Plants",
+    "description": "人物以外の動物、植物、菌類、架空生物。人間型キャラクターの種族・属性は人物の特徴を基本とする。",
+    "order": 16,
+    "subcategories": [
+      {
+        "id": "mammals",
+        "nameJa": "哺乳類",
+        "nameEn": "Mammals",
+        "description": "哺乳類の動物。"
+      },
+      {
+        "id": "birds",
+        "nameJa": "鳥類",
+        "nameEn": "Birds",
+        "description": "鳥類。"
+      },
+      {
+        "id": "aquatic-life",
+        "nameJa": "魚類・水生生物",
+        "nameEn": "Fish & Aquatic Life",
+        "description": "魚類、水生動物など。"
+      },
+      {
+        "id": "reptiles-insects",
+        "nameJa": "爬虫類・両生類・昆虫",
+        "nameEn": "Reptiles, Amphibians & Insects",
+        "description": "爬虫類、両生類、昆虫など。"
+      },
+      {
+        "id": "fantasy-creatures",
+        "nameJa": "架空生物",
+        "nameEn": "Fantasy Creatures",
+        "description": "人物型ではない架空の生物。"
+      },
+      {
+        "id": "plants-flowers",
+        "nameJa": "植物・花・樹木",
+        "nameEn": "Plants, Flowers & Trees",
+        "description": "植物、花、樹木など。"
+      },
+      {
+        "id": "organism-parts",
+        "nameJa": "生物の部位・状態",
+        "nameEn": "Organism Parts & States",
+        "description": "動植物の部位、成長段階、状態。"
+      }
+    ]
+  },
+  {
+    "id": "text-symbols",
+    "nameJa": "文字・記号",
+    "nameEn": "Text & Symbols",
+    "description": "画像内に描かれる文字、数字、ロゴ、看板、吹き出し、UI要素、記号。不要文字の除外は品質・ネガティブ側で扱う。",
+    "order": 17,
+    "subcategories": [
+      {
+        "id": "text-writing",
+        "nameJa": "文字・文章",
+        "nameEn": "Text & Writing",
+        "description": "文字、文章、書体、手書き文字。"
+      },
+      {
+        "id": "numbers-symbols",
+        "nameJa": "数字・記号",
+        "nameEn": "Numbers & Symbols",
+        "description": "数字、句読点、記号。"
+      },
+      {
+        "id": "logos-brandmarks",
+        "nameJa": "ロゴ・ブランド表記",
+        "nameEn": "Logos & Brand Marks",
+        "description": "ロゴやブランド表記。"
+      },
+      {
+        "id": "signs-labels",
+        "nameJa": "看板・ラベル",
+        "nameEn": "Signs & Labels",
+        "description": "看板、標識、ラベルなど。"
+      },
+      {
+        "id": "speech-bubbles",
+        "nameJa": "吹き出し・漫画表現",
+        "nameEn": "Speech Bubbles & Manga Elements",
+        "description": "吹き出し、効果音文字など漫画的表現。"
+      },
+      {
+        "id": "ui-screen",
+        "nameJa": "UI・画面表示",
+        "nameEn": "UI & Screen Elements",
+        "description": "画面表示、インターフェース要素。"
+      },
+      {
+        "id": "shapes-marks",
+        "nameJa": "図形・マーク",
+        "nameEn": "Shapes & Marks",
+        "description": "図形、紋章、マークなど。"
+      }
+    ]
+  }
+]
