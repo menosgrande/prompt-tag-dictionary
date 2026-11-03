@@ -62956,6 +62956,78 @@
       },
       "reason": "Fate公式サイトの日本語キャラクター表記に合わせて修正。人手の最終確認待ち。",
       "source": "https://fate-extella.jp/character/tamamonomae.html"
+    },
+    {
+      "tag": "chest of drawers",
+      "changedAt": "2026-11-03",
+      "fields": [
+        "major",
+        "minor"
+      ],
+      "before": {
+        "major": "人物",
+        "minor": "胸"
+      },
+      "after": {
+        "major": "その他",
+        "minor": "物"
+      },
+      "reason": "家具（チェスト・引き出し収納）を身体部位の「胸」に分類していた誤配置を修正。 意味に基づく手動確認済み。",
+      "source": "manual-semantic-audit"
+    },
+    {
+      "tag": "against tree",
+      "changedAt": "2026-11-03",
+      "fields": [
+        "major",
+        "minor"
+      ],
+      "before": {
+        "major": "その他",
+        "minor": "物"
+      },
+      "after": {
+        "major": "ポーズ・動作",
+        "minor": "姿勢"
+      },
+      "reason": "木にもたれる姿勢を物品カテゴリに分類していた誤配置を修正。 意味に基づく手動確認済み。",
+      "source": "manual-semantic-audit"
+    },
+    {
+      "tag": "amagi brilliant park",
+      "changedAt": "2026-11-03",
+      "fields": [
+        "major",
+        "minor"
+      ],
+      "before": {
+        "major": "背景・場所",
+        "minor": "自然"
+      },
+      "after": {
+        "major": "作品・キャラクター",
+        "minor": "作品名・シリーズ"
+      },
+      "reason": "作品・シリーズ名を背景・自然に分類していた誤配置を修正。 意味に基づく手動確認済み。",
+      "source": "manual-semantic-audit"
+    },
+    {
+      "tag": "2boys",
+      "changedAt": "2026-11-03",
+      "fields": [
+        "major",
+        "minor"
+      ],
+      "before": {
+        "major": "成人向け",
+        "minor": "身体・衣類"
+      },
+      "after": {
+        "major": "人物",
+        "minor": "人数"
+      },
+      "reason": "人物数タグを成人向けカテゴリに分類していた誤配置を修正。 意味に基づく手動確認済み。",
+      "source": "manual-semantic-audit"
     }
   ]
 }
