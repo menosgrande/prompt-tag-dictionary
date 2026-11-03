@@ -279,7 +279,7 @@
   },
   {
     "tag": "artoria pendragon (alter swimsuit rider) (fate)",
-    "ja": "アルトリア・ペンドラゴン〔オルタ〕（水着ライダー）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔オルタ／水着・ライダー〕（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -327,7 +327,7 @@
   },
   {
     "tag": "artoria pendragon (swimsuit ruler) (fate)",
-    "ja": "アルトリア・ペンドラゴン（水着ルーラー）（Fate）",
+    "ja": "アルトリア・ペンドラゴン〔水着・ルーラー〕（Fate）",
     "major": "作品・キャラクター",
     "minor": "キャラクター",
     "reasons": [
@@ -1339,13 +1339,14 @@
   },
   {
     "tag": "final fantasy vii remake",
-    "ja": "ファイナルファンタジーVII リメイク",
+    "ja": "ファイナルファンタジーVIIリメイク",
     "major": "作品・キャラクター",
     "minor": "作品名・シリーズ",
     "reasons": [
-      "english-remains-in-japanese"
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "status": "unreviewed",
     "proposedJa": null
   },
@@ -1538,6 +1539,149 @@
       "english-remains-in-japanese"
     ],
     "confidence": "low",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing butterfly",
+    "ja": "発光するbutterfly",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing eye",
+    "ja": "発光するeye",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing eyes",
+    "ja": "発光するeyes",
+    "major": "人物",
+    "minor": "目",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing flower",
+    "ja": "発光するflower",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing hair",
+    "ja": "発光するhair",
+    "major": "人物",
+    "minor": "頭髪",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing hand",
+    "ja": "発光するhand",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing horns",
+    "ja": "発光するhorns",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing sword",
+    "ja": "発光するsword",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing tattoo",
+    "ja": "発光するtattoo",
+    "major": "人物",
+    "minor": "身体・部位",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing weapon",
+    "ja": "発光するweapon",
+    "major": "その他",
+    "minor": "物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
+    "status": "unreviewed",
+    "proposedJa": null
+  },
+  {
+    "tag": "glowing wings",
+    "ja": "発光するwings",
+    "major": "その他",
+    "minor": "動物",
+    "reasons": [
+      "english-remains-in-japanese",
+      "unnatural-or-mixed-script"
+    ],
+    "confidence": "medium",
     "status": "unreviewed",
     "proposedJa": null
   },
