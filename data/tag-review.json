@@ -1679,10 +1679,10 @@
     },
     "chest of drawers": {
       "translationStatus": "unreviewed",
-      "classificationStatus": "provisional",
-      "reviewedAt": null,
-      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。",
-      "source": "category-audit-candidates-02.jsonl"
+      "classificationStatus": "verified",
+      "reviewedAt": "2026-11-03",
+      "note": "決定的キーワード規則による中程度の分類候補を仮適用。人手確認待ち。第3階層候補「要確認」は4項目のtags.json形式を維持するため未反映。 2026-11-03: タグの意味を確認し、明確な旧分類誤配置を修正。",
+      "source": "manual-semantic-audit"
     },
     "chest sarashi": {
       "translationStatus": "machine-translation",
@@ -11752,10 +11752,10 @@
     },
     "against tree": {
       "translationStatus": "machine-translation",
-      "classificationStatus": "unreviewed",
-      "reviewedAt": null,
-      "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。",
-      "source": null
+      "classificationStatus": "verified",
+      "reviewedAt": "2026-11-03",
+      "note": "英語タグを原文としてAI再翻訳を反映。人手の最終確認は未実施。 2026-11-03: タグの意味を確認し、明確な旧分類誤配置を修正。",
+      "source": "manual-semantic-audit"
     },
     "against wall": {
       "translationStatus": "machine-translation",
@@ -37551,6 +37551,20 @@
       "reviewedAt": null,
       "note": "Fate公式サイトの日本語キャラクター表記に合わせて修正。人手の最終確認待ち。",
       "source": "https://fate-extella.jp/character/tamamonomae.html"
+    },
+    "amagi brilliant park": {
+      "translationStatus": "unreviewed",
+      "classificationStatus": "verified",
+      "reviewedAt": "2026-11-03",
+      "note": "2026-11-03: タグの意味を確認し、明確な旧分類誤配置を修正。",
+      "source": "manual-semantic-audit"
+    },
+    "2boys": {
+      "translationStatus": "unreviewed",
+      "classificationStatus": "verified",
+      "reviewedAt": "2026-11-03",
+      "note": "2026-11-03: タグの意味を確認し、明確な旧分類誤配置を修正。",
+      "source": "manual-semantic-audit"
     }
   }
 }
