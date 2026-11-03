@@ -1,9 +1,10 @@
-import fs from "node:fs";
-import path from "node:path";
+import { writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
 
 const root = process.cwd();
-const rows = JSON.parse(fs.readFileSync(path.join(root, "data/tags.json"), "utf8"));
-const output = path.join(root, "data/tag-structure-audit.json");
+const rows = await readMasterSource(root, "tags.json");
+const output = resolve(root, "data/tag-structure-audit.json");
 const adjectives = ["very","too","slightly","extremely","long","short","big","small","large","huge","tiny","tall","wide","narrow","thick","thin","slim","slender","curvy","plump","muscular","pale","dark","light","bright","deep","soft","hard","smooth","rough","wet","dry","messy","neat","straight","curly","wavy","spiky","fluffy","shiny","glossy","matte","transparent","translucent","opaque","sheer","tight","loose","oversized","baggy","short-sleeved","long-sleeved","sleeveless","high","low","open","closed","half","partially","fully","bare","barely","colored","colourful","colorful","black","white","red","blue","green","yellow","orange","pink","purple","violet","brown","gray","grey","silver","gold","golden","blonde","navy","cyan","magenta","beige","ivory","cream","crimson","scarlet","burgundy","maroon","lavender","indigo","turquoise","teal","mint","emerald","coral","khaki"];
 const normalize = value => value.toLowerCase().trim().replace(/[_\s-]+/g, " ");
 const groupBy = (items, keyFn) => {
@@ -47,5 +48,6 @@ const result = {
   adjective_prefix_candidates: adjectivePrefixCandidates,
   japanese_translation_groups: translationGroups
 };
-fs.writeFileSync(output, JSON.stringify(result, null, 2) + "\n");
+await writeMasterSources(root, { "tag-structure-audit.json": result });
+await writeFile(output, JSON.stringify(result, null, 2) + "\n");
 console.log(JSON.stringify(result.summary));
