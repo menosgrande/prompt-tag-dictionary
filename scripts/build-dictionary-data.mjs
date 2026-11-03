@@ -10,9 +10,11 @@ const paths = {
   classificationCandidates: "tag-classification-candidates.json",
   promptOrder: "prompt-order-categories.json",
   tagGroups: "tag-groups.json",
-  nsfwAudit: "nsfw-prompt-tag-audit.json"
+  nsfwAudit: "nsfw-prompt-tag-audit.json",
+  adminReview: "tag-review.json",
+  adminChangeLog: "tag-change-log.json"
 };
-const [tags, taxonomy, classificationCandidates, promptOrder, tagGroups, nsfwAudit] = await Promise.all(
+const [tags, taxonomy, classificationCandidates, promptOrder, tagGroups, nsfwAudit, adminReview, adminChangeLog] = await Promise.all(
   Object.values(paths).map(name => readMasterSource(root, name))
 );
 if (!Array.isArray(tags) || taxonomy.schema !== "tag-taxonomy-v1" ||
