@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "data/dictionary-data.json"
+      - "scripts/build-dictionary-data.mjs"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
@@ -37,6 +38,7 @@ on:
   pull_request:
     paths:
       - "data/dictionary-data.json"
+      - "scripts/build-dictionary-data.mjs"
       - "data/tags.json"
       - "data/prompt-order-categories.json"
       - "data/tag-taxonomy.json"
@@ -77,6 +79,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Check runtime dictionary bundle is up to date
+        run: node scripts/build-dictionary-data.mjs --check
       - name: Check app syntax
         run: node --check src/app.js
       - name: Check admin syntax
