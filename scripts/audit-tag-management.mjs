@@ -1,12 +1,10 @@
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readMasterSource } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
-const tags = await readJson("data/tags.json");
-const review = await readJson("data/tag-review.json");
-const log = await readJson("data/tag-change-log.json");
+const [tags, review, log] = await Promise.all(["tags.json", "tag-review.json", "tag-change-log.json"].map(name => readMasterSource(root, name)));
 const errors = [];
 const normalize = value => String(value ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
 const tagIndex = new Map();
