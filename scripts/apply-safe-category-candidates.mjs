@@ -33,9 +33,9 @@ const index = new Map(tags.map((row, i) => [row?.[0], i]));
 const proposals = [];
 for (let n = 1; n <= 12; n++) {
   const name = "category-audit-candidates-" + String(n).padStart(2, "0") + ".jsonl";
-  const content = await readFile(resolve(root, "data", name), "utf8");
-  for (const line of content.split(/\r?\n/).filter(Boolean)) {
-    const value = JSON.parse(line);
+  const source = await readMasterSource(root, name);
+  if (!source || !Array.isArray(source.entries)) throw new Error("Invalid master candidate source: " + name);
+  for (const value of source.entries) {
     if (!Array.isArray(value) || value[4] !== "分類候補" || value[5] !== "medium" || value[2] !== null || !Array.isArray(value[3])) continue;
     const [major, minor, detail] = value[3];
     const i = index.get(value[0]);
