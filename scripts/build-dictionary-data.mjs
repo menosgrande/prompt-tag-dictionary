@@ -63,6 +63,7 @@ if (args.has("--write")) {
     const comparable = value => {
       const copy = structuredClone(value);
       delete copy.generatedAt;
+      if (copy.classificationCandidates) delete copy.classificationCandidates.generatedAt;
       return JSON.stringify(copy);
     };
     if (comparable(current) !== comparable(generated)) {
