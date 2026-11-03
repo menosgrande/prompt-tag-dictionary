@@ -1,4 +1,3 @@
-import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
@@ -84,7 +83,6 @@ export function collectCandidates(records, reviewEntries = {}) {
 async function main() {
 const rows = await readMasterSource(root, "tags.json");
 const review = await readMasterSource(root, "tag-review.json");
-const outputPath = resolve(root, "data/translation-audit-candidates.json");
 const args = new Set(process.argv.slice(2));
 
 if (!Array.isArray(rows)) {
@@ -114,11 +112,10 @@ for (const [reason, count] of Object.entries(counts).sort((a, b) => a[0].localeC
 
 if (args.has("--write")) {
   await writeMasterSources(root, { "translation-audit-candidates.json": candidates });
-  await writeFile(outputPath, serialized, "utf8");
-  console.log("Updated master-data.json and data/translation-audit-candidates.json");
+  console.log("Updated master-data.json");
 } else {
-  const existing = await readFile(outputPath, "utf8").catch(() => "");
-  if (existing !== serialized) {
+  const existing = await readMasterSource(root, "translation-audit-candidates.json").catch(() => null);
+  if (!existing || JSON.stringify(existing, null, 2) + "\n" !== serialized) {
     console.error("ERROR: translation audit report is stale. Run: node scripts/audit-translations.mjs --write");
     process.exitCode = 1;
   } else {
