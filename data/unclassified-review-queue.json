@@ -4,10 +4,13 @@
   "source": "Consolidated from unclassified-review-batch-01..04; stale entries excluded from active queue.",
   "policy": "Only unresolved entries for tags that still exist in data/tags.json are retained. Proposed classifications are stored separately in tag-classification-candidates.json.",
   "summary": {
-    "activeNeedsReview": 2342,
+    "unresolvedBatchEntries": 2342,
+    "additionalNeedsReviewInCandidateFile": 6,
+    "totalNeedsReview": 2348,
+    "proposedMovedToCandidateFile": 976,
     "excludedStale": 1,
     "sourceEntries": 3319,
-    "proposedMovedToCandidateFile": 976
+    "totalActiveUnclassified": 3318
   },
   "batchSummaries": [
     {
