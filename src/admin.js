@@ -56,7 +56,7 @@ function exportPromptOrder(){
  $("#prompt-order-status").textContent="prompt-order-categories.json を出力しました。これをリポジトリの data/ に反映してください。";
 }
 function exportAdminBundle(){
- if(state.dirty){if(!confirm("未保存の入力があります。先にタグの変更を保存してください。一括エクスポートを続けますか？"))return;}
+ if(state.dirty){$("#export-status").textContent="未保存の入力があります。先に「変更を保存」を押してください。";return;}
  const promptOrder={...state.promptOrder,categories:state.promptOrder.categories.map((c,i)=>({...c,order:i+1}))};
  const output={schema:"prompt-tag-admin-export-v1",schemaVersion:1,exportedAt:new Date().toISOString(),sourceFingerprint:state.sourceFingerprint,tags:state.tags,review:state.review,log:state.log,promptOrder};
  download("prompt-tag-admin-export.json",output);
