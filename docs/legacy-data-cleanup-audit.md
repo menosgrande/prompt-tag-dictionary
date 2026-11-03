@@ -89,3 +89,8 @@
 - 統合後、`tag-ja-overrides.json`、`tag-classification-candidates.json`、`unclassified-review-queue.json` の3ファイルを削除。
 
 以後、翻訳・分類候補の新規追加は分割ファイルではなく `tags.json` のタグ行メタデータへ直接反映する。未確定状態を維持し、確認済みへ自動昇格させない。
+
+
+## 2026-11-04 追記：正本統合後の運用
+
+初回監査・11月3日の記述は作業当時の履歴として残す。現在は翻訳候補・分類候補・未分類レビュー待ちを分割JSONから `data/tags.json` の第7項目へ移行済み。したがって、旧記述にある「アプリは tag-classification-candidates.json を読む」という依存関係は現在は存在しない。
