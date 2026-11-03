@@ -74,8 +74,7 @@ function classifyQuality(tag) {
 
 export function classifyLegacyRow(row) {
   if (!Array.isArray(row) || ![4, 6, 7].includes(row.length) || row.slice(0, 4).some(value => typeof value !== "string") ||
-      (row.length >= 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(value => typeof value !== "string"))) ||
-      (row.length === 7 && (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])))) {
+      (row.length >= 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(value => typeof value !== "string")))) {
     throw new Error("Expected [tag, ja, major, minor] with optional [detail, aliases]");
   }
   const [tag, , major, minor] = row;
