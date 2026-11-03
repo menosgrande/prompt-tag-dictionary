@@ -1,5 +1,6 @@
-import { readFile } from "node:fs/promises";
-const data = JSON.parse(await readFile(new URL("../data/prompt-order-categories.json", import.meta.url), "utf8"));
+import { readMasterSource } from "./lib/master-data.mjs";
+const root = new URL("..", import.meta.url).pathname;
+const data = await readMasterSource(root, "prompt-order-categories.json");
 if (!Array.isArray(data.categories) || data.categories.length === 0) throw new Error("At least one prompt output category is required.");
 const names = data.categories.map(x => x?.name);
 if (names[0] !== "品質・ネガティブ") throw new Error("Quality and score category must be first.");
