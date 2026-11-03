@@ -8,6 +8,7 @@
   let promptOrderOverrides = new Map();
   let promptTargetOverrides = new Map();
   let tagTaxonomy = null;
+  let dictionaryData = null;
   let classificationCandidates = new Map();
   const PAGE_SIZE = 100;
   function pageSize() { return PAGE_SIZE; }
@@ -339,11 +340,19 @@
     lastMergeStats = stats;
     return [...map.values()].sort((a, b) => a.tag.localeCompare(b.tag, "en", { sensitivity: "base" }));
   }
-  function seedTags() {
-    return fetch("./data/tags.json").then(r => {
-      if (!r.ok) throw new Error("seed data missing");
+  function seedDictionaryData() {
+    return fetch("./data/dictionary-data.json").then(r => {
+      if (!r.ok) throw new Error("dictionary data missing");
       return r.json();
-    }).then(rows => {
+    }).then(data => {
+      if (!data || data.schema !== "prompt-tag-dictionary-runtime-v1" || !Array.isArray(data.tags)) throw new Error("dictionary data invalid");
+      dictionaryData = data;
+      return data;
+    });
+  }
+  function seedTags() {
+    return Promise.resolve(dictionaryData?.tags).then(rows => {
+      if (!Array.isArray(rows)) throw new Error("dictionary tags missing");
       if (!Array.isArray(rows)) throw new Error("seed data is not an array");
       return rows.map(raw => {
         if (Array.isArray(raw)) {
@@ -359,10 +368,8 @@
     });
   }
   function seedPromptOrder() {
-    return fetch("./data/prompt-order-categories.json").then(r => {
-      if (!r.ok) throw new Error("prompt order data missing");
-      return r.json();
-    }).then(data => {
+    return Promise.resolve(dictionaryData?.promptOrder).then(data => {
+      if (!data) throw new Error("prompt order data missing");
       const entries = Array.isArray(data.overrides) ? data.overrides : [];
       const ordered = Array.isArray(data.categories) ? data.categories.slice().sort((a,b)=>(Number(a.order)||999)-(Number(b.order)||999)).map(x=>x&&x.name).filter(name=>typeof name==="string"&&name.trim()) : [];
       if (ordered.length) PROMPT_ORDER = [...new Set(ordered)];
@@ -371,30 +378,20 @@
     });
   }
   function seedTagGroups() {
-    return fetch("./data/tag-groups.json").then(r => {
-      if (!r.ok) throw new Error("tag groups missing");
-      return r.json();
-    }).then(data => Array.isArray(data) ? data : []);
+    return Promise.resolve(Array.isArray(dictionaryData?.tagGroups) ? dictionaryData.tagGroups : []);
   }
   function seedNsfwAudit() {
-    return fetch("./data/nsfw-prompt-tag-audit.json").then(r => {
-      if (!r.ok) throw new Error("NSFW audit data missing");
-      return r.json();
-    }).then(data => {
-      const rows = Array.isArray(data.candidates) ? data.candidates : [];
-      nsfwAudit = new Map(rows.filter(item => item && item.tag).map(item => [norm(item.tag), item]));
-    });
+    const rows = Array.isArray(dictionaryData?.nsfwAudit?.candidates) ? dictionaryData.nsfwAudit.candidates : [];
+    nsfwAudit = new Map(rows.filter(item => item && item.tag).map(item => [norm(item.tag), item]));
+    return Promise.resolve();
   }
   function seedTaxonomy() {
-    return Promise.all([
-      fetch("./data/tag-taxonomy.json"),
-      fetch("./data/tag-classification-candidates.json")
-    ]).then(async ([taxonomyResponse, candidatesResponse]) => {
-      if (!taxonomyResponse.ok || !candidatesResponse.ok) throw new Error("taxonomy data missing");
-      const [taxonomy, candidates] = await Promise.all([taxonomyResponse.json(), candidatesResponse.json()]);
-      tagTaxonomy = taxonomy;
-      classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
-    });
+    const taxonomy = dictionaryData?.taxonomy;
+    const candidates = dictionaryData?.classificationCandidates;
+    if (!taxonomy || !candidates) throw new Error("taxonomy data missing");
+    tagTaxonomy = taxonomy;
+    classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
+    return Promise.resolve();
   }
   function classificationOf(t) {
     return classificationCandidates.get(norm(t.tag)) || null;
@@ -1632,6 +1629,7 @@
       document.querySelectorAll("[data-admin-only]").forEach(el => { el.hidden = false; });
     }
     wire(); initColumnResizing(); populateCustomCategories();
+    try { await seedDictionaryData(); } catch (error) { setStatus("import-status", "辞典データを読み込めませんでした。", true); throw error; }
     try { tagGroups = await seedTagGroups(); } catch { tagGroups = []; }
     try { await seedNsfwAudit(); } catch { nsfwAudit = new Map(); }
     try { await seedPromptOrder(); } catch { promptOrderOverrides = new Map(); }
