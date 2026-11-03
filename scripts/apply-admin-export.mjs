@@ -2,6 +2,7 @@ import { readFile, writeFile, rename, unlink } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
+import { readMaster, writeMasterSources } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -14,9 +15,15 @@ if (write && args.includes("--check")) throw new Error("Use either --check or --
 const inputPath = resolve(process.cwd(), inputArg);
 const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
 const exportData = JSON.parse(await readFile(inputPath, "utf8"));
-const [bundle, currentReview, currentLog] = await Promise.all([
-  readJson("data/dictionary-data.json"), readJson("data/tag-review.json"), readJson("data/tag-change-log.json")
-]);
+const master = await readMaster(root);
+const source = name => {
+  if (!Object.hasOwn(master.sources, name)) throw new Error("Missing master source: " + name);
+  return master.sources[name];
+};
+const currentTags = source("tags.json");
+const currentPromptOrder = source("prompt-order-categories.json");
+const currentReview = source("tag-review.json");
+const currentLog = source("tag-change-log.json");
 function fingerprint(tags, promptOrder, review, log) {
   const source = JSON.stringify([tags, promptOrder, review, log]);
   let hash = 2166136261;
@@ -25,7 +32,7 @@ function fingerprint(tags, promptOrder, review, log) {
 }
 const errors = [];
 if (exportData.schema !== "prompt-tag-admin-export-v1" || exportData.schemaVersion !== 1) errors.push("Unsupported export schema.");
-if (typeof exportData.sourceFingerprint !== "string" || exportData.sourceFingerprint !== fingerprint(bundle.tags, bundle.promptOrder, currentReview, currentLog)) errors.push("Source fingerprint mismatch. Reload the admin page and export again; current source data has changed.");
+if (typeof exportData.sourceFingerprint !== "string" || exportData.sourceFingerprint !== fingerprint(currentTags, currentPromptOrder, currentReview, currentLog)) errors.push("Source fingerprint mismatch. Reload the admin page and export again; current source data has changed.");
 if (!Array.isArray(exportData.tags)) errors.push("tags must be an array.");
 else {
   const seen = new Set();
@@ -67,23 +74,24 @@ if (errors.length) { for (const error of errors) console.error("ERROR: " + error
 console.log("Admin export validated.");
 console.log("Tags: " + exportData.tags.length + "; review entries: " + Object.keys(review.entries).length + "; change records: " + log.changes.length + "; prompt categories: " + promptOrder.categories.length);
 if (check) { console.log("Check only; no files were changed. Use --write to apply."); process.exit(0); }
-const targets = [
-  ["data/tags.json", exportData.tags], ["data/tag-review.json", review],
-  ["data/tag-change-log.json", log], ["data/prompt-order-categories.json", promptOrder]
-];
+const masterPath = resolve(root, "data/master-data.json");
+const bundlePath = resolve(root, "data/dictionary-data.json");
 const originals = new Map();
-const temps = [];
 try {
-  for (const [path] of targets) originals.set(path, await readFile(resolve(root, path)));
-  originals.set("data/dictionary-data.json", await readFile(resolve(root, "data/dictionary-data.json")));
-  for (const [path, value] of targets) {
-    const temp = resolve(root, path + ".admin-export.tmp");
-    await writeFile(temp, JSON.stringify(value, null, 2) + "\n", "utf8");
-    temps.push([temp, resolve(root, path)]);
-  }
-  for (const [temp, destination] of temps) await rename(temp, destination);
+  originals.set(masterPath, await readFile(masterPath));
+  originals.set(bundlePath, await readFile(bundlePath));
+  await writeMasterSources(root, {
+    "tags.json": exportData.tags,
+    "tag-review.json": review,
+    "tag-change-log.json": log,
+    "prompt-order-categories.json": promptOrder
+  });
   await rebuildDictionaryData(root);
-  console.log("Applied all source files and rebuilt data/dictionary-data.json.");
+  console.log("Updated master-data.json and rebuilt data/dictionary-data.json.");
+} catch (error) {
+  for (const [path, bytes] of originals) await writeFile(path, bytes).catch(() => {});
+  throw new Error("Apply failed; master and runtime bundle were restored where possible. " + error.message);
+}
 } catch (error) {
   for (const [path, bytes] of originals) await writeFile(resolve(root, path), bytes).catch(() => {});
   for (const [temp] of temps) await unlink(temp).catch(() => {});
