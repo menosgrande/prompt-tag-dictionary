@@ -73,7 +73,7 @@ export function collectCandidates(records, reviewEntries = {}) {
     if (!reasons.length) continue;
     candidates.push({
       tag, ja, major, minor, reasons, confidence,
-      status: reviewEntries[tag]?.translationStatus ?? "unreviewed",
+      status: row[6]?.translation?.status ?? reviewEntries[tag]?.translationStatus ?? "unreviewed",
       proposedJa: null
     });
   }
@@ -83,7 +83,6 @@ export function collectCandidates(records, reviewEntries = {}) {
 async function main() {
 const rows = await readJson("data/tags.json");
 const review = await readJson("data/tag-review.json");
-const outputPath = resolve(root, "data/translation-audit-candidates.json");
 const args = new Set(process.argv.slice(2));
 
 if (!Array.isArray(rows)) {
@@ -111,18 +110,13 @@ for (const [reason, count] of Object.entries(counts).sort((a, b) => a[0].localeC
   console.log("  " + reason + ": " + count);
 }
 
+const statusCounts = Object.create(null);
+for (const item of candidates) statusCounts[item.status] = (statusCounts[item.status] || 0) + 1;
+console.log("Canonical translation statuses among audit findings: " + JSON.stringify(statusCounts));
 if (args.has("--write")) {
-  await writeFile(outputPath, serialized, "utf8");
-  console.log("Wrote data/translation-audit-candidates.json");
-} else {
-  const existing = await readFile(outputPath, "utf8").catch(() => "");
-  if (existing !== serialized) {
-    console.error("ERROR: translation audit report is stale. Run: node scripts/audit-translations.mjs --write");
-    process.exitCode = 1;
-  } else {
-    console.log("Audit report is up to date.");
-  }
+  throw new Error("Translation audit sidecar has been retired; review status is stored in data/tags.json.");
 }
+console.log("Audit findings are diagnostic only; canonical translation metadata remains in data/tags.json.");
 
 }
 
