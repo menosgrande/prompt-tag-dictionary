@@ -10,8 +10,8 @@
   },
   "summary": {
     "total": 1000,
-    "proposed": 614,
-    "needsReview": 386
+    "proposed": 634,
+    "needsReview": 366
   },
   "entries": [
     {
@@ -7508,9 +7508,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ガーゼという医療・衛生用の日用品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -7576,9 +7580,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "人物の性別を入れ替えた表現。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "person-attributes"
+      }
     },
     {
       "batch": 1,
@@ -7762,9 +7770,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "巨大な女性という体格・身体サイズの特徴。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "body-shape"
+      }
     },
     {
       "batch": 1,
@@ -7776,9 +7788,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ギターの製品名。描写対象となる楽器。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -7790,9 +7806,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "贈り物という物品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -7872,9 +7892,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "他者に物を与える対人動作。",
+      "target": {
+        "categoryId": "action",
+        "subcategoryId": "interpersonal-contact"
+      }
     },
     {
       "batch": 1,
@@ -8278,9 +8302,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "首周りを保護するゴルゲットという装飾・防具。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "accessories"
+      }
     },
     {
       "batch": 1,
@@ -8406,9 +8434,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "衣服のまち・補強布を示す服飾用語。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -9134,9 +9166,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "頭部にあるヒレ状の特徴。",
+      "target": {
+        "categoryId": "hair",
+        "subcategoryId": "head-features"
+      }
     },
     {
       "batch": 1,
@@ -9820,9 +9856,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "金管楽器・木管楽器を示す楽器群。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "other-objects"
+      }
     },
     {
       "batch": 1,
@@ -10034,9 +10074,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "I級駆逐艦という艦艇。",
+      "target": {
+        "categoryId": "vehicles",
+        "subcategoryId": "watercraft"
+      }
     },
     {
       "batch": 1,
@@ -10152,9 +10196,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "菓子などに用いるアイシング。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -10340,9 +10388,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "人物が箱の中に収まっている配置。",
+      "target": {
+        "categoryId": "pose",
+        "subcategoryId": "body-arrangement"
+      }
     },
     {
       "batch": 1,
@@ -10590,9 +10642,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "ジャージ素材・意匠のメイド服。",
+      "target": {
+        "categoryId": "clothing",
+        "subcategoryId": "clothing"
+      }
     },
     {
       "batch": 1,
@@ -10604,9 +10660,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "medium",
+      "reason": "道化師という人物の役割・職業。",
+      "target": {
+        "categoryId": "person",
+        "subcategoryId": "person-attributes"
+      }
     },
     {
       "batch": 1,
@@ -11502,9 +11562,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "怪獣という架空生物。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "fantasy-creatures"
+      }
     },
     {
       "batch": 1,
@@ -11584,9 +11648,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "かまぼこという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -11852,9 +11920,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "カニカマという食品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
@@ -12130,9 +12202,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "唐傘お化けという妖怪・架空生物。",
+      "target": {
+        "categoryId": "living-things",
+        "subcategoryId": "fantasy-creatures"
+      }
     },
     {
       "batch": 1,
@@ -12976,9 +13052,13 @@
         "major": "未分類",
         "minor": "未分類"
       },
-      "status": "needs-review",
-      "confidence": "low",
-      "reason": "第1バッチの初回棚卸し。タグ名と既存訳だけでは分類先を安全に確定できないため保留。"
+      "status": "proposed",
+      "confidence": "high",
+      "reason": "巾着袋という日用品。",
+      "target": {
+        "categoryId": "objects",
+        "subcategoryId": "everyday-objects"
+      }
     },
     {
       "batch": 1,
