@@ -1,12 +1,12 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readMasterSource, writeMasterSources } from "./lib/master-data.mjs";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const auditPath = resolve(root, "data/nsfw-prompt-tag-audit.json");
-const tagsPath = resolve(root, "data/tags.json");
+
 const outputPath = resolve(root, "data/tag-metadata-review.json");
 const write = process.argv.includes("--write");
-const [audit, tags] = await Promise.all([readFile(auditPath,"utf8").then(JSON.parse),readFile(tagsPath,"utf8").then(JSON.parse)]);
+const [audit, tags] = await Promise.all([readMasterSource(root,"nsfw-prompt-tag-audit.json"),readMasterSource(root,"tags.json")]);
 if(audit.schema!=="nsfw-prompt-tag-research-v3"||!Array.isArray(audit.candidates)||!Array.isArray(tags)) throw new Error("Unexpected source schema; no output written.");
 const known=new Map(tags.map(row=>[String(row?.[0]??"").normalize("NFKC").toLowerCase(),row]));
 const explicitR18=new Set(["nude","bottomless","topless","no panties","naked apron","naked shirt","nude cover","hand in panties","hand in bra","crotch grab","ass grab","spread ass","grabbing own ass","grabbing another's ass"]);
@@ -22,4 +22,4 @@ console.log("Exact existing tags: "+Object.values(entries).filter(x=>x.candidate
 console.log("New candidates: "+Object.values(entries).filter(x=>x.candidateStatus==="candidate_new").length);
 console.log("R-18 proposals: "+Object.values(entries).filter(x=>x.proposedRating==="R-18").length);
 console.log("All rating and NSFW values remain unreviewed; no confirmed values are created.");
-if(write){await writeFile(outputPath,JSON.stringify(result,null,2)+"\n","utf8");console.log("Wrote data/tag-metadata-review.json");}else console.log("Dry run only. Pass --write to generate the sidecar.");
+if(write){await writeMasterSources(root, {"tag-metadata-review.json": result});await writeFile(outputPath,JSON.stringify(result,null,2)+"\n","utf8");console.log("Updated master-data.json and compatibility JSON");}else console.log("Dry run only. Pass --write to generate the sidecar.");
