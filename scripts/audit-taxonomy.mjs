@@ -1,11 +1,10 @@
 import { readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readMasterSource } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
-const taxonomy = await readJson("data/tag-taxonomy.json");
-const outputOrder = await readJson("data/prompt-order-categories.json");
+const [taxonomy, outputOrder] = await Promise.all(["tag-taxonomy.json", "prompt-order-categories.json"].map(name => readMasterSource(root, name)));
 const errors = [];
 
 if (taxonomy.schema !== "tag-taxonomy-v1") errors.push("Unknown taxonomy schema");
