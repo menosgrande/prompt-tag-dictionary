@@ -52,7 +52,8 @@ if (log.schemaVersion !== 1 || !Array.isArray(log.changes)) {
       errors.push(label + ": expected object");
       continue;
     }
-    if (typeof item.tag !== "string" || !tagIndex.has(normalize(item.tag))) errors.push(label + ": tag is missing or not in tags.json");
+    if (typeof item.tag !== "string" || !item.tag.trim()) errors.push(label + ": tag must be a non-empty string");
+    // Change-log entries are historical records. A tag may legitimately be removed from tags.json later.
     if (typeof item.changedAt !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(item.changedAt)) errors.push(label + ": changedAt must be YYYY-MM-DD");
     if (!Array.isArray(item.fields) || item.fields.length === 0 || item.fields.some(field => typeof field !== "string")) errors.push(label + ": fields must be a non-empty string array");
     if (!item.before || typeof item.before !== "object" || Array.isArray(item.before)) errors.push(label + ": before must be an object");
