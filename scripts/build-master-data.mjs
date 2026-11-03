@@ -4,6 +4,12 @@ import { execFileSync } from "node:child_process";
 
 const root = process.cwd();
 const dataDir = resolve(root, "data");
+try {
+  await readFile(resolve(dataDir, "master-data.json"), "utf8");
+  throw new Error("data/master-data.json already exists. This is a one-time bootstrap script and must not overwrite the canonical master.");
+} catch (error) {
+  if (error.code !== "ENOENT") throw error;
+}
 const excluded = new Set(["dictionary-data.json", "master-data.json"]);
 const names = (await readdir(dataDir)).filter(name => name.endsWith(".json") && !excluded.has(name)).sort();
 if (!names.includes("tags.json")) throw new Error("Canonical tags.json is missing.");
