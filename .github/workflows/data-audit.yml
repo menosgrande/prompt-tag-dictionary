@@ -1,5 +1,5 @@
 name: Data quality audit
-# Validate the canonical master-only data layout.
+# Validate the canonical master-only data layout, including tests that read master sections.
 
 on:
   push:
