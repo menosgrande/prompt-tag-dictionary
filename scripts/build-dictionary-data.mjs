@@ -25,7 +25,7 @@ if (!Array.isArray(tags) || taxonomy.schema !== "tag-taxonomy-v1" ||
 const generated = {
   schema: "prompt-tag-dictionary-runtime-v1",
   generatedAt: new Date().toISOString().slice(0, 10),
-  description: "マスターJSONから生成される通常画面用の配布バンドル。",
+  description: "通常画面が参照するランタイムデータを一元化した配布バンドル。監査履歴・未確定候補の原本は個別ファイルに保持する。",
   tags,
   taxonomy,
   classificationCandidates,
