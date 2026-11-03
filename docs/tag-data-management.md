@@ -2,8 +2,8 @@
 
 ## 方針
 
-- `data/tags.json` はアプリが直接読む互換データとして維持する。基本形は `[tag, ja, major, minor])。管理画面の追加情報を持つ行では、任意の第5・第6項目 `[detail, aliases]` を付けられる。
-- 大量のタグ本体をオブジェクト形式へ一括変換しない。現行アプリ・インポート処理との互換性を壊さず、まず管理情報を別ファイルに分離する。
+- `data/tags.json` をタグ情報の唯一の正本とする。基本形は `[tag, ja, major, minor]`。任意の第5・第6項目に `[detail, aliases]`、第7項目に翻訳・分類候補・確認待ちのメタデータを保持する。
+- 第7項目は `{ translation, classification, classificationReview }` を必要に応じて持つ。未確定候補は `status` を維持し、確定分類・確定訳として扱わない。
 - タグの意味や分類を自動で「正しい」と認定しない。ルールによる推定は仮分類として扱う。
 - 過去の出典・翻訳者・確認履歴が残っていない既存行について、推測で履歴を作らない。
 - タグの原文 `tag` は識別子として扱い、翻訳・分類修正時にも意図なく変更しない。
@@ -12,8 +12,8 @@
 
 | ファイル | 役割 |
 | --- | --- |
-| `data/tags.json` | アプリ用のタグ本体。基本4項目、必要な行のみ詳細分類・別名を追加 |
-| `data/tag-review.json` | 人手で確認したタグだけを記録する確認台帳 |
+| `data/tags.json` | 唯一の正本。タグ本体・翻訳候補・分類候補・未分類レビュー待ちをタグ行に統合 |
+| `data/tag-review.json` | 管理画面で追加された個別確認状態の差分台帳 |
 | `data/tag-change-log.json` | これから行う変更の追記型履歴 |
 | `data/sources.json` | データセット／入力ファイル単位の出典情報 |
 | `scripts/audit-tags.mjs` | タグ本体の構造・分類・重複監査 |
@@ -39,7 +39,7 @@
 - `verified`: 指定した観点を人が確認済み。タグ全体の正しさを保証するものではない。
 - `not-applicable`: その観点が適用されない。
 
-台帳に存在しないタグは「未確認」と解釈する。11,000件すべてに同じ状態を複製する必要はない。
+正本の第7項目に初期の候補状態を保持し、管理画面で後から確認した状態は `tag-review.json` に差分として保存する。台帳の値が正本メタデータより優先される。
 
 ## 変更履歴の記録
 
@@ -107,3 +107,15 @@ node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --check
 ```sh
 node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --write
 ```
+
+
+## 2026-11-04: 翻訳・分類候補を正本へ統合
+
+未処理候補を分割JSONのまま残さず、`data/tags.json` の第7項目へタグ単位で統合した。
+
+- 翻訳候補5,074件（確認済み3,220件、要確認1,854件）。確認済み訳は既存正本の訳と全件一致したため、既存訳を維持して状態を記録。
+- 正本に存在しなかった翻訳候補7件は、訳未入力・未分類のタグ行として追加。
+- 分類候補976件（暫定970件、要確認6件）を `classification` に統合。
+- 未分類レビュー2,342件を `classificationReview` に統合。
+- `dictionary-data.json` は正本から再生成し、ランタイムの分類候補も正本から構築する。
+- 旧入力ファイル `tag-ja-overrides.json`、`tag-classification-candidates.json`、`unclassified-review-queue.json` は統合確認後に削除。Git履歴から復元可能。
