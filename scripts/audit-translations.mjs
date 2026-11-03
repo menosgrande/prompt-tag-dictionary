@@ -1,9 +1,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { readMasterSource } from "./lib/master-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
+
 
 const KNOWN_MISTRANSLATIONS = new Map([
   ["ace attorney", ["エース弁護士"]],
@@ -81,8 +82,8 @@ export function collectCandidates(records, reviewEntries = {}) {
 }
 
 async function main() {
-const rows = await readJson("data/tags.json");
-const review = await readJson("data/tag-review.json");
+const rows = await readMasterSource(root, "tags.json");
+const review = await readMasterSource(root, "tag-review.json");
 const outputPath = resolve(root, "data/translation-audit-candidates.json");
 const args = new Set(process.argv.slice(2));
 
