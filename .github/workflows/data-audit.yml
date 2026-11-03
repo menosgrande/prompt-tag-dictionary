@@ -37,9 +37,13 @@ on:
       - "scripts/audit-translations.mjs"
       - "scripts/apply-safe-category-candidates.mjs"
       - "scripts/build-tag-metadata-review.mjs"
+      - "scripts/audit-color-clothing.mjs"
+      - "scripts/audit-color-prefixes.mjs"
+      - "scripts/audit-tag-structure.mjs"
       - "data/nsfw-prompt-tag-audit.json"
       - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
+      - ".github/workflows/refresh-translation-audit.yml"
   pull_request:
     paths:
       - "data/dictionary-data.json"
