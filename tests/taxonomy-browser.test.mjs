@@ -7,9 +7,11 @@ const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
 const taxonomy = JSON.parse(await readFile(new URL("../data/tag-taxonomy.json", import.meta.url), "utf8"));
 const promptOrder = JSON.parse(await readFile(new URL("../data/prompt-order-categories.json", import.meta.url), "utf8"));
 
-test("browser loads canonical taxonomy and candidate sidecar",()=>{
-  assert.match(app,/\.\/data\/tag-taxonomy\.json/);
-  assert.match(app,/\.\/data\/tag-classification-candidates\.json/);
+test("browser loads the consolidated runtime dictionary bundle",()=>{
+  assert.match(app,/\.\/data\/dictionary-data\.json/);
+  assert.match(app,/seedDictionaryData\(\)/);
+  assert.match(app,/dictionaryData\?\.taxonomy/);
+  assert.match(app,/dictionaryData\?\.classificationCandidates/);
 });
 
 test("canonical taxonomy defines all categories in prompt order",()=>{
