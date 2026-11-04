@@ -6,7 +6,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const bundlePath = resolve(root, "data/dictionary-data.json");
 const normalizeTag = value => String(value ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
 
-function validateBundle(data) {
+export function validateBundle(data) {
   const errors = [];
   if (!data || typeof data !== "object" || Array.isArray(data)) {
     return ["dictionary-data.json must contain an object."];
@@ -22,6 +22,24 @@ function validateBundle(data) {
   if (!Array.isArray(data.tagGroups)) errors.push("tagGroups must be an array.");
   if (!data.nsfwAudit || !Array.isArray(data.nsfwAudit.candidates)) errors.push("nsfwAudit.candidates must be an array.");
   if (!Array.isArray(data.classificationCandidates?.entries)) errors.push("classificationCandidates.entries must be an array.");
+
+  if (!data.review || data.review.schemaVersion !== 1 || !Array.isArray(data.review.entries) || data.review.entries.length !== (Array.isArray(data.tags) ? data.tags.length : -1)) errors.push("review.entries must be an index-aligned array matching tags.");
+  if (data.review && (!Array.isArray(data.review.translationStatusCodes) || !Array.isArray(data.review.classificationStatusCodes) || !Array.isArray(data.review.notes) || !Array.isArray(data.review.sources))) errors.push("review status codes, notes, and sources must be arrays.");
+  if (Array.isArray(data.review?.entries)) {
+    for (let i = 0; i < data.review.entries.length; i++) {
+      const entry = data.review.entries[i];
+      if (entry === null) continue;
+      if (!Array.isArray(entry) || entry.length !== 5 ||
+          !Number.isInteger(entry[0]) || entry[0] < 0 || entry[0] >= (data.review.translationStatusCodes || []).length ||
+          !Number.isInteger(entry[1]) || entry[1] < 0 || entry[1] >= (data.review.classificationStatusCodes || []).length ||
+          !(entry[2] === null || typeof entry[2] === "string") ||
+          !Number.isInteger(entry[3]) || entry[3] < -1 || entry[3] >= (data.review.notes || []).length ||
+          !Number.isInteger(entry[4]) || entry[4] < -1 || entry[4] >= (data.review.sources || []).length) {
+        errors.push("Invalid packed review entry at tag index " + i + ".");
+        break;
+      }
+    }
+  }
 
   if (Array.isArray(data.tags)) {
     const seen = new Set();
@@ -65,22 +83,23 @@ function validateBundle(data) {
   return errors;
 }
 
-const args = new Set(process.argv.slice(2));
-if (args.has("--write")) {
-  throw new Error("The multi-file source generator has been retired. data/dictionary-data.json is the canonical source and must be edited directly; this command is validation-only.");
-}
-const raw = await readFile(bundlePath, "utf8");
-let data;
-try { data = JSON.parse(raw); }
-catch (error) { throw new Error("data/dictionary-data.json is invalid JSON: " + error.message); }
-const errors = validateBundle(data);
-if (errors.length) {
-  for (const error of errors) console.error("ERROR: " + error);
-  process.exitCode = 1;
-} else {
-  console.log("Canonical runtime dictionary audit passed.");
-  console.log("Source: data/dictionary-data.json (single canonical bundle)");
-  console.log("Tags: " + data.tags.length);
-  console.log("Classification candidates: " + data.classificationCandidates.entries.length);
-  console.log("Tag groups: " + data.tagGroups.length);
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const args = new Set(process.argv.slice(2));
+  if (args.has("--write")) throw new Error("This command is validation-only. Edit data/dictionary-data.json directly.");
+  const raw = await readFile(bundlePath, "utf8");
+  let data;
+  try { data = JSON.parse(raw); }
+  catch (error) { throw new Error("data/dictionary-data.json is invalid JSON: " + error.message); }
+  const errors = validateBundle(data);
+  if (errors.length) {
+    for (const error of errors) console.error("ERROR: " + error);
+    process.exitCode = 1;
+  } else {
+    console.log("Canonical runtime dictionary audit passed.");
+    console.log("Source: data/dictionary-data.json (single canonical bundle)");
+    console.log("Tags: " + data.tags.length);
+    console.log("Classification candidates: " + data.classificationCandidates.entries.length);
+    console.log("Tag groups: " + data.tagGroups.length);
+    console.log("Embedded review records: " + data.review.entries.filter(Boolean).length);
+  }
 }
