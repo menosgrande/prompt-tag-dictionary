@@ -40,7 +40,15 @@ export function collectCandidates(records, reviewEntries = {}) {
 }
 async function main(){
   const data=JSON.parse(await readFile(new URL("../data/dictionary-data.json",import.meta.url),"utf8"));
-  const candidates=collectCandidates(data.tags),counts=Object.create(null),confidence=Object.create(null),statuses=Object.create(null);
+  const reviews = {};
+  const packed = data.reviews || {};
+  for (const [tag, values] of Object.entries(packed.entries || {})) {
+    reviews[tag] = {
+      translationStatus: packed.statusCodes?.translation?.[values[0]] || "unreviewed",
+      classificationStatus: packed.statusCodes?.classification?.[values[1]] || "unreviewed"
+    };
+  }
+  const candidates=collectCandidates(data.tags,reviews),counts=Object.create(null),confidence=Object.create(null),statuses=Object.create(null);
   for(const item of candidates){confidence[item.confidence]=(confidence[item.confidence]||0)+1;statuses[item.status]=(statuses[item.status]||0)+1;for(const reason of item.reasons)counts[reason]=(counts[reason]||0)+1;}
   console.log("Translation quality audit");
   console.log("Tags scanned: "+data.tags.length);
