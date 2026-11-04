@@ -10,7 +10,7 @@ for (const row of bundle.tags || []) {
     if (!tagIndex.has(key)) tagIndex.set(key, row);
   }
 }
-let translationMetadata = 0, classificationMetadata = 0;
+let translationMetadata = 0, classificationMetadata = 0, reviewMetadata = 0;
 for (const row of bundle.tags || []) {
   const meta = row?.[6];
   if (!meta || typeof meta !== "object") continue;
@@ -25,6 +25,15 @@ for (const row of bundle.tags || []) {
     if (!["provisional", "needs-review", "verified", "unreviewed"].includes(meta.classification.status)) {
       errors.push("Invalid embedded classification status: " + row[0]);
     }
+  }
+  if (meta.review) {
+    reviewMetadata++;
+    if (!meta.review || typeof meta.review !== "object" || Array.isArray(meta.review)) errors.push("Invalid embedded review record: " + row[0]);
+    if (!["unreviewed", "needs-review", "machine-translation", "verified", "not-applicable"].includes(meta.review.translationStatus)) errors.push("Invalid translation review status: " + row[0]);
+    if (!["unreviewed", "provisional", "needs-review", "verified", "not-applicable"].includes(meta.review.classificationStatus)) errors.push("Invalid classification review status: " + row[0]);
+    if (!(meta.review.reviewedAt === null || /^\\d{4}-\\d{2}-\\d{2}$/.test(meta.review.reviewedAt))) errors.push("Invalid review date: " + row[0]);
+    if (!(meta.review.note === null || typeof meta.review.note === "string")) errors.push("Invalid review note: " + row[0]);
+    if (!(meta.review.source === null || typeof meta.review.source === "string")) errors.push("Invalid review source: " + row[0]);
   }
 }
 if (log.schemaVersion !== 1 || !Array.isArray(log.changes)) errors.push("tag-change-log.json: invalid schema or changes array");
@@ -43,6 +52,7 @@ console.log("Canonical tag metadata audit");
 console.log("Tags indexed: "+tagIndex.size);
 console.log("Embedded translation metadata: "+translationMetadata);
 console.log("Embedded classification metadata: "+classificationMetadata);
+console.log("Embedded review records: "+reviewMetadata);
 console.log("Historical change records: "+(log.changes||[]).length);
 if(errors.length){for(const error of errors.slice(0,100))console.error("ERROR: "+error);process.exitCode=1;}
 else console.log("Audit passed: embedded review metadata and historical change log are structurally valid.");
