@@ -1,20 +1,47 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
+import { mkdtemp, mkdir, readFile, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const script = fileURLToPath(new URL("../scripts/apply-admin-export.mjs", import.meta.url));
-function fingerprint(tags, order, review, log) { const s=JSON.stringify([tags,order,review,log]);let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return "ptd-v1-"+(h>>>0).toString(16); }
-// The CLI is intentionally exercised against a mismatched fingerprint: it must reject stale exports before writing anything.
-test("rejects an export with a stale source fingerprint", async () => {
- const dir=await mkdtemp(join(tmpdir(),"ptd-export-"));
- try {
-  const input={schema:"prompt-tag-admin-export-v1",schemaVersion:1,sourceFingerprint:"ptd-v1-stale",tags:[],review:{schemaVersion:1,statuses:{translation:[],classification:[]},entries:{}},log:{schemaVersion:1,changes:[]},promptOrder:{schema:"prompt-order-taxonomy-v1",categories:[],overrides:[]}};
-  const file=join(dir,"export.json");await writeFile(file,JSON.stringify(input));
-  const result=spawnSync(process.execPath,[script,"--input",file,"--check"],{encoding:"utf8"});
-  assert.notEqual(result.status,0);assert.match(result.stderr,/Source fingerprint mismatch/);
- } finally { await rm(dir,{recursive:true,force:true}); }
+const makeBundle = () => ({
+  schema: "prompt-tag-dictionary-runtime-v1",
+  tags: [],
+  taxonomy: { semanticCategories: [{ name: "品質・ネガティブ", order: 1, subcategories: [] }] },
+  promptOrder: { categories: [{ name: "品質・ネガティブ", order: 1, subcategories: [] }], overrides: [] },
+  classificationCandidates: { summary: { total: 0 } }
+});
+async function setup() {
+  const dir = await mkdtemp(join(tmpdir(), "ptd-export-"));
+  await mkdir(join(dir, "data"));
+  await writeFile(join(dir, "data", "dictionary-data.json"), JSON.stringify(makeBundle()));
+  return dir;
+}
+test("rejects stale canonical exports", async () => {
+  const dir = await setup();
+  const input = { schema: "prompt-tag-admin-bundle-export-v1", schemaVersion: 1, sourceFingerprint: "ptd-v1-stale", bundle: makeBundle() };
+  const file = join(dir, "export.json");
+  await writeFile(file, JSON.stringify(input));
+  const result = spawnSync(process.execPath, [script, "--input", file, "--check"], { cwd: dir, encoding: "utf8" });
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /Source fingerprint mismatch/);
+});
+test("check mode validates without modifying the canonical file", async () => {
+  const dir = await setup();
+  const currentPath = join(dir, "data", "dictionary-data.json");
+  const current = JSON.parse(await readFile(currentPath, "utf8"));
+  const source = JSON.stringify([current.tags, current.promptOrder]);
+  let hash = 2166136261;
+  for (let i = 0; i < source.length; i++) { hash ^= source.charCodeAt(i); hash = Math.imul(hash, 16777619); }
+  const input = { schema: "prompt-tag-admin-bundle-export-v1", schemaVersion: 1, sourceFingerprint: "ptd-v1-" + (hash >>> 0).toString(16), bundle: makeBundle() };
+  const file = join(dir, "export.json");
+  await writeFile(file, JSON.stringify(input));
+  const before = await readFile(currentPath, "utf8");
+  const result = spawnSync(process.execPath, [script, "--input", file, "--check"], { cwd: dir, encoding: "utf8" });
+  assert.equal(result.status, 0, result.stderr || result.stdout);
+  assert.match(result.stdout, /Check only; no files were changed/);
+  assert.equal(await readFile(currentPath, "utf8"), before);
 });
