@@ -99,7 +99,7 @@ function save(){
  const meta=row[6]&&typeof row[6]==="object"&&!Array.isArray(row[6])?row[6]:(row[6]={});
  meta.translation={...(meta.translation||{}),status:form.translationStatus,candidateJa:form.ja,source:form.source||meta.translation?.source||null};
  meta.classificationReview={...(meta.classificationReview||{}),status:form.classificationStatus,reason:form.reason||null,source:form.source||meta.classificationReview?.source||null,reviewedAt:(form.translationStatus==="verified"||form.classificationStatus==="verified")?today():(meta.classificationReview?.reviewedAt||null)};
- syncClassificationCandidate(newKey,meta,form.classificationStatus);
+ syncClassificationCandidate(oldKey,meta,form.classificationStatus);
  const review=state.dictionary.review;
  const translationCode=review.translationStatusCodes.indexOf(form.translationStatus),classificationCode=review.classificationStatusCodes.indexOf(form.classificationStatus);
  if(translationCode<0||classificationCode<0)throw new Error("Unknown review status");
