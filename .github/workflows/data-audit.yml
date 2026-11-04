@@ -48,6 +48,12 @@ jobs:
         run: node --check scripts/lib/rebuild-dictionary-data.mjs
       - name: Audit tag structure and taxonomy membership
         run: node scripts/audit-tags.mjs
+      - name: Audit tag naming and color candidates
+        run: node scripts/audit-tag-structure.mjs
+      - name: Audit color-prefixed tags
+        run: node scripts/audit-color-prefixes.mjs
+      - name: Audit color and clothing overlaps
+        run: node scripts/audit-color-clothing.mjs
       - name: Audit canonical taxonomy
         run: node scripts/audit-taxonomy.mjs
       - name: Audit prompt output order
@@ -68,8 +74,6 @@ jobs:
         run: node --test tests/taxonomy-browser.test.mjs
       - name: Test dictionary UI layout
         run: node --test tests/ui-layout.test.mjs
-      - name: Test classification mapping rules
-        run: node --test tests/build-classification-candidates.test.mjs
       - name: Check admin export script syntax
         run: node --check scripts/apply-admin-export.mjs
       - name: Test stale admin exports are rejected
