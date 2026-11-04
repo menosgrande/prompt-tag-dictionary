@@ -19,7 +19,7 @@ const state = {
   selected: null, page: 0, query: "", filter: "all", sort: "source",
   dirty: false, sourceFingerprint: ""
 };
-let initialPromptOrder = null;
+let initialPromptOrder = null, initialTaxonomy = null;
 const norm = value => String(value ?? "").normalize("NFKC").toLocaleLowerCase().trim();
 const today = () => {
   const date = new Date();
@@ -175,7 +175,7 @@ function renderPromptOrder() {
     label.className = "prompt-order-label"; label.append(name, purpose);
     controls.className = "prompt-order-controls";
     up.type = down.type = "button"; up.textContent = "↑"; down.textContent = "↓";
-    up.title = "上へ"; down.title = "下へ"; up.disabled = index === 0; down.disabled = index === state.promptOrder.categories.length - 1;
+    up.title = "上へ"; down.title = "下へ"; up.disabled = index <= 1; down.disabled = index === 0 || index === state.promptOrder.categories.length - 1;
     up.addEventListener("click", () => movePromptCategory(index, -1));
     down.addEventListener("click", () => movePromptCategory(index, 1));
     controls.append(up, down); li.append(label, controls); root.append(li);
@@ -184,18 +184,29 @@ function renderPromptOrder() {
 }
 function movePromptCategory(index, delta) {
   const next = index + delta;
-  if (next < 0 || next >= state.promptOrder.categories.length) return;
+  if (index === 0 || (index === 1 && delta < 0) || next < 0 || next >= state.promptOrder.categories.length) return;
   const rows = state.promptOrder.categories;
   [rows[index], rows[next]] = [rows[next], rows[index]];
   rows.forEach((row, i) => { row.order = i + 1; });
   state.bundle.promptOrder = state.promptOrder;
+  syncTaxonomyOrder();
   persist(); renderPromptOrder();
   $("#prompt-order-status").textContent = "並び順をこの端末に保存しました。一括エクスポートで正本へ反映できます。";
 }
+function syncTaxonomyOrder() {
+  const byName = new Map(state.bundle.taxonomy.semanticCategories.map(item => [item.name, item]));
+  state.bundle.taxonomy.semanticCategories = state.promptOrder.categories.map((item, index) => {
+    const category = byName.get(item.name);
+    if (!category) throw new Error("Taxonomy category is missing: " + item.name);
+    category.order = index + 1;
+    return category;
+  });
+}
 function resetPromptOrder() {
-  if (!initialPromptOrder) return;
+  if (!initialPromptOrder || !initialTaxonomy) return;
   state.promptOrder = JSON.parse(JSON.stringify(initialPromptOrder));
   state.bundle.promptOrder = state.promptOrder;
+  state.bundle.taxonomy = JSON.parse(JSON.stringify(initialTaxonomy));
   persist(); renderPromptOrder();
   $("#prompt-order-status").textContent = "読み込み時のカテゴリ順に戻しました。";
 }
@@ -360,6 +371,7 @@ async function init() {
     state.bundle = bundle; state.tags = bundle.tags; state.reviews = decodeReviews(bundle.reviews);
     state.log = log; state.promptOrder = bundle.promptOrder;
     initialPromptOrder = JSON.parse(JSON.stringify(bundle.promptOrder));
+    initialTaxonomy = JSON.parse(JSON.stringify(bundle.taxonomy));
     state.sourceFingerprint = fingerprintSource(bundle, log);
     const raw = localStorage.getItem(DRAFT_KEY);
     if (raw) {
