@@ -44,7 +44,7 @@ if (dictionary?.reviews) {
   const translation = new Set(dictionary.reviews.statusCodes?.translation || []);
   const classification = new Set(dictionary.reviews.statusCodes?.classification || []);
   for (const [tag, values] of Object.entries(dictionary.reviews.entries || {})) {
-    if (!Array.isArray(values) || values.length !== 5 || !translation.has(translation.values?.[values[0]]) || !classification.has(classification.values?.[values[1]])) {
+    if (!Array.isArray(values) || values.length !== 5 || !Number.isInteger(values[0]) || values[0] < 0 || values[0] >= translation.size || !Number.isInteger(values[1]) || values[1] < 0 || values[1] >= classification.size) {
       errors.push("Invalid review entry: " + tag); break;
     }
     if (!dictionary.tags.some(row => normalize(row[0]) === normalize(tag))) {
