@@ -2,9 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const input = path.join(root, "data/tags.json");
+const input = path.join(root, "data/dictionary-data.json");
 const output = path.join(root, "data/color-clothing-audit.json");
-const rows = JSON.parse(fs.readFileSync(input, "utf8"));
+const rows = JSON.parse(fs.readFileSync(input, "utf8")).tags;
 const colors = ["red","blue","green","yellow","orange","pink","purple","violet","black","white","gray","grey","brown","beige","blonde","golden","silver","crimson","scarlet","navy","cyan","magenta","turquoise","teal","ivory","maroon","burgundy","lavender","indigo","khaki","cream","coral","mint","emerald","ruby","sapphire"];
 const garments = ["apron","armor","armour","belt","bikini","bowtie","cape","cardigan","cloak","coat","collar","corset","dress","garter belt","garter straps","gloves","hat","hoodie","jacket","kimono","leotard","necktie","one-piece swimsuit","overalls","pants","ribbon","robe","sailor collar","scarf","shirt","shorts","skirt","sleeves","socks","suit","sweater","sweater vest","tie","vest","uniform","outfit","stockings","shoes","boots","heels","gown","swimsuit"];
 const escapeRe = value => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -42,7 +42,7 @@ const protectedExamples = rows
 const result = {
   generated_by: "scripts/audit-color-clothing.mjs",
   version: 1,
-  source: "data/tags.json",
+  source: "data/dictionary-data.json",
   policy: "候補抽出のみ。タグ本体は削除・変更しない。作品名・キャラクター名など固有名詞は保持する。",
   summary: {
     total: candidates.length,
