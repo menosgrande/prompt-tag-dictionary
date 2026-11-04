@@ -258,8 +258,10 @@
     let item;
     if (typeof obj === "string") item = { tag: obj };
     else if (Array.isArray(obj)) item = {
+      ...(obj[6] && typeof obj[6] === "object" && !Array.isArray(obj[6]) ? obj[6] : {}),
       tag: obj[0], ja: obj[1] || "",
-      category: obj.length >= 5 ? [obj[2], obj[3], obj[4]] : obj.length >= 4 ? [obj[2], obj[3]] : undefined
+      category: obj.length >= 5 ? [obj[2], obj[3], obj[4]] : obj.length >= 4 ? [obj[2], obj[3]] : undefined,
+      aliases: Array.isArray(obj[5]) ? obj[5] : []
     };
     else item = obj || {};
     const tag = String(item.tag ?? item.t ?? item.english ?? item.name ?? "").trim();
@@ -272,6 +274,7 @@
     ].map(String).filter(Boolean))];
     const sources = sourceList(item);
     return {
+      ...item,
       tag, ja: String(item.ja ?? item.japanese ?? item.gloss ?? item.j ?? ""),
       category, aliases, explanation: String(item.explanation ?? item.description ?? ""),
       related: Array.isArray(item.related) ? item.related : [],
@@ -356,11 +359,14 @@
       if (!Array.isArray(rows)) throw new Error("seed data is not an array");
       return rows.map(raw => {
         if (Array.isArray(raw)) {
+          const metadata = raw[6] && typeof raw[6] === "object" && !Array.isArray(raw[6]) ? raw[6] : {};
           return {
+            ...metadata,
             tag: raw[0], ja: raw[1] || "",
             category: raw.length >= 5 ? [raw[2], raw[3], raw[4]] : raw.length >= 4 ? [raw[2], raw[3]] : undefined,
             aliases: Array.isArray(raw[5]) ? raw[5] : [],
-            source: SEED_SOURCE, sources: [SEED_SOURCE]
+            source: metadata.source || SEED_SOURCE,
+            sources: combineSources(metadata.sources || [], [metadata.source || SEED_SOURCE])
           };
         }
         return { ...raw, source: raw.source || SEED_SOURCE, sources: combineSources(raw.sources || [], [raw.source || SEED_SOURCE]) };
