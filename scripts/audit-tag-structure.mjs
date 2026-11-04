@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const rows = JSON.parse(fs.readFileSync(path.join(root, "data/tags.json"), "utf8"));
+const rows = JSON.parse(fs.readFileSync(path.join(root, "data/dictionary-data.json"), "utf8")).tags;
 const output = path.join(root, "data/tag-structure-audit.json");
 const adjectives = ["very","too","slightly","extremely","long","short","big","small","large","huge","tiny","tall","wide","narrow","thick","thin","slim","slender","curvy","plump","muscular","pale","dark","light","bright","deep","soft","hard","smooth","rough","wet","dry","messy","neat","straight","curly","wavy","spiky","fluffy","shiny","glossy","matte","transparent","translucent","opaque","sheer","tight","loose","oversized","baggy","short-sleeved","long-sleeved","sleeveless","high","low","open","closed","half","partially","fully","bare","barely","colored","colourful","colorful","black","white","red","blue","green","yellow","orange","pink","purple","violet","brown","gray","grey","silver","gold","golden","blonde","navy","cyan","magenta","beige","ivory","cream","crimson","scarlet","burgundy","maroon","lavender","indigo","turquoise","teal","mint","emerald","coral","khaki"];
 const normalize = value => value.toLowerCase().trim().replace(/[_\s-]+/g, " ");
@@ -27,7 +27,7 @@ const normalizedDuplicates = groupBy(rows, row => normalize(String(row[0] ?? "")
   .filter(([, group]) => new Set(group.map(row => String(row[0]).toLowerCase().trim())).size > 1)
   .map(([normalized, group]) => ({ normalized, tags: group.map(row => String(row[0])) }));
 const result = {
-  generated_at: new Date().toISOString().slice(0, 10), source: "data/tags.json", source_count: rows.length,
+  generated_at: new Date().toISOString().slice(0, 10), source: "data/dictionary-data.json", source_count: rows.length,
   policy: "監査用候補。タグ本体の削除・改名・統合・再分類は行わない。機械的な文字列検出であり、意味の同一性を確定するものではない。",
   summary: {
     total: rows.length, unique_tag_strings: new Set(rows.map(row => String(row[0]))).size,
