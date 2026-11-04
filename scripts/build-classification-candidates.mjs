@@ -192,23 +192,12 @@ export function buildClassificationCandidates(rows, audits = []) {
 }
 
 async function main(){
-  const rows=await readJson("data/tags.json");
-  const taxonomy=await readJson("data/tag-taxonomy.json");
-  const audits=await Promise.all(["data/color-semantic-classification-audit.json","data/tag-classification-review-audit.json"].map(path=>readJson(path)));
-  const report=buildClassificationCandidates(rows,audits);
-  const categoryIds=new Set(taxonomy.semanticCategories.map(category=>category.id));
-  const subcategories=new Map(taxonomy.semanticCategories.map(category=>[category.id,new Set(category.subcategories.map(item=>item.id))]));
-  for(const item of report.entries){
-    if(item.categoryId && (!categoryIds.has(item.categoryId) || !subcategories.get(item.categoryId)?.has(item.subcategoryId))){
-      throw new Error("Candidate references unknown taxonomy id: "+item.categoryId+"/"+item.subcategoryId);
-    }
-  }
-  // This is a validation-only audit of legacy category mapping rules.
-  // The site-facing classification candidates now live in data/tags.json row[6].classification.
-  console.log("Legacy classification mapping audit");
-  console.log(JSON.stringify(report.summary));
-  if(new Set(report.entries.map(x=>x.tag)).size!==report.entries.length) throw new Error("Duplicate candidate tags");
-  if(args.has("--write")) throw new Error("This audit is no longer written to a sidecar file. Canonical review data is stored in data/tags.json.");
-  console.log("Validation complete; canonical tag data was not modified.");
+  const data=await readJson("data/dictionary-data.json");
+  const candidates=data.tags.filter(row=>row[6]?.classification);
+  const invalid=candidates.filter(row=>!["provisional","needs-review","verified","unreviewed"].includes(row[6].classification.status));
+  if(invalid.length) throw new Error("Invalid canonical classification metadata: "+invalid.slice(0,10).map(row=>row[0]).join(", "));
+  console.log("Canonical classification metadata audit");
+  console.log(JSON.stringify({tags:data.tags.length,candidates:candidates.length,provisional:candidates.filter(row=>row[6].classification.status==="provisional").length,needsReview:candidates.filter(row=>row[6].classification.status==="needs-review").length}));
+  console.log("Legacy sidecar candidate generation is retired. The site reads classification metadata directly from dictionary-data.json.");
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)) await main();
