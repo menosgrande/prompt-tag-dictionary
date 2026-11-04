@@ -4,69 +4,24 @@ on:
   push:
     paths:
       - "data/dictionary-data.json"
-      - "scripts/build-dictionary-data.mjs"
-      - "scripts/lib/rebuild-dictionary-data.mjs"
-      - "data/tags.json"
-      - "data/prompt-order-categories.json"
-      - "data/tag-taxonomy.json"
-      - "data/tag-groups.json"
-      - "scripts/audit-tag-groups.mjs"
-      - "data/tag-classification-review-audit.json"
-      - "scripts/build-classification-candidates.mjs"
-      - "tests/build-classification-candidates.test.mjs"
-      - "scripts/audit-taxonomy.mjs"
-      - "src/app.js"
+      - "scripts/**"
+      - "tests/**"
+      - "src/**"
       - "index.html"
-      - "styles.css"
-      - "tests/ui-layout.test.mjs"
-      - "tests/taxonomy-browser.test.mjs"
       - "admin.html"
+      - "styles.css"
       - "admin.css"
-      - "src/admin.js"
-      - "scripts/apply-admin-export.mjs"
-      - "tests/apply-admin-export.test.mjs"
-      - "scripts/audit-prompt-order.mjs"
-      - "data/tag-review.json"
-      - "data/tag-change-log.json"
-      - "src/app.js"
-      - "scripts/audit-tags.mjs"
-      - "scripts/audit-tag-management.mjs"
-      - "scripts/audit-translations.mjs"
-      - "scripts/apply-safe-category-candidates.mjs"
-      - "scripts/build-tag-metadata-review.mjs"
-      - "data/nsfw-prompt-tag-audit.json"
-      - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   pull_request:
     paths:
       - "data/dictionary-data.json"
-      - "scripts/build-dictionary-data.mjs"
-      - "scripts/lib/rebuild-dictionary-data.mjs"
-      - "data/tags.json"
-      - "data/prompt-order-categories.json"
-      - "data/tag-taxonomy.json"
-      - "data/tag-groups.json"
-      - "scripts/audit-tag-groups.mjs"
-      - "scripts/build-classification-candidates.mjs"
-      - "tests/build-classification-candidates.test.mjs"
-      - "scripts/audit-taxonomy.mjs"
-      - "src/app.js"
+      - "scripts/**"
+      - "tests/**"
+      - "src/**"
       - "index.html"
-      - "tests/taxonomy-browser.test.mjs"
       - "admin.html"
+      - "styles.css"
       - "admin.css"
-      - "src/admin.js"
-      - "scripts/apply-admin-export.mjs"
-      - "tests/apply-admin-export.test.mjs"
-      - "scripts/audit-prompt-order.mjs"
-      - "data/tag-review.json"
-      - "data/tag-change-log.json"
-      - "src/app.js"
-      - "scripts/audit-tags.mjs"
-      - "scripts/audit-tag-management.mjs"
-      - "scripts/audit-translations.mjs"
-      - "scripts/apply-safe-category-candidates.mjs"
-      - "data/translation-audit-candidates.json"
       - ".github/workflows/data-audit.yml"
   workflow_dispatch:
 
@@ -83,45 +38,39 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Check runtime dictionary bundle is up to date
+      - name: Validate canonical runtime dictionary
         run: node scripts/build-dictionary-data.mjs --check
-      - name: Check app syntax
+      - name: Check application syntax
         run: node --check src/app.js
       - name: Check admin syntax
         run: node --check src/admin.js
-      - name: Audit prompt output category order
-        run: node scripts/audit-prompt-order.mjs
-      - name: Audit canonical tag taxonomy
+      - name: Check canonical bundle rebuild helper syntax
+        run: node --check scripts/lib/rebuild-dictionary-data.mjs
+      - name: Audit tag structure and taxonomy membership
+        run: node scripts/audit-tags.mjs
+      - name: Audit canonical taxonomy
         run: node scripts/audit-taxonomy.mjs
-      - name: Check classification candidate generator syntax
-        run: node --check scripts/build-classification-candidates.mjs
-      - name: Test classification candidate generator
-        run: node --test tests/build-classification-candidates.test.mjs
-      - name: Validate legacy classification candidate rules without overwriting site review data
-        run: node scripts/build-classification-candidates.mjs --check-only
-      - name: Check browser app syntax
-        run: node --check src/app.js
+      - name: Audit prompt output order
+        run: node scripts/audit-prompt-order.mjs
+      - name: Audit embedded tag metadata and history
+        run: node scripts/audit-tag-management.mjs
+      - name: Audit translation quality candidates
+        run: node scripts/audit-translations.mjs
+      - name: Audit tag groups
+        run: node scripts/audit-tag-groups.mjs
+      - name: Check metadata review audit syntax
+        run: node --check scripts/build-tag-metadata-review.mjs
+      - name: Run metadata review diagnostic
+        run: node scripts/build-tag-metadata-review.mjs
+      - name: Test translation audit rules
+        run: node --test tests/audit-translations.test.mjs
       - name: Test taxonomy browser integration
         run: node --test tests/taxonomy-browser.test.mjs
       - name: Test dictionary UI layout
         run: node --test tests/ui-layout.test.mjs
-      - name: Check admin export apply script syntax
+      - name: Test classification mapping rules
+        run: node --test tests/build-classification-candidates.test.mjs
+      - name: Check admin export script syntax
         run: node --check scripts/apply-admin-export.mjs
-      - name: Test admin export apply script
+      - name: Test stale admin exports are rejected
         run: node --test tests/apply-admin-export.test.mjs
-      - name: Check shared dictionary rebuild helper syntax
-        run: node --check scripts/lib/rebuild-dictionary-data.mjs
-      - name: Check category automation script syntax
-        run: node --check scripts/apply-safe-category-candidates.mjs
-      - name: Check metadata review generator syntax
-        run: node --check scripts/build-tag-metadata-review.mjs
-      - name: Dry-run metadata review candidate generation
-        run: node scripts/build-tag-metadata-review.mjs
-      - name: Audit tag dataset
-        run: node scripts/audit-tags.mjs
-      - name: Audit tag management metadata
-        run: node scripts/audit-tag-management.mjs
-      - name: Audit translation candidates are current
-        run: node scripts/audit-translations.mjs
-      - name: Audit work and tag groups
-        run: node scripts/audit-tag-groups.mjs
