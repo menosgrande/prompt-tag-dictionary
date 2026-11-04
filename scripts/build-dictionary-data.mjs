@@ -38,6 +38,11 @@ function validateBundle(data) {
       if (!key) errors.push("Empty tag at index " + i + ".");
       else if (seen.has(key)) errors.push("Normalized duplicate tag: " + row[0]);
       seen.add(key);
+      if (row.length === 7 && row[6].review) {
+        const review = row[6].review;
+        if (!review || typeof review !== "object" || Array.isArray(review)) errors.push("Invalid review metadata at index " + i + ".");
+        else if (!["unreviewed", "needs-review", "machine-translation", "verified", "not-applicable"].includes(review.translationStatus) || !["unreviewed", "provisional", "needs-review", "verified", "not-applicable"].includes(review.classificationStatus)) errors.push("Invalid review status at index " + i + ".");
+      }
     }
   }
 
