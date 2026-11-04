@@ -1,10 +1,7 @@
 import { readFile } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
-const [auditText, bundleText] = await Promise.all([
-  readFile(new URL("../data/nsfw-prompt-tag-audit.json", import.meta.url), "utf8"),
-  readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8")
-]);
-const audit=JSON.parse(auditText), bundle=JSON.parse(bundleText), tags=bundle.tags;
+const bundle = JSON.parse(await readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8"));
+const audit = bundle.nsfwAudit, tags = bundle.tags;
 if(audit.schema!=="nsfw-prompt-tag-research-v3"||!Array.isArray(audit.candidates)||!Array.isArray(tags)) throw new Error("Unexpected source schema.");
 const known=new Map(tags.map(row=>[String(row?.[0]??"").normalize("NFKC").toLowerCase(),row]));
 const exact=audit.candidates.filter(item=>known.has(item.tag.normalize("NFKC").toLowerCase())).length;
