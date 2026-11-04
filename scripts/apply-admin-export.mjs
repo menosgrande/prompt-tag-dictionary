@@ -84,7 +84,7 @@ else {
   for (let i = 0; i < changeLog.changes.length; i++) {
     const item = changeLog.changes[i], label = "changeLog.changes[" + i + "]";
     if (!item || typeof item !== "object" || typeof item.tag !== "string" || !item.tag.trim() ||
-        typeof item.changedAt !== "string" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(item.changedAt) ||
+        typeof item.changedAt !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(item.changedAt) ||
         !Array.isArray(item.fields) || !item.fields.length ||
         !item.before || typeof item.before !== "object" || !item.after || typeof item.after !== "object" ||
         typeof item.reason !== "string" || !item.reason.trim() ||
