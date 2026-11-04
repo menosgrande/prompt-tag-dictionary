@@ -1,0 +1,37 @@
+name: Migrate admin review ledger
+
+on:
+  push:
+    branches:
+      - refactor/admin-single-source
+    paths:
+      - "scripts/migrate-review-ledger.mjs"
+      - ".github/workflows/migrate-review-ledger.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: refactor/admin-single-source
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Embed review ledger into canonical tags
+        run: node scripts/migrate-review-ledger.mjs
+      - name: Commit canonical data migration
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dictionary-data.json
+          if git diff --cached --quiet; then
+            echo "No migration changes."
+          else
+            git commit -m "Embed review states in canonical dictionary"
+            git push origin HEAD:refactor/admin-single-source
+          fi
