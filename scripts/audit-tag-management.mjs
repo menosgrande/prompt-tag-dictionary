@@ -46,7 +46,7 @@ else for (let i=0;i<log.changes.length;i++) {
   const item=log.changes[i], label="tag-change-log.json changes["+i+"]";
   if (!item || typeof item!=="object" || Array.isArray(item)) { errors.push(label+": expected object"); continue; }
   if (typeof item.tag!=="string" || !item.tag.trim()) errors.push(label+": tag must be non-empty");
-  if (typeof item.changedAt!=="string" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(item.changedAt)) errors.push(label+": changedAt must be YYYY-MM-DD");
+  if (typeof item.changedAt!=="string" || !/^\d{4}-\d{2}-\d{2}$/.test(item.changedAt)) errors.push(label+": changedAt must be YYYY-MM-DD");
   if (!Array.isArray(item.fields) || !item.fields.length || item.fields.some(field=>typeof field!=="string")) errors.push(label+": fields must be a non-empty string array");
   if (!item.before || typeof item.before!=="object" || Array.isArray(item.before)) errors.push(label+": before must be an object");
   if (!item.after || typeof item.after!=="object" || Array.isArray(item.after)) errors.push(label+": after must be an object");
