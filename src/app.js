@@ -387,10 +387,12 @@
   }
   function seedTaxonomy() {
     const taxonomy = dictionaryData?.taxonomy;
-    const candidates = dictionaryData?.classificationCandidates;
-    if (!taxonomy || !candidates) throw new Error("taxonomy data missing");
+    const tags = Array.isArray(dictionaryData?.tags) ? dictionaryData.tags : [];
+    if (!taxonomy || !tags.length) throw new Error("taxonomy data missing");
     tagTaxonomy = taxonomy;
-    classificationCandidates = new Map((Array.isArray(candidates.entries) ? candidates.entries : []).map(item => [norm(item.tag), item]));
+    const candidates = tags.filter(row => row?.[6]?.classification)
+      .map(row => ({ tag: row[0], ...row[6].classification }));
+    classificationCandidates = new Map(candidates.map(item => [norm(item.tag), item]));
     return Promise.resolve();
   }
   function classificationOf(t) {
