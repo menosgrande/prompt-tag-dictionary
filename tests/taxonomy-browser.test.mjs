@@ -12,7 +12,7 @@ test("browser loads the consolidated runtime dictionary bundle",()=>{
   assert.match(app,/\.\/data\/dictionary-data\.json/);
   assert.match(app,/seedDictionaryData\(\)/);
   assert.match(app,/dictionaryData\?\.taxonomy/);
-  assert.match(app,/row\[6\]\?\.classification/);\n  assert.doesNotMatch(app,/dictionaryData\?\.classificationCandidates/);
+  assert.match(app,/row\?\.\[6\]\?\.classification/);\n  assert.doesNotMatch(app,/dictionaryData\?\.classificationCandidates/);
 });
 
 test("canonical taxonomy defines all categories in prompt order",()=>{
