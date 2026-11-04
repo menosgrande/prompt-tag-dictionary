@@ -21,7 +21,7 @@ function validateBundle(data) {
   }
   if (!Array.isArray(data.tagGroups)) errors.push("tagGroups must be an array.");
   if (!data.nsfwAudit || !Array.isArray(data.nsfwAudit.candidates)) errors.push("nsfwAudit.candidates must be an array.");
-  if (!Array.isArray(data.classificationCandidates?.entries)) errors.push("classificationCandidates.entries must be an array.");
+  if (!data.reviews || data.reviews.schemaVersion !== 1 || !data.reviews.entries || typeof data.reviews.entries !== "object" || Array.isArray(data.reviews.entries)) errors.push("reviews must contain the embedded admin review ledger.");
 
   if (Array.isArray(data.tags)) {
     const seen = new Set();
@@ -49,15 +49,16 @@ function validateBundle(data) {
     }
   }
 
-  if (Array.isArray(data.tags) && Array.isArray(data.classificationCandidates?.entries)) {
-    const embedded = new Map(data.tags.filter(row => Array.isArray(row) && row[6]?.classification)
-      .map(row => [normalizeTag(row[0]), row[6].classification]));
-    const candidates = data.classificationCandidates.entries;
-    if (embedded.size !== candidates.length) errors.push("classificationCandidates count does not match embedded tag metadata.");
-    for (const item of candidates) {
-      const source = embedded.get(normalizeTag(item?.tag));
-      if (!source || JSON.stringify(source) !== JSON.stringify(Object.fromEntries(Object.entries(item).filter(([key]) => key !== "tag")))) {
-        errors.push("Classification candidate is not synchronized with its tag metadata: " + (item?.tag ?? "(missing tag)"));
+  if (data.reviews?.entries && Array.isArray(data.reviews?.statusCodes?.translation) && Array.isArray(data.reviews?.statusCodes?.classification)) {
+    const tagKeys = new Set((data.tags || []).map(row => normalizeTag(row[0])));
+    for (const [tag, values] of Object.entries(data.reviews.entries)) {
+      if (!tagKeys.has(normalizeTag(tag)) || !Array.isArray(values) || values.length !== 5 ||
+          !Number.isInteger(values[0]) || values[0] < 0 || values[0] >= data.reviews.statusCodes.translation.length ||
+          !Number.isInteger(values[1]) || values[1] < 0 || values[1] >= data.reviews.statusCodes.classification.length ||
+          !(values[2] === 0 || typeof values[2] === "string") ||
+          !Number.isInteger(values[3]) || values[3] < 0 || values[3] > data.reviews.notes.length ||
+          !Number.isInteger(values[4]) || values[4] < 0 || values[4] > data.reviews.sources.length) {
+        errors.push("Invalid embedded review entry: " + tag);
         break;
       }
     }
@@ -81,6 +82,7 @@ if (errors.length) {
   console.log("Canonical runtime dictionary audit passed.");
   console.log("Source: data/dictionary-data.json (single canonical bundle)");
   console.log("Tags: " + data.tags.length);
-  console.log("Classification candidates: " + data.classificationCandidates.entries.length);
+  console.log("Classification metadata: " + data.tags.filter(row => row[6]?.classification).length);
+  console.log("Admin review entries: " + Object.keys(data.reviews.entries).length);
   console.log("Tag groups: " + data.tagGroups.length);
 }
