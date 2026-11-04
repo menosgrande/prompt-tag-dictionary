@@ -10,7 +10,10 @@ for (const [tag, entry] of Object.entries(review.entries)) {
   const row = byTag.get(tag);
   if (!row) throw new Error("Review entry references missing tag: " + tag);
   if (!entry || typeof entry !== "object" || Array.isArray(entry)) throw new Error("Invalid review entry: " + tag);
-  if (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])) row[6] = {};
+  if (row.length < 7) { row[4] = ""; row[5] = []; row[6] = {}; }
+  else if (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])) row[6] = {};
+  if (typeof row[4] !== "string") row[4] = "";
+  if (!Array.isArray(row[5])) row[5] = [];
   row[6].review = { ...entry };
 }
 const migrated = bundle.tags.filter(row => row[6]?.review).length;
