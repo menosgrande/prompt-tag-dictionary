@@ -63,3 +63,18 @@ test("needs-review and unclassified tags have separate filters and counts",()=>{
   assert.match(app,/addFilterButton\("要確認",needsReviewCount/);
   assert.match(app,/addFilterButton\("未分類",unclassifiedCount/);
 });
+
+test("packed tag metadata survives canonical bundle loading and normalization",()=>{
+  assert.match(app,/\.\.\.\(obj\[6\] && typeof obj\[6\] === "object"/);
+  assert.match(app,/\.\.\.item,/);
+  assert.match(app,/\.\.\.metadata,/);
+  assert.match(app,/classificationCandidates/);
+});
+
+test("admin classification review edits stay synchronized with embedded candidates",async()=>{
+  const admin=await readFile(new URL("../src/admin.js",import.meta.url),"utf8");
+  assert.match(admin,/function syncClassificationCandidate\(/);
+  assert.match(admin,/delete meta\.classification/);
+  assert.match(admin,/entries\[index\]=candidate/);
+  assert.match(admin,/classificationCandidates:state\.dictionary\.classificationCandidates/);
+});
