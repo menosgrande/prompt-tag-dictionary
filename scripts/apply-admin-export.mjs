@@ -1,7 +1,6 @@
 import { readFile, writeFile, rename, unlink } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { rebuildDictionaryData } from "./lib/rebuild-dictionary-data.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -11,81 +10,119 @@ const write = args.includes("--write");
 const check = args.includes("--check") || !write;
 if (!inputArg || inputArg.startsWith("--")) throw new Error("Usage: node scripts/apply-admin-export.mjs --input <file> [--check|--write]");
 if (write && args.includes("--check")) throw new Error("Use either --check or --write, not both.");
+
+const readJson = async path => JSON.parse(await readFile(path, "utf8"));
 const inputPath = resolve(process.cwd(), inputArg);
-const readJson = async path => JSON.parse(await readFile(resolve(root, path), "utf8"));
-const exportData = JSON.parse(await readFile(inputPath, "utf8"));
-const [bundle, currentReview, currentLog] = await Promise.all([
-  readJson("data/dictionary-data.json"), readJson("data/tag-review.json"), readJson("data/tag-change-log.json")
+const [exportData, currentBundle, currentLog] = await Promise.all([
+  readJson(inputPath),
+  readJson(resolve(root, "data/dictionary-data.json")),
+  readJson(resolve(root, "data/tag-change-log.json"))
 ]);
-function fingerprint(tags, promptOrder, review, log) {
-  const source = JSON.stringify([tags, promptOrder, review, log]);
+
+function fingerprint(bundle, log) {
+  const source = JSON.stringify([bundle.tags, bundle.taxonomy, bundle.promptOrder, bundle.reviews, bundle.tagGroups, bundle.nsfwAudit, log]);
   let hash = 2166136261;
   for (let i = 0; i < source.length; i++) { hash ^= source.charCodeAt(i); hash = Math.imul(hash, 16777619); }
-  return "ptd-v1-" + (hash >>> 0).toString(16);
+  return "ptd-v2-" + (hash >>> 0).toString(16);
 }
+const normalize = value => String(value ?? "").normalize("NFKC").toLocaleLowerCase().trim();
 const errors = [];
-if (exportData.schema !== "prompt-tag-admin-export-v1" || exportData.schemaVersion !== 1) errors.push("Unsupported export schema.");
-if (typeof exportData.sourceFingerprint !== "string" || exportData.sourceFingerprint !== fingerprint(bundle.tags, bundle.promptOrder, currentReview, currentLog)) errors.push("Source fingerprint mismatch. Reload the admin page and export again; current source data has changed.");
-if (!Array.isArray(exportData.tags)) errors.push("tags must be an array.");
-else {
-  const seen = new Set();
-  for (let i = 0; i < exportData.tags.length; i++) {
-    const row = exportData.tags[i];
-    if (!Array.isArray(row) || ![4, 6, 7].includes(row.length) || row.slice(0, 4).some(v => typeof v !== "string") || (row.length >= 6 && (typeof row[4] !== "string" || !Array.isArray(row[5]) || row[5].some(v => typeof v !== "string"))) || (row.length === 7 && (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])))) { errors.push("Invalid tag row at index " + i); continue; }
-    const key = row[0].normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
-    if (!key || seen.has(key)) errors.push("Empty or duplicate tag at index " + i + ": " + row[0]);
+if (exportData.schema !== "prompt-tag-admin-export-v2" || exportData.schemaVersion !== 2) errors.push("Unsupported admin export schema.");
+if (exportData.sourceFingerprint !== fingerprint(currentBundle, currentLog)) errors.push("Export is based on stale source data. Reload admin.html and export again.");
+const dictionary = exportData.dictionary;
+const changeLog = exportData.changeLog;
+if (!dictionary || dictionary.schema !== "prompt-tag-dictionary-runtime-v1") errors.push("Invalid canonical dictionary.");
+if (!Array.isArray(dictionary?.tags)) errors.push("Dictionary tags must be an array.");
+if (!dictionary?.taxonomy || dictionary.taxonomy.schema !== "tag-taxonomy-v1") errors.push("Dictionary taxonomy is missing or invalid.");
+if (!Array.isArray(dictionary?.promptOrder?.categories) || !Array.isArray(dictionary?.promptOrder?.overrides)) errors.push("Invalid prompt order.");
+if (!Array.isArray(dictionary?.tagGroups) || !Array.isArray(dictionary?.nsfwAudit?.candidates)) errors.push("Required runtime data is missing.");
+if (dictionary?.tags?.length !== currentBundle.tags.length) errors.push("Tag count changed. This admin workflow only edits existing tags; additions and deletions require a separate reviewed migration.");
+if (!dictionary?.reviews || dictionary.reviews.schemaVersion !== 1 || !dictionary.reviews.entries || typeof dictionary.reviews.entries !== "object" || Array.isArray(dictionary.reviews.entries)) {
+  errors.push("Invalid embedded review data.");
+}
+if (dictionary?.reviews) {
+  const translation = new Set(dictionary.reviews.statusCodes?.translation || []);
+  const classification = new Set(dictionary.reviews.statusCodes?.classification || []);
+  for (const [tag, values] of Object.entries(dictionary.reviews.entries || {})) {
+    if (!Array.isArray(values) || values.length !== 5 || !translation.has(translation.values?.[values[0]]) || !classification.has(classification.values?.[values[1]])) {
+      errors.push("Invalid review entry: " + tag); break;
+    }
+    if (!dictionary.tags.some(row => normalize(row[0]) === normalize(tag))) {
+      errors.push("Review entry references a missing tag: " + tag); break;
+    }
+  }
+}
+if (Array.isArray(dictionary?.tags)) {
+  const seen = new Set(), allowed = new Map((dictionary.taxonomy?.semanticCategories || []).map(category =>
+    [category.name, new Set((category.subcategories || []).map(item => item.name))]
+  ));
+  for (let i = 0; i < dictionary.tags.length; i++) {
+    const row = dictionary.tags[i], label = "tag row " + (i + 1);
+    if (!Array.isArray(row) || ![4, 7].includes(row.length) ||
+        row.slice(0, 4).some(value => typeof value !== "string") ||
+        (row.length === 7 && (typeof row[4] !== "string" || !Array.isArray(row[5]) ||
+          row[5].some(value => typeof value !== "string") || !row[6] || typeof row[6] !== "object" || Array.isArray(row[6])))) {
+      errors.push(label + ": invalid tag row"); continue;
+    }
+    const key = normalize(row[0]);
+    if (!key || seen.has(key)) errors.push(label + ": empty or duplicate normalized tag " + row[0]);
     seen.add(key);
+    if (!(row[2] === "未分類" && row[3] === "未分類") && !allowed.get(row[2])?.has(row[3])) errors.push(label + ": category is outside the canonical taxonomy");
   }
 }
-const review = exportData.review;
-if (!review || review.schemaVersion !== 1 || !review.entries || typeof review.entries !== "object" || Array.isArray(review.entries)) errors.push("Invalid review ledger.");
+const taxonomyNames = [...(dictionary?.taxonomy?.semanticCategories || [])].sort((a,b)=>a.order-b.order).map(item=>item.name);
+const promptNames = [...(dictionary?.promptOrder?.categories || [])].sort((a,b)=>a.order-b.order).map(item=>item.name);
+if (JSON.stringify(taxonomyNames) !== JSON.stringify(promptNames)) errors.push("Prompt category order does not match taxonomy.");
+if (!changeLog || changeLog.schemaVersion !== 1 || !Array.isArray(changeLog.changes)) errors.push("Invalid change history.");
 else {
-  const known = new Set(exportData.tags.map(row => row[0]));
-  const translation = new Set(review.statuses?.translation ?? []), classification = new Set(review.statuses?.classification ?? []);
-  for (const [tag, entry] of Object.entries(review.entries)) {
-    if (!known.has(tag)) errors.push("Review entry references unknown tag: " + tag);
-    if (!entry || typeof entry !== "object" || Array.isArray(entry) || !translation.has(entry.translationStatus) || !classification.has(entry.classificationStatus)) errors.push("Invalid review entry: " + tag);
+  if (changeLog.changes.length < currentLog.changes.length) errors.push("Historical change records cannot be removed.");
+  for (let i = 0; i < currentLog.changes.length; i++) {
+    if (JSON.stringify(changeLog.changes[i]) !== JSON.stringify(currentLog.changes[i])) {
+      errors.push("Historical change records are append-only; existing record " + i + " was modified."); break;
+    }
+  }
+  for (let i = 0; i < changeLog.changes.length; i++) {
+    const item = changeLog.changes[i], label = "changeLog.changes[" + i + "]";
+    if (!item || typeof item !== "object" || typeof item.tag !== "string" || !item.tag.trim() ||
+        typeof item.changedAt !== "string" || !/^\\d{4}-\\d{2}-\\d{2}$/.test(item.changedAt) ||
+        !Array.isArray(item.fields) || !item.fields.length ||
+        !item.before || typeof item.before !== "object" || !item.after || typeof item.after !== "object" ||
+        typeof item.reason !== "string" || !item.reason.trim() ||
+        !(item.source === null || typeof item.source === "string")) {
+      errors.push(label + ": invalid history record"); break;
+    }
   }
 }
-const log = exportData.log;
-if (!log || log.schemaVersion !== 1 || !Array.isArray(log.changes)) errors.push("Invalid change log.");
-else for (let i = 0; i < log.changes.length; i++) {
-  const item = log.changes[i];
-  if (!item || typeof item !== "object" || typeof item.tag !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(item.changedAt || "") || !Array.isArray(item.fields) || !item.fields.length || !item.before || typeof item.before !== "object" || !item.after || typeof item.after !== "object" || typeof item.reason !== "string" || !(item.source === null || typeof item.source === "string")) errors.push("Invalid change log entry at index " + i);
+if (errors.length) {
+  for (const error of errors) console.error("ERROR: " + error);
+  process.exitCode = 1;
+} else {
+  console.log("Canonical admin export validation passed.");
+  console.log("Tags: " + dictionary.tags.length);
+  console.log("Review entries: " + Object.keys(dictionary.reviews.entries).length);
+  console.log("Historical change records: " + changeLog.changes.length + " (+" + (changeLog.changes.length - currentLog.changes.length) + ")");
+  console.log("Prompt categories: " + dictionary.promptOrder.categories.length);
+  if (check) console.log("Check only. No repository files were changed.");
 }
-const promptOrder = exportData.promptOrder;
-if (!promptOrder || typeof promptOrder.schema !== "string" || !Array.isArray(promptOrder.categories) || !Array.isArray(promptOrder.overrides)) errors.push("Invalid prompt order data.");
-else {
-  const names = new Set();
-  for (let i = 0; i < promptOrder.categories.length; i++) {
-    const item = promptOrder.categories[i];
-    if (!item || typeof item.name !== "string" || !item.name.trim() || names.has(item.name) || !Array.isArray(item.subcategories)) errors.push("Invalid or duplicate prompt category at index " + i);
-    else names.add(item.name);
+if (write && errors.length === 0) {
+  const targets = [
+    [resolve(root, "data/dictionary-data.json"), JSON.stringify(dictionary, null, 2) + "\n"],
+    [resolve(root, "data/tag-change-log.json"), JSON.stringify(changeLog, null, 2) + "\n"]
+  ];
+  const backups = [];
+  const temps = [];
+  try {
+    for (const [destination, content] of targets) {
+      backups.push([destination, await readFile(destination)]);
+      const temp = destination + ".admin-export.tmp";
+      await writeFile(temp, content, "utf8");
+      temps.push([temp, destination]);
+    }
+    for (const [temp, destination] of temps) await rename(temp, destination);
+    console.log("Applied canonical dictionary and append-only change history. No sidecar rebuild was performed.");
+  } catch (error) {
+    for (const [destination, bytes] of backups) await writeFile(destination, bytes).catch(() => {});
+    for (const [temp] of temps) await unlink(temp).catch(() => {});
+    throw new Error("Apply failed; original files were restored where possible. " + error.message);
   }
-}
-if (errors.length) { for (const error of errors) console.error("ERROR: " + error); process.exit(1); }
-console.log("Admin export validated.");
-console.log("Tags: " + exportData.tags.length + "; review entries: " + Object.keys(review.entries).length + "; change records: " + log.changes.length + "; prompt categories: " + promptOrder.categories.length);
-if (check) { console.log("Check only; no files were changed. Use --write to apply."); process.exit(0); }
-const targets = [
-  ["data/tags.json", exportData.tags], ["data/tag-review.json", review],
-  ["data/tag-change-log.json", log], ["data/prompt-order-categories.json", promptOrder]
-];
-const originals = new Map();
-const temps = [];
-try {
-  for (const [path] of targets) originals.set(path, await readFile(resolve(root, path)));
-  originals.set("data/dictionary-data.json", await readFile(resolve(root, "data/dictionary-data.json")));
-  for (const [path, value] of targets) {
-    const temp = resolve(root, path + ".admin-export.tmp");
-    await writeFile(temp, JSON.stringify(value, null, 2) + "\n", "utf8");
-    temps.push([temp, resolve(root, path)]);
-  }
-  for (const [temp, destination] of temps) await rename(temp, destination);
-  await rebuildDictionaryData(root);
-  console.log("Applied all source files and rebuilt data/dictionary-data.json.");
-} catch (error) {
-  for (const [path, bytes] of originals) await writeFile(resolve(root, path), bytes).catch(() => {});
-  for (const [temp] of temps) await unlink(temp).catch(() => {});
-  throw new Error("Apply failed; original files were restored where possible. " + error.message);
 }
