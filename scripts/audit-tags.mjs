@@ -23,7 +23,8 @@ for (let i = 0; i < rows.length; i++) {
   if (!key) errors.push(label + ": empty tag");
   if (seen.has(key)) errors.push(label + ": normalized duplicate of row " + seen.get(key) + " (" + tag + ")");
   else seen.set(key, i + 1);
-  if (!allowed.has(major)) errors.push(label + ': unknown major category "' + major + '"');
+  if (major === "未分類" && minor === "未分類") { /* explicit review queue */ }
+  else if (!allowed.has(major)) errors.push(label + ': unknown major category "' + major + '"');
   else if (!allowed.get(major).has(minor)) errors.push(label + ': invalid minor category "' + major + " / " + minor + '"');
   counts[major] = (counts[major] || 0) + 1;
   if (!ja.trim()) missingJapanese++;
