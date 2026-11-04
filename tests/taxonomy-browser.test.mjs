@@ -4,8 +4,9 @@ import { readFile } from "node:fs/promises";
 
 const app = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
-const taxonomy = JSON.parse(await readFile(new URL("../data/tag-taxonomy.json", import.meta.url), "utf8"));
-const promptOrder = JSON.parse(await readFile(new URL("../data/prompt-order-categories.json", import.meta.url), "utf8"));
+const runtime = JSON.parse(await readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8"));
+const taxonomy = runtime.taxonomy;
+const promptOrder = runtime.promptOrder;
 
 test("browser loads the consolidated runtime dictionary bundle",()=>{
   assert.match(app,/\.\/data\/dictionary-data\.json/);
