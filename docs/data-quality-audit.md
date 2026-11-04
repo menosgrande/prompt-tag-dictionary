@@ -52,7 +52,7 @@ Change: all bundled rows now use the same four-field shape, and the known retire
 
 ## Remaining data-quality risks
 
-- The current dictionary does not preserve the origin URL, retrieval date, source revision, or per-tag source/translation lineage for historical records. See data/sources.json; unknown values are intentionally not guessed.
+- The current dictionary does not preserve the origin URL, retrieval date, source revision, or per-tag source/translation lineage for historical records. See data/dictionary-data.json の sourceInfo; unknown values are intentionally not guessed.
 - 186 tags still lack Japanese labels.
 - 6,081 tags remain unclassified, including 272 tags with parentheses in their names. Do not treat parentheses alone as evidence that a tag is a character or anime/game title.
 - A structurally valid category can still be semantically wrong. The audit script validates schema and category names, not human-level correctness.
