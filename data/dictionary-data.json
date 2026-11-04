@@ -78,8 +78,8 @@
       "ぐるぐる目",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -95,8 +95,8 @@
       "目がしいたけ",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -118,8 +118,8 @@
       "コメくいてー顔",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -135,8 +135,8 @@
       "0 0（顔文字）",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -286,8 +286,8 @@
       "3Dモデル",
       "画風・描写",
       "媒体",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -303,8 +303,8 @@
       "3D背景",
       "画風・描写",
       "媒体",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -360,8 +360,8 @@
       "4本指のハートポーズ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -591,8 +591,8 @@
       "腹筋",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -722,8 +722,8 @@
       "偶発的な暴露",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -745,8 +745,8 @@
       "逆転裁判",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "machine-translation",
@@ -1083,8 +1083,8 @@
       "アドマイヤベガ（ウマ娘）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -1128,8 +1128,8 @@
       "冒険者（FF11）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "machine-translation",
@@ -1297,8 +1297,8 @@
       "キスの後",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -1919,8 +1919,8 @@
       "アカネ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -2152,8 +2152,8 @@
       "アコ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -2175,8 +2175,8 @@
       "目覚まし時計",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -2390,8 +2390,8 @@
       "路地",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3023,8 +3023,8 @@
       "あめちゃん（NEEDY GIRL OVERDOSE）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -3238,8 +3238,8 @@
       "アナログ時計",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3295,8 +3295,8 @@
       "アンカーチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3363,8 +3363,8 @@
       "アンカー記号",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3443,8 +3443,8 @@
       "安藤（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -3532,8 +3532,8 @@
       "人造人間21号",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3583,8 +3583,8 @@
       "天使と悪魔",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -3600,8 +3600,8 @@
       "エンジェルビーツ！",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -4525,8 +4525,8 @@
       "エプロンリフト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5061,8 +5061,8 @@
       "アクアスキン",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5174,8 +5174,8 @@
       "水族館",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5333,8 +5333,8 @@
       "アーチ状の王冠",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5827,8 +5827,8 @@
       "アームキャノン",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5844,8 +5844,8 @@
       "アームカフス",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5861,8 +5861,8 @@
       "腕の切り抜き",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -5884,8 +5884,8 @@
       "アームガード",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6007,8 +6007,8 @@
       "アームストラップ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6046,8 +6046,8 @@
       "手臂刺青",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6107,8 +6107,8 @@
       "アームウォーマー",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6124,8 +6124,8 @@
       "アームラップ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6397,8 +6397,8 @@
       "アロナ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -6580,8 +6580,8 @@
       "節足動物の少年",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6597,8 +6597,8 @@
       "節足動物の少女",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -6814,8 +6814,8 @@
       "アル（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -7114,8 +7114,8 @@
       "アサルトライフル",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7159,8 +7159,8 @@
       "露出補助",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7247,8 +7247,8 @@
       "アスナ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -7264,8 +7264,8 @@
       "アスナ（バニー）（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -7377,8 +7377,8 @@
       "非対称の履物",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7631,8 +7631,8 @@
       "オーラ",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7758,8 +7758,8 @@
       "斧",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7895,8 +7895,8 @@
       "アズサ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -7924,8 +7924,8 @@
       "哺乳瓶",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -7941,8 +7941,8 @@
       "ベビードール",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -8876,8 +8876,8 @@
       "包帯の指",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -8915,8 +8915,8 @@
       "包帯を巻いた手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -9741,8 +9741,8 @@
       "肩出し",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -10030,8 +10030,8 @@
       "コウモリ娘",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -10234,8 +10234,8 @@
       "バトルライフル",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -10423,8 +10423,8 @@
       "ビーズブレスレット",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -10490,8 +10490,8 @@
       "ビームライフル",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -10823,8 +10823,8 @@
       "蜂の女の子",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -11227,8 +11227,8 @@
       "家具に前かがみになる",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -11331,8 +11331,8 @@
       "指の間",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -11387,8 +11387,8 @@
       "太ももの間",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -12037,8 +12037,8 @@
       "誕生日",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -12082,8 +12082,8 @@
       "バイセクシュアルな女性",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -14031,8 +14031,8 @@
       "ブルマー",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -15445,8 +15445,8 @@
       "ボディホラー",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -15484,8 +15484,8 @@
       "入れ替わり",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -15551,8 +15551,8 @@
       "ボディスーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -15602,8 +15602,8 @@
       "ボコ（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -16017,8 +16017,8 @@
       "拘束された脚",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -16508,8 +16508,8 @@
       "蝶ネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -16588,8 +16588,8 @@
       "ボクサーブリーフ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -16605,8 +16605,8 @@
       "ボクサーパンツ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -16756,8 +16756,8 @@
       "ブレスレット",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -17808,8 +17808,8 @@
       "ブライダルガーター",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -17938,8 +17938,8 @@
       "ブリーフ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -18017,8 +18017,8 @@
       "壊れたアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -18088,8 +18088,8 @@
       "ブローチ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -18139,8 +18139,8 @@
       "兄弟",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -19014,8 +19014,8 @@
       "防弾チョッキ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -19088,8 +19088,8 @@
       "編み込みを土台にしたお団子ヘア",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -19342,8 +19342,8 @@
       "ビスチェ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -19887,8 +19887,8 @@
       "カレンダー",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -20088,8 +20088,8 @@
       "キャミソール",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -20105,8 +20105,8 @@
       "キャミソールリフト",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -20380,8 +20380,8 @@
       "車",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -20486,8 +20486,8 @@
       "カーディガン",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -20525,8 +20525,8 @@
       "睾丸を愛撫",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "machine-translation",
@@ -21359,8 +21359,8 @@
       "洞窟",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -21484,8 +21484,8 @@
       "検閲されたテキスト",
       "光・演出",
       "演出効果",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -21745,8 +21745,8 @@
       "チェーンソーマン",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -22384,8 +22384,8 @@
       "チェッカーネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -22783,8 +22783,8 @@
       "チェストハーネス",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -22822,8 +22822,8 @@
       "引き出し",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -23600,8 +23600,8 @@
       "チョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -23617,8 +23617,8 @@
       "お猪口",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -23718,8 +23718,8 @@
       "クリスマス",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -23779,8 +23779,8 @@
       "クリスマスプレゼント",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -24350,8 +24350,8 @@
       "マント",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -24367,8 +24367,8 @@
       "時計",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -24399,8 +24399,8 @@
       "時計塔",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -24922,8 +24922,8 @@
       "雲",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -25343,8 +25343,8 @@
       "小銭入れ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -25480,8 +25480,8 @@
       "襟付きベスト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26069,8 +26069,8 @@
       "コンピューター",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26086,8 +26086,8 @@
       "キーボード",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26115,8 +26115,8 @@
       "コンサート",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26320,8 +26320,8 @@
       "コンビニ",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26501,8 +26501,8 @@
       "コーラル",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26622,8 +26622,8 @@
       "コルセット",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26645,8 +26645,8 @@
       "コスプレ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26867,8 +26867,8 @@
       "覆われた腹筋",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -26908,8 +26908,8 @@
       "覆われたへそ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -28224,8 +28224,8 @@
       "クロスチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -28372,8 +28372,8 @@
       "より目",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -126886,8 +126886,8 @@
       "襞襟",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -126903,8 +126903,8 @@
       "ネックタッセル",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -126920,8 +126920,8 @@
       "颈部纹身",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -126965,8 +126965,8 @@
       "ネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -126988,8 +126988,8 @@
       "ネクタイグラブ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -127049,8 +127049,8 @@
       "NEEDY GIRL OVERDOSE",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -127434,8 +127434,8 @@
       "ネル（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -127729,8 +127729,8 @@
       "ペンペン（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -127864,8 +127864,8 @@
       "暗視ゴーグル",
       "背景・場所",
       "天候・時間帯",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128104,8 +128104,8 @@
       "忍者マスク",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128469,8 +128469,8 @@
       "カップヌードル",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128664,8 +128664,8 @@
       "アイウェアはありません",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128681,8 +128681,8 @@
       "足はありません",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128804,8 +128804,8 @@
       "線なし",
       "画風・描写",
       "描画技法",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128821,8 +128821,8 @@
       "マスクはありません",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -128951,8 +128951,8 @@
       "ノア（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -129018,8 +129018,8 @@
       "能剧面具",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -129047,8 +129047,8 @@
       "非ヒューマノイドロボット",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -129064,8 +129064,8 @@
       "ノンナ（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -129081,8 +129081,8 @@
       "ノノミ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -129761,8 +129761,8 @@
       "Oリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -129790,8 +129790,8 @@
       "Oリングボトム",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -129807,8 +129807,8 @@
       "Oリングチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -129847,8 +129847,8 @@
       "Oリングトップ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130008,8 +130008,8 @@
       "オブジェクトヘッド",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130025,8 +130025,8 @@
       "オブジェクト挿入",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130042,8 +130042,8 @@
       "名前の由来となった物体",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130065,8 +130065,8 @@
       "頭のオブジェクト",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130082,8 +130082,8 @@
       "頭を貫通する物体",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130177,8 +130177,8 @@
       "オクトーリングガール",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130350,8 +130350,8 @@
       "肩見せ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130403,8 +130403,8 @@
       "差し出す手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -130490,8 +130490,8 @@
       "公式の代替ヘアスタイル",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131042,8 +131042,8 @@
       "車の上にいる",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131281,8 +131281,8 @@
       "岩の上",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131342,8 +131342,8 @@
       "肩に乗る",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131593,8 +131593,8 @@
       "连体丁字裤",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131610,8 +131610,8 @@
       "ワンパンチマン",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131737,8 +131737,8 @@
       "鬼の面",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -131952,8 +131952,8 @@
       "ooarai（エンブレム）",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132165,8 +132165,8 @@
       "オープンボディスーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132194,8 +132194,8 @@
       "カーディガンを開きます",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132263,8 +132263,8 @@
       "手を開けてください",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132280,8 +132280,8 @@
       "手を開けてください",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132327,8 +132327,8 @@
       "ローブを開けます",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132362,8 +132362,8 @@
       "ベストを開きます",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -132713,8 +132713,8 @@
       "オレンジペコ（ガールズ＆パンツァー）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -133000,8 +133000,8 @@
       "華やかなリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133161,8 +133161,8 @@
       "オシダ（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -133578,8 +133578,8 @@
       "でべそ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133639,8 +133639,8 @@
       "腕を伸ばした",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133656,8 +133656,8 @@
       "腕を伸ばした",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133673,8 +133673,8 @@
       "手を伸ばした",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133690,8 +133690,8 @@
       "脚を伸ばした",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133751,8 +133751,8 @@
       "肩越しに",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133796,8 +133796,8 @@
       "オーバーリムアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133825,8 +133825,8 @@
       "オーバーオール",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -133960,8 +133960,8 @@
       "特大のオブジェクト",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134099,8 +134099,8 @@
       "フクロウの女の子",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134116,8 +134116,8 @@
       "握りしめられた自分の手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134133,8 +134133,8 @@
       "一緒に手を",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134566,8 +134566,8 @@
       "淡い肌",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134583,8 +134583,8 @@
       "パレット（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -134840,8 +134840,8 @@
       "パンサーガール",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -135508,8 +135508,8 @@
       "パーティー",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -135531,8 +135531,8 @@
       "パーティー・ポッパー",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -135676,8 +135676,8 @@
       "拼接皮肤",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136004,8 +136004,8 @@
       "平和のシンボル",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136067,8 +136067,8 @@
       "パールブレスレット",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136084,8 +136084,8 @@
       "パールイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136113,8 +136113,8 @@
       "真珠ひも",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136136,8 +136136,8 @@
       "胸部の切断",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136501,8 +136501,8 @@
       "ペンダントチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -136746,8 +136746,8 @@
       "ペパロニ（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -136808,8 +136808,8 @@
       "ペロロ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -137197,8 +137197,8 @@
       "男根のシンボル",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -137368,8 +137368,8 @@
       "フェニックス",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -137435,8 +137435,8 @@
       "写真（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -137819,8 +137819,8 @@
       "ピルイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -137920,8 +137920,8 @@
       "枕を抱く",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -138701,8 +138701,8 @@
       "ピット（キッドイカロス）",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -138974,8 +138974,8 @@
       "格子縞のボウタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139021,8 +139021,8 @@
       "格子縞のネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139080,8 +139080,8 @@
       "格子縞のベスト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139278,8 +139278,8 @@
       "プラットフォームの履物",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139295,8 +139295,8 @@
       "厚底高跟鞋",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139714,8 +139714,8 @@
       "ポッキーキス",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139731,8 +139731,8 @@
       "尖った王冠",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139840,8 +139840,8 @@
       "先のとがった履物",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -139936,8 +139936,8 @@
       "ポークボールシンボル",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -140379,8 +140379,8 @@
       "肩にポケモン",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -140790,8 +140790,8 @@
       "警察車両",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -140942,8 +140942,8 @@
       "水玉模様のブラジャー",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141144,8 +141144,8 @@
       "ポンポンイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -141490,8 +141490,8 @@
       "ポークパイハット",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141529,8 +141529,8 @@
       "ポータル（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -141615,8 +141615,8 @@
       "ポスター（媒体）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141632,8 +141632,8 @@
       "ポスター（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -141649,8 +141649,8 @@
       "ポタライヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -141843,8 +141843,8 @@
       "テーブル越しの主観視点",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141860,8 +141860,8 @@
       "股間視点",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141877,8 +141877,8 @@
       "戸口からの主観視点",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141894,8 +141894,8 @@
       "手元の主観視点",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -141989,8 +141989,8 @@
       "電源マーク",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -142006,8 +142006,8 @@
       "電源マーク型の瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142247,8 +142247,8 @@
       "物をつかめる髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142264,8 +142264,8 @@
       "物をつかめる尻尾",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142338,8 +142338,8 @@
       "足を見せるポーズ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142561,8 +142561,8 @@
       "柄入りビキニ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142607,8 +142607,8 @@
       "柄入り蝶ネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142624,8 +142624,8 @@
       "柄入りブラジャー",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142647,8 +142647,8 @@
       "柄入り手袋",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142705,8 +142705,8 @@
       "柄入り着物",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142751,8 +142751,8 @@
       "柄入りネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142809,8 +142809,8 @@
       "柄シャツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142826,8 +142826,8 @@
       "柄入りショートパンツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142843,8 +142843,8 @@
       "柄入りスカート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142860,8 +142860,8 @@
       "柄入りの袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142877,8 +142877,8 @@
       "柄入りセーター",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -142900,8 +142900,8 @@
       "柄入りニーハイソックス",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -143348,8 +143348,8 @@
       "補綴腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -143365,8 +143365,8 @@
       "義足",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -143740,8 +143740,8 @@
       "自分の服を引っ張る",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -143857,8 +143857,8 @@
       "パンチ",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -144022,8 +144022,8 @@
       "紫のリボン",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144063,8 +144063,8 @@
       "紫のショートケープ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144314,8 +144314,8 @@
       "紫の帯",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144337,8 +144337,8 @@
       "紫のシュシュ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144354,8 +144354,8 @@
       "紫のセーラー服",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144431,8 +144431,8 @@
       "紫を基調とした配色",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144448,8 +144448,8 @@
       "紫のニーハイソックス",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144507,8 +144507,8 @@
       "すぼめた唇",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144530,8 +144530,8 @@
       "押しのける",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144856,8 +144856,8 @@
       "矢筒",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -144963,8 +144963,8 @@
       "ウサギ型の瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145015,8 +145015,8 @@
       "アライグマの女の子",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -145191,8 +145191,8 @@
       "放射線記号",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -145303,8 +145303,8 @@
       "ラグラン袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145400,8 +145400,8 @@
       "キバナ（ポケモン）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145505,8 +145505,8 @@
       "雷門中サッカーユニフォーム",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145562,8 +145562,8 @@
       "虹色のグラデーション",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145579,8 +145579,8 @@
       "虹色の髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145640,8 +145640,8 @@
       "片眉を上げる",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145657,8 +145657,8 @@
       "眉を上げる",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145696,8 +145696,8 @@
       "レイジングハート",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -145930,8 +145930,8 @@
       "魔女ラニ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146025,8 +146025,8 @@
       "光線銃",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -146258,8 +146258,8 @@
       "写実的な",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146404,8 +146404,8 @@
       "長方形のアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -146785,8 +146785,8 @@
       "赤い男性用下着",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146850,8 +146850,8 @@
       "赤鬼",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146897,8 +146897,8 @@
       "赤い瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146944,8 +146944,8 @@
       "赤い帯",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146973,8 +146973,8 @@
       "赤い強膜",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -146990,8 +146990,8 @@
       "赤いシュシュ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147097,8 +147097,8 @@
       "赤を基調とした配色",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147114,8 +147114,8 @@
       "赤いニーハイソックス",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147167,8 +147167,8 @@
       "赤いフレームの眼鏡",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147184,8 +147184,8 @@
       "赤みがかったレンズの眼鏡",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147645,8 +147645,8 @@
       "レム（Re:ゼロ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147735,8 +147735,8 @@
       "ジャケットを脱ぐ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -147796,8 +147796,8 @@
       "爬虫類の少女",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148055,8 +148055,8 @@
       "リバース衣装",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148218,8 +148218,8 @@
       "ロドス・アイランドのロゴ",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148235,8 +148235,8 @@
       "リブ付きボディースーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148321,8 +148321,8 @@
       "リブ生地",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148362,8 +148362,8 @@
       "リボンの縁取り",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148379,8 +148379,8 @@
       "リボンで縁取られた服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148396,8 +148396,8 @@
       "リボン飾りの襟",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148413,8 +148413,8 @@
       "リボン飾りのドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148430,8 +148430,8 @@
       "リボン飾りの帽子",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148453,8 +148453,8 @@
       "リボン飾りの袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148548,8 +148548,8 @@
       "顔に付いたご飯粒",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148621,8 +148621,8 @@
       "自転車に乗る",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -148689,8 +148689,8 @@
       "ライフル",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148781,8 +148781,8 @@
       "縁無し眼鏡",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148798,8 +148798,8 @@
       "指輪",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -148986,8 +148986,8 @@
       "道",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149003,8 +149003,8 @@
       "道路標識",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149042,8 +149042,8 @@
       "ローブ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149065,8 +149065,8 @@
       "ルフレ（ファイアーエムブレム）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149082,8 +149082,8 @@
       "ロビン（崩壊：スターレイル）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149140,8 +149140,8 @@
       "ロボット関節",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149157,8 +149157,8 @@
       "岩",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149341,8 +149341,8 @@
       "白目をむく",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149358,8 +149358,8 @@
       "ローリングスーツケース",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149455,8 +149455,8 @@
       "髪の根元",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149563,8 +149563,8 @@
       "ローズヒップ（ガールズ＆パンツァー）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149586,8 +149586,8 @@
       "ダイヤル式電話",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149603,8 +149603,8 @@
       "回転対称性",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149654,8 +149654,8 @@
       "丸いアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -149693,8 +149693,8 @@
       "円卓",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149888,8 +149888,8 @@
       "目をこする",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -149933,8 +149933,8 @@
       "舵のような靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -150266,8 +150266,8 @@
       "両面宿儺（呪術廻戦）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -150283,8 +150283,8 @@
       "陵桜学園高等学校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -150562,8 +150562,8 @@
       "垂れた胸",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -150755,8 +150755,8 @@
       "セーラームーン描き直しチャレンジ（ミーム）",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -150874,8 +150874,8 @@
       "サイヤ人の戦闘服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -151053,8 +151053,8 @@
       "サキ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -151314,8 +151314,8 @@
       "桜が丘高校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -151993,8 +151993,8 @@
       "サオリ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152344,8 +152344,8 @@
       "サンダース大学附属高校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152505,8 +152505,8 @@
       "鞘",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152580,8 +152580,8 @@
       "目を横切る傷",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152597,8 +152597,8 @@
       "腕に傷",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152637,8 +152637,8 @@
       "胸の傷跡",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152682,8 +152682,8 @@
       "手に傷",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152699,8 +152699,8 @@
       "脚の傷",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152722,8 +152722,8 @@
       "首に傷",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152769,8 +152769,8 @@
       "スカラマシュ（原神）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152786,8 +152786,8 @@
       "怖がっている",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152803,8 +152803,8 @@
       "スカーフ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152826,8 +152826,8 @@
       "紅魔館",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -152922,8 +152922,8 @@
       "学生鞄",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152939,8 +152939,8 @@
       "学生鞄",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -152968,8 +152968,8 @@
       "校章",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153079,8 +153079,8 @@
       "スクープネック",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -153518,8 +153518,8 @@
       "アザラシ",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153675,8 +153675,8 @@
       "透けた身体",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153692,8 +153692,8 @@
       "透けて見える谷間",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -153709,8 +153709,8 @@
       "透ける服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153726,8 +153726,8 @@
       "透けるドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153783,8 +153783,8 @@
       "透けるパンティー",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153859,8 +153859,8 @@
       "透けるスカート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153876,8 +153876,8 @@
       "透ける袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -153945,8 +153945,8 @@
       "セイア（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -154056,8 +154056,8 @@
       "セイウンスカイ（ウマ娘）",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -154073,8 +154073,8 @@
       "正座",
       "ポーズ・姿勢",
       "基本姿勢",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -154191,8 +154191,8 @@
       "自分自身のコスプレ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -154208,8 +154208,8 @@
       "自己抱擁",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -154306,8 +154306,8 @@
       "ハーフリム眼鏡",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -154618,8 +154618,8 @@
       "先生（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -154780,8 +154780,8 @@
       "セリカ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155142,8 +155142,8 @@
       "顔に影が差している",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155171,8 +155171,8 @@
       "シャドウ・ザ・ヘッジホッグ",
       "光・演出",
       "照明・光源",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155511,8 +155511,8 @@
       "服の共有",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155557,8 +155557,8 @@
       "食べ物の共有",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155574,8 +155574,8 @@
       "同じ物体の挿入",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155591,8 +155591,8 @@
       "マフラーの共有",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -155672,8 +155672,8 @@
       "サメの女の子",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -155875,8 +155875,8 @@
       "羊娘",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -156004,8 +156004,8 @@
       "貝殻",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -156027,8 +156027,8 @@
       "薬莢",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -156050,8 +156050,8 @@
       "貝殻のネックレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -156255,8 +156255,8 @@
       "しぐれうい",
       "キャラクター・作品",
       "作者・配信者",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -156538,8 +156538,8 @@
       "島風のコスプレ",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -156731,8 +156731,8 @@
       "死んだ世界戦線の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157075,8 +157075,8 @@
       "光沢のある肌",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157183,8 +157183,8 @@
       "七宝文様",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157407,8 +157407,8 @@
       "シロコ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157424,8 +157424,8 @@
       "シロコ（水着）（ブルーアーカイブ）",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157441,8 +157441,8 @@
       "シロコ＊テラー（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157560,8 +157560,8 @@
       "シャツの裾を半分だけインした状態",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157583,8 +157583,8 @@
       "シャツをボトムスにインした状態",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157600,8 +157600,8 @@
       "シャツを引っ張る",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157679,8 +157679,8 @@
       "靴をぶら下げる",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157696,8 +157696,8 @@
       "靴底",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157713,8 +157713,8 @@
       "ハシビロコウ（けものフレンズ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157831,8 +157831,8 @@
       "店",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157848,8 +157848,8 @@
       "買い物",
       "動作・接触",
       "日常動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157871,8 +157871,8 @@
       "ショッピングカート",
       "動作・接触",
       "日常動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157934,8 +157934,8 @@
       "長い毛束のあるショートヘア",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -157951,8 +157951,8 @@
       "短いジャンプスーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157974,8 +157974,8 @@
       "短いネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -157991,8 +157991,8 @@
       "長袖の上に半袖を重ねた服装",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158057,8 +158057,8 @@
       "短いツインテール",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158098,8 +158098,8 @@
       "ショートパンツを引っ張る",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158184,8 +158184,8 @@
       "ショットガンシェル",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158298,8 +158298,8 @@
       "肩甲骨",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158321,8 +158321,8 @@
       "肩章",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158338,8 +158338,8 @@
       "ショルダーキャノン",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158355,8 +158355,8 @@
       "肩担ぎ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158372,8 +158372,8 @@
       "肩の切り抜き",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158389,8 +158389,8 @@
       "ショルダーガード",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158423,8 +158423,8 @@
       "肩パッド",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158440,8 +158440,8 @@
       "ショルダープレート",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158457,8 +158457,8 @@
       "肩掛けの飾帯",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158474,8 +158474,8 @@
       "肩のスパイク",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158491,8 +158491,8 @@
       "肩紐",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158508,8 +158508,8 @@
       "肩のタトゥー",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158569,8 +158569,8 @@
       "SHOW BY ROCK!!",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158726,8 +158726,8 @@
       "秀華高校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158743,8 +158743,8 @@
       "シュン（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158760,8 +158760,8 @@
       "シュン（幼少期）（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158821,8 +158821,8 @@
       "酒呑童子（Fate）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158856,8 +158856,8 @@
       "兄弟",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -158917,8 +158917,8 @@
       "サイドのアホ毛",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -158934,8 +158934,8 @@
       "サイド三つ編み",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159081,8 +159081,8 @@
       "サイドアップのお団子髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -159150,8 +159150,8 @@
       "横乳",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159245,8 +159245,8 @@
       "サイドレスの衣装",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -159303,8 +159303,8 @@
       "サイドの髪を後ろで結ぶ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159371,8 +159371,8 @@
       "歩道",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -159540,8 +159540,8 @@
       "サイレンススズカ（ウマ娘）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159614,8 +159614,8 @@
       "銀色のドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159631,8 +159631,8 @@
       "ギンギツネ（けものフレンズ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159672,8 +159672,8 @@
       "シンプルな背景",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159746,8 +159746,8 @@
       "シングルアームウォーマー",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -159763,8 +159763,8 @@
       "片足だけ裸足",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -159780,8 +159780,8 @@
       "片脚だけ露出した状態",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159797,8 +159797,8 @@
       "片肩だけ露出した状態",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -159836,8 +159836,8 @@
       "一本の三つ編み",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160012,8 +160012,8 @@
       "シングルガーターストラップ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -160092,8 +160092,8 @@
       "一本のヘアリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160233,8 +160233,8 @@
       "片方だけ機械の腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -160250,8 +160250,8 @@
       "片側だけ肩を出した服装",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160318,8 +160318,8 @@
       "片方の靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160335,8 +160335,8 @@
       "片側だけの肩パッド",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160352,8 +160352,8 @@
       "片側のお団子ヘア",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160536,8 +160536,8 @@
       "片脚だけのサイハイブーツ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160650,8 +160650,8 @@
       "ワンショルダードレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -160751,8 +160751,8 @@
       "姉妹",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161049,8 +161049,8 @@
       "ぴったりした服",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161141,8 +161141,8 @@
       "スカートめくり",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161158,8 +161158,8 @@
       "スカートを押さえる",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161199,8 +161199,8 @@
       "スカートを引っ張る",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161273,8 +161273,8 @@
       "頭蓋骨イヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161296,8 +161296,8 @@
       "頭蓋骨マスク",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161589,8 +161589,8 @@
       "スリープマスク",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161748,8 +161748,8 @@
       "スリーブガーター",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161839,8 +161839,8 @@
       "ノースリーブのボディスーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -161937,8 +161937,8 @@
       "肘を越えて伸びる袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161954,8 +161954,8 @@
       "指先まで覆う袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161977,8 +161977,8 @@
       "まくり上げた袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -161994,8 +161994,8 @@
       "まくった袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -162068,8 +162068,8 @@
       "スライム娘",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -162091,8 +162091,8 @@
       "スリングショット水着",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -162108,8 +162108,8 @@
       "スリッパ",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -162125,8 +162125,8 @@
       "縦長の瞳孔",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -162277,8 +162277,8 @@
       "服の匂いを嗅ぐ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -162300,8 +162300,8 @@
       "スマイルプリキュア！",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -162570,8 +162570,8 @@
       "くしゃみ",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -162587,8 +162587,8 @@
       "スナイパーライフル",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -162897,8 +162897,8 @@
       "足を浸す",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -163033,8 +163033,8 @@
       "総武高校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -163338,8 +163338,8 @@
       "塗りつぶされた丸い瞳孔",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -163355,8 +163355,8 @@
       "塗りつぶされた目",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -163372,8 +163372,8 @@
       "塗りつぶされた楕円形の目",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -163620,8 +163620,8 @@
       "ソーニャ（キルミーベイビー）",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164144,8 +164144,8 @@
       "花火（崩壊：スターレイル）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164223,8 +164223,8 @@
       "きらめくオーラ",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164385,8 +164385,8 @@
       "槍",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164402,8 +164402,8 @@
       "グングニルの槍",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164419,8 +164419,8 @@
       "スペシャルウィーク（ウマ娘）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164459,8 +164459,8 @@
       "スピードライン",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164520,8 +164520,8 @@
       "球体のイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164560,8 +164560,8 @@
       "蜘蛛女",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164673,8 +164673,8 @@
       "スパイクブレスレット",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164690,8 +164690,8 @@
       "スパイクチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -164736,8 +164736,8 @@
       "トゲ付きの首輪",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164753,8 +164753,8 @@
       "トゲ型の耳ピアス",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164770,8 +164770,8 @@
       "逆立った髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -164826,8 +164826,8 @@
       "スパイクシェル",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -165283,8 +165283,8 @@
       "裂けた口",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165300,8 +165300,8 @@
       "二股のポニーテール",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165317,8 +165317,8 @@
       "画面分割",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165362,8 +165362,8 @@
       "リアスポイラー",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165465,8 +165465,8 @@
       "吹き出し内の感嘆符",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165581,8 +165581,8 @@
       "吹き出し内の物体",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165598,8 +165598,8 @@
       "吹き出し内の疑問符",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165644,8 +165644,8 @@
       "吹き出し内の汗マーク",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165815,8 +165815,8 @@
       "スポットカラー",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165832,8 +165832,8 @@
       "スポットライト",
       "光・演出",
       "照明・光源",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -165871,8 +165871,8 @@
       "両腕を広げる",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -165888,8 +165888,8 @@
       "指を広げる",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166173,8 +166173,8 @@
       "四角い先端のネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166190,8 +166190,8 @@
       "しゃがむ",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166207,8 +166207,8 @@
       "しゃがみ騎乗位",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166386,8 +166386,8 @@
       "リスの女の子",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166460,8 +166460,8 @@
       "聖クロニカ学園の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166477,8 +166477,8 @@
       "セントルイス（アズールレーン）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166560,8 +166560,8 @@
       "五線譜",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166725,8 +166725,8 @@
       "口にくわえた茎",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166799,8 +166799,8 @@
       "液体の上に立つ",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166816,8 +166816,8 @@
       "片足立ち",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -166851,8 +166851,8 @@
       "星",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166868,8 +166868,8 @@
       "スターブローチ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166885,8 +166885,8 @@
       "星のチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166902,8 +166902,8 @@
       "星のイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -166919,8 +166919,8 @@
       "星形の顔のマーク",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167133,8 +167133,8 @@
       "星形記号の背景",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -167245,8 +167245,8 @@
       "星型のアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -167262,8 +167262,8 @@
       "星形の瞳孔",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167357,8 +167357,8 @@
       "星空のような髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167500,8 +167500,8 @@
       "人目を忍んだ性行為",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167561,8 +167561,8 @@
       "湯気の立つ体",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167606,8 +167606,8 @@
       "指を組んだ手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167668,8 +167668,8 @@
       "義理の兄弟",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -167821,8 +167821,8 @@
       "ピンヒール",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167860,8 +167860,8 @@
       "あぶみ付きの靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167906,8 +167906,8 @@
       "縫い合わされた腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167923,8 +167923,8 @@
       "縫い目のある顔",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167940,8 +167940,8 @@
       "縫い合わされた口",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -167957,8 +167957,8 @@
       "縫い合わされた胴体",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -168189,8 +168189,8 @@
       "ストーンオーシャン",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -168370,8 +168370,8 @@
       "直毛",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -168696,8 +168696,8 @@
       "ストラップヒール",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -169080,8 +169080,8 @@
       "紐パンツ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169154,8 +169154,8 @@
       "縞模様の蝶ネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -169183,8 +169183,8 @@
       "縞模様のコート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169200,8 +169200,8 @@
       "縞模様のドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169309,8 +169309,8 @@
       "縞模様のネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169326,8 +169326,8 @@
       "縞模様のワンピース水着",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169361,8 +169361,8 @@
       "縞模様のリボン",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169390,8 +169390,8 @@
       "縞模様のショートパンツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169407,8 +169407,8 @@
       "縞模様のスカート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169448,8 +169448,8 @@
       "縞模様のニーハイソックス",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169465,8 +169465,8 @@
       "ストライプベスト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -169652,8 +169652,8 @@
       "スタッドピアス",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169675,8 +169675,8 @@
       "スタッドブレスレット",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -169692,8 +169692,8 @@
       "スタッドチョーカー",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -169721,8 +169721,8 @@
       "スタジオジブリ",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169750,8 +169750,8 @@
       "犬のぬいぐるみ",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169837,8 +169837,8 @@
       "翼のあるユニコーンのぬいぐるみ",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169854,8 +169854,8 @@
       "作風パロディ",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -169893,8 +169893,8 @@
       "小型機関銃",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170128,8 +170128,8 @@
       "スーツのジャケット",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -170145,8 +170145,8 @@
       "スーツケース",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170347,8 +170347,8 @@
       "召喚夜",
       "背景・場所",
       "天候・時間帯",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170392,8 +170392,8 @@
       "太陽のシンボル",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170661,8 +170661,8 @@
       "スーパークラウン",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170700,8 +170700,8 @@
       "スーパーロボット",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -170717,8 +170717,8 @@
       "スーパーロボット大戦",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -171019,8 +171019,8 @@
       "医療用マスク",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171036,8 +171036,8 @@
       "サプライズキス",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -171144,8 +171144,8 @@
       "調査隊（エンブレム）",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -171532,8 +171532,8 @@
       "汗マーク",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171714,8 +171714,8 @@
       "流した前髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171731,8 +171731,8 @@
       "水泳用ブリーフ",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171748,8 +171748,8 @@
       "水泳帽",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171765,8 +171765,8 @@
       "浮き輪",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -171782,8 +171782,8 @@
       "水泳用トランクス",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171811,8 +171811,8 @@
       "水着をずらす",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171828,8 +171828,8 @@
       "水着の上に着るカバーアップ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171964,8 +171964,8 @@
       "ソードアート・オンライン アリシゼーション",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -171987,8 +171987,8 @@
       "背中に差した剣",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -172056,8 +172056,8 @@
       "記号形の瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -172113,8 +172113,8 @@
       "対称",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -172213,8 +172213,8 @@
       "Tヘッドトレーナー（ウマ娘）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -172479,8 +172479,8 @@
       "自分の脚に巻き付いた尻尾",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -172502,8 +172502,8 @@
       "股の間に垂れた尻尾",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -172525,8 +172525,8 @@
       "尻尾による局部隠し",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -173274,8 +173274,8 @@
       "テイルズ オブ シリーズ",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -173509,8 +173509,8 @@
       "電話で話す",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -173532,8 +173532,8 @@
       "背の高い女性",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -173643,8 +173643,8 @@
       "たまこまーけっと",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -173678,8 +173678,8 @@
       "玉藻の前（Fate/EXTRA）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "machine-translation",
@@ -174055,8 +174055,8 @@
       "バクの尻尾",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174162,8 +174162,8 @@
       "タッセルイヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -174373,8 +174373,8 @@
       "ピンと張った服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174390,8 +174390,8 @@
       "ピンと張ったドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174431,8 +174431,8 @@
       "ピンと張ったシャツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174448,8 +174448,8 @@
       "ピンと張った水着",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174552,8 +174552,8 @@
       "ロケット団の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174619,8 +174619,8 @@
       "しずく型イヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -174761,8 +174761,8 @@
       "ティーン・タイタンズ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174778,8 +174778,8 @@
       "10代",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -174801,8 +174801,8 @@
       "歯でくわえる",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175034,8 +175034,8 @@
       "天狗の面",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -175660,8 +175660,8 @@
       "ゼルダの伝説 ティアーズ オブ ザ キングダム",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175749,8 +175749,8 @@
       "テーマに沿った小物",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175851,8 +175851,8 @@
       "太い腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175896,8 +175896,8 @@
       "太い眉",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175913,8 +175913,8 @@
       "濃いまつげ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175964,8 +175964,8 @@
       "太い太もも",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -175993,8 +175993,8 @@
       "太ももの切り抜き",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176010,8 +176010,8 @@
       "太ももの隙間",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176027,8 +176027,8 @@
       "太ももをつかむ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176061,8 +176061,8 @@
       "太ももポーチ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176090,8 +176090,8 @@
       "太ももストラップ",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176107,8 +176107,8 @@
       "太ももバンド付きパンスト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176124,8 +176124,8 @@
       "ニーソックス",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176141,8 +176141,8 @@
       "パンストの上にニーハイ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176158,8 +176158,8 @@
       "ニーハイを引っ張る",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176175,8 +176175,8 @@
       "ブーツの下に履いたニーハイ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176214,8 +176214,8 @@
       "太もも",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176259,8 +176259,8 @@
       "Tバック",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176276,8 +176276,8 @@
       "Tバックを脇にずらす",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176293,8 +176293,8 @@
       "Tバックビキニ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176310,8 +176310,8 @@
       "Tバックレオタード",
       "服装・装飾",
       "下着",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176614,8 +176614,8 @@
       "親指のリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -176767,8 +176767,8 @@
       "足裏をくすぐる",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176808,8 +176808,8 @@
       "拘束されている（非性的）",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176906,8 +176906,8 @@
       "虎柄",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176941,8 +176941,8 @@
       "体にぴったりした服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -176958,8 +176958,8 @@
       "体にぴったりしたドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -177142,8 +177142,8 @@
       "着色アイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -177159,8 +177159,8 @@
       "ティッピー（ご注文はうさぎですか？）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -177479,8 +177479,8 @@
       "口にトーストをくわえる",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -177540,8 +177540,8 @@
       "足指の谷間",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -177557,8 +177557,8 @@
       "つま先リング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -177603,8 +177603,8 @@
       "つま先の開いた靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -178037,8 +178037,8 @@
       "常盤台中学の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178145,8 +178145,8 @@
       "東京（都市）",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178162,8 +178162,8 @@
       "Tokyo 7th シスターズ",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178309,8 +178309,8 @@
       "巴紋",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -178326,8 +178326,8 @@
       "巴御前（Fate）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178371,8 +178371,8 @@
       "友枝小学校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178467,8 +178467,8 @@
       "引き締まった女性",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -178484,8 +178484,8 @@
       "引き締まった男性",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -178958,8 +178958,8 @@
       "鳥山明（画風）",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179025,8 +179025,8 @@
       "引き裂かれたボディスーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179059,8 +179059,8 @@
       "破れたマント",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179076,8 +179076,8 @@
       "破れた服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179117,8 +179117,8 @@
       "破れたジーンズ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179205,8 +179205,8 @@
       "破れたニーハイ",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179338,8 +179338,8 @@
       "胴体掴み",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179595,8 +179595,8 @@
       "首の周りのタオル",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179741,8 +179741,8 @@
       "トレセン学園制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179758,8 +179758,8 @@
       "トレセン学園水着",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179799,8 +179799,8 @@
       "トラックパンツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -179861,8 +179861,8 @@
       "伝統的なボウタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -179946,8 +179946,8 @@
       "伝統的なYoukai",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -180072,8 +180072,8 @@
       "トレーニング隊（エンブレム）",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -180377,8 +180377,8 @@
       "旅行アテンダント",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -180416,8 +180416,8 @@
       "宝箱",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -180529,8 +180529,8 @@
       "三つ編み",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -180590,8 +180590,8 @@
       "三角イヤリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -180641,8 +180641,8 @@
       "三角形のアイウェア",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -181007,8 +181007,8 @@
       "トロピカルドリンク",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -181126,8 +181126,8 @@
       "ツバキ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -181243,8 +181243,8 @@
       "月ノ森女子学園の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -181814,8 +181814,8 @@
       "タートルネックワンピース",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -181932,8 +181932,8 @@
       "自分の乳首をいじる",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -181971,8 +181971,8 @@
       "トワイライト（SPY×FAMILY）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182085,8 +182085,8 @@
       "髪を指に巻き付ける",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182102,8 +182102,8 @@
       "ねじれた胴体",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182311,8 +182311,8 @@
       "2本指の敬礼",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182381,8 +182381,8 @@
       "リバーシブルマント",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182398,8 +182398,8 @@
       "リバーシブルコート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182415,8 +182415,8 @@
       "リバーシブルドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182478,8 +182478,8 @@
       "リバーシブルジャケット",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182495,8 +182495,8 @@
       "リバーシブルスカート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182512,8 +182512,8 @@
       "ツートンの背景",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182552,8 +182552,8 @@
       "ツートンリボン",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182591,8 +182591,8 @@
       "ツートンケープ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182608,8 +182608,8 @@
       "ツートンカラーのコート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182625,8 +182625,8 @@
       "ツートンカラーのドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182670,8 +182670,8 @@
       "ツートンの毛皮",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182687,8 +182687,8 @@
       "ツートンカラーの手袋",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -182710,8 +182710,8 @@
       "ツートンヘアバンド",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182727,8 +182727,8 @@
       "ツートンヘッドウェア",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182762,8 +182762,8 @@
       "ツートンレッグウェア",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -182779,8 +182779,8 @@
       "ツートンレオタード",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183117,8 +183117,8 @@
       "ブ男",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183134,8 +183134,8 @@
       "ウイ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183428,8 +183428,8 @@
       "無修正",
       "光・演出",
       "演出効果",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183581,8 +183581,8 @@
       "アンダーナイト インヴァース",
       "背景・場所",
       "天候・時間帯",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183610,8 +183610,8 @@
       "アンダーリム眼鏡",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183683,8 +183683,8 @@
       "アンダーカット",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183809,8 +183809,8 @@
       "外れたネックリボン",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183826,8 +183826,8 @@
       "緩んだネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183843,8 +183843,8 @@
       "服を脱ぐ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183860,8 +183860,8 @@
       "別の服を脱ぐ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -183877,8 +183877,8 @@
       "左右非対称の目",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183934,8 +183934,8 @@
       "左右非対称のツインテール",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -183980,8 +183980,8 @@
       "ユニコーン",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -184155,8 +184155,8 @@
       "紐がほどけたビキニ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184172,8 +184172,8 @@
       "靴紐がほどけた靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184189,8 +184189,8 @@
       "紐がほどけたパンティー",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184206,8 +184206,8 @@
       "裾を出したシャツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184270,8 +184270,8 @@
       "身に着けていないバックパック",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184287,8 +184287,8 @@
       "身に着けていないバッグ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184304,8 +184304,8 @@
       "着用していないビキニ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184321,8 +184321,8 @@
       "着用していないビキニボトム",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184338,8 +184338,8 @@
       "着用していないビキニトップ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184355,8 +184355,8 @@
       "履いていないブーツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184372,8 +184372,8 @@
       "着用していないブラジャー",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184389,8 +184389,8 @@
       "着ていない服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184406,8 +184406,8 @@
       "着ていないコート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184423,8 +184423,8 @@
       "着ていないドレス",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184464,8 +184464,8 @@
       "かけていない眼鏡",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184481,8 +184481,8 @@
       "履いていない靴",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -184498,8 +184498,8 @@
       "着けていない手袋",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184539,8 +184539,8 @@
       "着けていない髪飾り",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184556,8 +184556,8 @@
       "かぶっていない帽子",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184621,8 +184621,8 @@
       "着ていないジャケット",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184638,8 +184638,8 @@
       "身に着けていないアクセサリー",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184655,8 +184655,8 @@
       "着けていないマスク",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184672,8 +184672,8 @@
       "着けていないネクタイ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184689,8 +184689,8 @@
       "着用していないパンティー",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184706,8 +184706,8 @@
       "履いていないサンダル",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184723,8 +184723,8 @@
       "着ていないシャツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184740,8 +184740,8 @@
       "履いていない靴",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184757,8 +184757,8 @@
       "着用していないショートパンツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184774,8 +184774,8 @@
       "着用していないスカート",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -184791,8 +184791,8 @@
       "履いていない靴下",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185016,8 +185016,8 @@
       "パンチラ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185073,8 +185073,8 @@
       "都会的な",
       "背景・場所",
       "建築・構造物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -185326,8 +185326,8 @@
       "ウセクカラー",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185438,8 +185438,8 @@
       "牛若丸（Fate）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185543,8 +185543,8 @@
       "口にくわえた食器",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185577,8 +185577,8 @@
       "ユーティリティベルト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185633,8 +185633,8 @@
       "グレープアカデミーの制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185763,8 +185763,8 @@
       "Vアーム",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -185780,8 +185780,8 @@
       "Vサインを目にかざす",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185797,8 +185797,8 @@
       "Vサインを口にかざす",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185836,8 +185836,8 @@
       "Vネック",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -185853,8 +185853,8 @@
       "V字型の眉",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185915,8 +185915,8 @@
       "膣",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -185932,8 +185932,8 @@
       "膣への異物挿入",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186018,8 +186018,8 @@
       "吸血鬼の衣装",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -186091,8 +186091,8 @@
       "ヴェイパーウェイヴ",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186191,8 +186191,8 @@
       "跳馬",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186271,8 +186271,8 @@
       "車両を主題にした構図",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186288,8 +186288,8 @@
       "車内",
       "背景・場所",
       "自然・風景",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186339,8 +186339,8 @@
       "血管が浮いた腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -186356,8 +186356,8 @@
       "血管が浮き出た胸",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186373,8 +186373,8 @@
       "血管が浮き出た手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186435,8 +186435,8 @@
       "金星のシンボル",
       "文字・記号",
       "記号・図形",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -186499,8 +186499,8 @@
       "縦縞のビキニ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186605,8 +186605,8 @@
       "縦縞のニーハイ",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186628,8 +186628,8 @@
       "色黒の肌",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186685,8 +186685,8 @@
       "極端に長い袖",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186731,8 +186731,8 @@
       "超広角ショット",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186748,8 +186748,8 @@
       "ベスト",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -186855,8 +186855,8 @@
       "視聴者がリードを持つ構図",
       "動作・接触",
       "身体動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186974,8 +186974,8 @@
       "童貞を殺すセーター",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -186991,8 +186991,8 @@
       "ヴァージンキラーの衣装",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -187336,8 +187336,8 @@
       "バレーボール",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -187377,8 +187377,8 @@
       "バレーボールユニフォーム",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -187394,8 +187394,8 @@
       "ボクセルアート",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -187512,8 +187512,8 @@
       "W字型の腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -187687,8 +187687,8 @@
       "ウエストエプロン",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -187856,8 +187856,8 @@
       "ワカモ（ブルーアーカイブ）",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -187956,8 +187956,8 @@
       "ウォーカー（ロボット）",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -188002,8 +188002,8 @@
       "壁時計",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -188059,8 +188059,8 @@
       "壁紙（オブジェクト）",
       "家具・設備・物品",
       "その他の物品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -188638,8 +188638,8 @@
       "水鉄砲",
       "服装・装飾",
       "装備・防具",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -188964,8 +188964,8 @@
       "イタチ娘",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -189004,8 +189004,8 @@
       "水かきのある手",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -189021,8 +189021,8 @@
       "結婚式",
       "背景・場所",
       "空間・環境表現",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -189061,8 +189061,8 @@
       "ウェッジソール",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189251,8 +189251,8 @@
       "人狼",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -189274,8 +189274,8 @@
       "西洋のドラゴン",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189331,8 +189331,8 @@
       "濡れたパンティー",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189348,8 +189348,8 @@
       "濡れたシャツ",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189745,8 +189745,8 @@
       "首から笛を下げる",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189786,8 +189786,8 @@
       "白いベビードール",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189821,8 +189821,8 @@
       "白いベアトップ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189874,8 +189874,8 @@
       "白いリボン",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189921,8 +189921,8 @@
       "白いケープレット",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -189968,8 +189968,8 @@
       "白い襟",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190003,8 +190003,8 @@
       "白いまつげ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190242,8 +190242,8 @@
       "白い瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190277,8 +190277,8 @@
       "白いバラ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190294,8 +190294,8 @@
       "白いセーラー襟",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190317,8 +190317,8 @@
       "白いサッシュ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190346,8 +190346,8 @@
       "白いシュシュ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190363,8 +190363,8 @@
       "白いセーラー服",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190446,8 +190446,8 @@
       "白い縞模様",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190493,8 +190493,8 @@
       "白いニーハイ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190570,8 +190570,8 @@
       "白いフレームの眼鏡",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190609,8 +190609,8 @@
       "幅広の腰",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190638,8 +190638,8 @@
       "ワイドショット",
       "構図・カメラ",
       "撮影距離",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190661,8 +190661,8 @@
       "足を大きく開く",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -190678,8 +190678,8 @@
       "目を見開いた",
       "顔・表情",
       "目",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -190723,8 +190723,8 @@
       "かつら",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -190740,8 +190740,8 @@
       "野生の腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -190931,8 +190931,8 @@
       "窓枠",
       "構図・カメラ",
       "構図・配置",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191034,8 +191034,8 @@
       "ウィングブローチ",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -191091,8 +191091,8 @@
       "翼のある腕",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -191108,8 +191108,8 @@
       "翼のある履物",
       "服装・装飾",
       "靴・履物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -191306,8 +191306,8 @@
       "薄く軽い前髪",
       "髪・頭部",
       "髪・頭部",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191351,8 +191351,8 @@
       "魔女（魔法少女まどか☆マギカ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191380,8 +191380,8 @@
       "魔法使いの帽子",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191449,8 +191449,8 @@
       "狼少年",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191478,8 +191478,8 @@
       "オオカミ娘",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191826,8 +191826,8 @@
       "心配した",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -191849,8 +191849,8 @@
       "レイス（Apex Legends）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -191954,8 +191954,8 @@
       "レスリング",
       "動作・接触",
       "対人接触・動作",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -192044,8 +192044,8 @@
       "服を絞る",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -192061,8 +192061,8 @@
       "しわが寄った肌",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -192261,8 +192261,8 @@
       "左右を間違えた足",
       "人物の特徴",
       "身体部位・身体状態",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -192351,8 +192351,8 @@
       "X字型の髪飾り",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -192434,8 +192434,8 @@
       "X字型の瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -192473,8 +192473,8 @@
       "ゼノブレイドシリーズ",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193021,8 +193021,8 @@
       "煙緋",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193038,8 +193038,8 @@
       "楊貴妃（Fate）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193213,8 +193213,8 @@
       "あくび",
       "顔・表情",
       "顔・表情",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -193264,8 +193264,8 @@
       "戌年",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193281,8 +193281,8 @@
       "辰年",
       "生物・動植物",
       "動物",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193397,8 +193397,8 @@
       "夜蘭（原神）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193672,8 +193672,8 @@
       "黄色い瞳",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193725,8 +193725,8 @@
       "黄色い白目",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -193820,8 +193820,8 @@
       "黄色いニーハイ",
       "未分類",
       "未分類",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194081,8 +194081,8 @@
       "宵宮",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194098,8 +194098,8 @@
       "宵崎奏",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194321,8 +194321,8 @@
       "吉田優子（まちカドまぞく）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194338,8 +194338,8 @@
       "ヨシミ（ブルーアーカイブ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194361,8 +194361,8 @@
       "よつばと！",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194400,8 +194400,8 @@
       "妖怪（妖怪ウォッチ）",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194417,8 +194417,8 @@
       "妖怪ウォッチ",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -194484,8 +194484,8 @@
       "虞美人（Fate）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194501,8 +194501,8 @@
       "遊☆戯☆王",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -194648,8 +194648,8 @@
       "結ヶ丘女子高等学校の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195002,8 +195002,8 @@
       "百合ヶ丘女子学園の制服",
       "服装・装飾",
       "衣服",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195019,8 +195019,8 @@
       "ゆるキャン△",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195077,8 +195077,8 @@
       "ユウカ（ブルーアーカイブ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195117,8 +195117,8 @@
       "結城理（ペルソナ3）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195146,8 +195146,8 @@
       "ユズ（ブルーアーカイブ）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195181,8 +195181,8 @@
       "zリング",
       "服装・装飾",
       "装飾品",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -195350,8 +195350,8 @@
       "ゼロツー（ダーリン・イン・ザ・フランキス）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195406,8 +195406,8 @@
       "鍾離（原神）",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195524,8 +195524,8 @@
       "ゾンビランドサガ",
       "キャラクター・作品",
       "作品・シリーズ",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -195541,8 +195541,8 @@
       "ゾンビポーズ",
       "人物の特徴",
       "人物属性",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "unreviewed",
@@ -195658,8 +195658,8 @@
       "ZUN風",
       "画風・描写",
       "画風・表現様式",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
@@ -195675,8 +195675,8 @@
       "ずんだもん",
       "キャラクター・作品",
       "キャラクター",
-      null,
-      null,
+      "",
+      [],
       {
         "review": {
           "translationStatus": "needs-review",
