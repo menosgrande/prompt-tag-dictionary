@@ -1,121 +1,58 @@
 # タグデータ管理ガイド
 
-## 方針
+## 唯一の正本
 
-- `data/tags.json` をタグ情報の唯一の正本とする。基本形は `[tag, ja, major, minor]`。任意の第5・第6項目に `[detail, aliases]`、第7項目に翻訳・分類候補・確認待ちのメタデータを保持する。
-- 第7項目は `{ translation, classification, classificationReview }` を必要に応じて持つ。未確定候補は `status` を維持し、確定分類・確定訳として扱わない。
-- タグの意味や分類を自動で「正しい」と認定しない。ルールによる推定は仮分類として扱う。
-- 過去の出典・翻訳者・確認履歴が残っていない既存行について、推測で履歴を作らない。
-- タグの原文 `tag` は識別子として扱い、翻訳・分類修正時にも意図なく変更しない。
+タグ・翻訳・分類・説明・確認状態・分類体系・出力順・グループ・分類調査候補・外部プロンプト候補・出典情報は、すべて `data/dictionary-data.json` に集約します。辞書データを分割した補助JSONを別の正本として扱いません。
 
-## ファイル構成
+## データ構造
 
-| ファイル | 役割 |
-| --- | --- |
-| `data/tags.json` | 唯一の正本。タグ本体・翻訳候補・分類候補・未分類レビュー待ちをタグ行に統合 |
-| `data/tag-review.json` | 管理画面で追加された個別確認状態の差分台帳 |
-| `data/tag-change-log.json` | これから行う変更の追記型履歴 |
-| `data/sources.json` | データセット／入力ファイル単位の出典情報 |
-| `scripts/audit-tags.mjs` | タグ本体の構造・分類・重複監査 |
-| `scripts/audit-tag-management.mjs` | 確認台帳・変更履歴とタグ本体の整合性監査 |
+- `tags`: タグ本体。通常は `[tag, ja, major, minor]`、詳細情報がある行は `[tag, ja, major, minor, detail, aliases, metadata]`。
+- `metadata.translation`: 翻訳状態、候補訳、出典など。
+- `metadata.classification`: 分類候補。
+- `metadata.classificationReview`: 分類の確認状態、理由、出典。
+- `review`: 翻訳・分類レビュー状態をタグ配列のインデックスに対応させて格納するコンパクトな索引。タグ行の順序を変える場合は必ず索引も同時に移行する。
+- `taxonomy` / `promptOrder`: 分類体系とプロンプト出力順。
+- `classificationCandidates`: タグ行の分類メタデータと同期する索引。
+- `classificationResearch`: 色分類・分類レビュー・ローマ字名監査などの候補と根拠。
+- `externalPromptCandidates`: 外部資料から得た追加候補。既存タグと新規候補を区別し、確定タグと混同しない。
+- `sourceInfo`: データセットの出典・取得情報・制約。
 
-## 確認台帳の使い方
+## 状態の意味
 
-`data/tag-review.json` の `entries` に、実際に確認したタグだけを追加する。キーは `data/tags.json` の英語タグ文字列とする。
+- `unreviewed`: 未確認。誤りと断定する意味ではない。
+- `needs-review`: 再確認が必要。
+- `machine-translation`: 機械翻訳由来。
+- `provisional`: 仮分類。確定分類ではない。
+- `verified`: 指定した観点を確認済み。タグ全体の正しさを保証するものではない。
+- `not-applicable`: その確認観点が適用されない。
 
-- `translationStatus`: `unreviewed` / `needs-review` / `machine-translation` / `verified` / `not-applicable`
-- `classificationStatus`: `unreviewed` / `provisional` / `needs-review` / `verified` / `not-applicable`
-- `reviewedAt`: 確認した日付（`YYYY-MM-DD`）
-- `reviewer`: 確認者（任意。個人名を公開したくない場合は役割名でよい）
-- `note`: 判断根拠や残課題（任意）
-- `source`: 実際に確認に使った出典URLまたは識別子（任意）
+確認状態は原文や分類候補の意味を自動的に確定しません。出典が不明な場合は推測で補わず、未確認のまま保持します。
 
-状態の意味は次のとおり。
+## 変更履歴
 
-- `unreviewed`: 未確認。品質が低いと断定する意味ではない。
-- `needs-review`: 問題候補があり、再確認が必要。
-- `machine-translation`: 機械翻訳由来と確認できている。
-- `provisional`: 分類は付いているが、推定・暫定。
-- `verified`: 指定した観点を人が確認済み。タグ全体の正しさを保証するものではない。
-- `not-applicable`: その観点が適用されない。
-
-正本の第7項目に初期の候補状態を保持し、管理画面で後から確認した状態は `tag-review.json` に差分として保存する。台帳の値が正本メタデータより優先される。
-
-## 変更履歴の記録
-
-タグ本体の訳語・分類を変更したら、`data/tag-change-log.json` の `changes` に記録を追記する。過去の記録は削除・書き換えず、誤記は訂正記録を追加する。
-
-各記録には以下を含める。
-
-- `tag`: 対象の英語タグ
-- `changedAt`: 変更日（`YYYY-MM-DD`）
-- `fields`: 変更した項目名の配列（`ja`, `major`, `minor` など）
-- `before` / `after`: 変更前後の値
-- `reason`: 変更理由
-- `source`: 根拠にした出典。ない場合は `null` とし、推測しない。
-
-Gitのコミット履歴も変更履歴として残るが、タグ単位で検索・集計しやすくするため、この台帳も併用する。履歴記録は人手で追記する運用であり、現時点で自動生成はしない。
+変更履歴はGitのコミット履歴で追跡します。別の変更履歴JSONは作成しません。タグ単位の説明・根拠・出典として必要な情報は、該当タグのメタデータに保持します。
 
 ## 安全な修正手順
 
-1. 対象タグが `data/tags.json` に存在することを確認する。
-2. 原文タグ・既存訳・分類を確認し、根拠を用意する。
-3. 必要なフィールドだけ修正する。無関係な一括置換をしない。
-4. 変更履歴を追記し、確認した場合は確認台帳も更新する。
-5. `node scripts/audit-tags.mjs` と `node scripts/audit-tag-management.mjs` を実行する。
-6. 差分を確認し、タグ数・未分類数・未翻訳数に意図しない変化がないことを確認してからPRを作成する。
-
-## 監査の範囲
-
-自動監査はJSON構造、既存タグへの参照、状態値、日付形式、変更履歴の必須項目を確認する。日本語訳や意味上の分類が正しいかは自動判定できない。確認台帳に登録しただけで内容が正しいと保証されるわけではない。
-
-## 決定的ルールによる仮分類の自動適用
-
-2026-10-30に、監査スナップショット `data/category-audit-candidates-01.jsonl`〜`12.jsonl` から、次の条件をすべて満たす分類候補を `data/tags.json` へ仮適用しました。
-
-- 候補状態が `分類候補`、信頼度が `medium`。
-- 現行タグが存在し、現在の大分類・小分類がともに `未分類`。
-- 提案された大分類・小分類が既存の許可値に一致する。
-- 既存の人手確認状態を上書きしない。
-
-**920件を仮適用**し、105件は現在のタグ本体が既に分類済みだったため変更していません。変更は `data/tag-change-log.json` に全件記録し、確認台帳は `classificationStatus: provisional` として人手確認待ちにしました。既存の日本語訳は変更していません。
-
-候補に含まれる第3階層は管理画面で扱う任意の第5項目（詳細分類）として保存できますが、この自動適用処理では変更しません。元の候補は監査JSONLに保持しています。仮分類は確定分類ではなく、誤分類の可能性があります。
-
-再実行可能なスクリプトは `scripts/apply-safe-category-candidates.mjs` です。既定はdry-runで、実際に書き込む場合だけ次を実行します。
+1. 対象タグが正本に存在することを確認します。
+2. 英語タグ原文・日本語訳・分類・既存メタデータを確認します。
+3. 必要なフィールドだけ変更します。無関係な一括置換はしません。
+4. 管理画面から正本JSONを出力します。
+5. `node scripts/apply-admin-export.mjs --input dictionary-data.json --check` で検証します。
+6. 検証後に正本へ反映し、以下を実行します。
 
 ```sh
-node scripts/apply-safe-category-candidates.mjs
-node scripts/apply-safe-category-candidates.mjs --write
+node scripts/build-dictionary-data.mjs --check
+node scripts/audit-tags.mjs
+node scripts/audit-taxonomy.mjs
+node scripts/audit-prompt-order.mjs
+node scripts/audit-tag-management.mjs
+node scripts/audit-translations.mjs
+node scripts/audit-tag-groups.mjs
 ```
 
-この処理は「未分類」の行だけを対象にするため、同じデータに再実行しても既に変更した行を重ねて変更しません。
+7. 差分とCIを確認し、PRで反映します。
 
+## 注意
 
-## 管理画面の一括エクスポート
-
-管理画面の「一括エクスポート」は、タグ本体・確認台帳・変更履歴・プロンプト出力カテゴリ順を `prompt-tag-admin-export.json` にまとめます。個別JSON出力も引き続き利用できます。
-
-出力ファイルをリポジトリのルートに置き、まず検証のみ実行します。
-
-```sh
-node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --check
-```
-
-問題がなければ `--write` を付けて原本4ファイルを更新し、ランタイム統合JSONを再生成します。エクスポート時点の原本フィンガープリントが現在の原本と一致しない場合は、古いデータによる上書きを防ぐため適用を拒否します。
-
-```sh
-node scripts/apply-admin-export.mjs --input prompt-tag-admin-export.json --write
-```
-
-
-## 2026-11-04: 翻訳・分類候補を正本へ統合
-
-未処理候補を分割JSONのまま残さず、`data/tags.json` の第7項目へタグ単位で統合した。
-
-- 翻訳候補5,074件（確認済み3,220件、要確認1,854件）。確認済み訳は既存正本の訳と全件一致したため、既存訳を維持して状態を記録。
-- 正本に存在しなかった翻訳候補7件は、訳未入力・未分類のタグ行として追加。
-- 分類候補976件（暫定970件、要確認6件）を `classification` に統合。
-- 未分類レビュー2,342件を `classificationReview` に統合。
-- `dictionary-data.json` は正本から再生成し、ランタイムの分類候補も正本から構築する。
-- 旧入力ファイル `tag-ja-overrides.json`、`tag-classification-candidates.json`、`unclassified-review-queue.json` は統合確認後に削除。Git履歴から復元可能。
+レビュー索引は `tags` の配列順と対応しています。タグの順序変更・追加・削除を行う処理は、レビュー索引、分類候補索引、タググループなどへの参照を同期して更新する必要があります。正本を更新できない場合は、途中状態のJSONで上書きせず処理を中止してください。
