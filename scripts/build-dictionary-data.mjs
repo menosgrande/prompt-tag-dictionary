@@ -40,6 +40,15 @@ export function validateBundle(data) {
       }
     }
   }
+  if (!data.classificationResearch || typeof data.classificationResearch.entries !== "object" || Array.isArray(data.classificationResearch.entries)) errors.push("classificationResearch.entries must be an object keyed by tag.");
+  else for (const [tag, proposals] of Object.entries(data.classificationResearch.entries)) {
+    if (!tag.trim() || !Array.isArray(proposals) || proposals.some(item => !item || typeof item !== "object" || typeof item.source !== "string")) {
+      errors.push("Invalid classification research record: " + tag);
+      break;
+    }
+  }
+  if (!data.externalPromptCandidates || !Array.isArray(data.externalPromptCandidates.candidates)) errors.push("externalPromptCandidates.candidates must be an array.");
+  if (!data.sourceInfo || !Array.isArray(data.sourceInfo.inputs) || !Array.isArray(data.sourceInfo.limitations)) errors.push("sourceInfo must retain source inputs and limitations.");
 
   if (Array.isArray(data.tags)) {
     const seen = new Set();
