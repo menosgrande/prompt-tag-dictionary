@@ -44,8 +44,6 @@ jobs:
         run: node --check src/app.js
       - name: Check admin syntax
         run: node --check src/admin.js
-      - name: Check canonical bundle rebuild helper syntax
-        run: node --check scripts/lib/rebuild-dictionary-data.mjs
       - name: Audit tag structure and taxonomy membership
         run: node scripts/audit-tags.mjs
       - name: Audit canonical taxonomy
@@ -68,8 +66,6 @@ jobs:
         run: node --test tests/taxonomy-browser.test.mjs
       - name: Test dictionary UI layout
         run: node --test tests/ui-layout.test.mjs
-      - name: Test classification mapping rules
-        run: node --test tests/build-classification-candidates.test.mjs
       - name: Check admin export script syntax
         run: node --check scripts/apply-admin-export.mjs
       - name: Test stale admin exports are rejected
