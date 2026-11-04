@@ -1,15 +1,12 @@
 import { readFile } from "node:fs/promises";
 const root = new URL("../", import.meta.url);
-const [auditText, bundleText] = await Promise.all([
-  readFile(new URL("../data/nsfw-prompt-tag-audit.json", import.meta.url), "utf8"),
-  readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8")
-]);
-const audit=JSON.parse(auditText), bundle=JSON.parse(bundleText), tags=bundle.tags;
-if(audit.schema!=="nsfw-prompt-tag-research-v3"||!Array.isArray(audit.candidates)||!Array.isArray(tags)) throw new Error("Unexpected source schema.");
+const bundle=JSON.parse(await readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8"));
+const tags=bundle.tags, audit=bundle.nsfwAudit;
+if(!Array.isArray(tags)||!audit||!Array.isArray(audit.candidates)) throw new Error("NSFW audit data is missing from canonical dictionary.");
 const known=new Map(tags.map(row=>[String(row?.[0]??"").normalize("NFKC").toLowerCase(),row]));
 const exact=audit.candidates.filter(item=>known.has(item.tag.normalize("NFKC").toLowerCase())).length;
-console.log("NSFW metadata candidate audit");
+console.log("Canonical NSFW metadata audit");
 console.log("Canonical tags: "+tags.length);
-console.log("Candidates: "+audit.candidates.length);
+console.log("Embedded candidates: "+audit.candidates.length);
 console.log("Exact existing tags: "+exact);
-console.log("This is a diagnostic-only audit. Candidate review data is not written to a separate JSON file.");
+console.log("NSFW review candidates are read from data/dictionary-data.json.");
