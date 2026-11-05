@@ -56,8 +56,9 @@ export function validateBundle(data) {
       const row = data.tags[i];
       if (!Array.isArray(row) || ![4, 7].includes(row.length) ||
           row.slice(0, 4).some(value => typeof value !== "string") ||
-          (row.length === 7 && (typeof row[4] !== "string" || !Array.isArray(row[5]) ||
-            row[5].some(value => typeof value !== "string") || !row[6] || typeof row[6] !== "object" || Array.isArray(row[6])))) {
+          (row.length === 7 && !((row[4] === null || typeof row[4] === "string") &&
+            (row[5] === null || (Array.isArray(row[5]) && row[5].every(value => typeof value === "string"))) &&
+            row[6] && typeof row[6] === "object" && !Array.isArray(row[6])))) {
         errors.push("Invalid tag row at index " + i + ".");
         continue;
       }
