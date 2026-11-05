@@ -1646,9 +1646,20 @@
       const seed = await seedTags();
       if (saved) {
         const parsed = JSON.parse(saved);
-        state.tags = Array.isArray(parsed)
-          ? mergeTags(parsed, seed, false, { seedRefresh: true })
-          : seed;
+        if (Array.isArray(parsed)) {
+          // Drop obsolete rows that came only from the old bundled seed.
+          // Keep imported/custom rows, even when they are not in the current bundle.
+          const currentSeedTags = new Set(seed.map(item => norm(item.tag)));
+          const retained = parsed.filter(raw => {
+            const item = Array.isArray(raw)
+              ? { tag: raw[0], sources: raw[6]?.sources, source: raw[6]?.source }
+              : typeof raw === "string" ? { tag: raw } : raw || {};
+            const sources = sourceList(item);
+            const seedOnly = sources.length > 0 && sources.every(source => source === SEED_SOURCE);
+            return !seedOnly || currentSeedTags.has(norm(item.tag));
+          });
+          state.tags = mergeTags(retained, seed, false, { seedRefresh: true });
+        } else state.tags = seed;
         saveData();
       } else state.tags = seed;
     } catch (e) {
