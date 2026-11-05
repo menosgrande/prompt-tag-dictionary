@@ -436,7 +436,7 @@
     if (candidate?.status === "needs-review") return "未分類";
     const legacyMajor = (t.category && t.category[0]) || "未分類";
     const legacyMinor = (t.category && t.category[1]) || "";
-    if (legacyMajor === "光・色彩") return "未分類";
+    if (legacyMajor === "光・色彩") return "光・演出";
     if (legacyMajor === "人物") return "人物の特徴";
     if (legacyMajor === "作品・キャラクター") return "キャラクター・作品";
     if (legacyMajor === "服装") return "服装・装飾";
@@ -482,7 +482,22 @@
     if (legacyOrder[major]) return legacyOrder[major];
     return "未分類";
   }
-  function minorOf(t) { const candidate=classificationOf(t); if(candidate?.status==="provisional" && candidate.categoryId) return taxonomySubcategoryName(candidate.categoryId,candidate.subcategoryId) || "未分類"; if(candidate?.status==="needs-review" || (t.category && t.category[0]) === "光・色彩") return "未分類"; return (t.category && t.category[1]) || "未分類"; }
+  function minorOf(t) {
+    const candidate = classificationOf(t);
+    if (candidate?.status === "provisional" && candidate.categoryId) {
+      return taxonomySubcategoryName(candidate.categoryId, candidate.subcategoryId) || "未分類";
+    }
+    if (candidate?.status === "needs-review") return "未分類";
+    const legacyMajor = t.category?.[0] || "未分類";
+    const legacyMinor = t.category?.[1] || "";
+    if (legacyMajor === "光・色彩") {
+      if (/(影|陰影)/.test(legacyMinor)) return "影・陰影";
+      if (/(発光|演出|効果)/.test(legacyMinor)) return "演出効果";
+      if (/(照明|光源|ライト|逆光)/.test(legacyMinor)) return "照明・光源";
+      return "色調・色彩";
+    }
+    return legacyMinor || "未分類";
+  }
   function detailOf(t) { return (t.category && t.category[2]) || "—"; }
   function displayClassification(t) {
     const candidate = classificationOf(t);
@@ -493,12 +508,12 @@
         detail: (t.category && t.category[2]) || "—"
       };
     }
-    if (candidate?.status === "needs-review" || (t.category && t.category[0]) === "光・色彩") {
+    if (candidate?.status === "needs-review") {
       return { major: "未分類", minor: "要確認", detail: (t.category && t.category[2]) || "—" };
     }
     return {
-      major: (t.category && t.category[0]) || "未分類",
-      minor: (t.category && t.category[1]) || "未分類",
+      major: majorOf(t),
+      minor: minorOf(t),
       detail: (t.category && t.category[2]) || "—"
     };
   }
