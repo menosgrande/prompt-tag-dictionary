@@ -722,16 +722,22 @@
       }
       root.append(wrap);
     });
+    // Taxonomy categories already show these groups when they contain tags.
+    // Keep the status-only shortcuts only when they have entries, avoiding duplicate zero-count rows.
     const needsReviewCount=state.tags.filter(t=>classificationOf(t)?.status==="needs-review").length;
     const unclassifiedCount=state.tags.filter(t=>!classificationOf(t) && majorOf(t)==="未分類").length;
-    const needsReviewActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="needs-review";
-    root.append(addFilterButton("要確認",needsReviewCount,needsReviewActive,()=>{
-      state.category=needsReviewActive?null:["__classificationStatus","needs-review",null];state.page=0;renderAll();
-    }));
-    const unclassifiedActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="unclassified";
-    root.append(addFilterButton("未分類",unclassifiedCount,unclassifiedActive,()=>{
-      state.category=unclassifiedActive?null:["__classificationStatus","unclassified",null];state.page=0;renderAll();
-    }));
+    if (needsReviewCount > 0) {
+      const needsReviewActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="needs-review";
+      root.append(addFilterButton("要確認",needsReviewCount,needsReviewActive,()=>{
+        state.category=needsReviewActive?null:["__classificationStatus","needs-review",null];state.page=0;renderAll();
+      }));
+    }
+    if (unclassifiedCount > 0) {
+      const unclassifiedActive=state.category?.[0]==="__classificationStatus"&&state.category?.[1]==="unclassified";
+      root.append(addFilterButton("未分類",unclassifiedCount,unclassifiedActive,()=>{
+        state.category=unclassifiedActive?null:["__classificationStatus","unclassified",null];state.page=0;renderAll();
+      }));
+    }
   }
   function renderCategories() {
     const root = $("#category-tree"); root.replaceChildren();
