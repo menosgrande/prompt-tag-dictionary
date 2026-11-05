@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 const data = JSON.parse(await readFile(new URL("../data/dictionary-data.json", import.meta.url), "utf8"));
 const taxonomy = data.taxonomy, outputOrder = data.promptOrder, errors = [];
 if (taxonomy?.schema !== "tag-taxonomy-v1") errors.push("Unknown taxonomy schema");
-if (!Array.isArray(taxonomy?.semanticCategories) || taxonomy.semanticCategories.length !== 17) errors.push("Expected exactly 17 semantic categories");
+if (!Array.isArray(taxonomy?.semanticCategories) || taxonomy.semanticCategories.length !== 18) errors.push("Expected exactly 18 semantic categories");
 const categories = [...(taxonomy?.semanticCategories || [])].sort((a,b)=>a.order-b.order);
 const categoryIds = new Set(), categoryNames = new Set(), subcategoryIds = new Set();
 categories.forEach((category,index)=>{
@@ -32,4 +32,4 @@ for (const [kind,allowed] of Object.entries(taxonomy?.reviewStatuses || {})) {
   if (!Array.isArray(allowed) || !allowed.includes("unreviewed") || !allowed.includes("needs-review") || !allowed.includes("verified")) errors.push("Invalid review statuses: "+kind);
 }
 if (errors.length) { for (const error of errors) console.error("ERROR: "+error); process.exitCode=1; }
-else console.log("Canonical taxonomy audit passed: 17 categories, output order, negative target, and review states are consistent.");
+else console.log("Canonical taxonomy audit passed: 18 categories, output order, negative target, and review states are consistent.");

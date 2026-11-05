@@ -17,7 +17,7 @@ test("browser loads the consolidated runtime dictionary bundle",()=>{
 
 test("canonical taxonomy defines all categories in prompt order",()=>{
   const ids = taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.id);
-  assert.deepEqual(ids,["quality","people-count","character","person","face","hair","clothing","pose","action","background","objects","vehicles","composition","style","lighting","living-things","text-symbols"]);
+  assert.deepEqual(ids,["quality","people-count","character","person","face","hair","clothing","pose","action","state-context","background","objects","vehicles","composition","style","lighting","living-things","text-symbols"]);
   assert.deepEqual(promptOrder.categories.map(c=>c.name),taxonomy.semanticCategories.slice().sort((a,b)=>a.order-b.order).map(c=>c.name));
   assert.match(app,/find\(category => category\.id === taxonomyCategoryId\(candidate\)\)/);
 });
