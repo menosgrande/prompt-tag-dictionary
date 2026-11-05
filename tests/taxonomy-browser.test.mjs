@@ -58,7 +58,7 @@ test("provisional classifications remain visibly labeled",()=>{
 
 test("needs-review and unclassified tags have separate filters and counts",()=>{
   assert.match(app,/__classificationStatus/);
-  assert.match(app,/candidate\?\.status==="needs-review"/);
+  assert.match(app,/classificationOf\(t\)\?\.status==="needs-review"/);
   assert.match(app,/!classificationOf\(t\) && majorOf\(t\)==="未分類"/);
   assert.match(app,/addFilterButton\("要確認",needsReviewCount/);
   assert.match(app,/addFilterButton\("未分類",unclassifiedCount/);
