@@ -1033,7 +1033,7 @@
         const summary = document.createElement("summary"); summary.className = "work-group-summary";
         const title = document.createElement("span"); title.className = "work-group-title"; title.textContent = t.label || t.id;
         const subtitle = document.createElement("span"); subtitle.className = "work-group-subtitle"; subtitle.textContent = t.ja || "作品タイトル";
-        const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = (t.members || []).length.toLocaleString("ja-JP") + " キャラクター";
+        const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = new Set((t.members || []).map(name => norm(name))).size.toLocaleString("ja-JP") + " キャラクター";
         summary.append(title, subtitle, count); details.append(summary);
         const options = document.createElement("div"); options.className = "work-group-options";
         const renderedWorkTags = new Set();
