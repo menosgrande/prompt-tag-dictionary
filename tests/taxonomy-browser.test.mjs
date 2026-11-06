@@ -34,6 +34,16 @@ test("person appearance and work-character identity are separate",()=>{
   assert.doesNotMatch(app,/candidate\?\.categoryId === "person".*works-series/);
 });
 
+test("work groups have a visible entry in the taxonomy tree",()=>{
+  const character = taxonomy.semanticCategories.find(c=>c.id==="character");
+  const works = character.subcategories.find(s=>s.id==="works-series");
+  assert.ok(works, "work-series taxonomy entry must exist");
+  assert.match(app,/isWorkGroupView=category\.id==="character"&&sub\.id==="works-series"/);
+  assert.match(app,/tagGroups\.filter\(group=>group\.type==="work"\)\.length/);
+  assert.match(app,/const workBrowse = state\.category\?\.\[0\] === "キャラクター・作品" && state\.category\?\.\[1\] === "作品・シリーズ"/);
+  assert.match(app,/tagGroups\.filter\(group => group\.type === "work" && \(workBrowse \|\| !!q\)/);
+});
+
 test("negative tags are displayed under quality but retain a separate output target",()=>{
   assert.equal(taxonomy.virtualViews.find(v=>v.target==="negative").parentCategory,"quality");
   assert.ok(taxonomy.semanticCategories.find(c=>c.id==="quality").subcategories.some(s=>s.id==="negative-exclusions"));
