@@ -40,7 +40,7 @@
         <div class="table-head-cell" role="columnheader"><span>大分類</span><span class="column-resize" data-column-index="3" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="120" aria-orientation="vertical" aria-label="大分類列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
         <div class="table-head-cell" role="columnheader"><span>中分類</span><span class="column-resize" data-column-index="4" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="120" aria-orientation="vertical" aria-label="中分類列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
         <div class="table-head-cell" role="columnheader"><span>小分類</span><span class="column-resize" data-column-index="5" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="120" aria-orientation="vertical" aria-label="小分類列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
-        <div class="table-head-cell" role="columnheader"><span>NSFW</span><span class="column-resize" data-column-index="6" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="76" aria-orientation="vertical" aria-label="NSFW列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
+        <div class="table-head-cell" role="columnheader"><span>表現レベル</span><span class="column-resize" data-column-index="6" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="76" aria-orientation="vertical" aria-label="表現レベル列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
         <div class="table-head-cell" role="columnheader"><span>編集</span><span class="column-resize" data-column-index="7" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="58" aria-orientation="vertical" aria-label="修正列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
         <div class="table-head-cell" role="columnheader"><span>詳細</span><span class="column-resize" data-column-index="8" role="separator" tabindex="0" aria-valuemin="48" aria-valuemax="520" aria-valuenow="42" aria-orientation="vertical" aria-label="詳細列の幅を変更" title="ドラッグで列幅変更・ダブルクリックで初期化"></span></div>
       </div><div id="tag-results" class="tag-results" aria-live="polite"></div>
@@ -119,7 +119,7 @@
   <dl class="tag-info-grid">
     <dt>日本語訳</dt><dd id="tag-info-ja">—</dd>
     <dt>分類</dt><dd id="tag-info-category">—</dd>
-    <dt>NSFWレベル</dt><dd id="tag-info-rating">未判定</dd>
+    <dt>表現レベル</dt><dd id="tag-info-rating">未判定</dd>
     <dt>判定状態</dt><dd id="tag-info-rating-status">未確認</dd>
     <dt>判定根拠</dt><dd id="tag-info-rating-reason">未登録</dd>
     <dt>意味</dt><dd id="tag-info-meaning">—</dd>
@@ -127,11 +127,11 @@
     <dt>使用例</dt><dd id="tag-info-examples">—</dd>
     <dt>出典</dt><dd id="tag-info-source">—</dd>
   </dl>
-  <p class="tag-info-note">未登録の説明・NSFWレベルは推測で補わず「未判定」と表示します。</p>
+  <p class="tag-info-note">未登録の説明・表現レベルは推測で補わず「未判定」と表示します。</p>
   <div class="modal-actions"><button class="button button-primary" id="tag-info-close" type="button">閉じる</button></div>
 </dialog>
 <dialog id="data-note-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
-  <p class="eyebrow">DATA NOTES</p><h2>データについて</h2><p>タグ本体と、分類体系・分類候補・プロンプト出力順・タググループ・NSFW監査データは data/dictionary-data.json を基準データとして読み込みます。分類には確定済みのものだけでなく、暫定分類や要確認のタグも含まれます。表示される分類は検索・整理のための目安であり、すべてのタグの意味や翻訳が検証済みであることを示すものではありません。作品・キャラクターに固有のタグは、一般的な人物・服装タグと分けて扱います。出典や利用条件を確認できていないデータは、確認済みとして扱いません。</p>
+  <p class="eyebrow">DATA NOTES</p><h2>データについて</h2><p>タグ本体と、分類体系・分類候補・プロンプト出力順・タググループ・旧NSFW監査データは data/dictionary-data.json を基準データとして読み込みます。分類には確定済みのものだけでなく、暫定分類や要確認のタグも含まれます。表示される分類は検索・整理のための目安であり、すべてのタグの意味や翻訳が検証済みであることを示すものではありません。作品・キャラクターに固有のタグは、一般的な人物・服装タグと分けて扱います。出典や利用条件を確認できていないデータは、確認済みとして扱いません。</p>
   <p>既存データの由来・利用条件はまだ確認できていないため、出典やライセンスを確定したようには扱いません。公開配布する前に、元データの利用条件を確認してください。</p>
   <p>現時点では画像プレビュー、部位別マップ、タグ詳細解説は未実装です。データ構造は後から説明・別名・関連タグ・画像参照を追加できる形にしています。</p><div class="modal-actions"><button class="button button-primary" id="data-note-close">閉じる</button></div>
 </dialog>
