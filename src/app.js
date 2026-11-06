@@ -1036,9 +1036,13 @@
         const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = (t.members || []).length.toLocaleString("ja-JP") + " キャラクター";
         summary.append(title, subtitle, count); details.append(summary);
         const options = document.createElement("div"); options.className = "work-group-options";
+        const renderedWorkTags = new Set();
         const addWorkOption = (name, label, isTitle = false) => {
-          const member = state.tags.find(candidate => norm(candidate.tag) === norm(name));
+          const key = norm(name);
+          if (renderedWorkTags.has(key)) return;
+          const member = state.tags.find(candidate => norm(candidate.tag) === key);
           if (!member) return;
+          renderedWorkTags.add(key);
           const option = document.createElement("label"); option.className = "work-group-option" + (isTitle ? " is-title-tag" : "");
           const checkbox = document.createElement("input"); checkbox.type = "checkbox"; checkbox.checked = state.selected.has(norm(member.tag));
           checkbox.addEventListener("change", () => toggleSelected(member));
