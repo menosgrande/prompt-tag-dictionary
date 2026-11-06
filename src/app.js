@@ -1002,7 +1002,11 @@
       button.textContent = label + (state.columnSort?.key === key ? (state.columnSort.dir === 1 ? " ↑" : " ↓") : " ↕");
       button.setAttribute("aria-sort", state.columnSort?.key === key ? (state.columnSort.dir === 1 ? "ascending" : "descending") : "none");
     });
-    const activeCategoryLabel = state.category ? (state.category[0] === "__outputTarget" ? "ネガティブ" : state.category.filter(Boolean).join(" › ")) : "";
+    const activeCategoryLabel = !state.category ? ""
+      : state.category[0] === "__outputTarget" && state.category[1] === "negative" ? "ネガティブ・除外指定"
+      : state.category[0] === "__classificationStatus" && state.category[1] === "needs-review" ? "要確認"
+      : state.category[0] === "__classificationStatus" && state.category[1] === "unclassified" ? "未分類"
+      : state.category.filter(Boolean).join(" › ");
     $("#results-title").textContent = state.query ? "検索結果" : activeCategoryLabel || "タグ一覧";
     $("#result-count").textContent = all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
