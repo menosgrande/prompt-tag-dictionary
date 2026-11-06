@@ -100,3 +100,12 @@ test("admin classification review edits stay synchronized with embedded candidat
   assert.match(admin,/entries\[index\]=candidate/);
   assert.match(admin,/classificationCandidates:state\.dictionary\.classificationCandidates/);
 });
+
+test("work group cards render each tag only once and share global selection state",()=>{
+  assert.match(app,/const renderedWorkTags = new Set\(\)/);
+  assert.match(app,/if \(renderedWorkTags\.has\(key\)\) return/);
+  assert.match(app,/renderedWorkTags\.add\(key\)/);
+  assert.match(app,/checkbox\.checked = state\.selected\.has\(norm\(member\.tag\)\)/);
+  assert.match(app,/checkbox\.addEventListener\("change", \(\) => toggleSelected\(member\)\)/);
+  assert.match(app,/function toggleSelected\(t\) \{\s*const key = norm\(t\.tag\);\s*if \(state\.selected\.has\(key\)\) state\.selected\.delete\(key\); else state\.selected\.add\(key\)/);
+});
