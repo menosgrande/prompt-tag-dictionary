@@ -533,13 +533,16 @@
     $("#stat-selected").textContent = state.selected.size.toLocaleString("ja-JP");
     renderSelectedDock();
   }
-  function nsfwInfoOf(t) {
-    const audit = nsfwAudit.get(norm(t.tag)) || {};
+  function expressionLevelInfoOf(t) {
+    const level = Number.isInteger(t.expressionLevel) && t.expressionLevel >= 0 && t.expressionLevel <= 4
+      ? t.expressionLevel : null;
+    const review = t.expressionLevelReview || {};
+    const labels = ["一般向け", "軽度の露出", "セクシー表現", "強い性的表現", "成人向け"];
     return {
-      rating: String(t.rating || t.proposedRating || ""),
-      nsfw: typeof t.nsfw === "boolean" ? t.nsfw : typeof audit.nsfw === "boolean" ? audit.nsfw : null,
-      status: t.ratingReviewStatus || (audit.review_status === "確認済み" ? "verified" : "unverified"),
-      reason: t.ratingReason || audit.review || ""
+      level,
+      label: level === null ? "未判定" : labels[level],
+      status: review.status || "unreviewed",
+      reason: review.reason || ""
     };
   }
   function openTagInfo(t) {
@@ -549,11 +552,10 @@
     set("tag-info-ja", t.ja || "—");
     const displayed = displayClassification(t);
     set("tag-info-category", [displayed.major, displayed.minor, displayed.detail].filter(v => v && v !== "—").join(" › "));
-    const nsfw = nsfwInfoOf(t);
-    const ratingLabels = { "全年齢":"LV.1（全年齢）", "R-13":"LV.2（R-13）", "R-15":"LV.3（R-15）", "R-18":"LV.4（R-18）", "LV.1":"LV.1（全年齢）", "LV.2":"LV.2（R-13）", "LV.3":"LV.3（R-15）", "LV.4":"LV.4（R-18）" };
-    set("tag-info-rating", ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補（レベル未判定）" : nsfw.nsfw === false ? "全年齢候補（未確認）" : "未判定"));
-    set("tag-info-rating-status", nsfw.status === "verified" ? "確認済み" : "未確認");
-    set("tag-info-rating-reason", nsfw.reason || "判定根拠はまだ登録されていません。");
+    const expression = expressionLevelInfoOf(t);
+    set("tag-info-rating", expression.level === null ? "未判定" : "レベル" + expression.level + "（" + expression.label + "）");
+    set("tag-info-rating-status", expression.status === "verified" ? "確認済み" : "未確認");
+    set("tag-info-rating-reason", expression.reason || "判定根拠はまだ登録されていません。");
     set("tag-info-meaning", t.explanation || "説明はまだ登録されていません。");
     set("tag-info-usage", t.usage || "用法はまだ登録されていません。");
     set("tag-info-examples", (t.examples || []).join(" / ") || "使用例はまだ登録されていません。");
@@ -1129,11 +1131,11 @@
       if (classification?.status === "provisional") majorCell.title = "暫定候補。確定済みではありません。";
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
 
-      const nsfw = nsfwInfoOf(t);
-      const ratingLabels = { "全年齢":"LV.1", "R-13":"LV.2", "R-15":"LV.3", "R-18":"LV.4", "LV.1":"LV.1", "LV.2":"LV.2", "LV.3":"LV.3", "LV.4":"LV.4" };
-      const ratingText = ratingLabels[nsfw.rating] || (nsfw.nsfw === true ? "NSFW候補" : nsfw.nsfw === false ? "全年齢候補" : "未判定");
-      const ratingCell = makeCell("tag-cell tag-rating", ratingText, nsfw.status === "verified" ? "確認済み" : "未確認。詳細で判定根拠を確認できます。");
-      if (nsfw.status !== "verified" && ratingText !== "未判定") ratingCell.classList.add("is-provisional");
+      const expression = expressionLevelInfoOf(t);
+      const ratingText = expression.level === null ? "未判定" : "LV." + expression.level;
+      const ratingTitle = expression.level === null ? "未判定" : "レベル" + expression.level + "（" + expression.label + "）" + (expression.status === "verified" ? "・確認済み" : "・未確認");
+      const ratingCell = makeCell("tag-cell tag-rating", ratingText, ratingTitle);
+      if (expression.status !== "verified" && expression.level !== null) ratingCell.classList.add("is-provisional");
 
       const current = reviewRatings[norm(t.tag)] || {};
       function appendVotes(target, label, key) {
@@ -1170,8 +1172,8 @@
         editCell.append(edit);
       }
       const info = makeButton("ⓘ", "tag-info-button", () => openTagInfo(t));
-      info.setAttribute("aria-label", t.tag + "の意味・用法・NSFW情報");
-      info.title = "意味・用法・分類・NSFWレベルを確認";
+      info.setAttribute("aria-label", t.tag + "の意味・用法・表現レベル情報");
+      info.title = "意味・用法・分類・表現レベルを確認";
       const infoCell = document.createElement("div"); infoCell.className = "tag-info-cell"; infoCell.append(info);
 
       row.append(check, tagLabel, japanese, majorCell, minorCell, detailCell, ratingCell, editCell, infoCell);
