@@ -41,6 +41,12 @@ test("negative tags are displayed under quality but retain a separate output tar
   assert.match(app,/promptTargetOf\(t\) === "negative"/);
 });
 
+test("quality parent filter includes the negative virtual view without double-counting",()=>{
+  assert.match(app,/negativeOutsideQualityCount = state\.tags\.filter\(t =>\s*promptTargetOf\(t\) === "negative" && majorOf\(t\) !== taxonomyCategoryName\("quality"\)/);
+  assert.match(app,/const displayTotal = entry\.total \+ \(category\.id === "quality" \? negativeOutsideQualityCount : 0\)/);
+  assert.match(app,/majorOf\(t\) !== state\.category\[0\] && promptTargetOf\(t\) !== "negative"/);
+});
+
 test("NSFW rating labels use LV.1 through LV.4 independently of taxonomy levels",()=>{
   assert.deepEqual(taxonomy.rating.displayLevels,[
     {level:"LV.1",value:"全年齢"},
