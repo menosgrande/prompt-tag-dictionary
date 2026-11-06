@@ -64,6 +64,12 @@ test("needs-review and unclassified tags have separate filters and counts",()=>{
   assert.match(app,/addFilterButton\("未分類",unclassifiedCount/);
 });
 
+test("special classification filters use readable result titles",()=>{
+  assert.match(app,/state\.category\[0\] === "__outputTarget" && state\.category\[1\] === "negative" \? "ネガティブ・除外指定"/);
+  assert.match(app,/state\.category\[0\] === "__classificationStatus" && state\.category\[1\] === "needs-review" \? "要確認"/);
+  assert.match(app,/state\.category\[0\] === "__classificationStatus" && state\.category\[1\] === "unclassified" \? "未分類"/);
+});
+
 test("packed tag metadata survives canonical bundle loading and normalization",()=>{
   assert.match(app,/\.\.\.\(obj\[6\] && typeof obj\[6\] === "object"/);
   assert.match(app,/\.\.\.item,/);
