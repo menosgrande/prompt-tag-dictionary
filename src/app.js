@@ -685,9 +685,14 @@
       .map(([name,entry])=>({id:null,name,order:100+(legacyOrder.get(name)??999),subcategories:[...entry.minors.keys()].map(subName=>({name:subName}))}));
     const categories = [...taxonomyCategories,...legacyCategories];
     const negativeCount = state.tags.filter(t => promptTargetOf(t) === "negative").length;
+    const negativeOutsideQualityCount = state.tags.filter(t =>
+      promptTargetOf(t) === "negative" && majorOf(t) !== taxonomyCategoryName("quality")
+    ).length;
     categories.forEach(category => {
       const entry = counts.get(category.name) || {total:0,minors:new Map()};
-      const displayTotal = entry.total + (category.id === "quality" ? negativeCount : 0);
+      // The negative view is virtual and independent of semantic category.
+      // Add only negative tags not already counted under quality.
+      const displayTotal = entry.total + (category.id === "quality" ? negativeOutsideQualityCount : 0);
       const wrap = document.createElement("div"); wrap.className = "category-major";
       const heading = document.createElement("div"); heading.className = "category-major-heading";
       const active = state.category?.[0] === category.name && !state.category?.[1];
@@ -849,7 +854,9 @@
         const candidate=classificationOf(t);
         if(state.category[1]==="needs-review" ? candidate?.status!=="needs-review" : candidate || majorOf(t)!=="未分類") return false;
       }
-      else if (state.category && state.category[0] === "品質・ネガティブ" && !state.category[1]) { if (promptOrderOf(t) !== "品質・ネガティブ") return false; }
+      else if (state.category && state.category[0] === taxonomyCategoryName("quality") && !state.category[1]) {
+        if (majorOf(t) !== state.category[0] && promptTargetOf(t) !== "negative") return false;
+      }
       else if (state.category && (majorOf(t) !== state.category[0] || (state.category[1] && minorOf(t) !== state.category[1]) || (state.category[2] && detailOf(t) !== state.category[2]))) return false;
       if (level === "known" && majorOf(t) === "未分類") return false;
       if (level === "unknown" && majorOf(t) !== "未分類") return false;
