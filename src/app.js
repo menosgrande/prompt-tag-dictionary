@@ -710,9 +710,14 @@
         (category.subcategories||[]).forEach(sub=>{
           if (sub.hidden || sub.deprecated) return;
           const subEntry=entry.minors.get(sub.name);
-          if(!subEntry?.total)return;
+          // Work groups are virtual browse entries, not ordinary tag rows.
+          const isWorkGroupView=category.id==="character"&&sub.id==="works-series";
+          const subCount=isWorkGroupView
+            ? tagGroups.filter(group=>group.type==="work").length
+            : (subEntry?.total||0);
+          if(!subCount)return;
           const activeSub=state.category?.[0]===category.name&&state.category?.[1]===sub.name&&!state.category?.[2];
-          minors.append(addFilterButton(sub.name,subEntry.total,activeSub,()=>{
+          minors.append(addFilterButton(sub.name,subCount,activeSub,()=>{
             state.category=activeSub?[category.name,null,null]:[category.name,sub.name,null];state.page=0;renderAll();
           },"category-minor"));
         });
