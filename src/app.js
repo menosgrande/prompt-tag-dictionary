@@ -1132,7 +1132,7 @@
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
 
       const expression = expressionLevelInfoOf(t);
-      const ratingText = expression.level === null ? "未判定" : "LV." + expression.level;
+      const ratingText = expression.level === null ? "未判定" : "レベル" + expression.level + "・" + expression.label;
       const ratingTitle = expression.level === null ? "未判定" : "レベル" + expression.level + "（" + expression.label + "）" + (expression.status === "verified" ? "・確認済み" : "・未確認");
       const ratingCell = makeCell("tag-cell tag-rating", ratingText, ratingTitle);
       if (expression.status !== "verified" && expression.level !== null) ratingCell.classList.add("is-provisional");
