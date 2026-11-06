@@ -89,7 +89,7 @@
       <button id="selected-dock-editor" class="button button-quiet" type="button">編集へ</button>
     </div>
   </aside>
-  <footer class="footer"><span>Prompt Tag Dictionary · 初期開発版</span><button id="show-data-note" class="text-button">データについて</button></footer>
+  <footer class="footer"><span>Prompt Tag Dictionary</span><button id="show-data-note" class="text-button">データについて</button></footer>
 </main>
 <dialog id="import-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
   <p class="eyebrow">IMPORT</p><h2>既存タグデータを読み込む</h2><p>JSONのタグ一覧、翻訳進捗JSON、またはタグ配列を含むJavaScript / テキストを複数選択できます。読み込んだデータはこのブラウザに保存されます。同じタグの訳・分類が競合すると、初期設定では先に登録された値を保持します。上書きするときは「競合時は今回のデータを優先」を選んでください。ファイルは名前順に処理します。</p>
@@ -131,7 +131,7 @@
   <div class="modal-actions"><button class="button button-primary" id="tag-info-close" type="button">閉じる</button></div>
 </dialog>
 <dialog id="data-note-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
-  <p class="eyebrow">DATA NOTES</p><h2>データについて</h2><p>英語タグ10,988件を収録しています。通常画面で使うタグ本体・分類体系・分類候補・表示順・タググループ・NSFW監査データは data/dictionary-data.json に集約しています。分類候補は暫定分類と要確認を含み、意味上の分類がすべて確定したことを示すものではありません。括弧付きタグは1,130件あり、そのうち272件は未分類です。作品・キャラクター候補644件は括弧内の作品名などから仮分類しましたが、括弧だけで一律判定してはいません。データ形式・分類名・重複は自動監査していますが、意味上の分類と翻訳の正確さは未検証です。過去データの出典・取得日は一部復元できず、data/sources.json に不明点を明記しています。手元のJSONやPerchanceソースを「データを読み込む」から追加できます。</p>
+  <p class="eyebrow">DATA NOTES</p><h2>データについて</h2><p>タグ本体と、分類体系・分類候補・プロンプト出力順・タググループ・NSFW監査データは data/dictionary-data.json を基準データとして読み込みます。分類には確定済みのものだけでなく、暫定分類や要確認のタグも含まれます。表示される分類は検索・整理のための目安であり、すべてのタグの意味や翻訳が検証済みであることを示すものではありません。作品・キャラクターに固有のタグは、一般的な人物・服装タグと分けて扱います。出典や利用条件を確認できていないデータは、確認済みとして扱いません。</p>
   <p>既存データの由来・利用条件はまだ確認できていないため、出典やライセンスを確定したようには扱いません。公開配布する前に、元データの利用条件を確認してください。</p>
   <p>現時点では画像プレビュー、部位別マップ、タグ詳細解説は未実装です。データ構造は後から説明・別名・関連タグ・画像参照を追加できる形にしています。</p><div class="modal-actions"><button class="button button-primary" id="data-note-close">閉じる</button></div>
 </dialog>
