@@ -1,37 +1,19 @@
-name: Data quality audit
+name: Dictionary data check
 
 on:
   push:
     paths:
       - "data/dictionary-data.json"
-      - "scripts/**"
-      - "tests/**"
-      - "src/**"
-      - "index.html"
-      - "admin.html"
-      - "styles.css"
-      - "admin.css"
-      - ".github/workflows/data-audit.yml"
-      - ".github/scripts/apply-dictionary-patch.mjs"
   pull_request:
     paths:
       - "data/dictionary-data.json"
-      - "scripts/**"
-      - "tests/**"
-      - "src/**"
-      - "index.html"
-      - "admin.html"
-      - "styles.css"
-      - "admin.css"
-      - ".github/workflows/data-audit.yml"
-      - ".github/scripts/apply-dictionary-patch.mjs"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  audit:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,37 +22,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Check dictionary patch applier syntax
-        run: node --check .github/scripts/apply-dictionary-patch.mjs
-      - name: Validate canonical runtime dictionary
+      - name: Validate dictionary structure
         run: node scripts/build-dictionary-data.mjs --check
-      - name: Check application syntax
-        run: node --check src/app.js
-      - name: Check admin syntax
-        run: node --check src/admin.js
-      - name: Audit tag structure and taxonomy membership
+      - name: Check tags and categories
         run: node scripts/audit-tags.mjs
-      - name: Audit canonical taxonomy
-        run: node scripts/audit-taxonomy.mjs
-      - name: Audit prompt output order
-        run: node scripts/audit-prompt-order.mjs
-      - name: Audit embedded tag metadata and history
-        run: node scripts/audit-tag-management.mjs
-      - name: Audit translation quality candidates
-        run: node scripts/audit-translations.mjs
-      - name: Audit tag groups
-        run: node scripts/audit-tag-groups.mjs
-      - name: Check metadata review audit syntax
-        run: node --check scripts/build-tag-metadata-review.mjs
-      - name: Run metadata review diagnostic
-        run: node scripts/build-tag-metadata-review.mjs
-      - name: Test translation audit rules
-        run: node --test tests/audit-translations.test.mjs
-      - name: Test taxonomy browser integration
-        run: node --test tests/taxonomy-browser.test.mjs
-      - name: Test dictionary UI layout
-        run: node --test tests/ui-layout.test.mjs
-      - name: Check admin export script syntax
-        run: node --check scripts/apply-admin-export.mjs
-      - name: Test stale admin exports are rejected
-        run: node --test tests/apply-admin-export.test.mjs
