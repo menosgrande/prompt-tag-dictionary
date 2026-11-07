@@ -42,11 +42,23 @@ for (const operation of patch.operations) {
   }
 
   const fields = Object.keys(values);
-  if (!fields.length || fields.some(field => !["ja", "major", "minor"].includes(field))) {
-    throw new Error("Only ja, major, and minor can be updated: " + operation.tag);
+  if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa"].includes(field))) {
+    throw new Error("Only ja, major, minor, and candidateJa can be updated: " + operation.tag);
   }
 
   for (const field of fields) {
+    if (field === "candidateJa") {
+      if (values[field] !== null && typeof values[field] !== "string") {
+        throw new Error("candidateJa must be a string or null: " + operation.tag);
+      }
+      if (!Array.isArray(row) || row.length !== 7 || !row[6] || typeof row[6] !== "object") {
+        throw new Error("Tag has no metadata for candidateJa update: " + operation.tag);
+      }
+      if (!row[6].translation || typeof row[6].translation !== "object") row[6].translation = {};
+      if (values[field] === null) delete row[6].translation.candidateJa;
+      else row[6].translation.candidateJa = values[field];
+      continue;
+    }
     if (typeof values[field] !== "string") {
       throw new Error("Field value must be a string: " + operation.tag + " / " + field);
     }
