@@ -12,6 +12,7 @@ on:
       - "styles.css"
       - "admin.css"
       - ".github/workflows/data-audit.yml"
+      - ".github/scripts/apply-dictionary-patch.mjs"
   pull_request:
     paths:
       - "data/dictionary-data.json"
@@ -23,6 +24,7 @@ on:
       - "styles.css"
       - "admin.css"
       - ".github/workflows/data-audit.yml"
+      - ".github/scripts/apply-dictionary-patch.mjs"
   workflow_dispatch:
 
 permissions:
@@ -38,6 +40,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Check dictionary patch applier syntax
+        run: node --check .github/scripts/apply-dictionary-patch.mjs
       - name: Validate canonical runtime dictionary
         run: node scripts/build-dictionary-data.mjs --check
       - name: Check application syntax
