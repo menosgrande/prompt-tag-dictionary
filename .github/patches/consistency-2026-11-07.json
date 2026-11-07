@@ -1,0 +1,1757 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "3d background",
+      "set": {
+        "major": "画風・描写",
+        "minor": "レンダリング"
+      }
+    },
+    {
+      "tag": "abukuma (kancolle)",
+      "set": {
+        "ja": "阿武隈（艦隊これくしょん）",
+        "candidateJa": "阿武隈（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "acheron (honkai: star rail)",
+      "set": {
+        "ja": "黄泉（スターレイル）",
+        "candidateJa": "黄泉（スターレイル）"
+      }
+    },
+    {
+      "tag": "after kiss",
+      "set": {
+        "major": "状態・状況",
+        "minor": "時間・前後関係"
+      }
+    },
+    {
+      "tag": "agano (kancolle)",
+      "set": {
+        "ja": "阿賀野（艦隊これくしょん）",
+        "candidateJa": "阿賀野（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "agnes digital (umamusume)",
+      "set": {
+        "ja": "アグネスデジタル（ウマ娘）",
+        "candidateJa": "アグネスデジタル（ウマ娘）"
+      }
+    },
+    {
+      "tag": "agnes tachyon (umamusume)",
+      "set": {
+        "ja": "アグネスタキオン（ウマ娘）",
+        "candidateJa": "アグネスタキオン（ウマ娘）"
+      }
+    },
+    {
+      "tag": "akashi (kancolle)",
+      "set": {
+        "ja": "明石（艦隊これくしょん）",
+        "candidateJa": "明石（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "akatsuki (kancolle)",
+      "set": {
+        "ja": "暁（艦隊これくしょん）",
+        "candidateJa": "暁（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "akebono (kancolle)",
+      "set": {
+        "ja": "曙（艦隊これくしょん）",
+        "candidateJa": "曙（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "alarm clock",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "日用品"
+      }
+    },
+    {
+      "tag": "alley",
+      "set": {
+        "major": "背景・場所",
+        "minor": "場所・室内外"
+      }
+    },
+    {
+      "tag": "amatsukaze (kancolle)",
+      "set": {
+        "ja": "天津風（艦隊これくしょん）",
+        "candidateJa": "天津風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "analog clock",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "日用品"
+      }
+    },
+    {
+      "tag": "android 21",
+      "set": {
+        "major": "キャラクター・作品",
+        "minor": "キャラクター"
+      }
+    },
+    {
+      "tag": "angel beats!",
+      "set": {
+        "major": "キャラクター・作品",
+        "minor": "タイトル（作品名）"
+      }
+    },
+    {
+      "tag": "anis (nikke)",
+      "set": {
+        "ja": "アニス（勝利の女神:NIKKE）",
+        "candidateJa": "アニス（勝利の女神:NIKKE）"
+      }
+    },
+    {
+      "tag": "anyoji hime (hasunosora jogakuin school idol club)",
+      "set": {
+        "candidateJa": "安養寺姫芽（蓮ノ空女学院スクールアイドルクラブ）"
+      }
+    },
+    {
+      "tag": "aoba (kancolle)",
+      "set": {
+        "ja": "青葉（艦隊これくしょん）",
+        "candidateJa": "青葉（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "aquarium",
+      "set": {
+        "major": "背景・場所",
+        "minor": "場所・室内外"
+      }
+    },
+    {
+      "tag": "arashio (kancolle)",
+      "set": {
+        "ja": "荒潮（艦隊これくしょん）",
+        "candidateJa": "荒潮（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "arm cannon",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "arm cuffs",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "arm guards",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "装備・防具"
+      }
+    },
+    {
+      "tag": "arm strap",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "arm wrap",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "asashio (kancolle)",
+      "set": {
+        "ja": "朝潮（艦隊これくしょん）",
+        "candidateJa": "朝潮（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ashigara (kancolle)",
+      "set": {
+        "ja": "足柄（艦隊これくしょん）",
+        "candidateJa": "足柄（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "assault rifle",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "atago (azur lane)",
+      "set": {
+        "ja": "愛宕（アズールレーン）",
+        "candidateJa": "愛宕（アズールレーン）"
+      }
+    },
+    {
+      "tag": "atago (kancolle)",
+      "set": {
+        "ja": "愛宕（艦隊これくしょん）",
+        "candidateJa": "愛宕（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "atlanta (kancolle)",
+      "set": {
+        "ja": "アトランタ（艦隊これくしょん）",
+        "candidateJa": "アトランタ（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "aura",
+      "set": {
+        "major": "光・演出",
+        "minor": "演出効果"
+      }
+    },
+    {
+      "tag": "aventurine (honkai: star rail)",
+      "set": {
+        "ja": "アベンチュリン（スターレイル）",
+        "candidateJa": "アベンチュリン（スターレイル）"
+      }
+    },
+    {
+      "tag": "axe",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "ayanami (azur lane)",
+      "set": {
+        "ja": "綾波（アズールレーン）",
+        "candidateJa": "綾波（アズールレーン）"
+      }
+    },
+    {
+      "tag": "ayanami (kancolle)",
+      "set": {
+        "ja": "綾波（艦隊これくしょん）",
+        "candidateJa": "綾波（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "baby bottle",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "日用品"
+      }
+    },
+    {
+      "tag": "bare shoulders",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "肌の露出"
+      }
+    },
+    {
+      "tag": "battle rifle",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "beam rifle",
+      "set": {
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "bestiality",
+      "set": {
+        "major": "動作・接触",
+        "minor": "対人接触・動作"
+      }
+    },
+    {
+      "tag": "between fingers",
+      "set": {
+        "major": "ポーズ・姿勢",
+        "minor": "手足の配置"
+      }
+    },
+    {
+      "tag": "between thighs",
+      "set": {
+        "major": "ポーズ・姿勢",
+        "minor": "身体の配置"
+      }
+    },
+    {
+      "tag": "birthday",
+      "set": {
+        "major": "状態・状況",
+        "minor": "状況・関係性"
+      }
+    },
+    {
+      "tag": "blood from mouth",
+      "set": {
+        "major": "顔・表情",
+        "minor": "顔の特徴"
+      }
+    },
+    {
+      "tag": "blood on clothes",
+      "set": {
+        "major": "服装・装飾",
+        "minor": "衣服の状態"
+      }
+    },
+    {
+      "tag": "blood on face",
+      "set": {
+        "major": "顔・表情",
+        "minor": "顔の特徴"
+      }
+    },
+    {
+      "tag": "bored",
+      "set": {
+        "candidateJa": "退屈した表情"
+      }
+    },
+    {
+      "tag": "bouncing breasts",
+      "set": {
+        "candidateJa": "胸が揺れる"
+      }
+    },
+    {
+      "tag": "boy on top",
+      "set": {
+        "candidateJa": "男性が上の体位"
+      }
+    },
+    {
+      "tag": "bra peek",
+      "set": {
+        "candidateJa": "ブラジャーが見えている状態"
+      }
+    },
+    {
+      "tag": "breast expansion",
+      "set": {
+        "candidateJa": "胸の増大"
+      }
+    },
+    {
+      "tag": "bun cover",
+      "set": {
+        "ja": "お団子ヘアカバー"
+      }
+    },
+    {
+      "tag": "butterfly net",
+      "set": {
+        "candidateJa": "蝶取り網"
+      }
+    },
+    {
+      "tag": "cheek poking",
+      "set": {
+        "candidateJa": "頬を突く"
+      }
+    },
+    {
+      "tag": "choke hold",
+      "set": {
+        "candidateJa": "チョークホールド"
+      }
+    },
+    {
+      "tag": "clenched teeth",
+      "set": {
+        "candidateJa": "歯を食いしばった表情"
+      }
+    },
+    {
+      "tag": "clothed female nude female",
+      "set": {
+        "candidateJa": "着衣の女性と裸の女性"
+      }
+    },
+    {
+      "tag": "clothed female nude male",
+      "set": {
+        "candidateJa": "着衣の女性と裸の男性"
+      }
+    },
+    {
+      "tag": "clothed male nude female",
+      "set": {
+        "candidateJa": "着衣の男性と裸の女性"
+      }
+    },
+    {
+      "tag": "clothed male nude male",
+      "set": {
+        "candidateJa": "着衣の男性と裸の男性"
+      }
+    },
+    {
+      "tag": "color guide",
+      "set": {
+        "candidateJa": "カラーガイド"
+      }
+    },
+    {
+      "tag": "colored inner animal ears",
+      "set": {
+        "candidateJa": "色付きの動物耳の内側"
+      }
+    },
+    {
+      "tag": "colored nipples",
+      "set": {
+        "candidateJa": "色付きの乳首"
+      }
+    },
+    {
+      "tag": "colored skin",
+      "set": {
+        "candidateJa": "色付きの肌"
+      }
+    },
+    {
+      "tag": "colored tips",
+      "set": {
+        "candidateJa": "毛先の色"
+      }
+    },
+    {
+      "tag": "colored tongue",
+      "set": {
+        "candidateJa": "色付きの舌"
+      }
+    },
+    {
+      "tag": "contemporary",
+      "set": {
+        "candidateJa": "現代的な"
+      }
+    },
+    {
+      "tag": "dd (ijigendd)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "dei shirou",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "dikko",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "eishin flash (umamusume)",
+      "set": {
+        "ja": "エイシンフラッシュ（ウマ娘）",
+        "candidateJa": "エイシンフラッシュ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "exusiai (arknights)",
+      "set": {
+        "ja": "エクシア（アークナイツ）",
+        "candidateJa": "エクシア（アークナイツ）"
+      }
+    },
+    {
+      "tag": "felicia (darkstalkers)",
+      "set": {
+        "ja": "フェリシア（ヴァンパイア）",
+        "candidateJa": "フェリシア（ヴァンパイア）"
+      }
+    },
+    {
+      "tag": "fischl (genshin impact)",
+      "set": {
+        "ja": "フィッシュル（原神）",
+        "candidateJa": "フィッシュル（原神）"
+      }
+    },
+    {
+      "tag": "francesca lucchini (strike witches)",
+      "set": {
+        "candidateJa": "フランチェスカ・ルッキーニ（ストライクウィッチーズ）"
+      }
+    },
+    {
+      "tag": "frieren (sousou no frieren)",
+      "set": {
+        "candidateJa": "フリーレン（葬送のフリーレン）"
+      }
+    },
+    {
+      "tag": "frozen",
+      "set": {
+        "candidateJa": "アナと雪の女王"
+      }
+    },
+    {
+      "tag": "fumihiko (fu mihi ko)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "fumio (rsqkr)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "furutaka (kancolle)",
+      "set": {
+        "ja": "古鷹（艦隊これくしょん）",
+        "candidateJa": "古鷹（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "fusu (a95101221)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "gaoo (frpjx283)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "green tea",
+      "set": {
+        "candidateJa": "緑茶"
+      }
+    },
+    {
+      "tag": "gunjyou (gunjyou 00)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "gurande (g-size)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "h&k hk416",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "h&k ump",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "hagiwara yukiho (the idolmaster)",
+      "set": {
+        "candidateJa": "萩原雪歩（アイドルマスター）"
+      }
+    },
+    {
+      "tag": "hamakaze (kancolle)",
+      "set": {
+        "ja": "浜風（艦隊これくしょん）",
+        "candidateJa": "浜風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "hanako (swimsuit) (blue archive)",
+      "set": {
+        "ja": "浦和ハナコ（水着）",
+        "candidateJa": "浦和ハナコ（水着）"
+      }
+    },
+    {
+      "tag": "hanamura yousuke (persona 4)",
+      "set": {
+        "candidateJa": "花村陽介（ペルソナ4）"
+      }
+    },
+    {
+      "tag": "happoubi jin",
+      "set": {
+        "candidateJa": "八宝備仁"
+      }
+    },
+    {
+      "tag": "haru urara (umamusume)",
+      "set": {
+        "ja": "ハルウララ（ウマ娘）",
+        "candidateJa": "ハルウララ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "haruna (kancolle)",
+      "set": {
+        "ja": "榛名（艦隊これくしょん）",
+        "candidateJa": "榛名（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "harusame (kancolle)",
+      "set": {
+        "ja": "春雨（艦これ）",
+        "candidateJa": "春雨（艦これ）"
+      }
+    },
+    {
+      "tag": "hasumi (track) (blue archive)",
+      "set": {
+        "ja": "羽川ハスミ（体操服）",
+        "candidateJa": "羽川ハスミ（体操服）"
+      }
+    },
+    {
+      "tag": "hibiki (kancolle)",
+      "set": {
+        "ja": "響（艦隊これくしょん）",
+        "candidateJa": "響（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "hidefu kitayan",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "hiei (kancolle)",
+      "set": {
+        "ja": "比叡（艦隊これくしょん）",
+        "candidateJa": "比叡（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "higuchi kaede (nijisanji)",
+      "set": {
+        "candidateJa": "樋口楓（にじさんじ）"
+      }
+    },
+    {
+      "tag": "higuchi madoka (the idolmaster shiny colors)",
+      "set": {
+        "candidateJa": "樋口円香（アイドルマスター シャイニーカラーズ）"
+      }
+    },
+    {
+      "tag": "hiroki (yyqw7151)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "hori (hori no su)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "houshou (kancolle)",
+      "set": {
+        "ja": "鳳翔（艦隊これくしょん）",
+        "candidateJa": "鳳翔（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "houtengeki",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "i-168 (kancolle)",
+      "set": {
+        "ja": "伊168（艦隊これくしょん）",
+        "candidateJa": "伊168（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "i-19 (kancolle)",
+      "set": {
+        "ja": "伊19（艦隊これくしょん）",
+        "candidateJa": "伊19（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "i-401 (kancolle)",
+      "set": {
+        "ja": "伊401（艦隊これくしょん）",
+        "candidateJa": "伊401（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "i-58 (kancolle)",
+      "set": {
+        "ja": "伊58（艦隊これくしょん）",
+        "candidateJa": "伊58（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "i-8 (kancolle)",
+      "set": {
+        "ja": "伊8（艦隊これくしょん）",
+        "candidateJa": "伊8（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ichikawa feesu",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "ido (teketeke)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "igarashi futaba (shiromanta)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "ikazuchi (kancolle)",
+      "set": {
+        "ja": "雷（艦隊これくしょん）",
+        "candidateJa": "雷（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ikuchan kaoru",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "inazuma (kancolle)",
+      "set": {
+        "ja": "電（艦隊これくしょん）",
+        "candidateJa": "電（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ini (inunabe00)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "ise (kancolle)",
+      "set": {
+        "ja": "伊勢（艦隊これくしょん）",
+        "candidateJa": "伊勢（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ishikei",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "isoi reiji",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "isokaze (kancolle)",
+      "set": {
+        "ja": "磯風（艦隊これくしょん）",
+        "candidateJa": "磯風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "isonami (kancolle)",
+      "set": {
+        "ja": "磯波（艦隊これくしょん）",
+        "candidateJa": "磯波（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "isshiki (ffmania7)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "isuzu (kancolle)",
+      "set": {
+        "ja": "五十鈴（艦隊これくしょん）",
+        "candidateJa": "五十鈴（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "itomugi-kun",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "ixy",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "izumi tsubasu",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "jervis (kancolle)",
+      "set": {
+        "ja": "ジャーヴィス（艦隊これくしょん）",
+        "candidateJa": "ジャーヴィス（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "jinguu (4839ms)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "jintsuu (kancolle)",
+      "set": {
+        "ja": "神通（艦隊これくしょん）",
+        "candidateJa": "神通（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "k-suwabe",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kaamin (mariarose753)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kaga (azur lane)",
+      "set": {
+        "ja": "加賀（アズールレーン）",
+        "candidateJa": "加賀（アズールレーン）"
+      }
+    },
+    {
+      "tag": "kaga (kancolle)",
+      "set": {
+        "ja": "加賀（艦隊これくしょん）",
+        "candidateJa": "加賀（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "kagerou (kancolle)",
+      "set": {
+        "ja": "陽炎（艦隊これくしょん）",
+        "candidateJa": "陽炎（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "kagiyama hina (touhou project)",
+      "set": {
+        "candidateJa": "鍵山雛（東方Project）"
+      }
+    },
+    {
+      "tag": "kagura (gintama)",
+      "set": {
+        "ja": "神楽（銀魂）",
+        "candidateJa": "神楽（銀魂）"
+      }
+    },
+    {
+      "tag": "kame (kamepan44231)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kamille (vcx68)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kamio misuzu (air)",
+      "set": {
+        "candidateJa": "神尾観鈴（AIR）"
+      }
+    },
+    {
+      "tag": "kanzaki ranko (the idolmaster cinderella girls)",
+      "set": {
+        "candidateJa": "神崎蘭子（アイドルマスター シンデレラガールズ）"
+      }
+    },
+    {
+      "tag": "kase daiki",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kasumi (skchkko)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "katsuragi misato (neon genesis evangelion)",
+      "set": {
+        "candidateJa": "葛城ミサト（新世紀エヴァンゲリオン）"
+      }
+    },
+    {
+      "tag": "kawashiro nitori (touhou project)",
+      "set": {
+        "candidateJa": "河城にとり（東方Project）"
+      }
+    },
+    {
+      "tag": "kouno (masao)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "lily white (touhou project)",
+      "set": {
+        "candidateJa": "リリーホワイト（東方Project）"
+      }
+    },
+    {
+      "tag": "matsuno choromatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野チョロ松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "matsuno ichimatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野一松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "matsuno jyushimatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野十四松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "matsuno karamatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野カラ松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "matsuno osomatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野おそ松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "matsuno todomatsu (osomatsu-san)",
+      "set": {
+        "candidateJa": "松野トド松（おそ松さん）"
+      }
+    },
+    {
+      "tag": "mega gardevoir (pokemon)",
+      "set": {
+        "candidateJa": "メガサーナイト（ポケットモンスター）"
+      }
+    },
+    {
+      "tag": "meow (nekodenki)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "merlin prismriver (touhou project)",
+      "set": {
+        "candidateJa": "マーリン・プリズムリバー（東方Project）"
+      }
+    },
+    {
+      "tag": "midna (the legend of zelda: twilight princess)",
+      "set": {
+        "candidateJa": "ミドナ（ゼルダの伝説 トワイライトプリンセス）"
+      }
+    },
+    {
+      "tag": "midorikawa nao (smile precure!)",
+      "set": {
+        "candidateJa": "緑川なお（スマイルプリキュア！）"
+      }
+    },
+    {
+      "tag": "midoriya izuku (my hero academia)",
+      "set": {
+        "candidateJa": "緑谷出久（僕のヒーローアカデミア）"
+      }
+    },
+    {
+      "tag": "mikage takashi",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "mikasa ackerman (attack on titan)",
+      "set": {
+        "candidateJa": "ミカサ・アッカーマン（進撃の巨人）"
+      }
+    },
+    {
+      "tag": "miki sayaka (puella magi madoka magica)",
+      "set": {
+        "candidateJa": "美樹さやか（魔法少女まどか☆マギカ）"
+      }
+    },
+    {
+      "tag": "milkshakework",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "mimura kanako (the idolmaster cinderella girls)",
+      "set": {
+        "candidateJa": "三村かな子（アイドルマスター シンデレラガールズ）"
+      }
+    },
+    {
+      "tag": "minami kotori (love live! school idol project)",
+      "set": {
+        "candidateJa": "南ことり（ラブライブ！）"
+      }
+    },
+    {
+      "tag": "minase iori (the idolmaster)",
+      "set": {
+        "candidateJa": "水瀬伊織（アイドルマスター）"
+      }
+    },
+    {
+      "tag": "minato aqua (hololive)",
+      "set": {
+        "candidateJa": "湊あくあ（ホロライブ）"
+      }
+    },
+    {
+      "tag": "miorine rembran (mobile suit gundam: the witch from mercury)",
+      "set": {
+        "candidateJa": "ミオリネ・レンブラン（水星の魔女）"
+      }
+    },
+    {
+      "tag": "misaka mikoto (a certain scientific railgun)",
+      "set": {
+        "candidateJa": "御坂美琴（とある科学の超電磁砲）"
+      }
+    },
+    {
+      "tag": "misumi nagisa (futari wa pretty cure)",
+      "set": {
+        "candidateJa": "美墨なぎさ（ふたりはプリキュア）"
+      }
+    },
+    {
+      "tag": "mitaka asa (chainsaw man)",
+      "set": {
+        "candidateJa": "三鷹アサ（チェンソーマン）"
+      }
+    },
+    {
+      "tag": "miura azusa (the idolmaster)",
+      "set": {
+        "candidateJa": "三浦あずさ（アイドルマスター）"
+      }
+    },
+    {
+      "tag": "miyafuji yoshika (strike witches)",
+      "set": {
+        "candidateJa": "宮藤芳佳（ストライクウィッチーズ）"
+      }
+    },
+    {
+      "tag": "miyako yoshika (touhou project)",
+      "set": {
+        "candidateJa": "宮古芳香（東方Project）"
+      }
+    },
+    {
+      "tag": "miyamoto frederica (the idolmaster cinderella girls)",
+      "set": {
+        "candidateJa": "宮本フレデリカ（アイドルマスター シンデレラガールズ）"
+      }
+    },
+    {
+      "tag": "miyu edelfelt (fate/kaleid liner prisma illya)",
+      "set": {
+        "candidateJa": "美遊・エーデルフェルト（Fate/kaleid liner プリズマ☆イリヤ）"
+      }
+    },
+    {
+      "tag": "mizuno ami (sailor moon)",
+      "set": {
+        "candidateJa": "水野亜美（美少女戦士セーラームーン）"
+      }
+    },
+    {
+      "tag": "mk (mod0)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "mo (kireinamo)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "mococo abyssgard (hololive)",
+      "set": {
+        "candidateJa": "モココ・アビスガード（ホロライブ）"
+      }
+    },
+    {
+      "tag": "momoko (momopoco)",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "momosuzu nene (hololive)",
+      "set": {
+        "candidateJa": "桃鈴ねね（ホロライブ）"
+      }
+    },
+    {
+      "tag": "multiple views",
+      "set": {
+        "candidateJa": "複数視点"
+      }
+    },
+    {
+      "tag": "nekomata okayu (1st costume)",
+      "set": {
+        "ja": "猫又おかゆ（通常）",
+        "candidateJa": "猫又おかゆ（通常）"
+      }
+    },
+    {
+      "tag": "nichijou",
+      "set": {
+        "ja": "日常（あらゐけいいち）",
+        "candidateJa": "日常（あらゐけいいち）"
+      }
+    },
+    {
+      "tag": "noshiro (kancolle)",
+      "set": {
+        "ja": "能代（艦隊これくしょん）",
+        "candidateJa": "能代（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "oboro (kancolle)",
+      "set": {
+        "ja": "朧（艦隊これくしょん）",
+        "candidateJa": "朧（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ohara mari",
+      "set": {
+        "ja": "マリ（幻日のヨハネ）",
+        "candidateJa": "マリ（幻日のヨハネ）"
+      }
+    },
+    {
+      "tag": "ooi (kancolle)",
+      "set": {
+        "ja": "大井（艦隊これくしょん）",
+        "candidateJa": "大井（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ooyodo (kancolle)",
+      "set": {
+        "ja": "大淀（艦隊これくしょん）",
+        "candidateJa": "大淀（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ouro kronii (1st costume)",
+      "set": {
+        "ja": "オーロ・クロニー（通常）",
+        "candidateJa": "オーロ・クロニー（通常）"
+      }
+    },
+    {
+      "tag": "pokemon (classic anime)",
+      "set": {
+        "ja": "ポケットモンスター（アニポケ第1シリーズ）",
+        "candidateJa": "ポケットモンスター（アニポケ第1シリーズ）"
+      }
+    },
+    {
+      "tag": "rice shower (umamusume)",
+      "set": {
+        "ja": "ライスシャワー（ウマ娘）",
+        "candidateJa": "ライスシャワー（ウマ娘）"
+      }
+    },
+    {
+      "tag": "rika (pokemon)",
+      "set": {
+        "ja": "チリ（トレーナー）",
+        "candidateJa": "チリ（トレーナー）"
+      }
+    },
+    {
+      "tag": "ro-500 (kancolle)",
+      "set": {
+        "ja": "呂500（艦これ）",
+        "candidateJa": "呂500（艦これ）"
+      }
+    },
+    {
+      "tag": "ryuujou (kancolle)",
+      "set": {
+        "ja": "龍驤（艦隊これくしょん）",
+        "candidateJa": "龍驤（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "sakura miko (1st costume)",
+      "set": {
+        "ja": "さくらみこ（通常）",
+        "candidateJa": "さくらみこ（通常）"
+      }
+    },
+    {
+      "tag": "samidare (kancolle)",
+      "set": {
+        "ja": "五月雨（艦隊これくしょん）",
+        "candidateJa": "五月雨（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "satono diamond (umamusume)",
+      "set": {
+        "ja": "サトノダイヤモンド（ウマ娘）",
+        "candidateJa": "サトノダイヤモンド（ウマ娘）"
+      }
+    },
+    {
+      "tag": "satsuki (kancolle)",
+      "set": {
+        "ja": "皐月（艦隊これくしょん）",
+        "candidateJa": "皐月（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "sazanami (kancolle)",
+      "set": {
+        "ja": "漣（艦隊これくしょん）",
+        "candidateJa": "漣（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "sendai (kancolle)",
+      "set": {
+        "ja": "川内（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shigure (kancolle)",
+      "set": {
+        "ja": "時雨（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shikinami (kancolle)",
+      "set": {
+        "ja": "敷波（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shimakaze (kancolle)",
+      "set": {
+        "ja": "島風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shirakami fubuki (1st costume)",
+      "set": {
+        "ja": "白上フブキ（通常）"
+      }
+    },
+    {
+      "tag": "shiranui (kancolle)",
+      "set": {
+        "ja": "不知火（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shiratsuyu (kancolle)",
+      "set": {
+        "ja": "白露（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shirayuki (kancolle)",
+      "set": {
+        "ja": "白雪（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shishiro botan (1st costume)",
+      "set": {
+        "ja": "獅白ぼたん（通常）"
+      }
+    },
+    {
+      "tag": "shoukaku (kancolle)",
+      "set": {
+        "ja": "翔鶴（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "shu (arknights)",
+      "set": {
+        "ja": "シュウ（アークナイツ）"
+      }
+    },
+    {
+      "tag": "simon (ttgl)",
+      "set": {
+        "ja": "シモン（天元突破グレンラガン）"
+      }
+    },
+    {
+      "tag": "sirius symboli (umamusume)",
+      "set": {
+        "ja": "シリウスシンボリ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "slime (genshin impact)",
+      "set": {
+        "ja": "スライム（原神）"
+      }
+    },
+    {
+      "tag": "souryuu (kancolle)",
+      "set": {
+        "ja": "蒼龍（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "stelle (honkai: star rail)",
+      "set": {
+        "ja": "星（スターレイル）"
+      }
+    },
+    {
+      "tag": "suzukaze (kancolle)",
+      "set": {
+        "ja": "涼風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "suzuya (kancolle)",
+      "set": {
+        "ja": "鈴谷（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "symboli rudolf (umamusume)",
+      "set": {
+        "ja": "シンボリルドルフ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "t.m. opera o (umamusume)",
+      "set": {
+        "ja": "テイエムオペラオー（ウマ娘）"
+      }
+    },
+    {
+      "tag": "taigei (kancolle)",
+      "set": {
+        "ja": "大鯨（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "taihou (azur lane)",
+      "set": {
+        "ja": "大鳳（アズールレーン）"
+      }
+    },
+    {
+      "tag": "taihou (kancolle)",
+      "set": {
+        "ja": "大鳳（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "takanashi kiara (1st costume)",
+      "set": {
+        "ja": "小鳥遊キアラ（通常）"
+      }
+    },
+    {
+      "tag": "takao (azur lane)",
+      "set": {
+        "ja": "高雄（アズールレーン）"
+      }
+    },
+    {
+      "tag": "takao (kancolle)",
+      "set": {
+        "ja": "高雄（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "tama (kancolle)",
+      "set": {
+        "ja": "多摩（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "tamamo cross (umamusume)",
+      "set": {
+        "ja": "タマモクロス（ウマ娘）"
+      }
+    },
+    {
+      "tag": "tashkent (kancolle)",
+      "set": {
+        "ja": "タシュケント（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "tatsuta (kancolle)",
+      "set": {
+        "ja": "龍田（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "tenryuu (kancolle)",
+      "set": {
+        "ja": "天龍（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "teruzuki (kancolle)",
+      "set": {
+        "ja": "照月（艦これ）"
+      }
+    },
+    {
+      "tag": "tokai teio (umamusume)",
+      "set": {
+        "ja": "トウカイテイオー（ウマ娘）"
+      }
+    },
+    {
+      "tag": "tokitsukaze (kancolle)",
+      "set": {
+        "ja": "時津風（艦これ）"
+      }
+    },
+    {
+      "tag": "tokoyami towa (1st costume)",
+      "set": {
+        "ja": "常闇トワ（通常）"
+      }
+    },
+    {
+      "tag": "tokoyami towa (jirai kei)",
+      "set": {
+        "ja": "常闇トワ（私服衣装）"
+      }
+    },
+    {
+      "tag": "tone (kancolle)",
+      "set": {
+        "ja": "利根（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "trailblazer (honkai: star rail)",
+      "set": {
+        "ja": "開拓者（スターレイル）"
+      }
+    },
+    {
+      "tag": "trainer (umamusume)",
+      "set": {
+        "ja": "トレーナー（ウマ娘プリティーダービー）"
+      }
+    },
+    {
+      "tag": "twin turbo (umamusume)",
+      "set": {
+        "ja": "ツインターボ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "u-511 (kancolle)",
+      "set": {
+        "ja": "U-511（艦これ）"
+      }
+    },
+    {
+      "tag": "unryuu (kancolle)",
+      "set": {
+        "ja": "雲龍（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "urakaze (kancolle)",
+      "set": {
+        "ja": "浦風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "usada pekora (1st costume)",
+      "set": {
+        "ja": "兎田ぺこら（通常）"
+      }
+    },
+    {
+      "tag": "ushio (kancolle)",
+      "set": {
+        "ja": "潮（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "uzuki (kancolle)",
+      "set": {
+        "ja": "卯月（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "v-fin",
+      "set": {
+        "ja": "V字アンテナ（ガンダム）"
+      }
+    },
+    {
+      "tag": "venti (genshin impact)",
+      "set": {
+        "ja": "ウェンティ（原神）"
+      }
+    },
+    {
+      "tag": "vodka (umamusume)",
+      "set": {
+        "ja": "ウオッカ（ウマ娘）"
+      }
+    },
+    {
+      "tag": "w (arknights)",
+      "set": {
+        "ja": "W（アークナイツ）"
+      }
+    },
+    {
+      "tag": "warrior of light (ff14)",
+      "set": {
+        "ja": "光の戦士（FF14）"
+      }
+    },
+    {
+      "tag": "warspite (kancolle)",
+      "set": {
+        "ja": "ウォースパイト（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "watson amelia (1st costume)",
+      "set": {
+        "ja": "ワトソン・アメリア（通常）"
+      }
+    },
+    {
+      "tag": "yahagi (kancolle)",
+      "set": {
+        "ja": "矢矧（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yamakaze (kancolle)",
+      "set": {
+        "ja": "山風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yamato (kancolle)",
+      "set": {
+        "ja": "大和（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yayoi (kancolle)",
+      "set": {
+        "ja": "弥生（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "ymir (shingeki no kyojin)",
+      "set": {
+        "ja": "ユミル（進撃の巨人）"
+      }
+    },
+    {
+      "tag": "yukihana lamy (1st costume)",
+      "set": {
+        "ja": "雪花ラミィ（通常）"
+      }
+    },
+    {
+      "tag": "yukikaze (kancolle)",
+      "set": {
+        "ja": "雪風（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yura (kancolle)",
+      "set": {
+        "ja": "由良（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yuubari (kancolle)",
+      "set": {
+        "ja": "夕張（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yuudachi (kancolle)",
+      "set": {
+        "ja": "夕立（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yuugumo (kancolle)",
+      "set": {
+        "ja": "夕雲（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "yuuka (track) (blue archive)",
+      "set": {
+        "ja": "早瀬ユウカ（体操服）"
+      }
+    },
+    {
+      "tag": "z23 (azur lane)",
+      "set": {
+        "ja": "Z23（アズールレーン）"
+      }
+    },
+    {
+      "tag": "zuihou (kancolle)",
+      "set": {
+        "ja": "瑞鳳（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "zuikaku (kancolle)",
+      "set": {
+        "ja": "瑞鶴（艦隊これくしょん）"
+      }
+    },
+    {
+      "tag": "jjune",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "jmg",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "kfr",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "lets0020",
+      "set": {
+        "candidateJa": null
+      }
+    },
+    {
+      "tag": "lpip",
+      "set": {
+        "candidateJa": null
+      }
+    }
+  ]
+}
