@@ -1,0 +1,91 @@
+name: Apply dictionary patch
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/patches/*.json"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: dictionary-patch-main
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Apply patch
+        id: patch
+        shell: bash
+        run: |
+          shopt -s nullglob
+          files=(.github/patches/*.json)
+          if [[ ${#files[@]} -ne 1 ]]; then
+            echo "Expected exactly one patch file; found ${#files[@]}."
+            exit 1
+          fi
+          echo "patch_file=${files[0]}" >> "$GITHUB_OUTPUT"
+          node .github/scripts/apply-dictionary-patch.mjs "${files[0]}"
+      - name: Check application syntax
+        run: node --check src/app.js
+      - name: Check admin syntax
+        run: node --check src/admin.js
+      - name: Validate canonical runtime dictionary
+        run: node scripts/build-dictionary-data.mjs --check
+      - name: Audit tag structure and taxonomy membership
+        run: node scripts/audit-tags.mjs
+      - name: Audit canonical taxonomy
+        run: node scripts/audit-taxonomy.mjs
+      - name: Audit prompt output order
+        run: node scripts/audit-prompt-order.mjs
+      - name: Audit embedded tag metadata and history
+        run: node scripts/audit-tag-management.mjs
+      - name: Audit translation quality candidates
+        run: node scripts/audit-translations.mjs
+      - name: Audit tag groups
+        run: node scripts/audit-tag-groups.mjs
+      - name: Check metadata review audit syntax
+        run: node --check scripts/build-tag-metadata-review.mjs
+      - name: Run metadata review diagnostic
+        run: node scripts/build-tag-metadata-review.mjs
+      - name: Test translation audit rules
+        run: node --test tests/audit-translations.test.mjs
+      - name: Test taxonomy browser integration
+        run: node --test tests/taxonomy-browser.test.mjs
+      - name: Test dictionary UI layout
+        run: node --test tests/ui-layout.test.mjs
+      - name: Check admin export script syntax
+        run: node --check scripts/apply-admin-export.mjs
+      - name: Test stale admin exports are rejected
+        run: node --test tests/apply-admin-export.test.mjs
+      - name: Commit repaired dictionary
+        env:
+          PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm "$PATCH_FILE"
+          git add data/dictionary-data.json
+          git commit -m "Repair canonical dictionary audit integrity"
+          git push
+      - name: Dispatch canonical data audit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl --fail-with-body --silent --show-error -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/data-audit.yml/dispatches" \
+            -d '{"ref":"main"}'
