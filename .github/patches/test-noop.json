@@ -1,0 +1,11 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "!",
+      "set": {
+        "ja": "感嘆符"
+      }
+    }
+  ]
+}
