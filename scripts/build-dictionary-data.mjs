@@ -6,6 +6,26 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const bundlePath = resolve(root, "data/dictionary-data.json");
 const normalizeTag = value => String(value ?? "").normalize("NFKC").toLocaleLowerCase().replace(/_/g, " ").trim();
 
+function resolveTaxonomyLabels(taxonomy, classification) {
+  let categoryId = classification?.categoryId;
+  let subcategoryId = classification?.subcategoryId;
+  if (categoryId === "person") {
+    if (subcategoryId === "people-count") categoryId = "people-count";
+    else if (["face-expression", "eyes"].includes(subcategoryId)) categoryId = "face";
+    else if (subcategoryId === "hair-head") categoryId = "hair";
+  }
+  if (classification?.categoryId === "background" && ["furniture", "object-items"].includes(subcategoryId)) categoryId = "objects";
+  if (classification?.categoryId === "person" && subcategoryId === "people-count") subcategoryId = "people-count-value";
+  else if (classification?.categoryId === "person" && subcategoryId === "face-expression") subcategoryId = "face-expression-core";
+  else if (classification?.categoryId === "person" && subcategoryId === "eyes") subcategoryId = "eyes-feature";
+  else if (classification?.categoryId === "person" && subcategoryId === "hair-head") subcategoryId = "hair-head-core";
+  else if (classification?.categoryId === "background" && subcategoryId === "furniture") subcategoryId = "furniture-items";
+  else if (classification?.categoryId === "background" && subcategoryId === "object-items") subcategoryId = "other-objects";
+  const category = taxonomy?.semanticCategories?.find(item => item.id === categoryId);
+  const subcategory = category?.subcategories?.find(item => item.id === subcategoryId);
+  return category && subcategory ? { major: category.name, minor: subcategory.name } : null;
+}
+
 export function validateBundle(data) {
   const errors = [];
   if (!data || typeof data !== "object" || Array.isArray(data)) {
@@ -66,6 +86,26 @@ export function validateBundle(data) {
       if (!key) errors.push("Empty tag at index " + i + ".");
       else if (seen.has(key)) errors.push("Normalized duplicate tag: " + row[0]);
       seen.add(key);
+      const classification = row[6]?.classification;
+      if (classification?.status === "provisional" && classification.categoryId && classification.subcategoryId) {
+        const labels = resolveTaxonomyLabels(data.taxonomy, classification);
+        if (!labels) errors.push("Invalid taxonomy classification IDs for tag: " + row[0]);
+        else if (row[2] !== labels.major || row[3] !== labels.minor) {
+          errors.push("Tag row major/minor does not match embedded classification metadata: " + row[0] +
+            " (expected " + labels.major + " / " + labels.minor + ")");
+        }
+      }
+      const translation = row[6]?.translation;
+      if (translation?.status === "verified" && typeof translation.candidateJa === "string" && translation.candidateJa !== row[1]) {
+        errors.push("Verified translation candidateJa must match ja: " + row[0]);
+      }
+      if (typeof translation?.candidateJa === "string" &&
+          (!translation.candidateJa.trim() || translation.candidateJa.trim() === "要確認")) {
+        errors.push("Empty or placeholder candidateJa must be omitted: " + row[0]);
+      }
+      if (/[()]/.test(row[1]) || /[()]/.test(translation?.candidateJa || "")) {
+        errors.push("Japanese translation parentheses must use full-width characters: " + row[0]);
+      }
     }
   }
 
