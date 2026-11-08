@@ -22,6 +22,13 @@ function csvFor(data) {
   return parseCsv(exportCsv(data));
 }
 
+function encodeCsv(rows) {
+  return rows.map(row => row.map(value => {
+    const text = String(value ?? "");
+    return /[",\\r\\n]/.test(text) ? '"' + text.replace(/"/g, '""') + '"' : text;
+  }).join(",")).join("\\n");
+}
+
 test("CSV export/import round trip preserves the complete canonical row metadata", () => {
   const data = fixture();
   const result = importCsvData(data, exportCsv(data));
