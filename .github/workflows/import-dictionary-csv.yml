@@ -24,6 +24,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Test CSV import behavior
+        run: node --test tests/import-dictionary-csv.test.mjs
       - name: Import CSV into canonical JSON
         run: node scripts/import-dictionary-csv.mjs
       - name: Validate dictionary structure
@@ -40,8 +42,8 @@ jobs:
         run: node scripts/audit-prompt-order.mjs
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
-      - name: Run canonical data tests
-        run: node --test tests/apply-admin-export.test.mjs tests/audit-translations.test.mjs
+      - name: Run all Node tests
+        run: node --test
       - name: Commit canonical JSON and refreshed CSV
         run: |
           if git diff --quiet -- data/dictionary-data.json exports/dictionary-working.csv; then
