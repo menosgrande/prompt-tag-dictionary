@@ -42,6 +42,12 @@ jobs:
         run: node scripts/audit-tags.mjs
       - name: Audit consolidated review metadata
         run: node scripts/audit-tag-management.mjs
+      - name: Audit prompt output order
+        run: node scripts/audit-prompt-order.mjs
+      - name: Audit tag groups
+        run: node scripts/audit-tag-groups.mjs
+      - name: Run canonical data tests
+        run: node --test tests/apply-admin-export.test.mjs
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
