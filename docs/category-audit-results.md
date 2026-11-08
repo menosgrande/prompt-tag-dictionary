@@ -1,5 +1,8 @@
 # Category audit — safer candidate pass
 
+> **履歴資料:** これは作成当時の分類候補監査結果です。件数・分類案・参照ファイルは現在の状態を示しません。現行ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md)、現行データは `data/dictionary-data.json` を参照してください。
+
+
 ## Coverage
 - Source rows: **11,047**
 - Existing category fields retained but unverified: **4,322**
