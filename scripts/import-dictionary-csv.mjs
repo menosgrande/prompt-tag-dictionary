@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, rename, unlink } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -83,6 +83,65 @@ function setReviewStatus(meta, key, status, allowed, tag, label) {
   else current.status = status;
   if (Object.keys(current).length) meta[key] = current;
   else delete meta[key];
+}
+
+export async function writeImportOutputs(dataPath, csvPath, jsonContent, csvContent, fs = { readFile, writeFile, rename, unlink }) {
+  const originals = await Promise.all([
+    fs.readFile(dataPath, "utf8"),
+    fs.readFile(csvPath, "utf8")
+  ]);
+  const suffix = ".tmp-" + process.pid + "-" + Date.now();
+  const jsonTemp = dataPath + suffix;
+  const csvTemp = csvPath + suffix;
+  const jsonBackup = dataPath + suffix + ".bak";
+  const csvBackup = csvPath + suffix + ".bak";
+  let jsonBackedUp = false;
+  let csvBackedUp = false;
+  let jsonInstalled = false;
+  let csvInstalled = false;
+
+  const cleanup = async paths => {
+    await Promise.all(paths.map(path => fs.unlink(path).catch(() => {})));
+  };
+
+  try {
+    await fs.writeFile(jsonTemp, jsonContent, { encoding: "utf8", flag: "wx" });
+    await fs.writeFile(csvTemp, csvContent, { encoding: "utf8", flag: "wx" });
+
+    await fs.rename(dataPath, jsonBackup);
+    jsonBackedUp = true;
+    await fs.rename(csvPath, csvBackup);
+    csvBackedUp = true;
+
+    await fs.rename(jsonTemp, dataPath);
+    jsonInstalled = true;
+    await fs.rename(csvTemp, csvPath);
+    csvInstalled = true;
+
+    await cleanup([jsonBackup, csvBackup]);
+  } catch (error) {
+    const rollbackErrors = [];
+    if (jsonBackedUp) {
+      try {
+        if (jsonInstalled) await fs.unlink(dataPath).catch(() => {});
+        await fs.rename(jsonBackup, dataPath);
+        jsonBackedUp = false;
+      } catch (rollbackError) { rollbackErrors.push("JSON rollback failed: " + rollbackError.message); }
+    }
+    if (csvBackedUp) {
+      try {
+        if (csvInstalled) await fs.unlink(csvPath).catch(() => {});
+        await fs.rename(csvBackup, csvPath);
+        csvBackedUp = false;
+      } catch (rollbackError) { rollbackErrors.push("CSV rollback failed: " + rollbackError.message); }
+    }
+    await cleanup([jsonTemp, csvTemp]);
+    if (rollbackErrors.length) {
+      throw new Error(error.message + "; " + rollbackErrors.join("; ") +
+        "; backup files were retained where restoration failed.");
+    }
+    throw error;
+  }
 }
 
 export function importCsvData(data, rawCsv) {
@@ -199,8 +258,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   const outputCsv = exportCsv(result.data);
   const checkOnly = process.argv.includes("--check");
   if (!checkOnly) {
-    await writeFile(dataPath, JSON.stringify(result.data) + "\n", "utf8");
-    await writeFile(csvPath, outputCsv, "utf8");
+    await writeImportOutputs(dataPath, csvPath, JSON.stringify(result.data) + "\n", outputCsv);
   }
   console.log(checkOnly ? "CSV import dry-run passed." : "CSV import completed.");
   console.log("CSV rows checked: " + result.data.tags.length);
