@@ -50,8 +50,8 @@ jobs:
         run: node scripts/audit-prompt-order.mjs
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
-      - name: Run canonical data tests
-        run: node --test tests/apply-admin-export.test.mjs tests/audit-translations.test.mjs
+      - name: Run all Node tests
+        run: node --test
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
