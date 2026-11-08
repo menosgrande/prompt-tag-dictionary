@@ -18,18 +18,18 @@ function fixture() {
   };
 }
 
-function csvFor(data) {
+function rowsFor(data) {
   return parseCsv(exportCsv(data));
 }
 
 function encodeCsv(rows) {
   return rows.map(row => row.map(value => {
     const text = String(value ?? "");
-    return /[",\\r\\n]/.test(text) ? '"' + text.replace(/"/g, '""') + '"' : text;
-  }).join(",")).join("\\n");
+    return /[",\r\n]/.test(text) ? '"' + text.replace(/"/g, '""') + '"' : text;
+  }).join(",")).join("\n");
 }
 
-test("CSV export/import round trip preserves the complete canonical row metadata", () => {
+test("CSV export/import round trip preserves complete canonical row metadata", () => {
   const data = fixture();
   const result = importCsvData(data, exportCsv(data));
   assert.deepEqual(result.data, data);
@@ -38,39 +38,35 @@ test("CSV export/import round trip preserves the complete canonical row metadata
 
 test("blank detail preserves its value and __CLEAR__ explicitly clears it", () => {
   const data = fixture();
-  const rows = csvFor(data);
+  const rows = rowsFor(data);
   rows[1][5] = "";
-  let result = importCsvData(data, rows.map(row => row.map(value => value).join(",")).join("\n"));
+  let result = importCsvData(data, encodeCsv(rows));
   assert.equal(result.data.tags[0][4], "補足情報");
 
   rows[1][5] = "__CLEAR__";
-  result = importCsvData(data, rows.map(row => row.map(value => value).join(",")).join("\n"));
+  result = importCsvData(data, encodeCsv(rows));
   assert.equal(result.data.tags[0][4], null);
 });
 
 test("blank aliases_json preserves aliases and [] explicitly clears them", () => {
   const data = fixture();
-  const rows = csvFor(data);
+  const rows = rowsFor(data);
   rows[1][6] = "";
-  let result = importCsvData(data, rows.map(row => row.map(value => value).join(",")).join("\n"));
+  let result = importCsvData(data, encodeCsv(rows));
   assert.deepEqual(result.data.tags[0][5], ["旧別名"]);
 
   rows[1][6] = "[]";
-  result = importCsvData(data, rows.map(row => row.map(value => value).join(",")).join("\n"));
+  result = importCsvData(data, encodeCsv(rows));
   assert.deepEqual(result.data.tags[0][5], []);
 });
 
 test("blank review statuses remove only status and retain review evidence", () => {
   const data = fixture();
-  const rows = csvFor(data);
+  const rows = rowsFor(data);
   rows[1][7] = "";
   rows[1][9] = "";
   rows[1][10] = "";
-  const csv = rows.map(row => row.map(value => {
-    const text = String(value ?? "");
-    return /[",\r\n]/.test(text) ? '"' + text.replace(/"/g, '""') + '"' : text;
-  }).join(",")).join("\n");
-  const result = importCsvData(data, csv);
+  const result = importCsvData(data, encodeCsv(rows));
   const meta = result.data.tags[0][6];
   assert.equal(meta.translation.status, undefined);
   assert.equal(meta.translation.evidence, "保持する根拠");
@@ -83,26 +79,25 @@ test("blank review statuses remove only status and retain review evidence", () =
 
 test("blank expression_level explicitly clears the numeric level", () => {
   const data = fixture();
-  const rows = csvFor(data);
+  const rows = rowsFor(data);
   rows[1][8] = "";
-  const csv = rows.map(row => row.join(",")).join("\n");
-  const result = importCsvData(data, csv);
+  const result = importCsvData(data, encodeCsv(rows));
   assert.equal(result.data.tags[0][6].expressionLevel, undefined);
 });
 
 test("row identity, row width, and invalid aliases JSON are rejected", () => {
   const data = fixture();
-  const rows = csvFor(data);
+  const rows = rowsFor(data);
   rows[1][1] = "different tag";
-  assert.throws(() => importCsvData(data, rows.map(row => row.join(",")).join("\n")), /Row identity mismatch/);
+  assert.throws(() => importCsvData(data, encodeCsv(rows)), /Row identity mismatch/);
 
-  const shortRows = csvFor(data);
+  const shortRows = rowsFor(data);
   shortRows[1].pop();
-  assert.throws(() => importCsvData(data, shortRows.map(row => row.join(",")).join("\n")), /Column count mismatch/);
+  assert.throws(() => importCsvData(data, encodeCsv(shortRows)), /Column count mismatch/);
 
-  const badAliases = csvFor(data);
+  const badAliases = rowsFor(data);
   badAliases[1][6] = "{bad";
-  assert.throws(() => importCsvData(data, badAliases.map(row => row.join(",")).join("\n")), /aliases_json is invalid JSON/);
+  assert.throws(() => importCsvData(data, encodeCsv(badAliases)), /aliases_json is invalid JSON/);
 });
 
 test("CSV parser rejects malformed quoted fields", () => {
