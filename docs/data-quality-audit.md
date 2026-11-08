@@ -1,5 +1,8 @@
 # Tag data quality audit
 
+> **履歴資料:** この監査は2026-10-28時点の旧データ構成・件数を記録しています。記載された `data/tags.json`、件数、構造、手順を現在の状態として扱わないでください。現行正本と運用ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md) を参照してください。
+
+
 Audit date: 2026-10-28
 
 ## Current verified snapshot
