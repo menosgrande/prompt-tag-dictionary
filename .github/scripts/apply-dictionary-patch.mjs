@@ -31,6 +31,22 @@ for (const row of data.tags) {
 }
 
 let updated = 0;
+let removedArchivedClassificationCandidates = 0;
+
+if (patch.cleanup?.removeArchivedClassificationCandidates === true) {
+  const candidates = data.classificationCandidates;
+  if (!candidates || !Array.isArray(candidates.entries) || !Array.isArray(candidates.archivedEntries)) {
+    throw new Error("Cannot remove archived classification candidates: expected entries and archivedEntries arrays.");
+  }
+  removedArchivedClassificationCandidates = candidates.archivedEntries.length;
+  delete candidates.archivedEntries;
+  candidates.summary = {
+    total: candidates.entries.length,
+    provisional: candidates.entries.filter(item => item.status === "provisional").length,
+    needsReview: candidates.entries.filter(item => item.status === "needs-review").length,
+    archived: 0
+  };
+}
 
 for (const operation of patch.operations) {
   const row = byTag.get(normalize(operation?.tag));
@@ -71,3 +87,4 @@ for (const operation of patch.operations) {
 await writeFile(dataPath, JSON.stringify(data) + "\n", "utf8");
 console.log("Updated tag entries: " + updated);
 console.log("Canonical tags: " + data.tags.length);
+if (patch.cleanup?.removeArchivedClassificationCandidates === true) console.log("Removed archived classification candidates: " + removedArchivedClassificationCandidates);
