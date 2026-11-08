@@ -1,5 +1,8 @@
 # Tag category audit: first pass
 
+> **履歴資料:** この文書は旧分類体系・旧データ構成を対象にした監査記録です。記載された分類案や手順を現在の作業ルールとして使用しないでください。現行ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md) を優先します。
+
+
 ## Scope
 
 This is a review policy and implementation note, not a claim that all 11,047 tags have been individually reclassified. The source data contains a mixture of categorized rows, legacy categories, and rows without category fields. Runtime normalization may change legacy categories, so raw JSON counts must not be treated as final UI counts.
