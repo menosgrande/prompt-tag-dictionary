@@ -1,5 +1,8 @@
 # Tag Reclassification Audit — Baseline and Migration Plan
 
+> **履歴資料:** この文書は旧10分類案・旧sidecar構成に基づく監査と移行設計です。分類案・件数・ファイル構成を現行仕様として適用しないでください。現行ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md) を優先します。
+
+
 対象: `menosgrande/prompt-tag-dictionary`
 基準ブランチ: `main`
 監査対象: `data/tags.json`, `data/prompt-order-categories.json`, `src/app.js`, `src/admin.js`, `admin.html`
