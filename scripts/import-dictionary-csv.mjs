@@ -197,9 +197,13 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
   catch (error) { throw new Error("Canonical dictionary JSON is invalid: " + error.message); }
   const result = importCsvData(data, rawCsv);
   const outputCsv = exportCsv(result.data);
-  await writeFile(dataPath, JSON.stringify(result.data) + "\n", "utf8");
-  await writeFile(csvPath, outputCsv, "utf8");
-  console.log("CSV rows imported: " + result.data.tags.length);
+  const checkOnly = process.argv.includes("--check");
+  if (!checkOnly) {
+    await writeFile(dataPath, JSON.stringify(result.data) + "\n", "utf8");
+    await writeFile(csvPath, outputCsv, "utf8");
+  }
+  console.log(checkOnly ? "CSV import dry-run passed." : "CSV import completed.");
+  console.log("CSV rows checked: " + result.data.tags.length);
   console.log("Changed tag rows: " + result.changed);
   console.log("Field changes: " + JSON.stringify(result.changes));
   console.log("Canonical metadata and review records preserved.");
