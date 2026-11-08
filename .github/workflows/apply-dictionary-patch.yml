@@ -40,14 +40,18 @@ jobs:
         run: node scripts/build-dictionary-data.mjs --check
       - name: Audit tag structure and categories
         run: node scripts/audit-tags.mjs
+      - name: Audit taxonomy structure
+        run: node scripts/audit-taxonomy.mjs
       - name: Audit consolidated review metadata
         run: node scripts/audit-tag-management.mjs
+      - name: Audit translation candidates
+        run: node scripts/audit-translations.mjs
       - name: Audit prompt output order
         run: node scripts/audit-prompt-order.mjs
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
       - name: Run canonical data tests
-        run: node --test tests/apply-admin-export.test.mjs
+        run: node --test tests/apply-admin-export.test.mjs tests/audit-translations.test.mjs
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
