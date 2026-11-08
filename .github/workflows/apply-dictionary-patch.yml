@@ -40,6 +40,8 @@ jobs:
         run: node scripts/build-dictionary-data.mjs --check
       - name: Audit tag structure and categories
         run: node scripts/audit-tags.mjs
+      - name: Audit consolidated review metadata
+        run: node scripts/audit-tag-management.mjs
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
