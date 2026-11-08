@@ -5,14 +5,18 @@ on:
     paths:
       - "data/dictionary-data.json"
       - "scripts/**"
+      - ".github/scripts/**"
+      - ".github/workflows/**"
       - "tests/apply-admin-export.test.mjs"
-      - ".github/workflows/data-audit.yml"
+      - "tests/audit-translations.test.mjs"
   pull_request:
     paths:
       - "data/dictionary-data.json"
       - "scripts/**"
+      - ".github/scripts/**"
+      - ".github/workflows/**"
       - "tests/apply-admin-export.test.mjs"
-      - ".github/workflows/data-audit.yml"
+      - "tests/audit-translations.test.mjs"
   workflow_dispatch:
 
 permissions:
@@ -30,13 +34,17 @@ jobs:
           node-version: 20
       - name: Validate canonical dictionary
         run: node scripts/build-dictionary-data.mjs --check
-      - name: Run canonical data tests
-        run: node --test tests/apply-admin-export.test.mjs
-      - name: Audit tags and taxonomy
+      - name: Audit tags and categories
         run: node scripts/audit-tags.mjs
+      - name: Audit taxonomy structure
+        run: node scripts/audit-taxonomy.mjs
       - name: Audit review metadata
         run: node scripts/audit-tag-management.mjs
+      - name: Audit translation candidates
+        run: node scripts/audit-translations.mjs
       - name: Audit prompt output order
         run: node scripts/audit-prompt-order.mjs
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
+      - name: Run canonical data tests
+        run: node --test tests/apply-admin-export.test.mjs tests/audit-translations.test.mjs
