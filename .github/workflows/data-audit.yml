@@ -7,16 +7,14 @@ on:
       - "scripts/**"
       - ".github/scripts/**"
       - ".github/workflows/**"
-      - "tests/apply-admin-export.test.mjs"
-      - "tests/audit-translations.test.mjs"
+      - "tests/**"
   pull_request:
     paths:
       - "data/dictionary-data.json"
       - "scripts/**"
       - ".github/scripts/**"
       - ".github/workflows/**"
-      - "tests/apply-admin-export.test.mjs"
-      - "tests/audit-translations.test.mjs"
+      - "tests/**"
   workflow_dispatch:
 
 permissions:
@@ -46,5 +44,5 @@ jobs:
         run: node scripts/audit-prompt-order.mjs
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
-      - name: Run canonical data tests
-        run: node --test tests/apply-admin-export.test.mjs tests/audit-translations.test.mjs
+      - name: Run all Node tests
+        run: node --test
