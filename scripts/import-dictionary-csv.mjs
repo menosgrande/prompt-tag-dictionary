@@ -182,6 +182,7 @@ for (let i = 0; i < data.tags.length; i++) {
     metaChanged = true;
   }
 
+  if (metaChanged) rowChanged = true;
   if (detailChanged || aliasesChanged || metaChanged) {
     ensureExtended(row);
     if (detailChanged) row[4] = detail;
