@@ -32,6 +32,53 @@ for (const row of data.tags) {
 
 let updated = 0;
 let removedArchivedClassificationCandidates = 0;
+let packedReviewMerged = 0;
+let packedReviewConflicts = 0;
+
+if (patch.cleanup?.mergePackedReviewIntoTagMetadata === true) {
+  const review = data.review;
+  if (!review || !Array.isArray(review.entries) || review.entries.length !== data.tags.length ||
+      !Array.isArray(review.translationStatusCodes) || !Array.isArray(review.classificationStatusCodes) ||
+      !Array.isArray(review.notes) || !Array.isArray(review.sources)) {
+    throw new Error("Cannot merge packed review: invalid review index or lookup tables.");
+  }
+  for (let i = 0; i < data.tags.length; i++) {
+    const packed = review.entries[i];
+    if (packed === null) continue;
+    if (!Array.isArray(packed) || packed.length !== 5) throw new Error("Invalid packed review entry at tag index " + i);
+    const [translationCode, classificationCode, reviewedAt, noteIndex, sourceIndex] = packed;
+    const translationStatus = review.translationStatusCodes[translationCode];
+    const classificationStatus = review.classificationStatusCodes[classificationCode];
+    if (!translationStatus || !classificationStatus) throw new Error("Unknown packed review status at tag index " + i);
+    const row = data.tags[i];
+    if (row.length === 4) row.push(null, [], {});
+    if (!row[6] || typeof row[6] !== "object" || Array.isArray(row[6])) row[6] = {};
+    const meta = row[6];
+    if (!meta.translation || typeof meta.translation !== "object" || Array.isArray(meta.translation)) meta.translation = {};
+    if (!meta.classificationReview || typeof meta.classificationReview !== "object" || Array.isArray(meta.classificationReview)) meta.classificationReview = {};
+    const effectiveClassificationStatus = meta.classification?.status || meta.classificationReview.status;
+    if (!meta.translation.status) meta.translation.status = translationStatus;
+    else if (meta.translation.status !== translationStatus) packedReviewConflicts++;
+    if (!effectiveClassificationStatus) meta.classificationReview.status = classificationStatus;
+    else if (effectiveClassificationStatus !== classificationStatus) packedReviewConflicts++;
+    if (typeof reviewedAt === "string" && reviewedAt) {
+      if (!meta.translation.reviewedAt) meta.translation.reviewedAt = reviewedAt;
+      if (!meta.classificationReview.reviewedAt) meta.classificationReview.reviewedAt = reviewedAt;
+    }
+    const note = Number.isInteger(noteIndex) && noteIndex >= 0 ? review.notes[noteIndex] : null;
+    const source = Number.isInteger(sourceIndex) && sourceIndex >= 0 ? review.sources[sourceIndex] : null;
+    if (typeof note === "string" && note) {
+      if (!meta.translation.reviewNote) meta.translation.reviewNote = note;
+      if (!meta.classificationReview.reason) meta.classificationReview.reason = note;
+    }
+    if (typeof source === "string" && source) {
+      if (!meta.translation.source) meta.translation.source = source;
+      if (!meta.classificationReview.source) meta.classificationReview.source = source;
+    }
+    packedReviewMerged++;
+  }
+  delete data.review;
+}
 
 if (patch.cleanup?.removeArchivedClassificationCandidates === true) {
   const candidates = data.classificationCandidates;
@@ -88,3 +135,8 @@ await writeFile(dataPath, JSON.stringify(data) + "\n", "utf8");
 console.log("Updated tag entries: " + updated);
 console.log("Canonical tags: " + data.tags.length);
 if (patch.cleanup?.removeArchivedClassificationCandidates === true) console.log("Removed archived classification candidates: " + removedArchivedClassificationCandidates);
+if (patch.cleanup?.mergePackedReviewIntoTagMetadata === true) {
+  console.log("Merged packed review records into tag metadata: " + packedReviewMerged);
+  console.log("Packed review conflicts resolved in favor of existing tag metadata: " + packedReviewConflicts);
+  console.log("Removed duplicate packed review index and lookup tables.");
+}
