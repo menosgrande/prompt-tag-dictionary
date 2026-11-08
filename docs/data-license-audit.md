@@ -1,5 +1,8 @@
 # データ出典・ライセンス監査（2026-10-31）
 
+> **履歴資料:** これは作成時点の出典・利用条件の監査記録です。現在の権利状態を保証するものではありません。最新の確認結果が得られた場合は別途更新してください。
+
+
 ## 確認できたこと
 
 - boorutan/booru-japanese-tag は上流READMEにMIT Licenseの記載があり、LICENSEファイルもリポジトリ内に存在する。翻訳データには手作業訳と機械翻訳の両方が含まれる。https://github.com/boorutan/booru-japanese-tag
