@@ -30,6 +30,14 @@ jobs:
         run: node scripts/build-dictionary-data.mjs --check
       - name: Audit tags and categories
         run: node scripts/audit-tags.mjs
+      - name: Audit review metadata
+        run: node scripts/audit-tag-management.mjs
+      - name: Audit prompt output order
+        run: node scripts/audit-prompt-order.mjs
+      - name: Audit tag groups
+        run: node scripts/audit-tag-groups.mjs
+      - name: Run canonical data tests
+        run: node --test tests/apply-admin-export.test.mjs
       - name: Commit canonical JSON and refreshed CSV
         run: |
           if git diff --quiet -- data/dictionary-data.json exports/dictionary-working.csv; then
