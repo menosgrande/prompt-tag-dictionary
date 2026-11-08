@@ -1,6 +1,9 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { headers, parseCsv, exportCsv, importCsvData } from "../scripts/import-dictionary-csv.mjs";
+import { headers, parseCsv, exportCsv, importCsvData, writeImportOutputs } from "../scripts/import-dictionary-csv.mjs";
+import { mkdtemp, readFile, writeFile, rename, unlink, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 
 function fixture() {
   return {
@@ -112,4 +115,52 @@ test("the importer schema remains the documented eleven-column header", () => {
     "translation_status", "expression_level", "expression_level_review_status",
     "classification_review_status"
   ]);
+});
+
+test("paired output write updates JSON and CSV together", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "dictionary-import-"));
+  const jsonPath = join(dir, "dictionary.json");
+  const csvPath = join(dir, "dictionary.csv");
+  try {
+    await writeFile(jsonPath, "old-json");
+    await writeFile(csvPath, "old-csv");
+    await writeImportOutputs(jsonPath, csvPath, "new-json", "new-csv");
+    assert.equal(await readFile(jsonPath, "utf8"), "new-json");
+    assert.equal(await readFile(csvPath, "utf8"), "new-csv");
+    const { readdir } = await import("node:fs/promises");
+    assert.deepEqual((await readdir(dir)).sort(), ["dictionary.csv", "dictionary.json"]);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
+test("paired output write restores both originals when the second install fails", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "dictionary-import-rollback-"));
+  const jsonPath = join(dir, "dictionary.json");
+  const csvPath = join(dir, "dictionary.csv");
+  let renameCalls = 0;
+  const fs = {
+    readFile,
+    writeFile,
+    unlink,
+    rename: async (...args) => {
+      renameCalls++;
+      if (renameCalls === 4) throw new Error("simulated CSV install failure");
+      return rename(...args);
+    }
+  };
+  try {
+    await writeFile(jsonPath, "old-json");
+    await writeFile(csvPath, "old-csv");
+    await assert.rejects(
+      writeImportOutputs(jsonPath, csvPath, "new-json", "new-csv", fs),
+      /simulated CSV install failure/
+    );
+    assert.equal(await readFile(jsonPath, "utf8"), "old-json");
+    assert.equal(await readFile(csvPath, "utf8"), "old-csv");
+    const { readdir } = await import("node:fs/promises");
+    assert.deepEqual((await readdir(dir)).sort(), ["dictionary.csv", "dictionary.json"]);
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
 });
