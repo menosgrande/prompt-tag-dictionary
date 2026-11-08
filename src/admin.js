@@ -102,13 +102,6 @@ function save(){
  else {const level=Number(form.expressionLevel);if(!Number.isInteger(level)||level<0||level>4)throw new Error("表現レベルは0〜4で指定してください");meta.expressionLevel=level;meta.expressionLevelReview={status:"verified",reason:form.expressionLevelReason||"タグ単体の意味に基づく判定。",reviewedAt:today()};}
  meta.classificationReview={...(meta.classificationReview||{}),status:form.classificationStatus,reason:form.reason||null,source:form.source||meta.classificationReview?.source||null,reviewedAt:(form.translationStatus==="verified"||form.classificationStatus==="verified")?today():(meta.classificationReview?.reviewedAt||null)};
  syncClassificationCandidate(oldKey,meta,form.classificationStatus);
- const review=state.dictionary.review;
- const translationCode=review.translationStatusCodes.indexOf(form.translationStatus),classificationCode=review.classificationStatusCodes.indexOf(form.classificationStatus);
- if(translationCode<0||classificationCode<0)throw new Error("Unknown review status");
- const noteIndex=form.reason?(review.notes.includes(form.reason)?review.notes.indexOf(form.reason):(review.notes.push(form.reason)-1)):-1;
- const sourceIndex=form.source?(review.sources.includes(form.source)?review.sources.indexOf(form.source):(review.sources.push(form.source)-1)):-1;
- const rowIndex=state.tags.indexOf(row),priorReview=review.entries[rowIndex];
- review.entries[rowIndex]=[translationCode,classificationCode,(form.translationStatus==="verified"||form.classificationStatus==="verified")?today():(priorReview?.[2]||null),noteIndex,sourceIndex];
  if(oldKey!==newKey){
   for(const item of state.dictionary.classificationCandidates?.entries||[])if(item.tag===oldKey)item.tag=newKey;
   for(const item of state.dictionary.nsfwAudit?.candidates||[])if(item.tag===oldKey)item.tag=newKey;
