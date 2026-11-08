@@ -80,12 +80,58 @@ test("blank review statuses remove only status and retain review evidence", () =
   assert.deepEqual(meta.customMetadata, { keep: true });
 });
 
-test("blank expression_level explicitly clears the numeric level", () => {
+test("blank expression_level preserves the numeric level and __CLEAR__ explicitly clears it", () => {
   const data = fixture();
   const rows = rowsFor(data);
   rows[1][8] = "";
-  const result = importCsvData(data, encodeCsv(rows));
+  let result = importCsvData(data, encodeCsv(rows));
+  assert.equal(result.data.tags[0][6].expressionLevel, 2);
+
+  rows[1][8] = "__CLEAR__";
+  result = importCsvData(data, encodeCsv(rows));
   assert.equal(result.data.tags[0][6].expressionLevel, undefined);
+});
+
+test("classification label edits synchronize embedded taxonomy IDs and candidate entries", () => {
+  const data = fixture();
+  data.taxonomy = {
+    semanticCategories: [{
+      id: "person",
+      name: "人物・身体的特徴",
+      subcategories: [{ id: "body-parts", name: "身体部位・身体状態" }]
+    }]
+  };
+  const classification = {
+    status: "provisional",
+    categoryId: "old-category",
+    subcategoryId: "old-subcategory",
+    confidence: "medium",
+    reason: "分類候補"
+  };
+  data.tags[0][6].classification = structuredClone(classification);
+  data.classificationCandidates = {
+    entries: [{ tag: "sample tag", ...structuredClone(classification) }]
+  };
+
+  const rows = rowsFor(data);
+  rows[1][4] = "身体部位・身体状態";
+  const result = importCsvData(data, encodeCsv(rows));
+  const updated = result.data.tags[0][6].classification;
+  assert.equal(updated.categoryId, "person");
+  assert.equal(updated.subcategoryId, "body-parts");
+  assert.deepEqual(result.data.classificationCandidates.entries, [
+    { tag: "sample tag", ...updated }
+  ]);
+});
+
+test("taxonomy-defined translation and classification review statuses are accepted", () => {
+  const data = fixture();
+  const rows = rowsFor(data);
+  rows[1][7] = "machine-translation";
+  rows[1][10] = "not-applicable";
+  const result = importCsvData(data, encodeCsv(rows));
+  assert.equal(result.data.tags[0][6].translation.status, "machine-translation");
+  assert.equal(result.data.tags[0][6].classificationReview.status, "not-applicable");
 });
 
 test("row identity, row width, and invalid aliases JSON are rejected", () => {
