@@ -1,0 +1,43 @@
+name: Import dictionary CSV
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "exports/dictionary-working.csv"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dictionary-csv-import-main
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Import CSV into canonical JSON
+        run: node scripts/import-dictionary-csv.mjs
+      - name: Validate dictionary structure
+        run: node scripts/build-dictionary-data.mjs --check
+      - name: Audit tags and categories
+        run: node scripts/audit-tags.mjs
+      - name: Commit canonical JSON and refreshed CSV
+        run: |
+          if git diff --quiet -- data/dictionary-data.json exports/dictionary-working.csv; then
+            echo "No dictionary changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dictionary-data.json exports/dictionary-working.csv
+          git commit -m "Import dictionary CSV changes"
+          git push
