@@ -43,20 +43,16 @@ export function validateBundle(data) {
   if (!data.nsfwAudit || !Array.isArray(data.nsfwAudit.candidates)) errors.push("nsfwAudit.candidates must be an array.");
   if (!Array.isArray(data.classificationCandidates?.entries)) errors.push("classificationCandidates.entries must be an array.");
 
-  if (!data.review || data.review.schemaVersion !== 1 || !Array.isArray(data.review.entries) || data.review.entries.length !== (Array.isArray(data.tags) ? data.tags.length : -1)) errors.push("review.entries must be an index-aligned array matching tags.");
-  if (data.review && (!Array.isArray(data.review.translationStatusCodes) || !Array.isArray(data.review.classificationStatusCodes) || !Array.isArray(data.review.notes) || !Array.isArray(data.review.sources))) errors.push("review status codes, notes, and sources must be arrays.");
-  if (Array.isArray(data.review?.entries)) {
-    for (let i = 0; i < data.review.entries.length; i++) {
-      const entry = data.review.entries[i];
-      if (entry === null) continue;
-      if (!Array.isArray(entry) || entry.length !== 5 ||
-          !Number.isInteger(entry[0]) || entry[0] < 0 || entry[0] >= (data.review.translationStatusCodes || []).length ||
-          !Number.isInteger(entry[1]) || entry[1] < 0 || entry[1] >= (data.review.classificationStatusCodes || []).length ||
-          !(entry[2] === null || typeof entry[2] === "string") ||
-          !Number.isInteger(entry[3]) || entry[3] < -1 || entry[3] >= (data.review.notes || []).length ||
-          !Number.isInteger(entry[4]) || entry[4] < -1 || entry[4] >= (data.review.sources || []).length) {
-        errors.push("Invalid packed review entry at tag index " + i + ".");
-        break;
+  if (Object.prototype.hasOwnProperty.call(data, "review")) errors.push("Obsolete packed review index must be merged into tag metadata and removed.");
+  const allowedReviewStatuses = new Set(["unreviewed", "needs-review", "verified", "provisional", "machine-translation", "not-applicable"]);
+  if (Array.isArray(data.tags)) {
+    for (let i = 0; i < data.tags.length; i++) {
+      const metadata = data.tags[i]?.[6];
+      const translationStatus = metadata?.translation?.status;
+      const classificationStatus = metadata?.classificationReview?.status;
+      const candidateStatus = metadata?.classification?.status;
+      for (const [label, status] of [["translation", translationStatus], ["classificationReview", classificationStatus], ["classification", candidateStatus]]) {
+        if (status !== undefined && !allowedReviewStatuses.has(status)) errors.push("Unknown " + label + " review status at tag index " + i + ".");
       }
     }
   }
@@ -150,6 +146,6 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     console.log("Tags: " + data.tags.length);
     console.log("Classification candidates: " + data.classificationCandidates.entries.length);
     console.log("Tag groups: " + data.tagGroups.length);
-    console.log("Embedded review records: " + data.review.entries.filter(Boolean).length);
+    console.log("Review states: embedded in tag metadata.");
   }
 }
