@@ -7,8 +7,7 @@ const csvPath = resolve(root, "exports/dictionary-working.csv");
 const headers = [
   "index", "tag", "ja", "major", "minor", "detail",
   "aliases_json", "translation_status", "expression_level",
-  "expression_level_review_status", "classification_review_status",
-  "metadata_json", "review_json"
+  "expression_level_review_status", "classification_review_status"
 ];
 
 function parseCsv(text) {
@@ -51,9 +50,7 @@ function exportCsv(data) {
       meta.translation?.status ?? "",
       meta.expressionLevel ?? "",
       meta.expressionLevelReview?.status ?? "",
-      meta.classificationReview?.status ?? "",
-      JSON.stringify(meta),
-      JSON.stringify(data.review?.entries?.[i] ?? null)
+      meta.classificationReview?.status ?? ""
     ];
     lines.push(values.map(quoteCsv).join(","));
   }
@@ -189,7 +186,6 @@ for (let i = 0; i < data.tags.length; i++) {
     if (aliasesChanged) row[5] = aliases;
     if (metaChanged) row[6] = meta;
   }
-  // metadata_json and review_json are intentionally read-only.
   if (rowChanged) changed++;
 }
 
@@ -198,4 +194,4 @@ await writeFile(csvPath, exportCsv(data), "utf8");
 console.log("CSV rows imported: " + data.tags.length);
 console.log("Changed tag rows: " + changed);
 console.log("Field changes: " + JSON.stringify(changes));
-console.log("Read-only columns preserved: metadata_json, review_json");
+console.log("Canonical metadata and review records preserved.");
