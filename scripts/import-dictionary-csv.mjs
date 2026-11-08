@@ -71,8 +71,8 @@ export function exportCsv(data) {
 }
 
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-const allowedTranslation = new Set(["verified", "needs-review", "unreviewed"]);
-const allowedReview = new Set(["verified", "needs-review", "provisional", "unreviewed"]);
+const allowedTranslation = new Set(["verified", "needs-review", "unreviewed", "machine-translation", "not-applicable"]);
+const allowedReview = new Set(["verified", "needs-review", "provisional", "unreviewed", "not-applicable"]);
 
 function setReviewStatus(meta, key, status, allowed, tag, label) {
   const current = meta[key] && typeof meta[key] === "object" ? { ...meta[key] } : {};
@@ -83,6 +83,15 @@ function setReviewStatus(meta, key, status, allowed, tag, label) {
   else current.status = status;
   if (Object.keys(current).length) meta[key] = current;
   else delete meta[key];
+}
+
+function resolveClassificationIds(taxonomy, major, minor, tag) {
+  const category = taxonomy?.semanticCategories?.find(item => item.name === major);
+  const subcategory = category?.subcategories?.find(item => item.name === minor);
+  if (!category || !subcategory) {
+    throw new Error("Cannot map edited classification to taxonomy at tag: " + tag + " (" + major + " / " + minor + ")");
+  }
+  return { categoryId: category.id, subcategoryId: subcategory.id };
 }
 
 export async function writeImportOutputs(dataPath, csvPath, jsonContent, csvContent, fs = { readFile, writeFile, rename, unlink }) {
@@ -166,7 +175,10 @@ export function importCsvData(data, rawCsv) {
     }
 
     let rowChanged = false;
+    let classificationMetadataChanged = false;
     const oldJa = row[1];
+    const oldMajor = row[2];
+    const oldMinor = row[3];
     for (const [column, index, key] of [[2, 1, "ja"], [3, 2, "major"], [4, 3, "minor"]]) {
       if (cells[column] !== row[index]) {
         row[index] = cells[column];
@@ -193,6 +205,16 @@ export function importCsvData(data, rawCsv) {
     if (aliasesChanged) { changes.aliases++; rowChanged = true; }
 
     const meta = structuredClone(row[6] || {});
+    if ((oldMajor !== row[2] || oldMinor !== row[3]) && meta.classification) {
+      if ((row[2] === "未分類" && row[3] === "未分類") ||
+          (row[2] === "要確認" && row[3] === "要確認")) {
+        delete meta.classification;
+      } else {
+        Object.assign(meta.classification, resolveClassificationIds(next.taxonomy, row[2], row[3], row[0]));
+      }
+      classificationMetadataChanged = true;
+      rowChanged = true;
+    }
     const translationStatus = cells[7];
     if ((meta.translation?.status ?? "") !== translationStatus) {
       setReviewStatus(meta, "translation", translationStatus, allowedTranslation, row[0], "translation_status");
@@ -205,9 +227,11 @@ export function importCsvData(data, rawCsv) {
       rowChanged = true;
     }
 
-    let expressionLevel = null;
-    if (cells[8] !== "") {
-      if (!/^[0-4]$/.test(cells[8])) throw new Error("expression_level must be blank or an integer from 0 to 4 at tag: " + row[0]);
+    let expressionLevel = meta.expressionLevel ?? null;
+    if (cells[8] === "__CLEAR__") {
+      expressionLevel = null;
+    } else if (cells[8] !== "") {
+      if (!/^[0-4]$/.test(cells[8])) throw new Error("expression_level must be blank, __CLEAR__, or an integer from 0 to 4 at tag: " + row[0]);
       expressionLevel = Number(cells[8]);
     }
     if (!same(meta.expressionLevel ?? null, expressionLevel)) {
@@ -243,6 +267,28 @@ export function importCsvData(data, rawCsv) {
       if (!same(row[6] || {}, meta)) row[6] = meta;
     }
   }
+
+  if (classificationMetadataChanged && next.classificationCandidates &&
+      Array.isArray(next.classificationCandidates.entries)) {
+    const previousOrder = next.classificationCandidates.entries.map(item => item.tag);
+    const byTag = new Map(next.tags
+      .filter(row => row[6]?.classification)
+      .map(row => [row[0], row[6].classification]));
+    const entries = [];
+    const included = new Set();
+    for (const tag of previousOrder) {
+      const classification = byTag.get(tag);
+      if (classification) {
+        entries.push({ tag, ...structuredClone(classification) });
+        included.add(tag);
+      }
+    }
+    for (const [tag, classification] of byTag) {
+      if (!included.has(tag)) entries.push({ tag, ...structuredClone(classification) });
+    }
+    next.classificationCandidates.entries = entries;
+  }
+
   return { data: next, changed, changes };
 }
 
