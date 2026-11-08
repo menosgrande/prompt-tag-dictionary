@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "data/dictionary-data.json"
+      - "exports/dictionary-working.csv"
       - "scripts/**"
       - ".github/scripts/**"
       - ".github/workflows/**"
@@ -32,6 +33,8 @@ jobs:
           node-version: 20
       - name: Validate canonical dictionary
         run: node scripts/build-dictionary-data.mjs --check
+      - name: Dry-run CSV import against canonical data
+        run: node scripts/import-dictionary-csv.mjs --check
       - name: Audit tags and categories
         run: node scripts/audit-tags.mjs
       - name: Audit taxonomy structure
