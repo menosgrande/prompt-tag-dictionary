@@ -1,5 +1,5 @@
 import { readFile, writeFile, rename, unlink } from "node:fs/promises";
-import { resolve, dirname, relative, isAbsolute } from "node:path";
+import { resolve, dirname, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -92,10 +92,6 @@ function validatePatch(patch, byTag) {
     return { row, tag: operation.tag, values };
   });
 
-  if (cleanup.mergePackedReviewIntoTagMetadata === true) {
-    const review = null; // The data-dependent validation is performed before applying any operation.
-    void review;
-  }
   return { prepared, cleanup };
 }
 
@@ -260,9 +256,10 @@ async function main() {
   if (!inputPath) throw new Error("Patch file path is required.");
   const patchPath = resolve(root, inputPath);
   const relativePatchPath = relative(root, patchPath);
-  if (!relativePatchPath || relativePatchPath.startsWith(".." + (process.platform === "win32" ? "\\" : "/")) ||
-      isAbsolute(relativePatchPath)) {
-    throw new Error("Patch file must be inside the repository.");
+  if (!relativePatchPath.startsWith(".github" + sep + "patches" + sep) ||
+      !relativePatchPath.endsWith(".json") ||
+      relativePatchPath === ".." || relativePatchPath.startsWith(".." + sep)) {
+    throw new Error("Patch file must be a JSON file inside .github/patches/.");
   }
 
   const [raw, patchRaw] = await Promise.all([
