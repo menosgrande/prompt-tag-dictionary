@@ -105,7 +105,7 @@ for (let i = 0; i < data.tags.length; i++) {
     }
   }
 
-  const detail = cells[5] === "" ? null : cells[5];
+  const detail = cells[5] === "__CLEAR__" ? null : cells[5] === "" ? (row[4] ?? null) : cells[5];
   const detailChanged = !same(row[4] ?? null, detail);
   if (detailChanged) { changes.detail++; rowChanged = true; }
 
