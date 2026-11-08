@@ -79,14 +79,12 @@ if (records.length - 1 !== data.tags.length) {
 const allowedTranslation = new Set(["verified", "needs-review", "unreviewed"]);
 const allowedReview = new Set(["verified", "needs-review", "provisional", "unreviewed"]);
 const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-const ensureMeta = row => {
-  if (row.length < 7 || !row[6] || typeof row[6] !== "object" || Array.isArray(row[6])) row[6] = {};
-  return row[6];
-};
-const setStatus = (object, key, value, allowed, label) => {
-  if (value === "") { delete object[key]; return; }
-  if (!allowed.has(value)) throw new Error("Invalid " + label + ": " + value);
-  object[key] = value;
+const ensureExtended = row => {
+  if (row.length < 7) {
+    row[4] ??= null;
+    row[5] ??= null;
+    row[6] ??= {};
+  }
 };
 
 let changed = 0;
@@ -101,19 +99,18 @@ for (let i = 0; i < data.tags.length; i++) {
   }
 
   let rowChanged = false;
-  const assign = (index, key, counter) => {
-    if (cells[index] !== (row[key] ?? "")) {
-      row[key] = cells[index];
-      changes[counter]++;
+  const oldJa = row[1];
+  for (const [column, index, key] of [[2, 1, "ja"], [3, 2, "major"], [4, 3, "minor"]]) {
+    if (cells[column] !== row[index]) {
+      row[index] = cells[column];
+      changes[key]++;
       rowChanged = true;
     }
-  };
-  assign(2, 1, "ja");
-  assign(3, 2, "major");
-  assign(4, 3, "minor");
+  }
 
   const detail = cells[5] === "" ? null : cells[5];
-  if (!same(row[4] ?? null, detail)) { row[4] = detail; changes.detail++; rowChanged = true; }
+  const detailChanged = !same(row[4] ?? null, detail);
+  if (detailChanged) { changes.detail++; rowChanged = true; }
 
   let aliases = null;
   if (cells[6] !== "") {
@@ -123,19 +120,30 @@ for (let i = 0; i < data.tags.length; i++) {
       throw new Error("aliases_json must be a JSON array of strings at tag: " + row[0]);
     }
   }
-  if (!same(row[5] ?? null, aliases)) { row[5] = aliases; changes.aliases++; rowChanged = true; }
+  const aliasesChanged = !same(row[5] ?? null, aliases);
+  if (aliasesChanged) { changes.aliases++; rowChanged = true; }
 
-  const currentMeta = row[6] || {};
-  const meta = ensureMeta(row);
-  if (!meta.translation || typeof meta.translation !== "object" || Array.isArray(meta.translation)) meta.translation = {};
+  const originalMeta = row[6] || {};
+  const meta = structuredClone(originalMeta);
+  let metaChanged = false;
+
   const translationStatus = cells[7];
-  if ((meta.translation.status ?? "") !== translationStatus) {
-    setStatus(meta.translation, "status", translationStatus, allowedTranslation, "translation_status");
-    if (meta.translation.candidateJa !== undefined && row[1]) meta.translation.candidateJa = row[1];
-    changes.translationStatus++; rowChanged = true;
-  } else if (meta.translation.status === "verified" && meta.translation.candidateJa !== row[1]) {
+  if ((meta.translation?.status ?? "") !== translationStatus) {
+    if (translationStatus !== "" && !allowedTranslation.has(translationStatus)) {
+      throw new Error("Invalid translation_status at tag: " + row[0]);
+    }
+    if (translationStatus === "") {
+      if (meta.translation) delete meta.translation.status;
+    } else {
+      meta.translation = { ...(meta.translation || {}), status: translationStatus };
+    }
+    changes.translationStatus++;
+    metaChanged = true;
+  }
+  if (meta.translation?.candidateJa !== undefined &&
+      oldJa !== row[1] && meta.translation.candidateJa !== row[1]) {
     meta.translation.candidateJa = row[1];
-    rowChanged = true;
+    metaChanged = true;
   }
 
   let expressionLevel = null;
@@ -146,7 +154,8 @@ for (let i = 0; i < data.tags.length; i++) {
   if (!same(meta.expressionLevel ?? null, expressionLevel)) {
     if (expressionLevel === null) delete meta.expressionLevel;
     else meta.expressionLevel = expressionLevel;
-    changes.expressionLevel++; rowChanged = true;
+    changes.expressionLevel++;
+    metaChanged = true;
   }
 
   const expressionReview = cells[9];
@@ -157,7 +166,8 @@ for (let i = 0; i < data.tags.length; i++) {
       if (!allowedReview.has(expressionReview)) throw new Error("Invalid expression_level_review_status at tag: " + row[0]);
       meta.expressionLevelReview = { ...(meta.expressionLevelReview || {}), status: expressionReview };
     }
-    changes.expressionReview++; rowChanged = true;
+    changes.expressionReview++;
+    metaChanged = true;
   }
 
   const classificationReview = cells[10];
@@ -168,11 +178,17 @@ for (let i = 0; i < data.tags.length; i++) {
       if (!allowedReview.has(classificationReview)) throw new Error("Invalid classification_review_status at tag: " + row[0]);
       meta.classificationReview = { ...(meta.classificationReview || {}), status: classificationReview };
     }
-    changes.classificationReview++; rowChanged = true;
+    changes.classificationReview++;
+    metaChanged = true;
   }
 
-  // metadata_json and review_json are intentionally read-only. They are exported for inspection and preservation.
-  if (!rowChanged && currentMeta !== row[6]) rowChanged = true;
+  if (detailChanged || aliasesChanged || metaChanged) {
+    ensureExtended(row);
+    if (detailChanged) row[4] = detail;
+    if (aliasesChanged) row[5] = aliases;
+    if (metaChanged) row[6] = meta;
+  }
+  // metadata_json and review_json are intentionally read-only.
   if (rowChanged) changed++;
 }
 
