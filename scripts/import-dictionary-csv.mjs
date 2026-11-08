@@ -164,6 +164,7 @@ export function importCsvData(data, rawCsv) {
 
   const next = structuredClone(data);
   let changed = 0;
+  let classificationMetadataChanged = false;
   const changes = { ja: 0, major: 0, minor: 0, detail: 0, aliases: 0, translationStatus: 0, expressionLevel: 0, expressionReview: 0, classificationReview: 0 };
 
   for (let i = 0; i < next.tags.length; i++) {
@@ -175,7 +176,6 @@ export function importCsvData(data, rawCsv) {
     }
 
     let rowChanged = false;
-    let classificationMetadataChanged = false;
     const oldJa = row[1];
     const oldMajor = row[2];
     const oldMinor = row[3];
