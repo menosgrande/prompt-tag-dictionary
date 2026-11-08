@@ -9,7 +9,7 @@
 | `ja` | 日本語訳 |
 | `major` | 大分類 |
 | `minor` | 小分類 |
-| `detail` | 詳細・補足 |
+| `detail` | 詳細・補足。空欄は変更なし、削除する場合は `__CLEAR__` を入力 |
 | `aliases_json` | 別名。JSON配列で入力（例：`["alias one","alias two"]`） |
 | `translation_status` | `verified` / `needs-review` / `unreviewed` |
 | `expression_level` | 表現レベル0〜4。空欄は未設定 |
