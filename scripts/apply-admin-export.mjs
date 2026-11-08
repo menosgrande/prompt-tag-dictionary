@@ -19,7 +19,7 @@ if (errors.length) {
   process.exit(1);
 }
 console.log("Canonical dictionary export validated.");
-console.log("Tags: " + data.tags.length + "; embedded review records: " + data.review.entries.filter(Boolean).length);
+console.log("Tags: " + data.tags.length + "; review state stored in tag metadata.");
 if (check) {
   console.log("Check only; no files were changed. Use --write to replace data/dictionary-data.json.");
   process.exit(0);
