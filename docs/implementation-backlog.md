@@ -12,10 +12,14 @@
 - CSV作業用ファイル: `exports/dictionary-working.csv`
 - 管理画面: `admin.html` / `src/admin.js`（画面自体の改修は本作業の対象外）
 - 正本検証: `scripts/build-dictionary-data.mjs`
-- タグ監査: `scripts/audit-tags.mjs`
+- タグ・分類監査: `scripts/audit-tags.mjs`
+- taxonomy構造監査: `scripts/audit-taxonomy.mjs`
+- 翻訳候補監査: `scripts/audit-translations.mjs`（診断専用。確定判定はしない）
 - レビュー状態監査: `scripts/audit-tag-management.mjs`
 - 出力順監査: `scripts/audit-prompt-order.mjs`
 - タググループ監査: `scripts/audit-tag-groups.mjs`
+- patch適用: `.github/scripts/apply-dictionary-patch.mjs`（専用Actionsから呼び出し）
+- 旧NSFW候補診断: `scripts/build-tag-metadata-review.mjs`（手動診断用。削除保留）
 - 管理画面エクスポート検証・反映: `scripts/apply-admin-export.mjs`
 
 過去の分割JSONを正本として復活させない。派生ファイルや監査用ファイルは、現行コード・Actionsからの参照有無を確認してから扱う。
@@ -26,7 +30,7 @@
 - [x] タグ別メタデータに翻訳・分類レビュー状態を保持
 - [x] 正本JSONのスキーマ・タグ行・重複・分類・翻訳候補・出力順の検証
 - [x] 管理画面エクスポートの検証と正本への反映
-- [x] タグ・レビュー状態・出力順・タググループの監査スクリプト
+- [x] タグ・taxonomy・翻訳候補・レビュー状態・出力順・タググループの監査スクリプト
 - [x] CSVの行識別子・タグ名・列数・候補状態を照合するインポート処理
 - [x] タググループと作品・キャラクター関連情報の正本内管理
 
@@ -55,10 +59,10 @@
 ### スクリプト・テスト・GitHub Actions
 
 - [ ] `node --test` でテスト一式を実行し、失敗・未実行テストを記録する。
-- [ ] `scripts/` と `.github/workflows/` の参照関係を一覧化し、使われていないスクリプト・重複処理を特定する。
+- [x] `scripts/` と `.github/workflows/` の参照関係を確認。taxonomy監査・翻訳候補監査を3つのデータ更新Actionsへ接続。未接続のNSFW候補診断は旧NSFW移行方針が未確定のため保持。
 - [ ] CSVインポートActionsの実行ログを確認し、失敗時に正本が中途半端に更新されないことを検証する。
 - [ ] patch適用スクリプトの入力検証・書き込みの安全性・利用実績を監査する。
-- [ ] 正本変更に対して必要な監査スクリプトとテストがCIで実行されるか確認する。
+- [x] 正本変更に対してtaxonomy監査・翻訳候補監査・関連テストをデータ監査／CSVインポート／patch適用Actionsへ接続（Actions実行結果は未確認）。
 - [ ] 古い監査文書・履歴資料は履歴として保持し、現行ルールと混同する参照・記述だけを整理する。
 
 ## 完了報告の要件
