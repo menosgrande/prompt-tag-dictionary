@@ -1,0 +1,51 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "caelus (honkai: star rail)",
+      "set": {
+        "ja": "開拓者（男性主人公／崩壊：スターレイル）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "日本語版公式HoYoWikiでは主人公の名称は「開拓者」。男性主人公のCVも明記されているため、英語側の通称Caelusを日本語公式表記に合わせて修正。",
+        "translationSource": "https://wiki.hoyolab.com/pc/hsr/entry/6?lang=ja-jp"
+      }
+    },
+    {
+      "tag": "camilla (fire emblem)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ファイアーエムブレム公式キャラクター紹介の日本語表記「カミラ」を確認。",
+        "translationSource": "https://guide.fire-emblem-heroes.com/11005005000061-2/"
+      }
+    },
+    {
+      "tag": "carmine (pokemon)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ポケモン公式サイトの日本語表記「ゼイユ」を確認。",
+        "translationSource": "https://www.pokemon.co.jp/ex/sv_dlc/ja/character/230228_02/"
+      }
+    },
+    {
+      "tag": "changli (wuthering waves)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "鳴潮の開発元Kuro Games公式サイトでキャラクター名「長離」を確認。日本語表記も同じ漢字を使用。",
+        "translationSource": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064"
+      }
+    },
+    {
+      "tag": "tamamo no mae (fate/extra)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "TYPE-MOON公式サイトのFate関連資料における日本語表記「玉藻の前」を確認。",
+        "translationSource": "https://typemoon.com/news/2017/9FB6qR"
+      }
+    }
+  ]
+}
