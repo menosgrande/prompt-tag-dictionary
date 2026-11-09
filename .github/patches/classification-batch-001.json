@@ -1,0 +1,155 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "adidas",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "ブランド名・ロゴ表記そのものを示すタグのため、「文字・記号／ロゴ・ブランド表記」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "asphyxiation",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "窒息という身体行為を示すため、「動作・接触／身体動作」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "between pectorals",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "胸筋の間という人体部位・身体状態を示すため、「人物の特徴／身体部位・身体状態」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bowlegged pose",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "Danbooruのタグ解説でも脚の姿勢として定義されるため、「ポーズ・姿勢／手足の配置」に確定。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/bowlegged_pose"
+      }
+    },
+    {
+      "tag": "brand name imitation",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "ブランド名・ロゴの模倣表現であり、文字・ロゴ表記に属するため、「文字・記号／ロゴ・ブランド表記」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "breastfeeding",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "授乳という行為を示すタグで、Danbooruの動作・動詞タグ群にも含まれるため、「動作・接触／対人接触・動作」に確定。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/tag_group%3Averbs_and_gerunds"
+      }
+    },
+    {
+      "tag": "butt crack",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "臀裂という身体部位を直接示すため、「人物の特徴／身体部位・身体状態」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "buttjob",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "性的な身体接触行為を示すため、「動作・接触／身体への接触」に確定。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/cooperative_buttjob"
+      }
+    },
+    {
+      "tag": "costume",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "衣装そのものを示す一般タグのため、「服装・装飾／衣服」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "cover image",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "表紙・カバー画像という画像レイアウト用途を示すため、「構図・カメラ／構図・配置」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "cover page",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "表紙ページという画像レイアウト用途を示すため、「構図・カメラ／構図・配置」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "covering crotch",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "股間を覆う動作を示すため、「動作・接触／手の動作」に確定。Danbooruのcoveringタグ群でも同じ用法。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/tag_group%3Acovering"
+      }
+    },
+    {
+      "tag": "covering with blanket",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "他者に毛布を掛ける行為を示すため、「動作・接触／物への接触」に確定。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/covering_with_blanket"
+      }
+    },
+    {
+      "tag": "cowgirl position",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "複数人の身体配置を示す姿勢タグのため、「ポーズ・姿勢／身体の配置」に確定。Danbooruの姿勢関連資料と整合。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://safebooru.donmai.us/wiki_pages/wide_spread_legs"
+      }
+    },
+    {
+      "tag": "crotch",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "股間という身体部位を直接示すため、「人物の特徴／身体部位・身体状態」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "creature on head",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "生物が頭上に乗る人物・生物間の位置関係を示すため、「ポーズ・姿勢／身体の配置」に確定。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    }
+  ]
+}
