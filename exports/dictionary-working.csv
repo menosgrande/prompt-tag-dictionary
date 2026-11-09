@@ -85,7 +85,7 @@
 83,adapted costume,アレンジ衣装,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 84,adapted turret,改造された砲塔（文脈要確認）,家具・設備・物品,機械・装置,,[],verified,,unreviewed,unreviewed
 85,adapted uniform,アレンジされた制服,服装・装飾,衣服,,[],verified,0,verified,verified
-86,adidas,アディダス,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,unreviewed
+86,adidas,アディダス,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
 87,adjusting clothes,服を整える,動作・接触,衣服への接触,,[],verified,,unreviewed,unreviewed
 88,adjusting eyewear,眼鏡を直す,動作・接触,物への接触,,[],verified,,unreviewed,verified
 89,adjusting gloves,手袋を直す,動作・接触,衣服への接触,,[],verified,,unreviewed,unreviewed
@@ -531,7 +531,7 @@
 529,ashiya douman (fate),蘆屋道満（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 530,ashtray,灰皿,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 531,asian,アジア系,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-532,asphyxiation,窒息,動作・接触,身体動作,,[],verified,0,verified,unreviewed
+532,asphyxiation,窒息,動作・接触,身体動作,,[],verified,0,verified,verified
 533,ass-to-ass,尻と尻を合わせる行為,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 534,assault lily,アサルトリリィ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 535,assault rifle,アサルトライフル,家具・設備・物品,武器,,[],verified,0,verified,unreviewed
@@ -857,7 +857,7 @@
 855,between breasts,胸の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 856,between fingers,指の間,ポーズ・姿勢,手足の配置,,[],verified,0,verified,unreviewed
 857,between legs,脚の間,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-858,between pectorals,胸筋の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+858,between pectorals,胸筋の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 859,between thighs,太ももの間,ポーズ・姿勢,身体の配置,,[],verified,1,verified,unreviewed
 860,between toes,足指の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 861,bianca (pokemon),ビアンカ（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -1290,7 +1290,7 @@
 1288,bowl,ボウル,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1289,bowl cut,おかっぱ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1290,bowl hat,ボウル型の帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1291,bowlegged pose,O脚のポーズ,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,unreviewed
+1291,bowlegged pose,O脚のポーズ,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 1292,bowler hat,山高帽,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1293,bowser (Super Mario),クッパ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -1324,7 +1324,7 @@
 1322,brain,脳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1323,bralines,浮きブラ,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,verified
 1324,branch,枝,生物・動植物,植物,,[],verified,,unreviewed,unreviewed
-1325,brand name imitation,ブランド名の模倣,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,unreviewed
+1325,brand name imitation,ブランド名の模倣,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
 1326,brass knuckles,メリケンサック,家具・設備・物品,武器,,[],verified,0,verified,verified
 1327,brave witches,ブレイブウィッチーズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1328,brazilian flag,ブラジルの旗,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1353,7 +1353,7 @@
 1351,breast sucking,胸を吸う,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1354,breastfeeding,授乳,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
+1354,breastfeeding,授乳,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 1355,breastless clothes,胸を覆わない服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1356,breastplate,胸当て,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1357,breasts,胸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
@@ -1513,7 +1513,7 @@
 1511,bustier,ビスチェ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1512,butcha-u,ブッチャーU,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 1513,butler,執事,人物の特徴,人物属性,,[],verified,0,verified,verified
-1514,butt crack,臀裂,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+1514,butt crack,臀裂,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1515,butt plug,アナルプラグ,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 1516,butter,バター,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1517,butterfly,蝶,生物・動植物,動物,,[],verified,0,verified,verified
@@ -1527,7 +1527,7 @@
 1525,butterfly tattoo,蝶のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1526,butterfly wings,蝶の翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1527,butterfly-shaped pupils,蝶形の瞳孔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1528,buttjob,尻コキ,動作・接触,身体への接触,,[],verified,4,verified,unreviewed
+1528,buttjob,尻コキ,動作・接触,身体への接触,,[],verified,4,verified,verified
 1529,button badge,ボタンバッジ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1530,button eyes,ボタンの目,顔・表情,目,,[],verified,0,verified,verified
 1531,button gap,ボタンの隙間,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -2072,7 +2072,7 @@
 2070,corset,コルセット,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 2071,cosmetics,化粧品,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 2072,cosplay,コスプレ,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-2073,costume,コスチューム,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+2073,costume,コスチューム,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2074,costume switch,衣装チェンジ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2075,cotton candy,綿菓子,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2076,couch,ソファ,家具・設備・物品,家具,,[],verified,,unreviewed,verified
@@ -2086,8 +2086,8 @@
 2084,couter,肘当て（甲冑の肘部防具）,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 2085,cover,覆い・カバー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 2086,cover art,カバーアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
+2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 2089,covered abs,覆われた腹筋,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
 2090,covered collarbone,覆われた鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2091,covered eyes,覆われた目,顔・表情,目,,[],verified,,unreviewed,verified
@@ -2098,7 +2098,7 @@
 2096,covered penetration,覆われた挿入,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
 2097,covered testicles,覆われた睾丸,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2098,covering breasts,胸を覆う,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-2099,covering crotch,股間を覆う,動作・接触,手の動作,,[],verified,,unreviewed,unreviewed
+2099,covering crotch,股間を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
 2100,covering face,顔を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
 2101,covering nipples,乳首を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 2102,covering one breast,片方の胸を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,verified
@@ -2107,7 +2107,7 @@
 2105,covering own eyes,自分の目を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
 2106,covering own mouth,自分の口を覆う,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
-2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,,unreviewed,unreviewed
+2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,,unreviewed,verified
 2109,cow,牛,生物・動植物,動物,,[],verified,,unreviewed,verified
 2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2111,cow ears,牛の耳,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
@@ -2123,7 +2123,7 @@
 2121,cowboy hat,カウボーイハット,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2122,cowboy shot,腰から上を写した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2123,cowboy western,西部劇風,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
+2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 2125,cowlick,アホ毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2126,crab,カニ,生物・動植物,動物,,[],verified,,unreviewed,verified
 2127,crack,ひび割れ,状態・状況,状態・変化,,[],verified,,unreviewed,verified
@@ -2146,7 +2146,7 @@
 2144,creator connection,クリエイター連携,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,verified
 2145,creature,生き物,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,unreviewed
 2146,creature and personification,生物・怪物の擬人化,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,verified
-2147,creature on head,頭の上に乗った生物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
+2147,creature on head,頭の上に乗った生物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 2148,creayus,クリーユ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
 2149,credits,クレジット,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 2150,credits page,クレジットページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
@@ -2212,7 +2212,7 @@
 2210,crosshatching,クロスハッチング,画風・描写,描画技法,,[],verified,,unreviewed,verified
 2211,crossover,クロスオーバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 2212,crosswalk,横断歩道,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-2213,crotch,股間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+2213,crotch,股間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2214,crotch cutout,股間の開口部,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2215,crotch focus,股間を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2216,crotch grab,股間をつかむ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
