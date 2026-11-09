@@ -1,0 +1,67 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "adventurer (ff11)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "スクウェア・エニックス公式FFXIガイドで、プレイヤーの役割を「冒険者」と表記していることを確認。",
+        "translationSource": "https://www.playonline.com/ff11/guide/system/"
+      }
+    },
+    {
+      "tag": "akatsuki (kancolle)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "艦隊これくしょん公式アニメサイトのキャラクター表記「駆逐艦 暁」を確認。",
+        "translationSource": "https://kancolle-anime.jp/character/"
+      }
+    },
+    {
+      "tag": "akuma homura (Puella Magi Madoka Magica)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "公式ライセンス商品カードリストのキャラクター名「悪魔ほむら」を確認。",
+        "translationSource": "https://www.unionarena-tcg.com/jp/cardlist/detail_iframe.php?card_no=UAPR%2FMMM-2-012",
+        "ja": "悪魔ほむら（魔法少女まどか☆マギカ）",
+        "candidateJa": "悪魔ほむら（魔法少女まどか☆マギカ）"
+      }
+    },
+    {
+      "tag": "aki minoriko (Touhou)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "東方ダンマクカグラ公式アーカイブで「秋穣子」の表記を確認。",
+        "translationSource": "https://danmaku.jp/archive/character/c056/",
+        "ja": "秋穣子（東方Project）",
+        "candidateJa": "秋穣子（東方Project）"
+      }
+    },
+    {
+      "tag": "asahina mikuru (The Melancholy of Haruhi Suzumiya)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "涼宮ハルヒ公式記念サイトのキャラクター表記「朝比奈みくる」を確認。",
+        "translationSource": "https://haruhitv-anniversary.com/chara.html",
+        "ja": "朝比奈みくる（涼宮ハルヒの憂鬱）",
+        "candidateJa": "朝比奈みくる（涼宮ハルヒの憂鬱）"
+      }
+    },
+    {
+      "tag": "akemi homura (magical girl)",
+      "set": {
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "魔法少女まどか☆マギカ公式キャラクターページで暁美ほむらが魔法少女として紹介されていることを確認。",
+        "translationSource": "https://www.madoka-magica.com/tv/character/index.html",
+        "ja": "暁美ほむら（魔法少女／魔法少女まどか☆マギカ）",
+        "candidateJa": "暁美ほむら（魔法少女／魔法少女まどか☆マギカ）"
+      }
+    }
+  ]
+}
