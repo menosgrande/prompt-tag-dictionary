@@ -216,69 +216,69 @@
 214,alternate eye color,異なる目の色の差分,顔・表情,目,,[],verified,0,verified,verified
 215,alternate form,別形態,人物の特徴,人物属性,,[],verified,0,verified,verified
 216,alternate hair color,異なる髪色の差分,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-217,alternate hair length,異なる髪の長さの差分,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-218,alternate hair ornament,別の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+217,alternate hair length,異なる髪の長さの差分,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+218,alternate hair ornament,別の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 219,alternate hairstyle,別の髪型,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-220,alternate headwear,別の頭飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-221,alternate legwear,別の脚用衣類,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-222,alternate muscle size,異なる筋肉量の差分,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-223,alternate pectoral size,異なる胸筋の大きさの差分,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-224,alternate skin color,異なる肌色の差分,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-225,alternate species,別種族,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-226,alternate universe,別の世界線,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
-227,alternate weapon,別の武器,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-228,alternate wings,別の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+220,alternate headwear,別の頭飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+221,alternate legwear,別の脚用衣類,服装・装飾,衣服,,[],verified,,unreviewed,verified
+222,alternate muscle size,異なる筋肉量の差分,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
+223,alternate pectoral size,異なる胸筋の大きさの差分,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
+224,alternate skin color,異なる肌色の差分,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+225,alternate species,別種族,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+226,alternate universe,別の世界線,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
+227,alternate weapon,別の武器,家具・設備・物品,武器,,[],verified,,unreviewed,verified
+228,alternate wings,別の翼,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 229,ama mitsuki,アマ・ミツキ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 230,amagami,アマガミ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 231,amagi brilliant park,甘城ブリリアントパーク,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-232,amagi yukiko (Persona 4),天城雪子（ペルソナ4）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+232,amagi yukiko (Persona 4),天城雪子（ペルソナ4）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 233,amami haruka (The Idolmaster),天海春香,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-234,amamiya ren (Persona 5),雨宮蓮（ペルソナ5）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-235,amane kanata (Hololive),天音かなた（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+234,amamiya ren (Persona 5),雨宮蓮（ペルソナ5）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+235,amane kanata (Hololive),天音かなた（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 236,amatsukaze (kancolle),天津風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 237,amazon position,アマゾンポジション,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-238,amber (genshin impact),アンバー（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+238,amber (genshin impact),アンバー（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 239,ambience synesthesia,雰囲気の共感覚,光・演出,雰囲気,,[],verified,0,verified,verified
-240,ambiguous gender,性別不詳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-241,ambiguous red liquid,正体不明の赤い液体,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+240,ambiguous gender,性別不詳,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+241,ambiguous red liquid,正体不明の赤い液体,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 242,ame-chan (needy girl overdose),あめちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 243,american flag,星条旗,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 244,american flag bikini,アメリカ国旗のビキニ,服装・装飾,衣服,,[],verified,1,verified,verified
-245,american flag dress,星条旗柄のドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-246,american flag legwear,星条旗柄の脚用衣類,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+245,american flag dress,星条旗柄のドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
+246,american flag legwear,星条旗柄の脚用衣類,服装・装飾,衣服,,[],verified,,unreviewed,verified
 247,american flag print,星条旗柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 248,amestris military uniform,アメストリス軍服,服装・装飾,衣服,,[],verified,0,verified,verified
-249,amesuku gyaru,アメスクギャル,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-250,amiya (arknights),アーミヤ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+249,amesuku gyaru,アメスクギャル,服装・装飾,衣服,,[],verified,,unreviewed,verified
+250,amiya (arknights),アーミヤ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 251,ammunition,弾薬,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 252,ammunition belt,弾薬ベルト,服装・装飾,衣服,,[],verified,0,verified,verified
 253,ammunition pouch,弾薬ポーチ,服装・装飾,装備・防具,,[],verified,0,verified,verified
-254,among us,Among Us（ゲーム）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+254,among us,Among Us（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 255,amplifier,増幅器,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-256,amputee,四肢欠損,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+256,amputee,四肢欠損,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 257,amulet,お守り,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 258,amusement park,遊園地,背景・場所,自然・風景,,[],verified,0,verified,verified
 259,amy rose,エイミー・ローズ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 260,analog clock,アナログ時計,家具・設備・物品,日用品,,[],verified,0,verified,verified
-261,analogous colors,類似色,光・演出,色調・色彩,,[],verified,,unreviewed,unreviewed
+261,analogous colors,類似色,光・演出,色調・色彩,,[],verified,,unreviewed,verified
 262,anastasia (fate),アナスタシア（Fate）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 263,anastasia (idolmaster),アナスタシア（アイドルマスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 264,anchor,アンカー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 265,anchor choker,アンカーチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
 266,anchor hair ornament,錨の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 267,anchor necklace,アンカーネックレス,服装・装飾,衣服,,[],verified,0,verified,verified
-268,anchor ornament,錨の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+268,anchor ornament,錨の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 269,anchor print,アンカープリント,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 270,anchor symbol,アンカー記号,文字・記号,記号・図形,,[],verified,0,verified,verified
-271,anchovy (girls und panzer),アンチョビ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+271,anchovy (girls und panzer),アンチョビ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 272,ancient egyptian,古代エジプト風,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 273,ancient egyptian clothes,古代エジプト風の服,服装・装飾,衣服,,[],verified,0,verified,verified
-274,ancient greek clothes,古代ギリシャ風の服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+274,ancient greek clothes,古代ギリシャ風の服,服装・装飾,衣服,,[],verified,,unreviewed,verified
 275,andou (girls und panzer),安藤（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 276,androgyne symbol,両性具有のシンボル,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 277,androgynous,中性的,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 278,android,アンドロイド,人物の特徴,人物属性,,[],verified,0,verified,verified
-279,android 18,人造人間18号,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+279,android 18,人造人間18号（ドラゴンボール）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 280,android 21,人造人間21号（ドラゴンボール）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 281,anemone (flower),アネモネ（花）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 282,ange katrina (Nijisanji),アンジュ・カトリーナ（にじさんじ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
@@ -286,9 +286,9 @@
 284,angel and devil,天使と悪魔,人物の特徴,人物属性,,[],verified,0,verified,verified
 285,angel beats!,Angel Beats!（アニメ作品）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 286,angel wings,天使の翼,生物・動植物,動物,,[],verified,0,verified,verified
-287,angelina (arknights),アンジェリーナ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-288,anger vein,怒りマーク,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-289,anglerfish,チョウチンアンコウ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+287,angelina (arknights),アンジェリーナ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+288,anger vein,怒りマーク,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+289,anglerfish,チョウチンアンコウ,生物・動植物,動物,,[],verified,,unreviewed,verified
 290,angora rabbit,アンゴラ・ラビット,生物・動植物,動物,,[],verified,0,verified,verified
 291,angry,怒り,顔・表情,顔・表情,,[],verified,0,verified,verified
 292,anilingus,アニリングス（肛門舐め）,動作・接触,性的行為・接触,,[],verified,4,verified,verified
@@ -296,19 +296,19 @@
 294,animal bag,動物モチーフのバッグ,服装・装飾,小物・道具,,[],verified,,unreviewed,verified
 295,animal collar,動物用首輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 296,animal costume,動物の着ぐるみ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-297,animal crossing,どうぶつの森,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+297,animal crossing,どうぶつの森（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 298,animal ear fluff,獣耳の毛,人物の特徴,人物属性,,[],verified,0,verified,verified
 299,animal ear hairband,動物耳カチューシャ,人物の特徴,人物属性,,[],verified,0,verified,verified
-300,animal ear headphones,動物耳型ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+300,animal ear headphones,動物耳型ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 301,animal ear headwear,動物耳付きの帽子,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 302,animal ear hood,動物耳付きフード,服装・装飾,衣服,,[],verified,,unreviewed,verified
 303,animal ear legwear,動物耳モチーフのレッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,verified
 304,animal ear piercing,動物耳のピアス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 305,animal ears,獣耳,人物の特徴,人物属性,,[],verified,0,verified,verified
 306,animal feet,動物の足,生物・動植物,動物,,[],verified,0,verified,verified
-307,animal focus,動物が主役,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
+307,animal focus,動物が主役,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 308,animal hands,動物の手,生物・動植物,動物,,[],verified,0,verified,verified
-309,animal hat,動物モチーフの帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+309,animal hat,動物モチーフの帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
 310,animal head,動物の頭,生物・動植物,動物,,[],verified,0,verified,verified
 311,animal helmet,動物モチーフのヘルメット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 312,animal hood,動物モチーフのフード,服装・装飾,衣服,,[],verified,,unreviewed,verified
@@ -325,33 +325,33 @@
 323,animalization,動物化,人物の特徴,人物属性,,[],verified,0,verified,verified
 324,anime,アニメ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 325,anime coloring,アニメ塗り,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-326,animification,アニメ調への変換,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
+326,animification,アニメ調への変換,画風・描写,描画技法,,[],verified,,unreviewed,verified
 327,anis (nikke),アニス（勝利の女神:NIKKE）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 328,ankh,アンク,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-329,ankle boots,アンクルブーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-330,ankle bow,足首のリボン飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-331,ankle cuffs,足首のカフス,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-332,ankle grab,足首をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-333,ankle lace-up,足首の編み上げ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+329,ankle boots,アンクルブーツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
+330,ankle bow,足首のリボン飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+331,ankle cuffs,足首のカフス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+332,ankle grab,足首をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
+333,ankle lace-up,足首の編み上げ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 334,ankle ribbon,足首のリボン,服装・装飾,衣服,,[],verified,0,verified,verified
-335,ankle socks,くるぶし丈ソックス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+335,ankle socks,くるぶし丈ソックス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 336,ankle strap,足首ストラップ,服装・装飾,衣服,,[],verified,0,verified,verified
-337,ankle wrap,足首の巻き布,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+337,ankle wrap,足首の巻き布,服装・装飾,衣服,,[],verified,,unreviewed,verified
 338,anklet,アンクレット,服装・装飾,装飾品,,[],verified,0,verified,verified
 339,annin musou,アニン・ムソウ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 340,anniversary,記念日,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 341,annoyed,イライラしている,顔・表情,顔・表情,,[],verified,0,verified,verified
-342,antenna hair,アンテナヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-343,antennae,触角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+342,antenna hair,アンテナヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+343,antennae,触角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 344,anti (untea9),アンティ（untea9）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 345,anti-materiel rifle,対物ライフル,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 346,antique firearm,アンティーク銃器,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 347,antique phone,アンティーク電話,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-348,antlers,枝角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-349,anya (spy x family),アーニャ・フォージャー（SPY×FAMILY）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-350,anyoji hime (hasunosora jogakuin school idol club),安養寺姫芽（蓮ノ空女学院スクールアイドルクラブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+348,antlers,枝角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+349,anya (spy x family),アーニャ・フォージャー（SPY×FAMILY）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+350,anyoji hime (hasunosora jogakuin school idol club),安養寺姫芽（蓮ノ空女学院スクールアイドルクラブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 351,anzio military uniform,アンツィオ軍服,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,0,verified,verified
-352,anzio school uniform,アンツィオ高校の制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,unreviewed
+352,anzio school uniform,アンツィオ高校の制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 353,ao dai,アオザイ,服装・装飾,衣服,,[],verified,0,verified,verified
 354,ao isami (Brave Bang Bravern!),イサミ・アオ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 355,aoba (kancolle),青葉（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
@@ -360,36 +360,36 @@
 358,aoki reika (Smile Precure!),青木れいか,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 359,aoshima,青島,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 360,apartment,アパート,背景・場所,建築・構造物,,[],verified,0,verified,verified
-361,apex legends,エーペックスレジェンズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+361,apex legends,エーペックスレジェンズ（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 362,apple,りんご,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-363,applying makeup,メイクをする,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
+363,applying makeup,メイクをする,動作・接触,身体動作,,[],verified,,unreviewed,verified
 364,april fools,エイプリルフール,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 365,apron,エプロン,服装・装飾,衣服,,[],verified,0,verified,verified
 366,apron lift,エプロンを持ち上げる,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-367,aqua (konosuba),アクア（この素晴らしい世界に祝福を！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-368,aqua background,水色の背景,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-369,aqua bikini,水色のビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-370,aqua bow,水色のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+367,aqua (konosuba),アクア（この素晴らしい世界に祝福を！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+368,aqua background,水色の背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
+369,aqua bikini,水色のビキニ,服装・装飾,水着,,[],verified,,unreviewed,verified
+370,aqua bow,水色のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 371,aqua bowtie,水色の蝶ネクタイ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-372,aqua bra,水色のブラジャー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-373,aqua dress,水色のドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-374,aqua eyes,水色の目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-375,aqua flower,水色の花,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+372,aqua bra,水色のブラジャー,服装・装飾,下着,,[],verified,,unreviewed,verified
+373,aqua dress,水色のドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
+374,aqua eyes,水色の目,顔・表情,目,,[],verified,,unreviewed,verified
+375,aqua flower,水色の花,生物・動植物,植物,,[],verified,,unreviewed,verified
 376,aqua footwear,水色の靴・履物,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-377,aqua gemstone,水色の宝石,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-378,aqua gloves,水色の手袋,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-379,aqua hair,水色の髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-380,aqua hairband,水色のヘアバンド,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-381,aqua halo,水色の光輪,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-382,aqua hat,水色の帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-383,aqua jacket,水色のジャケット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-384,aqua kimono,水色の着物,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-385,aqua leotard,水色のレオタード,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-386,aqua nails,水色の爪,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-387,aqua neckerchief,水色のネッカチーフ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+377,aqua gemstone,水色の宝石,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+378,aqua gloves,水色の手袋,服装・装飾,衣服,,[],verified,,unreviewed,verified
+379,aqua hair,水色の髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+380,aqua hairband,水色のヘアバンド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+381,aqua halo,水色の光輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+382,aqua hat,水色の帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
+383,aqua jacket,水色のジャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
+384,aqua kimono,水色の着物,服装・装飾,衣服,,[],verified,,unreviewed,verified
+385,aqua leotard,水色のレオタード,服装・装飾,衣服,,[],verified,,unreviewed,verified
+386,aqua nails,水色の爪,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+387,aqua neckerchief,水色のネッカチーフ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 388,aqua necktie,水色のネクタイ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-389,aqua panties,水色のパンティー,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
-390,aqua ribbon,水色のリボン,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+389,aqua panties,水色のパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
+390,aqua ribbon,水色のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 391,aqua shirt,水色のシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 392,aqua shorts,水色のショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 393,aqua skin,水色の肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
