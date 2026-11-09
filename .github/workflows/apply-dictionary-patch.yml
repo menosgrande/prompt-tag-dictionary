@@ -52,6 +52,8 @@ jobs:
         run: node scripts/audit-tag-groups.mjs
       - name: Run all Node tests
         run: node --test
+      - name: Export working CSV from canonical dictionary
+        run: node scripts/export-dictionary-csv.mjs
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
@@ -59,6 +61,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git rm "$PATCH_FILE"
-          git add data/dictionary-data.json
+          git add data/dictionary-data.json exports/dictionary-working.csv
           git commit -m "Update canonical dictionary"
           git push

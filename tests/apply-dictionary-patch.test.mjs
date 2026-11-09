@@ -61,6 +61,58 @@ test("updates translation review status and evidence while preserving unrelated 
   }), /Invalid translationStatus/);
 });
 
+
+test("updates classification status, review evidence, and candidate index together", () => {
+  const data = fixture();
+  data.tags[1][6].classification = {
+    status: "provisional", categoryId: "objects", subcategoryId: "everyday-objects",
+    confidence: "high", reason: "既存候補"
+  };
+  data.tags[1][6].classificationReview = { status: "unreviewed" };
+  data.classificationCandidates = {
+    entries: [{ tag: "metadata tag", ...structuredClone(data.tags[1][6].classification) }],
+    summary: { total: 1, provisional: 1, needsReview: 0, archived: 0 }
+  };
+  const result = applyPatchData(data, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{
+      tag: "metadata tag",
+      set: {
+        classificationStatus: "verified",
+        classificationReviewStatus: "verified",
+        classificationReviewReason: "分類先を意味と用途に照らして確認。",
+        classificationReviewedAt: "2026-11-09",
+        classificationReviewSource: "https://example.com/classification"
+      }
+    }]
+  });
+  assert.equal(result.data.tags[1][6].classification.status, "verified");
+  assert.equal(result.data.tags[1][6].classification.categoryId, "objects");
+  assert.equal(result.data.tags[1][6].classificationReview.status, "verified");
+  assert.equal(result.data.classificationCandidates.entries[0].status, "verified");
+  assert.deepEqual(result.data.classificationCandidates.summary, {
+    total: 1, provisional: 0, needsReview: 0, archived: 0
+  });
+  assert.throws(() => applyPatchData(data, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "metadata tag", set: { classificationStatus: "maybe" } }]
+  }), /Invalid classificationStatus/);
+  const withoutTranslation = fixture();
+  withoutTranslation.tags[0].push(null, [], {
+    classification: { status: "provisional", categoryId: "objects", subcategoryId: "everyday-objects", confidence: "high", reason: "候補" },
+    classificationReview: { status: "unreviewed" }
+  });
+  withoutTranslation.classificationCandidates = {
+    entries: [{ tag: "sample tag", ...structuredClone(withoutTranslation.tags[0][6].classification) }],
+    summary: { total: 1, provisional: 1, needsReview: 0, archived: 0 }
+  };
+  const classificationOnly = applyPatchData(withoutTranslation, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "sample tag", set: { classificationStatus: "verified" } }]
+  });
+  assert.equal("translation" in classificationOnly.data.tags[0][6], false);
+});
+
 test("rejects unknown fields, malformed operations, and invalid values", () => {
   const data = fixture();
   const base = { schema: "prompt-tag-dictionary-patch-v1", operations: [] };
