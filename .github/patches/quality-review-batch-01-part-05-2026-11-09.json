@@ -1,0 +1,834 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "beak",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "beamed eighth notes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "beamed sixteenth notes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bean bag chair",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "家具"
+      }
+    },
+    {
+      "tag": "beanie",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bear boy",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "人物属性"
+      }
+    },
+    {
+      "tag": "bear ears",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bear girl",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "人物属性"
+      }
+    },
+    {
+      "tag": "bear hair ornament",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bear tail",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "beard",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "beatrice (umineko)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "beautiful detailed eyes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "behind another",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "構図・カメラ",
+        "minor": "構図・配置"
+      }
+    },
+    {
+      "tag": "behind-the-head headphones",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "beidou (genshin impact)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belko",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belle (zenless zone zero)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belly",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belly chain",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belly grab",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "belt collar",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "belt pouch",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "小物・道具"
+      }
+    },
+    {
+      "tag": "bemani",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "BEMANIシリーズ（ゲームシリーズ）",
+        "candidateJa": "BEMANIシリーズ（ゲームシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "KONAMI公式商品情報でBEMANIシリーズが音楽ゲーム群であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.konami.com/games/jp/ja/products/search/?series=BEMANI"
+      }
+    },
+    {
+      "tag": "benghuai xueyuan",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "崩壊学園（ゲームタイトル）",
+        "candidateJa": "崩壊学園（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "崩壊学園の公式ゲームサイトで日本語作品名とゲーム作品であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://houkai.mihoyo.moe/"
+      }
+    },
+    {
+      "tag": "beni shake",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bent over",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "berserk",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "ベルセルク（漫画タイトル）",
+        "candidateJa": "ベルセルク（漫画タイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "白泉社公式作品ページで『ベルセルク』が三浦建太郎原作のコミック作品であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://magazine.younganimal.com/title/?id=32"
+      }
+    },
+    {
+      "tag": "between breasts",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "between toes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bibi (tokoyami towa)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "big belly",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴"
+      }
+    },
+    {
+      "tag": "big hair",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bigrbear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bike shorts",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bike shorts under shorts",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bike shorts under skirt",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bikesuit",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bikini bottom aside",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "動作・接触",
+        "minor": "衣服への接触"
+      }
+    },
+    {
+      "tag": "bikini bottom only",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "bikini bottom pull",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "動作・接触",
+        "minor": "衣服への接触"
+      }
+    },
+    {
+      "tag": "bikini pull",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "動作・接触",
+        "minor": "衣服への接触"
+      }
+    },
+    {
+      "tag": "bikini shorts",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "bikini skirt",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "bikini top lift",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "動作・接触",
+        "minor": "衣服への接触"
+      }
+    },
+    {
+      "tag": "bikini top only",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "billboard",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bindi",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bird ears",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "人物属性"
+      }
+    },
+    {
+      "tag": "bird legs",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "bird on arm",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "ポーズ・姿勢",
+        "minor": "身体の配置"
+      }
+    },
+    {
+      "tag": "bird on hand",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "ポーズ・姿勢",
+        "minor": "身体の配置"
+      }
+    },
+    {
+      "tag": "bird on head",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "ポーズ・姿勢",
+        "minor": "身体の配置"
+      }
+    },
+    {
+      "tag": "bird on shoulder",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "ポーズ・姿勢",
+        "minor": "身体の配置"
+      }
+    },
+    {
+      "tag": "bird print",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "衣服"
+      }
+    },
+    {
+      "tag": "bird tail",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "birthmark",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bishop (chess)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bishounen",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bismarck (kancolle)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "biting glove",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bkub",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black babydoll",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black background",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "背景・場所",
+        "minor": "空間・環境表現"
+      }
+    },
+    {
+      "tag": "black bandeau",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black border",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black bow",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black cape",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black capelet",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black cloak",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black clover",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "ブラッククローバー（メディアミックスシリーズ）",
+        "candidateJa": "ブラッククローバー（メディアミックスシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "少年ジャンプ公式で原作漫画を、TVアニメ公式情報でアニメ化を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.shonenjump.com/j/rensai/bclover/"
+      }
+    },
+    {
+      "tag": "black coat (kingdom hearts)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "キャラクター・作品",
+        "minor": "作品固有の衣装・要素"
+      }
+    },
+    {
+      "tag": "black collar",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "black eyes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black footwear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black hakama",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black outline",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black panties",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "black pantyhose",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "靴・履物"
+      }
+    },
+    {
+      "tag": "black swan (honkai: star rail)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "blake belladonna (RWBY)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "ブレイク・ベラドンナ（RWBY）",
+        "candidateJa": "ブレイク・ベラドンナ（RWBY）",
+        "translationStatus": "verified",
+        "translationReviewNote": "RWBY公式アニメサイトのキャラクター紹介で日本語表記「ブレイク・ベラドンナ」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://anime.team-rwby-project.jp/character/"
+      }
+    },
+    {
+      "tag": "blake bloom (wuthering waves)",
+      "set": {
+        "classificationReviewStatus": "needs-review",
+        "classificationReviewReason": "英文タグと現訳が対応しているか確認できず、キャラクター特定を保留。",
+        "classificationReviewedAt": "2026-11-09",
+        "translationStatus": "needs-review",
+        "translationReviewNote": "英文タグ「blake bloom」と現訳「ブラント（鳴潮）」の対応関係を公式情報で確認できない。タグ誤記・別名・別キャラクターの可能性があるため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "blank speech bubble",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "blaze the cat (Sonic the Hedgehog)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bleach",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "BLEACH（メディアミックスシリーズ）",
+        "candidateJa": "BLEACH（メディアミックスシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "少年ジャンプ公式の原作漫画情報とTVアニメ公式情報を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.shonenjump.com/j/rensai/bleach/"
+      }
+    },
+    {
+      "tag": "bleach: sennen kessen-hen",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "BLEACH 千年血戦篇（アニメタイトル）",
+        "candidateJa": "BLEACH 千年血戦篇（アニメタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "TVアニメ公式サイトで『BLEACH 千年血戦篇』がアニメプロジェクトであることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://bleach-anime.com/"
+      }
+    },
+    {
+      "tag": "bloom",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・配置・演出に合う分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "光・演出",
+        "minor": "演出効果",
+        "ja": "ブルーム効果（光のにじみ）",
+        "candidateJa": "ブルーム効果（光のにじみ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "Unity公式マニュアルでBloom（ブルーム）が画像の明るい部分の周囲を光らせるポストプロセス効果であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://docs.unity3d.com/ja/current/Manual/urp/post-processing-bloom.html"
+      }
+    },
+    {
+      "tag": "blowing bubbles",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "blue sash",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "blue sclera",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、既存分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    }
+  ]
+}
