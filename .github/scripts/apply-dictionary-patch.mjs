@@ -74,7 +74,7 @@ function validatePatch(patch, byTag) {
     }
     const fields = Object.keys(values);
     if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource"].includes(field))) {
-      throw new Error("Only ja, major, minor, and candidateJa can be updated: " + operation.tag);
+      throw new Error("Unsupported patch fields; allowed fields are ja, major, minor, candidateJa, and translation review metadata: " + operation.tag);
     }
 
     for (const field of fields) {
@@ -233,7 +233,8 @@ export function applyPatchData(inputData, patch) {
           : field === "translationStatus" ? "status"
           : field === "translationReviewNote" ? "reviewNote"
           : field === "translationReviewedAt" ? "reviewedAt" : "source";
-        row[6].translation[metadataField] = values[field];
+        if (field === "candidateJa" && values[field] === null) delete row[6].translation.candidateJa;
+        else row[6].translation[metadataField] = values[field];
         continue;
       }
       const index = field === "ja" ? 1 : field === "major" ? 2 : 3;
