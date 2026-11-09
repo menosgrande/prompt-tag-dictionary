@@ -8,7 +8,8 @@
         "translationStatus": "verified",
         "translationReviewedAt": "2026-11-09",
         "translationReviewNote": "A-1 Pictures公式作品ページで「22/7（ナナブンノニジュウニ）」の表記を確認。",
-        "translationSource": "https://a1p.jp/works/nanabunnonijyuni/"
+        "translationSource": "https://a1p.jp/works/nanabunnonijyuni/",
+        "candidateJa": "22/7（ナナブンノニジュウニ）"
       }
     },
     {
@@ -58,7 +59,8 @@
         "translationStatus": "verified",
         "translationReviewedAt": "2026-11-09",
         "translationReviewNote": "HoYoWiki日本語版のキャラクター表記「黄泉」を確認。",
-        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp"
+        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp",
+        "candidateJa": "黄泉（崩壊：スターレイル）"
       }
     },
     {
@@ -68,7 +70,8 @@
         "translationStatus": "verified",
         "translationReviewedAt": "2026-11-09",
         "translationReviewNote": "HoYoWiki日本語版のキャラクター表記「アベンチュリン」を確認。",
-        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp"
+        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp",
+        "candidateJa": "アベンチュリン（崩壊：スターレイル）"
       }
     },
     {
