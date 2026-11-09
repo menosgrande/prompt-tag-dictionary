@@ -49,7 +49,7 @@
 47,6+girls,六人以上の女の子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 48,6+others,その他の人物6人以上,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
 49,69,シックスナイン,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-50,7th dragon (series),7th Dragon（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+50,7th dragon (series),セブンスドラゴン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 51,8k,8K解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 52,9s (nier:automata),ヨルハ九号S型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 53,a certain high school uniform,特定の高校の制服,服装・装飾,衣服,,[],needs-review,0,verified,verified
@@ -81,7 +81,7 @@
 79,acorn,ドングリ,生物・動植物,植物,,[],verified,0,verified,verified
 80,acoustic guitar,アコースティックギター,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 81,ad,広告,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-82,adachi rei (utau),足立レイ（UTAU）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+82,adachi rei (utau),足立レイ（UTAU）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 83,adapted costume,アレンジ衣装,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 84,adapted turret,改造された砲塔（文脈要確認）,家具・設備・物品,機械・装置,,[],verified,,unreviewed,unreviewed
 85,adapted uniform,アレンジされた制服,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -105,7 +105,7 @@
 103,aegis sword (xenoblade),エージスの剣（xenoblade）,家具・設備・物品,武器,,[],needs-review,0,verified,needs-review
 104,aegyo sal,涙袋,顔・表情,目,,[],verified,,unreviewed,unreviewed
 105,aerial fireworks,打ち上げ花火,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-106,aerith gainsborough (Final Fantasy VII),エアリス・ゲインズブール（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+106,aerith gainsborough (Final Fantasy VII),エアリス・ゲインズブール（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 107,aestus estus,Aestus Estus（固有名詞・表記要確認）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 108,aether (genshin impact),空（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 109,affectionate,愛情深い,状態・状況,状況・関係性,,[],verified,0,verified,verified
@@ -189,7 +189,7 @@
 187,ako (blue archive),アコ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 188,akuma homura (Puella Magi Madoka Magica),悪魔ほむら,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 189,alarm clock,目覚まし時計,家具・設備・物品,日用品,,[],verified,0,verified,unreviewed
-190,albedo (genshin impact),アルベド（Genshin Impact）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+190,albedo (genshin impact),アルベド（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 191,albino,アルビノ,人物の特徴,人物属性,,[],verified,0,verified,verified
 192,album cover,アルバムジャケット,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 193,alchemy stars,白夜極光,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
@@ -504,7 +504,7 @@
 502,artist name,作者名,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 503,artist self-insert,作者の自己投影,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 504,artistic error,作画上のミス,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
-505,artoria caster (fate),アルトリアキャスター（Fate）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+505,artoria caster (fate),アルトリア・キャスター（Fate/Grand Order）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 506,artoria pendragon (alter swimsuit rider) (fate),アルトリア・ペンドラゴン〔オルタ／水着・ライダー〕（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 507,artoria pendragon (fate),アルトリア・ペンドラゴン（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 508,artoria pendragon (lancer alter) (fate),アルトリア・ペンドラゴン〔ランサー・オルタ〕（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -545,7 +545,7 @@
 543,asui tsuyu (My Hero Academia),蛙吹梅雨,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 544,asuna (blue archive),アスナ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 545,asuna (bunny) (blue archive),アスナ（バニー）（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
-546,asuna (sao),アスナ（sao）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+546,asuna (sao),アスナ（ソードアート・オンライン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 547,asutora,アストラ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 548,asymmetrical bangs,非対称の前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 549,asymmetrical clothes,非対称の服,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -562,7 +562,7 @@
 560,at computer,パソコンの前にいる,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
 561,atago (azur lane),愛宕（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 562,atago (kancolle),愛宕（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-563,atelier (series),Atelier（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+563,atelier (series),アトリエシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 564,atelier ryza,ライザのアトリエ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 565,atelier ryza 1,ライザのアトリエ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 566,athletic leotard,体操レオタード,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -773,7 +773,7 @@
 771,bb (fate),BB（Fate）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 772,bb (fate/extra),BB（Fate/EXTRA）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 773,bb (swimsuit mooncancer) (fate),BB〔水着／ムーンキャンサー〕（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-774,bc freedom military uniform,BC Freedom軍服,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,0,verified,verified
+774,bc freedom military uniform,BC自由学園の軍服,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 775,bea (pokemon),ビー（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 776,beach,海辺,背景・場所,自然・風景,,[],verified,0,verified,verified
 777,beach chair,ビーチチェア,背景・場所,自然・風景,,[],verified,0,verified,verified
@@ -1021,7 +1021,7 @@
 1019,black socks,黒い靴下,服装・装飾,衣服,,[],verified,0,verified,verified
 1020,black sports bra,ブラックスポーツブラ,服装・装飾,衣服,,[],verified,1,verified,verified
 1021,black suit,黒いスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
-1022,black survival,Black Survival（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,unreviewed
+1022,black survival,Black Survival（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
 1023,black swan (honkai: star rail),ブラックスワン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 1024,black sweater,黒いセーター,服装・装飾,衣服,,[],verified,0,verified,verified
 1025,black sweater vest,黒いセーターベスト,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1260,7 +1260,7 @@
 1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],machine-translation,,unreviewed,needs-review
 1260,borrowed design,他の作者が考案した非公式デザイン,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],machine-translation,,unreviewed,needs-review
+1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
 1262,bottle,瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1263,bottomless,下半身裸,服装・装飾,裸体・露出,,[],verified,0,verified,provisional
 1264,bouncing breasts,胸が揺れる,動作・接触,身体動作,,[],verified,,unreviewed,provisional
@@ -1692,7 +1692,7 @@
 1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
 1691,cervix,子宮頸部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],machine-translation,,unreviewed,needs-review
-1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,"[""チェビオ""]",needs-review,0,verified,verified
+1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,"[""チェビオ""]",verified,0,verified,verified
 1694,chain,鎖,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
 1696,chain leash,チェーンリーシュ,服装・装飾,装飾品,,[],verified,0,verified,verified
