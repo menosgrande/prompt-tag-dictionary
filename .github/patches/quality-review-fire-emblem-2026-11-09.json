@@ -1,0 +1,547 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "alear (fire emblem)",
+      "set": {
+        "ja": "リュール（ファイアーエムブレム エンゲージ）",
+        "candidateJa": "リュール（ファイアーエムブレム エンゲージ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式の『ファイアーエムブレム エンゲージ』紹介で主人公名「リュール」と作品名を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/feature/engage_comic/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/feature/engage_comic/index.html"
+      }
+    },
+    {
+      "tag": "byleth (female) (fire emblem)",
+      "set": {
+        "ja": "ベレス（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "ベレス（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で女性主人公の日本語名「ベレス」と登場作品を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/12001002000402/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/12001002000402/",
+        "classificationStatus": "verified"
+      }
+    },
+    {
+      "tag": "byleth (fire emblem)",
+      "set": {
+        "ja": "ベレト／ベレス（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "ベレト／ベレス（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式の『風花雪月』キャラクター紹介で主人公表記「ベレト／ベレス」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/series/17.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/series/17.html"
+      }
+    },
+    {
+      "tag": "byleth (male) (fire emblem)",
+      "set": {
+        "ja": "ベレト（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "ベレト（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で男性主人公の日本語名「ベレト」と登場作品を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/12001001000403/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/12001001000403/",
+        "classificationStatus": "verified"
+      }
+    },
+    {
+      "tag": "camilla (fire emblem)",
+      "set": {
+        "ja": "カミラ（ファイアーエムブレムif）",
+        "candidateJa": "カミラ（ファイアーエムブレムif）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で日本語名「カミラ」と登場作品「if」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/11005005000061-2/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/11005005000061-2/"
+      }
+    },
+    {
+      "tag": "corrin (female) (fire emblem)",
+      "set": {
+        "ja": "カムイ（女性・ファイアーエムブレムif）",
+        "candidateJa": "カムイ（女性・ファイアーエムブレムif）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で日本語名「カムイ」と女性版の設定、登場作品を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/11001002000097-2/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/11001002000097-2/"
+      }
+    },
+    {
+      "tag": "corrin (fire emblem)",
+      "set": {
+        "ja": "カムイ（ファイアーエムブレムif）",
+        "candidateJa": "カムイ（ファイアーエムブレムif）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で日本語名「カムイ」と登場作品「if」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/11001002000097-2/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/11001002000097-2/"
+      }
+    },
+    {
+      "tag": "dimitri alexandre blaiddyd (Fire Emblem: Three Houses)",
+      "set": {
+        "ja": "ディミトリ＝アレクサンドル＝ブレーダッド（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "ディミトリ＝アレクサンドル＝ブレーダッド（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介でフルネーム「ディミトリ＝アレクサンドル＝ブレーダッド」と作品名を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/main4.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/main4.html"
+      }
+    },
+    {
+      "tag": "edelgard von hresvelg (Fire Emblem: Three Houses)",
+      "set": {
+        "ja": "エーデルガルト＝フォン＝フレスベルグ（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "エーデルガルト＝フォン＝フレスベルグ（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介でフルネーム「エーデルガルト＝フォン＝フレスベルグ」と作品名を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/main3.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/main3.html"
+      }
+    },
+    {
+      "tag": "falchion (fire emblem)",
+      "set": {
+        "ja": "ファルシオン（ファイアーエムブレム）",
+        "candidateJa": "ファルシオン（ファイアーエムブレム）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式の『紋章の謎』キャラクター紹介で神剣「ファルシオン」の表記を確認。複数作品に登場するため作品名はシリーズ表記に留める。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/series/03.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品固有の武器名と確認し、既存の「家具・設備・物品 > 武器」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/series/03.html"
+      }
+    },
+    {
+      "tag": "fire emblem",
+      "set": {
+        "ja": "ファイアーエムブレム（ゲームシリーズ）",
+        "candidateJa": "ファイアーエムブレム（ゲームシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表でシリーズ名とゲーム作品群であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "シリーズ名と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。ゲームシリーズとして明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem awakening",
+      "set": {
+        "ja": "ファイアーエムブレム 覚醒（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 覚醒（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式紹介で日本語作品名「ファイアーエムブレム 覚醒」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/topics/article/466ba374-6f43-11e6-9b38-063b7ac45a6d",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/topics/article/466ba374-6f43-11e6-9b38-063b7ac45a6d"
+      }
+    },
+    {
+      "tag": "fire emblem cipher",
+      "set": {
+        "ja": "ファイアーエムブレム０（サイファ）（カードゲーム）",
+        "candidateJa": "ファイアーエムブレム０（サイファ）（カードゲーム）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式紹介で正式表記「ファイアーエムブレム０（サイファ）」とトレーディングカードゲームの媒体を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/topics/article/3eac536b-c4ba-11e5-baa2-0a6d14145cb1",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/topics/article/3eac536b-c4ba-11e5-baa2-0a6d14145cb1"
+      }
+    },
+    {
+      "tag": "fire emblem echoes: shadows of valentia",
+      "set": {
+        "ja": "ファイアーエムブレム Echoes もうひとりの英雄王（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム Echoes もうひとりの英雄王（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式ページで日本語作品名「ファイアーエムブレム Echoes もうひとりの英雄王」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/hardware/amiibo/game/ajjj/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/hardware/amiibo/game/ajjj/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem engage",
+      "set": {
+        "ja": "ファイアーエムブレム エンゲージ（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム エンゲージ（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式ソフト紹介で日本語作品名「ファイアーエムブレム エンゲージ」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/switch/ayfna/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/switch/ayfna/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem fates",
+      "set": {
+        "ja": "ファイアーエムブレムif（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレムif（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式サポートで日本語作品名「ファイアーエムブレムif」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://support.nintendo.com/jp/information/2022/fireemblem_if.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://support.nintendo.com/jp/information/2022/fireemblem_if.html"
+      }
+    },
+    {
+      "tag": "fire emblem heroes",
+      "set": {
+        "ja": "ファイアーエムブレム ヒーローズ（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム ヒーローズ（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式配信開始案内で日本語作品名「ファイアーエムブレム ヒーローズ」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/topics/article/3a3a869f-e815-11e6-9aaf-063b7ac45a6d",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/topics/article/3a3a869f-e815-11e6-9aaf-063b7ac45a6d"
+      }
+    },
+    {
+      "tag": "fire emblem warriors: three hopes",
+      "set": {
+        "ja": "ファイアーエムブレム無双 風花雪月（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム無双 風花雪月（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式発売案内で日本語作品名「ファイアーエムブレム無双 風花雪月」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/topics/article/6b5ff381-a17e-452f-9478-68c8af0dd55d",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/topics/article/6b5ff381-a17e-452f-9478-68c8af0dd55d"
+      }
+    },
+    {
+      "tag": "fire emblem: genealogy of the holy war",
+      "set": {
+        "ja": "ファイアーエムブレム 聖戦の系譜（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 聖戦の系譜（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「聖戦の系譜」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: mystery of the emblem",
+      "set": {
+        "ja": "ファイアーエムブレム 紋章の謎（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 紋章の謎（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「紋章の謎」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: path of radiance",
+      "set": {
+        "ja": "ファイアーエムブレム 蒼炎の軌跡（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 蒼炎の軌跡（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「蒼炎の軌跡」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: radiant dawn",
+      "set": {
+        "ja": "ファイアーエムブレム 暁の女神（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 暁の女神（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「暁の女神」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: the binding blade",
+      "set": {
+        "ja": "ファイアーエムブレム 封印の剣（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 封印の剣（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「封印の剣」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: the blazing blade",
+      "set": {
+        "ja": "ファイアーエムブレム 烈火の剣（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 烈火の剣（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「烈火の剣」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: the sacred stones",
+      "set": {
+        "ja": "ファイアーエムブレム 聖魔の光石（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 聖魔の光石（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式シリーズ年表で日本語作品名「聖魔の光石」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/history/index.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/history/index.html"
+      }
+    },
+    {
+      "tag": "fire emblem: three houses",
+      "set": {
+        "ja": "ファイアーエムブレム 風花雪月（ゲームタイトル）",
+        "candidateJa": "ファイアーエムブレム 風花雪月（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『風花雪月』キャラクター紹介で作品名を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/series/17.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "作品タイトル単体と確認し、既存の「キャラクター・作品 > タイトル（作品名）」分類を維持。媒体を日本語訳で明示。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/series/17.html"
+      }
+    },
+    {
+      "tag": "hilda valentine goneril (Fire Emblem: Three Houses)",
+      "set": {
+        "ja": "ヒルダ＝ヴァレンティン＝ゴネリル（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "ヒルダ＝ヴァレンティン＝ゴネリル（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介でフルネーム「ヒルダ＝ヴァレンティン＝ゴネリル」と作品名を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/other.html?id=9397",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/switch/anvya/pc/characters/other.html?id=9397"
+      }
+    },
+    {
+      "tag": "ike (fire emblem)",
+      "set": {
+        "ja": "アイク（ファイアーエムブレム 蒼炎の軌跡／暁の女神）",
+        "candidateJa": "アイク（ファイアーエムブレム 蒼炎の軌跡／暁の女神）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介でアイクの登場作品「蒼炎の軌跡」「暁の女神」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/ike01.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/ike01.html"
+      }
+    },
+    {
+      "tag": "lucina (fire emblem)",
+      "set": {
+        "ja": "ルキナ（ファイアーエムブレム 覚醒）",
+        "candidateJa": "ルキナ（ファイアーエムブレム 覚醒）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介で日本語名「ルキナ」と主な登場作品「覚醒」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/lucina01.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/lucina01.html"
+      }
+    },
+    {
+      "tag": "lyn (fire emblem)",
+      "set": {
+        "ja": "リン（ファイアーエムブレム 烈火の剣）",
+        "candidateJa": "リン（ファイアーエムブレム 烈火の剣）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式『ファイアーエムブレム ヒーローズ』英雄紹介で日本語名「リン」と登場作品「烈火の剣」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://guide.fire-emblem-heroes.com/06001002001316-2/",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://guide.fire-emblem-heroes.com/06001002001316-2/"
+      }
+    },
+    {
+      "tag": "lysithea von ordelia (fire emblem: three houses)",
+      "set": {
+        "ja": "リシテア＝フォン＝コーデリア（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "リシテア＝フォン＝コーデリア（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "日本語版のフルネーム「リシテア＝フォン＝コーデリア」を日本語版攻略資料で確認。公式FEヒーローズ紹介でコーデリア伯の娘であることと登場作品を照合。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.pegasusknight.com/wiki/fe16/ユニット/リシテア",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.pegasusknight.com/wiki/fe16/ユニット/リシテア"
+      }
+    },
+    {
+      "tag": "marianne von edmund (fire emblem: three houses)",
+      "set": {
+        "ja": "マリアンヌ＝フォン＝エドマンド（ファイアーエムブレム 風花雪月）",
+        "candidateJa": "マリアンヌ＝フォン＝エドマンド（ファイアーエムブレム 風花雪月）",
+        "translationStatus": "verified",
+        "translationReviewNote": "日本語版のフルネーム「マリアンヌ＝フォン＝エドマンド」を日本語版攻略資料で確認。公式FEヒーローズ紹介で登場作品を照合。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.pegasusknight.com/wiki/fe16/ユニット/マリアンヌ",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.pegasusknight.com/wiki/fe16/ユニット/マリアンヌ"
+      }
+    },
+    {
+      "tag": "robin (female) (fire emblem)",
+      "set": {
+        "ja": "ルフレ（女性・ファイアーエムブレム 覚醒）",
+        "candidateJa": "ルフレ（女性・ファイアーエムブレム 覚醒）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介で日本語名「ルフレ」と登場作品「覚醒」を確認。タグのfemale区分を日本語訳に保持。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html"
+      }
+    },
+    {
+      "tag": "robin (fire emblem)",
+      "set": {
+        "ja": "ルフレ（ファイアーエムブレム 覚醒）",
+        "candidateJa": "ルフレ（ファイアーエムブレム 覚醒）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介で日本語名「ルフレ」と登場作品「覚醒」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html"
+      }
+    },
+    {
+      "tag": "robin (male) (fire emblem)",
+      "set": {
+        "ja": "ルフレ（男性・ファイアーエムブレム 覚醒）",
+        "candidateJa": "ルフレ（男性・ファイアーエムブレム 覚醒）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介で日本語名「ルフレ」と登場作品「覚醒」を確認。タグのmale区分を日本語訳に保持。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/reflet01.html"
+      }
+    },
+    {
+      "tag": "tiki (fire emblem)",
+      "set": {
+        "ja": "チキ（ファイアーエムブレム）",
+        "candidateJa": "チキ（ファイアーエムブレム）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式キャラクター紹介で日本語名「チキ」と複数の登場作品を確認。特定の一作品に限定せずシリーズ名を維持。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/tiki05.html",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "キャラクター名と作品との対応を確認し、既存の「キャラクター・作品 > キャラクター」分類を維持。",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewSource": "https://www.nintendo.com/jp/fe/characters/smashbros/detail/tiki05.html"
+      }
+    }
+  ]
+}
