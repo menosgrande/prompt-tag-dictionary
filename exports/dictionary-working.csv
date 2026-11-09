@@ -1930,7 +1930,7 @@
 1928,clothing aside,ずらされた衣服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
 1930,cloud,雲,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,verified
-1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,0,verified,needs-review
+1931,cloud print,雲柄,服装・装飾,衣服,,[],verified,0,verified,verified
 1932,cloud strife,クラウド・ストライフ,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
 1933,clouds,雲,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
 1934,cloudy,曇り,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
@@ -8473,7 +8473,7 @@
 8471,sheet music,楽譜,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8472,sheikah,シーカー族,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 8473,shelf,棚,家具・設備・物品,家具,,[],unreviewed,,unreviewed,unreviewed
-8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,0,verified,needs-review
+8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,0,verified,verified
 8475,shell bikini,貝殻ビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 8476,shell casing,薬莢,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
 8477,shell hair ornament,シェルヘアオーナメント,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
@@ -8972,7 +8972,7 @@
 8970,souseiseki,蒼星石,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8971,sousou no frieren,葬送のフリーレン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8972,sousouman,スーマン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-8973,soviet,ソビエト連邦,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,needs-review
+8973,soviet,ソビエト連邦,背景・場所,場所・室内外,,[],verified,0,verified,verified
 8974,space,宇宙,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
 8975,space helmet,宇宙ヘルメット,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
 8976,space print,宇宙柄,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
