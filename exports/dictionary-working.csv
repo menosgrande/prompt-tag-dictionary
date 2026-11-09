@@ -1303,7 +1303,7 @@
 1301,boxers,ボクサーパンツ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1302,boxing gloves,ボクシンググローブ,服装・装飾,衣服,,[],verified,0,verified,verified
 1303,boy on top,男性が上の体位,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
-1304,boy sandwich,少年サンドイッチ,人数・人物構成,人数・人物構成,,[],needs-review,,unreviewed,needs-review
+1304,boy sandwich,少年サンドイッチ,動作・接触,性的行為・接触,,[],needs-review,4,verified,verified
 1305,bra,ブラジャー,服装・装飾,下着,,[],verified,3,verified,verified
 1306,bra lift,ブラジャーを持ち上げる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1307,bra peek,ブラジャーが見えている状態,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -1365,7 +1365,7 @@
 1363,breasts squeezed together,寄せ乳,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 1364,breath,呼吸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1365,breath of fire,火を吐く息,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-1366,breath weapon,ブレス攻撃,家具・設備・物品,その他の物品,,[],machine-translation,,unreviewed,needs-review
+1366,breath weapon,ブレス攻撃,動作・接触,身体動作,,[],machine-translation,0,verified,verified
 1367,breathing fire,火を吐く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1368,bremerton (azur lane),ブレマートン（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
@@ -1930,7 +1930,7 @@
 1928,clothing aside,ずらされた衣服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
 1930,cloud,雲,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,verified
-1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,,unreviewed,needs-review
+1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,0,verified,needs-review
 1932,cloud strife,クラウド・ストライフ,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
 1933,clouds,雲,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
 1934,cloudy,曇り,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
@@ -2370,7 +2370,7 @@
 2368,decepticon (transformers),ディセプティコン（トランスフォーマー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2369,decora,デコラ,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 2370,deep penetration,深い挿入,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-2371,deep skin,肌の深い質感,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
+2371,deep skin,皮膚の食い込み,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 2372,deer,シカ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2373,deer antlers,シカの角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 2374,deer ears,シカ耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
@@ -4746,7 +4746,7 @@
 4744,in box,箱の中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
 4745,in bucket,バケツの中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
 4746,in container,容器の中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
-4747,in cup,カップの中,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
+4747,in cup,カップの中,状態・状況,状況・関係性,,[],verified,0,verified,verified
 4748,in food,食べ物の中,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4749,in heat,発情,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4750,in palm,手のひらの上,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
@@ -5092,7 +5092,7 @@
 5090,kemono friends,けものフレンズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 5091,kemono friends 3,けものフレンズ3,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 5092,kemono friends v project,けものフレンズVぷろじぇくと,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-5093,kemonomimi mode,けもの耳モード,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
+5093,kemonomimi mode,けもの耳モード,状態・状況,状態・変化,,[],verified,0,verified,verified
 5094,kenkou cross,ケンコウクロス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 5095,kenzaki makoto,剣崎真琴（ドキドキ！プリキュア）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 5096,kepi,ケピ帽,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
@@ -6978,7 +6978,7 @@
 6976,pagoda,パゴダ,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 6977,paimon (genshin impact),パイモン（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 6978,pain,痛み,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-6979,paint,ペイント,画風・描写,描画技法,,[],needs-review,,unreviewed,needs-review
+6979,paint,ペイント,画風・描写,描画技法,,[],needs-review,0,verified,needs-review
 6980,paint can,ペンキの缶,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 6981,paint on clothes,服にペイント,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 6982,paint splatter,絵の具の飛び散り,画風・描写,描画技法,,[],verified,,unreviewed,verified
@@ -7051,7 +7051,7 @@
 7049,park,公園,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 7050,park bench,公園のベンチ,家具・設備・物品,家具,,[],verified,,unreviewed,unreviewed
 7051,parka,パーカー,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7052,parody,パロディ,画風・描写,画風・表現様式,,[],verified,,unreviewed,needs-review
+7052,parody,パロディ,状態・状況,状況・関係性,,[],verified,0,verified,verified
 7053,parrot,オウム,生物・動植物,動物,,[],verified,,unreviewed,verified
 7054,parted bangs,分けた前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 7055,parted hair,分け目のある髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
@@ -7606,7 +7606,7 @@
 7604,prostitution,売春,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 7605,prostration,平伏,ポーズ・姿勢,基本姿勢,,[],needs-review,,unreviewed,verified
 7606,protecting,守る,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
-7607,prototype design,試作デザイン,画風・描写,描画技法,,[],needs-review,,unreviewed,needs-review
+7607,prototype design,試作デザイン,状態・状況,状態・変化,,[],needs-review,0,verified,verified
 7608,psychic,超能力者,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
 7609,public indecency,公然わいせつ,状態・状況,状況・関係性,,[],needs-review,,unreviewed,verified
 7610,public nudity,公共の場での裸体,服装・装飾,裸体・露出,,[],verified,,unreviewed,verified
@@ -8225,7 +8225,7 @@
 8223,sangvis ferri,鉄血工造（少女前線）,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 8224,sanji (one piece),サンジ（ワンピース）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 8225,sanpaku,三白眼,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
-8226,sanrio,サンリオ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8226,sanrio,サンリオ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,needs-review
 8227,sanshoku dango,三色団子,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8228,santa,サンタ,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 8229,santa bikini,サンタビキニ,服装・装飾,衣服,,[],verified,,unreviewed,verified
@@ -8326,7 +8326,7 @@
 8324,screw,ねじ,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8325,screwdriver,ドライバー,家具・設備・物品,道具,,[],verified,,unreviewed,unreviewed
 8326,scribble censor,落書きで隠す,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
-8327,scroll,スクロール,動作・接触,身体動作,,[],verified,,unreviewed,needs-review
+8327,scroll,巻物,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 8328,scrunchie,シュシュ,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 8329,scylla,スキュラ,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,unreviewed
 8330,scythe,鎌,家具・設備・物品,武器,,[],verified,,unreviewed,unreviewed
@@ -8473,7 +8473,7 @@
 8471,sheet music,楽譜,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8472,sheikah,シーカー族,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 8473,shelf,棚,家具・設備・物品,家具,,[],unreviewed,,unreviewed,unreviewed
-8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,needs-review
+8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,0,verified,needs-review
 8475,shell bikini,貝殻ビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 8476,shell casing,薬莢,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
 8477,shell hair ornament,シェルヘアオーナメント,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
@@ -8692,7 +8692,7 @@
 8690,sideways glance,横目で見る,顔・表情,目,,[],verified,,unreviewed,verified
 8691,sideways hat,横向きの帽子,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 8692,sideways mouth,横向きの口,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-8693,sig sauer,SIG Sauer（シグ・ザウエル）,文字・記号,ロゴ・ブランド表記,,"[""SIG Sauer"",""シグザウエル"",""シグ・ザウアー""]",verified,,unreviewed,needs-review
+8693,sig sauer,SIG Sauer（シグ・ザウエル）,家具・設備・物品,武器,,"[""SIG Sauer"",""シグザウエル"",""シグ・ザウアー""]",verified,0,verified,verified
 8694,sigh,ため息,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8695,sign,看板,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
 8696,signature,署名,品質・ネガティブ,高品質・傑作,,[],unreviewed,,unreviewed,unreviewed
@@ -8877,7 +8877,7 @@
 8875,small sweatdrop,小さな汗マーク,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
 8876,smartphone,スマートフォン,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
 8877,smartphone case,スマートフォンケース,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-8878,smell,匂い,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
+8878,smell,匂い,人物の特徴,身体部位・身体状態,,[],verified,0,verified,needs-review
 8879,smelling,匂いを嗅ぐ,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8880,smelling clothes,服の匂いを嗅ぐ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8881,smile,笑顔,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
@@ -8905,7 +8905,7 @@
 8903,sneezing,くしゃみ,動作・接触,身体動作,,[],unreviewed,,unreviewed,verified
 8904,sniper rifle,スナイパーライフル,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
 8905,snivy,ツタージャ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8906,snk,SNK（エス・エヌ・ケイ）,キャラクター・作品,タイトル（作品名）,,"[""SNK"",""エスエヌケイ""]",verified,,unreviewed,needs-review
+8906,snk,SNK（エス・エヌ・ケイ）,キャラクター・作品,タイトル（作品名）,,"[""SNK"",""エスエヌケイ""]",verified,0,verified,needs-review
 8907,snorkel,シュノーケル,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8908,snot,鼻水,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 8909,snout,口吻,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
@@ -8972,7 +8972,7 @@
 8970,souseiseki,蒼星石,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8971,sousou no frieren,葬送のフリーレン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8972,sousouman,スーマン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-8973,soviet,ソビエト連邦,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8973,soviet,ソビエト連邦,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,needs-review
 8974,space,宇宙,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
 8975,space helmet,宇宙ヘルメット,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
 8976,space print,宇宙柄,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
@@ -9030,7 +9030,7 @@
 9028,spiked hair,逆立った髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 9029,spiked hairband,スパイクヘアバンド,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
 9030,spiked halo,コンパスローズハロー,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9031,spiked shell,スパイクシェル,背景・場所,自然・風景,,[],unreviewed,,unreviewed,needs-review
+9031,spiked shell,スパイクシェル,背景・場所,自然・風景,,[],unreviewed,0,verified,needs-review
 9032,spiked tail,スパイクされた尾,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
 9033,spikes,トゲ,生物・動植物,植物,,[],needs-review,,unreviewed,unreviewed
 9034,spill,こぼれる,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
@@ -9377,7 +9377,7 @@
 9375,suou momoko,周防桃子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 9376,super crown,スーパークラウン,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 9377,super mario galaxy,スーパーマリオギャラクシー,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9378,super robot,スーパーロボット,人物の特徴,人物属性,,[],unreviewed,,unreviewed,needs-review
+9378,super robot,スーパーロボット,人物の特徴,人物属性,,[],unreviewed,0,verified,needs-review
 9379,super robot wars,スーパーロボット大戦,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
 9380,super saiyan,スーパーサイヤ人,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
 9381,super saiyan 1,スーパーサイヤ人1,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
