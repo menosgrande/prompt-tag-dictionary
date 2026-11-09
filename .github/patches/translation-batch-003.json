@@ -1,0 +1,155 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "22/7",
+      "set": {
+        "ja": "22/7（ナナブンノニジュウニ）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "A-1 Pictures公式作品ページで「22/7（ナナブンノニジュウニ）」の表記を確認。",
+        "translationSource": "https://a1p.jp/works/nanabunnonijyuni/"
+      }
+    },
+    {
+      "tag": "accelerator (toaru majutsu no index)",
+      "set": {
+        "ja": "アクセラレータ（とある魔術の禁書目録）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "とあるシリーズ公式サイトの日本語キャラクター表記を確認。",
+        "translationSource": "https://toaru-project.com/accelerator/chara/accelerator.html"
+      }
+    },
+    {
+      "tag": "aisaka taiga (Toradora!)",
+      "set": {
+        "ja": "逢坂大河（とらドラ！）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "とらドラ！公式サイトの日本語キャラクター表記を確認。",
+        "translationSource": "https://king-cr.jp/special/toradora/character.html"
+      }
+    },
+    {
+      "tag": "akai haato (Hololive)",
+      "set": {
+        "ja": "赤井はあと（ホロライブ）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ホロライブ公式タレントページの表記を確認。",
+        "translationSource": "https://hololive.hololivepro.com/talents/akai-haato"
+      }
+    },
+    {
+      "tag": "alhaitham (genshin impact)",
+      "set": {
+        "ja": "アルハイゼン（原神）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "HoYoverse公式原神サイトの日本語キャラクター表記を確認。",
+        "translationSource": "https://genshin.hoyoverse.com/ja/character/sumeru?char=0"
+      }
+    },
+    {
+      "tag": "acheron (honkai: star rail)",
+      "set": {
+        "ja": "黄泉（崩壊：スターレイル）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "HoYoWiki日本語版のキャラクター表記「黄泉」を確認。",
+        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp"
+      }
+    },
+    {
+      "tag": "aventurine (honkai: star rail)",
+      "set": {
+        "ja": "アベンチュリン（崩壊：スターレイル）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "HoYoWiki日本語版のキャラクター表記「アベンチュリン」を確認。",
+        "translationSource": "https://wiki.hoyolab.com/pc/hsr/aggregate/character?lang=ja-jp"
+      }
+    },
+    {
+      "tag": "amagi yukiko (Persona 4)",
+      "set": {
+        "ja": "天城雪子（ペルソナ4）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ペルソナ4公式サイトのキャラクター表記を確認。",
+        "translationSource": "https://persona4.jp/chara/"
+      }
+    },
+    {
+      "tag": "amane kanata (Hololive)",
+      "set": {
+        "ja": "天音かなた（ホロライブ）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ホロライブ公式タレントページの表記を確認。",
+        "translationSource": "https://hololive.hololivepro.com/talents/amane-kanata/"
+      }
+    },
+    {
+      "tag": "anchovy (girls und panzer)",
+      "set": {
+        "ja": "アンチョビ（ガールズ＆パンツァー）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ガールズ＆パンツァー公式サイトのキャラクター表記を確認。",
+        "translationSource": "https://girls-und-panzer-finale.jp/chara/anchobi/"
+      }
+    },
+    {
+      "tag": "andou (girls und panzer)",
+      "set": {
+        "ja": "安藤（ガールズ＆パンツァー）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ガールズ＆パンツァー公式サイトのキャラクター表記を確認。",
+        "translationSource": "https://girls-und-panzer-finale.jp/chara/ando/"
+      }
+    },
+    {
+      "tag": "arima kana (Oshi no Ko)",
+      "set": {
+        "ja": "有馬かな（推しの子）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "【推しの子】公式キャラクターページの表記を確認。",
+        "translationSource": "https://ichigoproduction.com/Season3/chara/kana.html"
+      }
+    },
+    {
+      "tag": "asahina mafuyu (Project Sekai)",
+      "set": {
+        "ja": "朝比奈まふゆ（プロジェクトセカイ）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "プロジェクトセカイ公式キャラクターページの表記を確認。",
+        "translationSource": "https://pjsekai.sega.jp/character/unite05/mafuyu/index.html"
+      }
+    },
+    {
+      "tag": "ayanami rei (Neon Genesis Evangelion)",
+      "set": {
+        "ja": "綾波レイ（新世紀エヴァンゲリオン）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "エヴァンゲリオン公式サイトの日本語キャラクター表記を確認。",
+        "translationSource": "https://www.evangelion.jp/2_0/chara.html"
+      }
+    },
+    {
+      "tag": "ayase momo (Dandadan)",
+      "set": {
+        "ja": "綾瀬桃（ダンダダン）",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "ダンダダン公式キャラクターページの表記を確認。",
+        "translationSource": "https://anime-dandadan.com/character/"
+      }
+    }
+  ]
+}
