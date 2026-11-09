@@ -8334,15 +8334,15 @@
 8332,seagull,カモメ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8333,seal (animal),アザラシ,生物・動植物,動物,,[],needs-review,,unreviewed,unreviewed
 8334,seamed legwear,縫い目のあるレッグウェア,服装・装飾,靴・履物,,[],verified,,unreviewed,unreviewed
-8335,seaport princess,港湾棲姫,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8335,seaport princess,港湾棲姫,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8336,searchlight,サーチライト,家具・設備・物品,設備,,[],verified,,unreviewed,unreviewed
 8337,seashell,貝殻,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-8338,season connection,シーズン接続,状態・状況,時間・前後関係,,[],verified,,unreviewed,needs-review
-8339,seatbelt,シートベルト,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
+8338,season connection,シーズン接続,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
+8339,seatbelt,シートベルト,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8340,seaweed,海藻,生物・動植物,植物,,[],verified,,unreviewed,verified
 8341,seductive smile,誘惑的な笑顔,顔・表情,顔・表情,,[],verified,2,verified,verified
-8342,see-through body,透けた身体,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,provisional
-8343,see-through cleavage,透けて見える谷間,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
+8342,see-through body,透けた身体,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,verified
+8343,see-through cleavage,透けて見える谷間,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
 8344,see-through clothes,透ける服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8345,see-through dress,透けるドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8346,see-through jacket,シースルージャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
@@ -8351,107 +8351,107 @@
 8349,see-through panties,透けるパンティー,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
 8350,see-through sarong,透けるサロン,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
 8351,see-through shirt,透けシャツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8352,see-through silhouette,透けたシルエット,構図・カメラ,フレーミング,,[],verified,,unreviewed,needs-review
+8352,see-through silhouette,透けたシルエット,構図・カメラ,フレーミング,,[],verified,,unreviewed,verified
 8353,see-through skirt,透けるスカート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8354,see-through sleeves,透ける袖,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8355,see-through veil,透けるベール,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-8356,seele vollerei,ゼーレ・ヴォレライ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8356,seele vollerei,ゼーレ・ヴォレライ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8357,segmented comic,分割コマの漫画,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 8358,seia (blue archive),百合園セイア（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-8359,seigaiha,青海波,画風・描写,描画技法,,[],verified,,unreviewed,needs-review
-8360,seiken densetsu,聖剣伝説,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8361,seiken densetsu 3,聖剣伝説3,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8359,seigaiha,青海波,画風・描写,描画技法,,[],verified,,unreviewed,verified
+8360,seiken densetsu,聖剣伝説,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8361,seiken densetsu 3,聖剣伝説3,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8362,seiran (touhou),清蘭（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8363,seishun buta yarou,青春ブタ野郎シリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8363,seishun buta yarou,青春ブタ野郎シリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8364,seiun sky (umamusume),セイウンスカイ（ウマ娘）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-8365,seiza,正座,ポーズ・姿勢,基本姿勢,,[],unreviewed,,unreviewed,provisional
-8366,sekaiju no meikyuu,世界樹の迷宮,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8367,sekibanki,赤蛮奇,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8368,sekina,セキナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8369,selen tatsuki,セレン龍月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8365,seiza,正座,ポーズ・姿勢,基本姿勢,,[],unreviewed,,unreviewed,verified
+8366,sekaiju no meikyuu,世界樹の迷宮,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8367,sekibanki,赤蛮奇,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8368,sekina,セキナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8369,selen tatsuki,セレン龍月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8370,selene (pokemon),セレネ（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8371,self cosplay,自分自身のコスプレ,人物の特徴,人物属性,,[],unreviewed,,unreviewed,provisional
-8372,self hug,自己抱擁,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,provisional
-8373,self-harm,自傷行為,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
+8371,self cosplay,自分自身のコスプレ,人物の特徴,人物属性,,[],unreviewed,,unreviewed,verified
+8372,self hug,自己抱擁,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,verified
+8373,self-harm,自傷行為,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 8374,self-harm scar,自傷痕,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-8375,selfcest,セルフセックス,動作・接触,性的行為・接触,,[],verified,,unreviewed,needs-review
+8375,selfcest,セルフセックス,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
 8376,selfie,自撮り,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8377,semi-rimless eyewear,ハーフリム眼鏡,服装・装飾,装飾品,,[],needs-review,,unreviewed,provisional
+8377,semi-rimless eyewear,ハーフリム眼鏡,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
 8378,sen no kiseki (series),閃の軌跡（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-8379,sen no kiseki i,英雄伝説 閃の軌跡I,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8379,sen no kiseki i,英雄伝説 閃の軌跡I,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8380,sendai (kancolle),川内（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8381,sendai hakurei no miko,先代博麗の巫女,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,needs-review
+8381,sendai hakurei no miko,先代博麗の巫女,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
 8382,sendai kai ni (kancolle),川内改二,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8383,sengoku basara,戦国BASARA,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8384,sengoku nadeko,千石撫子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8383,sengoku basara,戦国BASARA,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8384,sengoku nadeko,千石撫子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8385,senjou no valkyria (series),戦場のヴァルキュリア,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-8386,senjougahara hitagi,戦場ヶ原ひたぎ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8387,senketsu,鮮血（キルラキル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8388,senki zesshou symphogear,戦姫絶唱シンフォギア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8389,sennen sensou aigis,千年戦争アイギス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8390,senpai ga uzai kouhai no hanashi,先輩がうざい後輩の話,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8391,senran kagura,閃乱カグラ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8392,senran kagura new link,シノビマスター 閃乱カグラ NEW LINK,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8393,senran kagura shinovi versus,閃乱カグラ SHINOVI VERSUS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8386,senjougahara hitagi,戦場ヶ原ひたぎ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8387,senketsu,鮮血（キルラキル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8388,senki zesshou symphogear,戦姫絶唱シンフォギア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8389,sennen sensou aigis,千年戦争アイギス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8390,senpai ga uzai kouhai no hanashi,先輩がうざい後輩の話,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8391,senran kagura,閃乱カグラ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8392,senran kagura new link,シノビマスター 閃乱カグラ NEW LINK,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8393,senran kagura shinovi versus,閃乱カグラ SHINOVI VERSUS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8394,sensei (blue archive),先生（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 8395,senshi (dungeon meshi),センシ（ダンジョンメシ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8396,seo tatsuya,瀬尾辰也,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,needs-review
-8397,sephiroth,セフィロス,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8396,seo tatsuya,瀬尾辰也,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+8397,sephiroth,セフィロス,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8398,sepia,セピア調,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
-8399,sequential,連続した構成,構図・カメラ,構図・配置,,[],verified,,unreviewed,needs-review
+8399,sequential,連続した構成,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 8400,serafuku,セーラー服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8401,seraziel,セラジエル,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8402,serebi ryousangata,セレビィ量産型,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,needs-review
+8401,seraziel,セラジエル,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8402,serebi ryousangata,セレビィ量産型,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8403,serena (pokemon),セレナ（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 8404,serika (blue archive),黒見セリカ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-8405,serious,真剣な表情,顔・表情,顔・表情,,[],verified,,unreviewed,needs-review
-8406,serizawa asahi,芹沢あさひ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8405,serious,真剣な表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+8406,serizawa asahi,芹沢あさひ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8407,serval (kemono friends),サーバル（けものフレンズ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 8408,serval print,サーバルプリント,服装・装飾,衣服の状態,,[],unreviewed,,unreviewed,unreviewed
-8409,sessyoin kiara,殺生院キアラ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8410,setsubun,節分,背景・場所,空間・環境表現,,[],verified,,unreviewed,needs-review
-8411,severed head,切断された頭部,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
-8412,severed limb,切断された手足,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
-8413,sewing,裁縫,動作・接触,日常動作,,[],verified,,unreviewed,needs-review
-8414,sewing needle,縫い針,家具・設備・物品,道具,,[],verified,,unreviewed,needs-review
+8409,sessyoin kiara,殺生院キアラ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8410,setsubun,節分,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
+8411,severed head,切断された頭部,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+8412,severed limb,切断された手足,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+8413,sewing,裁縫,動作・接触,日常動作,,[],verified,,unreviewed,verified
+8414,sewing needle,縫い針,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8415,sex,性行為,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 8416,sex from behind,後背位,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 8417,sex machine,性行為用機械,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 8418,sex toy,性具,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-8419,sextuplets,六つ子,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,needs-review
+8419,sextuplets,六つ子,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
 8420,sexual coaching,性的な指導,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 8421,sexually suggestive,性的な示唆を含む,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
-8422,shackles,手枷・足枷,服装・装飾,装備・防具,,[],verified,,unreviewed,needs-review
-8423,shade,陰影,光・演出,影・陰影,,[],verified,,unreviewed,needs-review
+8422,shackles,手枷・足枷,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+8423,shade,陰影,光・演出,影・陰影,,[],verified,,unreviewed,verified
 8424,shaded face,顔に影が差している,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 8425,shading eyes,目に陰影,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
 8426,shadow,影,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
 8427,shadow the hedgehog,シャドウ・ザ・ヘッジホッグ,光・演出,照明・光源,,[],needs-review,,unreviewed,unreviewed
-8428,shadowverse,Shadowverse,キャラクター・作品,タイトル（作品名）,,"[""シャドウバース""]",verified,,unreviewed,needs-review
-8429,shaking,揺れる,動作・接触,身体動作,,[],verified,,unreviewed,needs-review
-8430,shaking head,首を横に振る,動作・接触,身体動作,,[],verified,,unreviewed,needs-review
+8428,shadowverse,Shadowverse,キャラクター・作品,タイトル（作品名）,,"[""シャドウバース""]",verified,,unreviewed,verified
+8429,shaking,揺れる,動作・接触,身体動作,,[],verified,,unreviewed,verified
+8430,shaking head,首を横に振る,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8431,shako cap,シャコー帽,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8432,shakugan no shana,灼眼のシャナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8433,shallow water,浅瀬,背景・場所,自然・風景,,[],verified,,unreviewed,needs-review
-8434,shameimaru aya,射命丸文,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8435,shamoji,しゃもじ,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
+8432,shakugan no shana,灼眼のシャナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8433,shallow water,浅瀬,背景・場所,自然・風景,,[],verified,,unreviewed,verified
+8434,shameimaru aya,射命丸文,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8435,shamoji,しゃもじ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8436,shampoo bottle,シャンプーボトル,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-8437,shana,シャナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8438,shanghai doll,上海人形,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8439,shantae,シャンティ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8437,shana,シャナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8438,shanghai doll,上海人形,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8439,shantae,シャンティ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8440,shantae (series),シャンタエ（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-8441,shards,破片,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
+8441,shards,破片,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 8442,shared bathing,一緒に入浴,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
 8443,shared clothes,服の共有,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8444,shared earphones,イヤホンを共有する,動作・接触,対人接触・動作,,[],verified,,unreviewed,needs-review
+8444,shared earphones,イヤホンを共有する,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 8445,shared food,食べ物の共有,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
-8446,shared object insertion,同じ物体の挿入,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,provisional
+8446,shared object insertion,同じ物体の挿入,動作・接触,性的行為・接触,,[],needs-review,,unreviewed,verified
 8447,shared scarf,マフラーの共有,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8448,shared speech bubble,共有の吹き出し,文字・記号,文字,,[],needs-review,,unreviewed,unreviewed
 8449,shared umbrella,共有傘,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
 8450,shark,サメ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
 8451,shark costume,サメの衣装,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8452,shark girl,サメの女の子,人物の特徴,人物属性,,[],unreviewed,,unreviewed,provisional
+8452,shark girl,サメの女の子,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
 8453,shark hair ornament,サメの髪飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
 8454,shark hood,サメのフード,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
 8455,shark tail,サメの尾,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
@@ -8459,69 +8459,69 @@
 8457,sharp focus,鮮明,品質・ネガティブ,高品質・傑作,,[],unreviewed,,unreviewed,unreviewed
 8458,sharp teeth,鋭い歯,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
 8459,sharp toenails,鋭い足の爪,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-8460,shaved ice,かき氷,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
-8461,shawl,ショール,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-8462,sheath,鞘,家具・設備・物品,道具,,[],verified,,unreviewed,needs-review
-8463,sheathed,鞘に収められた状態,服装・装飾,装備・防具,,[],verified,,unreviewed,needs-review
+8460,shaved ice,かき氷,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+8461,shawl,ショール,服装・装飾,衣服,,[],verified,,unreviewed,verified
+8462,sheath,鞘,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+8463,sheathed,鞘に収められた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 8464,sheep,羊,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
 8465,sheep ears,羊の耳,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8466,sheep girl,羊娘,人物の特徴,人物属性,,[],unreviewed,,unreviewed,provisional
+8466,sheep girl,羊娘,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
 8467,sheep horns,羊の角,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
 8468,sheep tail,羊の尾,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
 8469,sheet ghost,シーツのお化け,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
-8470,sheet grab,シーツをつかむ,動作・接触,物への接触,,[],verified,,unreviewed,needs-review
-8471,sheet music,楽譜,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
-8472,sheikah,シーカー族,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8470,sheet grab,シーツをつかむ,動作・接触,物への接触,,[],verified,,unreviewed,verified
+8471,sheet music,楽譜,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+8472,sheikah,シーカー族,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 8473,shelf,棚,家具・設備・物品,家具,,[],unreviewed,,unreviewed,unreviewed
-8474,shell,貝殻,背景・場所,自然・風景,,[],needs-review,,unreviewed,provisional
+8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,needs-review
 8475,shell bikini,貝殻ビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8476,shell casing,薬莢,背景・場所,自然・風景,,[],unreviewed,,unreviewed,provisional
+8476,shell casing,薬莢,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
 8477,shell hair ornament,シェルヘアオーナメント,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
 8478,shell necklace,貝殻のネックレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8479,shenhe (genshin impact),申鹤（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8480,sheryl nome,シェリル・ノーム,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8480,sheryl nome,シェリル・ノーム,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8481,sheya,シェヤ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8482,shiba inu,柴犬,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8483,shibuya kanon,澁谷かのん,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8484,shibuya rin,渋谷凛,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8483,shibuya kanon,澁谷かのん,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8484,shibuya rin,渋谷凛,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8485,shichimenchou,七面鳥,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8486,shide,紙垂,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
+8486,shide,紙垂,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
 8487,shield,盾,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
 8488,shield on back,背中の盾,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
 8489,shigure (kancolle),時雨（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 8490,shigure kai ni (kancolle),時雨改二,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 8491,shigure ui (vtuber),しぐれうい,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-8492,shihouin yoruichi,四楓院夜一,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8493,shiina taki,椎名立希,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8494,shiina yuika,椎名唯華,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8495,shijou takane,四条貴音,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8496,shiki eiki,四季映姫・ヤマザナドゥ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8497,shikigami,式神,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8492,shihouin yoruichi,四楓院夜一,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8493,shiina taki,椎名立希,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8494,shiina yuika,椎名唯華,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8495,shijou takane,四条貴音,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8496,shiki eiki,四季映姫・ヤマザナドゥ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8497,shikigami,式神,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,verified
 8498,shikinami (kancolle),敷波（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8499,shikishi,色紙,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
-8500,shima rin,志摩リン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8501,shimada arisu,島田愛里寿,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8502,shimada fumikane,島田フミカネ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,needs-review
+8499,shikishi,色紙,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+8500,shima rin,志摩リン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8501,shimada arisu,島田愛里寿,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8502,shimada fumikane,島田フミカネ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8503,shimaidon (sex),島井どん（性行為）,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 8504,shimakaze (kancolle),島風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
 8505,shimakaze (kancolle) (cosplay),島風のコスプレ,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-8506,shimamura uzuki,島村卯月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8507,shimazaki mujirushi,島崎ムジルシ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,needs-review
-8508,shimenawa,しめ縄,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
+8506,shimamura uzuki,島村卯月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8507,shimazaki mujirushi,島崎ムジルシ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+8508,shimenawa,しめ縄,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8509,shimokitazawa high school uniform,下北沢高校,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8510,shin guards,すね当て,服装・装飾,装備・防具,,[],verified,,unreviewed,needs-review
-8511,shin jigen game neptune vii,新次元ゲイム ネプテューヌVII,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8512,shin megami tensei,真・女神転生,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+8510,shin guards,すね当て,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+8511,shin jigen game neptune vii,新次元ゲイム ネプテューヌVII,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8512,shin megami tensei,真・女神転生,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8513,shinai,竹刀,家具・設備・物品,武器,,[],needs-review,,unreviewed,unreviewed
 8514,shinda sekai sensen uniform,死んだ世界戦線の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8515,shingeki no bahamut,神撃のバハムート,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8516,shingeki no kyojin,進撃の巨人,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-8517,shinjou akane,新条アカネ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8515,shingeki no bahamut,神撃のバハムート,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8516,shingeki no kyojin,進撃の巨人,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+8517,shinjou akane,新条アカネ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8518,shinki (touhou),神綺（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8519,shinku,真紅,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8519,shinku,真紅,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8520,shino (ponjiyuusu),シノ（ponjiyuusu）,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-8521,shinomiya kaguya,四宮かぐや,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-8522,shinonome ena,東雲絵名,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+8521,shinomiya kaguya,四宮かぐや,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8522,shinonome ena,東雲絵名,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8523,shinosawa hiro,篠澤広,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
 8524,shinrabanshou,神羅万象チョコ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
 8525,shinryaku! ikamusume,侵略！イカ娘,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
