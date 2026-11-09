@@ -784,28 +784,28 @@
 782,bead bracelet,ビーズブレスレット,服装・装飾,装飾品,,[],verified,0,verified,verified
 783,bead necklace,ビーズのネックレス,服装・装飾,装飾品,,[],verified,0,verified,verified
 784,beads,ビーズ,服装・装飾,装飾品,,[],verified,0,verified,verified
-785,beak,くちばし,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+785,beak,くちばし,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 786,beam rifle,ビームライフル,家具・設備・物品,武器,,[],verified,0,verified,verified
-787,beamed eighth notes,連桁付き八分音符,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-788,beamed sixteenth notes,連桁付き十六分音符,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-789,bean bag chair,ビーズクッション,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-790,beanie,ニット帽,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+787,beamed eighth notes,連桁付き八分音符,文字・記号,記号・図形,,[],verified,,unreviewed,verified
+788,beamed sixteenth notes,連桁付き十六分音符,文字・記号,記号・図形,,[],verified,,unreviewed,verified
+789,bean bag chair,ビーズクッション,家具・設備・物品,家具,,[],verified,,unreviewed,verified
+790,beanie,ニット帽,服装・装飾,衣服,,[],verified,,unreviewed,verified
 791,beans,豆,背景・場所,自然・風景,,[],verified,0,verified,verified
 792,bear,クマ,生物・動植物,動物,,[],verified,0,verified,verified
-793,bear boy,クマの少年,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+793,bear boy,クマの少年,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 794,bear costume,クマの衣装,生物・動植物,動物,,[],verified,0,verified,verified
-795,bear ears,クマ耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-796,bear girl,クマの少女,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-797,bear hair ornament,クマの髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+795,bear ears,クマ耳,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+796,bear girl,クマの少女,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+797,bear hair ornament,クマの髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 798,bear hood,クマのフード,生物・動植物,動物,,[],verified,0,verified,verified
 799,bear print,クマのプリント,生物・動植物,動物,,[],verified,0,verified,verified
-800,bear tail,クマの尻尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-801,beard,ひげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
+800,bear tail,クマの尻尾,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+801,beard,ひげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 802,beard stubble,無精ひげ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 803,beatmania (series),beatmania（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 804,beatmania iidx,ビートマニア,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-805,beatrice (umineko),ベアトリーチェ（うみねこのなく頃に）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-806,beautiful detailed eyes,繊細で美しい瞳,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
+805,beatrice (umineko),ベアトリーチェ（うみねこのなく頃に）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+806,beautiful detailed eyes,繊細で美しい瞳,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,verified
 807,beckoning,手招き,動作・接触,手の動作,,[],verified,0,verified,verified
 808,bed,ベッド,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 809,bed sheet,ベッドシーツ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -819,157 +819,157 @@
 817,beer mug,ビールのジョッキ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 818,beetle,甲虫,生物・動植物,動物,,[],verified,0,verified,verified
 819,before and after,前後,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-820,behind another,他の人物の後ろ,構図・カメラ,カメラアングル,,[],verified,,unreviewed,unreviewed
-821,behind-the-head headphones,後頭部装着型ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-822,beidou (genshin impact),北斗（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+820,behind another,他の人物の後ろ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+821,behind-the-head headphones,後頭部装着型ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+822,beidou (genshin impact),北斗（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 823,beige,ベージュ,光・演出,色調・色彩,,[],verified,0,verified,verified
 824,belfast (azur lane),ベルファスト（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-825,belko,Belko（固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
+825,belko,Belko（固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
 826,bell,ベル,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-827,belle (zenless zone zero),リン（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-828,belly,腹部,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-829,belly chain,ウエストチェーン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-830,belly grab,腹部をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
+827,belle (zenless zone zero),リン（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+828,belly,腹部,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+829,belly chain,ウエストチェーン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+830,belly grab,腹部をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 831,belt,ベルト,服装・装飾,衣服,,[],verified,0,verified,verified
 832,belt boots,ベルトブーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 833,belt bra,ベルトブラ,服装・装飾,衣服,,[],verified,2,verified,verified
 834,belt buckle,ベルトのバックル,服装・装飾,衣服,,[],verified,0,verified,verified
 835,belt chain,ベルトチェーン,服装・装飾,衣服,,[],verified,0,verified,verified
-836,belt collar,ベルト状の首輪,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-837,belt pouch,ベルトポーチ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+836,belt collar,ベルト状の首輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+837,belt pouch,ベルトポーチ,服装・装飾,小物・道具,,[],verified,,unreviewed,verified
 838,belt skirt,ベルトスカート,服装・装飾,衣服,,[],verified,0,verified,verified
-839,bemani,BEMANIシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+839,bemani,BEMANIシリーズ（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 840,bench,ベンチ,背景・場所,建築・構造物,,[],verified,0,verified,verified
 841,bendy straw,ベンディーストロー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-842,benghuai xueyuan,崩壊学園,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-843,beni shake,紅シャケ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-844,bent over,前かがみ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
+842,benghuai xueyuan,崩壊学園（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+843,beni shake,紅シャケ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+844,bent over,前かがみ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
 845,bent over furniture,家具に手をついて前かがみになる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
 846,bento,お弁当,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 847,beret,ベレー帽,服装・装飾,装飾品,,[],verified,0,verified,verified
 848,beretta 92,ベレッタ92,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 849,berry,ベリー,背景・場所,自然・風景,,[],verified,0,verified,verified
 850,berry (pokemon),ベリー（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-851,berserk,ベルセルク,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+851,berserk,ベルセルク（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 852,bespectacled,眼鏡をかけた,服装・装飾,装飾品,,[],verified,0,verified,verified
 853,best quality,最高品質,品質・ネガティブ,高品質・傑作,,[],verified,0,verified,verified
 854,bestiality,獣姦,動作・接触,対人接触・動作,,[],verified,4,verified,verified
-855,between breasts,胸の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+855,between breasts,胸の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 856,between fingers,指の間,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 857,between legs,脚の間,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 858,between pectorals,胸筋の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 859,between thighs,太ももの間,ポーズ・姿勢,身体の配置,,[],verified,1,verified,verified
-860,between toes,足指の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+860,between toes,足指の間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 861,bianca (pokemon),ベル（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 862,bib,涎掛け,服装・装飾,衣服,,[],verified,0,verified,verified
-863,bibi (tokoyami towa),ビビ（常闇トワ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+863,bibi (tokoyami towa),ビビ（常闇トワ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 864,biceps,上腕二頭筋,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 865,bicorne,双角帽,服装・装飾,装飾品,,[],verified,0,verified,verified
 866,bicycle,自転車,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 867,bicycle basket,自転車バスケット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-868,big belly,大きなお腹,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-869,big hair,ボリュームのある髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
+868,big belly,大きなお腹,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
+869,big hair,ボリュームのある髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 870,big nose,大きな鼻,顔・表情,顔・表情,,[],verified,0,verified,verified
-871,bigrbear,Bigrbear（固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-872,bike shorts,サイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-873,bike shorts under shorts,ショートパンツの下にサイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-874,bike shorts under skirt,スカートの下にサイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+871,bigrbear,Bigrbear（固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
+872,bike shorts,サイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+873,bike shorts under shorts,ショートパンツの下にサイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+874,bike shorts under skirt,スカートの下にサイクルショーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 875,biker clothes,バイカーの服,服装・装飾,衣服,,[],verified,0,verified,verified
-876,bikesuit,サイクルスーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+876,bikesuit,サイクルスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 877,bikini,ビキニ,服装・装飾,下着,,[],verified,1,verified,verified
 878,bikini armor,ビキニアーマー,服装・装飾,衣服,,[],verified,2,verified,verified
-879,bikini bottom aside,ずらしたビキニボトム,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-880,bikini bottom only,ビキニボトムのみ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-881,bikini bottom pull,ビキニボトムを引き下げる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-882,bikini pull,ビキニを引っ張る,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-883,bikini shorts,ビキニショーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-884,bikini skirt,ビキニスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+879,bikini bottom aside,ずらしたビキニボトム,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+880,bikini bottom only,ビキニボトムのみ,服装・装飾,水着,,[],verified,,unreviewed,verified
+881,bikini bottom pull,ビキニボトムを引き下げる,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+882,bikini pull,ビキニを引っ張る,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+883,bikini shorts,ビキニショーツ,服装・装飾,水着,,[],verified,,unreviewed,verified
+884,bikini skirt,ビキニスカート,服装・装飾,水着,,[],verified,,unreviewed,verified
 885,bikini tan,水着跡,服装・装飾,衣服,,[],verified,1,verified,verified
-886,bikini top lift,ビキニトップを持ち上げる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-887,bikini top only,ビキニトップのみ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+886,bikini top lift,ビキニトップを持ち上げる,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+887,bikini top only,ビキニトップのみ,服装・装飾,水着,,[],verified,,unreviewed,verified
 888,bikini under clothes,服の下のビキニ,服装・装飾,衣服,,[],verified,1,verified,verified
 889,bilingual,バイリンガル,文字・記号,文字,,[],verified,0,verified,verified
-890,billboard,看板広告,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-891,bindi,ビンディ,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+890,billboard,看板広告,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+891,bindi,ビンディ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 892,binoculars,双眼鏡,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 893,bipod,バイポッド,服装・装飾,装備・防具,,[],verified,0,verified,verified
 894,bird,鳥,生物・動植物,動物,,[],verified,0,verified,verified
 895,bird boy,バードボーイ,生物・動植物,動物,,[],verified,0,verified,verified
-896,bird ears,鳥の耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
+896,bird ears,鳥の耳,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 897,bird girl,鳥の女の子,生物・動植物,動物,,[],verified,0,verified,verified
-898,bird legs,鳥の脚,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+898,bird legs,鳥の脚,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 899,bird mask,バードマスク,生物・動植物,動物,,[],verified,0,verified,verified
-900,bird on arm,腕に止まった鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-901,bird on hand,手に止まった鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-902,bird on head,頭に止まった鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-903,bird on shoulder,肩に止まった鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-904,bird print,鳥柄,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-905,bird tail,鳥の尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+900,bird on arm,腕に止まった鳥,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+901,bird on hand,手に止まった鳥,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+902,bird on head,頭に止まった鳥,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+903,bird on shoulder,肩に止まった鳥,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+904,bird print,鳥柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
+905,bird tail,鳥の尾,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 906,bird wings,鳥の翼,生物・動植物,動物,,[],verified,0,verified,verified
 907,birdcage,鳥かご,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 908,birthday,誕生日,状態・状況,状況・関係性,,[],verified,0,verified,verified
 909,birthday cake,誕生日ケーキ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-910,birthmark,あざ・母斑,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+910,birthmark,あざ・母斑,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 911,bisexual female,バイセクシュアルの女性,人物の特徴,人物属性,,[],verified,0,verified,verified
-912,bishop (chess),ビショップ（チェスの駒）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+912,bishop (chess),ビショップ（チェスの駒）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 913,bishoujo senshi sailor moon,美少女戦士セーラームーン,背景・場所,自然・風景,,[],verified,0,verified,verified
 914,bishoujo senshi sailor moon s,美少女戦士セーラームーンスーパー,背景・場所,自然・風景,,[],verified,0,verified,verified
-915,bishounen,美少年,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-916,bismarck (kancolle),ビスマルク（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+915,bishounen,美少年,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+916,bismarck (kancolle),ビスマルク（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 917,bite mark,噛み跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 918,biting,噛む,動作・接触,身体動作,,[],verified,0,verified,verified
 919,biting ear,耳噛み,人物の特徴,人物属性,,[],verified,0,verified,verified
-920,biting glove,手袋をくわえる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
+920,biting glove,手袋をくわえる,動作・接触,身体動作,,[],verified,,unreviewed,verified
 921,biting own lip,唇を噛む,人物の特徴,人物属性,,[],verified,0,verified,verified
 922,biwa lute,琵琶,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-923,bkub,大川bkub,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
+923,bkub,大川bkub,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 924,black,黒,光・演出,色調・色彩,,[],verified,0,verified,verified
 925,black apron,黒いエプロン,服装・装飾,衣服,,[],verified,0,verified,verified
 926,black arm warmers,黒いアームウォーマー,服装・装飾,衣服,,[],verified,0,verified,verified
 927,black armband,黒いアームバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
 928,black armor,黒い鎧,服装・装飾,衣服,,[],verified,0,verified,verified
 929,black ascot,黒いアスコットタイ,服装・装飾,衣服,,[],verified,0,verified,verified
-930,black babydoll,黒いベビードール,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
-931,black background,黒い背景,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
+930,black babydoll,黒いベビードール,服装・装飾,下着,,[],verified,,unreviewed,verified
+931,black background,黒い背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 932,black bag,黒いバッグ,服装・装飾,衣服,,[],verified,0,verified,verified
-933,black bandeau,黒のバンドゥトップ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+933,black bandeau,黒のバンドゥトップ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 934,black belt,黒帯,服装・装飾,衣服,,[],verified,0,verified,verified
 935,black bikini,黒ビキニ,服装・装飾,衣服,,[],verified,1,verified,verified
 936,black bird,黒い鳥,生物・動植物,動物,,[],verified,0,verified,verified
 937,black blindfold,黒い目隠し,服装・装飾,装飾品,,[],verified,0,verified,verified
 938,black bodysuit,黒いボディスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
-939,black border,黒枠,構図・カメラ,フレーミング,,[],verified,,unreviewed,unreviewed
-940,black bow,黒いリボン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+939,black border,黒枠,構図・カメラ,フレーミング,,[],verified,,unreviewed,verified
+940,black bow,黒いリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 941,black bowtie,黒い蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 942,black bra,黒ブラジャー,服装・装飾,衣服,,[],verified,3,verified,verified
 943,black bridal gauntlets,黒いブライダルガントレット,服装・装飾,装飾品,,[],verified,0,verified,verified
 944,black buruma,黒いブルマ,服装・装飾,下着,,[],verified,0,verified,verified
 945,black camisole,黒いキャミソール,服装・装飾,下着,,[],verified,0,verified,verified
-946,black cape,黒いマント,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-947,black capelet,黒いケープレット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+946,black cape,黒いマント,服装・装飾,衣服,,[],verified,,unreviewed,verified
+947,black capelet,黒いケープレット,服装・装飾,衣服,,[],verified,,unreviewed,verified
 948,black cardigan,黒いカーディガン,服装・装飾,衣服,,[],verified,0,verified,verified
 949,black cat,黒猫,生物・動植物,動物,,[],verified,0,verified,verified
 950,black choker,黒いチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
-951,black cloak,黒い外套,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-952,black clover,ブラッククローバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+951,black cloak,黒い外套,服装・装飾,衣服,,[],verified,,unreviewed,verified
+952,black clover,ブラッククローバー（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 953,black coat,黒いコート,服装・装飾,衣服,,[],verified,0,verified,verified
-954,black coat (kingdom hearts),黒いコート（キングダム ハーツ）,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-955,black collar,黒い首輪,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+954,black coat (kingdom hearts),黒いコート（キングダム ハーツ）,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
+955,black collar,黒い首輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 956,black corset,黒いコルセット,服装・装飾,下着,,[],verified,0,verified,verified
 957,black dress,黒ドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 958,black eyeliner,黒いアイライナー,顔・表情,化粧・メイク,,[],verified,0,verified,verified
-959,black eyes,黒い瞳,顔・表情,目,,[],verified,,unreviewed,unreviewed
+959,black eyes,黒い瞳,顔・表情,目,,[],verified,,unreviewed,verified
 960,black eyeshadow,ブラックアイシャドウ,顔・表情,化粧・メイク,,[],verified,0,verified,verified
 961,black feathers,黒い羽根,生物・動植物,動物,,[],verified,0,verified,verified
 962,black flower,黒い花,生物・動植物,植物,,[],verified,0,verified,verified
-963,black footwear,黒い靴,服装・装飾,靴・履物,,[],verified,,unreviewed,unreviewed
+963,black footwear,黒い靴,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 964,black fur,黒い毛皮,生物・動植物,動物,,[],verified,0,verified,verified
 965,black garter belt,黒いガーターベルト,服装・装飾,衣服,,[],verified,0,verified,verified
 966,black garter straps,黒いガーターストラップ,服装・装飾,装飾品,,[],verified,0,verified,verified
 967,black gloves,黒手袋,服装・装飾,衣服,,[],verified,0,verified,verified
 968,black hair,黒髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 969,black hairband,黒いヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
-970,black hakama,黒い袴,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+970,black hakama,黒い袴,服装・装飾,衣服,,[],verified,,unreviewed,verified
 971,black halo,黒い光輪,服装・装飾,装飾品,,[],verified,0,verified,verified
 972,black hands,黒い手,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 973,black hat,黒い帽子,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -994,10 +994,10 @@
 992,black neckerchief,黒いネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,verified
 993,black necktie,黒いネクタイ,服装・装飾,衣服,,[],verified,0,verified,verified
 994,black one-piece swimsuit,黒いワンピース水着,服装・装飾,衣服,,[],verified,1,verified,verified
-995,black outline,黒い輪郭線,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
-996,black panties,黒いパンティー,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
+995,black outline,黒い輪郭線,画風・描写,描画技法,,[],verified,,unreviewed,verified
+996,black panties,黒いパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
 997,black pants,黒いズボン,服装・装飾,衣服,,[],verified,0,verified,verified
-998,black pantyhose,黒いパンティストッキング,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+998,black pantyhose,黒いパンティストッキング,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 999,black ribbon,黒いリボン,服装・装飾,衣服,,[],verified,0,verified,verified
 1000,black robe,黒いローブ,服装・装飾,衣服,,[],verified,0,verified,verified
 1001,black rock shooter,ブラック★ロックシューター（メディアミックス作品）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
@@ -1022,7 +1022,7 @@
 1020,black sports bra,ブラックスポーツブラ,服装・装飾,衣服,,[],verified,1,verified,verified
 1021,black suit,黒いスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1022,black survival,Black Survival（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-1023,black swan (honkai: star rail),ブラックスワン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+1023,black swan (honkai: star rail),ブラックスワン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1024,black sweater,黒いセーター,服装・装飾,衣服,,[],verified,0,verified,verified
 1025,black sweater vest,黒いセーターベスト,服装・装飾,衣服,,[],verified,0,verified,verified
 1026,black tail,黒い尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
@@ -1041,18 +1041,18 @@
 1039,black-framed eyewear,黒縁眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
 1040,blade (galaxist),ブレード（Galaxist）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1041,blade (honkai: star rail),刃（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-1042,blake belladonna (RWBY),ブレイク・ベラドンナ（RWBY）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-1043,blake bloom (wuthering waves),ブラント（鳴潮）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+1042,blake belladonna (RWBY),ブレイク・ベラドンナ（RWBY）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1043,blake bloom (wuthering waves),ブラント（鳴潮）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,needs-review
 1044,blank censor,無地の検閲帯,光・演出,演出効果,,[],verified,0,verified,verified
 1045,blank eyes,虚ろな目,顔・表情,目,,[],verified,0,verified,verified
-1046,blank speech bubble,空白の吹き出し,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
+1046,blank speech bubble,空白の吹き出し,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 1047,blank stare,呆然とした表情,顔・表情,顔・表情,,[],verified,0,verified,verified
 1048,blanket,毛布,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1049,blazblue,ブレイブルー,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-1050,blaze the cat (Sonic the Hedgehog),ブレイズ・ザ・キャット（ソニック・ザ・ヘッジホッグ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+1050,blaze the cat (Sonic the Hedgehog),ブレイズ・ザ・キャット（ソニック・ザ・ヘッジホッグ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1051,blazer,ブレザー,服装・装飾,衣服,,[],verified,0,verified,verified
-1052,bleach,BLEACH,キャラクター・作品,タイトル（作品名）,,"[""ブリーチ""]",verified,,unreviewed,unreviewed
-1053,bleach: sennen kessen-hen,BLEACH 千年血戦篇,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+1052,bleach,BLEACH（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,"[""ブリーチ""]",verified,,unreviewed,verified
+1053,bleach: sennen kessen-hen,BLEACH 千年血戦篇（アニメタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 1054,bleeding,出血,状態・状況,状態・変化,,[],verified,0,verified,verified
 1055,blending,ブレンディング（色・画像のなじませ）,画風・描写,描画技法,,[],verified,,unreviewed,verified
 1056,blind,盲目,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -1081,12 +1081,12 @@
 1079,blood stain,血痕,状態・状況,状態・変化,,[],verified,0,verified,verified
 1080,bloodborne,ブラッドボーン,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 1081,bloodshot eyes,血走った目,顔・表情,目,,[],verified,0,verified,verified
-1082,bloom,開花／ブルーム効果,生物・動植物,植物,,[],needs-review,0,verified,unreviewed
+1082,bloom,ブルーム効果（光のにじみ）,光・演出,演出効果,,[],verified,0,verified,verified
 1083,bloomers,ブルマー,服装・装飾,下着,,[],verified,1,verified,verified
 1084,bloop (gawr gura),ブループ（がうる・ぐら）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1085,blouse,ブラウス,服装・装飾,衣服,,[],verified,0,verified,verified
 1086,blowing,吹く,動作・接触,身体動作,,[],verified,0,verified,verified
-1087,blowing bubbles,シャボン玉を吹く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
+1087,blowing bubbles,シャボン玉を吹く,動作・接触,身体動作,,[],verified,,unreviewed,verified
 1088,blowing kiss,投げキスをする,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 1089,blowing smoke,煙を吐く,動作・接触,身体動作,,[],verified,0,verified,verified
 1090,blue,青,光・演出,色調・色彩,,[],verified,0,verified,verified
@@ -1163,9 +1163,9 @@
 1161,blue rose,青いバラ,生物・動植物,植物,,[],verified,0,verified,verified
 1162,blue sailor collar,ブルーセーラーカラー,服装・装飾,衣服,,[],verified,0,verified,verified
 1163,blue sarong,青いサロン,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1164,blue sash,青い帯,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+1164,blue sash,青い帯,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1165,blue scarf,青いスカーフ,服装・装飾,衣服,,[],verified,0,verified,verified
-1166,blue sclera,青い強膜,顔・表情,目,,[],verified,,unreviewed,unreviewed
+1166,blue sclera,青い強膜,顔・表情,目,,[],verified,,unreviewed,verified
 1167,blue scrunchie,青いシュシュ,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1168,blue serafuku,青いセーラー服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1169,blue shawl,ブルーショール,服装・装飾,衣服,,[],verified,0,verified,verified
