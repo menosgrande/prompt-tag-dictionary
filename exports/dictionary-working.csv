@@ -579,25 +579,25 @@
 577,autobot,オートボット,人物の特徴,人物属性,,[],verified,0,verified,verified
 578,autumn,秋,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 579,autumn leaves,紅葉,背景・場所,天候・時間帯,,[],verified,0,verified,verified
-580,avatar legends,アバター 伝説の少年アン（アニメシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+580,avatar legends,アバター 伝説の少年アン（アニメシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 581,aventurine (honkai: star rail),アベンチュリン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-582,averting eyes,目をそらす,顔・表情,目,,[],verified,,unreviewed,verified
+582,averting eyes,目をそらす,顔・表情,目,,[],verified,0,verified,verified
 583,aviator cap,飛行帽,服装・装飾,衣服,,[],verified,0,verified,verified
 584,aviator sunglasses,アビエーターサングラス,服装・装飾,衣服,,[],verified,0,verified,verified
 585,avogado6,アボガド6,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-586,awa,Awa（固有名詞・意味要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
+586,awa,Awa（固有名詞・意味要確認）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 587,awa subaru (Girls Band Cry),安和すばる,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-588,award winning,受賞歴のある作品,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,verified
+588,award winning,受賞歴のある作品,品質・ネガティブ,高品質・傑作,,[],verified,0,verified,verified
 589,axe,斧,家具・設備・物品,武器,,[],verified,0,verified,verified
-590,axis powers hetalia,ヘタリア Axis Powers（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+590,axis powers hetalia,ヘタリア Axis Powers（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 591,ayamy,あやみ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 592,ayanami (azur lane),綾波（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 593,ayanami (kancolle),綾波（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-594,ayanami rei (Neon Genesis Evangelion),綾波レイ（新世紀エヴァンゲリオン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-595,ayase eli (Love Live!),絢瀬絵里（ラブライブ！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-596,ayase momo (Dandadan),綾瀬桃（ダンダダン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+594,ayanami rei (Neon Genesis Evangelion),綾波レイ（新世紀エヴァンゲリオン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+595,ayase eli (Love Live!),絢瀬絵里（ラブライブ！）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+596,ayase momo (Dandadan),綾瀬桃（ダンダダン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 597,ayu (mog),あゆ（mog）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-598,azki (hololive),AZKi（ホロライブ）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+598,azki (hololive),AZKi（ホロライブ）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 599,aztodio,アズトディオ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 600,azumanga daioh,あずまんが大王,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 601,azur lane,アズールレーン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
@@ -607,172 +607,172 @@
 605,baby bottle,哺乳瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
 606,babydoll,ベビードール,服装・装飾,下着,,[],verified,2,verified,verified
 607,back,背中,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-608,back bow,背中側のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-609,back cutout,背中の開き,服装・装飾,衣服,,[],verified,,unreviewed,verified
-610,back focus,背中を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+608,back bow,背中側のリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
+609,back cutout,背中の開き,服装・装飾,衣服,,[],verified,1,verified,verified
+610,back focus,背中を強調した構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 611,back tattoo,バックタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 612,back-print panties,バックプリントパンティー,服装・装飾,下着,,[],verified,3,verified,verified
-613,back-seamed legwear,後ろ縫い目入りのレッグウェア,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-614,back-to-back,背中合わせ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-615,backbeako (torotei),Backbeako（Torotei／固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
+613,back-seamed legwear,後ろ縫い目入りのレッグウェア,服装・装飾,靴・履物,,[],verified,0,verified,verified
+614,back-to-back,背中合わせ,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+615,backbeako (torotei),Backbeako（Torotei／固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 616,backboob,裏乳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-617,backless dress,背中の開いたドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-618,backless leotard,背中の開いたレオタード,服装・装飾,衣服,,[],verified,,unreviewed,verified
-619,backless outfit,背中の開いた服装,服装・装飾,衣服,,[],verified,,unreviewed,verified
-620,backless swimsuit,背中の開いた水着,服装・装飾,水着,,[],verified,,unreviewed,verified
+617,backless dress,背中の開いたドレス,服装・装飾,衣服,,[],verified,1,verified,verified
+618,backless leotard,背中の開いたレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
+619,backless outfit,背中の開いた服装,服装・装飾,衣服,,[],verified,0,verified,verified
+620,backless swimsuit,背中の開いた水着,服装・装飾,水着,,[],verified,1,verified,verified
 621,backlight,逆光,光・演出,照明・光源,,[],verified,0,verified,verified
 622,backlighting,逆光,光・演出,照明・光源,,[],verified,0,verified,verified
 623,backpack,リュック,服装・装飾,装飾品,,[],verified,0,verified,verified
-624,backwards hat,後ろ向きにかぶった帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
+624,backwards hat,後ろ向きにかぶった帽子,服装・装飾,衣服,,[],verified,0,verified,verified
 625,bacon,ベーコン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-626,bad anatomy,人体構造の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
-627,bad end,バッドエンド,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-628,bad feet,足の描写の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
-629,bad food,不味い食べ物,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-630,bad hands,手の描写の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
-631,bad perspective,パースの破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
-632,bad proportions,身体の比率の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
+626,bad anatomy,人体構造の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
+627,bad end,バッドエンド,状態・状況,状態・変化,,[],verified,0,verified,verified
+628,bad feet,足の描写の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
+629,bad food,不味い食べ物,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+630,bad hands,手の描写の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
+631,bad perspective,パースの破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
+632,bad proportions,身体の比率の破綻,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
 633,badge,バッジ,服装・装飾,装飾品,,[],verified,0,verified,verified
 634,bag,バッグ,服装・装飾,装飾品,,[],verified,0,verified,verified
 635,bag charm,バッグチャーム,服装・装飾,衣服,,[],verified,0,verified,verified
-636,bag of chips,ポテトチップスの袋,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-637,bagged fish,袋に入った魚,生物・動植物,動物,,[],verified,,unreviewed,verified
-638,baggy clothes,ゆったりした服,服装・装飾,衣服,,[],verified,,unreviewed,verified
-639,baggy pants,ゆったりしたズボン,服装・装飾,衣服,,[],verified,,unreviewed,verified
-640,bags under eyes,目の下のクマ,顔・表情,目,,[],verified,,unreviewed,verified
+636,bag of chips,ポテトチップスの袋,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+637,bagged fish,袋に入った魚,生物・動植物,動物,,[],verified,0,verified,verified
+638,baggy clothes,ゆったりした服,服装・装飾,衣服,,[],verified,0,verified,verified
+639,baggy pants,ゆったりしたズボン,服装・装飾,衣服,,[],verified,0,verified,verified
+640,bags under eyes,目の下のクマ,顔・表情,目,,[],verified,0,verified,verified
 641,baguette,バゲット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 642,bai lao shu,バイラオシュ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 643,bakemonogatari,化物語,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-644,baking,焼き菓子作り,動作・接触,身体動作,,[],verified,,unreviewed,verified
-645,bakugou katsuki (My Hero Academia),爆豪勝己,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+644,baking,焼き菓子作り,動作・接触,身体動作,,[],verified,0,verified,verified
+645,bakugou katsuki (My Hero Academia),爆豪勝己,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 646,balance scale,天秤ばかり,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-647,balancing,バランスを取る,動作・接触,身体動作,,[],verified,,unreviewed,verified
+647,balancing,バランスを取る,動作・接触,身体動作,,[],verified,0,verified,verified
 648,balcony,ベランダ,背景・場所,自然・風景,,[],verified,0,verified,verified
-649,bald,禿頭,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+649,bald,禿頭,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 650,ball,ボール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-651,ball and chain (weapon),モーニングスター（鎖付き鉄球）,家具・設備・物品,武器,,[],verified,,unreviewed,verified
-652,ball and chain restraint,鎖付き鉄球の拘束具,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+651,ball and chain (weapon),モーニングスター（鎖付き鉄球）,家具・設備・物品,武器,,[],verified,0,verified,verified
+652,ball and chain restraint,鎖付き鉄球の拘束具,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 653,ballerina,バレリーナ,人物の特徴,人物属性,,[],verified,0,verified,verified
 654,ballet,バレエ,動作・接触,身体動作,,[],verified,0,verified,verified
-655,ballet slippers,バレエシューズ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
+655,ballet slippers,バレエシューズ,服装・装飾,靴・履物,,[],verified,0,verified,verified
 656,balloon,風船,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 657,baltimore (azur lane),ボルチモア（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 658,bamboo,竹,背景・場所,自然・風景,,[],verified,0,verified,verified
 659,bamboo broom,竹のほうき,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 660,bamboo forest,竹林,背景・場所,自然・風景,,[],verified,0,verified,verified
-661,bamboo shoot,タケノコ,生物・動植物,植物,,[],verified,,unreviewed,verified
-662,bamboo steamer,蒸籠（せいろ）,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-663,ban! (bansankan),Ban!（Bansankan／固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
+661,bamboo shoot,タケノコ,生物・動植物,植物,,[],verified,0,verified,verified
+662,bamboo steamer,蒸籠（せいろ）,家具・設備・物品,日用品,,[],verified,0,verified,verified
+663,ban! (bansankan),Ban!（Bansankan／固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 664,banana,バナナ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 665,banana peel,バナナの皮,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 666,band uniform,バンドユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
 667,bandage,包帯,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-668,bandage on face,顔に巻いた包帯,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+668,bandage on face,顔に巻いた包帯,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 669,bandage over one eye,片目の包帯,顔・表情,目,,[],verified,0,verified,verified
-670,bandaged arm,包帯を巻いた腕,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-671,bandaged chest,胸に巻いた包帯,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+670,bandaged arm,包帯を巻いた腕,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+671,bandaged chest,胸に巻いた包帯,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 672,bandaged fingers,包帯を巻いた指,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-673,bandaged foot,包帯を巻いた足,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+673,bandaged foot,包帯を巻いた足,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 674,bandaged hand,包帯を巻いた手,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-675,bandaged head,包帯を巻いた頭,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-676,bandaged leg,包帯を巻いた脚,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-677,bandaged neck,包帯を巻いた首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-678,bandaged wrist,包帯を巻いた手首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+675,bandaged head,包帯を巻いた頭,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+676,bandaged leg,包帯を巻いた脚,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+677,bandaged neck,包帯を巻いた首,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+678,bandaged wrist,包帯を巻いた手首,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 679,bandages,包帯,服装・装飾,装飾品,,[],verified,0,verified,verified
 680,bandaid,絆創膏,服装・装飾,装飾品,,[],verified,0,verified,verified
-681,bandaid hair ornament,絆創膏の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-682,bandaid on arm,腕の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-683,bandaid on cheek,頬の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-684,bandaid on face,顔の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-685,bandaid on forehead,額の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-686,bandaid on hand,手の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-687,bandaid on head,頭の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-688,bandaid on knee,膝の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-689,bandaid on leg,脚の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-690,bandaid on neck,首の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-691,bandaid on nose,鼻の絆創膏,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-692,bandaid on thigh,太ももの絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-693,bandaids on nipples,乳首に貼った絆創膏,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
+681,bandaid hair ornament,絆創膏の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+682,bandaid on arm,腕の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+683,bandaid on cheek,頬の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+684,bandaid on face,顔の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+685,bandaid on forehead,額の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+686,bandaid on hand,手の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+687,bandaid on head,頭の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+688,bandaid on knee,膝の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+689,bandaid on leg,脚の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+690,bandaid on neck,首の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+691,bandaid on nose,鼻の絆創膏,顔・表情,顔・表情,,[],verified,0,verified,verified
+692,bandaid on thigh,太ももの絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+693,bandaids on nipples,乳首に貼った絆創膏,服装・装飾,装飾品,,[],verified,3,verified,needs-review
 694,bandana,バンダナ,服装・装飾,衣服,,[],verified,0,verified,verified
-695,bandana around neck,首に巻いたバンダナ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-696,bandeau,バンドゥトップ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+695,bandana around neck,首に巻いたバンダナ,服装・装飾,装飾品,,[],verified,0,verified,verified
+696,bandeau,バンドゥトップ,服装・装飾,衣服,,[],verified,1,verified,verified
 697,bandolier,弾帯,服装・装飾,装備・防具,,[],verified,0,verified,verified
-698,bang dream!,BanG Dream!（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,"[""バンドリ！""]",verified,,unreviewed,verified
-699,bangboo (zenless zone zero),ボンプ（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+698,bang dream!,BanG Dream!（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,"[""バンドリ！""]",verified,0,verified,verified
+699,bangboo (zenless zone zero),ボンプ（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 700,bangle,バングル,服装・装飾,装飾品,,[],verified,0,verified,verified
 701,bangs pinned back,前髪上げ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 702,banknote,お札,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-703,banner,横断幕・バナー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-704,baobhan sith (fate),バーヴァン・シー（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+703,banner,横断幕・バナー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+704,baobhan sith (fate),バーヴァン・シー（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 705,baozi,包子（中華まん）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 706,bar (place),バー（場所）,背景・場所,建築・構造物,,[],verified,0,verified,verified
-707,bar censor,棒状の検閲線,光・演出,演出効果,,[],verified,,unreviewed,verified
-708,bar stool,バースツール,家具・設備・物品,家具,,[],verified,,unreviewed,verified
-709,bara,男性同士の恋愛・男性向け作品（薔薇）,画風・描写,画風・表現様式,,[],verified,,unreviewed,needs-review
-710,barbara (genshin impact),バーバラ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+707,bar censor,棒状の検閲線,光・演出,演出効果,,[],verified,0,verified,verified
+708,bar stool,バースツール,家具・設備・物品,家具,,[],verified,0,verified,verified
+709,bara,男性同士の恋愛・男性向け作品（薔薇）,画風・描写,画風・表現様式,,[],verified,0,verified,needs-review
+710,barbara (genshin impact),バーバラ（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 711,barbed wire,有刺鉄線,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-712,barbell piercing,バーベル型ピアス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+712,barbell piercing,バーベル型ピアス,服装・装飾,装飾品,,[],verified,0,verified,verified
 713,barcode,バーコード,文字・記号,記号・図形,,[],verified,0,verified,verified
-714,barcode tattoo,バーコードのタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-715,bardiche (nanoha),バルディッシュ（魔法少女リリカルなのは）,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
-716,bare arms,腕を露出した,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
+714,barcode tattoo,バーコードのタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+715,bardiche (nanoha),バルディッシュ（魔法少女リリカルなのは）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+716,bare arms,腕を露出した,服装・装飾,肌の露出,,[],verified,1,verified,verified
 717,bare back,裸の背中,服装・装飾,肌の露出,,[],verified,0,verified,verified
-718,bare hips,腰を露出した,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
-719,bare legs,脚を露出した,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
+718,bare hips,腰を露出した,服装・装飾,肌の露出,,[],verified,1,verified,verified
+719,bare legs,脚を露出した,服装・装飾,肌の露出,,[],verified,1,verified,verified
 720,bare pectorals,裸の胸,服装・装飾,肌の露出,,[],verified,0,verified,verified
 721,bare shoulders,肩出し,服装・装飾,肌の露出,,[],verified,1,verified,verified
 722,bare tree,裸の木,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 723,barefoot,裸足,服装・装飾,衣服,,[],verified,0,verified,verified
-724,barefoot sandals (jewelry),足用アクセサリー（裸足風サンダル）,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-725,barghest (fate),バーゲスト（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-726,barnaby brooks jr. (Tiger & Bunny),バーナビー・ブルックス Jr.（TIGER & BUNNY）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-727,baroque,バロック様式,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
+724,barefoot sandals (jewelry),足用アクセサリー（裸足風サンダル）,服装・装飾,装飾品,,[],verified,0,verified,verified
+725,barghest (fate),バーゲスト（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+726,barnaby brooks jr. (Tiger & Bunny),バーナビー・ブルックス Jr.（TIGER & BUNNY）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+727,baroque,バロック様式,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 728,barrel,樽,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 729,bartender,バーテンダー,人物の特徴,人物属性,,[],verified,0,verified,verified
 730,baseball,野球,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-731,baseball (object),野球ボール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
+731,baseball (object),野球ボール,家具・設備・物品,道具,,[],verified,0,verified,verified
 732,baseball bat,野球用バット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 733,baseball cap,野球帽,服装・装飾,衣服,,[],verified,0,verified,verified
-734,baseball mitt,野球用ミット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+734,baseball mitt,野球用ミット,服装・装飾,装備・防具,,[],verified,0,verified,verified
 735,baseball uniform,野球のユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
-736,basil (faraway) (omori),バジル（遠い町／OMORI）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+736,basil (faraway) (omori),バジル（遠い町／OMORI）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 737,basil (omori),バジル（オモリ）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 738,basket,バスケット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 739,basketball,バスケットボール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-740,basketball (object),バスケットボール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
+740,basketball (object),バスケットボール,家具・設備・物品,道具,,[],verified,0,verified,verified
 741,basketball uniform,バスケットボールユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
-742,bass clef,ヘ音記号,文字・記号,記号・図形,,[],verified,,unreviewed,verified
+742,bass clef,ヘ音記号,文字・記号,記号・図形,,[],verified,0,verified,verified
 743,bass guitar,ベースギター,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-744,bat (animal),コウモリ,生物・動植物,動物,,[],verified,,unreviewed,verified
+744,bat (animal),コウモリ,生物・動植物,動物,,[],verified,0,verified,verified
 745,bat ears,コウモリの耳,人物の特徴,人物属性,,[],verified,0,verified,verified
 746,bat girl,コウモリ娘,人物の特徴,人物属性,,[],verified,0,verified,verified
 747,bat hair ornament,コウモリの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
-748,bat print,コウモリ柄,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
+748,bat print,コウモリ柄,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 749,bat wings,コウモリの翼,生物・動植物,動物,,[],verified,0,verified,verified
 750,bath,お風呂,背景・場所,建築・構造物,,[],verified,0,verified,verified
-751,bath stool,風呂用椅子,家具・設備・物品,家具,,[],verified,,unreviewed,verified
-752,bath yukata,湯上がり浴衣,服装・装飾,衣服,,[],verified,,unreviewed,verified
+751,bath stool,風呂用椅子,家具・設備・物品,家具,,[],verified,0,verified,verified
+752,bath yukata,湯上がり浴衣,服装・装飾,衣服,,[],verified,0,verified,verified
 753,bathhouse,浴場,背景・場所,建築・構造物,,[],verified,0,verified,verified
 754,bathing,入浴,動作・接触,身体動作,,[],verified,0,verified,verified
 755,bathrobe,バスローブ,服装・装飾,衣服,,[],verified,0,verified,verified
-756,bathroom,浴室,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
+756,bathroom,浴室,背景・場所,場所・室内外,,[],verified,0,verified,verified
 757,bathtub,バスタブ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 758,batman (series),バットマン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 759,baton (weapon),バトン（武器）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-760,battery indicator,バッテリー残量表示,文字・記号,記号・図形,,[],verified,,unreviewed,verified
+760,battery indicator,バッテリー残量表示,文字・記号,記号・図形,,[],verified,0,verified,verified
 761,battle,戦い,動作・接触,身体動作,,[],verified,0,verified,verified
-762,battle axe,戦斧,家具・設備・物品,武器,,[],verified,,unreviewed,verified
+762,battle axe,戦斧,家具・設備・物品,武器,,[],verified,0,verified,verified
 763,battle rifle,バトルライフル,家具・設備・物品,武器,,[],verified,0,verified,verified
-764,battle tendency,ジョジョの奇妙な冒険 第2部 戦闘潮流（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+764,battle tendency,ジョジョの奇妙な冒険 第2部 戦闘潮流（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 765,battleship,戦艦,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-766,battleship princess (Kantai Collection),戦艦棲姫（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+766,battleship princess (Kantai Collection),戦艦棲姫（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 767,bayonet,銃剣,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 768,bayonetta (Bayonetta),ベヨネッタ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 769,bayonetta (series),ベヨネッタ（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 770,bb (baalbuddy),BB（Baalbuddy）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 771,bb (fate),BB（Fate）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-772,bb (fate/extra),BB（Fate/EXTRA）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-773,bb (swimsuit mooncancer) (fate),BB〔水着／ムーンキャンサー〕（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+772,bb (fate/extra),BB（Fate/EXTRA）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+773,bb (swimsuit mooncancer) (fate),BB〔水着／ムーンキャンサー〕（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 774,bc freedom military uniform,BC自由学園の軍服,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 775,bea (pokemon),サイトウ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 776,beach,海辺,背景・場所,自然・風景,,[],verified,0,verified,verified
@@ -782,7 +782,7 @@
 780,beach umbrella,ビーチパラソル,背景・場所,自然・風景,,[],verified,0,verified,verified
 781,beachball,ビーチボール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 782,bead bracelet,ビーズブレスレット,服装・装飾,装飾品,,[],verified,0,verified,verified
-783,bead necklace,ビーズのネックレス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+783,bead necklace,ビーズのネックレス,服装・装飾,装飾品,,[],verified,0,verified,verified
 784,beads,ビーズ,服装・装飾,装飾品,,[],verified,0,verified,verified
 785,beak,くちばし,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 786,beam rifle,ビームライフル,家具・設備・物品,武器,,[],verified,0,verified,verified
