@@ -1,0 +1,61 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "ar tonelico",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "日本語名「アルトネリコ」は把握できるが、タグがゲームシリーズ単体か複数媒体を含むシリーズ全体か、公式情報で確定できていないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "arm wrap",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "腕に巻く布・包帯・衣類のいずれを指すか、タグ単体では用途を確定できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "as109",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "作者名タグと考えられるが、日本語での正式表記・読みを信頼できる情報源で確認できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "asamura hiori",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "固有名詞の日本語表記・人物の特定を確認できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "asaya minoru",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "固有名詞の日本語表記・人物の特定を確認できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "asteroid ill",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "作者名等の固有名詞とみられるが、正式表記・読みを確認できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "atou haruki",
+      "set": {
+        "translationStatus": "needs-review",
+        "translationReviewNote": "固有名詞の日本語表記・人物の特定を確認できないため要確認。",
+        "translationReviewedAt": "2026-11-09"
+      }
+    }
+  ]
+}
