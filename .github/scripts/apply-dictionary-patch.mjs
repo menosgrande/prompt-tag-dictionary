@@ -74,7 +74,7 @@ function validatePatch(patch, byTag) {
     }
     const fields = Object.keys(values);
     if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource", "classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field))) {
-      throw new Error("Unsupported patch fields; allowed fields are ja, major, minor, candidateJa, and translation review metadata: " + operation.tag);
+      throw new Error("Unsupported patch fields in dictionary patch: " + operation.tag);
     }
 
     for (const field of fields) {
@@ -242,7 +242,6 @@ export function applyPatchData(inputData, patch) {
   for (const { row, tag, values } of prepared) {
     for (const field of Object.keys(values)) {
       if (["candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource", "classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field)) {
-        if (!isRecord(row[6].translation)) row[6].translation = {};
         if (["classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field)) {
           if (!isRecord(row[6].classificationReview)) row[6].classificationReview = {};
           const reviewField = field === "classificationReviewStatus" ? "status"
