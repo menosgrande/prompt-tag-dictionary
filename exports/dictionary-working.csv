@@ -1668,7 +1668,7 @@
 1666,cauldron,大釜,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1667,caustics,コースティクス（光の集光模様）,光・演出,照明・光源,,[],machine-translation,,unreviewed,verified
 1668,caution tape,注意テープ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1669,cave,洞窟,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,provisional
+1669,cave,洞窟,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,verified
 1670,cd,CD（コンパクトディスク）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1671,ceiling,天井,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1672,ceiling light,シーリングライト,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -1677,9 +1677,9 @@
 1675,cellphone charm,携帯電話のストラップチャーム,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1676,cellphone photo,携帯電話で撮影した写真,構図・カメラ,撮影距離,,[],verified,,unreviewed,unreviewed
 1677,censored,検閲済み,状態・状況,状態・変化,,[],verified,0,verified,verified
-1678,censored identity,身元を隠す検閲,光・演出,演出効果,,[],needs-review,,unreviewed,provisional
+1678,censored identity,身元を隠す検閲,光・演出,演出効果,,[],needs-review,,unreviewed,verified
 1679,censored nipples,検閲された乳首,服装・装飾,肌の露出,,[],verified,1,verified,verified
-1680,censored text,検閲されたテキスト,光・演出,演出効果,,[],unreviewed,,unreviewed,provisional
+1680,censored text,検閲されたテキスト,光・演出,演出効果,,[],unreviewed,,unreviewed,verified
 1681,centaur,ケンタウロス,人物の特徴,人物属性,,[],verified,0,verified,verified
 1682,centauroid,ケンタウロス型の人型生物,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1683,center frills,センターフリル,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1688,13 +1688,13 @@
 1686,centered,中央構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1687,centipede,ムカデ,生物・動植物,動物,,[],verified,0,verified,verified
 1688,cephalopod eyes,頭足類の目,顔・表情,目,,[],verified,0,verified,verified
-1689,ceres fauna (Hololive),セレス・ファウナ（ホロライブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,needs-review
-1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1689,ceres fauna (Hololive),セレス・ファウナ（ホロライブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1691,cervix,子宮頸部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],machine-translation,,unreviewed,needs-review
+1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],machine-translation,,unreviewed,verified
 1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,"[""チェビオ""]",verified,0,verified,verified
 1694,chain,鎖,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1696,chain leash,チェーンリーシュ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1697,chain necklace,チェーンネックレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1698,chain-link fence,金網フェンス,背景・場所,建築・構造物,,[],verified,0,verified,verified
@@ -1702,7 +1702,7 @@
 1700,chained wrists,鎖でつながれた手首,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 1701,chainmail,チェーンメール,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1702,chainsaw,チェーンソー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1703,chainsaw man,チェンソーマン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,provisional
+1703,chainsaw man,チェンソーマン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
 1704,chair,椅子,家具・設備・物品,家具,,[],verified,0,verified,verified
 1705,chakram,チャクラム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1706,chaldea logo,Chaldeaロゴ,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1716,8 +1716,8 @@
 1714,chan co,ちゃんこ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 1715,chandelier,シャンデリア,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1716,chando (ado),チャンド,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,needs-review
-1717,changli (wuthering waves),長離（鳴潮）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1718,changpao,長袍,服装・装飾,衣服,,[],verified,0,verified,needs-review
+1717,changli (wuthering waves),長離（鳴潮）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1718,changpao,長袍,服装・装飾,衣服,,[],verified,0,verified,verified
 1719,chanta (ayatakaoisii),チャンタ（ayatakaoisii）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,needs-review
 1720,chaps,チャップス,服装・装飾,衣服,,[],verified,0,verified,verified
 1721,character age,キャラクターの年齢,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -1730,14 +1730,14 @@
 1728,character profile,キャラクター紹介欄,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 1729,character signature,キャラクターの署名,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 1730,charizard (Pokémon),リザードン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-1731,charlotte (madoka magica),お菓子の魔女（魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1732,charlotte e. yeager (Strike Witches),シャーロット・E・イェーガー（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
-1733,charm (object),お守り・チャーム,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
+1731,charlotte (madoka magica),お菓子の魔女（魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1732,charlotte e. yeager (Strike Witches),シャーロット・E・イェーガー（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1733,charm (object),お守り・チャーム,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 1734,chart,図表,文字・記号,記号・図形,,[],verified,0,verified,verified
 1735,chasing,追いかける,動作・接触,身体動作,,[],machine-translation,,unreviewed,unreviewed
 1736,chastity cage,貞操ケージ,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 1737,chat log,チャットログ,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-1738,cheating (relationship),浮気,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
+1738,cheating (relationship),浮気,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 1739,checkerboard cookie,チェッカーボードクッキー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1740,checkered background,チェック柄の背景,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 1741,checkered bow,チェック柄のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
@@ -1746,7 +1746,7 @@
 1744,checkered flag,チェッカーフラグ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1745,checkered floor,チェック柄の床,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 1746,checkered kimono,市松模様の着物,服装・装飾,衣服,,[],verified,0,verified,verified
-1747,checkered necktie,チェッカーネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+1747,checkered necktie,チェッカーネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 1748,checkered sash,チェック柄のサッシュ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1749,checkered scarf,チェック柄マフラー,服装・装飾,衣服,,[],verified,0,verified,verified
 1750,checkered shirt,チェック柄のシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -1766,7 +1766,7 @@
 1764,chef hat,コック帽,服装・装飾,衣服,,[],verified,0,verified,verified
 1765,chemical structure,構造式,文字・記号,記号・図形,,[],verified,0,verified,verified
 1766,chemise,シュミーズ,服装・装飾,衣服,,[],verified,0,verified,verified
-1767,chen (Touhou Project),チェン,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,needs-review
+1767,chen (Touhou Project),チェン,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 1768,cherry,チェリー,生物・動植物,植物,,[],verified,0,verified,verified
 1769,cherry blossom print,桜柄,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1770,cherry blossoms,桜,生物・動植物,植物,,[],verified,0,verified,verified
@@ -1776,13 +1776,13 @@
 1774,chessboard,チェス盤,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1775,chest belt,胸部ベルト,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1776,chest hair,胸毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1777,chest harness,チェストハーネス,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
-1778,chest jewel,胸元の宝石,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1779,chest of drawers,チェスト,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
-1780,chest sarashi,胸に巻いたさらし,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1781,chest strap,胸部ストラップ,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1782,chest tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1783,chest tuft,胸元の毛束,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1777,chest harness,チェストハーネス,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,verified
+1778,chest jewel,胸元の宝石,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1779,chest of drawers,チェスト,家具・設備・物品,家具,,[],unreviewed,,unreviewed,verified
+1780,chest sarashi,胸に巻いたさらし,服装・装飾,下着,,[],verified,,unreviewed,verified
+1781,chest strap,胸部ストラップ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1782,chest tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+1783,chest tuft,胸元の毛束,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1784,chestnut mouth,栗形の口,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 1785,cheval grand (umamusume),シュヴァルグラン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 1786,chewing,噛む,動作・接触,身体動作,,[],verified,0,verified,verified
@@ -1803,14 +1803,14 @@
 1801,chikan,痴漢,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 1802,chikuwa.,チクワ。,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 1803,child,子供,人物の特徴,人物属性,,[],verified,0,verified,verified
-1804,child carry,子供を抱きかかえる,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+1804,child carry,子供を抱きかかえる,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 1805,chili pepper,唐辛子,背景・場所,自然・風景,,[],verified,0,verified,verified
 1806,chimera,キメラ,生物・動植物,動物,,[],verified,0,verified,verified
 1807,chimney,煙突,背景・場所,建築・構造物,,[],verified,0,verified,verified
 1808,chin strap,あご紐,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1809,china dress,チャイナドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1810,chinese clothes,中国風の服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1811,chinese hairpin,中国風のかんざし,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1811,chinese hairpin,中国風のかんざし,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1812,chinese knot,中国結び,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1813,chinese new year,春節,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1814,chinese text,中国語の文字,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
@@ -1824,22 +1824,22 @@
 1822,chocolate bar,板チョコ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1823,chocolate cake,チョコケーキ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1824,chocolate making,チョコレート作り,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-1825,chocolate on body,身体に付いたチョコレート,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1825,chocolate on body,身体に付いたチョコレート,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1826,chocolate on breasts,胸に付いたチョコレート,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
 1827,choke hold,チョークホールド,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-1828,choker,チョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
-1829,choko (cup),猪口,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,provisional
+1828,choker,チョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+1829,choko (cup),猪口,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
 1830,chongyun (genshin impact),重雲（原神）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1831,choppy bangs,不揃いに切った前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1832,chopsticks,箸,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1833,choufu shimin,調布市民,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-1834,choukai (kancolle),鳥海（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1835,chouzetsusaikawa tenshi-chan (NEEDY GIRL OVERDOSE),超絶最かわてんしちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,needs-review
-1836,christmas,クリスマス,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,provisional
-1837,christmas lights,クリスマスイルミネーション,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
-1838,christmas ornaments,クリスマスオーナメント,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
-1839,christmas present,クリスマスプレゼント,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,provisional
-1840,christmas stocking,クリスマス用の靴下,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
+1834,choukai (kancolle),鳥海（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1835,chouzetsusaikawa tenshi-chan (NEEDY GIRL OVERDOSE),超絶最かわてんしちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+1836,christmas,クリスマス,状態・状況,時間・前後関係,,[],unreviewed,,unreviewed,verified
+1837,christmas lights,クリスマスイルミネーション,光・演出,照明・光源,,[],verified,,unreviewed,verified
+1838,christmas ornaments,クリスマスオーナメント,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+1839,christmas present,クリスマスプレゼント,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
+1840,christmas stocking,クリスマス用の靴下,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 1841,christmas tree,クリスマスツリー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1842,chromatic aberration,色収差,画風・描写,描画技法,,[],verified,0,verified,verified
 1843,chrysanthemum,菊,生物・動植物,植物,,[],verified,0,verified,verified
@@ -1871,7 +1871,7 @@
 1869,classroom,教室,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1870,claw (weapon),爪（武器）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1871,claw pose,爪を立てたポーズ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-1872,claw ring,爪型の指輪,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1872,claw ring,爪型の指輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1873,clawed gauntlets,爪付きガントレット,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 1874,claws,爪,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1875,claymation,クレイアニメ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
@@ -1880,24 +1880,24 @@
 1878,cleaning rag,ぞうきん,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1879,clear sky,晴天,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 1880,clearite,クリアライト,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-1881,cleavage,谷間,人物の特徴,身体部位・身体状態,,[],verified,2,verified,provisional
-1882,cleavage cutout,胸元の開き・カットアウト,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1881,cleavage,谷間,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+1882,cleavage cutout,胸元の開き・カットアウト,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1883,cleaver,肉切り包丁,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1884,cleft of venus,ヴィーナスのえくぼ,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-1885,clenched hand,握りこぶし,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
-1886,clenched hands,握りしめた両手,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+1885,clenched hand,握りこぶし,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
+1886,clenched hands,握りしめた両手,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 1887,clenched teeth,歯を食いしばった表情,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1888,cliff,崖,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1889,climbing,クライミング,動作・接触,身体動作,,[],verified,0,verified,verified
 1890,clipboard,クリップボード,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1891,clitoral hood,クリトリス包皮,人物の特徴,身体部位・身体状態,,[],verified,4,verified,verified
 1892,clitoral stimulation,クリトリス刺激,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-1893,cloak,マント,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
-1894,clock,時計,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,provisional
+1893,cloak,マント,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+1894,clock,時計,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
 1895,clock eyes,時計の目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-1896,clock tower,時計塔,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,provisional
+1896,clock tower,時計塔,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,verified
 1897,clone,分身,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-1898,clorinde (genshin impact),クロリンデ（原神）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
+1898,clorinde (genshin impact),クロリンデ（原神）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
 1899,close-up,クローズアップ,構図・カメラ,撮影距離,,[],verified,0,verified,verified
 1900,closed eyes,閉じた目,顔・表情,目,,[],verified,0,verified,verified
 1901,closed mouth,口を閉じた状態,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
@@ -1920,7 +1920,7 @@
 1918,clothes grab,服をつかむ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1919,clothes hanger,衣類用ハンガー,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1920,clothes in mouth,口にくわえた服,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-1921,clothes lift,服を持ち上げる,動作・接触,衣服への接触,,[],verified,,unreviewed,provisional
+1921,clothes lift,服を持ち上げる,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
 1922,clothes pin,洗濯ばさみ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1923,clothes pull,服を引っ張る,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
@@ -1929,9 +1929,9 @@
 1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 1928,clothing aside,ずらされた衣服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
-1930,cloud,雲,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,provisional
-1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,,unreviewed,provisional
-1932,cloud strife,クラウド・ストライフ,背景・場所,自然・風景,,[],machine-translation,,unreviewed,needs-review
+1930,cloud,雲,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,verified
+1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,,unreviewed,needs-review
+1932,cloud strife,クラウド・ストライフ,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
 1933,clouds,雲,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
 1934,cloudy,曇り,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
 1935,cloudy sky,曇り空,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
@@ -1968,7 +1968,7 @@
 1966,coin,コイン,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 1967,coin hair ornament,コイン型の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1968,coin on string,紐に通したコイン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1969,coin purse,小銭入れ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+1969,coin purse,小銭入れ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 1970,coke-bottle glasses,瓶底眼鏡,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 1972,cold,寒さ,状態・状況,状態・変化,,[],verified,,unreviewed,verified
@@ -1981,24 +1981,24 @@
 1979,collared dress,襟付きドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1980,collared jacket,襟付きジャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1981,collared shirt,襟付きシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1982,collared vest,襟付きベスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
+1982,collared vest,襟付きベスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
 1983,colonel aki,Colonel Aki（コロネル・アキ）,キャラクター・作品,作者・配信者,,"[""Colonel Aki"",""コロネルアキ""]",verified,,unreviewed,unreviewed
 1984,color connection,色による関連付け,光・演出,色調・色彩,,[],verified,,unreviewed,unreviewed
-1985,color guide,カラーガイド,画風・描写,描画技法,,[],verified,,unreviewed,provisional
-1986,color trace,色トレス,画風・描写,描画技法,,[],verified,,unreviewed,provisional
+1985,color guide,カラーガイド,画風・描写,描画技法,,[],verified,,unreviewed,verified
+1986,color trace,色トレス,画風・描写,描画技法,,[],verified,,unreviewed,verified
 1987,colored extremities,手足の先端に色を付けた表現,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 1988,colored eyelashes,まつげ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1989,colored inner animal ears,色付きの動物耳の内側,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1990,colored inner hair,インナーカラー,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-1991,colored nipples,色付きの乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1991,colored nipples,色付きの乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1992,colored sclera,強膜に色を付けた表現,顔・表情,目,,[],verified,,unreviewed,unreviewed
 1993,colored shadow,色付きの影,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
-1994,colored shoe soles,靴底,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
-1995,colored skin,色付きの肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1994,colored shoe soles,靴底,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
+1995,colored skin,色付きの肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1996,colored speech bubble,色付きの吹き出し,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 1997,colored tips,毛先の色,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1998,colored tongue,色付きの舌,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1999,colorful,カラフルな配色,光・演出,色調・色彩,,[],needs-review,,unreviewed,provisional
+1999,colorful,カラフルな配色,光・演出,色調・色彩,,[],needs-review,,unreviewed,verified
 2000,column,柱,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 2001,column lineup,縦列配置,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2002,comb,櫛,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
@@ -2019,13 +2019,13 @@
 2017,compass,方位磁針,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2018,competition school swimsuit,競泳用スクール水着,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2019,competition swimsuit,競泳水着,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2020,completely nude,完全な裸体,服装・装飾,裸体・露出,,[],verified,3,verified,provisional
+2020,completely nude,完全な裸体,服装・装飾,裸体・露出,,[],verified,3,verified,verified
 2021,compound eyes,複眼,顔・表情,目,,[],verified,,unreviewed,verified
-2022,computer,コンピューター,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,provisional
-2023,computer keyboard,コンピューターキーボード,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,provisional
+2022,computer,コンピューター,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
+2023,computer keyboard,コンピューターキーボード,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
 2024,computer mouse,コンピューターマウス,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 2025,concept art,コンセプトアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-2026,concert,コンサート,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,provisional
+2026,concert,コンサート,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,verified
 2027,concrete,コンクリート,背景・場所,自然・風景,,[],needs-review,,unreviewed,verified
 2028,condensation,結露,背景・場所,天候・時間帯,,[],needs-review,,unreviewed,verified
 2029,conductor baton,指揮棒,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -2042,24 +2042,24 @@
 2040,content rating,コンテンツ評価,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 2041,contrail,飛行機雲,背景・場所,自然・風景,,[],verified,,unreviewed,verified
 2042,contrapposto,コントラポスト,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-2043,contrast,コントラスト,光・演出,影・陰影,,[],verified,,unreviewed,provisional
+2043,contrast,コントラスト,光・演出,影・陰影,,[],verified,,unreviewed,verified
 2044,controller,コントローラ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2045,convenience store,コンビニエンスストア,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,provisional
-2046,convenient arm,都合よく配置された腕,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2045,convenience store,コンビニエンスストア,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,verified
+2046,convenient arm,都合よく配置された腕,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2047,convenient censoring,都合のよい隠し方,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-2048,convenient leg,都合よく配置された脚,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2048,convenient leg,都合よく配置された脚,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2049,converse,コンバース,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 2050,cookie,クッキー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2051,cookie (touhou),クッキー☆（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,needs-review
 2052,cookie run,クッキーラン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 2053,cooking,料理,動作・接触,身体動作,,[],verified,,unreviewed,verified
 2054,cooking pot,調理鍋,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,,unreviewed,provisional
+2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,,unreviewed,verified
 2056,cooler,クーラー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2057,copy ability,コピー能力,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 2058,copyright name,著作権者名,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 2059,copyright notice,著作権表示,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2060,coral,サンゴ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,provisional
+2060,coral,サンゴ,生物・動植物,動物,,[],unreviewed,,unreviewed,verified
 2061,corded phone,有線電話,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2062,core crystal (xenoblade),コアクリスタル（ゼノブレイド）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 2063,cork,コルク,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
@@ -2067,11 +2067,11 @@
 2065,corpse,死体,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2066,corrin (female) (fire emblem),カムイ（女性・ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2067,corrin (fire emblem),カムイ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2068,corruption,堕落,状態・状況,状態・変化,,[],verified,,unreviewed,needs-review
+2068,corruption,堕落,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 2069,corsage,コサージュ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2070,corset,コルセット,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
+2070,corset,コルセット,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 2071,cosmetics,化粧品,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2072,cosplay,コスプレ,人物の特徴,人物属性,,[],unreviewed,,unreviewed,provisional
+2072,cosplay,コスプレ,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
 2073,costume,コスチューム,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2074,costume switch,衣装チェンジ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2075,cotton candy,綿菓子,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
@@ -2088,12 +2088,12 @@
 2086,cover art,カバーアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2089,covered abs,覆われた腹筋,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
+2089,covered abs,覆われた腹筋,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
 2090,covered collarbone,覆われた鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2091,covered eyes,覆われた目,顔・表情,目,,[],verified,,unreviewed,verified
 2092,covered face,顔を覆われた状態,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2093,covered mouth,覆われた口,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-2094,covered navel,覆われたへそ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
+2094,covered navel,覆われたへそ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
 2095,covered nipples,覆われた乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2096,covered penetration,覆われた挿入,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
 2097,covered testicles,覆われた睾丸,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
@@ -2109,14 +2109,14 @@
 2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
 2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,,unreviewed,unreviewed
 2109,cow,牛,生物・動植物,動物,,[],verified,,unreviewed,verified
-2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2111,cow ears,牛の耳,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
-2112,cow girl,牛の特徴を持つ女性,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+2112,cow girl,牛の特徴を持つ女性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2113,cow horns,牛の角,生物・動植物,動物,,[],verified,,unreviewed,verified
 2114,cow print,牛柄,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2115,cow print bikini,牛柄のビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2116,cow print gloves,牛柄の手袋,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2117,cow print thighhighs,牛柄のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+2117,cow print thighhighs,牛柄のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 2118,cow tail,牛の尻尾,生物・動植物,動物,,[],verified,,unreviewed,verified
 2119,cowbell,カウベル,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2120,cowboy boots,カウボーイブーツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
@@ -2126,10 +2126,10 @@
 2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
 2125,cowlick,アホ毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2126,crab,カニ,生物・動植物,動物,,[],verified,,unreviewed,verified
-2127,crack,ひび割れ,状態・状況,状態・変化,,[],verified,,unreviewed,provisional
+2127,crack,ひび割れ,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 2128,cracked floor,ひび割れた床,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 2129,cracked glass,ひび割れたガラス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2130,cracked skin,ひび割れた肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2130,cracked skin,ひび割れた肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2131,cracked wall,ひび割れた壁,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 2132,crane (animal),ツル,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2133,crane (machine),クレーン車,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -2152,7 +2152,7 @@
 2150,credits page,クレジットページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 2151,crepe,クレープ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2152,crescent,三日月,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2153,crescent earrings,三日月形のイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+2153,crescent earrings,三日月形のイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2154,crescent facial mark,三日月形の顔の模様,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 2155,crescent hair ornament,三日月形の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 2156,crescent hat ornament,三日月形の帽子飾り,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -2182,19 +2182,19 @@
 2180,cropped torso,胴体が画面外で切れた構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2181,cropped vest,短丈ベスト,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2182,cross,十字架,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2183,cross choker,クロスチョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
-2184,cross earrings,十字架のイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+2183,cross choker,クロスチョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+2184,cross earrings,十字架のイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2185,cross hair ornament,十字形の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 2186,cross necklace,十字架のネックレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2187,cross pasties,十字形ニップレス,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
 2188,cross print,十字柄,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2189,cross scar,十字傷,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2190,cross tie,クロスタイ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2191,cross-eyed,より目,顔・表情,目,,[],unreviewed,,unreviewed,provisional
+2191,cross-eyed,より目,顔・表情,目,,[],unreviewed,,unreviewed,verified
 2192,cross-laced clothes,編み上げの服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2193,cross-laced cutout,編み上げ状のカットアウト,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2194,cross-laced dress,編み上げドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2195,cross-laced footwear,編み上げの靴,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+2195,cross-laced footwear,編み上げの靴,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 2196,cross-laced legwear,編み上げレッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2197,cross-laced skirt,編み上げスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2198,cross-laced sleeves,編み上げ袖,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -2208,10 +2208,10 @@
 2206,crossed arms,腕を組む,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 2207,crossed bandaids,交差させて貼った絆創膏,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 2208,crossed bangs,交差した前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2209,crossed legs,脚を組む,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,provisional
-2210,crosshatching,クロスハッチング,画風・描写,描画技法,,[],verified,,unreviewed,provisional
+2209,crossed legs,脚を組む,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+2210,crosshatching,クロスハッチング,画風・描写,描画技法,,[],verified,,unreviewed,verified
 2211,crossover,クロスオーバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2212,crosswalk,横断歩道,背景・場所,建築・構造物,,[],verified,,unreviewed,provisional
+2212,crosswalk,横断歩道,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 2213,crotch,股間,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 2214,crotch cutout,股間の開口部,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2215,crotch focus,股間を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
@@ -2226,7 +2226,7 @@
 2224,crotchless pantyhose,クロッチレスパンスト,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 2225,crow,カラス,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2226,crowbar,バール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2227,crowd,群衆,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,provisional
+2227,crowd,群衆,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
 2228,crown,王冠,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 2229,crown braid,クラウンブレイド,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 2230,crt,ブラウン管,画風・描写,媒体,,[],verified,,unreviewed,unreviewed
@@ -2250,15 +2250,15 @@
 2248,cuirass,キュイラス,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 2249,cumdrip,精液が垂れる表現,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 2250,cumdump,肉便器,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-2251,cumulonimbus cloud,積乱雲,背景・場所,自然・風景,,[],verified,,unreviewed,provisional
-2252,cup,カップ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
-2253,cup ramen,カップ麺,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
+2251,cumulonimbus cloud,積乱雲,背景・場所,自然・風景,,[],verified,,unreviewed,verified
+2252,cup,カップ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+2253,cup ramen,カップ麺,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 2254,cupboard,食器棚,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
 2255,cupcake,カップケーキ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 2256,cupless bra,カップレスブラ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2257,cupping hands,両手で包み込む,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2257,cupping hands,両手で包み込む,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2258,cure peace (Smile Precure!),キュアピース,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2259,curled fingers,曲げた指,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2259,curled fingers,曲げた指,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2260,curled horns,巻いた角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2261,curled up,丸まった姿勢,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 2262,curly eyebrows,巻き眉,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
@@ -2272,14 +2272,14 @@
 2270,curtained hair,カーテンヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2271,curtains,カーテン,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
 2272,curtsey,カーテシー（お辞儀）,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2273,curvy,曲線的な体つき,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+2273,curvy,曲線的な体つき,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
 2274,cushion,クッション,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 2275,cut bangs,前髪を切る,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2276,cute,かわいい,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 2277,cute & girly (idolmaster),キュート＆ガーリー（アイドルマスター）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2278,cutesexyrobutts,Cutesexyrobutts（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 2279,cutoffs,カットオフ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2280,cutout above navel,へそ上のカットアウト,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+2280,cutout above navel,へそ上のカットアウト,服装・装飾,衣服,,[],verified,,unreviewed,verified
 2281,cuts,切り傷,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 2282,cutting,切る,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 2283,cutting board,まな板,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -2299,7 +2299,7 @@
 2297,d.va (overwatch),D.Va（オーバーウォッチ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2298,dagashi kashi,だがしかし,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 2299,dagasi,駄菓子,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-2300,dagger,短剣,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
+2300,dagger,短剣,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 2301,daidouji tomoyo (Cardcaptor Sakura),大道寺知世（カードキャプターさくら）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2302,dairi,内裏,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 2303,dairoku ryouhei,第六猟兵,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
@@ -2308,8 +2308,8 @@
 2306,daiwa scarlet (umamusume),ダイワスカーレット（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2307,daiyousei (Touhou Project),大妖精,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2308,dakimakura (medium),抱き枕（媒体）,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-2309,dakimakura (object),抱き枕,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
-2310,dalachi (headdress),大拉翅（清朝の女性用冠飾り）,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+2309,dakimakura (object),抱き枕,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+2310,dalachi (headdress),大拉翅（清朝の女性用冠飾り）,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2311,damaged,損傷した,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
 2312,dan heng (honkai: star rail),丹恒（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2313,dancer,踊り子,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
@@ -2329,7 +2329,7 @@
 2327,darjeeling (girls und panzer),ダージリン（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2328,dark,暗い,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
 2329,dark areolae,暗い色の乳輪,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-2330,dark aura,暗いオーラ,文字・記号,記号・図形,,[],verified,,unreviewed,provisional
+2330,dark aura,暗いオーラ,光・演出,演出効果,,[],verified,,unreviewed,verified
 2331,dark background,暗い背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
 2332,dark blue hair,髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2333,dark clouds,暗雲,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
