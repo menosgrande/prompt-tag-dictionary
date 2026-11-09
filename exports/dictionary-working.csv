@@ -21,7 +21,7 @@
 19,1koma,1コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 20,1other,その他の人物1人,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
 21,2000s (style),2000年代（スタイル）,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-22,22/7,ナナブンノニジュウニ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+22,22/7,22/7（ナナブンノニジュウニ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 23,2b (nier:automata),ヨルハ二号B型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 24,2b (nier:automata) (cosplay),2Bコス（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 25,2boys,男の子2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
@@ -70,14 +70,14 @@
 68,abukuma (kancolle),阿武隈（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 69,abuse,乱用,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
 70,abyssal ship,深海棲艦,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 72,accident,事故,状態・状況,状況・関係性,,[],verified,0,verified,verified
 73,accidental exposure,意図しない露出,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
 74,ace (playing card),トランプのエース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 75,ace attorney,逆転裁判（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
 76,ace of hearts,ハートのエース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 77,ace of spades,スペードのエース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-78,acheron (honkai: star rail),黄泉（スターレイル）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+78,acheron (honkai: star rail),黄泉（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 79,acorn,ドングリ,生物・動植物,植物,,[],verified,0,verified,verified
 80,acoustic guitar,アコースティックギター,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 81,ad,広告,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -155,13 +155,13 @@
 153,aircraft,航空機,乗り物,航空機,,[],verified,0,verified,verified
 154,airplane,飛行機,乗り物,航空機,,[],verified,0,verified,verified
 155,airship,飛行船,乗り物,航空機,,[],verified,0,verified,verified
-156,aisaka taiga (Toradora!),逢坂大河（とらドラ！）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+156,aisaka taiga (Toradora!),逢坂大河（とらドラ！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 157,ajirogasa,網代笠,服装・装飾,装飾品,,[],verified,0,verified,verified
 158,ak-47,AK-47（エーケー・フォーティーセブン）,家具・設備・物品,武器,,"[""AK-47"",""エーケー47"",""エーケーフォーティーセブン""]",verified,0,verified,verified
 159,akagi (azur lane),赤城（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 160,akagi (kancolle),赤城（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 161,akagi miria (The Idolmaster Cinderella Girls),赤城みりあ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-162,akai haato (Hololive),赤井はあと（ホロライブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+162,akai haato (Hololive),赤井はあと（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 163,akairiot,アカイオット,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 164,akamatsu kaede (Danganronpa V3),赤松楓,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 165,akanbe,あかんべえ,顔・表情,顔・表情,,[],verified,0,verified,verified
@@ -197,7 +197,7 @@
 195,aldehyde,アルデヒド,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 196,aldnoah.zero,アルドノア・ゼロ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 197,alear (fire emblem),リュール（ファイアーエムブレム エンゲージ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 199,alice (alice in wonderland),アリス（不思議の国のアリス）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 200,alice (alice in wonderland) (cosplay),アリス（不思議の国のアリス）（コスプレ）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 201,alice gear aegis,アリス・ギア・アイギス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
@@ -231,10 +231,10 @@
 229,ama mitsuki,アマ・ミツキ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 230,amagami,アマガミ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 231,amagi brilliant park,甘城ブリリアントパーク,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-232,amagi yukiko (Persona 4),天城雪子（ペルソナ4）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+232,amagi yukiko (Persona 4),天城雪子（ペルソナ4）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 233,amami haruka (The Idolmaster),天海春香,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 234,amamiya ren (Persona 5),雨宮蓮（ペルソナ5）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-235,amane kanata (Hololive),天音かなた（ホロライブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+235,amane kanata (Hololive),天音かなた（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 236,amatsukaze (kancolle),天津風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 237,amazon position,アマゾンポジション,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 238,amber (genshin impact),アンバー（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -270,11 +270,11 @@
 268,anchor ornament,錨の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 269,anchor print,アンカープリント,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
 270,anchor symbol,アンカー記号,文字・記号,記号・図形,,[],verified,0,verified,unreviewed
-271,anchovy (girls und panzer),アンチョビ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+271,anchovy (girls und panzer),アンチョビ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 272,ancient egyptian,古代エジプト風,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 273,ancient egyptian clothes,古代エジプト風の服,服装・装飾,衣服,,[],verified,0,verified,verified
 274,ancient greek clothes,古代ギリシャ風の服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-275,andou (girls und panzer),安藤（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,unreviewed
+275,andou (girls und panzer),安藤（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 276,androgyne symbol,両性具有のシンボル,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 277,androgynous,中性的,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 278,android,アンドロイド,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -425,7 +425,7 @@
 423,argyle thighhighs,アーガイル柄のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 424,aria (manga),アリア,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 425,aria company uniform,アリアカンパニーの制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-426,arima kana (Oshi no Ko),有馬かな（推しの子）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+426,arima kana (Oshi no Ko),有馬かな（推しの子）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 427,aris (blue archive),天童アリス（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 428,arknights,アークナイツ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 429,arlecchino (genshin impact),アルレッキーノ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -513,7 +513,7 @@
 511,aru (blue archive),アル（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 512,as109,As109（エーエス・ワンオーナイン）,キャラクター・作品,作者・配信者,,"[""As109"",""エーエス109""]",needs-review,0,verified,verified
 513,asa no ha (pattern),麻の葉,服装・装飾,衣服,,[],verified,0,verified,verified
-514,asahina mafuyu (Project Sekai),朝比奈まふゆ（プロジェクトセカイ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+514,asahina mafuyu (Project Sekai),朝比奈まふゆ（プロジェクトセカイ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 515,asahina mikuru (The Melancholy of Haruhi Suzumiya),朝比奈みくる,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 516,asakura ryouko (The Melancholy of Haruhi Suzumiya),朝倉涼子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 517,asakura toru (The Idolmaster Shiny Colors),浅倉透,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -580,7 +580,7 @@
 578,autumn,秋,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 579,autumn leaves,紅葉,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 580,avatar legends,アバター 伝説の少年アン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-581,aventurine (honkai: star rail),アベンチュリン（スターレイル）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+581,aventurine (honkai: star rail),アベンチュリン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 582,averting eyes,目をそらす,顔・表情,目,,[],verified,,unreviewed,unreviewed
 583,aviator cap,飛行帽,服装・装飾,衣服,,[],verified,0,verified,verified
 584,aviator sunglasses,アビエーターサングラス,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -593,9 +593,9 @@
 591,ayamy,あやみ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 592,ayanami (azur lane),綾波（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 593,ayanami (kancolle),綾波（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-594,ayanami rei (Neon Genesis Evangelion),綾波レイ（新世紀エヴァンゲリオン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+594,ayanami rei (Neon Genesis Evangelion),綾波レイ（新世紀エヴァンゲリオン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 595,ayase eli (Love Live!),エリーチカ（ラブライブ！）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-596,ayase momo (Dandadan),綾瀬桃（ダンダダン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+596,ayase momo (Dandadan),綾瀬桃（ダンダダン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 597,ayu (mog),あゆ（mog）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 598,azki (hololive),AZKi（ホロライブ）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 599,aztodio,アズトディオ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
