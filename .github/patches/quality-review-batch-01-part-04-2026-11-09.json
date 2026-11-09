@@ -1,0 +1,691 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "avatar legends",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "アバター 伝説の少年アン（アニメシリーズ）",
+        "candidateJa": "アバター 伝説の少年アン（アニメシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "Paramount公式作品情報で「Avatar: The Last Airbender」が2005〜2008年放送のアニメシリーズであることを確認。日本語邦題は配信公式表記を参照。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://paramountglobalcontent.com/title/avatar-the-last-airbender"
+      }
+    },
+    {
+      "tag": "averting eyes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "awa",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "award winning",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "axis powers hetalia",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "ヘタリア Axis Powers（メディアミックスシリーズ）",
+        "candidateJa": "ヘタリア Axis Powers（メディアミックスシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "アニメーション制作会社の公式作品紹介で原作コミックとアニメ化の両方を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.deen.co.jp/works-archives/hetalia"
+      }
+    },
+    {
+      "tag": "ayanami rei (Neon Genesis Evangelion)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ayase eli (Love Live!)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "絢瀬絵里（ラブライブ！）",
+        "candidateJa": "絢瀬絵里（ラブライブ！）",
+        "translationStatus": "verified",
+        "translationReviewNote": "公式プロフィールで本名表記「絢瀬絵里」を確認。「エリーチカ」は愛称のため正式名に修正。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://lovelive-sif2.bushimo.jp/member/us/eli/"
+      }
+    },
+    {
+      "tag": "ayase momo (Dandadan)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "azki (hololive)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "back bow",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "back cutout",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "back focus",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "back-seamed legwear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "靴・履物"
+      }
+    },
+    {
+      "tag": "back-to-back",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "backbeako (torotei)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "backless dress",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "backless leotard",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "backless swimsuit",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "backwards hat",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bad anatomy",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "品質・ネガティブ",
+        "minor": "低品質・ノイズ"
+      }
+    },
+    {
+      "tag": "bad end",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "状態・状況",
+        "minor": "状態・変化"
+      }
+    },
+    {
+      "tag": "bad food",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bad perspective",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "品質・ネガティブ",
+        "minor": "低品質・ノイズ"
+      }
+    },
+    {
+      "tag": "bad proportions",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "品質・ネガティブ",
+        "minor": "低品質・ノイズ"
+      }
+    },
+    {
+      "tag": "bag of chips",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "その他の物品"
+      }
+    },
+    {
+      "tag": "bagged fish",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "baggy clothes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "baggy pants",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bags under eyes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "baking",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bakugou katsuki (My Hero Academia)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "balancing",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ball and chain (weapon)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "ball and chain restraint",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bamboo shoot",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "生物・動植物",
+        "minor": "植物"
+      }
+    },
+    {
+      "tag": "bamboo steamer",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "日用品"
+      }
+    },
+    {
+      "tag": "ban! (bansankan)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandage on face",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaged head",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaged wrist",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaid hair ornament",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaid on cheek",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "bandaid on face",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "bandaid on forehead",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaid on head",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaid on knee",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaid on nose",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandaids on nipples",
+      "set": {
+        "classificationReviewStatus": "needs-review",
+        "classificationReviewReason": "タグが示すジャンル・対象物の範囲を現行分類だけでは確定できないため要確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bandeau",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bang dream!",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "BanG Dream!（メディアミックスシリーズ）",
+        "candidateJa": "BanG Dream!（メディアミックスシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "公式プロジェクト紹介でアニメ・ゲーム・リアルライブ・コミカライズ等の複数媒体展開を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://bang-dream.com/about/"
+      }
+    },
+    {
+      "tag": "bangboo (zenless zone zero)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "banner",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "baobhan sith (fate)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bar stool",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "家具"
+      }
+    },
+    {
+      "tag": "bara",
+      "set": {
+        "classificationReviewStatus": "needs-review",
+        "classificationReviewReason": "タグが示すジャンル・対象物の範囲を現行分類だけでは確定できないため要確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "barbara (genshin impact)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "barbell piercing",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "barcode tattoo",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bardiche (nanoha)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "キャラクター・作品",
+        "minor": "作品固有の衣装・要素"
+      }
+    },
+    {
+      "tag": "bare hips",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "barefoot sandals (jewelry)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "barghest (fate)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "barnaby brooks jr. (Tiger & Bunny)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "バーナビー・ブルックス Jr.（TIGER & BUNNY）",
+        "candidateJa": "バーナビー・ブルックス Jr.（TIGER & BUNNY）",
+        "translationStatus": "verified",
+        "translationReviewNote": "TIGER & BUNNY公式キャラクター紹介で日本語表記「バーナビー・ブルックス Jr.」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.tigerandbunny.net/tv/character/02.html"
+      }
+    },
+    {
+      "tag": "baroque",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "baseball mitt",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "basil (faraway) (omori)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bass clef",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bat (animal)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bath stool",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "家具"
+      }
+    },
+    {
+      "tag": "bath yukata",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bathroom",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "battery indicator",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "battle tendency",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "ジョジョの奇妙な冒険 第2部 戦闘潮流（漫画タイトル）",
+        "candidateJa": "ジョジョの奇妙な冒険 第2部 戦闘潮流（漫画タイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "ジョジョ公式ポータルで第2部の正式表記「戦闘潮流」を確認。原作漫画の部タイトルとして分類。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://jojo-portal.com/comics/"
+      }
+    },
+    {
+      "tag": "battleship princess (Kantai Collection)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bb (fate/extra)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bb (swimsuit mooncancer) (fate)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "bead necklace",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物・品質の性質に合わせて分類を修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    }
+  ]
+}
