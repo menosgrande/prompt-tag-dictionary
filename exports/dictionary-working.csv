@@ -2,7 +2,7 @@
 0,!,感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 1,!!,二重感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 2,!?,感嘆符と疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
-3,?,疑問符,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
+3,?,疑問符,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 4,??,二重疑問符,顔・表情,顔・表情,,[],verified,0,verified,verified
 5,. .,点目,顔・表情,目,,[],verified,0,verified,verified
 6,...,省略号,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -69,7 +69,7 @@
 67,abubu,アブブ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 68,abukuma (kancolle),阿武隈（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 69,abuse,乱用,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
-70,abyssal ship,深海棲艦,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
+70,abyssal ship,深海棲艦,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 72,accident,事故,状態・状況,状況・関係性,,[],verified,0,verified,verified
 73,accidental exposure,意図しない露出,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
@@ -128,10 +128,10 @@
 126,agawa ryou,アガワ・リョウ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 127,age comparison,年齢比較,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 128,age difference,年齢差,状態・状況,状況・関係性,,[],verified,0,verified,verified
-129,age progression,加齢・成長後の姿,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
-130,age regression,若返り,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
-131,aged down,幼くなった姿,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
-132,aged up,成長した姿,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
+129,age progression,加齢・成長後の姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+130,age regression,若返り,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+131,aged down,幼くなった姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+132,aged up,成長した姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 133,agnes digital (umamusume),アグネスデジタル（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 134,agnes tachyon (umamusume),アグネスタキオン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 135,ahegao,アヘ顔,顔・表情,顔・表情,,[],verified,3,verified,verified
@@ -293,35 +293,35 @@
 291,angry,怒り,顔・表情,顔・表情,,[],verified,0,verified,verified
 292,anilingus,アニリングス（肛門舐め）,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 293,animal,動物,生物・動植物,動物,,[],verified,0,verified,verified
-294,animal bag,動物モチーフのバッグ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-295,animal collar,動物用首輪,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-296,animal costume,動物の着ぐるみ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-297,animal crossing,どうぶつの森,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+294,animal bag,動物モチーフのバッグ,服装・装飾,小物・道具,,[],verified,,unreviewed,verified
+295,animal collar,動物用首輪,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+296,animal costume,動物の着ぐるみ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+297,animal crossing,どうぶつの森,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 298,animal ear fluff,獣耳の毛,人物の特徴,人物属性,,[],verified,0,verified,verified
 299,animal ear hairband,動物耳カチューシャ,人物の特徴,人物属性,,[],verified,0,verified,verified
 300,animal ear headphones,動物耳型ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-301,animal ear headwear,動物耳付きの帽子,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-302,animal ear hood,動物耳付きフード,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-303,animal ear legwear,動物耳モチーフのレッグウェア,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-304,animal ear piercing,動物耳のピアス,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
+301,animal ear headwear,動物耳付きの帽子,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+302,animal ear hood,動物耳付きフード,服装・装飾,衣服,,[],verified,,unreviewed,verified
+303,animal ear legwear,動物耳モチーフのレッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,verified
+304,animal ear piercing,動物耳のピアス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 305,animal ears,獣耳,人物の特徴,人物属性,,[],verified,0,verified,verified
 306,animal feet,動物の足,生物・動植物,動物,,[],verified,0,verified,verified
 307,animal focus,動物が主役,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 308,animal hands,動物の手,生物・動植物,動物,,[],verified,0,verified,verified
 309,animal hat,動物モチーフの帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 310,animal head,動物の頭,生物・動植物,動物,,[],verified,0,verified,verified
-311,animal helmet,動物モチーフのヘルメット,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-312,animal hood,動物モチーフのフード,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-313,animal hug,動物を抱く,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+311,animal helmet,動物モチーフのヘルメット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+312,animal hood,動物モチーフのフード,服装・装飾,衣服,,[],verified,,unreviewed,verified
+313,animal hug,動物を抱く,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 314,animal nose,動物の鼻,顔・表情,顔・表情,,[],verified,0,verified,verified
 315,animal on arm,腕に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 316,animal on hand,手に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 317,animal on head,頭に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 318,animal on lap,膝に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 319,animal on shoulder,肩に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-320,animal print,アニマル柄,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+320,animal print,アニマル柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 321,animal skull,動物の頭蓋骨,生物・動植物,動物,,[],verified,0,verified,verified
-322,animal slippers,動物モチーフのスリッパ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+322,animal slippers,動物モチーフのスリッパ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 323,animalization,動物化,人物の特徴,人物属性,,[],verified,0,verified,verified
 324,anime,アニメ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 325,anime coloring,アニメ塗り,画風・描写,画風・表現様式,,[],verified,0,verified,verified
