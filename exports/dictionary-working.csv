@@ -1,4 +1,4 @@
-﻿﻿index,tag,ja,major,minor,detail,aliases_json,translation_status,expression_level,expression_level_review_status,classification_review_status
+﻿index,tag,ja,major,minor,detail,aliases_json,translation_status,expression_level,expression_level_review_status,classification_review_status
 0,!,感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 1,!!,二重感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 2,!?,感嘆符と疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1146,9 +1146,9 @@
 1144,blue male swimwear,青い男性用水着,服装・装飾,水着,,[],verified,0,verified,unreviewed
 1145,blue male underwear,青い男性用下着,服装・装飾,下着,,[],verified,,unreviewed,verified
 1146,blue nails,青い爪,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1147,blue neckerchief,青いネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,provisional
+1147,blue neckerchief,青いネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1148,blue necktie,青いネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
-1149,blue oak,ブルーオーク,生物・動植物,動物,,[],needs-review,0,verified,needs-review
+1149,blue oak,ブルーオーク,生物・動植物,植物,,[],needs-review,0,verified,verified
 1150,blue one-piece swimsuit,青いワンピース水着,服装・装飾,水着,,[],verified,1,verified,verified
 1151,blue outline,青いアウトライン,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1152,blue overalls,青いオーバーオール,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1156,13 +1156,13 @@
 1154,blue panties,青いパンティー,服装・装飾,下着,,[],verified,3,verified,verified
 1155,blue pants,青パンツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1156,blue pantyhose,青タイツ,服装・装飾,下着,,[],verified,0,verified,verified
-1157,blue poison (arknights),ブルーポイズン（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,provisional
+1157,blue poison (arknights),ブルーポイズン（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1158,blue pupils,青い瞳孔,顔・表情,目,,[],verified,0,verified,unreviewed
 1159,blue ribbon,青いリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1160,blue robe,青いローブ,服装・装飾,衣服,,[],verified,0,verified,verified
 1161,blue rose,青いバラ,生物・動植物,植物,,[],verified,0,verified,verified
 1162,blue sailor collar,ブルーセーラーカラー,服装・装飾,衣服,,[],verified,0,verified,verified
-1163,blue sarong,青いサロン,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+1163,blue sarong,青いサロン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1164,blue sash,青い帯,服装・装飾,装飾品,,[],machine-translation,,unreviewed,unreviewed
 1165,blue scarf,青いスカーフ,服装・装飾,衣服,,[],verified,0,verified,verified
 1166,blue sclera,青い強膜,顔・表情,目,,[],machine-translation,,unreviewed,unreviewed
@@ -1194,19 +1194,19 @@
 1192,blue visor,青いバイザー,服装・装飾,装飾品,,[],verified,0,verified,verified
 1193,blue wings,青い翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1194,blue wrist cuffs,青い手首カフス,服装・装飾,装飾品,,[],verified,0,verified,verified
-1195,blue-framed eyewear,青いフレームの眼鏡,服装・装飾,装飾品,,[],verified,0,verified,provisional
-1196,blue-tinted eyewear,青みがかったレンズの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1195,blue-framed eyewear,青いフレームの眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
+1196,blue-tinted eyewear,青みがかったレンズの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1197,blueberry,ブルーベリー,生物・動植物,植物,,[],verified,0,verified,verified
 1198,blunt bangs,ぱっつん,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1199,blunt ends,毛先が一直線に切りそろえられた髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1200,blunt tresses,毛先を切りそろえた髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-1201,blur censor,ぼかし検閲,光・演出,演出効果,,[],verified,0,verified,needs-review
+1201,blur censor,ぼかし検閲,光・演出,演出効果,,[],verified,0,verified,verified
 1202,blurry,ぼやけた描写,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
 1203,blurry background,ぼけた背景,背景・場所,場所・室内外,,[],machine-translation,,unreviewed,unreviewed
-1204,blurry foreground,ぼけた前景,構図・カメラ,構図・配置,,[],verified,,unreviewed,provisional
+1204,blurry foreground,ぼけた前景,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 1205,blush,赤面,顔・表情,顔・表情,,[],verified,0,verified,verified
 1206,blush stickers,頬の赤面マーク,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-1207,blushing,照れ,顔・表情,顔・表情,,[],verified,0,verified,needs-review
+1207,blushing,照れ,顔・表情,顔・表情,,[],verified,0,verified,verified
 1208,bo staff,棒術,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1209,boar,イノシシ,生物・動植物,動物,,[],verified,0,verified,verified
 1210,board game,ボードゲーム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -1214,24 +1214,24 @@
 1212,boater hat,カンカン帽,服装・装飾,衣服,,[],verified,0,verified,verified
 1213,bob cut,ボブカット,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1214,bobby socks,ボビーソックス,服装・装飾,衣服,,[],verified,0,verified,verified
-1215,bocchi the rock!,ぼっち・ざ・ろっく！,キャラクター・作品,タイトル（作品名）,,[],machine-translation,,unreviewed,provisional
+1215,bocchi the rock!,ぼっち・ざ・ろっく！,キャラクター・作品,タイトル（作品名）,,[],machine-translation,,unreviewed,verified
 1216,bodice,ボディス,服装・装飾,衣服,,[],verified,0,verified,verified
 1217,body armor,ボディアーマー,服装・装飾,衣服,,[],verified,0,verified,verified
 1218,body blush,身体の赤面表現,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 1219,body freckles,身体のそばかす,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-1220,body fur,体毛,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1220,body fur,体毛,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1221,body hair,体毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1222,body horror,ボディホラー,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
-1223,body markings,身体の模様,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1224,body switch,身体の入れ替わり,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
+1222,body horror,ボディホラー,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,verified
+1223,body markings,身体の模様,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+1224,body switch,身体の入れ替わり,状態・状況,状態・変化,,[],unreviewed,,unreviewed,verified
 1225,body writing,身体に書かれた文字,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1226,bodypaint,ボディペイント,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 1227,bodystocking,全身タイツ,服装・装飾,衣服,,[],verified,0,verified,verified
-1228,bodysuit,ボディスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
+1228,bodysuit,ボディスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
 1229,bodysuit under clothes,服の下にボディスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1230,bokeh,玉ボケ,光・演出,照明・光源,,[],verified,0,verified,verified
 1231,bokken,木刀,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1232,boko (girls und panzer),ボコ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,needs-review
+1232,boko (girls und panzer),ボコ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 1233,boku no hero academia,僕のヒーローアカデミア,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 1234,boku wa tomodachi ga sukunai,僕は友達が少ない,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 1235,bolo tie,ボロタイ,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1258,18 +1258,18 @@
 1256,bored,退屈した表情,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 1257,boris (noborhys),ボリス（ノボリズ）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,needs-review
 1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],machine-translation,,unreviewed,needs-review
+1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],machine-translation,,unreviewed,verified
 1260,borrowed design,他の作者が考案した非公式デザイン,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 1262,bottle,瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
-1263,bottomless,下半身裸,服装・装飾,裸体・露出,,[],verified,0,verified,provisional
-1264,bouncing breasts,胸が揺れる,動作・接触,身体動作,,[],verified,,unreviewed,provisional
-1265,bound,緊縛,動作・接触,性的行為・接触,,[],verified,0,verified,provisional
+1263,bottomless,下半身裸,服装・装飾,裸体・露出,,[],verified,0,verified,verified
+1264,bouncing breasts,胸が揺れる,動作・接触,身体動作,,[],verified,,unreviewed,verified
+1265,bound,緊縛,動作・接触,性的行為・接触,,[],verified,0,verified,verified
 1266,bound ankles,縛られた足首,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1267,bound arms,腕を縛られた状態,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-1268,bound legs,拘束された脚,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
+1267,bound arms,腕を縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+1268,bound legs,拘束された脚,状態・状況,状態・変化,,[],unreviewed,,unreviewed,verified
 1269,bound together,複数人が一緒に縛られた状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-1270,bound torso,胴体を縛られた状態,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1270,bound torso,胴体を縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 1271,bound wrists,手首を縛られた状態,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 1272,bouquet,花束,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1273,bow,リボン結び,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
@@ -1278,51 +1278,51 @@
 1276,bow (weapon),弓（武器）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1277,bow bikini,リボン付きビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1278,bow bra,リボン付きブラジャー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1279,bow choker,リボン付きチョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
-1280,bow earrings,リボン型イヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1279,bow choker,リボン付きチョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1280,bow earrings,リボン型イヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1281,bow hairband,リボン付きヘアバンド,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1282,bow legwear,リボン付きレッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1283,bow panties,リボン付きパンティー,服装・装飾,下着,,[],verified,,unreviewed,provisional
+1283,bow panties,リボン付きパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
 1284,bow skirt,リボン付きスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1285,bow tie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
-1286,bow-shaped hair,弓形の髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,needs-review
+1286,bow-shaped hair,弓形の髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,verified
 1287,bowing,お辞儀,動作・接触,身体動作,,[],verified,0,verified,verified
 1288,bowl,ボウル,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1289,bowl cut,おかっぱ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1290,bowl hat,ボウル型の帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1291,bowlegged pose,O脚のポーズ,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,unreviewed
 1292,bowler hat,山高帽,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1293,bowser (Super Mario),クッパ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
-1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1293,bowser (Super Mario),クッパ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1295,bowtie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1296,box,箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1297,box art,パッケージイラスト,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 1298,box of chocolates,チョコレートの箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1299,boxcutter,カッターナイフ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1300,boxer briefs,ボクサーブリーフ,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
-1301,boxers,ボクサーパンツ,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
+1300,boxer briefs,ボクサーブリーフ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
+1301,boxers,ボクサーパンツ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1302,boxing gloves,ボクシンググローブ,服装・装飾,衣服,,[],verified,0,verified,verified
 1303,boy on top,男性が上の体位,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
 1304,boy sandwich,少年サンドイッチ,人数・人物構成,人数・人物構成,,[],needs-review,,unreviewed,needs-review
-1305,bra,ブラジャー,服装・装飾,下着,,[],verified,3,verified,provisional
+1305,bra,ブラジャー,服装・装飾,下着,,[],verified,3,verified,verified
 1306,bra lift,ブラジャーを持ち上げる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1307,bra peek,ブラジャーが見えている状態,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1308,bra pull,ブラジャーを引っ張る,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1309,bra strap,ブラストラップ,服装・装飾,衣服,,[],verified,1,verified,verified
 1310,bra visible through clothes,服から透けるブラジャー,服装・装飾,衣服,,[],verified,3,verified,verified
-1311,bracelet,ブレスレット,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+1311,bracelet,ブレスレット,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 1312,bracer,腕甲,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 1313,braces,歯列矯正器具,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1314,braid,三つ編み,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1315,braided bangs,編み込み前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-1316,braided bun,編み込みシニヨン,髪・頭部,髪・頭部,,[],verified,,unreviewed,provisional
+1316,braided bun,編み込みシニヨン,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 1317,braided hair rings,ポンデリングヘア,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,needs-review
 1318,braided ponytail,編み込みポニーテール,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1319,braided sidelock,編み込みのサイドヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1320,braiding hair,髪を編んでいる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1321,braids,三つ編み,人物の特徴,人物属性,,[],verified,0,verified,verified
 1322,brain,脳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1323,bralines,浮きブラ,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,provisional
+1323,bralines,浮きブラ,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,verified
 1324,branch,枝,生物・動植物,植物,,[],machine-translation,,unreviewed,unreviewed
 1325,brand name imitation,ブランド名の模倣,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,unreviewed
 1326,brass knuckles,メリケンサック,家具・設備・物品,武器,,[],verified,0,verified,verified
@@ -1332,64 +1332,64 @@
 1330,bread,パン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1331,bread slice,食パンの一切れ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1332,breaker gorgon (Fate),ブレーカー・ゴルゴーン（Fate）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-1333,breaking,破壊・破損,動作・接触,身体動作,,[],needs-review,,unreviewed,provisional
+1333,breaking,破壊・破損,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
 1334,breast conscious,胸元を気にする仕草,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
 1335,breast curtain,胸を覆う布,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1336,breast curtains,胸を覆う布,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1337,breast cutout,胸元のカットアウト,服装・装飾,衣服,,[],verified,2,verified,provisional
+1337,breast cutout,胸元のカットアウト,服装・装飾,衣服,,[],verified,2,verified,verified
 1338,breast envy,他人の胸を羨む,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-1339,breast expansion,胸の増大,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,provisional
-1340,breast focus,胸を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,provisional
-1341,breast lift,胸を持ち上げる,動作・接触,身体への接触,,[],verified,,unreviewed,provisional
-1342,breast milk,母乳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,provisional
-1343,breast padding,胸パッド,服装・装飾,下着,,[],verified,,unreviewed,provisional
-1344,breast pocket,胸ポケット,服装・装飾,衣服,,[],verified,0,verified,provisional
-1345,breast poke,胸を指で突く,動作・接触,身体への接触,,[],verified,,unreviewed,provisional
-1346,breast press,胸を押し付ける,動作・接触,身体への接触,,[],verified,,unreviewed,provisional
+1339,breast expansion,胸の増大,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
+1340,breast focus,胸を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+1341,breast lift,胸を持ち上げる,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+1342,breast milk,母乳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1343,breast padding,胸パッド,服装・装飾,下着,,[],verified,,unreviewed,verified
+1344,breast pocket,胸ポケット,服装・装飾,衣服,,[],verified,0,verified,verified
+1345,breast poke,胸を指で突く,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+1346,breast press,胸を押し付ける,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 1347,breast rest,胸の休息,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-1348,breast slip,胸が衣服からずれる・こぼれる,服装・装飾,衣服の状態,,[],verified,,unreviewed,provisional
-1349,breast smother,胸で顔を覆う,動作・接触,性的行為・接触,,[],verified,,unreviewed,provisional
-1350,breast strap,胸を支えるストラップ,服装・装飾,下着,,[],needs-review,,unreviewed,provisional
+1348,breast slip,胸が衣服からずれる・こぼれる,服装・装飾,衣服の状態,,[],verified,,unreviewed,verified
+1349,breast smother,胸で顔を覆う,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
+1350,breast strap,胸を支えるストラップ,服装・装飾,下着,,[],needs-review,,unreviewed,verified
 1351,breast sucking,胸を吸う,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,,unreviewed,provisional
-1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1354,breastfeeding,授乳,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
 1355,breastless clothes,胸を覆わない服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1356,breastplate,胸当て,服装・装飾,装備・防具,,[],verified,0,verified,verified
-1357,breasts,胸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,provisional
+1357,breasts,胸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1358,breasts apart,離れ乳,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 1359,breasts on glass,ガラス面に押し付けられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
 1360,breasts on head,頭に載せられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
 1361,breasts on table,テーブルに載せられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
-1362,breasts out,胸を露出した状態,服装・装飾,裸体・露出,,[],verified,,unreviewed,provisional
+1362,breasts out,胸を露出した状態,服装・装飾,裸体・露出,,[],verified,,unreviewed,verified
 1363,breasts squeezed together,寄せ乳,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 1364,breath,呼吸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1365,breath of fire,火を吐く息,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1366,breath weapon,ブレス攻撃,家具・設備・物品,その他の物品,,[],machine-translation,,unreviewed,needs-review
 1367,breathing fire,火を吐く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1368,bremerton (azur lane),ブレマートン（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1370,brendan (pokemon),ブレンダン（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1370,brendan (pokemon),ブレンダン（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1371,brick,レンガ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1372,brick floor,レンガの床,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1373,brick wall,れんが壁,背景・場所,場所・室内外,,[],verified,0,verified,verified
-1374,bridal garter,ブライダルガーター,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
+1374,bridal garter,ブライダルガーター,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1375,bridal gauntlets,花嫁用ガントレット,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 1376,bridal legwear,花嫁用レッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1377,bridal lingerie,ブライダルランジェリー,服装・装飾,下着,,[],verified,3,verified,provisional
+1377,bridal lingerie,ブライダルランジェリー,服装・装飾,下着,,[],verified,3,verified,verified
 1378,bridal veil,ブライダルベール,服装・装飾,衣服,,[],verified,0,verified,verified
 1379,bride,花嫁,人物の特徴,人物属性,,[],verified,0,verified,verified
 1380,bridge,橋,背景・場所,建築・構造物,,[],verified,0,verified,verified
 1381,bridget (guilty gear),ブリジット（GUILTY GEAR）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 1382,bridle,頭絡,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
 1383,briefcase,ブリーフケース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1384,briefs,ブリーフ,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
+1384,briefs,ブリーフ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1385,bright pupils,虹彩より明るい瞳孔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1386,broccoli,ブロッコリー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1387,broken,壊れた状態,状態・状況,状態・変化,,[],verified,0,verified,provisional
+1387,broken,壊れた状態,状態・状況,状態・変化,,[],verified,0,verified,verified
 1388,broken armor,壊れた鎧,服装・装飾,衣服,,[],verified,0,verified,verified
 1389,broken chain,壊れたチェーン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1390,broken eyewear,壊れたアイウェア,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+1390,broken eyewear,壊れたアイウェア,状態・状況,状態・変化,,[],unreviewed,,unreviewed,verified
 1391,broken glass,割れたガラス,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1392,broken halo,壊れたハロー,文字・記号,記号・図形,,[],verified,0,verified,verified
 1393,broken heart,壊れたハート,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1399,11 +1399,11 @@
 1397,broken weapon,壊れた武器,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1398,broken window,壊れた窓,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1399,bronya zaychik (Honkai Impact 3rd),ブロニー・ザイチク,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1400,brooch,ブローチ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+1400,brooch,ブローチ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 1401,broom,ほうき,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1402,broom riding,ほうきに乗る,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1403,brother and sister,兄弟姉妹,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-1404,brothers,兄弟,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,provisional
+1404,brothers,兄弟,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,verified
 1405,brown,茶色,光・演出,色調・色彩,,[],verified,0,verified,verified
 1406,brown apron,茶色のエプロン,服装・装飾,衣服,,[],verified,0,verified,verified
 1407,brown ascot,茶色のアスコット,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1422,7 +1422,7 @@
 1420,brown cloak,茶色のマント,服装・装飾,衣服,,[],verified,0,verified,verified
 1421,brown coat,茶色のコート,服装・装飾,衣服,,[],verified,0,verified,verified
 1422,brown collar,茶色の襟,服装・装飾,衣服,,[],verified,0,verified,verified
-1423,brown corset,茶色のコルセット,服装・装飾,衣服,,[],verified,0,verified,provisional
+1423,brown corset,茶色のコルセット,服装・装飾,衣服,,[],verified,0,verified,verified
 1424,brown dress,茶色のドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1425,brown eyes,茶色の目,顔・表情,目,,[],verified,0,verified,verified
 1426,brown flower,茶色の花,生物・動植物,植物,,[],verified,0,verified,verified
@@ -1438,9 +1438,9 @@
 1436,brown kimono,茶色の着物,服装・装飾,衣服,,[],verified,0,verified,verified
 1437,brown leotard,茶色のレオタード,服装・装飾,衣服,,[],verified,0,verified,verified
 1438,brown lips,茶色の唇,顔・表情,顔・表情,,[],verified,0,verified,verified
-1439,brown mittens,茶色のミトン,服装・装飾,衣服,,[],verified,0,verified,provisional
+1439,brown mittens,茶色のミトン,服装・装飾,衣服,,[],verified,0,verified,verified
 1440,brown nails,茶色の爪,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1441,brown neckerchief,茶色のネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,provisional
+1441,brown neckerchief,茶色のネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1442,brown necktie,茶色のネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1443,brown panties,茶色のパンティー,服装・装飾,下着,,[],verified,3,verified,verified
 1444,brown pants,茶色のズボン,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1461,13 +1461,13 @@
 1459,brown thighhighs,茶色のニーハイソックス,服装・装飾,靴・履物,,[],machine-translation,,unreviewed,unreviewed
 1460,brown vest,茶色のベスト,服装・装飾,衣服,,[],verified,0,verified,verified
 1461,brown wings,茶色の翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1462,brown-framed eyewear,茶色いフレームの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+1462,brown-framed eyewear,茶色いフレームの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1463,bruise,あざ,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 1464,bruise on face,顔のあざ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1465,bruno bucciarati (JoJo's Bizarre Adventure),ブローノ・ブチャラティ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1466,brushing hair,髪をブラッシングする,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1467,brushing teeth,歯磨き,動作・接触,日常動作,,[],verified,0,verified,verified
-1468,bubble,シャボン玉,家具・設備・物品,その他の物品,,[],verified,0,verified,provisional
+1468,bubble,シャボン玉,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1469,bubble skirt,バブルスカート,服装・装飾,衣服,,[],verified,0,verified,verified
 1470,bubble tea,タピオカティー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1471,bubble tea challenge,タピオカドリンクチャレンジ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -1486,13 +1486,13 @@
 1484,bullet,弾丸,家具・設備・物品,武器,,[],verified,0,verified,verified
 1485,bullet hole,弾痕,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1486,bulletin board,掲示板,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1487,bulletproof vest,防弾チョッキ,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
+1487,bulletproof vest,防弾チョッキ,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,verified
 1488,bullpup,ブルパップ方式,家具・設備・物品,武器,,[],verified,0,verified,verified
 1489,bullying,虐め,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
 1490,bulma,ブルマ,服装・装飾,下着,,[],verified,0,verified,verified
 1491,bun,お団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1492,bun cover,お団子ヘアカバー,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,provisional
-1493,bun with braided base,編み込みを土台にしたお団子ヘア,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,provisional
+1492,bun cover,お団子ヘアカバー,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,verified
+1493,bun with braided base,編み込みを土台にしたお団子ヘア,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,verified
 1494,bunching hair,髪をまとめる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1495,bunny day,バニーの日,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1496,bunny girl,バニーガール,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -1510,7 +1510,7 @@
 1508,business suit,ビジネススーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1509,bust cup,バストカップ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 1510,buster sword,バスターソード,家具・設備・物品,武器,,[],verified,0,verified,verified
-1511,bustier,ビスチェ,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
+1511,bustier,ビスチェ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
 1512,butcha-u,ブッチャーU,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 1513,butler,執事,人物の特徴,人物属性,,[],verified,0,verified,verified
 1514,butt crack,臀裂,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
@@ -1522,7 +1522,7 @@
 1520,butterfly net,蝶取り網,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 1521,butterfly on hand,手に止まる蝶,生物・動植物,動物,,[],verified,0,verified,verified
 1522,butterfly ornament,蝶の飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
-1523,butterfly print,蝶のプリント,服装・装飾,衣服,,[],verified,0,verified,needs-review
+1523,butterfly print,蝶のプリント,服装・装飾,衣服,,[],verified,0,verified,verified
 1524,butterfly sitting,蝶が止まっている,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1525,butterfly tattoo,蝶のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1526,butterfly wings,蝶の翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
@@ -1534,11 +1534,11 @@
 1532,buttoned cuffs,ボタン付きカフス,服装・装飾,衣服,,[],verified,0,verified,verified
 1533,buttons,ボタン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1534,buzz cut,丸刈り,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1535,byleth (female) (fire emblem),ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
-1536,byleth (fire emblem),ベレト／ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1537,byleth (male) (fire emblem),ベレト（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1535,byleth (female) (fire emblem),ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+1536,byleth (fire emblem),ベレト／ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1537,byleth (male) (fire emblem),ベレト（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1538,c:,C字口,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-1539,c.c. (Code Geass),C.C.（コードギアス）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
+1539,c.c. (Code Geass),C.C.（コードギアス）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
 1540,cabbage,キャベツ,生物・動植物,植物,,[],verified,0,verified,verified
 1541,cabbie hat,運転手帽,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1542,cabinet,戸棚,家具・設備・物品,家具,,[],verified,0,verified,verified
@@ -1546,16 +1546,16 @@
 1544,cable knit,ケーブルニット,服装・装飾,衣服,,[],verified,0,verified,verified
 1545,cable tail,ケーブル状の尻尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 1546,cactus,サボテン,生物・動植物,植物,,[],verified,0,verified,verified
-1547,caelus (honkai: star rail),穹（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1548,caesar anthonio zeppeli (JoJo's Bizarre Adventure),シーザー・アントニオ・ツェペリ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1547,caelus (honkai: star rail),穹（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1548,caesar anthonio zeppeli (JoJo's Bizarre Adventure),シーザー・アントニオ・ツェペリ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1549,cafe,カフェ,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1550,cage,檻,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1551,cait aron,ケイト・アロン,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1552,cake,ケーキ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1553,cake slice,ケーキ一切れ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1554,calendar (medium),カレンダー（中）,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
-1555,calendar (object),カレンダー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,provisional
-1556,caliburn (fate),カリバーン（Fate）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
+1555,calendar (object),カレンダー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
+1556,caliburn (fate),カリバーン（Fate）,キャラクター・作品,作品固有の衣装・要素,,[],machine-translation,,unreviewed,verified
 1557,calico,カリコ,生物・動植物,動物,,[],verified,0,verified,verified
 1558,call of duty,コール オブ デューティ,キャラクター・作品,タイトル（作品名）,,[],machine-translation,,unreviewed,unreviewed
 1559,call of duty: modern warfare 2,コール オブ デューティ モダン・ウォーフェア2,キャラクター・作品,タイトル（作品名）,,[],machine-translation,,unreviewed,unreviewed
@@ -1566,10 +1566,10 @@
 1564,camellia,ツバキ,生物・動植物,植物,,[],verified,0,verified,verified
 1565,cameo,カメオ出演,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1566,camera,カメラ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
-1567,camilla (fire emblem),カミラ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1568,camisole,キャミソール,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
-1569,camisole lift,キャミソールリフト,服装・装飾,下着,,[],unreviewed,,unreviewed,provisional
-1570,cammy white (Street Fighter),キャミィ・ホワイト（ストリートファイター）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,needs-review
+1567,camilla (fire emblem),カミラ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1568,camisole,キャミソール,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
+1569,camisole lift,キャミソールリフト,動作・接触,衣服への接触,,[],unreviewed,,unreviewed,verified
+1570,cammy white (Street Fighter),キャミィ・ホワイト（ストリートファイター）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
 1571,camouflage,迷彩,服装・装飾,衣服,,[],verified,0,verified,verified
 1572,camouflage headwear,迷彩柄の帽子,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1573,camouflage jacket,カモフラージュジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1590,13 +1590,13 @@
 1588,cannon,大砲,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1589,canopy bed,天蓋ベッド,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1590,canteen,水筒,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1591,canvas (object),画布,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
+1591,canvas (object),画布,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 1592,cap,キャップ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1593,cape,マント,服装・装飾,装飾品,,[],verified,0,verified,verified
 1594,capelet,ケープレット,服装・装飾,衣服,,[],verified,0,verified,verified
 1595,capri pants,カプリパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1596,captured,捕らえられた状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-1597,car,車,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,provisional
+1597,car,車,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,verified
 1598,car interior,車内,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 1599,carapace,甲羅,生物・動植物,動物,,[],verified,0,verified,verified
 1600,card,カード,家具・設備・物品,日用品,,[],verified,0,verified,verified
@@ -1605,12 +1605,12 @@
 1603,cardboard box,段ボール箱,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1604,cardcaptor sakura,カードキャプターさくら,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 1605,cardfight!! vanguard,カードファイト!! ヴァンガード,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-1606,cardigan,カーディガン,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
-1607,cardigan around waist,腰に巻いたカーディガン,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+1606,cardigan,カーディガン,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+1607,cardigan around waist,腰に巻いたカーディガン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1608,caressing testicles,睾丸を愛撫,動作・接触,性的行為・接触,,[],machine-translation,4,verified,verified
 1609,cargo pants,カーゴパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
-1610,carmine (pokemon),ゼイユ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,needs-review
-1611,carnelian,カーネリアン,家具・設備・物品,その他の物品,,[],verified,0,verified,provisional
+1610,carmine (pokemon),ゼイユ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1611,carnelian,カーネリアン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1612,carousel,回転木馬,背景・場所,建築・構造物,,[],verified,0,verified,verified
 1613,carpet,カーペット,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1614,carrot,にんじん,生物・動植物,植物,,[],verified,0,verified,verified
@@ -1644,13 +1644,13 @@
 1642,cat ear hairband,猫耳カチューシャ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1643,cat ear headphones,猫耳ヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1644,cat ear legwear,猫耳付きレッグウェア,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1645,cat ear panties,猫耳付きパンティー,服装・装飾,下着,,[],verified,,unreviewed,provisional
+1645,cat ear panties,猫耳付きパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
 1646,cat ears,猫耳,人物の特徴,人物属性,,[],verified,0,verified,verified
 1647,cat girl,猫耳の少女,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 1648,cat hair ornament,猫の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 1649,cat hat,猫の帽子,服装・装飾,衣服,,[],verified,0,verified,verified
 1650,cat hood,猫のフード,生物・動植物,動物,,[],verified,0,verified,verified
-1651,cat lingerie,猫のランジェリー,服装・装飾,下着,,[],verified,3,verified,provisional
+1651,cat lingerie,猫のランジェリー,服装・装飾,下着,,[],verified,3,verified,verified
 1652,cat mask,猫マスク,生物・動植物,動物,,[],verified,0,verified,verified
 1653,cat on head,頭に猫,生物・動植物,動物,,[],verified,0,verified,verified
 1654,cat on lap,膝の上の猫,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
@@ -1661,12 +1661,12 @@
 1659,cat teaser,猫じゃらし,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 1660,catchphrase,キャッチフレーズ,文字・記号,記号・図形,,[],verified,0,verified,verified
 1661,caterpillar tracks,履帯,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1662,cato (monocatienus),カトー（モノカティエヌス）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,needs-review
-1663,catstudioinc (punepuni),catstudioinc（punepuni）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,needs-review
+1662,cato (monocatienus),カトー（モノカティエヌス）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+1663,catstudioinc (punepuni),catstudioinc（punepuni）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
 1664,catsuit,キャットスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1665,caught,捕まった状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 1666,cauldron,大釜,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1667,caustics,コースティクス（光の集光模様）,光・演出,照明・光源,,[],machine-translation,,unreviewed,needs-review
+1667,caustics,コースティクス（光の集光模様）,光・演出,照明・光源,,[],machine-translation,,unreviewed,verified
 1668,caution tape,注意テープ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1669,cave,洞窟,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,provisional
 1670,cd,CD（コンパクトディスク）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
