@@ -3335,10 +3335,10 @@
 3333,full armor,フルアーマー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3334,full beard,豊かなあごひげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3335,full body,全身,構図・カメラ,撮影距離,,[],verified,,unreviewed,unreviewed
-3336,full composition,全身を含む全体構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,provisional
+3336,full composition,全身を含む全体構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 3337,full moon,満月,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3338,full nelson,フルネルソン,ポーズ・姿勢,対人配置,,[],verified,,unreviewed,unreviewed
-3339,full-body tattoo,全身のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3339,full-body tattoo,全身のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 3340,full-face blush,顔全体の赤面,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 3341,full-length mirror,姿見,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3342,full-length zipper,全長ファスナー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -3350,7 +3350,7 @@
 3348,fundoshi,ふんどし,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
 3349,fur boots,毛皮のブーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3350,fur cape,毛皮ケープ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3351,fur cloak,毛皮のマント,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+3351,fur cloak,毛皮のマント,服装・装飾,衣服,,[],verified,,unreviewed,verified
 3352,fur coat,ファーコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3353,fur collar,毛皮の襟,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3354,fur cuffs,毛皮のカフス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -3362,11 +3362,11 @@
 3360,fur-trimmed boots,毛皮の縁取り付きブーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3361,fur-trimmed cape,毛皮の縁取り付きケープ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3362,fur-trimmed capelet,毛皮の縁取り付きケープレット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3363,fur-trimmed cloak,毛皮の縁取り付きマント,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+3363,fur-trimmed cloak,毛皮の縁取り付きマント,服装・装飾,衣服,,[],verified,,unreviewed,verified
 3364,fur-trimmed coat,毛皮の縁取り付きコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3365,fur-trimmed collar,毛皮の縁取り付き襟,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3366,fur-trimmed dress,毛皮の縁取り付きドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3367,fur-trimmed footwear,毛皮の縁取り付き履物,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+3367,fur-trimmed footwear,毛皮の縁取り付き履物,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 3368,fur-trimmed gloves,毛皮の縁取り付き手袋,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3369,fur-trimmed headwear,毛皮の縁取り付き帽子,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 3370,fur-trimmed hood,毛皮の縁取り付きフード,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -3378,15 +3378,15 @@
 3376,fur-trimmed shorts,毛皮の縁取り付きショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3377,fur-trimmed skirt,毛皮の縁取り付きスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3378,fur-trimmed sleeves,毛皮の縁取り付き袖,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3379,fur-trimmed thighhighs,毛皮の縁取り付きサイハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+3379,fur-trimmed thighhighs,毛皮の縁取り付きサイハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 3380,furigana,振り仮名,文字・記号,文字,,[],verified,,unreviewed,unreviewed
 3381,furina (genshin impact),フリーナ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3382,furisode,振袖,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3383,furrification,ケモノ化,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
 3384,furrowed brow,眉間にしわを寄せた表情,顔・表情,目,,[],verified,,unreviewed,unreviewed
 3385,furry,ケモノ系・獣人表現,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-3386,furry female,ケモノ系の女性,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
-3387,furry male,ケモノ系の男性,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3386,furry female,ケモノ系の女性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+3387,furry male,ケモノ系の男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 3388,furry with furry,ケモノキャラクター同士,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
 3389,furry with non-furry,ケモノキャラクターと人間,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
 3390,furude rika,古手梨花,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
@@ -3417,11 +3417,11 @@
 3415,gakuran,学ラン,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3416,galaga,ギャラガ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3417,galaxy,銀河,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-3418,galaxy angel,ギャラクシーエンジェル,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3418,galaxy angel,ギャラクシーエンジェル,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3419,galaxy expedition team survey corps uniform,銀河探検隊・調査隊の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3420,gamagoori ira (Kill la Kill),蟇郡苛（キルラキル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3421,gambier bay (kancolle),ガンビア・ベイ（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-3422,game boy,ゲームボーイ,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3422,game boy,ゲームボーイ,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
 3423,game console,ゲーム機,家具・設備・物品,機械・装置,,[],verified,,unreviewed,unreviewed
 3424,game controller,ゲームコントローラー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3425,game screenshot inset,ゲーム画面の挿入カット,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
@@ -3441,11 +3441,11 @@
 3439,garreg mach monastery uniform,ガルグ＝マク大修道院の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3440,garrison cap,略帽,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3441,garter belt,ガーターベルト,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3442,garter straps,ガーターストラップ,服装・装飾,下着,,[],verified,,unreviewed,provisional
-3443,gas mask,ガスマスク,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3442,garter straps,ガーターストラップ,服装・装飾,下着,,[],verified,,unreviewed,verified
+3443,gas mask,ガスマスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3444,gate,門,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
 3445,gathers,ギャザー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3446,gatling gun,ガトリング砲,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
+3446,gatling gun,ガトリング砲,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 3447,gauntlets,ガントレット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3448,gauze,ガーゼ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 3449,gauze on cheek,頬に貼ったガーゼ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
@@ -3462,7 +3462,7 @@
 3460,genderswap (mtf),性別反転（男性から女性）,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 3461,genderswap (otf),その他から女性への性別反転,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 3462,gengar (Pokémon),ゲンガー（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-3463,genshin impact,原神,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,provisional
+3463,genshin impact,原神,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3464,gensou suikoden,幻想水滸伝,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3465,german clothes,ドイツ風の衣装,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3466,german flag,ドイツ国旗,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -3475,11 +3475,11 @@
 3473,getou suguru (Jujutsu Kaisen),夏油傑（呪術廻戦）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3474,ghost,幽霊,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 3475,ghost costume,おばけの仮装,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3476,ghost in the shell,攻殻機動隊,背景・場所,自然・風景,,[],verified,,unreviewed,provisional
+3476,ghost in the shell,攻殻機動隊,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3477,ghost pose,幽霊のポーズ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 3478,ghost tail,ゴーストテール,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3479,giant,巨人,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-3480,giant male,巨人の男性,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3480,giant male,巨人の男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 3481,giant monster,巨大な怪物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3482,giantess,巨大な女性,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,unreviewed
 3483,gibson les paul,ギブソン・レスポール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -3489,7 +3489,7 @@
 3487,gigantic breasts,非常に大きな胸,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 3488,gilgamesh (fate),ギルガメッシュ（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3489,gills,えら,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-3490,gingerbread man,ジンジャーブレッドマン,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3490,gingerbread man,ジンジャーブレッドマン,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
 3491,gingham,ギンガムチェック,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3492,ginhaha,ぎんはは,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 3493,ginkgo leaf,イチョウの葉,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -3500,9 +3500,9 @@
 3498,girls band cry,ガールズバンドクライ,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,unreviewed
 3499,girls und panzer,ガールズ＆パンツァー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3500,giving,与える,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-3501,giving up the ghost,息を引き取る,動作・接触,身体動作,,[],verified,,unreviewed,provisional
+3501,giving up the ghost,息を引き取る,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 3502,glaceon (Pokémon),グレイシア（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-3503,gladiator sandals,グラディエーターサンダル,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+3503,gladiator sandals,グラディエーターサンダル,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 3504,gladion (pokemon),グラジオ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3505,glaive (polearm),グレイヴ（長柄武器）,家具・設備・物品,武器,,[],verified,,unreviewed,unreviewed
 3506,glansjob,亀頭責め,動作・接触,性的行為・接触,,[],verified,4,verified,verified
@@ -3528,7 +3528,7 @@
 3526,glowing eyes,光る目,顔・表情,目,,[],verified,,unreviewed,unreviewed
 3527,glowing flower,光る花,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3528,glowing hair,光る髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-3529,glowing hand,光る手,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3529,glowing hand,光る手,光・演出,演出効果,,[],verified,,unreviewed,verified
 3530,glowing horns,光る角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3531,glowing sword,光る剣,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3532,glowing tattoo,光るタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
@@ -3539,9 +3539,9 @@
 3537,go-toubun no hanayome,五等分の花嫁,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3538,go! princess precure,Go！プリンセスプリキュア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3539,goat,ヤギ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-3540,goat boy,ヤギの少年,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3540,goat boy,ヤギの少年,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 3541,goat ears,ヤギの耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-3542,goat girl,ヤギの少女,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3542,goat girl,ヤギの少女,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 3543,goat horns,ヤギの角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3544,goatee,あごひげ,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 3545,goatee stubble,顎の無精髭,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
@@ -3554,7 +3554,7 @@
 3552,godzilla (series),ゴジラシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3553,gofu,ゴフ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 3554,goggles,ゴーグル,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-3555,goggles around neck,首に掛けたゴーグル,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3555,goggles around neck,首に掛けたゴーグル,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3556,goggles on head,頭に載せたゴーグル,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 3557,goggles on headwear,帽子に付けたゴーグル,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 3558,gohei,御幣,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
@@ -3578,7 +3578,7 @@
 3576,gold ship (umamusume),ゴールドシップ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3577,gold trim,ゴールドトリム,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 3578,golden apple,金のリンゴ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-3579,golden arms,黄金の腕,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3579,golden arms,黄金の腕,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 3580,golden hour,ゴールデンアワー,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
 3581,golden kamuy,ゴールデンカムイ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3582,goldenglow (arknights),ゴールデングロー（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -3586,7 +3586,7 @@
 3584,golf club,ゴルフクラブ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3585,goma (gomasamune),ゴマ（ゴマサミューン）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 3586,goma (yoku yatta hou jane),ゴマ（ヨクヤッタホウジェーン）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-3587,gomashio (goma feet),ゴマシオ（ゴマフィート）,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3587,gomashio (goma feet),ゴマシオ（ゴマフィート）,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
 3588,gomennasai,ごめんなさい,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 3589,gonzarez,ゴンザレス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 3590,good end,ハッピーエンド,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
@@ -3597,7 +3597,7 @@
 3595,gotoh hitori (Bocchi the Rock!),後藤ひとり（ぼっち・ざ・ろっく！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3596,gouache,ガッシュ（不透明水彩）,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 3597,gourd,ひょうたん,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-3598,gown,ガウン,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+3598,gown,ガウン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 3599,grabbing from behind,後ろからつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 3600,grabbing own breast,自分の胸をつかむ,動作・接触,手の動作,,[],verified,,unreviewed,unreviewed
 3601,gradient background,グラデーション背景,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
@@ -3610,7 +3610,7 @@
 3608,gradient skin,グラデーションの肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 3609,gradient sky,グラデーションの空,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3610,gradient wings,グラデーションの翼,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-3611,graduation,卒業,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
+3611,graduation,卒業,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
 3612,graf zeppelin (kancolle),グラーフ・ツェッペリン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3613,graffiti,落書きアート（グラフィティ）,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 3614,gran (granblue fantasy),グラン（グランブルーファンタジー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -3794,8 +3794,8 @@
 3792,guard rail,ガードレール,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
 3793,guided breast grab,相手の手を誘導して胸を触らせる,動作・接触,性的行為・接触,,[],verified,3,verified,verified
 3794,guided penetration,手で誘導する挿入,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-3795,guiding hand,導く手,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3796,guilty crown,ギルティクラウン,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3795,guiding hand,導く手,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+3796,guilty crown,ギルティクラウン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3797,guilty gear,ギルティギア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3798,guilty gear strive,ギルティギア ストライヴ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3799,guilty gear xrd,GUILTY GEAR Xrd,キャラクター・作品,タイトル（作品名）,,"[""ギルティギア イグザード""]",verified,,unreviewed,unreviewed
@@ -3804,10 +3804,10 @@
 3802,guitar case,ギターケース,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3803,gumi (Megpoid),GUMI（メグッポイド）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 3804,gumroad username,Gumroadユーザー名,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-3805,gun,銃,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
-3806,gun on back,背中に背負った銃,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
-3807,gun sling,銃のスリング,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
-3808,gun to head,頭に銃を突きつける,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
+3805,gun,銃,家具・設備・物品,武器,,[],verified,,unreviewed,verified
+3806,gun on back,背中に背負った銃,家具・設備・物品,武器,,[],verified,,unreviewed,verified
+3807,gun sling,銃のスリング,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+3808,gun to head,頭に銃を突きつける,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 3809,gunblade,ガンブレード,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 3810,gundam,ガンダム,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3811,gundam 00,機動戦士ガンダム00,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
@@ -3817,7 +3817,7 @@
 3815,gundam seed destiny,機動戦士ガンダムSEED DESTINY,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3816,gundam suisei no majo,機動戦士ガンダム 水星の魔女,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3817,gundam tekketsu no orphans,機動戦士ガンダム 鉄血のオルフェンズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-3818,gundam unicorn,機動戦士ガンダムUC,生物・動植物,動物,,[],verified,,unreviewed,provisional
+3818,gundam unicorn,機動戦士ガンダムUC,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3819,gundam zz,機動戦士ガンダムZZ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 3820,gunjyou (gunjyou 00),群青（gunjyou 00）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 3821,gurande (g-size),グランデ（G-size）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
@@ -3826,10 +3826,10 @@
 3824,gyaru,ギャル,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3825,gyaru v,ギャルピース,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 3826,gyee,サンクタス戦記-GYEE-,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3827,gym,体育館・ジム,背景・場所,建築・構造物,,[],verified,,unreviewed,provisional
+3827,gym,体育館・ジム,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 3828,gym shirt,体操用シャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3829,gym shorts,体操用ショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3830,gym storeroom,体育倉庫,背景・場所,建築・構造物,,[],verified,,unreviewed,provisional
+3830,gym storeroom,体育倉庫,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 3831,gym uniform,体操服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3832,gymnastics,体操競技,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 3833,h&k hk416,H&K HK416（ヘッケラー＆コッホ HK416）,服装・装飾,装備・防具,,"[""H&K HK416"",""HK416""]",needs-review,,unreviewed,unreviewed
@@ -3889,10 +3889,10 @@
 3887,hair up,アップヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3888,hair vines,髪の毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3889,hairband,ヘアバンド,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3890,hairclip,ヘアクリップ,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3890,hairclip,ヘアクリップ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3891,hairdressing,ヘアスタイリング,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 3892,hairjob,髪コキ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-3893,hairpin,ヘアピン,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3893,hairpin,ヘアピン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3894,hairpods,ヘアポッド,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 3895,hairy,毛深い,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 3896,hakama,袴,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -3905,11 +3905,11 @@
 3903,hakui koyori (Hololive),博衣こより（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3904,hakui koyori (1st costume),博衣こより（初期衣装）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3905,hakurei reimu (Touhou Project),博麗霊夢,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-3906,hakurei reimu (cosplay),博麗霊夢（コスプレ）,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+3906,hakurei reimu (cosplay),博麗霊夢（コスプレ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 3907,hakurei shrine,博麗神社,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3908,halberd,ハルバード,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 3909,half gloves,ハーフグローブ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3910,half mask,ハーフマスク,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3910,half mask,ハーフマスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3911,half up braid,三つ編みハーフアップ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3912,half updo,ハーフアップ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3913,half-closed eye,半目,顔・表情,目,,[],verified,,unreviewed,unreviewed
@@ -3917,11 +3917,11 @@
 3915,half-erect,半勃起,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 3916,half-skirt,ハーフスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3917,halfling,ハーフリング,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-3918,halftone,ハーフトーン,画風・描写,描画技法,,[],verified,,unreviewed,provisional
-3919,halftone background,ハーフトーンの背景,画風・描写,描画技法,,[],verified,,unreviewed,provisional
-3920,halloween,ハロウィン,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
-3921,halloween bucket,ハロウィン用バケツ,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
-3922,halloween costume,ハロウィンの衣装,背景・場所,空間・環境表現,,[],verified,,unreviewed,provisional
+3918,halftone,ハーフトーン,画風・描写,描画技法,,[],verified,,unreviewed,verified
+3919,halftone background,ハーフトーンの背景,画風・描写,描画技法,,[],verified,,unreviewed,verified
+3920,halloween,ハロウィン,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
+3921,halloween bucket,ハロウィン用バケツ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+3922,halloween costume,ハロウィンの衣装,服装・装飾,衣服,,[],verified,,unreviewed,verified
 3923,hallway,廊下,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3924,halo,光輪,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
 3925,halo behind head,頭の後ろの光輪,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
@@ -3945,17 +3945,17 @@
 3943,hanasaki tsubomi (HeartCatch PreCure!),花咲つぼみ（ハートキャッチプリキュア！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 3944,hanasakigawa school uniform,花咲川女子学園の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3945,hanbok,韓服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3946,hand between legs,脚の間に手,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,provisional
-3947,hand fan,扇子,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3946,hand between legs,脚の間に手,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+3947,hand fan,扇子,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 3948,hand focus,手を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-3949,hand grab,手をつかむ,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3950,hand grip,つり革,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3949,hand grab,手をつかむ,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+3950,hand grip,つり革,家具・設備・物品,設備,,[],verified,,unreviewed,verified
 3951,hand in own hair,自分の髪に手を入れる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 3952,hand in own panties,自分の下着に手を入れる,動作・接触,性的行為・接触,,[],verified,3,verified,verified
 3953,hand in panties,パンツに手を入れる,動作・接触,性的行為・接触,,[],verified,3,verified,verified
-3954,hand in pocket,ポケットに手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+3954,hand in pocket,ポケットに手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 3955,hand mirror,手鏡,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-3956,hand net,タモ網,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+3956,hand net,タモ網,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 3957,hand on eyewear,眼鏡に手を添える,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 3958,hand on floor,床に手をつく,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 3959,hand on glass,ガラスに手を当てる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
@@ -3987,16 +3987,16 @@
 3985,hand on wall,壁に手をつく,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 3986,hand over eye,目を覆う,顔・表情,目,,[],verified,,unreviewed,unreviewed
 3987,hand over own mouth,自分の口を手で覆う,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-3988,hand puppet,手人形,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3989,hand rest,手休み,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3990,hand tattoo,ハンドタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3991,hand to head,頭に手を当てる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+3988,hand puppet,手人形,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+3989,hand rest,手休み,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,needs-review
+3990,hand tattoo,ハンドタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+3991,hand to head,頭に手を当てる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 3992,hand to own mouth,自分の口に手を当てる,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 3993,hand under clothes,服の下に手を入れる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3994,hand under shirt,シャツの下に手を入れる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-3995,hand up,手を挙げる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
-3996,hand wraps,ハンドラップ,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-3997,handbag,ハンドバッグ,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+3995,hand up,手を挙げる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
+3996,hand wraps,ハンドラップ,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+3997,handbag,ハンドバッグ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 3998,handcuffs,手錠,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 3999,handgun,拳銃,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 4000,handheld game console,携帯型ゲーム機,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -4004,8 +4004,8 @@
 4002,handprint,手形,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4003,hands in hair,髪に手を入れる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 4004,hands in opposite sleeves,反対側の袖に手を入れる,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4005,hands in pocket,ポケットに手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
-4006,hands in pockets,ポケットに両手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+4005,hands in pocket,ポケットに手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
+4006,hands in pockets,ポケットに両手を入れる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 4007,hands on feet,足に手を置く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4008,hands on ground,地面に手をつく,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4009,hands on headwear,頭飾りに手を添える,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
@@ -4023,7 +4023,7 @@
 4021,hands on own thighs,自分の太ももに手を置く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4022,hands on shoulders,肩に手を置く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4023,hands up,両手を上げる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-4024,handshake,握手,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
+4024,handshake,握手,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 4025,handstand,逆立ち,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 4026,hanekawa tsubasa (Monogatari),羽川翼,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4027,haneoka school uniform,羽丘女子学園の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -4055,7 +4055,7 @@
 4053,haramaki,腹巻き,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4054,hard hat,安全ヘルメット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4055,harem,ハーレム,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-4056,harem outfit,ハーレム風衣装,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4056,harem outfit,ハーレム風衣装,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4057,harem pants,ハーレムパンツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4058,harness,ハーネス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4059,harp,ハープ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
@@ -4095,7 +4095,7 @@
 4093,hatsuboshi gakuen school uniform,初星学園の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4094,hatsune miku (Vocaloid),初音ミク（ボーカロイド）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4095,hatsune miku (append),初音ミク（Append）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4096,hatsune miku (cosplay),初音ミクのコスプレ,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+4096,hatsune miku (cosplay),初音ミクのコスプレ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 4097,hatsutori hajime (Hololive),轟はじめ（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4098,hatsuyuki (kancolle),初雪（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4099,hatsuzuki (kancolle),初月（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -4115,8 +4115,8 @@
 4113,head down,うつむく,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 4114,head fins,頭のヒレ,髪・頭部,頭部の特徴,,[],verified,,unreviewed,unreviewed
 4115,head grab,頭をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-4116,head on chest,胸に頭を乗せる,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
-4117,head on hand,手に頭を乗せる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+4116,head on chest,胸に頭を乗せる,ポーズ・姿勢,対人配置,,[],verified,,unreviewed,verified
+4117,head on hand,手に頭を乗せる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 4118,head on head,頭を重ねる,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4119,head on pillow,枕に頭を乗せる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 4120,head only,頭のみ,構図・カメラ,撮影距離,,[],verified,,unreviewed,unreviewed
@@ -4127,14 +4127,14 @@
 4125,head wings,頭の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 4126,head wreath,頭の花冠,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4127,head-mounted display,ヘッドマウントディスプレイ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-4128,headband,ヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
-4129,headdress,ヘッドドレス,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4128,headband,ヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+4129,headdress,ヘッドドレス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4130,headgear,ヘッドギア,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4131,headlamp,ヘッドランプ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 4132,headless,首なし,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 4133,headpat,頭をなでる,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4134,headphones,ヘッドフォン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-4135,headphones around neck,首にかけたヘッドホン,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+4135,headphones around neck,首にかけたヘッドホン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4136,headpiece,ヘッドピース,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4137,heads together,頭を寄せ合う,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4138,heads-up display,ヘッドアップディスプレイ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -4146,27 +4146,27 @@
 4144,heart ahoge,ハート型のアホ毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 4145,heart background,ハート柄の背景,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
 4146,heart balloon,ハート型の風船,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-4147,heart brooch,ハートブローチ,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4147,heart brooch,ハートブローチ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4148,heart button,ハートボタン,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4149,heart censor,ハート型の目隠し,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-4150,heart choker,ハートチョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4150,heart choker,ハートチョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4151,heart collar,ハート型の首輪,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4152,heart cutout,ハートくり抜き,服装・装飾,衣服の状態,,[],verified,,unreviewed,unreviewed
-4153,heart earrings,ハートイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4153,heart earrings,ハートイヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4154,heart facial mark,ハートの顔の模様,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 4155,heart hair,ハート型の髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 4156,heart hair ornament,ハートの髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-4157,heart hands,手で作るハート,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,provisional
+4157,heart hands,手で作るハート,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 4158,heart hands duo,二人で作るハート,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4159,heart in eye,目の中のハート,顔・表情,目,,[],verified,,unreviewed,unreviewed
-4160,heart in heart hands,ハートを作った手の中のハート,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+4160,heart in heart hands,ハートを作った手の中のハート,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 4161,heart in mouth,口の中のハート,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 4162,heart lock (kantai collection),ハートロック（艦隊これくしょん）,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 4163,heart maebari,ハート型の前張り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4164,heart necklace,ハートネックレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4165,heart o-ring,ハート型Oリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4165,heart o-ring,ハート型Oリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4166,heart of string,糸のハート,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-4167,heart on chest,胸のハート模様,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+4167,heart on chest,胸のハート模様,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 4168,heart pasties,ハート型ニップルシール,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4169,heart pendant,ハートペンダント,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4170,heart print,ハート柄,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -4175,7 +4175,7 @@
 4173,heart-shaped box,ハート型の箱,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4174,heart-shaped chocolate,ハート型のチョコレート,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4175,heart-shaped eyes,ハート型の目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-4176,heart-shaped eyewear,ハート型のアイウェア,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4176,heart-shaped eyewear,ハート型のアイウェア,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4177,heart-shaped food,ハート型の食べ物,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4178,heart-shaped gem,ハート型の宝石,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4179,heart-shaped lock,ハート型の錠前,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -4188,7 +4188,7 @@
 4186,hecatia lapislazuli (Touhou Project),ヘカティア・ラピスラズリ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4187,heckler & koch,ヘッケラー＆コッホ,文字・記号,ロゴ・ブランド表記,,[],verified,,unreviewed,unreviewed
 4188,hedgehog,ハリネズミ,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-4189,hedgehog girl,ハリネズミ娘,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+4189,hedgehog girl,ハリネズミ娘,生物・動植物,種族,,[],verified,,unreviewed,verified
 4190,heel up,かかとを上げる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
 4191,height,身長,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 4192,height chart,身長比較表,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
@@ -4228,7 +4228,7 @@
 4226,high contrast,ハイコントラスト,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
 4227,high five,ハイタッチ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4228,high heel boots,ハイヒールブーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4229,high heel sandals,ハイヒールサンダル,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+4229,high heel sandals,ハイヒールサンダル,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 4230,high heels,ハイヒール,服装・装飾,靴・履物,,[],verified,,unreviewed,unreviewed
 4231,high kick,ハイキック,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4232,high ponytail,ハイポニーテール,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
@@ -4257,14 +4257,14 @@
 4255,hikarizaka private high school uniform,光坂高校の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4256,hikawa hina (BanG Dream!),氷川日菜（BanG Dream!）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4257,hikawa sayo (BanG Dream!),氷川紗夜（BanG Dream!）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4258,hikimayu,引眉,顔・表情,顔の特徴,,[],verified,,unreviewed,provisional
+4258,hikimayu,引眉,顔・表情,顔の特徴,,[],verified,,unreviewed,verified
 4259,hilbert (pokemon),トウヤ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4260,hilda (pokemon),トウコ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4261,hilda valentine goneril (Fire Emblem: Three Houses),ヒルダ＝ヴァレンティン＝ゴネリル（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4262,hill,丘,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 4263,himajin noizu,ヒマジン・ノイズ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 4264,himari (blue archive),明星ヒマリ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4265,hime cut,姫カット,髪・頭部,髪・頭部,,[],verified,,unreviewed,provisional
+4265,hime cut,姫カット,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 4266,himekaidou hatate (Touhou Project),姫海棠はたて,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4267,himemori luna (Hololive),姫森ルーナ（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4268,himeno (chainsaw man),姫野（チェンソーマン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -4507,7 +4507,7 @@
 4505,holding with tail,尻尾で物を持つ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4506,holding wrench,レンチを持つ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4507,hole,穴,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
-4508,hole on body,体の穴,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,provisional
+4508,hole on body,体の穴,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 4509,holed coin,穴あき硬貨,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 4510,hollow eyes,虚ろな目,顔・表情,目,,[],verified,,unreviewed,unreviewed
 4511,holly,ヒイラギ,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
@@ -4525,7 +4525,7 @@
 4523,holomyth,ホロライブEnglish Myth,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 4524,holostars,ホロスターズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 4525,holostars english,ホロスターズEnglish,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-4526,holster,ホルスター,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
+4526,holster,ホルスター,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 4527,holstered,ホルスターに収めた武器,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 4528,homurabara academy school uniform,穂群原学園の制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4529,honda,ホンダ（車両メーカー）,乗り物,陸上の乗り物,,[],verified,,unreviewed,verified
@@ -4536,40 +4536,40 @@
 4534,hong lu (project moon),ホンル（Project Moon）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4535,hong meiling (Touhou Project),紅美鈴,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4536,honkai (series),崩壊シリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-4537,honkai impact 3rd,崩壊3rd,文字・記号,記号・図形,,[],verified,,unreviewed,provisional
+4537,honkai impact 3rd,崩壊3rd,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 4538,honkai: star rail,崩壊：スターレイル,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 4539,honolulu (azur lane),ホノルル（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4540,hood,フード,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4541,hood down,フードを下ろした状態,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4542,hood up,フードをかぶった状態,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4543,hooded bodysuit,フード付きボディスーツ,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4543,hooded bodysuit,フード付きボディスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4544,hooded cape,フード付きケープ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4545,hooded capelet,フード付きケープレット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4546,hooded cardigan,フード付きカーディガン,服装・装飾,衣服,,[],verified,,unreviewed,provisional
-4547,hooded cloak,フード付きマント,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4546,hooded cardigan,フード付きカーディガン,服装・装飾,衣服,,[],verified,,unreviewed,verified
+4547,hooded cloak,フード付きマント,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4548,hooded coat,フード付きコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4549,hooded dress,フード付きワンピース,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4550,hooded jacket,フード付きジャケット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4551,hooded robe,フード付きローブ,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4551,hooded robe,フード付きローブ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4552,hooded sweater,フード付きセーター,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4553,hooded track jacket,フード付きトラックジャケット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4554,hooded vest,フード付きベスト,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4554,hooded vest,フード付きベスト,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4555,hoodie,パーカー,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4556,hoodie lift,パーカーめくり,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4557,hook,フック,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4558,hoop,輪,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-4559,hoop earrings,フープピアス,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4559,hoop earrings,フープピアス,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4560,hooves,蹄,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 4561,hori (hori no su),ほり（ほりの巣）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 4562,horikawa raiko (touhou project),堀川雷鼓（東方Project）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4563,horizon,地平線,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 4564,horizontal pupils,横長の瞳孔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-4565,horizontal-striped thighhighs,横縞のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,provisional
+4565,horizontal-striped thighhighs,横縞のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 4566,horn bow,角型のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4567,horn grab,角をつかむ,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4568,horn ornament,角の装飾,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 4569,horn ribbon,角のリボン,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-4570,horn ring,角のリング,服装・装飾,装飾品,,[],verified,,unreviewed,provisional
+4570,horn ring,角のリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 4571,horn/wood,金管楽器・木管楽器,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4572,horned headwear,角付きの頭飾り,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4573,horned helmet,角付き兜,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -4602,7 +4602,7 @@
 4600,hoshizora miyuki (Smile PreCure!),星空みゆき,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4601,hoshizora rin (Love Live! School Idol Project),星空凛（ラブライブ！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4602,hoshizuki (seigetsu),久野（Seigetsu）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-4603,hospital,病院,背景・場所,建築・構造物,,[],verified,,unreviewed,provisional
+4603,hospital,病院,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 4604,hospital bed,病院のベッド,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4605,hospital gown,病院着,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4606,hot,暑い・熱い,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
@@ -4625,8 +4625,8 @@
 4623,hoyofair,ホヨフェア,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
 4624,hozuki momiji (onii-chan wa oshimai!),穂月もみじ（お兄ちゃんはおしまい！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4625,hu tao (genshin impact),フータオ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4626,hug,ハグ,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
-4627,hug from behind,後ろから抱きつく,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
+4626,hug,ハグ,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
+4627,hug from behind,後ろから抱きつく,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 4628,huge ahoge,大きなアホ毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 4629,huge bow,大きなリボン,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4630,huge breasts,巨乳,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
@@ -4643,9 +4643,9 @@
 4641,hugging own legs,自分の脚を抱える,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4642,hugging tail,尻尾を抱える,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4643,hugtto! precure,HUGっと！プリキュア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-4644,human scabbard,人間鞘,服装・装飾,装備・防具,,[],verified,,unreviewed,provisional
+4644,human scabbard,人間鞘,服装・装飾,装備・防具,,[],verified,,unreviewed,needs-review
 4645,humanization,擬人化,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-4646,humanoid robot,人型ロボット,人物の特徴,人物属性,,[],verified,,unreviewed,provisional
+4646,humanoid robot,人型ロボット,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 4647,humiliation,屈辱,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
 4648,humping,腰を押し付ける,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 4649,hunched over,前かがみ,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
@@ -4725,16 +4725,16 @@
 4723,imagining,想像する,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4724,imaizumi kagerou (Touhou Project),今泉影狼,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4725,imizu (nitro unknown),イミズ（ニトロ不明）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-4726,imminent kiss,キス寸前,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
+4726,imminent kiss,キス寸前,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 4727,imminent penetration,挿入寸前,動作・接触,性的行為・接触,,[],verified,3,verified,verified
 4728,imminent vaginal,膣への挿入寸前,動作・接触,性的行為・接触,,[],verified,3,verified,verified
 4729,impaled,串刺し,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 4730,imperial japanese army,大日本帝国陸軍,文字・記号,ロゴ・ブランド表記,,[],verified,,unreviewed,unreviewed
 4731,implied fingering,指での愛撫を示唆,動作・接触,性的行為・接触,,[],verified,3,verified,verified
-4732,implied kiss,キスを示唆,動作・接触,対人接触・動作,,[],verified,,unreviewed,provisional
+4732,implied kiss,キスを示唆,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 4733,implied pregnancy,妊娠を示唆,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4734,implied sex,性行為を示唆,動作・接触,性的行為・接触,,[],verified,3,verified,verified
-4735,impossible bodysuit,非現実的なボディスーツ,服装・装飾,衣服,,[],verified,,unreviewed,provisional
+4735,impossible bodysuit,非現実的なボディスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 4736,impossible clothes,非現実的な服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4737,impossible dress,非現実的なドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 4738,impossible leotard,非現実的なレオタード,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -4746,7 +4746,7 @@
 4744,in box,箱の中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
 4745,in bucket,バケツの中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
 4746,in container,容器の中,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
-4747,in cup,カップの中,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
+4747,in cup,カップの中,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
 4748,in food,食べ物の中,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 4749,in heat,発情,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 4750,in palm,手のひらの上,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
