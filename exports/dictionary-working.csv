@@ -3832,8 +3832,8 @@
 3830,gym storeroom,体育倉庫,背景・場所,建築・構造物,,[],verified,,unreviewed,provisional
 3831,gym uniform,体操服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 3832,gymnastics,体操競技,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-3833,h&k hk416,H&K HK416（ヘッケラー＆コッホ HK416）,服装・装飾,装備・防具,,"[""H&K HK416"",""ヘッケラーアンドコッホ"",""HK416""]",needs-review,,unreviewed,unreviewed
-3834,h&k ump,H&K UMP（ヘッケラー＆コッホ UMP）,服装・装飾,装備・防具,,"[""H&K UMP"",""ヘッケラーアンドコッホ"",""UMP""]",needs-review,,unreviewed,unreviewed
+3833,h&k hk416,H&K HK416（ヘッケラー＆コッホ HK416）,服装・装飾,装備・防具,,"[""H&K HK416"",""HK416""]",needs-review,,unreviewed,unreviewed
+3834,h&k ump,H&K UMP（ヘッケラー＆コッホ UMP）,服装・装飾,装備・防具,,"[""H&K UMP"",""UMP""]",needs-review,,unreviewed,unreviewed
 3835,ha akabouzu,ハ・アカボウズ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 3836,habit,癖,状態・状況,状況・関係性,,[],verified,,unreviewed,unreviewed
 3837,hachigatsu no cinderella nine,八月のシンデレラナイン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
@@ -8304,7 +8304,7 @@
 8302,school uniform,制服,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8303,schoolgirl,女子生徒,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 8304,schwarz (arknights),シュワルツ（arknights）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-8305,sci-fi,SF,画風・描写,画風・表現様式,,"[""SF"",""サイエンスフィクション""]",verified,,unreviewed,verified
+8305,sci-fi,SF,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 8306,science fiction,SF,画風・描写,画風・表現様式,,"[""SF"",""サイエンスフィクション""]",needs-review,,unreviewed,unreviewed
 8307,scissor blade (kill la kill),片太刀バサミ,家具・設備・物品,武器,,[],needs-review,,unreviewed,verified
 8308,scissors,はさみ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
