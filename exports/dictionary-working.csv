@@ -7197,25 +7197,25 @@
 7195,pig ears,豚の耳,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 7196,pigeon,ハト,生物・動植物,動物,,[],verified,,unreviewed,verified
 7197,pigeon-toed,内股,ポーズ・姿勢,身体の向き,,[],verified,,unreviewed,verified
-7198,piggyback,おんぶ,動作・接触,対人接触・動作,,[],verified,,unreviewed,needs-review
-7199,pikachu,ピカチュウ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+7198,piggyback,おんぶ,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
+7199,pikachu,ピカチュウ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 7200,pikmin (creature),ピクミン（クリーチャー）,生物・動植物,動物,,[],needs-review,,unreviewed,verified
 7201,pikmin (series),ピクミン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,verified
-7202,pill,錠剤,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
-7203,pill earrings,ピルイヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
-7204,pillar,柱,背景・場所,建築・構造物,,[],verified,,unreviewed,needs-review
-7205,pillarboxed,左右に黒帯が入った画面,構図・カメラ,フレーミング,,[],verified,,unreviewed,needs-review
+7202,pill,錠剤,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+7203,pill earrings,ピルイヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+7204,pillar,柱,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
+7205,pillarboxed,左右に黒帯が入った画面,構図・カメラ,フレーミング,,[],verified,,unreviewed,verified
 7206,pillbox hat,ピルボックス帽,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7207,pillow,枕,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 7208,pillow grab,枕を抱きかかえる,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-7209,pillow hug,枕を抱く,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,provisional
-7210,pilot,パイロット,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
+7209,pillow hug,枕を抱く,動作・接触,物への接触,,[],unreviewed,,unreviewed,verified
+7210,pilot,パイロット,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 7211,pinafore dress,ピナフォアドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7212,pince-nez,鼻眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
-7213,pinching,つまむ,動作・接触,手の動作,,[],verified,,unreviewed,needs-review
+7212,pince-nez,鼻眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+7213,pinching,つまむ,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7214,pinching sleeves,袖をつまむ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7215,pine tree,松の木,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-7216,pineapple,パイナップル,生物・動植物,植物,,[],verified,,unreviewed,needs-review
+7216,pineapple,パイナップル,生物・動植物,植物,,[],verified,,unreviewed,verified
 7217,pink,ピンク色,光・演出,色調・色彩,,[],verified,,unreviewed,unreviewed
 7218,pink apron,ピンクのエプロン,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 7219,pink arm warmers,ピンクのアームウォーマー,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
@@ -7294,42 +7294,42 @@
 7292,pink wrist cuffs,ピンクのリストカフス,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 7293,pink-framed eyewear,ピンク色のフレームの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 7294,pink-tinted eyewear,ピンク色のレンズの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-7295,pinky out,小指を立てる,動作・接触,手の動作,,[],verified,,unreviewed,needs-review
-7296,pinned,ピンで留められた状態,服装・装飾,衣服の状態,,[],verified,,unreviewed,needs-review
+7295,pinky out,小指を立てる,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
+7296,pinned,ピンで留められた状態,服装・装飾,衣服の状態,,[],verified,,unreviewed,verified
 7297,pinstripe dress,ピンストライプドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7298,pinstripe jacket,ピンストライプジャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7299,pinstripe pants,ピンストライプパンツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7300,pinstripe pattern,ピンストライプ柄,画風・描写,描画技法,,[],verified,,unreviewed,needs-review
+7300,pinstripe pattern,ピンストライプ柄,画風・描写,描画技法,,[],verified,,unreviewed,verified
 7301,pinstripe shirt,ピンストライプシャツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7302,pinstripe suit,ピンストライプスーツ,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7303,pinwheel,風車,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
-7304,piplup,ポッチャマ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,needs-review
+7302,pinstripe suit,ピンストライプスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+7303,pinwheel,風車,家具・設備・物品,道具,,[],verified,,unreviewed,verified
+7304,piplup,ポッチャマ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 7305,pirate,海賊,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 7306,pirate hat,海賊帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7307,piromizu,ピロ水,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,needs-review
-7308,pit (kid icarus),ピット（キッドイカロス）,人物の特徴,人物属性,,[],unreviewed,,unreviewed,provisional
+7307,piromizu,ピロ水,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+7308,pit (kid icarus),ピット（キッドイカロス）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
 7309,pitcher (container),水差し,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
-7310,pith helmet,ピスヘルメット,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
+7310,pith helmet,ピスヘルメット,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7311,pixar,ピクサー風,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 7312,pixel art,ドット絵,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-7313,pixelated,ピクセル化,画風・描写,描画技法,,[],verified,,unreviewed,needs-review
-7314,pixiv fantasia,pixivファンタジア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7315,pixiv id,pixiv ID,文字・記号,文字,,"[""ピクシブID""]",verified,,unreviewed,needs-review
+7313,pixelated,ピクセル化,画風・描写,描画技法,,[],verified,,unreviewed,verified
+7314,pixiv fantasia,pixivファンタジア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7315,pixiv id,pixiv ID,文字・記号,文字,,"[""ピクシブID""]",verified,,unreviewed,verified
 7316,pixiv logo,Pixivロゴ,文字・記号,文字,,[],verified,,unreviewed,unreviewed
-7317,pixiv username,pixivユーザー名,文字・記号,文字,,[],verified,,unreviewed,needs-review
-7318,pizza,ピザ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
+7317,pixiv username,pixivユーザー名,文字・記号,文字,,[],verified,,unreviewed,verified
+7318,pizza,ピザ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7319,pizza box,ピザボックス,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-7320,pizza slice,ピザ1切れ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
-7321,plaid background,チェック柄の背景,画風・描写,描画技法,,[],verified,,unreviewed,needs-review
+7320,pizza slice,ピザ1切れ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+7321,plaid background,チェック柄の背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 7322,plaid bikini,格子縞のビキニ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7323,plaid bow,チェック柄のリボン,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7324,plaid bowtie,格子縞のボウタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+7323,plaid bow,チェック柄のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+7324,plaid bowtie,格子縞のボウタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 7325,plaid bra,格子縞のブラジャー,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7326,plaid clothes,格子衣服,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7327,plaid dress,格子縞のドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7328,plaid hat,チェック柄の帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7329,plaid jacket,格子縞のジャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7330,plaid necktie,格子縞のネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
+7330,plaid necktie,格子縞のネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
 7331,plaid panties,格子縞のパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
 7332,plaid pants,格子縞のズボン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7333,plaid ribbon,格子縞のリボン,服装・装飾,衣服,,[],verified,,unreviewed,verified
@@ -7337,27 +7337,27 @@
 7335,plaid shirt,チェックシャツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7336,plaid shorts,格子縞のショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7337,plaid skirt,格子縞のスカート,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7338,plaid vest,格子縞のベスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,provisional
+7338,plaid vest,格子縞のベスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
 7339,plana (blue archive),プラナ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-7340,planet,惑星,背景・場所,自然・風景,,[],verified,,unreviewed,needs-review
+7340,planet,惑星,背景・場所,自然・風景,,[],verified,,unreviewed,verified
 7341,planet hair ornament,惑星の髪の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7342,plant,植物,生物・動植物,植物,,[],verified,,unreviewed,verified
 7343,plant girl,植物の女の子,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 7344,plant roots,植物の根,生物・動植物,植物,,[],verified,,unreviewed,verified
-7345,plantar flexion,足関節底屈,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,needs-review
+7345,plantar flexion,足関節底屈,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 7346,planted,植えられた状態,生物・動植物,植物,,[],verified,,unreviewed,needs-review
 7347,planted sword,地面に突き刺さった剣,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 7348,plap,プラップ（性行為の擬音）,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
 7349,plastic bag,ビニール袋,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7350,plastic bottle,ペットボトル,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-7351,plate,皿,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
+7351,plate,皿,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7352,plate armor,プレートアーマー,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 7353,platform boots,厚底ブーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7354,platform footwear,プラットフォームの履物,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,provisional
-7355,platform heels,厚底高跟鞋,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,provisional
-7356,playboy bunny,プレイボーイバニー,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7357,player 2,プレイヤー2,文字・記号,文字,,[],verified,,unreviewed,needs-review
-7358,playground,遊び場,背景・場所,場所・室内外,,[],verified,,unreviewed,needs-review
+7354,platform footwear,プラットフォームの履物,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+7355,platform heels,厚底高跟鞋,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+7356,playboy bunny,プレイボーイバニー,服装・装飾,衣服,,[],verified,,unreviewed,verified
+7357,player 2,プレイヤー2,文字・記号,文字,,[],verified,,unreviewed,verified
+7358,playground,遊び場,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
 7359,playing,演奏,動作・接触,日常動作,,[],verified,,unreviewed,verified
 7360,playing card,トランプ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7361,playing games,ゲームをする,動作・接触,日常動作,,[],verified,,unreviewed,verified
@@ -7366,102 +7366,102 @@
 7364,playing piano,ピアノを演奏する,動作・接触,日常動作,,[],verified,,unreviewed,verified
 7365,playing sports,スポーツをする,動作・接触,日常動作,,[],verified,,unreviewed,verified
 7366,playing with own hair,自分の髪をいじる,動作・接触,手の動作,,[],verified,,unreviewed,verified
-7367,playstation controller,PlayStationのコントローラー,家具・設備・物品,機械・装置,,[],verified,,unreviewed,needs-review
-7368,playstation portable,PlayStation Portable,家具・設備・物品,機械・装置,,"[""プレイステーションポータブル"",""PSP""]",verified,,unreviewed,needs-review
+7367,playstation controller,PlayStationのコントローラー,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
+7368,playstation portable,PlayStation Portable,家具・設備・物品,機械・装置,,"[""プレイステーションポータブル"",""PSP""]",verified,,unreviewed,verified
 7369,pleated dress,プリーツドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7370,pleated skirt,プリーツスカート,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7371,plectrum,ピック,家具・設備・物品,道具,,[],verified,,unreviewed,needs-review
-7372,plugsuit,プラグスーツ,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7373,plum blossoms,梅の花,生物・動植物,植物,,[],verified,,unreviewed,needs-review
-7374,plume,羽飾り,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
-7375,plump,ふっくらした体型,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,needs-review
-7376,plunging neckline,大きく開いた胸元,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
+7371,plectrum,ピック,家具・設備・物品,道具,,[],verified,,unreviewed,verified
+7372,plugsuit,プラグスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+7373,plum blossoms,梅の花,生物・動植物,植物,,[],verified,,unreviewed,verified
+7374,plume,羽飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+7375,plump,ふっくらした体型,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
+7376,plunging neckline,大きく開いた胸元,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7377,pochita (chainsaw man),ポチタ（チェーンソーマン）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-7378,pocket,ポケット,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7379,pocket watch,懐中時計,服装・装飾,装飾品,,[],verified,,unreviewed,needs-review
-7380,pocky,ポッキー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
-7381,pocky day,ポッキー＆プリッツの日,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+7378,pocket,ポケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
+7379,pocket watch,懐中時計,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+7380,pocky,ポッキー,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+7381,pocky day,ポッキー＆プリッツの日,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
 7382,pocky in mouth,口の中のポッキー,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-7383,pocky kiss,ポッキーキス,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,provisional
-7384,pointed crown,尖った王冠,服装・装飾,装飾品,,[],unreviewed,,unreviewed,provisional
-7385,pointer,指し棒,家具・設備・物品,道具,,[],verified,,unreviewed,needs-review
+7383,pocky kiss,ポッキーキス,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,verified
+7384,pointed crown,尖った王冠,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+7385,pointer,指し棒,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 7386,pointing,指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7387,pointing at another,他人を指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7388,pointing at self,自分を指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7389,pointing at viewer,こちらを指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7390,pointing forward,前方を指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7391,pointing up,上を指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
-7392,pointless censoring,無意味な検閲,構図・カメラ,フレーミング,,[],verified,,unreviewed,needs-review
+7392,pointless censoring,無意味な検閲,光・演出,演出効果,,[],verified,,unreviewed,verified
 7393,pointy breasts,尖った乳房,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 7394,pointy ears,尖った耳,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-7395,pointy footwear,先のとがった履物,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,provisional
+7395,pointy footwear,先のとがった履物,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
 7396,pointy hair,逆立った髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 7397,pointy hat,先のとがった帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7398,pointy nose,とがった鼻,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-7399,poke ball,モンスターボール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
+7399,poke ball,モンスターボール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 7400,poke ball (basic),モンスターボール（通常）,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
-7401,poke ball print,モンスターボール柄,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
-7402,poke ball symbol,ポークボールシンボル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,provisional
-7403,poke ball theme,モンスターボールをテーマにしたデザイン,画風・描写,画風・表現様式,,[],verified,,unreviewed,needs-review
-7404,pokedex number,ポケモン図鑑番号,文字・記号,文字,,[],verified,,unreviewed,needs-review
+7401,poke ball print,モンスターボール柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
+7402,poke ball symbol,ポークボールシンボル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
+7403,poke ball theme,モンスターボールをテーマにしたデザイン,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
+7404,pokedex number,ポケモン図鑑番号,文字・記号,文字,,[],verified,,unreviewed,verified
 7405,pokemoa,ポケモア,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-7406,pokemon,ポケモン,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,needs-review
+7406,pokemon,ポケモン,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,verified
 7407,pokemon (anime),ポケモン（アニメ）,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,verified
 7408,pokemon (classic anime),ポケットモンスター（アニポケ第1シリーズ）,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,verified
 7409,pokemon (creature),ポケモン（クリーチャー）,生物・動植物,動物,,[],needs-review,,unreviewed,verified
-7410,pokemon adventures,ポケットモンスターSPECIAL,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7411,pokemon bw,ポケットモンスター ブラック・ホワイト,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7412,pokemon bw2,ポケットモンスター ブラック2・ホワイト2,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7413,pokemon dppt,ポケットモンスター ダイヤモンド・パール・プラチナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+7410,pokemon adventures,ポケットモンスターSPECIAL,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7411,pokemon bw,ポケットモンスター ブラック・ホワイト,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7412,pokemon bw2,ポケットモンスター ブラック2・ホワイト2,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7413,pokemon dppt,ポケットモンスター ダイヤモンド・パール・プラチナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7414,pokemon dppt (anime),ポケモンDPPT（アニメ）,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,verified
 7415,pokemon focus,ポケモン中心の構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-7416,pokemon frlg,ポケットモンスター ファイアレッド・リーフグリーン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7417,pokemon go,Pokémon GO,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7418,pokemon gsc,ポケットモンスター 金・銀・クリスタル,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7419,pokemon hgss,ポケットモンスター ハートゴールド・ソウルシルバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7420,pokemon horizons,ポケットモンスター（2023年版）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7421,pokemon journeys,ポケットモンスター（2019年版）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7422,pokemon legends: arceus,Pokémon LEGENDS アルセウス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7423,pokemon masters ex,Pokémon Masters EX,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+7416,pokemon frlg,ポケットモンスター ファイアレッド・リーフグリーン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7417,pokemon go,Pokémon GO,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7418,pokemon gsc,ポケットモンスター 金・銀・クリスタル,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7419,pokemon hgss,ポケットモンスター ハートゴールド・ソウルシルバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7420,pokemon horizons,ポケットモンスター（2023年版）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7421,pokemon journeys,ポケットモンスター（2019年版）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7422,pokemon legends: arceus,Pokémon LEGENDS アルセウス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7423,pokemon masters ex,Pokémon Masters EX,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7424,pokemon move,ポケモンのわざ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7425,pokemon on head,頭にポケモンを乗せる,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,needs-review
-7426,pokemon on shoulder,肩にポケモン,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,provisional
-7427,pokemon oras,ポケットモンスター オメガルビー・アルファサファイア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7428,pokemon platinum,ポケットモンスター プラチナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7429,pokemon rgby,ポケモン 赤・緑・青・ピカチュウ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7430,pokemon rse,ポケモン ルビー・サファイア・エメラルド,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7431,pokemon sm,ポケモン サン・ムーン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+7425,pokemon on head,頭にポケモンを乗せる,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+7426,pokemon on shoulder,肩にポケモン,ポーズ・姿勢,身体の配置,,[],unreviewed,,unreviewed,verified
+7427,pokemon oras,ポケットモンスター オメガルビー・アルファサファイア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7428,pokemon platinum,ポケットモンスター プラチナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7429,pokemon rgby,ポケモン 赤・緑・青・ピカチュウ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7430,pokemon rse,ポケモン ルビー・サファイア・エメラルド,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7431,pokemon sm,ポケモン サン・ムーン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7432,pokemon sm (anime),ポケモンSM（アニメ）,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,verified
-7433,pokemon sv,ポケモンSV,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7434,pokemon swsh,ポケモン剣盾,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
-7435,pokemon xy,ポケモンXY,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,needs-review
+7433,pokemon sv,ポケモンSV,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7434,pokemon swsh,ポケモン剣盾,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+7435,pokemon xy,ポケモンXY,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7436,pokemon xy (anime),ポケモンxy（アニメ）,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,verified
-7437,pokephilia,ポケモン性愛,動作・接触,性的行為・接触,,[],verified,,unreviewed,needs-review
+7437,pokephilia,ポケモン性愛,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
 7438,poker chip,ポーカーチップ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-7439,poking,つつく,動作・接触,日常動作,,[],verified,,unreviewed,needs-review
+7439,poking,つつく,動作・接触,手の動作,,[],verified,,unreviewed,verified
 7440,pola (kancolle),ポラ（艦これ）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 7441,polar bear,ホッキョクグマ,生物・動植物,動物,,[],verified,,unreviewed,verified
-7442,polaroid photo,ポラロイド写真,家具・設備・物品,日用品,,[],verified,,unreviewed,needs-review
-7443,pole,ポール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,provisional
+7442,polaroid photo,ポラロイド写真,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
+7443,pole,ポール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 7444,pole dancing,ポールダンス,動作・接触,身体動作,,[],verified,,unreviewed,verified
-7445,polearm,長柄武器,家具・設備・物品,武器,,[],verified,,unreviewed,needs-review
+7445,polearm,長柄武器,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 7446,poleyn,膝甲,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 7447,police,警察,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 7448,police badge,警察バッジ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-7449,police car,警察車両,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,provisional
+7449,police car,警察車両,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,verified
 7450,police hat,警察帽,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7451,police uniform,警察の制服,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7452,policeman,警官,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
-7453,policewoman,女性警察官,人物の特徴,人物属性,,[],verified,,unreviewed,needs-review
-7454,polka dot,水玉模様,画風・描写,描画技法,,[],verified,,unreviewed,needs-review
-7455,polka dot background,水玉の背景,背景・場所,場所・室内外,,[],verified,,unreviewed,needs-review
+7452,policeman,警官,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+7453,policewoman,女性警察官,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+7454,polka dot,水玉模様,画風・描写,描画技法,,[],verified,,unreviewed,verified
+7455,polka dot background,水玉の背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 7456,polka dot bikini,水玉ビキニ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7457,polka dot bow,水玉模様のリボン,服装・装飾,装飾品,,[],needs-review,,unreviewed,needs-review
+7457,polka dot bow,水玉模様のリボン,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
 7458,polka dot bra,水玉模様のブラジャー,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 7459,polka dot dress,水玉ドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7460,polka dot headwear,水玉模様の帽子,服装・装飾,衣服,,[],needs-review,,unreviewed,needs-review
-7461,polka dot legwear,水玉模様のレッグウェア,服装・装飾,衣服,,[],needs-review,,unreviewed,needs-review
-7462,polka dot pajamas,水玉模様のパジャマ,服装・装飾,衣服,,[],verified,,unreviewed,needs-review
+7460,polka dot headwear,水玉模様の帽子,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
+7461,polka dot legwear,水玉模様のレッグウェア,服装・装飾,靴・履物,,[],needs-review,,unreviewed,verified
+7462,polka dot pajamas,水玉模様のパジャマ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7463,polka dot panties,水玉パンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
 7464,polka dot ribbon,水玉リボン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7465,polka dot scrunchie,水玉模様のシュシュ,服装・装飾,装飾品,,[],needs-review,,unreviewed,needs-review
