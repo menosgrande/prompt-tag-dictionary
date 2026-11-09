@@ -28,17 +28,47 @@ test("applies supported fields while preserving unrelated metadata and row order
   assert.equal(result.data.tags[0][2], "新分類");
   assert.equal(result.data.tags[1][6].translation.evidence, "keep");
   assert.equal(result.data.tags[1][6].translation.candidateJa, "候補訳");
+  const cleared = applyPatchData(result.data, { schema: "prompt-tag-dictionary-patch-v1", operations: [{ tag: "metadata tag", set: { candidateJa: null } }] });
+  assert.equal("candidateJa" in cleared.data.tags[1][6].translation, false);
   assert.deepEqual(input, fixture(), "input object must not be mutated");
+});
+
+
+test("updates translation review status and evidence while preserving unrelated metadata", () => {
+  const data = fixture();
+  const result = applyPatchData(data, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{
+      tag: "metadata tag",
+      set: {
+        translationStatus: "verified",
+        translationReviewNote: "訳語を確認。",
+        translationReviewedAt: "2026-11-09",
+        translationSource: "https://example.com/source"
+      }
+    }]
+  });
+  assert.equal(result.updated, 1);
+  assert.equal(result.data.tags[1][6].translation.status, "verified");
+  assert.equal(result.data.tags[1][6].translation.reviewNote, "訳語を確認。");
+  assert.equal(result.data.tags[1][6].translation.reviewedAt, "2026-11-09");
+  assert.equal(result.data.tags[1][6].translation.source, "https://example.com/source");
+  assert.equal(result.data.tags[1][6].translation.evidence, "keep");
+  assert.equal(result.data.tags[1][6].custom.keep, true);
+  assert.throws(() => applyPatchData(fixture(), {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "metadata tag", set: { translationStatus: "maybe" } }]
+  }), /Invalid translationStatus/);
 });
 
 test("rejects unknown fields, malformed operations, and invalid values", () => {
   const data = fixture();
   const base = { schema: "prompt-tag-dictionary-patch-v1", operations: [] };
   assert.throws(() => applyPatchData(data, { ...base, extra: true }), /unsupported top-level/);
-  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: { nope: "x" } }] }), /Only ja/);
+  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: { nope: "x" } }] }), /Unsupported patch fields/);
   assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: { ja: null } }] }), /must be a string/);
   assert.throws(() => applyPatchData(data, { ...base, operations: [null] }), /Invalid operation/);
-  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: {} }] }), /Only ja/);
+  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: {} }] }), /Unsupported patch fields/);
 });
 
 test("rejects missing tags and duplicate operations after tag normalization", () => {

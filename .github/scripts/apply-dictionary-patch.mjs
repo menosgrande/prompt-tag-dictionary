@@ -73,8 +73,8 @@ function validatePatch(patch, byTag) {
       throw new Error("Each operation needs a set object: " + operation.tag);
     }
     const fields = Object.keys(values);
-    if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa"].includes(field))) {
-      throw new Error("Only ja, major, minor, and candidateJa can be updated: " + operation.tag);
+    if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource"].includes(field))) {
+      throw new Error("Unsupported patch fields; allowed fields are ja, major, minor, candidateJa, and translation review metadata: " + operation.tag);
     }
 
     for (const field of fields) {
@@ -84,6 +84,13 @@ function validatePatch(patch, byTag) {
         }
         if (row.length !== 7 || !isRecord(row[6])) {
           throw new Error("Tag has no metadata for candidateJa update: " + operation.tag);
+        }
+      } else if (field === "translationStatus") {
+        if (!["verified", "needs-review", "unreviewed", "machine-translation", "not-applicable"].includes(values[field])) {
+          throw new Error("Invalid translationStatus: " + operation.tag);
+        }
+        if (row.length !== 7 || !isRecord(row[6])) {
+          throw new Error("Tag has no metadata for translation review update: " + operation.tag);
         }
       } else if (typeof values[field] !== "string") {
         throw new Error("Field value must be a string: " + operation.tag + " / " + field);
@@ -220,10 +227,14 @@ export function applyPatchData(inputData, patch) {
 
   for (const { row, tag, values } of prepared) {
     for (const field of Object.keys(values)) {
-      if (field === "candidateJa") {
+      if (["candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource"].includes(field)) {
         if (!isRecord(row[6].translation)) row[6].translation = {};
-        if (values[field] === null) delete row[6].translation.candidateJa;
-        else row[6].translation.candidateJa = values[field];
+        const metadataField = field === "candidateJa" ? "candidateJa"
+          : field === "translationStatus" ? "status"
+          : field === "translationReviewNote" ? "reviewNote"
+          : field === "translationReviewedAt" ? "reviewedAt" : "source";
+        if (field === "candidateJa" && values[field] === null) delete row[6].translation.candidateJa;
+        else row[6].translation[metadataField] = values[field];
         continue;
       }
       const index = field === "ja" ? 1 : field === "major" ? 2 : 3;
