@@ -53,7 +53,7 @@
 51,8k,8K解像度,品質・ネガティブ,解像度・精細度,,,verified,0,verified,verified
 52,9s (nier:automata),ヨルハ九号S型（ニーア オートマタ）,キャラクター・作品,キャラクター,,,verified,,,
 53,a certain high school uniform,特定の高校の制服,服装・装飾,衣服,,,needs-review,0,verified,verified
-54,a.i. voice,A.I.VOICE,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
+54,a.i. voice,A.I.VOICE,文字・記号,ロゴ・ブランド表記,,"[""エーアイボイス"",""アイボス""]",verified,,,unreviewed
 55,a1 (initial-g),A1（Initial-G）,キャラクター・作品,作者・配信者,,,needs-review,0,verified,verified
 56,aaaa (quad-a),AAAA（Quad-A）,キャラクター・作品,作者・配信者,,,needs-review,0,verified,verified
 57,abandoned,放棄された・廃棄された,状態・状況,状態・変化,,[],verified,,,
@@ -697,7 +697,7 @@
 695,bandana around neck,首に巻いたバンダナ,人物の特徴,身体部位・身体状態,,[],verified,,,provisional
 696,bandeau,バンドゥトップ,服装・装飾,衣服,,[],verified,,,unreviewed
 697,bandolier,弾帯,服装・装飾,装備・防具,,,verified,0,verified,verified
-698,bang dream!,BanG Dream!,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+698,bang dream!,BanG Dream!,キャラクター・作品,タイトル（作品名）,,"[""バンドリ！""]",verified,,,unreviewed
 699,bangboo (zenless zone zero),ボンプ（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 700,bangle,バングル,服装・装飾,装飾品,,,verified,0,verified,verified
 701,bangs pinned back,前髪上げ,髪・頭部,髪・頭部,,,verified,0,verified,verified
@@ -1051,7 +1051,7 @@
 1049,blazblue,ブレイブルー,キャラクター・作品,タイトル（作品名）,,,needs-review,0,verified,verified
 1050,blaze the cat (Sonic the Hedgehog),ブレイズ・ザ・キャット（ソニック・ザ・ヘッジホッグ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 1051,blazer,ブレザー,服装・装飾,衣服,,,verified,0,verified,verified
-1052,bleach,BLEACH,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+1052,bleach,BLEACH,キャラクター・作品,タイトル（作品名）,,"[""ブリーチ""]",verified,,,unreviewed
 1053,bleach: sennen kessen-hen,BLEACH 千年血戦篇,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 1054,bleeding,出血,状態・状況,状態・変化,,,verified,0,verified,verified
 1055,blending,ブレンディング（色・画像のなじませ）,画風・描写,描画技法,,[],verified,,,verified
@@ -1692,7 +1692,7 @@
 1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,,needs-review,0,verified,needs-review
 1691,cervix,子宮頸部,人物の特徴,身体部位・身体状態,,,verified,0,verified,verified
 1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],machine-translation,,,needs-review
-1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,,needs-review,0,verified,verified
+1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,"[""チェビオ""]",needs-review,0,verified,verified
 1694,chain,鎖,家具・設備・物品,その他の物品,,,verified,0,verified,verified
 1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,,,provisional
 1696,chain leash,チェーンリーシュ,服装・装飾,装飾品,,,verified,0,verified,verified
@@ -2345,7 +2345,7 @@
 2343,dark souls iii,ダークソウルIII,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 2344,dark-skinned female,女性,人物の特徴,人物属性,,[],verified,,,provisional
 2345,dark-skinned male,男性,人物の特徴,人物属性,,[],verified,,,provisional
-2346,darker than black,DARKER THAN BLACK,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+2346,darker than black,DARKER THAN BLACK,キャラクター・作品,タイトル（作品名）,,"[""ダーカーザンブラック""]",verified,,,unreviewed
 2347,darkness,暗闇,光・演出,演出効果,,[],verified,,,
 2348,darkness (konosuba),ダクネス（この素晴らしい世界に祝福を！）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 2349,darkstalkers,ヴァンパイア（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,,
@@ -2935,18 +2935,18 @@
 2933,fatal fury,餓狼伝説,キャラクター・作品,タイトル（作品名）,,[],verified,,,
 2934,fate (series),Fateシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 2935,fate testarossa (Magical Girl Lyrical Nanoha),フェイト・テスタロッサ,キャラクター・作品,キャラクター,,[],verified,,,
-2936,fate/apocrypha,Fate/Apocrypha,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2937,fate/extella,Fate/EXTELLA,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2938,fate/extra,Fate/EXTRA,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2939,fate/extra ccc,Fate/EXTRA CCC,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2940,fate/grand order,Fate/Grand Order,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2941,fate/hollow ataraxia,Fate/hollow ataraxia,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+2936,fate/apocrypha,Fate/Apocrypha,キャラクター・作品,タイトル（作品名）,,"[""フェイト／アポクリファ""]",verified,,,unreviewed
+2937,fate/extella,Fate/EXTELLA,キャラクター・作品,タイトル（作品名）,,"[""フェイト／エクステラ""]",verified,,,unreviewed
+2938,fate/extra,Fate/EXTRA,キャラクター・作品,タイトル（作品名）,,"[""フェイト／エクストラ""]",verified,,,unreviewed
+2939,fate/extra ccc,Fate/EXTRA CCC,キャラクター・作品,タイトル（作品名）,,"[""フェイト／エクストラ CCC""]",verified,,,unreviewed
+2940,fate/grand order,Fate/Grand Order,キャラクター・作品,タイトル（作品名）,,"[""フェイト／グランドオーダー"",""FGO""]",verified,,,unreviewed
+2941,fate/hollow ataraxia,Fate/hollow ataraxia,キャラクター・作品,タイトル（作品名）,,"[""フェイト／ホロウアタラクシア""]",verified,,,unreviewed
 2942,fate/kaleid liner prisma illya,プリズマ☆イリヤ,キャラクター・作品,タイトル（作品名）,,[],verified,,,
-2943,fate/prototype,Fate/Prototype,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+2943,fate/prototype,Fate/Prototype,キャラクター・作品,タイトル（作品名）,,"[""フェイト／プロトタイプ""]",verified,,,unreviewed
 2944,fate/prototype: fragments of blue and silver,Fate/Prototype 蒼銀のフラグメンツ,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2945,fate/samurai remnant,Fate/Samurai Remnant,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-2946,fate/stay night,Fate/stay night,キャラクター・作品,タイトル（作品名）,,[],verified,,,provisional
-2947,fate/zero,Fate/Zero,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+2945,fate/samurai remnant,Fate/Samurai Remnant,キャラクター・作品,タイトル（作品名）,,"[""フェイト／サムライレムナント""]",verified,,,unreviewed
+2946,fate/stay night,Fate/stay night,キャラクター・作品,タイトル（作品名）,,"[""フェイト／ステイナイト""]",verified,,,provisional
+2947,fate/zero,Fate/Zero,キャラクター・作品,タイトル（作品名）,,"[""フェイト／ゼロ""]",verified,,,unreviewed
 2948,father and daughter,父と娘,動作・接触,対人接触・動作,,[],verified,,,provisional
 2949,father and son,父と息子,動作・接触,対人接触・動作,,[],verified,,,
 2950,fatui coat,ファデュイのコート,服装・装飾,衣服,,[],verified,,,unreviewed
@@ -3798,8 +3798,8 @@
 3796,guilty crown,ギルティクラウン,服装・装飾,装飾品,,[],verified,,,provisional
 3797,guilty gear,ギルティギア,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 3798,guilty gear strive,ギルティギア ストライヴ,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-3799,guilty gear xrd,GUILTY GEAR Xrd,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
-3800,guilty gear xx,GUILTY GEAR XX,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+3799,guilty gear xrd,GUILTY GEAR Xrd,キャラクター・作品,タイトル（作品名）,,"[""ギルティギア イグザード""]",verified,,,unreviewed
+3800,guilty gear xx,GUILTY GEAR XX,キャラクター・作品,タイトル（作品名）,,"[""ギルティギア イグゼクス""]",verified,,,unreviewed
 3801,guitar,ギター,家具・設備・物品,その他の物品,,[],verified,,,unreviewed
 3802,guitar case,ギターケース,家具・設備・物品,その他の物品,,[],verified,,,unreviewed
 3803,gumi (Megpoid),GUMI（メグッポイド）,キャラクター・作品,キャラクター,,[],verified,,,verified
@@ -4830,8 +4830,8 @@
 4828,iono (pokemon),ナンジャモ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4829,iori (blue archive),イオリ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4830,iowa (kancolle),アイオワ（艦これ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
-4831,iphone,iPhone,家具・設備・物品,その他の物品,,[],verified,,,unreviewed
-4832,ipod,iPod,家具・設備・物品,その他の物品,,[],verified,,,unreviewed
+4831,iphone,iPhone,家具・設備・物品,その他の物品,,"[""アイフォーン""]",verified,,,unreviewed
+4832,ipod,iPod,家具・設備・物品,その他の物品,,"[""アイポッド""]",verified,,,unreviewed
 4833,irene (arknights),アイリーニ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4834,irida (pokemon),カイ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4835,irisviel von einzbern (Fate/Zero),アイリスフィール・フォン・アインツベルン（Fate/Zero）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
@@ -4940,7 +4940,7 @@
 4938,josou seme,女装攻め,動作・接触,性的行為・接触,,[],verified,,,unreviewed
 4939,jougasaki mika (The Idolmaster Cinderella Girls),城ヶ崎美嘉,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4940,jougasaki rika (The Idolmaster Cinderella Girls),城ヶ崎莉嘉,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
-4941,joy-con,Joy-Con,家具・設備・物品,機械・装置,,[],verified,,,
+4941,joy-con,Joy-Con,家具・設備・物品,機械・装置,,"[""ジョイコン""]",verified,,,
 4942,joystick,ジョイスティック,家具・設備・物品,機械・装置,,[],verified,,,
 4943,jpeg artifacts,JPEG圧縮ノイズ,品質・ネガティブ,高品質・傑作,,[],verified,,,unreviewed
 4944,juice,ジュース,家具・設備・物品,その他の物品,,[],verified,,,
@@ -4958,7 +4958,7 @@
 4956,junko (touhou),純狐（東方Project）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 4957,just the tip,先端だけ挿入,動作・接触,性的行為・接触,,[],verified,,,unreviewed
 4958,k-on!,けいおん！,キャラクター・作品,タイトル（作品名）,,[],verified,,,
-4959,k-pop,K-POP,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
+4959,k-pop,K-POP,文字・記号,ロゴ・ブランド表記,,"[""ケーポップ""]",verified,,,unreviewed
 4960,k-suwabe,K・スワベ,キャラクター・作品,作者・配信者,,[],needs-review,,,unreviewed
 4961,k/da (league of legends),K/DA（リーグオブレジェンド）,キャラクター・作品,キャラクター,,[],needs-review,,,unreviewed
 4962,kaamin (mariarose753),かーみん（mariarose753）,キャラクター・作品,作者・配信者,,[],needs-review,,,unreviewed
@@ -5701,7 +5701,7 @@
 5699,lysithea von ordelia (fire emblem: three houses),リシテア＝フォン＝オルデルリア（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 5700,m legs,M字開脚,人物の特徴,身体部位・身体状態,,[],verified,,,provisional
 5701,m-da s-tarou,MだSたろう,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
-5702,m.u.g.e.n,M.U.G.E.N,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
+5702,m.u.g.e.n,M.U.G.E.N,文字・記号,ロゴ・ブランド表記,,"[""ムゲン""]",verified,,,unreviewed
 5703,m16,M16ライフル,服装・装飾,装備・防具,,[],verified,,,unreviewed
 5704,m1911,コルト・ガバメント（M1911）,服装・装飾,装備・防具,,[],verified,,,unreviewed
 5705,m4 carbine,M4カービン,服装・装飾,装備・防具,,[],verified,,,unreviewed
@@ -5934,7 +5934,7 @@
 5932,melting,溶ける,状態・状況,状態・変化,,[],verified,,,unreviewed
 5933,meltryllis (fate),メルトリリス（Fate）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 5934,meltryllis (swimsuit lancer) (fate),メルトリリス（水着ランサー／Fate）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
-5935,melty blood,MELTY BLOOD,キャラクター・作品,タイトル（作品名）,,[],verified,,,
+5935,melty blood,MELTY BLOOD,キャラクター・作品,タイトル（作品名）,,"[""メルティブラッド""]",verified,,,
 5936,melusine (fate),メリュジーヌ（Fate）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 5937,meme,ミーム,文字・記号,文字,,[],verified,,,unreviewed
 5938,meme attire,ミームを題材にした服装,服装・装飾,衣服,,[],verified,,,unreviewed
@@ -5974,7 +5974,7 @@
 5972,microphone,マイク,家具・設備・物品,日用品,,[],verified,,,
 5973,microphone stand,マイクスタンド,家具・設備・物品,日用品,,[],verified,,,
 5974,microskirt,マイクロミニスカート,服装・装飾,衣服,,[],verified,,,
-5975,microsoft windows,Microsoft Windows,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
+5975,microsoft windows,Microsoft Windows,文字・記号,ロゴ・ブランド表記,,"[""マイクロソフト ウィンドウズ""]",verified,,,unreviewed
 5976,microwave,電子レンジ,家具・設備・物品,日用品,,[],verified,,,
 5977,midair,空中,ポーズ・姿勢,基本姿勢,,[],verified,,,
 5978,middle finger,中指を立てる,人物の特徴,身体部位・身体状態,,[],verified,,,
@@ -5987,7 +5987,7 @@
 5985,midriff peek,腹チラ,人物の特徴,身体部位・身体状態,,[],verified,,,
 5986,midriff sarashi,腹部のさらし,人物の特徴,身体部位・身体状態,,[],verified,,,
 5987,mihono bourbon (umamusume),ミホノブルボン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
-5988,mihoyo,miHoYo,文字・記号,ロゴ・ブランド表記,,[],verified,,,unreviewed
+5988,mihoyo,miHoYo,文字・記号,ロゴ・ブランド表記,,"[""ミホヨ""]",verified,,,unreviewed
 5989,mika (blue archive),聖園ミカ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 5990,mika (girls und panzer),ミカ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,,unreviewed
 5991,mikage takashi,御影たかし,キャラクター・作品,作者・配信者,,[],needs-review,,,unreviewed
@@ -6201,7 +6201,7 @@
 6199,moth,蛾,生物・動植物,動物,,[],verified,,,unreviewed
 6200,moth girl,蛾娘,人物の特徴,人物属性,,[],verified,,,provisional
 6201,mother (series),MOTHERシリーズ,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
-6202,mother 2,MOTHER2,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+6202,mother 2,MOTHER2,キャラクター・作品,タイトル（作品名）,,"[""マザー2"",""MOTHER2 ギーグの逆襲""]",verified,,,unreviewed
 6203,mother and daughter,母と娘,動作・接触,対人接触・動作,,[],verified,,,provisional
 6204,mother and son,母と息子,人数・人物構成,人数・人物構成,,[],verified,,,unreviewed
 6205,motherly,母親らしい,状態・状況,状況・関係性,,[],verified,,,unreviewed
@@ -6420,7 +6420,7 @@
 6418,narrow waist,引き締まったウエスト,人物の特徴,人物属性,,[],verified,,,provisional
 6419,narrowed eyes,目を細める,顔・表情,目,,[],verified,,,unreviewed
 6420,narukami yuu,鳴上悠,キャラクター・作品,キャラクター,,[],verified,,,needs-review
-6421,naruto,NARUTO,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
+6421,naruto,NARUTO,キャラクター・作品,タイトル（作品名）,,"[""ナルト""]",verified,,,unreviewed
 6422,naruto (series),NARUTOシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 6423,naruto shippuuden,NARUTO -ナルト- 疾風伝,キャラクター・作品,タイトル（作品名）,,[],verified,,,unreviewed
 6424,narutomaki,なると巻き,家具・設備・物品,その他の物品,,[],verified,,,provisional
@@ -6460,7 +6460,7 @@
 6458,necktie grab,ネクタイをつかむ,服装・装飾,装飾品,,,verified,,,provisional
 6459,neckwear grab,首元の衣服をつかむ,動作・接触,衣服への接触,,[],verified,,,provisional
 6460,needle,針,家具・設備・物品,道具,,[],verified,,,verified
-6461,needy girl overdose,NEEDY GIRL OVERDOSE,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,provisional
+6461,needy girl overdose,NEEDY GIRL OVERDOSE,キャラクター・作品,タイトル（作品名）,,"[""ニーディーガールオーバードーズ""]",needs-review,,,provisional
 6462,negative space,ネガティブスペース,背景・場所,自然・風景,,,verified,,,
 6463,negligee,ネグリジェ,服装・装飾,衣服,,[],verified,,,needs-review
 6464,negom,ネゴム,キャラクター・作品,作者・配信者,,[],verified,,,verified
@@ -6531,7 +6531,7 @@
 6529,ninja mask,忍者マスク,服装・装飾,装飾品,,[],unreviewed,,,provisional
 6530,nintendo 3ds,ニンテンドー3DS,家具・設備・物品,機械・装置,,[],verified,,,
 6531,nintendo ds,ニンテンドーDS,家具・設備・物品,機械・装置,,[],verified,,,verified
-6532,nintendo switch,Nintendo Switch,家具・設備・物品,機械・装置,,[],verified,,,
+6532,nintendo switch,Nintendo Switch,家具・設備・物品,機械・装置,,"[""ニンテンドースイッチ""]",verified,,,
 6533,nipple bar,乳首用バーベル,服装・装飾,装飾品,,,verified,,,
 6534,nipple chain,乳首チェーン,服装・装飾,装飾品,,,verified,,,verified
 6535,nipple clamps,乳首クランプ,服装・装飾,装飾品,,,verified,,,verified
@@ -6759,7 +6759,7 @@
 6757,one breast out,片胸の露出,服装・装飾,衣服の状態,,,verified,,,
 6758,one eye closed,片目を閉じる,顔・表情,目,,,verified,,,verified
 6759,one eye covered,片目を隠す,顔・表情,目,,,verified,,,
-6760,one piece,ONE PIECE,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
+6760,one piece,ONE PIECE,キャラクター・作品,タイトル（作品名）,,"[""ワンピース""]",verified,,,needs-review
 6761,one side up,片側を上げた,髪・頭部,髪・頭部,,[],verified,,,needs-review
 6762,one-eyed,隻眼,顔・表情,顔の特徴,,[],verified,,,needs-review
 6763,one-hour drawing challenge,1時間の描画チャレンジ,状態・状況,状況・関係性,,[],verified,,,provisional
@@ -7173,7 +7173,7 @@
 7171,phantom blood,ファントムブラッド,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
 7172,phantom ix row,ファントムIXロウ,キャラクター・作品,作者・配信者,,[],verified,,,verified
 7173,phantom of the kill,ファントム オブ キル,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
-7174,phase connect,Phase Connect,キャラクター・作品,作者・配信者,,[],verified,,,needs-review
+7174,phase connect,Phase Connect,キャラクター・作品,作者・配信者,,"[""フェーズコネクト""]",verified,,,needs-review
 7175,phimosis,包茎,人物の特徴,身体部位・身体状態,,[],verified,,,needs-review
 7176,phoenix,フェニックス,生物・動植物,動物,,[],unreviewed,,,provisional
 7177,phone,スマホ,家具・設備・物品,その他の物品,,,needs-review,,,verified
@@ -7314,7 +7314,7 @@
 7312,pixel art,ドット絵,画風・描写,画風・表現様式,,,verified,,,verified
 7313,pixelated,ピクセル化,画風・描写,描画技法,,[],verified,,,needs-review
 7314,pixiv fantasia,pixivファンタジア,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
-7315,pixiv id,pixiv ID,文字・記号,文字,,[],verified,,,needs-review
+7315,pixiv id,pixiv ID,文字・記号,文字,,"[""ピクシブID""]",verified,,,needs-review
 7316,pixiv logo,Pixivロゴ,文字・記号,文字,,[],verified,,,
 7317,pixiv username,pixivユーザー名,文字・記号,文字,,[],verified,,,needs-review
 7318,pizza,ピザ,家具・設備・物品,その他の物品,,[],verified,,,needs-review
@@ -7367,7 +7367,7 @@
 7365,playing sports,スポーツをする,動作・接触,日常動作,,,verified,,,verified
 7366,playing with own hair,自分の髪をいじる,動作・接触,手の動作,,,verified,,,verified
 7367,playstation controller,PlayStationのコントローラー,家具・設備・物品,機械・装置,,[],verified,,,needs-review
-7368,playstation portable,PlayStation Portable,家具・設備・物品,機械・装置,,[],verified,,,needs-review
+7368,playstation portable,PlayStation Portable,家具・設備・物品,機械・装置,,"[""プレイステーションポータブル"",""PSP""]",verified,,,needs-review
 7369,pleated dress,プリーツドレス,服装・装飾,衣服,,,verified,,,verified
 7370,pleated skirt,プリーツスカート,服装・装飾,衣服,,,verified,,,verified
 7371,plectrum,ピック,家具・設備・物品,道具,,[],verified,,,needs-review
@@ -8125,7 +8125,7 @@
 8123,russian text,ロシア語のテキスト,文字・記号,文字,,[],verified,,,
 8124,rust,錆,背景・場所,自然・風景,,[],verified,,,needs-review
 8125,ruu (tksymkw),るう（tksymkw）,キャラクター・作品,作者・配信者,,,needs-review,,,verified
-8126,rwby,RWBY,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
+8126,rwby,RWBY,キャラクター・作品,タイトル（作品名）,,"[""ルビー""]",verified,,,needs-review
 8127,ryoji (nomura ryouji),ryoji（野uuraryuji）,キャラクター・作品,作者・配信者,,,needs-review,,,verified
 8128,ryona,リョナ,動作・接触,性的行為・接触,,[],verified,,,needs-review
 8129,ryougi shiki,両儀式,キャラクター・作品,キャラクター,,[],verified,,,needs-review
@@ -8304,8 +8304,8 @@
 8302,school uniform,制服,服装・装飾,衣服,,,verified,,,verified
 8303,schoolgirl,女子生徒,人物の特徴,人物属性,,,verified,,,verified
 8304,schwarz (arknights),シュワルツ（arknights）,キャラクター・作品,キャラクター,,,needs-review,,,verified
-8305,sci-fi,SF,画風・描写,画風・表現様式,,,verified,,,verified
-8306,science fiction,SF,画風・描写,画風・表現様式,,[],needs-review,,,
+8305,sci-fi,SF,画風・描写,画風・表現様式,,"[""SF"",""サイエンスフィクション""]",verified,,,verified
+8306,science fiction,SF,画風・描写,画風・表現様式,,"[""SF"",""サイエンスフィクション""]",needs-review,,,
 8307,scissor blade (kill la kill),片太刀バサミ,家具・設備・物品,武器,,[],needs-review,,,verified
 8308,scissors,はさみ,家具・設備・物品,日用品,,[],verified,,,
 8309,scoop neck,スクープネック,人物の特徴,身体部位・身体状態,,[],unreviewed,,,provisional
@@ -8427,7 +8427,7 @@
 8425,shading eyes,目に陰影,顔・表情,目,,,,,,
 8426,shadow,影,光・演出,照明・光源,,,,,,
 8427,shadow the hedgehog,シャドウ・ザ・ヘッジホッグ,光・演出,照明・光源,,[],needs-review,,,unreviewed
-8428,shadowverse,Shadowverse,キャラクター・作品,タイトル（作品名）,,[],verified,,,needs-review
+8428,shadowverse,Shadowverse,キャラクター・作品,タイトル（作品名）,,"[""シャドウバース""]",verified,,,needs-review
 8429,shaking,揺れる,動作・接触,身体動作,,[],verified,,,needs-review
 8430,shaking head,首を横に振る,動作・接触,身体動作,,[],verified,,,needs-review
 8431,shako cap,シャコー帽,服装・装飾,衣服,,,,,,
@@ -8634,7 +8634,7 @@
 8632,shoulder tattoo,肩のタトゥー,人物の特徴,身体部位・身体状態,,[],unreviewed,,,provisional
 8633,shouting,大声で叫ぶ,動作・接触,身体動作,,[],verified,,,needs-review
 8634,shovel,シャベル,家具・設備・物品,道具,,[],verified,,,needs-review
-8635,show by rock!!,SHOW BY ROCK!!,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,provisional
+8635,show by rock!!,SHOW BY ROCK!!,キャラクター・作品,タイトル（作品名）,,"[""ショウバイロック""]",needs-review,,,provisional
 8636,shower (place),シャワー（場所）,背景・場所,建築・構造物,,,,,,
 8637,shower head,シャワーヘッド,家具・設備・物品,設備,,[],verified,,,needs-review
 8638,showering,シャワーを浴びる,動作・接触,日常動作,,[],verified,,,needs-review
@@ -9113,7 +9113,7 @@
 9111,squirrel girl,リス耳の少女,人物の特徴,人物属性,,,unreviewed,,,provisional
 9112,squirrel tail,リスのしっぽ,生物・動植物,動物,,,,,,
 9113,squirtle,ゼニガメ,生物・動植物,架空生物・モンスター,,[],,,,
-9114,ssss.gridman,SSSS.GRIDMAN,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
+9114,ssss.gridman,SSSS.GRIDMAN,キャラクター・作品,タイトル（作品名）,,"[""グリッドマン""]",needs-review,,,unreviewed
 9115,st. chronica academy school uniform,聖クロニカ学園の制服,服装・装飾,衣服,,[],needs-review,,,unreviewed
 9116,st. louis (azur lane),セントルイス（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,,,unreviewed
 9117,stab,刺す,動作・接触,身体動作,,[],,,,
@@ -9467,7 +9467,7 @@
 9465,symmetrical,左右対称,構図・カメラ,構図・配置,,,,,,
 9466,symmetrical docking,対称的なドッキング,構図・カメラ,構図・配置,,,,,,
 9467,symmetry,対称,構図・カメラ,構図・配置,,[],unreviewed,,,provisional
-9468,synthesizer v,Synthesizer V,キャラクター・作品,タイトル（作品名）,,[],,,,
+9468,synthesizer v,Synthesizer V,キャラクター・作品,タイトル（作品名）,,"[""シンセサイザーV""]",,,,
 9469,syringe,シリンジ,家具・設備・物品,日用品,,[],,,,
 9470,syrup,シロップ,家具・設備・物品,日用品,,[],,,,
 9471,t-head admiral,Tヘッド提督,人物の特徴,人物属性,,[],,,,
@@ -9650,7 +9650,7 @@
 9648,tensei shitara slime datta ken,転生したらスライムだった件,キャラクター・作品,タイトル（作品名）,,[],,,,
 9649,tent,テント,家具・設備・物品,日用品,,[],,,,
 9650,tented shirt,乳テント,服装・装飾,衣服,,,,,,
-9651,tera online,TERA,キャラクター・作品,タイトル（作品名）,,[],,,,
+9651,tera online,TERA,キャラクター・作品,タイトル（作品名）,,"[""テラ""]",,,,
 9652,terra branford,ティナ・ブランフォード,キャラクター・作品,キャラクター,,[],,,,
 9653,teruterubouzu,てるてる坊主,家具・設備・物品,日用品,,[],,,,
 9654,teruzuki (kancolle),照月（艦これ）,キャラクター・作品,キャラクター,,,,,,
@@ -9747,7 +9747,7 @@
 9745,tiered tray,段付きトレイ,家具・設備・物品,家具,,[],needs-review,,,unreviewed
 9746,tifa lockhart,ティファ・ロックハート,キャラクター・作品,キャラクター,,[],,,,
 9747,tiger,トラ,生物・動植物,動物,,,,,,
-9748,tiger & bunny,TIGER & BUNNY,キャラクター・作品,タイトル（作品名）,,,,,,
+9748,tiger & bunny,TIGER & BUNNY,キャラクター・作品,タイトル（作品名）,,"[""タイガー＆バニー""]",,,,
 9749,tiger boy,虎の特徴を持つ少年,人物の特徴,人物属性,,,,,,
 9750,tiger ears,虎の耳,人物の特徴,人物属性,,,,,,
 9751,tiger girl,虎の特徴を持つ少女,人物の特徴,人物属性,,,,,,
@@ -9776,7 +9776,7 @@
 9774,title parody,タイトルパロディ,文字・記号,文字,,[],,,,
 9775,tk8d32,tk8d32,キャラクター・作品,作者・配信者,,[],,,,
 9776,to heart (series),To Heart（シリーズ）,キャラクター・作品,タイトル（作品名）,,,,,,
-9777,to heart 2,ToHeart2,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
+9777,to heart 2,ToHeart2,キャラクター・作品,タイトル（作品名）,,"[""トゥハート2""]",needs-review,,,unreviewed
 9778,to love-ru,To LOVEる,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
 9779,to love-ru darkness,To LOVEる -とらぶる- ダークネス,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
 9780,toaru kagaku no railgun,とある科学の超電磁砲,キャラクター・作品,タイトル（作品名）,,[],,,,
@@ -10255,7 +10255,7 @@
 10253,ushiwakamaru (fate),牛若丸（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,,unreviewed
 10254,utaite,歌い手,キャラクター・作品,作者・配信者,,[],,,,
 10255,utano,ウタノ,キャラクター・作品,作者・配信者,,[],verified,,,verified
-10256,utau,UTAU,キャラクター・作品,タイトル（作品名）,,[],,,,
+10256,utau,UTAU,キャラクター・作品,タイトル（作品名）,,"[""ウタウ""]",,,,
 10257,utawarerumono,うたわれるもの,キャラクター・作品,タイトル（作品名）,,[],,,,
 10258,utensil in mouth,口にくわえた食器,顔・表情,顔・表情,,[],needs-review,,,unreviewed
 10259,uterus,子宮,人物の特徴,身体部位・身体状態,,[],,,,
@@ -10363,12 +10363,12 @@
 10361,vita (nanoha),ヴィータ,キャラクター・作品,キャラクター,,,,,,
 10362,vivio,高町ヴィヴィオ,キャラクター・作品,キャラクター,,[],,,,
 10363,vocaloid,ボーカロイド,キャラクター・作品,タイトル（作品名）,,[],,,,
-10364,vocaloid append,VOCALOID2 Append,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
+10364,vocaloid append,VOCALOID2 Append,キャラクター・作品,タイトル（作品名）,,"[""ボーカロイド2 アペンド""]",needs-review,,,unreviewed
 10365,vodka (umamusume),ウオッカ（ウマ娘）,キャラクター・作品,キャラクター,,,,,,
 10366,voice actor,声優,キャラクター・作品,作者・配信者,,[],needs-review,,,unreviewed
 10367,voice actor connection,声優のつながり,状態・状況,状況・関係性,,[],,,,
-10368,voiceroid,VOICEROID,キャラクター・作品,タイトル（作品名）,,[],needs-review,,,unreviewed
-10369,voicevox,VOICEVOX,キャラクター・作品,タイトル（作品名）,,[],,,,
+10368,voiceroid,VOICEROID,キャラクター・作品,タイトル（作品名）,,"[""ボイスロイド""]",needs-review,,,unreviewed
+10369,voicevox,VOICEVOX,キャラクター・作品,タイトル（作品名）,,"[""ボイスボックス""]",,,,
 10370,voile,ヴワル魔法図書館,背景・場所,場所・室内外,,[],,,,
 10371,volcano,火山,背景・場所,自然・風景,,[],,,,
 10372,volleyball,バレーボール,家具・設備・物品,日用品,,[],,,,
@@ -10377,7 +10377,7 @@
 10375,volleyball uniform,バレーボールユニフォーム,服装・装飾,衣服,,[],needs-review,,,unreviewed
 10376,voxel art,ボクセルアート,画風・描写,画風・表現様式,,[],needs-review,,,unreviewed
 10377,voyeurism,盗撮,状態・状況,状況・関係性,,[],,,,
-10378,vshojo,VShojo,キャラクター・作品,作者・配信者,,[],needs-review,,,unreviewed
+10378,vshojo,VShojo,キャラクター・作品,作者・配信者,,"[""ブイショウジョ""]",needs-review,,,unreviewed
 10379,vspo!,ぶいすぽっ!,キャラクター・作品,作者・配信者,,[],,,,
 10380,w,Wサイン,動作・接触,手の動作,,[],verified,,,verified
 10381,w (arknights),W（アークナイツ）,キャラクター・作品,キャラクター,,,,,,
