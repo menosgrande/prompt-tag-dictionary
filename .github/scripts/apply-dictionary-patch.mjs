@@ -73,7 +73,7 @@ function validatePatch(patch, byTag) {
       throw new Error("Each operation needs a set object: " + operation.tag);
     }
     const fields = Object.keys(values);
-    if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource"].includes(field))) {
+    if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource", "classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field))) {
       throw new Error("Unsupported patch fields; allowed fields are ja, major, minor, candidateJa, and translation review metadata: " + operation.tag);
     }
 
@@ -91,6 +91,20 @@ function validatePatch(patch, byTag) {
         }
         if (row.length !== 7 || !isRecord(row[6])) {
           throw new Error("Tag has no metadata for translation review update: " + operation.tag);
+        }
+      } else if (field === "classificationStatus") {
+        if (!["verified", "needs-review", "unreviewed", "provisional", "not-applicable"].includes(values[field])) {
+          throw new Error("Invalid classificationStatus: " + operation.tag);
+        }
+        if (row.length !== 7 || !isRecord(row[6]) || !isRecord(row[6].classification)) {
+          throw new Error("Tag has no classification metadata: " + operation.tag);
+        }
+      } else if (field === "classificationReviewStatus") {
+        if (!["verified", "needs-review", "unreviewed", "provisional", "not-applicable"].includes(values[field])) {
+          throw new Error("Invalid classificationReviewStatus: " + operation.tag);
+        }
+        if (row.length !== 7 || !isRecord(row[6])) {
+          throw new Error("Tag has no metadata for classification review update: " + operation.tag);
         }
       } else if (typeof values[field] !== "string") {
         throw new Error("Field value must be a string: " + operation.tag + " / " + field);
@@ -227,7 +241,17 @@ export function applyPatchData(inputData, patch) {
 
   for (const { row, tag, values } of prepared) {
     for (const field of Object.keys(values)) {
-      if (["candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource"].includes(field)) {
+      if (["candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource", "classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field)) {
+        if (!isRecord(row[6].translation)) row[6].translation = {};
+        if (["classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource"].includes(field)) {
+          if (!isRecord(row[6].classificationReview)) row[6].classificationReview = {};
+          const reviewField = field === "classificationReviewStatus" ? "status"
+            : field === "classificationReviewReason" ? "reason"
+            : field === "classificationReviewedAt" ? "reviewedAt" : "source";
+          if (field === "classificationStatus") row[6].classification.status = values[field];
+          else row[6].classificationReview[reviewField] = values[field];
+          continue;
+        }
         if (!isRecord(row[6].translation)) row[6].translation = {};
         const metadataField = field === "candidateJa" ? "candidateJa"
           : field === "translationStatus" ? "status"
@@ -240,6 +264,24 @@ export function applyPatchData(inputData, patch) {
       const index = field === "ja" ? 1 : field === "major" ? 2 : 3;
       row[index] = values[field];
     }
+  }
+
+  const classificationUpdates = prepared.filter(item => Object.prototype.hasOwnProperty.call(item.values, "classificationStatus"));
+  if (classificationUpdates.length) {
+    const candidates = data.classificationCandidates?.entries;
+    if (!Array.isArray(candidates)) throw new Error("Classification candidate index is missing.");
+    for (const { row, tag } of classificationUpdates) {
+      const index = candidates.findIndex(item => normalizeTag(item.tag) === normalizeTag(tag));
+      if (index < 0) throw new Error("Classification candidate entry is missing: " + tag);
+      candidates[index] = { tag: candidates[index].tag, ...structuredClone(row[6].classification) };
+    }
+    const archived = data.classificationCandidates.summary?.archived ?? 0;
+    data.classificationCandidates.summary = {
+      total: candidates.length,
+      provisional: candidates.filter(item => item.status === "provisional").length,
+      needsReview: candidates.filter(item => item.status === "needs-review").length,
+      archived
+    };
   }
 
   return {
