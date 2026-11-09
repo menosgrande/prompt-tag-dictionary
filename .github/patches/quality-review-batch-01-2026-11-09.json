@@ -1,0 +1,2561 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "body horror",
+      "set": {
+        "ja": "ボディホラー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "body switch",
+      "set": {
+        "ja": "身体の入れ替わり",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bodysuit",
+      "set": {
+        "ja": "ボディスーツ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bound legs",
+      "set": {
+        "ja": "拘束された脚",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "boxer briefs",
+      "set": {
+        "ja": "ボクサーブリーフ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "boxers",
+      "set": {
+        "ja": "ボクサーパンツ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bracelet",
+      "set": {
+        "ja": "ブレスレット",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bridal garter",
+      "set": {
+        "ja": "ブライダルガーター",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "briefs",
+      "set": {
+        "ja": "ブリーフ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "broken eyewear",
+      "set": {
+        "ja": "壊れた眼鏡",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "brooch",
+      "set": {
+        "ja": "ブローチ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "brothers",
+      "set": {
+        "ja": "兄弟",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bulletproof vest",
+      "set": {
+        "ja": "防弾チョッキ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "bustier",
+      "set": {
+        "ja": "ビスチェ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "camisole",
+      "set": {
+        "ja": "キャミソール",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "car",
+      "set": {
+        "ja": "車",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cardigan",
+      "set": {
+        "ja": "カーディガン",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cave",
+      "set": {
+        "ja": "洞窟",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "censored text",
+      "set": {
+        "ja": "検閲されたテキスト",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "checkered necktie",
+      "set": {
+        "ja": "チェック柄のネクタイ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "chest harness",
+      "set": {
+        "ja": "チェストハーネス",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "choker",
+      "set": {
+        "ja": "チョーカー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "christmas",
+      "set": {
+        "ja": "クリスマス",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "christmas present",
+      "set": {
+        "ja": "クリスマスプレゼント",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cloak",
+      "set": {
+        "ja": "マント",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "clock",
+      "set": {
+        "ja": "時計",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "clock tower",
+      "set": {
+        "ja": "時計塔",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cloud",
+      "set": {
+        "ja": "雲",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "coin purse",
+      "set": {
+        "ja": "小銭入れ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "collared vest",
+      "set": {
+        "ja": "襟付きベスト",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "computer",
+      "set": {
+        "ja": "コンピューター",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "computer keyboard",
+      "set": {
+        "ja": "キーボード",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "concert",
+      "set": {
+        "ja": "コンサート",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "convenience store",
+      "set": {
+        "ja": "コンビニ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "coral",
+      "set": {
+        "ja": "サンゴ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "corset",
+      "set": {
+        "ja": "コルセット",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cosplay",
+      "set": {
+        "ja": "コスプレ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cross choker",
+      "set": {
+        "ja": "十字架チョーカー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "cross-eyed",
+      "set": {
+        "ja": "寄り目",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "neck ruff",
+      "set": {
+        "ja": "ひだ襟",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "neck tassel",
+      "set": {
+        "ja": "首元の房飾り",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "necktie",
+      "set": {
+        "ja": "ネクタイ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "ninja mask",
+      "set": {
+        "ja": "忍者マスク",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "no lineart",
+      "set": {
+        "ja": "線画なし",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "o-ring",
+      "set": {
+        "ja": "Oリング",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "o-ring bottom",
+      "set": {
+        "ja": "Oリングボトム",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "o-ring choker",
+      "set": {
+        "ja": "Oリングチョーカー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "o-ring top",
+      "set": {
+        "ja": "Oリングトップ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "oni mask",
+      "set": {
+        "ja": "鬼の面",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "open bodysuit",
+      "set": {
+        "ja": "オープンボディスーツ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "outie navel",
+      "set": {
+        "ja": "でべそ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "overalls",
+      "set": {
+        "ja": "オーバーオール",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "owl girl",
+      "set": {
+        "ja": "フクロウの女の子",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pale skin",
+      "set": {
+        "ja": "色白の肌",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "panther girl",
+      "set": {
+        "ja": "黒豹の女の子",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pearl bracelet",
+      "set": {
+        "ja": "パールブレスレット",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pearl earrings",
+      "set": {
+        "ja": "パールイヤリング",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pendant choker",
+      "set": {
+        "ja": "ペンダント付きチョーカー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "phallic symbol",
+      "set": {
+        "ja": "男根の象徴",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "phoenix",
+      "set": {
+        "ja": "フェニックス",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pill earrings",
+      "set": {
+        "ja": "錠剤型イヤリング",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pillow hug",
+      "set": {
+        "ja": "枕を抱く",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "plaid bowtie",
+      "set": {
+        "ja": "チェック柄の蝶ネクタイ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "plaid necktie",
+      "set": {
+        "ja": "チェック柄のネクタイ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "plaid vest",
+      "set": {
+        "ja": "チェック柄のベスト",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "platform footwear",
+      "set": {
+        "ja": "厚底の靴",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "platform heels",
+      "set": {
+        "ja": "厚底ヒール",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pointed crown",
+      "set": {
+        "ja": "尖った王冠",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "pointy footwear",
+      "set": {
+        "ja": "つま先の尖った靴",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "police car",
+      "set": {
+        "ja": "パトカー",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "power symbol",
+      "set": {
+        "ja": "電源マーク",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "prosthetic arm",
+      "set": {
+        "ja": "義手",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "prosthetic leg",
+      "set": {
+        "ja": "義足",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "punching",
+      "set": {
+        "ja": "パンチ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "raccoon girl",
+      "set": {
+        "ja": "アライグマの女の子",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "radiation symbol",
+      "set": {
+        "ja": "放射線マーク",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "ray gun",
+      "set": {
+        "ja": "光線銃",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "rectangular eyewear",
+      "set": {
+        "ja": "四角い眼鏡",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "ribbed bodysuit",
+      "set": {
+        "ja": "リブ編みのボディスーツ",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "ring",
+      "set": {
+        "ja": "指輪",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "road",
+      "set": {
+        "ja": "道路",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "road sign",
+      "set": {
+        "ja": "道路標識",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "rock",
+      "set": {
+        "ja": "岩",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "round eyewear",
+      "set": {
+        "ja": "丸眼鏡",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "scabbard",
+      "set": {
+        "ja": "鞘",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "scoop neck",
+      "set": {
+        "ja": "スクープネック",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "see-through cleavage",
+      "set": {
+        "ja": "透けて見える谷間",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "seiza",
+      "set": {
+        "ja": "正座",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "self hug",
+      "set": {
+        "ja": "自分を抱きしめる",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "shark girl",
+      "set": {
+        "ja": "サメの女の子",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "sheep girl",
+      "set": {
+        "ja": "羊娘",
+        "translationStatus": "verified",
+        "translationReviewedAt": "2026-11-09",
+        "translationReviewNote": "英語タグの意味と日本語訳を照合し、タグ辞典で使う短い表現として確認。"
+      }
+    },
+    {
+      "tag": "anchor print",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ancient egyptian",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ass-to-ass",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bat print",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bilingual",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "creature",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "deerstalker",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "delinquent",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "digitigrade",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "disembodied head",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "dorsal fin",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "dotted line",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "double amputee",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "double horizontal stripe",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "double v",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "double vertical stripe",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "drone",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "dvd cover",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "egg laying",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "elevator",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "emphasis lines",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "energy ball",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "energy beam",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "entangled",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "erection",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "everyone",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "fallen down",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "fat",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "faux figurine",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "fleur-de-lis",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "flock",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "flustered",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "fringe trim",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "fruit on head",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "full-length zipper",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "game console",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gamepad",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gauze",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "giantess",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gibson les paul",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gift",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gills",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "glaring",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "glock",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "greek toe",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gunjyou (gunjyou 00)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "gurande (g-size)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "hagoita",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "hagoromo",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "half updo",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "hanging light",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "head fins",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "heart cutout",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "hexagon print",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "i-class destroyer",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ice cream cone",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ice cream float",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "impossible leotard",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "in box",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "in bucket",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "in container",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "jersey maid",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "jiangshi",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "joestar birthmark",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kaiju",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kamaboko",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kanikama",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kanon (kurogane knights)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kanpa (campagne 9)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kappa",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "karakasa obake",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "karukan (monjya)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kemomimi-chan (naga u)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kesa",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kigurumi",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kinchaku",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kitsune",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "kouji (campus life)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "latex",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "laundry basket",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "leash",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lemon slice",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lifebuoy",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lighter",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lollipop",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lotion bottle",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "love letter",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "lyre",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "magatama",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "makeup brush",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "makizushi",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "mary janes",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "mascara",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "matching outfits",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "mecha pilot suit",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "medical eyepatch",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "medium sideburns",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "meito (maze)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "melon bread",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "mismatched sclera",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "morpeko (full)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "nike (company)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "no sclera",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "poke ball (basic)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "sayori (neko works)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "short sidetail",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "takanashi kiara (1st costume)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "teacher and student",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "unconventional maid",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "wheelchair",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "yomu (sgt epper)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "yua (checkmate)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "yukihana lamy (1st costume)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "yuuhagi (amaretto-no-natsu)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "@ @",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "+ +",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "= =",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "0 0",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ace attorney",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "admire vega (umamusume)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "adventurer (ff11)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "akane (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ako (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "ame-chan (needy girl overdose)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "analog clock",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "anchor choker",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "anchor symbol",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "andou (girls und panzer)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "android 21",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "angel and devil",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "angel beats!",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "aquarium",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arched crown",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm cannon",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm cuffs",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm guards",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm strap",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm warmers",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arm wrap",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arona (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arthropod boy",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "arthropod girl",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "aru (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "assault rifle",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "asuna (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "asuna (bunny) (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "asymmetrical footwear",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "aura",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "axe",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "azusa (blue archive)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "baby bottle",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "babydoll",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bandaged fingers",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bandaged hand",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bare shoulders",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bat girl",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "battle rifle",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bead bracelet",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "beam rifle",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bee girl",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "between fingers",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "between thighs",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "birthday",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bisexual female",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black rock shooter",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black rock shooter (character)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black sash",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black sclera",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black scrunchie",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black survival",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black thighhighs",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "black wrist cuffs",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blade (honkai: star rail)",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blind",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood drip",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on bandages",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on breasts",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on face",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on ground",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on knife",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood on weapon",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blood stain",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "bloomers",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue background",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue bow",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue bowtie",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue cape",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue capelet",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue collar",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue kimono",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue leotard",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue male swimwear",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    },
+    {
+      "tag": "blue pupils",
+      "set": {
+        "classificationStatus": "verified",
+        "classificationReviewStatus": "verified",
+        "classificationReviewedAt": "2026-11-09",
+        "classificationReviewReason": "タグの意味とプロンプト上の用途を照合し、現在の大分類・中分類が適切であることを確認。"
+      }
+    }
+  ]
+}
