@@ -2,12 +2,12 @@
 0,!,感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 1,!!,二重感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 2,!?,感嘆符と疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
-3,?,疑問符,文字・記号,記号・図形,,[],verified,,unreviewed,verified
+3,?,疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
 4,??,二重疑問符,顔・表情,顔・表情,,[],verified,0,verified,verified
 5,. .,点目,顔・表情,目,,[],verified,0,verified,verified
 6,...,省略号,文字・記号,記号・図形,,[],verified,0,verified,verified
 7,...?,三点リーダと疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
-8,.live,.LIVE（どっとライブ）,キャラクター・作品,作者・配信者,,"["".LIVE"",""どっとライブ""]",verified,,unreviewed,verified
+8,.live,.LIVE（どっとライブ）,キャラクター・作品,作者・配信者,,"["".LIVE"",""どっとライブ""]",verified,0,verified,verified
 9,@ @,ぐるぐる目,顔・表情,目,,[],needs-review,0,verified,verified
 10,+ +,目がしいたけ,顔・表情,目,,[],needs-review,0,verified,verified
 11,+++,+++（記号）,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -19,15 +19,15 @@
 17,1boy,男の子1人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 18,1girl,女の子1人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 19,1koma,1コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-20,1other,その他の人物1人,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+20,1other,その他の人物1人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 21,2000s (style),2000年代（スタイル）,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 22,22/7,22/7（ナナブンノニジュウニ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-23,2b (nier:automata),ヨルハ二号B型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-24,2b (nier:automata) (cosplay),2Bコス（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+23,2b (nier:automata),ヨルハ二号B型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+24,2b (nier:automata) (cosplay),2Bコス（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 25,2boys,男の子2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 26,2girls,女の子2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 27,2koma,2コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-28,2others,その他の人物2人,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+28,2others,その他の人物2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 29,3:,（3番目）,文字・記号,記号・図形,,[],needs-review,0,verified,verified
 30,3boys,男の子3人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 31,3d,3Dモデル,画風・描写,媒体,,[],verified,0,verified,verified
@@ -35,44 +35,44 @@
 33,3d render,3Dレンダー,画風・描写,レンダリング,,[],verified,0,verified,verified
 34,3girls,女の子3人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 35,3koma,3コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-36,3others,その他の人物3人,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+36,3others,その他の人物3人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 37,4-finger heart hands,4本指ハートポーズ,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 38,4boys,4人の男の子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 39,4girls,女の子4人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 40,4koma,四コマ漫画,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-41,4others,その他の人物4人,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+41,4others,その他の人物4人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 42,5boys,男の子5人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 43,5girls,女の子5人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 44,5koma,5コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 45,6 (yuchae),6（ユチェ）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 46,6+boys,6+男の子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 47,6+girls,六人以上の女の子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
-48,6+others,その他の人物6人以上,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+48,6+others,その他の人物6人以上,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 49,69,シックスナイン,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 50,7th dragon (series),セブンスドラゴン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 51,8k,8K解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
-52,9s (nier:automata),ヨルハ九号S型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+52,9s (nier:automata),ヨルハ九号S型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 53,a certain high school uniform,特定の高校の制服,服装・装飾,衣服,,[],needs-review,0,verified,verified
-54,a.i. voice,A.I.VOICE,文字・記号,ロゴ・ブランド表記,,"[""エーアイボイス"",""アイボス""]",verified,,unreviewed,verified
+54,a.i. voice,A.I.VOICE,文字・記号,ロゴ・ブランド表記,,"[""エーアイボイス"",""アイボス""]",verified,0,verified,verified
 55,a1 (initial-g),A1（Initial-G）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 56,aaaa (quad-a),AAAA（Quad-A）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
-57,abandoned,放棄された・廃棄された,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+57,abandoned,放棄された・廃棄された,状態・状況,状態・変化,,[],verified,0,verified,verified
 58,abigail williams (fate),アビゲイル・ウィリアムズ（Fate/Grand Order）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 59,abigail williams (swimsuit foreigner) (fate),アビゲイル・ウィリアムズ（水着フォーリナー）（Fate/Grand Order）,キャラクター・作品,キャラクター,,[],verified,1,verified,verified
 60,above clouds,雲の上,背景・場所,自然・風景,,[],verified,0,verified,verified
 61,abs,腹筋,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-62,absolutely everyone,全員,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
+62,absolutely everyone,全員,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 63,abstract,抽象,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 64,abstract background,抽象的な背景,背景・場所,空間・環境表現,,[],verified,0,verified,verified
-65,absurdly long hair,非常に長い髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+65,absurdly long hair,非常に長い髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 66,absurdres,超高解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 67,abubu,アブブ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 68,abukuma (kancolle),阿武隈（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 69,abuse,乱用,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
-70,abyssal ship,深海棲艦,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+70,abyssal ship,深海棲艦,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 72,accident,事故,状態・状況,状況・関係性,,[],verified,0,verified,verified
-73,accidental exposure,意図しない露出,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
+73,accidental exposure,意図しない露出,服装・装飾,肌の露出,,[],verified,2,verified,verified
 74,ace (playing card),トランプのエース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 75,ace attorney,逆転裁判（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 76,ace of hearts,ハートのエース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -81,35 +81,35 @@
 79,acorn,ドングリ,生物・動植物,植物,,[],verified,0,verified,verified
 80,acoustic guitar,アコースティックギター,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 81,ad,広告,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-82,adachi rei (utau),足立レイ（UTAU）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-83,adapted costume,アレンジ衣装,服装・装飾,衣服,,[],verified,,unreviewed,verified
-84,adapted turret,改造された砲塔（文脈要確認）,家具・設備・物品,機械・装置,,[],verified,,unreviewed,needs-review
+82,adachi rei (utau),足立レイ（UTAU）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+83,adapted costume,アレンジ衣装,服装・装飾,衣服,,[],verified,0,verified,verified
+84,adapted turret,改造された砲塔（文脈要確認）,家具・設備・物品,機械・装置,,[],verified,0,verified,needs-review
 85,adapted uniform,アレンジされた制服,服装・装飾,衣服,,[],verified,0,verified,verified
 86,adidas,アディダス,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
-87,adjusting clothes,服を整える,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-88,adjusting eyewear,眼鏡を直す,動作・接触,物への接触,,[],verified,,unreviewed,verified
-89,adjusting gloves,手袋を直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-90,adjusting hair,髪を整える,動作・接触,手の動作,,[],verified,,unreviewed,verified
-91,adjusting headwear,帽子を直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-92,adjusting legwear,靴下・ストッキングを直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-93,adjusting necktie,ネクタイを直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-94,adjusting panties,下着を直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-95,adjusting scarf,スカーフを整える,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-96,adjusting swimsuit,水着を直す,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+87,adjusting clothes,服を整える,動作・接触,衣服への接触,,[],verified,0,verified,verified
+88,adjusting eyewear,眼鏡を直す,動作・接触,物への接触,,[],verified,0,verified,verified
+89,adjusting gloves,手袋を直す,動作・接触,衣服への接触,,[],verified,0,verified,verified
+90,adjusting hair,髪を整える,動作・接触,手の動作,,[],verified,0,verified,verified
+91,adjusting headwear,帽子を直す,動作・接触,衣服への接触,,[],verified,0,verified,verified
+92,adjusting legwear,靴下・ストッキングを直す,動作・接触,衣服への接触,,[],verified,0,verified,verified
+93,adjusting necktie,ネクタイを直す,動作・接触,衣服への接触,,[],verified,0,verified,verified
+94,adjusting panties,下着を直す,動作・接触,衣服への接触,,[],verified,3,verified,verified
+95,adjusting scarf,スカーフを整える,動作・接触,衣服への接触,,[],verified,0,verified,verified
+96,adjusting swimsuit,水着を直す,動作・接触,衣服への接触,,[],verified,1,verified,verified
 97,admiral (kancolle),提督（艦これ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 98,admire vega (umamusume),アドマイヤベガ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 99,ado (utaite),Ado（アド）,キャラクター・作品,作者・配信者,,"[""Ado"",""アド""]",verified,0,verified,verified
-100,adventure time,アドベンチャー・タイム（アニメタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+100,adventure time,アドベンチャー・タイム（アニメタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 101,adventurer (ff11),冒険者（ファイナルファンタジーXI）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 102,aegis (persona),アイギス（ペルソナ3）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 103,aegis sword (xenoblade),聖杯の剣（ゼノブレイド2）,家具・設備・物品,武器,,[],verified,0,verified,verified
-104,aegyo sal,涙袋,顔・表情,目,,[],verified,,unreviewed,verified
-105,aerial fireworks,打ち上げ花火,光・演出,演出効果,,[],verified,,unreviewed,verified
-106,aerith gainsborough (Final Fantasy VII),エアリス・ゲインズブール（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-107,aestus estus,Aestus Estus（固有名詞・表記要確認）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,needs-review
-108,aether (genshin impact),空（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+104,aegyo sal,涙袋,顔・表情,目,,[],verified,0,verified,verified
+105,aerial fireworks,打ち上げ花火,光・演出,演出効果,,[],verified,0,verified,verified
+106,aerith gainsborough (Final Fantasy VII),エアリス・ゲインズブール（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+107,aestus estus,Aestus Estus（固有名詞・表記要確認）,家具・設備・物品,その他の物品,,[],verified,0,verified,needs-review
+108,aether (genshin impact),空（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 109,affectionate,愛情深い,状態・状況,状況・関係性,,[],verified,0,verified,verified
-110,afloat,浮かんでいる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
+110,afloat,浮かんでいる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 111,afro,アフロ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 112,afrobull,アフロブル,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 113,after bathing,入浴後,状態・状況,時間・前後関係,,[],verified,0,verified,verified
@@ -117,51 +117,51 @@
 115,after sex,事後,状態・状況,時間・前後関係,,[],verified,4,verified,verified
 116,after vaginal,膣性交後,状態・状況,時間・前後関係,,[],verified,4,verified,verified
 117,afterglow,残光,光・演出,演出効果,,[],verified,0,verified,verified
-118,afterimage,残像,光・演出,演出効果,,[],verified,,unreviewed,verified
+118,afterimage,残像,光・演出,演出効果,,[],verified,0,verified,verified
 119,agahari,アガハリ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 120,against fourth wall,4番目の壁に対して,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-121,against glass,ガラスにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-122,against railing,手すりにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-123,against tree,木にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-124,against wall,壁にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
+121,against glass,ガラスにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+122,against railing,手すりにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+123,against tree,木にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+124,against wall,壁にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 125,agano (kancolle),阿賀野（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 126,agawa ryou,アガワ・リョウ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 127,age comparison,年齢比較,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 128,age difference,年齢差,状態・状況,状況・関係性,,[],verified,0,verified,verified
-129,age progression,加齢・成長後の姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-130,age regression,若返り,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-131,aged down,幼くなった姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-132,aged up,成長した姿,状態・状況,状態・変化,,[],verified,,unreviewed,verified
+129,age progression,加齢・成長後の姿,状態・状況,状態・変化,,[],verified,0,verified,verified
+130,age regression,若返り,状態・状況,状態・変化,,[],verified,0,verified,verified
+131,aged down,幼くなった姿,状態・状況,状態・変化,,[],verified,0,verified,verified
+132,aged up,成長した姿,状態・状況,状態・変化,,[],verified,0,verified,verified
 133,agnes digital (umamusume),アグネスデジタル（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 134,agnes tachyon (umamusume),アグネスタキオン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 135,ahegao,アヘ顔,顔・表情,顔・表情,,[],verified,3,verified,verified
 136,ahoge,アホ毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-137,ahoge wag,アホ毛が揺れる,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-138,ahri (league of legends),アーリ（リーグ・オブ・レジェンド）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+137,ahoge wag,アホ毛が揺れる,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+138,ahri (league of legends),アーリ（リーグ・オブ・レジェンド）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 139,ai ai gasa,相合い傘,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-140,aida mana (DokiDoki! Precure),相田マナ（ドキドキ！プリキュア）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-141,aiguillette,飾緒（肩章などに付ける飾り紐）,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-142,aikatsu!,アイカツ！（メディアミックス作品）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-143,aikatsu! (series),アイカツ！（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-144,aiming,狙いを定める,動作・接触,身体動作,,[],verified,,unreviewed,verified
-145,aiming at viewer,こちらに狙いを定める,動作・接触,身体動作,,[],verified,,unreviewed,verified
+140,aida mana (DokiDoki! Precure),相田マナ（ドキドキ！プリキュア）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+141,aiguillette,飾緒（肩章などに付ける飾り紐）,服装・装飾,装飾品,,[],verified,0,verified,verified
+142,aikatsu!,アイカツ！（メディアミックス作品）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+143,aikatsu! (series),アイカツ！（メディアミックスシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+144,aiming,狙いを定める,動作・接触,身体動作,,[],verified,0,verified,verified
+145,aiming at viewer,こちらに狙いを定める,動作・接触,身体動作,,[],verified,0,verified,verified
 146,aino minako (Sailor Moon),愛野美奈子（美少女戦士セーラームーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-147,ainu,アイヌ（民族・文化）,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-148,ainu clothes,アイヌの衣装,服装・装飾,衣服,,[],verified,,unreviewed,verified
-149,air (visual novel),AIR（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+147,ainu,アイヌ（民族・文化）,人物の特徴,人物属性,,[],verified,0,verified,verified
+148,ainu clothes,アイヌの衣装,服装・装飾,衣服,,[],verified,0,verified,verified
+149,air (visual novel),AIR（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 150,air bubble,気泡,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 151,air conditioner,エアコン,家具・設備・物品,設備,,[],verified,0,verified,verified
-152,air groove (umamusume),エアグルーヴ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+152,air groove (umamusume),エアグルーヴ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 153,aircraft,航空機,乗り物,航空機,,[],verified,0,verified,verified
 154,airplane,飛行機,乗り物,航空機,,[],verified,0,verified,verified
 155,airship,飛行船,乗り物,航空機,,[],verified,0,verified,verified
-156,aisaka taiga (Toradora!),逢坂大河（とらドラ！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+156,aisaka taiga (Toradora!),逢坂大河（とらドラ！）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 157,ajirogasa,網代笠,服装・装飾,装飾品,,[],verified,0,verified,verified
 158,ak-47,AK-47（エーケー・フォーティーセブン）,家具・設備・物品,武器,,"[""AK-47"",""エーケー47"",""エーケーフォーティーセブン""]",verified,0,verified,verified
 159,akagi (azur lane),赤城（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 160,akagi (kancolle),赤城（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 161,akagi miria (The Idolmaster Cinderella Girls),赤城みりあ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-162,akai haato (Hololive),赤井はあと（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+162,akai haato (Hololive),赤井はあと（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 163,akairiot,アカイオット,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 164,akamatsu kaede (Danganronpa V3),赤松楓,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 165,akanbe,あかんべえ,顔・表情,顔・表情,,[],verified,0,verified,verified
@@ -169,7 +169,7 @@
 167,akari (pokemon),ショウ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 168,akashi (kancolle),明石（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 169,akatsuki (kancolle),暁（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-170,akatsuki kirika (Symphogear),暁切歌（戦姫絶唱シンフォギア）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+170,akatsuki kirika (Symphogear),暁切歌（戦姫絶唱シンフォギア）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 171,akaza akari (YuruYuri),赤座あかり,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 172,akebono (kancolle),曙（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 173,akemi homura (Puella Magi Madoka Magica),暁美ほむら,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
@@ -181,41 +181,41 @@
 179,akinbo (hyouka fuyou),アキンボ（hyoukafuyou）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 180,akitsu maru (kancolle),あきつ丸（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 181,akitsuki karasu,秋月からす,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-182,akiyama mio (K-On!),秋山澪（けいおん！）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-183,akiyama mizuki (Project Sekai),暁山瑞希（プロジェクトセカイ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-184,akiyama yukari (Girls und Panzer),秋山優花里（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+182,akiyama mio (K-On!),秋山澪（けいおん！）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+183,akiyama mizuki (Project Sekai),暁山瑞希（プロジェクトセカイ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+184,akiyama yukari (Girls und Panzer),秋山優花里（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 185,akizuki (kancolle),秋月（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-186,akizuki ritsuko (The Idolmaster),秋月律子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+186,akizuki ritsuko (The Idolmaster),秋月律子,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 187,ako (blue archive),アコ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 188,akuma homura (Puella Magi Madoka Magica),悪魔ほむら（魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 189,alarm clock,目覚まし時計,家具・設備・物品,日用品,,[],verified,0,verified,verified
 190,albedo (genshin impact),アルベド（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 191,albino,アルビノ,人物の特徴,人物属性,,[],verified,0,verified,verified
 192,album cover,アルバムジャケット,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-193,alchemy stars,白夜極光（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+193,alchemy stars,白夜極光（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 194,alcohol,お酒,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-195,aldehyde,アルデヒド,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+195,aldehyde,アルデヒド,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 196,aldnoah.zero,アルドノア・ゼロ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 197,alear (fire emblem),リュール（ファイアーエムブレム エンゲージ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 199,alice (alice in wonderland),アリス（不思議の国のアリス）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 200,alice (alice in wonderland) (cosplay),アリス（不思議の国のアリス）（コスプレ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-201,alice gear aegis,アリス・ギア・アイギス（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+201,alice gear aegis,アリス・ギア・アイギス（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 202,alice in wonderland,不思議の国のアリス（小説タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 203,alice margatroid (Touhou Project),アリス・マーガトロイド（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 204,alien,宇宙人,人物の特徴,人物属性,,[],verified,0,verified,verified
-205,alien stage,エイリアンステージ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-206,all fours,四つん這い,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
+205,alien stage,エイリアンステージ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+206,all fours,四つん這い,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 207,alley,路地,背景・場所,場所・室内外,,[],verified,0,verified,verified
 208,alpaca ears,アルパカの耳,人物の特徴,人物属性,,[],verified,0,verified,verified
 209,alphes (style),alphes塗り,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-210,alternate body size,異なる体格の差分,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-211,alternate breast size,胸の大きさの違い,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
-212,alternate color,別配色,光・演出,色調・色彩,,[],verified,,unreviewed,verified
+210,alternate body size,異なる体格の差分,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+211,alternate breast size,胸の大きさの違い,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
+212,alternate color,別配色,光・演出,色調・色彩,,[],verified,0,verified,verified
 213,alternate costume,別のコスチューム,服装・装飾,衣服,,[],verified,0,verified,verified
-214,alternate eye color,異なる目の色の差分,顔・表情,目,,[],verified,,unreviewed,verified
-215,alternate form,別形態,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-216,alternate hair color,異なる髪色の差分,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+214,alternate eye color,異なる目の色の差分,顔・表情,目,,[],verified,0,verified,verified
+215,alternate form,別形態,人物の特徴,人物属性,,[],verified,0,verified,verified
+216,alternate hair color,異なる髪色の差分,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 217,alternate hair length,異なる髪の長さの差分,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 218,alternate hair ornament,別の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 219,alternate hairstyle,別の髪型,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
