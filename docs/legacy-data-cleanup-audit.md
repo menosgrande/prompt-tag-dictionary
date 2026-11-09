@@ -1,6 +1,6 @@
 # 旧データ整理監査（初回）
 
-> **履歴資料・参照専用:** この文書は2026-11-04までの旧データ統合履歴です。本文中の旧正本・sidecar・件数・次の整理方針は当時の記録であり、現在の作業指示や現行構成を示しません。旧ファイルを復活させたり、本文の削除計画を再実行したりしないでください。現行正本は `data/dictionary-data.json`、現行ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md)、現在の保留項目は [implementation-backlog.md](implementation-backlog.md) です。
+> **履歴資料:** この文書は2026-11-04までの旧データ統合履歴です。本文中の旧正本・sidecar・件数は当時の記録であり、現行構成を示しません。現行正本は `data/dictionary-data.json`、現行ルールは [DATA_MAINTENANCE_POLICY.md](DATA_MAINTENANCE_POLICY.md) です。
 
 
 監査対象: `main` の現行データ  
