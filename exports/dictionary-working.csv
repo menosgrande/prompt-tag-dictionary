@@ -1368,7 +1368,7 @@
 1366,breath weapon,ブレス攻撃,動作・接触,身体動作,,[],verified,0,verified,verified
 1367,breathing fire,火を吐く,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1368,bremerton (azur lane),ブレマートン（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1370,brendan (pokemon),ブレンダン（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1371,brick,レンガ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1372,brick floor,レンガの床,背景・場所,場所・室内外,,[],verified,0,verified,verified
@@ -1555,7 +1555,7 @@
 1553,cake slice,ケーキ一切れ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1554,calendar (medium),カレンダー（中）,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
 1555,calendar (object),カレンダー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
-1556,caliburn (fate),カリバーン（Fate）,キャラクター・作品,作品固有の衣装・要素,,[],machine-translation,,unreviewed,verified
+1556,caliburn (fate),カリバーン（Fate）,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 1557,calico,カリコ,生物・動植物,動物,,[],verified,0,verified,verified
 1558,call of duty,コール オブ デューティ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 1559,call of duty: modern warfare 2,コール オブ デューティ モダン・ウォーフェア2,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
@@ -1621,7 +1621,7 @@
 1619,carrying person,人を運ぶ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1620,carrying under arm,脇に抱えて運ぶ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 1621,cart,カート,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1622,carton,紙パック,家具・設備・物品,日用品,,[],machine-translation,,unreviewed,unreviewed
+1622,carton,カートン（紙箱・容器）,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 1623,cartoon,カートゥーン,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 1624,cartoon bone,漫画的な骨の表現,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 1625,cartridge,カートリッジ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -1730,7 +1730,7 @@
 1728,character profile,キャラクター紹介欄,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 1729,character signature,キャラクターの署名,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 1730,charizard (Pokémon),リザードン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-1731,charlotte (madoka magica),お菓子の魔女（魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1731,charlotte (madoka magica),シャルロッテ（お菓子の魔女／魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1732,charlotte e. yeager (Strike Witches),シャーロット・E・イェーガー（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1733,charm (object),お守り・チャーム,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 1734,chart,図表,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1833,7 +1833,7 @@
 1831,choppy bangs,不揃いに切った前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1832,chopsticks,箸,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1833,choufu shimin,調布市民,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-1834,choukai (kancolle),鳥海（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],machine-translation,,unreviewed,verified
+1834,choukai (kancolle),鳥海（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1835,chouzetsusaikawa tenshi-chan (NEEDY GIRL OVERDOSE),超絶最かわてんしちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
 1836,christmas,クリスマス,状態・状況,時間・前後関係,,[],unreviewed,,unreviewed,verified
 1837,christmas lights,クリスマスイルミネーション,光・演出,照明・光源,,[],verified,,unreviewed,verified
