@@ -1,0 +1,630 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "alternate hair length",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate hair ornament",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate headwear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate legwear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate muscle size",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴"
+      }
+    },
+    {
+      "tag": "alternate pectoral size",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴"
+      }
+    },
+    {
+      "tag": "alternate skin color",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate species",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate universe",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "alternate weapon",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "家具・設備・物品",
+        "minor": "武器"
+      }
+    },
+    {
+      "tag": "alternate wings",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態"
+      }
+    },
+    {
+      "tag": "amagi yukiko (Persona 4)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "amamiya ren (Persona 5)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "amane kanata (Hololive)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "amber (genshin impact)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ambiguous gender",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ambiguous red liquid",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "american flag dress",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "american flag legwear",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "amesuku gyaru",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "amiya (arknights)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "among us",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "Among Us（ゲームタイトル）",
+        "candidateJa": "Among Us（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "開発元Innerslothの公式ページでゲームタイトル「Among Us」を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.innersloth.com/games/among-us/"
+      }
+    },
+    {
+      "tag": "amputee",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "analogous colors",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anchor ornament",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anchovy (girls und panzer)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ancient greek clothes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "android 18",
+      "set": {
+        "major": "キャラクター・作品",
+        "minor": "キャラクター",
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "人造人間18号（ドラゴンボール）",
+        "candidateJa": "人造人間18号（ドラゴンボール）",
+        "translationStatus": "verified",
+        "translationReviewNote": "ドラゴンボール公式キャラクター紹介で日本語名「人造人間18号」と作品を確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://dragon-ball-official.com/news/01_181.html"
+      }
+    },
+    {
+      "tag": "angelina (arknights)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anger vein",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anglerfish",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "animal crossing",
+      "set": {
+        "ja": "どうぶつの森（ゲームシリーズ）",
+        "candidateJa": "どうぶつの森（ゲームシリーズ）",
+        "translationStatus": "verified",
+        "translationReviewNote": "任天堂公式「どうぶつの森 観光局」で複数のゲーム作品からなるシリーズであることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.nintendo.com/jp/character/mori/item/index.html"
+      }
+    },
+    {
+      "tag": "animal ear headphones",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "animal focus",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "animal hat",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "animification",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ankle boots",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "靴・履物"
+      }
+    },
+    {
+      "tag": "ankle bow",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ankle cuffs",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ankle grab",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ankle lace-up",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "靴・履物"
+      }
+    },
+    {
+      "tag": "ankle socks",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "ankle wrap",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "antenna hair",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "antennae",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "antlers",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anya (spy x family)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anyoji hime (hasunosora jogakuin school idol club)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "anzio school uniform",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "apex legends",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09",
+        "ja": "エーペックスレジェンズ（ゲームタイトル）",
+        "candidateJa": "エーペックスレジェンズ（ゲームタイトル）",
+        "translationStatus": "verified",
+        "translationReviewNote": "EA公式日本語ページで日本語タイトル「エーペックスレジェンズ」とゲーム作品であることを確認。",
+        "translationReviewedAt": "2026-11-09",
+        "translationSource": "https://www.ea.com/ja-jp/games/apex-legends/apex-legends"
+      }
+    },
+    {
+      "tag": "applying makeup",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua (konosuba)",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua background",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "背景・場所",
+        "minor": "空間・環境表現"
+      }
+    },
+    {
+      "tag": "aqua bikini",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "水着"
+      }
+    },
+    {
+      "tag": "aqua bow",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua bra",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "下着"
+      }
+    },
+    {
+      "tag": "aqua dress",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua eyes",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua flower",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "生物・動植物",
+        "minor": "植物"
+      }
+    },
+    {
+      "tag": "aqua gemstone",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua gloves",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua hair",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua hairband",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua halo",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua hat",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua jacket",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua kimono",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua leotard",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua nails",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、現在の分類が適合することを確認。",
+        "classificationReviewedAt": "2026-11-09"
+      }
+    },
+    {
+      "tag": "aqua neckerchief",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    },
+    {
+      "tag": "aqua panties",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "下着"
+      }
+    },
+    {
+      "tag": "aqua ribbon",
+      "set": {
+        "classificationReviewStatus": "verified",
+        "classificationReviewReason": "タグの意味と用途を確認し、対象物に適した分類へ修正。",
+        "classificationReviewedAt": "2026-11-09",
+        "major": "服装・装飾",
+        "minor": "装飾品"
+      }
+    }
+  ]
+}
