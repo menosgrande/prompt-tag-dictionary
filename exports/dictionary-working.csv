@@ -132,8 +132,8 @@
 130,age regression,若返り,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
 131,aged down,幼くなった姿,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
 132,aged up,成長した姿,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
-133,agnes digital (umamusume),アグネスデジタル（ウマ娘）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-134,agnes tachyon (umamusume),アグネスタキオン（ウマ娘）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+133,agnes digital (umamusume),アグネスデジタル（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+134,agnes tachyon (umamusume),アグネスタキオン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 135,ahegao,アヘ顔,顔・表情,顔・表情,,[],verified,3,verified,verified
 136,ahoge,アホ毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 137,ahoge wag,アホ毛が揺れる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
@@ -160,10 +160,10 @@
 158,ak-47,AK-47（エーケー・フォーティーセブン）,家具・設備・物品,武器,,"[""AK-47"",""エーケー47"",""エーケーフォーティーセブン""]",verified,0,verified,verified
 159,akagi (azur lane),赤城（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 160,akagi (kancolle),赤城（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-161,akagi miria (The Idolmaster Cinderella Girls),赤城みりあ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+161,akagi miria (The Idolmaster Cinderella Girls),赤城みりあ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 162,akai haato (Hololive),赤井はあと（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 163,akairiot,アカイオット,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-164,akamatsu kaede (Danganronpa V3),赤松楓,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+164,akamatsu kaede (Danganronpa V3),赤松楓,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 165,akanbe,あかんべえ,顔・表情,顔・表情,,[],verified,0,verified,verified
 166,akane (blue archive),アカネ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 167,akari (pokemon),アカリ（ポケモン）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -172,7 +172,7 @@
 170,akatsuki kirika (Symphogear),暁切歌,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 171,akaza akari (YuruYuri),赤座あかり,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 172,akebono (kancolle),曙（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-173,akemi homura (Puella Magi Madoka Magica),暁美ほむら,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+173,akemi homura (Puella Magi Madoka Magica),暁美ほむら,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 174,akemi homura (magical girl),暁美ほむら（魔法少女）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 175,akeome,あけおめ,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 176,aki minoriko (Touhou Project),秋穣子,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -195,7 +195,7 @@
 193,alchemy stars,白夜極光,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 194,alcohol,お酒,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 195,aldehyde,アルデヒド,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-196,aldnoah.zero,アルドノア・ゼロ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+196,aldnoah.zero,アルドノア・ゼロ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 197,alear (fire emblem),リュール（ファイアーエムブレム エンゲージ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 199,alice (alice in wonderland),アリス（不思議の国のアリス）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -230,9 +230,9 @@
 228,alternate wings,別の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 229,ama mitsuki,アマ・ミツキ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 230,amagami,アマガミ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-231,amagi brilliant park,甘城ブリリアントパーク,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+231,amagi brilliant park,甘城ブリリアントパーク,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 232,amagi yukiko (Persona 4),天城雪子（ペルソナ4）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-233,amami haruka (The Idolmaster),天海春香,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+233,amami haruka (The Idolmaster),天海春香,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 234,amamiya ren (Persona 5),雨宮蓮（ペルソナ5）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 235,amane kanata (Hololive),天音かなた（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 236,amatsukaze (kancolle),天津風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -427,7 +427,7 @@
 425,aria company uniform,アリアカンパニーの制服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 426,arima kana (Oshi no Ko),有馬かな（推しの子）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 427,aris (blue archive),天童アリス（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-428,arknights,アークナイツ,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
+428,arknights,アークナイツ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 429,arlecchino (genshin impact),アルレッキーノ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 430,arm above head,頭上に上げた腕,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 431,arm across waist,腰の前を横切る腕,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
@@ -526,7 +526,7 @@
 524,ascot,アスコットタイ,服装・装飾,衣服,,[],verified,0,verified,verified
 525,ash ketchum (Pokémon),サトシ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 526,ashford academy school uniform,アシュフォードアカデミーユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
-527,ashido mina (My Hero Academia),芦戸三奈,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+527,ashido mina (My Hero Academia),芦戸三奈,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 528,ashigara (kancolle),足柄（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 529,ashiya douman (fate),蘆屋道満（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 530,ashtray,灰皿,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -586,7 +586,7 @@
 584,aviator sunglasses,アビエーターサングラス,服装・装飾,衣服,,[],verified,0,verified,verified
 585,avogado6,アボガド6,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 586,awa,Awa（固有名詞・意味要確認）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
-587,awa subaru (Girls Band Cry),安和すばる,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+587,awa subaru (Girls Band Cry),安和すばる,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 588,award winning,受賞歴のある作品,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
 589,axe,斧,家具・設備・物品,武器,,[],verified,0,verified,unreviewed
 590,axis powers hetalia,ヘタリア Axis Powers,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
