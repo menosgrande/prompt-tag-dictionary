@@ -196,7 +196,7 @@
 194,alcohol,お酒,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 195,aldehyde,アルデヒド,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 196,aldnoah.zero,アルドノア・ゼロ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-197,alear (fire emblem),リュール（ファイアーエムブレム エンゲージ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+197,alear (fire emblem),リュール（ファイアーエムブレム エンゲージ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 198,alhaitham (genshin impact),アルハイゼン（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 199,alice (alice in wonderland),アリス（不思議の国のアリス）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 200,alice (alice in wonderland) (cosplay),アリス（不思議の国のアリス）（コスプレ）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
@@ -1534,9 +1534,9 @@
 1532,buttoned cuffs,ボタン付きカフス,服装・装飾,衣服,,[],verified,0,verified,verified
 1533,buttons,ボタン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1534,buzz cut,丸刈り,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1535,byleth (female) (fire emblem),ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1536,byleth (fire emblem),ベレト／ベレス（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-1537,byleth (male) (fire emblem),ベレト（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+1535,byleth (female) (fire emblem),ベレス（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1536,byleth (fire emblem),ベレト／ベレス（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1537,byleth (male) (fire emblem),ベレト（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1538,c:,C字口,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 1539,c.c. (Code Geass),C.C.（コードギアス）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1540,cabbage,キャベツ,生物・動植物,植物,,[],verified,0,verified,verified
@@ -1566,7 +1566,7 @@
 1564,camellia,ツバキ,生物・動植物,植物,,[],verified,0,verified,verified
 1565,cameo,カメオ出演,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1566,camera,カメラ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
-1567,camilla (fire emblem),カミラ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1567,camilla (fire emblem),カミラ（ファイアーエムブレムif）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 1568,camisole,キャミソール,服装・装飾,下着,,[],verified,,unreviewed,verified
 1569,camisole lift,キャミソールリフト,動作・接触,衣服への接触,,[],unreviewed,,unreviewed,verified
 1570,cammy white (Street Fighter),キャミィ・ホワイト（ストリートファイター）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
@@ -2065,8 +2065,8 @@
 2063,cork,コルク,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2064,corn,トウモロコシ,生物・動植物,植物,,[],verified,,unreviewed,verified
 2065,corpse,死体,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2066,corrin (female) (fire emblem),カムイ（女性・ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2067,corrin (fire emblem),カムイ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+2066,corrin (female) (fire emblem),カムイ（女性・ファイアーエムブレムif）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+2067,corrin (fire emblem),カムイ（ファイアーエムブレムif）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 2068,corruption,堕落,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 2069,corsage,コサージュ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2070,corset,コルセット,服装・装飾,下着,,[],verified,,unreviewed,verified
@@ -2452,7 +2452,7 @@
 2450,dikko,ディッコ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 2451,dilation tape,拡張テープ,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 2452,diluc (genshin impact),ディルック（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2453,dimitri alexandre blaiddyd (Fire Emblem: Three Houses),ディミトリ＝アレクサンドル＝ブレーダッド（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+2453,dimitri alexandre blaiddyd (Fire Emblem: Three Houses),ディミトリ＝アレクサンドル＝ブレーダッド（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 2454,dimples of venus,ヴィーナスのえくぼ,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 2455,dinosaur,恐竜,生物・動植物,動物,,[],verified,,unreviewed,verified
 2456,dio brando (JoJo's Bizarre Adventure),ディオ・ブランドー,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -2691,7 +2691,7 @@
 2689,ebi 193,ebi 193（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 2690,ebifurya,えびふりゃ（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 2691,echo (circa),エコー（頃）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2692,edelgard von hresvelg (Fire Emblem: Three Houses),エーデルガルト＝フォン＝フレスベルグ（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+2692,edelgard von hresvelg (Fire Emblem: Three Houses),エーデルガルト＝フォン＝フレスベルグ（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 2693,eden academy school uniform,イーデン校の制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,unreviewed
 2694,edward elric (Fullmetal Alchemist),エドワード・エルリック（鋼の錬金術師）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2695,eel,うなぎ,生物・動植物,動物,,[],verified,,unreviewed,verified
@@ -2904,7 +2904,7 @@
 2902,fake screenshot,偽のスクリーンショット,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
 2903,fake tail,付け尻尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2904,fake wings,作り物の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2905,falchion (fire emblem),ファルシオン（ファイアーエムブレム）,家具・設備・物品,武器,,[],verified,,unreviewed,unreviewed
+2905,falchion (fire emblem),ファルシオン（ファイアーエムブレム）,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 2906,falin touden (Delicious in Dungeon),ファリン・トーデン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2907,fallen angel,堕天使,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2908,fallen down,倒れ込んだ状態,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
@@ -3035,22 +3035,22 @@
 3033,fingersmile,指で口角を持ち上げた笑顔,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
 3034,fins,ひれ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3035,fire,火,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-3036,fire emblem,ファイアーエムブレム,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3037,fire emblem awakening,ファイアーエムブレム 覚醒,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3038,fire emblem cipher,ファイアーエムブレム０（サイファ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3039,fire emblem echoes: shadows of valentia,ファイアーエムブレム Echoes もうひとりの英雄王,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-3040,fire emblem engage,ファイアーエムブレム エンゲージ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3041,fire emblem fates,ファイアーエムブレムif,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3042,fire emblem heroes,ファイアーエムブレム ヒーローズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3043,fire emblem warriors: three hopes,ファイアーエムブレム無双 風花雪月,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3044,fire emblem: genealogy of the holy war,ファイアーエムブレム 聖戦の系譜,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3045,fire emblem: mystery of the emblem,ファイアーエムブレム 紋章の謎,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3046,fire emblem: path of radiance,ファイアーエムブレム 蒼炎の軌跡,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3047,fire emblem: radiant dawn,ファイアーエムブレム 暁の女神,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-3048,fire emblem: the binding blade,ファイアーエムブレム 封印の剣,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3049,fire emblem: the blazing blade,ファイアーエムブレム 烈火の剣,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3050,fire emblem: the sacred stones,ファイアーエムブレム 聖魔の光石,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-3051,fire emblem: three houses,ファイアーエムブレム 風花雪月,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3036,fire emblem,ファイアーエムブレム（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3037,fire emblem awakening,ファイアーエムブレム 覚醒（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3038,fire emblem cipher,ファイアーエムブレム０（サイファ）（カードゲーム）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3039,fire emblem echoes: shadows of valentia,ファイアーエムブレム Echoes もうひとりの英雄王（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3040,fire emblem engage,ファイアーエムブレム エンゲージ（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3041,fire emblem fates,ファイアーエムブレムif（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3042,fire emblem heroes,ファイアーエムブレム ヒーローズ（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3043,fire emblem warriors: three hopes,ファイアーエムブレム無双 風花雪月（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3044,fire emblem: genealogy of the holy war,ファイアーエムブレム 聖戦の系譜（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3045,fire emblem: mystery of the emblem,ファイアーエムブレム 紋章の謎（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3046,fire emblem: path of radiance,ファイアーエムブレム 蒼炎の軌跡（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3047,fire emblem: radiant dawn,ファイアーエムブレム 暁の女神（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3048,fire emblem: the binding blade,ファイアーエムブレム 封印の剣（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3049,fire emblem: the blazing blade,ファイアーエムブレム 烈火の剣（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3050,fire emblem: the sacred stones,ファイアーエムブレム 聖魔の光石（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+3051,fire emblem: three houses,ファイアーエムブレム 風花雪月（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 3052,fireball,火の玉,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 3053,fireflies,ホタル,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 3054,firefly (honkai: star rail),ホタル（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -4260,7 +4260,7 @@
 4258,hikimayu,引眉,顔・表情,顔の特徴,,[],verified,,unreviewed,verified
 4259,hilbert (pokemon),トウヤ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4260,hilda (pokemon),トウコ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4261,hilda valentine goneril (Fire Emblem: Three Houses),ヒルダ＝ヴァレンティン＝ゴネリル（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+4261,hilda valentine goneril (Fire Emblem: Three Houses),ヒルダ＝ヴァレンティン＝ゴネリル（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 4262,hill,丘,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
 4263,himajin noizu,ヒマジン・ノイズ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 4264,himari (blue archive),明星ヒマリ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -4714,7 +4714,7 @@
 4712,ikari manatsu,イカリマナツ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 4713,ikari shinji (Neon Genesis Evangelion),碇シンジ（新世紀エヴァンゲリオン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 4714,ikazuchi (kancolle),雷（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-4715,ike (fire emblem),アイク（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+4715,ike (fire emblem),アイク（ファイアーエムブレム 蒼炎の軌跡／暁の女神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 4716,ikeuchi tanuma,青島タヌマ,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 4717,ikkitousen,一騎当千,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 4718,ikuchan kaoru,いくちゃんかおる,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
@@ -5672,7 +5672,7 @@
 5670,lube,潤滑剤,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 5671,lucario (pokemon),ルカリオ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5672,lucifer (helltaker),ルシファー（Helltaker）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-5673,lucina (fire emblem),ルキナ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+5673,lucina (fire emblem),ルキナ（ファイアーエムブレム 覚醒）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 5674,lucky beast (kemono friends),ラッキービースト（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5675,lucky star,らき☆すた,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 5676,luigi (super mario),ルイージ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -5690,7 +5690,7 @@
 5688,lying on lap,膝の上に横たわる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 5689,lying on person,人の上に横たわる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 5690,lying on water,水面に横たわる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-5691,lyn (fire emblem),リン（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+5691,lyn (fire emblem),リン（ファイアーエムブレム 烈火の剣）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 5692,lynette (genshin impact),リネット（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5693,lynette bishop (strike witches),リネット・ビショップ（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5694,lyra (pokemon),コトネ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -5698,7 +5698,7 @@
 5696,lyrica prismriver (touhou),リリカ・プリズムリバー（東方Project）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5697,lyrical nanoha,魔法少女リリカルなのは,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 5698,lyrics,歌詞,文字・記号,文字,,[],verified,,unreviewed,unreviewed
-5699,lysithea von ordelia (fire emblem: three houses),リシテア＝フォン＝オルデルリア（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+5699,lysithea von ordelia (fire emblem: three houses),リシテア＝フォン＝コーデリア（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 5700,m legs,M字開脚,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 5701,m-da s-tarou,MだSたろう,文字・記号,ロゴ・ブランド表記,,[],verified,,unreviewed,unreviewed
 5702,m.u.g.e.n,M.U.G.E.N,文字・記号,ロゴ・ブランド表記,,"[""ムゲン""]",verified,,unreviewed,unreviewed
@@ -5800,7 +5800,7 @@
 5798,mari (track) (blue archive),伊落マリー（体操服・ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5799,maria the ripper (Fate),マリア・ザ・リッパー（Fate）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 5800,maria-sama ga miteru,マリア様がみてる,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-5801,marianne von edmund (fire emblem: three houses),マリアンヌ・フォン・エドマンド（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+5801,marianne von edmund (fire emblem: three houses),マリアンヌ＝フォン＝エドマンド（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 5802,maribel hearn (touhou),マエリベリー・ハーン（東方Project）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5803,marie (splatoon),ホタル（スプラトゥーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 5804,marie antoinette (fate),マリー・アントワネット（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -8052,10 +8052,10 @@
 8050,road sign,道路標識,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 8051,roasted sweet potato,焼き芋,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8052,robe,ロボット,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8053,robin (female) (fire emblem),ルフレ（女性・ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-8054,robin (fire emblem),ルフレ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
+8053,robin (female) (fire emblem),ルフレ（女性・ファイアーエムブレム 覚醒）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+8054,robin (fire emblem),ルフレ（ファイアーエムブレム 覚醒）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8055,robin (honkai: star rail),ロビン（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-8056,robin (male) (fire emblem),ルフレ（男性・ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
+8056,robin (male) (fire emblem),ルフレ（男性・ファイアーエムブレム 覚醒）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8057,robot,ロボット,生物・動植物,種族,,[],verified,,unreviewed,verified
 8058,robot animal,ロボット動物,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,verified
 8059,robot ears,ロボット耳,髪・頭部,頭部の特徴,,[],verified,,unreviewed,verified
@@ -9759,7 +9759,7 @@
 9757,tight dress,体にぴったりしたドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9758,tight pants,タイトなズボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 9759,tight shirt,タイトなシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9760,tiki (fire emblem),チキ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+9760,tiki (fire emblem),チキ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 9761,tile floor,タイル張りの床,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
 9762,tile wall,タイル張りの壁,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
 9763,tiles,タイル,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
