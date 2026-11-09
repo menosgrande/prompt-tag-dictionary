@@ -31,6 +31,34 @@ test("applies supported fields while preserving unrelated metadata and row order
   assert.deepEqual(input, fixture(), "input object must not be mutated");
 });
 
+
+test("updates translation review status and evidence while preserving unrelated metadata", () => {
+  const data = fixture();
+  const result = applyPatchData(data, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{
+      tag: "metadata tag",
+      set: {
+        translationStatus: "verified",
+        translationReviewNote: "訳語を確認。",
+        translationReviewedAt: "2026-11-09",
+        translationSource: "https://example.com/source"
+      }
+    }]
+  });
+  assert.equal(result.updated, 1);
+  assert.equal(result.data.tags[1][6].translation.status, "verified");
+  assert.equal(result.data.tags[1][6].translation.reviewNote, "訳語を確認。");
+  assert.equal(result.data.tags[1][6].translation.reviewedAt, "2026-11-09");
+  assert.equal(result.data.tags[1][6].translation.source, "https://example.com/source");
+  assert.equal(result.data.tags[1][6].translation.evidence, "keep");
+  assert.equal(result.data.tags[1][6].custom.keep, true);
+  assert.throws(() => applyPatchData(fixture(), {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "metadata tag", set: { translationStatus: "maybe" } }]
+  }), /Invalid translationStatus/);
+});
+
 test("rejects unknown fields, malformed operations, and invalid values", () => {
   const data = fixture();
   const base = { schema: "prompt-tag-dictionary-patch-v1", operations: [] };
