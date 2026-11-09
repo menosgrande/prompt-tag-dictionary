@@ -246,7 +246,7 @@
 244,american flag bikini,アメリカ国旗のビキニ,服装・装飾,衣服,,[],verified,1,verified,verified
 245,american flag dress,星条旗柄のドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 246,american flag legwear,星条旗柄の脚用衣類,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-247,american flag print,星条旗柄,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+247,american flag print,星条旗柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 248,amestris military uniform,アメストリス軍服,服装・装飾,衣服,,[],verified,0,verified,verified
 249,amesuku gyaru,アメスクギャル,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 250,amiya (arknights),アーミヤ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -314,11 +314,11 @@
 312,animal hood,動物モチーフのフード,服装・装飾,衣服,,[],verified,,unreviewed,verified
 313,animal hug,動物を抱く,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 314,animal nose,動物の鼻,顔・表情,顔・表情,,[],verified,0,verified,verified
-315,animal on arm,腕に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-316,animal on hand,手に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-317,animal on head,頭に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-318,animal on lap,膝に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-319,animal on shoulder,肩に乗っている動物,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+315,animal on arm,腕に乗っている動物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+316,animal on hand,手に乗っている動物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+317,animal on head,頭に乗っている動物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+318,animal on lap,膝に乗っている動物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
+319,animal on shoulder,肩に乗っている動物,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 320,animal print,アニマル柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 321,animal skull,動物の頭蓋骨,生物・動植物,動物,,[],verified,0,verified,verified
 322,animal slippers,動物モチーフのスリッパ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
