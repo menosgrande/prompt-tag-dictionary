@@ -68,7 +68,7 @@ test("rejects unknown fields, malformed operations, and invalid values", () => {
   assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: { nope: "x" } }] }), /Unsupported patch fields/);
   assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: { ja: null } }] }), /must be a string/);
   assert.throws(() => applyPatchData(data, { ...base, operations: [null] }), /Invalid operation/);
-  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: {} }] }), /Only ja/);
+  assert.throws(() => applyPatchData(data, { ...base, operations: [{ tag: "sample tag", set: {} }] }), /Unsupported patch fields/);
 });
 
 test("rejects missing tags and duplicate operations after tag normalization", () => {
