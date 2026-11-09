@@ -97,6 +97,20 @@ test("updates classification status, review evidence, and candidate index togeth
     schema: "prompt-tag-dictionary-patch-v1",
     operations: [{ tag: "metadata tag", set: { classificationStatus: "maybe" } }]
   }), /Invalid classificationStatus/);
+  const withoutTranslation = fixture();
+  withoutTranslation.tags[0].push(null, [], {
+    classification: { status: "provisional", categoryId: "objects", subcategoryId: "everyday-objects", confidence: "high", reason: "候補" },
+    classificationReview: { status: "unreviewed" }
+  });
+  withoutTranslation.classificationCandidates = {
+    entries: [{ tag: "sample tag", ...structuredClone(withoutTranslation.tags[0][6].classification) }],
+    summary: { total: 1, provisional: 1, needsReview: 0, archived: 0 }
+  };
+  const classificationOnly = applyPatchData(withoutTranslation, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "sample tag", set: { classificationStatus: "verified" } }]
+  });
+  assert.equal("translation" in classificationOnly.data.tags[0][6], false);
 });
 
 test("rejects unknown fields, malformed operations, and invalid values", () => {
