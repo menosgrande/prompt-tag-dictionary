@@ -1349,7 +1349,7 @@
 1347,breast rest,胸を何かに載せて休める状態,動作・接触,身体への接触,,[],verified,2,verified,verified
 1348,breast slip,胸が衣服からずれる・こぼれる,服装・装飾,衣服の状態,,[],verified,2,verified,verified
 1349,breast smother,胸で顔を覆う,動作・接触,性的行為・接触,,[],verified,3,verified,verified
-1350,breast strap,胸を支えるストラップ,服装・装飾,下着,,[],needs-review,,unreviewed,verified
+1350,breast strap,胸を支えるストラップ,服装・装飾,下着,,[],needs-review,0,verified,verified
 1351,breast sucking,胸を吸う,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,0,verified,verified
 1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
@@ -1470,7 +1470,7 @@
 1468,bubble,シャボン玉,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1469,bubble skirt,バブルスカート,服装・装飾,衣服,,[],verified,0,verified,verified
 1470,bubble tea,タピオカティー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1471,bubble tea challenge,タピオカドリンクチャレンジ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+1471,bubble tea challenge,タピオカドリンクチャレンジ,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
 1472,bubukka,ブブッカ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1473,buck teeth,出っ歯,顔・表情,顔の特徴,,[],verified,0,verified,verified
 1474,bucket,バケツ,家具・設備・物品,日用品,,[],verified,0,verified,verified
@@ -1923,7 +1923,7 @@
 1921,clothes lift,服を持ち上げる,動作・接触,衣服への接触,,[],verified,2,verified,verified
 1922,clothes pin,洗濯ばさみ,家具・設備・物品,道具,,[],verified,0,verified,verified
 1923,clothes pull,服を引っ張る,動作・接触,衣服への接触,,[],verified,0,verified,verified
-1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,0,verified,verified
+1924,clothes theft,服の盗難,服装・装飾,衣服,,[],verified,0,verified,verified
 1925,clothes tug,服を引っ張る仕草,動作・接触,衣服への接触,,[],verified,0,verified,verified
 1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,0,verified,verified
 1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,0,verified,verified
@@ -1973,7 +1973,7 @@
 1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1972,cold,寒さ,状態・状況,状態・変化,,[],verified,0,verified,verified
 1973,collage,コラージュ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-1974,collar,首輪,服装・装飾,衣服,,[],needs-review,0,verified,verified
+1974,collar,首輪・襟（文脈依存）,服装・装飾,衣服,,[],needs-review,0,verified,verified
 1975,collarbone,鎖骨,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1976,collared cape,襟付きケープ,服装・装飾,衣服,,[],verified,0,verified,verified
 1977,collared capelet,襟付きケープレット,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -2056,7 +2056,7 @@
 2054,cooking pot,調理鍋,家具・設備・物品,道具,,[],verified,0,verified,verified
 2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,0,verified,verified
 2056,cooler,クーラー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-2057,copy ability,コピー能力,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
+2057,copy ability,コピー能力,人物の特徴,人物属性,,[],verified,0,verified,verified
 2058,copyright name,著作権者名,文字・記号,文字,,[],verified,0,verified,verified
 2059,copyright notice,著作権表示,文字・記号,文字,,[],verified,0,verified,verified
 2060,coral,サンゴ,生物・動植物,動物,,[],verified,0,verified,verified
@@ -2083,7 +2083,7 @@
 2081,country connection,国家間の関係,状態・状況,状況・関係性,,[],verified,0,verified,verified
 2082,couple,カップル,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 2083,cousins,いとこ同士,状態・状況,状況・関係性,,[],verified,0,verified,verified
-2084,couter,肘当て（甲冑の肘部防具）,服装・装飾,装備・防具,,[],verified,0,verified,unreviewed
+2084,couter,肘当て（甲冑の肘部防具）,服装・装飾,装備・防具,,[],verified,0,verified,verified
 2085,cover,覆い・カバー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2086,cover art,カバーアート,画風・描写,媒体,,[],verified,0,verified,verified
 2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,0,verified,verified
@@ -2106,7 +2106,7 @@
 2104,covering own ears,耳を塞ぐ,動作・接触,手の動作,,[],verified,0,verified,verified
 2105,covering own eyes,自分の目を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
 2106,covering own mouth,自分の口を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
-2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,1,verified,unreviewed
+2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,1,verified,verified
 2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,0,verified,verified
 2109,cow,牛,生物・動植物,動物,,[],verified,0,verified,verified
 2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -2121,8 +2121,8 @@
 2119,cowbell,カウベル,服装・装飾,装飾品,,[],verified,0,verified,verified
 2120,cowboy boots,カウボーイブーツ,服装・装飾,靴・履物,,[],verified,0,verified,verified
 2121,cowboy hat,カウボーイハット,服装・装飾,衣服,,[],verified,0,verified,verified
-2122,cowboy shot,腰から上を写した構図,構図・カメラ,構図・配置,,[],verified,0,verified,unreviewed
-2123,cowboy western,西部劇風,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2122,cowboy shot,腰から上を写した構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2123,cowboy western,西部劇風,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,4,verified,verified
 2125,cowlick,アホ毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 2126,crab,カニ,生物・動植物,動物,,[],verified,0,verified,verified
