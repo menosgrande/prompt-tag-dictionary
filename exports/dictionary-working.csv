@@ -2539,7 +2539,7 @@
 2537,double v,ダブルピース,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 2538,double vertical stripe,二本の縦縞,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2539,double w,両手でWを作るハンドサイン,動作・接触,手の動作,,[],verified,0,verified,verified
-2540,double-breasted,ダブルブレスト,服装・装飾,衣服,,[],verified,,unreviewed,verified
+2540,double-breasted,ダブルブレスト,服装・装飾,衣服,,[],verified,0,verified,verified
 2541,double-parted bangs,左右に分かれた前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 2542,doughnut,ドーナツ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2543,doughnut hair bun,ドーナツ状のお団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
@@ -2592,11 +2592,11 @@
 2590,dress flower,ドレスの花飾り,服装・装飾,衣服,,[],verified,0,verified,verified
 2591,dress lift,スカートを持ち上げる,動作・接触,衣服への接触,,[],verified,2,verified,verified
 2592,dress pants,ドレスパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
-2593,dress pull,ドレスを引っ張る,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+2593,dress pull,ドレスを引っ張る,動作・接触,衣服への接触,,[],verified,0,verified,verified
 2594,dress shirt,ドレスシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
 2595,dress shoes,革靴（ドレスシューズ）,服装・装飾,靴・履物,,[],verified,0,verified,verified
 2596,dress swimsuit,ドレス水着,服装・装飾,水着,,[],verified,0,verified,verified
-2597,dress tug,ドレスを引く動作,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
+2597,dress tug,ドレスを引く動作,動作・接触,衣服への接触,,[],verified,0,verified,verified
 2598,dressing,着替え,動作・接触,身体動作,,[],verified,0,verified,verified
 2599,dressing another,他人に服を着せる,動作・接触,衣服への接触,,[],verified,0,verified,verified
 2600,drill,ドリル,家具・設備・物品,道具,,[],verified,0,verified,verified
@@ -2615,43 +2615,43 @@
 2613,drooling,よだれを垂らす,動作・接触,身体動作,,[],verified,0,verified,verified
 2614,drop shadow,ドロップシャドウ,光・演出,影・陰影,,[],verified,0,verified,verified
 2615,drop-shaped pupils,しずく形の瞳孔,顔・表情,目,,[],verified,0,verified,verified
-2616,dropping,物を落とす動作,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-2617,drowning,溺れる,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-2618,drugged,薬物の影響下にある,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2619,drugs,薬物,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2620,drum,ドラム,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2621,drum (container),ドラム缶,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2622,drum set,ドラムセット,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2623,drumsticks,ドラムスティック,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2624,drunk,酔っ払い,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2625,drying,乾燥,動作・接触,日常動作,,[],verified,,unreviewed,unreviewed
-2626,drying hair,髪を乾かす,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2627,dual persona,二重人格,状態・状況,状況・関係性,,[],verified,,unreviewed,unreviewed
-2628,dual wielding,二刀流,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-2629,duck,アヒル,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2630,duckling,アヒルのひな,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2631,dudou,肚兜（中国の伝統的な胸当て）,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2632,duel,決闘,動作・接触,身体動作,,[],verified,,unreviewed,verified
-2633,duel academy uniform (yu-gi-oh! gx),デュエル・アカデミアの制服（遊☆戯☆王GX）,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2634,duel disk,デュエルディスク,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2635,duel monster,デュエルモンスターズ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2636,duffel bag,ダッフルバッグ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2637,duffel coat,ダッフルコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2638,dumbbell,ダンベル,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2639,dumpling,餃子・団子状の料理,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2640,dungeon,ダンジョン,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
-2641,dungeon and fighter,アラド戦記（Dungeon Fighter）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2642,dungeon meshi,ダンジョン飯,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2643,dungeons & dragons,ダンジョンズ＆ドラゴンズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2644,durarara!!,デュラララ!!,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2645,dusk,黄昏,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
-2646,dusk (arknights),夕（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2647,dust,ほこり,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
-2648,dust cloud,砂ぼこり,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2649,duster,ダスター,家具・設備・物品,道具,,[],verified,,unreviewed,verified
-2650,dutch angle,ダッチアングル（傾いたカメラアングル）,構図・カメラ,カメラアングル,,[],verified,,unreviewed,unreviewed
-2651,dvd cover,DVDカバー,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-2652,dwarf,ドワーフ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
+2616,dropping,物を落とす動作,動作・接触,身体動作,,[],verified,0,verified,verified
+2617,drowning,溺れる,動作・接触,身体動作,,[],verified,0,verified,verified
+2618,drugged,薬物の影響下にある,人物の特徴,人物属性,,[],verified,0,verified,verified
+2619,drugs,薬物,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2620,drum,ドラム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2621,drum (container),ドラム缶,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2622,drum set,ドラムセット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2623,drumsticks,ドラムスティック,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2624,drunk,酔っ払い,人物の特徴,人物属性,,[],verified,0,verified,verified
+2625,drying,乾燥,動作・接触,日常動作,,[],verified,0,verified,verified
+2626,drying hair,髪を乾かす,動作・接触,身体動作,,[],verified,0,verified,verified
+2627,dual persona,二重人格,状態・状況,状況・関係性,,[],verified,0,verified,verified
+2628,dual wielding,二刀流,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+2629,duck,アヒル,生物・動植物,動物,,[],verified,0,verified,verified
+2630,duckling,アヒルのひな,生物・動植物,動物,,[],verified,0,verified,verified
+2631,dudou,肚兜（中国の伝統的な胸当て）,服装・装飾,衣服,,[],verified,0,verified,verified
+2632,duel,決闘,動作・接触,身体動作,,[],verified,0,verified,verified
+2633,duel academy uniform (yu-gi-oh! gx),デュエル・アカデミアの制服（遊☆戯☆王GX）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+2634,duel disk,デュエルディスク,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2635,duel monster,デュエルモンスターズ,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+2636,duffel bag,ダッフルバッグ,服装・装飾,装飾品,,[],verified,0,verified,verified
+2637,duffel coat,ダッフルコート,服装・装飾,衣服,,[],verified,0,verified,verified
+2638,dumbbell,ダンベル,家具・設備・物品,道具,,[],verified,0,verified,verified
+2639,dumpling,餃子・団子状の料理,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2640,dungeon,ダンジョン,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2641,dungeon and fighter,アラド戦記（Dungeon Fighter）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2642,dungeon meshi,ダンジョン飯,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2643,dungeons & dragons,ダンジョンズ＆ドラゴンズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2644,durarara!!,デュラララ!!,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2645,dusk,黄昏,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+2646,dusk (arknights),夕（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2647,dust,ほこり,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+2648,dust cloud,砂ぼこり,背景・場所,自然・風景,,[],verified,0,verified,verified
+2649,duster,ダスター,家具・設備・物品,道具,,[],verified,0,verified,verified
+2650,dutch angle,ダッチアングル（傾いたカメラアングル）,構図・カメラ,カメラアングル,,[],verified,0,verified,verified
+2651,dvd cover,DVDカバー,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2652,dwarf,ドワーフ,人物の特徴,種族,,[],verified,0,verified,verified
 2653,dyed bangs,染めた前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 2654,dynamax band,Dynamaxバンド,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 2655,dynamic angle,ダイナミックなカメラアングル,構図・カメラ,カメラアングル,,[],verified,,unreviewed,unreviewed
