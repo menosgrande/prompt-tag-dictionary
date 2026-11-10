@@ -42,7 +42,6 @@ jobs:
           fi
           echo "patch_file=${files[0]}" >> "$GITHUB_OUTPUT"
           node .github/scripts/apply-dictionary-patch.mjs "${files[0]}"
-        if: steps.patch.outputs.skip != 'true'
       - name: Validate dictionary
         run: node scripts/build-dictionary-data.mjs --check
         if: steps.patch.outputs.skip != 'true'
