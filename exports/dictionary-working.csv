@@ -10153,30 +10153,30 @@
 10151,underpec,下胸筋の露出,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 10152,undershirt,肌着,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10153,undersized animal,小型の動物,生物・動植物,動物,,[],verified,0,verified,verified
-10154,undersized breast cup,小胸カップ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10155,undersized clothes,小さめの服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10156,undertale,アンダーテール,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10157,underwater,水中,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-10158,underwear,下着,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-10159,underwear only,下着のみ,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
+10154,undersized breast cup,胸に対して小さいブラカップ,服装・装飾,下着,,[],verified,2,verified,verified
+10155,undersized clothes,小さめの服,服装・装飾,衣服,,[],verified,0,verified,verified
+10156,undertale,Undertale,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10157,underwater,水中,背景・場所,自然・風景,,[],verified,0,verified,verified
+10158,underwear,下着,服装・装飾,下着,,[],verified,1,verified,verified
+10159,underwear only,下着のみ,服装・装飾,衣服の状態,,[],verified,2,verified,verified
 10160,undone neck ribbon,外れたネックリボン,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10161,undone necktie,緩んだネクタイ,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-10162,undressing,服を脱ぐ,動作・接触,日常動作,,[],unreviewed,,unreviewed,verified
-10163,undressing another,別の服を脱ぐ,動作・接触,衣服への接触,,[],unreviewed,,unreviewed,verified
+10162,undressing,服を脱ぐ,動作・接触,衣服への接触,,[],verified,2,verified,verified
+10163,undressing another,他人の服を脱がせる,動作・接触,衣服への接触,,[],verified,3,verified,verified
 10164,uneven eyes,左右非対称の目,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
-10165,uneven gloves,不均一な手袋,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10166,uneven horns,左右非対称の角,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-10167,uneven legwear,不均一なレッグウェア,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10168,uneven sleeves,左右非対称の袖,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10165,uneven gloves,左右で異なる手袋,服装・装飾,装飾品,,[],verified,0,verified,verified
+10166,uneven horns,左右で形の異なる角,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+10167,uneven legwear,左右で異なるレッグウェア,服装・装飾,靴・履物,,[],verified,0,verified,verified
+10168,uneven sleeves,左右で異なる袖,服装・装飾,衣服,,[],verified,0,verified,verified
 10169,uneven twintails,左右非対称のツインテール,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 10170,unfastened,留め具が外れた,状態・状況,状態・変化,,[],needs-review,,unreviewed,unreviewed
-10171,unicorn,ユニコーン,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,verified
-10172,unicorn (azur lane),ユニコーン（アズールレーン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10173,union jack,ユニオンジャック,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-10174,unitard,ユニタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10175,united states,アメリカ,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-10176,unmoving pattern,動かないパターン,構図・カメラ,構図・配置,,[],unreviewed,,unreviewed,unreviewed
-10177,unryuu (kancolle),雲龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10171,unicorn,ユニコーン,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+10172,unicorn (azur lane),ユニコーン（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10173,union jack,ユニオンジャック,文字・記号,記号・図形,,[],verified,0,verified,verified
+10174,unitard,ユニタード,服装・装飾,衣服,,[],verified,0,verified,verified
+10175,united states,アメリカ合衆国,背景・場所,場所・室内外,,[],verified,0,verified,verified
+10176,unmoving pattern,服のしわに追従しない模様,服装・装飾,衣服,,[],verified,0,verified,verified
+10177,unryuu (kancolle),雲龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10178,unsheathed,抜き身の刀,家具・設備・物品,武器,,[],needs-review,,unreviewed,unreviewed
 10179,unsheathing,抜刀,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 10180,untied bikini,紐がほどけたビキニ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
@@ -10184,8 +10184,8 @@
 10182,untied panties,紐がほどけたパンティー,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
 10183,untucked shirt,裾を出したシャツ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10184,untying,紐をほどく,動作・接触,日常動作,,[],needs-review,,unreviewed,unreviewed
-10185,unused tire,タイヤ,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,unreviewed
-10186,unusually open eyes,異様に開いた目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
+10185,unused tire,未使用のタイヤ,乗り物,陸上の乗り物,,[],verified,0,verified,verified
+10186,unusually open eyes,異様に見開いた目,顔・表情,目,,[],verified,0,verified,verified
 10187,unworn backpack,身に着けていないバックパック,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10188,unworn bag,身に着けていないバッグ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10189,unworn bikini,着用していないビキニ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
@@ -10198,7 +10198,7 @@
 10196,unworn dress,着ていないドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10197,unworn eyepatch,着けていない眼帯,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
 10198,unworn eyewear,かけていない眼鏡,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-10199,unworn footwear,履いていない靴,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+10199,unworn footwear,履かれていない靴,服装・装飾,靴・履物,,[],verified,0,verified,verified
 10200,unworn gloves,着けていない手袋,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10201,unworn goggles,着けていないゴーグル,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
 10202,unworn hair ornament,着けていない髪飾り,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
@@ -10217,116 +10217,116 @@
 10215,unworn skirt,着用していないスカート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10216,unworn socks,履いていない靴下,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10217,unya,うんにゃ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-10218,unzan,雲山,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10218,unzan,雲山（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10219,unzipped,ファスナーを開けた状態,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
 10220,unzipping,ファスナーを開ける,動作・接触,衣服への接触,,[],needs-review,,unreviewed,unreviewed
-10221,updo,アップヘア,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-10222,upper body,上半身,構図・カメラ,撮影距離,,[],unreviewed,,unreviewed,unreviewed
-10223,upper teeth only,上歯,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+10221,updo,アップヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10222,upper body,上半身,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+10223,upper teeth only,上の歯だけが見える口,人物の特徴,人物属性,,[],verified,0,verified,needs-review
 10224,upright straddle,直立したまたがりポーズ,ポーズ・姿勢,基本姿勢,,[],needs-review,,unreviewed,unreviewed
-10225,upshirt,アップシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10226,upshorts,アップショート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10225,upshirt,シャツの中を下から覗く構図,服装・装飾,衣服,,[],verified,2,verified,needs-review
+10226,upshorts,ショーツの中を下から覗く構図,構図・カメラ,カメラアングル,,[],verified,2,verified,verified
 10227,upside-down,逆さま,ポーズ・姿勢,身体の向き,,[],needs-review,,unreviewed,unreviewed
 10228,upskirt,パンチラ,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
-10229,upturned eyes,上目遣い,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-10230,urakaze (kancolle),浦風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10231,uranohoshi school uniform,浦ノ星女学院制服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10232,uraraka ochaco,麗日お茶子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10233,urban,都会的な,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,verified
+10229,upturned eyes,つり上がった目,顔・表情,目,,[],verified,0,verified,verified
+10230,urakaze (kancolle),浦風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10231,uranohoshi school uniform,浦の星女学院の制服（ラブライブ！サンシャイン!!）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+10232,uraraka ochaco,麗日お茶子（僕のヒーローアカデミア）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10233,urban,都市部・市街地,背景・場所,場所・室内外,,[],verified,0,verified,verified
 10234,urethral insertion,尿道への挿入,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
-10235,urinal,便器,家具・設備・物品,設備,,[],unreviewed,,unreviewed,unreviewed
-10236,uruha rushia,潤羽るしあ,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10237,uruha rushia (1st costume),潤羽るしあ（1st衣装）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10238,urusei yatsura,うる星やつら,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10239,urushihara satoshi,漆原智志,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10240,usada pekora,兎田ぺこら,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10241,usada pekora (1st costume),兎田ぺこら（通常）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10242,usami renko,宇佐見蓮子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10243,usami sumireko,宇佐見菫子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10235,urinal,小便器,家具・設備・物品,設備,,[],verified,0,verified,verified
+10236,uruha rushia,潤羽るしあ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10237,uruha rushia (1st costume),潤羽るしあ（1st衣装）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10238,urusei yatsura,うる星やつら,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10239,urushihara satoshi,漆原智志,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+10240,usada pekora,兎田ぺこら,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10241,usada pekora (1st costume),兎田ぺこら（1st衣装）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10242,usami renko,宇佐見蓮子（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10243,usami sumireko,宇佐見菫子（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10244,usashiro mani,ウサシロマニ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 10245,used tissue,使用済みティッシュ,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
 10246,usekh collar,ウセクカラー,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10247,user interface,ユーザーインターフェース,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-10248,username,ユーザー名,品質・ネガティブ,高品質・傑作,,[],unreviewed,,unreviewed,unreviewed
-10249,ushanka,ロシア帽,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10250,ushio (kancolle),潮（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10251,ushiromiya ange,右代宮縁寿,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10252,ushiromiya battler,右代宮戦人,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10247,user interface,ユーザーインターフェース,文字・記号,文字,,[],verified,0,verified,verified
+10248,username,ユーザー名,文字・記号,文字,,[],verified,0,verified,verified
+10249,ushanka,ウシャンカ,服装・装飾,装飾品,,[],verified,0,verified,needs-review
+10250,ushio (kancolle),潮（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10251,ushiromiya ange,右代宮縁寿（うみねこのなく頃に）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10252,ushiromiya battler,右代宮戦人（うみねこのなく頃に）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10253,ushiwakamaru (fate),牛若丸（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-10254,utaite,歌い手,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
+10254,utaite,歌い手,人物の特徴,人物属性,,[],verified,0,verified,verified
 10255,utano,ウタノ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-10256,utau,UTAU,キャラクター・作品,タイトル（作品名）,,"[""ウタウ""]",unreviewed,,unreviewed,unreviewed
-10257,utawarerumono,うたわれるもの,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+10256,utau,UTAU,キャラクター・作品,タイトル（作品名）,,"[""ウタウ""]",verified,0,verified,verified
+10257,utawarerumono,うたわれるもの,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 10258,utensil in mouth,口にくわえた食器,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-10259,uterus,子宮,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+10259,uterus,子宮,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 10260,utility belt,ユーティリティベルト,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10261,utility pole,電柱,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
+10261,utility pole,電柱,背景・場所,建築・構造物,,[],verified,0,verified,verified
 10262,utsugi noriyuki (Saibou Shinkyoku),宇津木徳幸（細胞神曲）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 10263,uva academy school uniform,グレープアカデミーの制服,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,,unreviewed,unreviewed
 10264,uvula,口蓋垂,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-10265,uwabaki,上履き,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,unreviewed
-10266,uzaki-chan wa asobitai!,宇崎ちゃんは遊びたい!,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10267,uzuki (kancolle),卯月（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10268,uzumaki naruto,うずまきナルト,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10269,v,ピースサイン,動作・接触,手の動作,,[],unreviewed,,unreviewed,unreviewed
-10270,v arms,Vアーム,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,verified
+10265,uwabaki,上履き,服装・装飾,靴・履物,,[],verified,0,verified,verified
+10266,uzaki-chan wa asobitai!,宇崎ちゃんは遊びたい！,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10267,uzuki (kancolle),卯月（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,needs-review
+10268,uzumaki naruto,うずまきナルト（NARUTO）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10269,v,ピースサイン,動作・接触,手の動作,,[],verified,0,verified,needs-review
+10270,v arms,だっちゅーのポーズ,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 10271,v over eye,Vサインを目にかざす,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
 10272,v over mouth,Vサインを口にかざす,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-10273,v-fin,V字アンテナ（ガンダム）,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10274,v-neck,Vネック,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+10273,v-fin,V字アンテナ,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+10274,v-neck,Vネック,服装・装飾,衣服,,[],verified,0,verified,verified
 10275,v-shaped eyebrows,V字型の眉,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
-10276,v-shaped eyes,V字型の目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-10277,va-11 hall-a,VA-11ホールA,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10278,vacuum cleaner,掃除機,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
+10276,v-shaped eyes,V字型の目,顔・表情,目,,[],verified,0,verified,verified
+10277,va-11 hall-a,VA-11 HALL-A（ヴァルハラ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10278,vacuum cleaner,掃除機,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 10279,vaginal,膣,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 10280,vaginal object insertion,膣への異物挿入,動作・接触,性的行為・接触,,[],needs-review,,unreviewed,unreviewed
-10281,valentine,バレンタイン,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-10282,valkyrie,ヴァルキリー,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
+10281,valentine,バレンタインデー,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+10282,valkyrie,ヴァルキリー,生物・動植物,架空生物・モンスター,,[],verified,0,verified,needs-review
 10283,vambraces,腕甲,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
-10284,vampire,吸血鬼,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-10285,vampire costume,吸血鬼の衣装,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-10286,van,バン,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,unreviewed
-10287,vanishing point,消失点,構図・カメラ,構図・配置,,[],unreviewed,,unreviewed,unreviewed
-10288,vaporeon,シャワーズ,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
+10284,vampire,吸血鬼,生物・動植物,種族,,[],verified,0,verified,verified
+10285,vampire costume,吸血鬼の仮装,服装・装飾,衣服,,[],verified,1,verified,verified
+10286,van,バン（貨物用バン）,乗り物,陸上の乗り物,,[],verified,0,verified,verified
+10287,vanishing point,消失点,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+10288,vaporeon,シャワーズ（ポケットモンスター）,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
 10289,vaporwave,ヴェイパーウェイヴ,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,unreviewed
-10290,varia suit,Variaスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10291,variable fighter,可変戦闘機,乗り物,航空機,,[],unreviewed,,unreviewed,unreviewed
-10292,variations,バリエーション,状態・状況,状態・変化,,[],unreviewed,,unreviewed,unreviewed
-10293,vase,花瓶,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+10290,varia suit,バリアスーツ（メトロイド）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+10291,variable fighter,可変戦闘機,乗り物,航空機,,[],verified,0,verified,verified
+10292,variations,バリエーション,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+10293,vase,花瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
 10294,vaulting horse,跳馬,生物・動植物,動物,,[],needs-review,,unreviewed,unreviewed
-10295,vegeta,ベジータ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10296,vegetable,野菜,生物・動植物,植物,,[],unreviewed,,unreviewed,unreviewed
+10295,vegeta,ベジータ（ドラゴンボール）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10296,vegetable,野菜,生物・動植物,植物,,[],verified,0,verified,needs-review
 10297,vehicle and personification,乗り物の擬人化,乗り物,陸上の乗り物,,[],needs-review,,unreviewed,unreviewed
 10298,vehicle focus,車両を主題にした構図,構図・カメラ,構図・配置,,[],needs-review,,unreviewed,unreviewed
 10299,vehicle interior,車内,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
-10300,veil,ベール,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10301,veins,静脈,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10302,veiny arms,血管が浮いた腕,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+10300,veil,ベール,服装・装飾,装飾品,,[],verified,0,verified,verified
+10301,veins,静脈,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+10302,veiny arms,血管の浮いた腕,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 10303,veiny breasts,血管が浮き出た胸,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 10304,veiny hands,血管が浮き出た手,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-10305,vending machine,自動販売機,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-10306,venti (genshin impact),ウェンティ（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10307,vento aureo,黄金の風,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10308,venus symbol,金星のシンボル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
-10309,veranda,ベランダ,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,unreviewed
-10310,verniy (kancolle),ヴェールヌイ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10305,vending machine,自動販売機,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+10306,venti (genshin impact),ウェンティ（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10307,vento aureo,黄金の風（ジョジョの奇妙な冒険）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10308,venus symbol,女性記号（♀）,文字・記号,記号・図形,,[],verified,0,verified,verified
+10309,veranda,ベランダ,背景・場所,場所・室内外,,[],verified,0,verified,needs-review
+10310,verniy (kancolle),ヴェールヌイ（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10311,vertical foregrip,垂直フォアグリップ,家具・設備・物品,道具,,[],needs-review,,unreviewed,unreviewed
 10312,vertical-striped bikini,縦縞のビキニ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10313,vertical-striped clothes,縦縞の服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10314,vertical-striped dress,垂直縞模様のドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10315,vertical-striped headwear,垂直縞模様の帽子,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10316,vertical-striped jacket,垂直縞模様のジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10317,vertical-striped kimono,垂直縞模様の着物,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10318,vertical-striped panties,垂直縞模様のパンティー,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-10319,vertical-striped pants,垂直縞模様のズボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10320,vertical-striped pantyhose,垂直縞模様のパンスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10321,vertical-striped shirt,縦縞シャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10322,vertical-striped shorts,垂直縞模様のショートパンツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10323,vertical-striped skirt,縦縞のスカート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10324,vertical-striped sleeves,縦縞の袖,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10325,vertical-striped socks,垂直縞模様の靴下,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10313,vertical-striped clothes,縦縞の服,服装・装飾,衣服,,[],verified,0,verified,verified
+10314,vertical-striped dress,縦縞のドレス,服装・装飾,衣服,,[],verified,0,verified,verified
+10315,vertical-striped headwear,縦縞の帽子,服装・装飾,装飾品,,[],verified,0,verified,verified
+10316,vertical-striped jacket,縦縞のジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+10317,vertical-striped kimono,縦縞の着物,服装・装飾,衣服,,[],verified,0,verified,verified
+10318,vertical-striped panties,縦縞のパンティー,服装・装飾,下着,,[],verified,1,verified,verified
+10319,vertical-striped pants,縦縞のズボン,服装・装飾,衣服,,[],verified,0,verified,verified
+10320,vertical-striped pantyhose,縦縞のパンティストッキング,服装・装飾,下着,,[],verified,1,verified,verified
+10321,vertical-striped shirt,縦縞のシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10322,vertical-striped shorts,縦縞のショートパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10323,vertical-striped skirt,縦縞のスカート,服装・装飾,衣服,,[],verified,0,verified,verified
+10324,vertical-striped sleeves,縦縞の袖,服装・装飾,衣服,,[],verified,0,verified,verified
+10325,vertical-striped socks,縦縞の靴下,服装・装飾,靴・履物,,[],verified,0,verified,verified
 10326,vertical-striped thighhighs,縦縞のニーハイ,服装・装飾,靴・履物,,[],needs-review,,unreviewed,unreviewed
-10327,vertin (reverse:1999),ヴェルティ（リバース：1999）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10327,vertin (reverse:1999),ヴェルティ（リバース：1999）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,needs-review
 10328,very dark skin,色黒の肌,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 10329,very long beard,非常に長いひげ,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
 10330,very long fingernails,非常に長い爪,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
