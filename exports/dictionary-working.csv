@@ -2731,7 +2731,7 @@
 2729,elevator,エレベーター,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 2730,elezen,エレゼン,生物・動植物,種族,,[],verified,0,verified,verified
 2731,elf,エルフ,人物の特徴,種族,,[],verified,0,verified,verified
-2732,elf (stroll in the woods),森を散策するエルフ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+2732,elf (stroll in the woods),森を散策するエルフ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 2733,elio (pokemon),ヨウ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2734,elira pendora (Nijisanji),エリーラ・ペンドラ（にじさんじ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2735,elizabeth bathory (fate),エリザベート・バートリー（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
@@ -2771,48 +2771,48 @@
 2769,energy sword,エネルギーソード,家具・設備・物品,武器,,[],verified,0,verified,verified
 2770,energy wings,エネルギーの翼,光・演出,演出効果,,[],verified,0,verified,verified
 2771,engiyoshi,Engiyoshi（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
-2772,english text,英語の文字,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2773,engrish text,不自然な英語の文章,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2774,enkyo yuuichirou,円居雄一郎（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2775,enmaided,メイド服姿に扮したキャラクター,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2776,enoshima junko (Danganronpa),江ノ島盾子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2777,enpera,えんぺら（マフラーに挟まった髪）,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-2778,ensemble stars!,あんさんぶるスターズ！,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2779,entangled,絡み合った状態,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-2780,enterprise (azur lane),エンタープライズ（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2781,envelope,封筒,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2782,epaulettes,肩章,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
-2783,eraser,消しゴム,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2784,erection,勃起,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2785,erection under clothes,衣服越しに分かる勃起,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2786,eren yeager (Attack on Titan),エレン・イェーガー,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2787,ereshkigal (fate),エレシュキガル（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2788,erica hartmann (Strike Witches),エーリカ・ハルトマン（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2789,erlenmeyer flask,三角フラスコ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2790,eroe,エロエ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-2791,eromame,エロマメ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-2792,eromanga sensei,エロマンガ先生,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2793,erune,エルーン（グランブルーファンタジー）,生物・動植物,種族,,[],verified,,unreviewed,verified
-2794,espeon (Pokémon),エーフィ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2795,eternity larva (Touhou Project),エタニティラルバ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2796,ethan (pokemon),ヒビキ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2797,etna (disgaea),エトナ（ディスガイア）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2798,eula (genshin impact),エウルア（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2799,eureka seven (series),交響詩篇エウレカセブン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2800,evangelion (mecha),エヴァンゲリオン（メカ）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2801,evangelion: 2.0 you can (not) advance,ヱヴァンゲリヲン新劇場版：破,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2802,evangelion: 3.0 you can (not) redo,ヱヴァンゲリヲン新劇場版：Q,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2803,evangelion: 3.0+1.0 thrice upon a time,シン・エヴァンゲリオン劇場版,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2804,evening,夕方,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
-2805,evening gown,イブニングドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2806,everyone,全員集合,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
-2807,evil grin,邪悪な笑み,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2808,evil smile,邪悪な笑顔,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2809,evolutionary line,進化系統,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
-2810,ex-keine (touhou),きもけーね（東方Project）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2811,excalibur (fate/stay night),エクスカリバー（Fate/stay night）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2812,excalibur morgan (fate),エクスカリバー・モルガン（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2813,excited,興奮した様子,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+2772,english text,英語の文字,文字・記号,記号・図形,,[],verified,0,verified,verified
+2773,engrish text,不自然な英語の文章,文字・記号,記号・図形,,[],verified,0,verified,verified
+2774,enkyo yuuichirou,円居雄一郎（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2775,enmaided,メイド服姿に扮したキャラクター,服装・装飾,衣服,,[],verified,0,verified,verified
+2776,enoshima junko (Danganronpa),江ノ島盾子,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2777,enpera,えんぺら（マフラーに挟まった髪）,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2778,ensemble stars!,あんさんぶるスターズ！,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2779,entangled,絡み合った状態,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+2780,enterprise (azur lane),エンタープライズ（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2781,envelope,封筒,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2782,epaulettes,肩章,服装・装飾,装飾品,,[],verified,0,verified,verified
+2783,eraser,消しゴム,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2784,erection,勃起,人物の特徴,身体部位・身体状態,,[],verified,4,verified,verified
+2785,erection under clothes,衣服越しに分かる勃起,服装・装飾,衣服,,[],verified,4,verified,verified
+2786,eren yeager (Attack on Titan),エレン・イェーガー,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2787,ereshkigal (fate),エレシュキガル（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2788,erica hartmann (Strike Witches),エーリカ・ハルトマン（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2789,erlenmeyer flask,三角フラスコ,家具・設備・物品,道具,,[],verified,0,verified,verified
+2790,eroe,エロエ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2791,eromame,エロマメ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2792,eromanga sensei,エロマンガ先生,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2793,erune,エルーン（グランブルーファンタジー）,生物・動植物,種族,,[],verified,0,verified,verified
+2794,espeon (Pokémon),エーフィ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2795,eternity larva (Touhou Project),エタニティラルバ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2796,ethan (pokemon),ヒビキ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2797,etna (disgaea),エトナ（ディスガイア）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2798,eula (genshin impact),エウルア（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2799,eureka seven (series),交響詩篇エウレカセブン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2800,evangelion (mecha),エヴァンゲリオン（メカ）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+2801,evangelion: 2.0 you can (not) advance,ヱヴァンゲリヲン新劇場版：破,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2802,evangelion: 3.0 you can (not) redo,ヱヴァンゲリヲン新劇場版：Q,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2803,evangelion: 3.0+1.0 thrice upon a time,シン・エヴァンゲリオン劇場版,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2804,evening,夕方,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+2805,evening gown,イブニングドレス,服装・装飾,衣服,,[],verified,0,verified,verified
+2806,everyone,全員集合,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
+2807,evil grin,邪悪な笑み,顔・表情,顔・表情,,[],verified,0,verified,verified
+2808,evil smile,邪悪な笑顔,顔・表情,顔・表情,,[],verified,0,verified,verified
+2809,evolutionary line,進化系統,状態・状況,状態・変化,,[],verified,0,verified,verified
+2810,ex-keine (touhou),きもけーね（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2811,excalibur (fate/stay night),エクスカリバー（Fate/stay night）,家具・設備・物品,武器,,[],verified,0,verified,verified
+2812,excalibur morgan (fate),エクスカリバー・モルガン（Fate）,家具・設備・物品,武器,,[],verified,0,verified,verified
+2813,excited,興奮した様子,顔・表情,顔・表情,,[],verified,0,verified,verified
 2814,exercise ball,エクササイズボール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 2815,exercising,運動する,動作・接触,身体動作,,[],verified,,unreviewed,verified
 2816,exhausted,疲れ果てた様子,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
