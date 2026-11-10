@@ -10020,139 +10020,139 @@
 10018,tuanshan,団扇,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
 10019,tube,チューブ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 10020,tube dress,チューブトップドレス,服装・装飾,衣服,,[],verified,0,verified,verified
-10021,tube top,チューブトップ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10022,tucking hair,髪かきあげて,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+10021,tube top,チューブトップ,服装・装飾,衣服,,[],verified,1,verified,verified
+10022,tucking hair,自分の髪に手を入れる,動作・接触,身体動作,,[],verified,0,verified,verified
 10023,tukiwani,ツキワニ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-10024,tulip,チューリップ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-10025,tulip hat,チューリップハット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10026,tumblr username,tumblrユーザー名,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-10027,tunic,チュニック,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10028,turban,ターバン,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10029,turn pale,青ざめる,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-10030,turnaround,振り返る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+10024,tulip,チューリップ,生物・動植物,植物,,[],verified,0,verified,verified
+10025,tulip hat,チューリップハット,服装・装飾,衣服,,[],verified,0,verified,verified
+10026,tumblr username,Tumblrのユーザー名,文字・記号,文字,,[],verified,0,verified,verified
+10027,tunic,チュニック,服装・装飾,衣服,,[],verified,0,verified,verified
+10028,turban,ターバン,服装・装飾,装飾品,,[],verified,0,verified,verified
+10029,turn pale,青ざめる,顔・表情,顔・表情,,[],verified,0,verified,verified
+10030,turnaround,三面図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 10031,turning head,振り返る,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-10032,turtle,カメ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-10033,turtle shell,亀の甲羅,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-10034,turtleneck,タートルネック,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10032,turtle,カメ,生物・動植物,動物,,[],verified,0,verified,verified
+10033,turtle shell,カメの甲羅,生物・動植物,動物,,[],verified,0,verified,verified
+10034,turtleneck,タートルネック,服装・装飾,衣服,,[],verified,0,verified,verified
 10035,turtleneck dress,タートルネックワンピース,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10036,turtleneck jacket,タートルネックジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10037,turtleneck leotard,タートルネックレオタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10038,turtleneck shirt,タートルネックシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10039,turtleneck sweater,タートルネックセーター,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10040,tusks,牙,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10041,tutu,チュチュ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10042,tuxedo,タキシード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10036,turtleneck jacket,タートルネックジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+10037,turtleneck leotard,タートルネックレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
+10038,turtleneck shirt,タートルネックシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10039,turtleneck sweater,タートルネックセーター,服装・装飾,衣服,,[],verified,0,verified,verified
+10040,tusks,牙,生物・動植物,動物,,[],verified,0,verified,verified
+10041,tutu,チュチュ,服装・装飾,衣服,,[],verified,0,verified,verified
+10042,tuxedo,タキシード,服装・装飾,衣服,,[],verified,0,verified,verified
 10043,tweaking own nipple,自分の乳首をいじる,動作・接触,性的行為・接触,,[],needs-review,3,verified,verified
-10044,twilight,夕暮れ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
+10044,twilight,夕暮れ,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 10045,twilight (spy x family),トワイライト（SPY×FAMILY）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-10046,twin braids,ツイン三つ編み,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-10047,twin drills,ツインドリル,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-10048,twin turbo (umamusume),ツインターボ（ウマ娘）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+10046,twin braids,左右の三つ編み,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10047,twin drills,ツインドリル,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10048,twin turbo (umamusume),ツインターボ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10049,twincest,双子姦,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
-10050,twins,双子,人数・人物構成,人数・人物構成,,[],unreviewed,,unreviewed,unreviewed
-10051,twintails,ツインテール,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-10052,twintails day,ツインテールの日,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+10050,twins,双子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
+10051,twintails,ツインテール,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10052,twintails day,ツインテールの日,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 10053,twirling hair,髪を指に巻き付ける,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
-10054,twisted torso,ねじれた胴体,ポーズ・姿勢,身体の配置,,[],unreviewed,,unreviewed,verified
-10055,twisted wonderland,ねじれたワンダーランド,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+10054,twisted torso,ねじれた胴体,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+10055,twisted wonderland,ディズニー ツイステッドワンダーランド,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 10056,twitching,ぴくつき,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-10057,twitter,ツイッター,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-10058,twitter logo,Twitterロゴ,文字・記号,ロゴ・ブランド表記,,[],unreviewed,,unreviewed,unreviewed
-10059,twitter strip game,Twitterストリップゲーム,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+10057,twitter,Twitter,文字・記号,文字,,[],verified,0,verified,verified
+10058,twitter logo,Twitterロゴ,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
+10059,twitter strip game,Twitter脱衣チャレンジ,状態・状況,状況・関係性,,[],verified,2,verified,verified
 10060,twitter username,Xユーザー名,文字・記号,文字,,[],needs-review,,unreviewed,unreviewed
-10061,two side up,ツーサイドアップ,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+10061,two side up,ツーサイドアップ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 10062,two tails,二本の尻尾,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-10063,two-finger salute,2本指の敬礼,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,verified
+10063,two-finger salute,2本指の敬礼,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 10064,two-handed,両手持ち,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 10065,two-sided cape,リバーシブルケープ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10066,two-sided cloak,リバーシブルマント,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10067,two-sided coat,リバーシブルコート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10068,two-sided dress,リバーシブルドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10069,two-sided fabric,両面生地,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10069,two-sided fabric,両面生地,服装・装飾,衣服,,[],verified,0,verified,verified
 10070,two-sided headwear,リバーシブル帽子,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
 10071,two-sided jacket,リバーシブルジャケット,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10072,two-sided skirt,リバーシブルスカート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10073,two-tone background,ツートンの背景,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,verified
-10074,two-tone bikini,ツートンビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10075,two-tone bodysuit,ツートンボディスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10076,two-tone bow,ツートンリボン,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-10077,two-tone bowtie,ツートンボウタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10078,two-tone cape,ツートンケープ,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+10073,two-tone background,ツートーンの背景,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+10074,two-tone bikini,ツートーンビキニ,服装・装飾,水着,,[],verified,1,verified,verified
+10075,two-tone bodysuit,ツートーンボディスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10076,two-tone bow,ツートーンのリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
+10077,two-tone bowtie,ツートーンの蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
+10078,two-tone cape,ツートーンのケープ,服装・装飾,衣服,,[],verified,0,verified,verified
 10079,two-tone coat,ツートンカラーのコート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10080,two-tone dress,ツートンカラーのドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10081,two-tone eyes,オッドアイ,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-10082,two-tone footwear,ツートンの履物,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,unreviewed
-10083,two-tone fur,ツートンの毛皮,生物・動植物,動物,,[],unreviewed,,unreviewed,verified
+10081,two-tone eyes,二色の瞳,顔・表情,目,,[],verified,0,verified,verified
+10082,two-tone footwear,ツートーンの履物,服装・装飾,靴・履物,,[],verified,0,verified,verified
+10083,two-tone fur,二色の毛皮,生物・動植物,動物,,[],verified,0,verified,verified
 10084,two-tone gloves,ツートンカラーの手袋,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10085,two-tone hair,二色髪,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-10086,two-tone hairband,ツートンヘアバンド,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-10087,two-tone headwear,ツートンヘッドウェア,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-10088,two-tone hoodie,ツートンのパーカー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10089,two-tone jacket,ツートンジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10090,two-tone kimono,ツートンの着物,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10091,two-tone legwear,ツートンレッグウェア,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
-10092,two-tone leotard,ツートンレオタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-10093,two-tone necktie,ツートンネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-10094,two-tone one-piece swimsuit,ツートーンのワンピース水着,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10095,two-tone pants,ツートンパンツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10096,two-tone ribbon,ツートンリボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10097,two-tone scarf,ツートンスカーフ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10098,two-tone shirt,ツートンシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10099,two-tone skin,ツートンの肌,人物の特徴,体型・身体的特徴,,[],unreviewed,,unreviewed,unreviewed
-10100,two-tone skirt,ツートンスカート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10101,two-tone sports bra,ツートーンのスポーツブラ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10102,two-tone sweater,ツートンセーター,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10103,two-tone swimsuit,ツートンの水着,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10085,two-tone hair,ツートーンヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10086,two-tone hairband,ツートーンのヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
+10087,two-tone headwear,ツートーンの帽子,服装・装飾,装飾品,,[],verified,0,verified,verified
+10088,two-tone hoodie,ツートーンのパーカー,服装・装飾,衣服,,[],verified,0,verified,verified
+10089,two-tone jacket,ツートーンのジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+10090,two-tone kimono,ツートーンの着物,服装・装飾,衣服,,[],verified,0,verified,verified
+10091,two-tone legwear,ツートーンのレッグウェア,服装・装飾,靴・履物,,[],verified,0,verified,verified
+10092,two-tone leotard,ツートーンのレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
+10093,two-tone necktie,ツートーンのネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
+10094,two-tone one-piece swimsuit,ツートーンのワンピース水着,服装・装飾,水着,,[],verified,1,verified,verified
+10095,two-tone pants,ツートーンのパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10096,two-tone ribbon,ツートーンのリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
+10097,two-tone scarf,ツートーンのスカーフ,服装・装飾,衣服,,[],verified,0,verified,verified
+10098,two-tone shirt,ツートーンのシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
+10099,two-tone skin,二色の肌,人物の特徴,体型・身体的特徴,,[],verified,0,verified,needs-review
+10100,two-tone skirt,ツートーンのスカート,服装・装飾,衣服,,[],verified,0,verified,verified
+10101,two-tone sports bra,ツートーンのスポーツブラ,服装・装飾,下着,,[],verified,1,verified,verified
+10102,two-tone sweater,ツートーンのセーター,服装・装飾,衣服,,[],verified,0,verified,verified
+10103,two-tone swimsuit,ツートーンの水着,服装・装飾,水着,,[],verified,1,verified,verified
 10104,two-tone thighhighs,ツートンカラーのニーハイ,服装・装飾,靴・履物,,[],needs-review,,unreviewed,unreviewed
-10105,two-tone wings,ツートン翼,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+10105,two-tone wings,二色の翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 10106,tying,結ぶ動作,動作・接触,日常動作,,[],needs-review,,unreviewed,unreviewed
-10107,tying hair,髪を結ぶ,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-10108,typo,誤字,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-10109,u-511 (kancolle),U-511（艦これ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10110,u.a. school uniform,雄英高校の制服,キャラクター・作品,作品固有の衣装・要素,,[],unreviewed,,unreviewed,unreviewed
-10111,uchiha sasuke,うちはサスケ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10112,uchikake,打掛,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10113,uchiwa,うちわ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+10107,tying hair,髪を結ぶ,動作・接触,身体動作,,[],verified,0,verified,verified
+10108,typo,誤字,文字・記号,文字,,[],verified,0,verified,verified
+10109,u-511 (kancolle),U-511（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10110,u.a. school uniform,雄英高校の制服（僕のヒーローアカデミア）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+10111,uchiha sasuke,うちはサスケ（NARUTO）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10112,uchikake,打掛,服装・装飾,衣服,,[],verified,0,verified,verified
+10113,uchiwa,うちわ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 10114,uehara ayumu,上原歩夢,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-10115,ueyama michirou,上山道郎,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,verified
-10116,ufo,未確認飛行物体,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10117,ugly man,ブ男,人物の特徴,人物属性,,[],unreviewed,,unreviewed,verified
+10115,ueyama michirou,上山道郎,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+10116,ufo,未確認飛行物体,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+10117,ugly man,容姿の整っていない男性,人物の特徴,人物属性,,[],verified,0,verified,verified
 10118,ui (blue archive),ウイ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 10119,uiharu kazari,初春飾利,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-10120,ujimatsu chiya,宇治松千夜,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10121,ukiyo-e,浮世絵,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
+10120,ujimatsu chiya,宇治松千夜（ご注文はうさぎですか？）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10121,ukiyo-e,浮世絵,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 10122,ultimate madoka,アルティメットまどか,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-10123,ultra ball,ウルトラボール,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10124,ultra detailed,超精細,品質・ネガティブ,高品質・傑作,,[],unreviewed,,unreviewed,unreviewed
-10125,ultra series,ウルトラシリーズ,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10126,umamusume,ウマ娘プリティーダービー,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10127,umbrella,傘,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10128,umbrella over shoulder,肩に傘を担ぐ,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10129,umbreon,ブラッキー,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-10130,umineko no naku koro ni,うみねこのなく頃に,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10131,unaligned breasts,無整合の胸,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+10123,ultra ball,ウルトラボール（ポケットモンスター）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+10124,ultra detailed,超精細,品質・ネガティブ,高品質・傑作,,[],verified,0,verified,verified
+10125,ultra series,ウルトラシリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10126,umamusume,ウマ娘 プリティーダービー,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10127,umbrella,傘,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+10128,umbrella over shoulder,肩に担いだ傘,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+10129,umbreon,ブラッキー,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+10130,umineko no naku koro ni,うみねこのなく頃に,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10131,unaligned breasts,左右で向きの異なる胸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 10132,unamused,不機嫌,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-10133,unbuttoned,ボタンを外した,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10134,unbuttoned shirt,ボタンのないシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-10135,uncensored,無修正,光・演出,演出効果,,[],unreviewed,,unreviewed,verified
+10133,unbuttoned,ボタンを外した状態,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+10134,unbuttoned shirt,ボタンを外したシャツ,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+10135,uncensored,無修正,光・演出,演出効果,,[],verified,2,verified,needs-review
 10136,uncommon stimulation,特殊な刺激,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-10137,unconscious,無意識,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-10138,unconventional maid,型破りなメイド,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-10139,undead,アンデッド,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
+10137,unconscious,気絶した状態,人物の特徴,人物属性,,[],verified,0,verified,needs-review
+10138,unconventional maid,型破りなメイド服,服装・装飾,衣服,,[],verified,0,verified,verified
+10139,undead,アンデッド,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
 10140,under covers,布団の中,背景・場所,場所・室内外,,[],needs-review,,unreviewed,unreviewed
-10141,under kotatsu,コタツの下,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,unreviewed
+10141,under kotatsu,こたつの下,背景・場所,場所・室内外,,[],verified,0,verified,verified
 10142,under night in-birth,アンダーナイト インヴァース,背景・場所,天候・時間帯,,[],needs-review,,unreviewed,unreviewed
-10143,under table,テーブルの下に,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10144,under tree,木の下,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
+10143,under table,テーブルの下,背景・場所,場所・室内外,,[],verified,0,verified,verified
+10144,under tree,木の下,背景・場所,自然・風景,,[],verified,0,verified,verified
 10145,under-rim eyewear,アンダーリム眼鏡,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-10146,underboob,アンダーブーブ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10147,underboob cutout,アンダーブーブの切り抜き,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10148,underbust,アンダーバスト,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10149,underbutt,アンダーバット,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-10150,undercut,アンダーカット,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,verified
-10151,underpec,アンダーペック,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+10146,underboob,下乳,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+10147,underboob cutout,下乳が見えるカットアウト,服装・装飾,衣服,,[],verified,2,verified,verified
+10148,underbust,アンダーバスト,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+10149,underbutt,下尻の露出,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+10150,undercut,アンダーカット,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+10151,underpec,下胸筋の露出,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 10152,undershirt,肌着,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-10153,undersized animal,小型の動物,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+10153,undersized animal,小型の動物,生物・動植物,動物,,[],verified,0,verified,verified
 10154,undersized breast cup,小胸カップ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
 10155,undersized clothes,小さめの服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 10156,undertale,アンダーテール,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
