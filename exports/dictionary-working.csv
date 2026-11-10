@@ -2653,7 +2653,7 @@
 2651,dvd cover,DVDカバー,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 2652,dwarf,ドワーフ,人物の特徴,種族,,[],verified,0,verified,verified
 2653,dyed bangs,染めた前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-2654,dynamax band,Dynamaxバンド,家具・設備・物品,日用品,,[],verified,0,verified,unreviewed
+2654,dynamax band,Dynamaxバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
 2655,dynamic angle,ダイナミックなカメラアングル,構図・カメラ,カメラアングル,,[],verified,0,verified,verified
 2656,dynamic pose,躍動感のあるポーズ,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 2657,e.g.o (project moon),E.G.O（Project Moon）,背景・場所,自然・風景,,[],verified,0,verified,unreviewed
@@ -2693,44 +2693,44 @@
 2691,echo (circa),エコー（頃）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 2692,edelgard von hresvelg (Fire Emblem: Three Houses),エーデルガルト＝フォン＝フレスベルグ（ファイアーエムブレム 風花雪月）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2693,eden academy school uniform,イーデン校の制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
-2694,edward elric (Fullmetal Alchemist),エドワード・エルリック（鋼の錬金術師）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2695,eel,うなぎ,生物・動植物,動物,,[],verified,,unreviewed,verified
-2696,eevee (Pokémon),イーブイ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2697,egasumi,ヱ霞,画風・描写,描画技法,,[],verified,,unreviewed,verified
-2698,egg,卵,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2699,egg (food),卵,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2700,egg hair ornament,卵の髪の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2701,egg laying,産卵,動作・接触,身体動作,,[],verified,,unreviewed,verified
-2702,eggplant,ナス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2703,ehoumaki,恵方巻き,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-2704,eighth note,8番目のメモ,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2705,eila ilmatar juutilainen (Strike Witches),エイラ・イルマタル・ユーティライネン（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2706,eiri (eirri),えいり（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2707,eishin flash (umamusume),エイシンフラッシュ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2708,eiyuu densetsu,英雄伝説,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
+2694,edward elric (Fullmetal Alchemist),エドワード・エルリック（鋼の錬金術師）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2695,eel,うなぎ,生物・動植物,動物,,[],verified,0,verified,verified
+2696,eevee (Pokémon),イーブイ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2697,egasumi,ヱ霞,画風・描写,描画技法,,[],verified,0,verified,verified
+2698,egg,卵,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2699,egg (food),卵,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2700,egg hair ornament,卵の髪の飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+2701,egg laying,産卵,動作・接触,身体動作,,[],verified,0,verified,verified
+2702,eggplant,ナス,生物・動植物,植物,,[],verified,0,verified,verified
+2703,ehoumaki,恵方巻き,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2704,eighth note,八分音符,文字・記号,記号・図形,,[],verified,0,verified,verified
+2705,eila ilmatar juutilainen (Strike Witches),エイラ・イルマタル・ユーティライネン（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2706,eiri (eirri),えいり（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2707,eishin flash (umamusume),エイシンフラッシュ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2708,eiyuu densetsu,英雄伝説,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2709,ejaculating while penetrated,挿入中の射精,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-2710,elbow carry,肘に腕を掛けて抱える,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2711,elbow gloves,長手袋,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2712,elbow on knee,膝に肘をつく,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-2713,elbow on table,テーブルに肘をつく,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2714,elbow pads,肘パッド,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
-2715,elbow rest,肘掛け,家具・設備・物品,家具,,[],verified,,unreviewed,verified
-2716,elbows on table,テーブルに両肘をつく,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2717,elden ring,エルデンリング,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2718,eldritch abomination,異形の怪物,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2719,electric bass guitar,エレキベース,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2720,electric fan,扇風機,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
-2721,electric guitar,エレキギター,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2722,electric plug,電気用プラグ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2723,electrical outlet,コンセント,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2724,electricity,電気,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-2725,electrokinesis,電気を操る能力,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2726,elegant,優雅な,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2727,elephant,象,生物・動植物,動物,,[],verified,,unreviewed,verified
-2728,elesa (pokemon),カミツレ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2729,elevator,エレベーター,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
-2730,elezen,エレゼン,生物・動植物,種族,,[],verified,,unreviewed,unreviewed
-2731,elf,エルフ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
+2710,elbow carry,肘に腕を掛けて抱える,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2711,elbow gloves,長手袋,服装・装飾,衣服,,[],verified,0,verified,verified
+2712,elbow on knee,膝に肘をつく,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+2713,elbow on table,テーブルに肘をつく,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+2714,elbow pads,肘パッド,服装・装飾,装備・防具,,[],verified,0,verified,verified
+2715,elbow rest,肘掛け,家具・設備・物品,家具,,[],verified,0,verified,verified
+2716,elbows on table,テーブルに両肘をつく,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+2717,elden ring,エルデンリング,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2718,eldritch abomination,異形の怪物,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+2719,electric bass guitar,エレキベース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2720,electric fan,扇風機,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2721,electric guitar,エレキギター,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2722,electric plug,電気用プラグ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2723,electrical outlet,コンセント,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2724,electricity,電気,光・演出,演出効果,,[],verified,0,verified,verified
+2725,electrokinesis,電気を操る能力,人物の特徴,人物属性,,[],verified,0,verified,verified
+2726,elegant,優雅な,画風・描写,雰囲気,,[],verified,0,verified,verified
+2727,elephant,象,生物・動植物,動物,,[],verified,0,verified,verified
+2728,elesa (pokemon),カミツレ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2729,elevator,エレベーター,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2730,elezen,エレゼン,生物・動植物,種族,,[],verified,0,verified,verified
+2731,elf,エルフ,人物の特徴,種族,,[],verified,0,verified,verified
 2732,elf (stroll in the woods),森を散策するエルフ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 2733,elio (pokemon),ヨウ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2734,elira pendora (Nijisanji),エリーラ・ペンドラ（にじさんじ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
