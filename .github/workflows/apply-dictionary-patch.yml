@@ -30,6 +30,11 @@ jobs:
         run: |
           shopt -s nullglob
           files=(.github/patches/*.json)
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "No patch files remain; nothing to apply."
+            exit 0
+          fi
           if [[ ${#files[@]} -ne 1 ]]; then
             echo "Expected one patch file; found ${#files[@]}."
             exit 1
