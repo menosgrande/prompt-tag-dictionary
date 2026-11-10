@@ -1492,7 +1492,7 @@
 1490,bulma,ブルマ,服装・装飾,下着,,[],verified,0,verified,verified
 1491,bun,お団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1492,bun cover,お団子ヘアカバー,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,verified
-1493,bun with braided base,編み込みを土台にしたお団子ヘア,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,verified
+1493,bun with braided base,編み込みベースのお団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1494,bunching hair,髪をまとめる,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1495,bunny day,バニーの日,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1496,bunny girl,バニーガール,人物の特徴,人物属性,,[],verified,0,verified,verified
@@ -1688,7 +1688,7 @@
 1686,centered,中央構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1687,centipede,ムカデ,生物・動植物,動物,,[],verified,0,verified,verified
 1688,cephalopod eyes,頭足類の目,顔・表情,目,,[],verified,0,verified,verified
-1689,ceres fauna (Hololive),セレス・ファウナ（ホロライブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+1689,ceres fauna (Hololive),セレス・ファウナ（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1691,cervix,子宮頸部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],verified,,unreviewed,verified
@@ -1702,7 +1702,7 @@
 1700,chained wrists,鎖でつながれた手首,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 1701,chainmail,チェーンメール,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1702,chainsaw,チェーンソー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1703,chainsaw man,チェンソーマン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
+1703,chainsaw man,チェンソーマン（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1704,chair,椅子,家具・設備・物品,家具,,[],verified,0,verified,verified
 1705,chakram,チャクラム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1706,chaldea logo,Chaldeaロゴ,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1778,7 +1778,7 @@
 1776,chest hair,胸毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1777,chest harness,チェストハーネス,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 1778,chest jewel,胸元の宝石,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1779,chest of drawers,チェスト,家具・設備・物品,家具,,[],unreviewed,,unreviewed,verified
+1779,chest of drawers,チェスト（引き出し収納）,家具・設備・物品,家具,,[],verified,0,verified,verified
 1780,chest sarashi,胸に巻いたさらし,服装・装飾,下着,,[],verified,,unreviewed,verified
 1781,chest strap,胸部ストラップ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 1782,chest tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
@@ -1816,10 +1816,10 @@
 1814,chinese text,中国語の文字,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 1815,chinese zodiac,十二支,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
 1816,chips (food),ポテトチップス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1817,chitanda eru (Hyouka),千反田える（氷菓）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+1817,chitanda eru (Hyouka),千反田える（氷菓）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1818,chiyoda momo (The Demon Girl Next Door),千代田桃,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1819,chloe von einzbern (Fate/kaleid liner Prisma Illya),クロエ・フォン・アインツベルン（プリズマ☆イリヤ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-1820,chocobo (Final Fantasy),チョコボ（ファイナルファンタジー）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+1820,chocobo (Final Fantasy),チョコボ（ファイナルファンタジー）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1821,chocolate,チョコレート,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1822,chocolate bar,板チョコ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1823,chocolate cake,チョコケーキ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -1828,13 +1828,13 @@
 1826,chocolate on breasts,胸に付いたチョコレート,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
 1827,choke hold,チョークホールド,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 1828,choker,チョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1829,choko (cup),猪口,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
+1829,choko (cup),猪口（酒器）,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1830,chongyun (genshin impact),重雲（原神）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1831,choppy bangs,不揃いに切った前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 1832,chopsticks,箸,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1833,choufu shimin,調布市民,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 1834,choukai (kancolle),鳥海（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-1835,chouzetsusaikawa tenshi-chan (NEEDY GIRL OVERDOSE),超絶最かわてんしちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+1835,chouzetsusaikawa tenshi-chan (NEEDY GIRL OVERDOSE),超絶最かわてんしちゃん（NEEDY GIRL OVERDOSE）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1836,christmas,クリスマス,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
 1837,christmas lights,クリスマスイルミネーション,光・演出,照明・光源,,[],verified,,unreviewed,verified
 1838,christmas ornaments,クリスマスオーナメント,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
@@ -1843,11 +1843,11 @@
 1841,christmas tree,クリスマスツリー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1842,chromatic aberration,色収差,画風・描写,描画技法,,[],verified,0,verified,verified
 1843,chrysanthemum,菊,生物・動植物,植物,,[],verified,0,verified,verified
-1844,chun-li (Street Fighter),チュン・リー（ストリートファイター）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+1844,chun-li (Street Fighter),春麗（ストリートファイター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1845,church,教会,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1846,chuunibyou,中二病,動作・接触,日常動作,,[],verified,0,verified,verified
 1847,chuunibyou demo koi ga shitai!,中二病でも恋がしたい!,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
-1848,ciel (tsukihime),シエル先輩（月姫）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+1848,ciel (tsukihime),シエル（月姫）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1849,cigar,葉巻,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1850,cigarette,シガレット,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1851,cigarette pack,タバコパック,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -2050,7 +2050,7 @@
 2048,convenient leg,都合よく配置された脚,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2049,converse,コンバース,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 2050,cookie,クッキー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2051,cookie (touhou),クッキー☆（東方Project）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
+2051,cookie (touhou),クッキー☆（東方Project）,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,verified
 2052,cookie run,クッキーラン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 2053,cooking,料理,動作・接触,身体動作,,[],verified,,unreviewed,verified
 2054,cooking pot,調理鍋,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
@@ -2088,12 +2088,12 @@
 2086,cover art,カバーアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
 2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-2089,covered abs,覆われた腹筋,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+2089,covered abs,腹筋が隠れた状態,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2090,covered collarbone,覆われた鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2091,covered eyes,覆われた目,顔・表情,目,,[],verified,,unreviewed,verified
 2092,covered face,顔を覆われた状態,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 2093,covered mouth,覆われた口,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-2094,covered navel,覆われたへそ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+2094,covered navel,へそが隠れた状態,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2095,covered nipples,覆われた乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 2096,covered penetration,覆われた挿入,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
 2097,covered testicles,覆われた睾丸,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
@@ -6494,7 +6494,7 @@
 6492,neta,日本のネットミーム・ネタ,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 6493,netnavi,ネットナビ,生物・動植物,種族,,[],verified,,unreviewed,verified
 6494,netorare,寝取られ,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-6495,neuvillette (genshin impact),ヌヴィレット（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+6495,neuvillette (genshin impact),ヌヴィレット（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 6496,new game!,NEW GAME!（ニューゲーム）,キャラクター・作品,タイトル（作品名）,,"[""NEW GAME!"",""ニューゲーム""]",verified,,unreviewed,verified
 6497,new school swimsuit,新スクール水着,服装・装飾,衣服,,[],verified,,unreviewed,verified
 6498,new super mario bros. u deluxe,New スーパーマリオブラザーズ U デラックス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
@@ -6503,7 +6503,7 @@
 6501,nia (xenoblade),ニア,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 6502,nia teppelin,ニア・テッペリン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 6503,nian (arknights),ニアン（arknights）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-6504,nib pen (object),ペンペン（オブジェクト）,家具・設備・物品,道具,,[],unreviewed,,unreviewed,verified
+6504,nib pen (object),ペンペン（オブジェクト）,家具・設備・物品,道具,,[],needs-review,,unreviewed,verified
 6505,nice nature (umamusume),ナイスネイチャ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 6506,nichijou,日常（あらゐけいいち）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 6507,nico robin,ニコ・ロビン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
@@ -6526,7 +6526,7 @@
 6524,nikorashi-ka,ニコラシイカ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 6525,niliu chahui,Niliu Chahui（ニリュウ・チャフイ）,キャラクター・作品,作者・配信者,,"[""Niliu Chahui"",""ニリュウチャフイ""]",needs-review,,unreviewed,verified
 6526,nilou (genshin impact),ニィロウ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-6527,ningguang (genshin impact),凝光（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+6527,ningguang (genshin impact),凝光（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 6528,ninja,忍者,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 6529,ninja mask,忍者マスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 6530,nintendo 3ds,ニンテンドー3DS,家具・設備・物品,機械・装置,,[],verified,,unreviewed,unreviewed
@@ -6555,7 +6555,7 @@
 6553,nishizumi miho (Girls und Panzer),西住みほ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 6554,nishizumi shiho (Girls und Panzer),西住しほ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 6555,nissan,日産,乗り物,陸上の乗り物,,[],verified,,unreviewed,verified
-6556,nissin cup noodle,カップヌードル,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,verified
+6556,nissin cup noodle,カップヌードル,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
 6557,nitocris (fate),ニトクリス（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 6558,nitroplus,ニトロプラス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 6559,nitta minami (The Idolmaster Cinderella Girls),新田美波（アイドルマスター シンデレラガールズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
@@ -6660,7 +6660,7 @@
 6658,obijime,帯締め,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 6659,obiwan,オビ＝ワン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
 6660,object focus,オブジェクトに焦点,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-6661,object head,オブジェクトヘッド,人物の特徴,人物属性,,[],unreviewed,,unreviewed,verified
+6661,object head,オブジェクトヘッド,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
 6662,object insertion,異物挿入,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
 6663,object namesake,物体にちなんだ名前,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 6664,object on breast,胸の上の物体,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,unreviewed
@@ -6718,7 +6718,7 @@
 6716,ok sign,OKサイン,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
 6717,okamisty (Touhou Project),おかみすちー（東方Project）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 6718,okita souji (fate),沖田総司（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-6719,okita souji (koha-ace),桜セイバー（コハエース）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+6719,okita souji (koha-ace),桜セイバー（コハエース）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 6720,okobo,オコボ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 6721,old,古い,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 6722,old man,老人,人物の特徴,人物属性,,[],verified,,unreviewed,verified
@@ -6747,7 +6747,7 @@
 6745,on one knee,片膝立ち,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 6746,on person,人の上,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 6747,on railing,手すりの上,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-6748,on rock,岩の上,ポーズ・姿勢,身体の配置,,[],unreviewed,,unreviewed,verified
+6748,on rock,岩の上,ポーズ・姿勢,身体の配置,,[],needs-review,,unreviewed,verified
 6749,on roof,屋根の上,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 6750,on scooter,スクーターの上,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
 6751,on shoulder,肩の上,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
@@ -6990,7 +6990,7 @@
 6988,pajamas,パジャマ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 6989,pale color,淡い色,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 6990,pale skin,色白の肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-6991,palette (object),パレット（オブジェクト）,家具・設備・物品,道具,,[],unreviewed,,unreviewed,verified
+6991,palette (object),パレット（オブジェクト）,家具・設備・物品,道具,,[],needs-review,,unreviewed,verified
 6992,palm leaf,ヤシの葉,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 6993,palm tree,ヤシの木,生物・動植物,植物,,[],verified,,unreviewed,verified
 6994,palms,手のひら,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
@@ -7179,7 +7179,7 @@
 7177,phone,スマホ,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
 7178,phonograph,蓄音機,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
 7179,phosphophyllite (houseki no kuni),フォスフォフィライト（宝石の国）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-7180,photo (object),写真（オブジェクト）,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,verified
+7180,photo (object),写真（物体）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 7181,photo background,写真背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 7182,photo inset,写真のはめ込み,構図・カメラ,フレーミング,,[],verified,,unreviewed,verified
 7183,photorealistic,フォトリアル,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
@@ -7307,7 +7307,7 @@
 7305,pirate,海賊,人物の特徴,人物属性,,[],verified,,unreviewed,verified
 7306,pirate hat,海賊帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7307,piromizu,ピロ水,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-7308,pit (kid icarus),ピット（キッドイカロス）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+7308,pit (kid icarus),ピット（キッドイカロス）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 7309,pitcher (container),水差し,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
 7310,pith helmet,ピスヘルメット,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7311,pixar,ピクサー風,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
@@ -7338,7 +7338,7 @@
 7336,plaid shorts,格子縞のショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7337,plaid skirt,格子縞のスカート,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7338,plaid vest,チェック柄のベスト,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7339,plana (blue archive),プラナ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+7339,plana (blue archive),プラナ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 7340,planet,惑星,背景・場所,自然・風景,,[],verified,,unreviewed,verified
 7341,planet hair ornament,惑星の髪の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7342,plant,植物,生物・動植物,植物,,[],verified,,unreviewed,verified
@@ -7382,7 +7382,7 @@
 7380,pocky,ポッキー,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7381,pocky day,ポッキー＆プリッツの日,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
 7382,pocky in mouth,口の中のポッキー,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-7383,pocky kiss,ポッキーキス,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,verified
+7383,pocky kiss,ポッキーゲーム,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 7384,pointed crown,尖った王冠,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7385,pointer,指し棒,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 7386,pointing,指さす,動作・接触,手の動作,,[],verified,,unreviewed,verified
@@ -7401,7 +7401,7 @@
 7399,poke ball,モンスターボール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 7400,poke ball (basic),モンスターボール（通常）,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
 7401,poke ball print,モンスターボール柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
-7402,poke ball symbol,ポークボールシンボル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
+7402,poke ball symbol,モンスターボールのマーク,文字・記号,記号・図形,,[],verified,0,verified,verified
 7403,poke ball theme,モンスターボールをテーマにしたデザイン,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 7404,pokedex number,ポケモン図鑑番号,文字・記号,文字,,[],verified,,unreviewed,verified
 7405,pokemoa,ポケモア,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
@@ -7425,7 +7425,7 @@
 7423,pokemon masters ex,Pokémon Masters EX,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7424,pokemon move,ポケモンのわざ,キャラクター・作品,作品固有の衣装・要素,,[],verified,,unreviewed,verified
 7425,pokemon on head,頭にポケモンを乗せる,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-7426,pokemon on shoulder,肩にポケモン,ポーズ・姿勢,身体の配置,,[],unreviewed,,unreviewed,verified
+7426,pokemon on shoulder,肩に乗ったポケモン,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
 7427,pokemon oras,ポケットモンスター オメガルビー・アルファサファイア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7428,pokemon platinum,ポケットモンスター プラチナ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 7429,pokemon rgby,ポケモン 赤・緑・青・ピカチュウ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
@@ -7472,7 +7472,7 @@
 7470,pom pom (cheerleading),ポンポン（チアリーディング）,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
 7471,pom pom (clothes),ポンポン（服）,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
 7472,pom pom beanie,ポンポン付きニット帽,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-7473,pom pom earrings,ポンポンイヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+7473,pom pom earrings,ポンポン付きイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
 7474,pom pom hair ornament,ポンポンの髪の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7475,pompadour,ポンパドール,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 7476,poncho,ポンチョ,服装・装飾,衣服,,[],verified,,unreviewed,verified
@@ -7496,15 +7496,15 @@
 7494,porch,玄関ポーチ,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 7495,porkpie hat,ポークパイハット,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 7496,pornography,ポルノ,状態・状況,状況・関係性,,[],verified,4,verified,verified
-7497,portal (object),ポータル（オブジェクト）,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,verified
+7497,portal (object),ポータル（オブジェクト）,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,verified
 7498,portrait,ポートレート,構図・カメラ,撮影距離,,[],verified,,unreviewed,verified
 7499,portrait (object),ポートレート（オブジェクト）,構図・カメラ,構図・配置,,[],needs-review,,unreviewed,verified
 7500,possessed,取り憑かれた,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
 7501,post-apocalypse,ポストアポカリプス,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 7502,poster,ポスター,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
 7503,poster (medium),ポスター（媒体）,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
-7504,poster (object),ポスター（オブジェクト）,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
-7505,potara earrings,ポタライヤリング,キャラクター・作品,作品固有の衣装・要素,,[],unreviewed,,unreviewed,verified
+7504,poster (object),ポスター（物体）,家具・設備・物品,日用品,,[],verified,0,verified,verified
+7505,potara earrings,ポタライヤリング,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,,unreviewed,verified
 7506,potato,じゃがいも,生物・動植物,植物,,[],verified,,unreviewed,verified
 7507,potato chips,ポテトチップス,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 7508,pote (ptkan),ぽて（ptkan）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
@@ -7727,7 +7727,7 @@
 7725,qi lolita,華ロリ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7726,qingdai guanmao,清代官帽,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 7727,qingxin flower,清心,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-7728,qiqi (genshin impact),七七（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+7728,qiqi (genshin impact),七七（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 7729,qixiong ruqun,斉胸襦裙,服装・装飾,衣服,,[],verified,,unreviewed,verified
 7730,qr code,QRコード,文字・記号,記号・図形,,[],verified,,unreviewed,verified
 7731,quad tails,4本の尻尾,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
@@ -8037,7 +8037,7 @@
 8035,ring necklace,リングネックレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8036,ringed eyes,輪状の瞳,顔・表情,目,,[],verified,,unreviewed,verified
 8037,ringlets,縦ロール,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-8038,ringo (touhou),鈴瑚（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8038,ringo (touhou),鈴瑚（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8039,rio (blue archive),調月リオ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 8040,ripples,波紋,背景・場所,自然・風景,,[],verified,,unreviewed,verified
 8041,ririko (zhuoyandesailaer),リリコ（Zhuoyandesailaer）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
@@ -8110,7 +8110,7 @@
 8108,rubbing eyes,目をこする,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
 8109,rubble,瓦礫,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
 8110,ruby rose,ラグドール,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-8111,rudder footwear,舵のような靴,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+8111,rudder footwear,舵のような靴,服装・装飾,靴・履物,,[],needs-review,,unreviewed,verified
 8112,ruffling hair,髪をくしゃくしゃにする,動作・接触,手の動作,,[],verified,,unreviewed,verified
 8113,rug,ラグ,家具・設備・物品,家具,,[],verified,,unreviewed,verified
 8114,ruins,遺跡,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
@@ -8271,23 +8271,23 @@
 8269,scalpel,メス,家具・設備・物品,道具,,[],verified,,unreviewed,unreviewed
 8270,scar,傷跡,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8271,scar across eye,目を横切る傷,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
-8272,scar on arm,腕に傷,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+8272,scar on arm,腕の傷跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 8273,scar on back,背中に傷がある,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 8274,scar on cheek,頬の傷,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-8275,scar on chest,胸の傷跡,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+8275,scar on chest,胸の傷跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 8276,scar on face,顔に傷,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8277,scar on forehead,額の傷,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-8278,scar on hand,手に傷,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
-8279,scar on leg,脚の傷,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+8278,scar on hand,手の傷跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+8279,scar on leg,脚の傷跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 8280,scar on mouth,口の傷跡,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-8281,scar on neck,首に傷,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+8281,scar on neck,首の傷跡,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 8282,scar on nose,鼻に傷,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8283,scar on stomach,腹部の傷,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 8284,scaramouche (genshin impact),スカラマシュ（原神）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 8285,scared,怖がっている,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 8286,scarf,スカーフ,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
 8287,scarf over mouth,口の上のスカーフ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-8288,scarlet devil mansion,紅魔館,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,verified
+8288,scarlet devil mansion,紅魔館,背景・場所,建築・構造物,,[],needs-review,,unreviewed,verified
 8289,scathach (fate),スカサッハ（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 8290,scathach skadi (fate),Scathach Skadi（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
 8291,scene reference,シーン参照,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
@@ -8361,7 +8361,7 @@
 8359,seigaiha,青海波,画風・描写,描画技法,,[],verified,,unreviewed,verified
 8360,seiken densetsu,聖剣伝説,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8361,seiken densetsu 3,聖剣伝説3,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-8362,seiran (touhou),清蘭（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8362,seiran (touhou),清蘭（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8363,seishun buta yarou,青春ブタ野郎シリーズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8364,seiun sky (umamusume),セイウンスカイ（ウマ娘）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 8365,seiza,正座,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
@@ -8369,22 +8369,22 @@
 8367,sekibanki,赤蛮奇,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8368,sekina,セキナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8369,selen tatsuki,セレン龍月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8370,selene (pokemon),セレネ（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8371,self cosplay,自分自身のコスプレ,人物の特徴,人物属性,,[],unreviewed,,unreviewed,verified
+8370,selene (pokemon),ミヅキ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8371,self cosplay,自分自身のコスプレ,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
 8372,self hug,自分を抱きしめる,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
 8373,self-harm,自傷行為,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 8374,self-harm scar,自傷痕,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 8375,selfcest,セルフセックス,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
-8376,selfie,自撮り,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+8376,selfie,自撮り,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 8377,semi-rimless eyewear,ハーフリム眼鏡,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
-8378,sen no kiseki (series),閃の軌跡（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8378,sen no kiseki (series),英雄伝説 閃の軌跡（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8379,sen no kiseki i,英雄伝説 閃の軌跡I,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-8380,sendai (kancolle),川内（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8381,sendai hakurei no miko,先代博麗の巫女,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
-8382,sendai kai ni (kancolle),川内改二,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8380,sendai (kancolle),川内（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8381,sendai hakurei no miko,先代博麗の巫女,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
+8382,sendai kai ni (kancolle),川内改二（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8383,sengoku basara,戦国BASARA,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8384,sengoku nadeko,千石撫子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8385,senjou no valkyria (series),戦場のヴァルキュリア,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8385,senjou no valkyria (series),戦場のヴァルキュリア（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8386,senjougahara hitagi,戦場ヶ原ひたぎ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8387,senketsu,鮮血（キルラキル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8388,senki zesshou symphogear,戦姫絶唱シンフォギア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
@@ -8394,7 +8394,7 @@
 8392,senran kagura new link,シノビマスター 閃乱カグラ NEW LINK,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8393,senran kagura shinovi versus,閃乱カグラ SHINOVI VERSUS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8394,sensei (blue archive),先生（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-8395,senshi (dungeon meshi),センシ（ダンジョンメシ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8395,senshi (dungeon meshi),センシ（ダンジョン飯）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8396,seo tatsuya,瀬尾辰也,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8397,sephiroth,セフィロス,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8398,sepia,セピア調,画風・描写,描画技法,,[],verified,,unreviewed,unreviewed
@@ -8402,11 +8402,11 @@
 8400,serafuku,セーラー服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8401,seraziel,セラジエル,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8402,serebi ryousangata,セレビィ量産型,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-8403,serena (pokemon),セレナ（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8403,serena (pokemon),セレナ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8404,serika (blue archive),黒見セリカ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 8405,serious,真剣な表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8406,serizawa asahi,芹沢あさひ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8407,serval (kemono friends),サーバル（けものフレンズ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8407,serval (kemono friends),サーバル（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8408,serval print,サーバル柄,服装・装飾,衣服の状態,,[],verified,,unreviewed,unreviewed
 8409,sessyoin kiara,殺生院キアラ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8410,setsubun,節分,状態・状況,時間・前後関係,,[],verified,,unreviewed,verified
@@ -8439,7 +8439,7 @@
 8437,shana,シャナ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8438,shanghai doll,上海人形,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8439,shantae,シャンティ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8440,shantae (series),シャンタエ（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8440,shantae (series),シャンティ（ゲームシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8441,shards,破片,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 8442,shared bathing,一緒に入浴,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
 8443,shared clothes,服の共有,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
@@ -8452,11 +8452,11 @@
 8450,shark,サメ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8451,shark costume,サメの衣装,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8452,shark girl,サメの女の子,生物・動植物,種族,,[],verified,,unreviewed,verified
-8453,shark hair ornament,サメの髪飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8453,shark hair ornament,サメの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 8454,shark hood,サメのフード,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
 8455,shark tail,サメの尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8456,sharp fingernails,鋭い爪,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-8457,sharp focus,鮮明,品質・ネガティブ,高品質・傑作,,[],unreviewed,,unreviewed,unreviewed
+8457,sharp focus,ピントが合った状態,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 8458,sharp teeth,鋭い歯,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 8459,sharp toenails,鋭い足の爪,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 8460,shaved ice,かき氷,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
@@ -8476,9 +8476,9 @@
 8474,shell,貝殻,家具・設備・物品,その他の物品,,[],needs-review,0,verified,needs-review
 8475,shell bikini,貝殻ビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8476,shell casing,薬莢,家具・設備・物品,武器,,[],verified,,unreviewed,verified
-8477,shell hair ornament,シェルヘアオーナメント,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8477,shell hair ornament,貝殻の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 8478,shell necklace,貝殻のネックレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8479,shenhe (genshin impact),申鹤（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8479,shenhe (genshin impact),申鶴（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8480,sheryl nome,シェリル・ノーム,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8481,sheya,シェヤ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8482,shiba inu,柴犬,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
@@ -8487,9 +8487,9 @@
 8485,shichimenchou,七面鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8486,shide,紙垂,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8487,shield,盾,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-8488,shield on back,背中の盾,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-8489,shigure (kancolle),時雨（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8490,shigure kai ni (kancolle),時雨改二,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8488,shield on back,背中に背負った盾,服装・装飾,装備・防具,,[],verified,0,verified,verified
+8489,shigure (kancolle),時雨（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8490,shigure kai ni (kancolle),時雨改二（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8491,shigure ui (vtuber),しぐれうい,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 8492,shihouin yoruichi,四楓院夜一,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8493,shiina taki,椎名立希,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
@@ -8497,18 +8497,18 @@
 8495,shijou takane,四条貴音,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8496,shiki eiki,四季映姫・ヤマザナドゥ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8497,shikigami,式神,生物・動植物,架空生物・モンスター,,[],verified,,unreviewed,verified
-8498,shikinami (kancolle),敷波（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8498,shikinami (kancolle),敷波（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8499,shikishi,色紙,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8500,shima rin,志摩リン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8501,shimada arisu,島田愛里寿,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8502,shimada fumikane,島田フミカネ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8503,shimaidon (sex),島井どん（性行為）,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
-8504,shimakaze (kancolle),島風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8504,shimakaze (kancolle),島風（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8505,shimakaze (kancolle) (cosplay),島風のコスプレ,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 8506,shimamura uzuki,島村卯月,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8507,shimazaki mujirushi,島崎ムジルシ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8508,shimenawa,しめ縄,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-8509,shimokitazawa high school uniform,下北沢高校,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8509,shimokitazawa high school uniform,下北沢高校,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8510,shin guards,すね当て,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 8511,shin jigen game neptune vii,新次元ゲイム ネプテューヌVII,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8512,shin megami tensei,真・女神転生,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
@@ -8517,9 +8517,9 @@
 8515,shingeki no bahamut,神撃のバハムート,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8516,shingeki no kyojin,進撃の巨人,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8517,shinjou akane,新条アカネ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8518,shinki (touhou),神綺（東方Project）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8518,shinki (touhou),神綺（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8519,shinku,真紅,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8520,shino (ponjiyuusu),シノ（ponjiyuusu）,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
+8520,shino (ponjiyuusu),シノ（ponjiyuusu）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
 8521,shinomiya kaguya,四宮かぐや,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8522,shinonome ena,東雲絵名,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8523,shinosawa hiro,篠澤広,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
@@ -8540,14 +8540,14 @@
 8538,shippou (pattern),七宝文様,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8539,shirai kuroko,白井黒子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8540,shirakami fubuki,白上フブキ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8541,shirakami fubuki (1st costume),白上フブキ（通常）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8542,shiranui (kancolle),不知火（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8541,shirakami fubuki (1st costume),白上フブキ（通常）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
+8542,shiranui (kancolle),不知火（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8543,shiranui flare,不知火フレア,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8544,shiranui mai,不知火舞,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8545,shirasaka koume,白坂小梅,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8546,shirase sakuya,白瀬咲耶,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8547,shiratsuyu (kancolle),白露（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8548,shirayuki (kancolle),白雪（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8547,shiratsuyu (kancolle),白露（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8548,shirayuki (kancolle),白雪（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8549,shirogane naoto,白鐘直斗,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8550,shirogane noel,白銀ノエル,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8551,shiroko (blue archive),砂狼シロコ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
@@ -8557,20 +8557,20 @@
 8555,shironeko project,白猫プロジェクト,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8556,shirosato,シロサト,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8557,shirt,シャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-8558,shirt around waist,腰の周りのシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8559,shirt grab,シャツグラブ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8560,shirt in mouth,口の中のシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8561,shirt lift,たくし上げ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8562,shirt overhang,乳カーテン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8558,shirt around waist,腰に巻いたシャツ,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+8559,shirt grab,シャツをつかむ,動作・接触,衣服への接触,,[],verified,0,verified,verified
+8560,shirt in mouth,口にくわえたシャツ,動作・接触,衣服への接触,,[],verified,0,verified,verified
+8561,shirt lift,シャツを持ち上げる,動作・接触,衣服への接触,,[],verified,0,verified,verified
+8562,shirt overhang,乳カーテン,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8563,shirt partially tucked in,シャツの裾を半分だけインした状態,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8564,shirt pull,シャツを引っ張る,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8565,shirt tucked in,シャツをボトムスにインした状態,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8566,shirt tug,シャツを引っ張る,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8567,shirt under shirt,シャツの下のシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8567,shirt under shirt,シャツの重ね着,服装・装飾,衣服,,[],verified,0,verified,verified
 8568,shiseki hirame,シセキ・ヒラメ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8569,shishiro botan,獅白ぼたん,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8570,shishiro botan (1st costume),獅白ぼたん（通常）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8571,shiver (splatoon),震え（スプラトゥーン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8570,shishiro botan (1st costume),獅白ぼたん（通常衣装）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8571,shiver (splatoon),フウカ（スプラトゥーン3）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8572,shoe dangle,靴をぶら下げる,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,verified
 8573,shoe soles,靴底,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 8574,shoebill (kemono friends),ハシビロコウ（けものフレンズ）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
@@ -8585,7 +8585,7 @@
 8583,shopping cart,ショッピングカート,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8584,shore,海岸,背景・場所,自然・風景,,[],verified,,unreviewed,verified
 8585,short bangs,短い前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-8586,short dress,短いドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8586,short dress,短い丈のドレス,服装・装飾,衣服,,[],verified,1,verified,verified
 8587,short eyebrows,短い眉,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
 8588,short hair,ショートヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 8589,short hair with long locks,長い毛束のあるショートヘア,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
@@ -8603,27 +8603,27 @@
 8601,short-sleeved jacket,半袖ジャケット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8602,short-sleeved sweater,半袖セーター,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8603,shorts,ショートパンツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-8604,shorts around one leg,片足の周りのショーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8604,shorts around one leg,片足の周りのショーツ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8605,shorts pull,ショートパンツを引っ張る,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8606,shorts tan,ショーツタン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8607,shorts under dress,ドレスの下のショートパンツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8608,shorts under skirt,スカートの下のショーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8606,shorts tan,ショーツタン,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8607,shorts under dress,ドレスの下に履いたショートパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
+8608,shorts under skirt,スカートの下に履いたショートパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
 8609,shortstack,小柄でグラマーな体型,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
 8610,shotgun,ショットガン,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 8611,shotgun shell,散弾銃の薬莢,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 8612,shouji,障子,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 8613,shoujo kageki revue starlight,少女☆歌劇 レヴュースタァライト,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8614,shoujo kitou-chuu,少女祈祷中,文字・記号,文字,,[],verified,,unreviewed,verified
-8615,shoukaku (kancolle),翔鶴（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8615,shoukaku (kancolle),翔鶴（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8616,shoulder armor,肩当て,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8617,shoulder bag,ショルダーバッグ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8618,shoulder belt,ショルダーベルト,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8619,shoulder blades,肩甲骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-8620,shoulder blush,肩の赤面,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
+8620,shoulder blush,肩の赤面,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
 8621,shoulder boards,肩章,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
 8622,shoulder cannon,ショルダーキャノン,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 8623,shoulder carry,肩担ぎ,ポーズ・姿勢,対人配置,,[],verified,,unreviewed,verified
-8624,shoulder cutout,肩の切り抜き,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+8624,shoulder cutout,肩開きの服,服装・装飾,衣服,,[],verified,1,verified,verified
 8625,shoulder guard,ショルダーガード,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 8626,shoulder holster,ショルダーホルスター,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
 8627,shoulder pads,肩パッド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
@@ -8635,25 +8635,25 @@
 8633,shouting,大声で叫ぶ,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8634,shovel,シャベル,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8635,show by rock!!,SHOW BY ROCK!!,キャラクター・作品,タイトル（作品名）,,"[""ショウバイロック""]",needs-review,,unreviewed,verified
-8636,shower (place),シャワー（場所）,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
+8636,shower (place),シャワールーム,背景・場所,場所・室内外,,[],verified,0,verified,verified
 8637,shower head,シャワーヘッド,家具・設備・物品,設備,,[],verified,,unreviewed,verified
 8638,showering,シャワーを浴びる,動作・接触,日常動作,,[],verified,,unreviewed,verified
 8639,showgirl skirt,ショーガールスカート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8640,shrimp,エビ,生物・動植物,動物,,[],verified,,unreviewed,verified
 8641,shrimp tempura,エビの天ぷら,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8642,shrine,神社,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
-8643,shrug (clothing),肩をすくめる,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8643,shrug (clothing),ボレロ,服装・装飾,衣服,,[],verified,0,verified,verified
 8644,shrugging,肩をすくめる,ポーズ・姿勢,身体の向き,,[],verified,,unreviewed,verified
-8645,shu (arknights),シュウ（アークナイツ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8645,shu (arknights),シュウ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8646,shuka high school uniform,秀華高校の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8647,shun (blue archive),シュン（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 8648,shun (small) (blue archive),シュン（幼少期）（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 8649,shuriken,手裏剣,家具・設備・物品,武器,,[],verified,,unreviewed,verified
 8650,shushing,静かにするよう促す仕草,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 8651,shuten douji (fate),酒呑童子（Fate）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-8652,shuuchiin academy school uniform,秀知院学園の制服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8653,shuujin academy school uniform,秀尽学園の制服,キャラクター・作品,作品固有の衣装・要素,,[],unreviewed,,unreviewed,unreviewed
-8654,shy,人見知り,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+8652,shuuchiin academy school uniform,秀知院学園の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8653,shuujin academy school uniform,秀尽学園の制服,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,,unreviewed,unreviewed
+8654,shy,内気な,人物の特徴,人物属性,,[],verified,0,verified,verified
 8655,siblings,兄弟姉妹,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 8656,sick,病気,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 8657,sickle,鎌,家具・設備・物品,道具,,[],verified,,unreviewed,verified
@@ -8666,19 +8666,19 @@
 8664,side part,サイドパート,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 8665,side ponytail,サイドテール,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 8666,side slit,サイドスリット,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8667,side slit shorts,サイドスリットショーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8668,side up bun,サイドアップのお団子髪,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,verified
+8667,side slit shorts,サイドスリットショーツ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8668,side up bun,サイドアップのお団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 8669,side-by-side,横並び,ポーズ・姿勢,対人配置,,[],verified,,unreviewed,verified
-8670,side-tie bikini bottom,紐ビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8670,side-tie bikini bottom,サイドリボンのビキニボトム,服装・装飾,水着,,[],verified,1,verified,verified
 8671,side-tie leotard,サイドリボン付きレオタード,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8672,side-tie panties,サイド結びのパンティー,服装・装飾,下着,,[],verified,,unreviewed,unreviewed
-8673,side-tie peek,見せ紐,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8674,side-tie shirt,サイドタイシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8673,side-tie peek,見せ紐,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8674,side-tie shirt,サイドで結んだシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
 8675,sideboob,横乳,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
 8676,sideburns,もみあげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 8677,sideburns stubble,もみあげの剃り跡,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
 8678,sidecut,サイドカット,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-8679,sideless dress,サイドオープンチャイナドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8679,sideless dress,脇開きのドレス,服装・装飾,衣服,,[],verified,1,verified,verified
 8680,sideless kimono,脇開きの着物,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8681,sideless outfit,サイドレスの衣装,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8682,sideless shirt,脇開きのシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
@@ -8691,7 +8691,7 @@
 8689,sideways,横向き,ポーズ・姿勢,身体の向き,,[],verified,,unreviewed,verified
 8690,sideways glance,横目で見る,顔・表情,目,,[],verified,,unreviewed,verified
 8691,sideways hat,横向きの帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-8692,sideways mouth,横向きの口,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
+8692,sideways mouth,横向きの口,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
 8693,sig sauer,SIG Sauer（シグ・ザウエル）,家具・設備・物品,武器,,"[""SIG Sauer"",""シグザウエル"",""シグ・ザウアー""]",verified,0,verified,verified
 8694,sigh,ため息,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8695,sign,看板,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
@@ -8708,10 +8708,10 @@
 8706,silver hair,銀髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
 8707,silver trim,銀色の縁取り,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 8708,silver wolf (honkai: star rail),銀狼（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-8709,simon (ttgl),シモン（天元突破グレンラガン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8709,simon (ttgl),シモン（天元突破グレンラガン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8710,simple background,シンプルな背景,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 8711,simple bird,シンプルな鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-8712,simplified chinese text,単純化された中国のテキスト,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
+8712,simplified chinese text,簡体字のテキスト,文字・記号,文字,,[],verified,0,verified,verified
 8713,sinclair (project moon),シンクレア,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
 8714,sincos,シンコス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8715,singing,歌う,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
