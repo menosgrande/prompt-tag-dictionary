@@ -8937,134 +8937,134 @@
 8935,soda can,ソーダ缶,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8936,sode,袖,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8937,sofra,ソフラ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-8938,soft lighting,柔らかな光,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
+8938,soft lighting,柔らかな照明,光・演出,照明・光源,,[],verified,0,verified,verified
 8939,soft serve,ソフトクリーム,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8940,soga no tojiko,蘇我屠自古,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8941,soldier,兵士,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+8941,soldier,兵士,人物の特徴,人物属性,,[],verified,0,verified,verified
 8942,soles,靴底,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-8943,solid circle eyes,塗りつぶしの丸目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
+8943,solid circle eyes,塗りつぶされた丸い目,顔・表情,目,,[],verified,0,verified,verified
 8944,solid circle pupils,塗りつぶされた丸い瞳孔,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 8945,solid eyes,塗りつぶされた目,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
 8946,solid oval eyes,塗りつぶされた楕円形の目,顔・表情,目,,[],needs-review,,unreviewed,unreviewed
-8947,solo,単独,人数・人物構成,人数・人物構成,,[],unreviewed,,unreviewed,unreviewed
-8948,solo focus,一人だけ強調,人数・人物構成,人数・人物構成,,[],unreviewed,,unreviewed,unreviewed
+8947,solo,単独,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
+8948,solo focus,単独人物に焦点を当てた構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 8949,son gohan,孫悟飯,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8950,son goku,孫悟空,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8951,song name,曲名,文字・記号,文字,,[],verified,,unreviewed,verified
-8952,sonia (pokemon),ソニア（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8953,sonic (series),ソニック（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8952,sonia (pokemon),ソニア（ポケットモンスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8953,sonic (series),ソニック（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8954,sonic the hedgehog,ソニック・ザ・ヘッジホッグ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-8955,sono bisque doll wa koi wo suru,その着せ替え人形は恋をする,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8955,sono bisque doll wa koi wo suru,その着せ替え人形は恋をする,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8956,sonoda chiyoko,園田智代子,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8957,sonoda umi,園田海未,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8958,sonozaki mion,園崎魅音,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8959,sonozaki shion,園崎詩音,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8960,sonya (kill me baby),ソーニャ（キルミーベイビー）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+8960,sonya (kill me baby),ソーニャ（キルミーベイベー）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8961,sora harewataru,ソラ・ハレワタール,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8962,sorimachi-doufu,反町豆腐,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,verified
+8962,sorimachi-doufu,反町豆腐,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
 8963,soul eater,ソウルイーター,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-8964,soul gem,ソウルジェム,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
+8964,soul gem,ソウルジェム（魔法少女まどか☆マギカ）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 8965,soulcalibur,ソウルキャリバー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8966,sound effects,効果音,文字・記号,文字,,[],verified,,unreviewed,verified
 8967,soup,スープ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-8968,souryuu (kancolle),蒼龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8968,souryuu (kancolle),蒼龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8969,souryuu asuka langley,惣流・アスカ・ラングレー,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8970,souseiseki,蒼星石,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8971,sousou no frieren,葬送のフリーレン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8972,sousouman,スーマン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8973,soviet,ソビエト連邦,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,needs-review
-8974,space,宇宙,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8975,space helmet,宇宙ヘルメット,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8976,space print,宇宙柄,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
+8974,space,宇宙,背景・場所,自然・風景,,[],verified,0,verified,verified
+8975,space helmet,宇宙用ヘルメット,服装・装飾,装備・防具,,[],verified,0,verified,verified
+8976,space print,宇宙柄,服装・装飾,衣服,,[],verified,0,verified,verified
 8977,spacecraft,宇宙船,乗り物,航空機,,[],verified,,unreviewed,verified
-8978,spaceship hair ornament,宇宙船の髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8978,spaceship hair ornament,宇宙船の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 8979,spacesuit,宇宙服,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8980,spacezin,スペースジン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-8981,spade (shape),スペード型,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-8982,spade hair ornament,スペードヘアオーナメント,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8981,spade (shape),スペード型,文字・記号,記号・図形,,[],verified,0,verified,verified
+8982,spade hair ornament,スペード型の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 8983,spaghetti,スパゲッティ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8984,spaghetti strap,スパゲッティストラップ,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8985,spandex,スパンデックス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8986,spanish text,スペイン語のテキスト,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
+8986,spanish text,スペイン語のテキスト,文字・記号,文字,,[],verified,0,verified,verified
 8987,spanked,尻を叩かれた状態,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
 8988,spanking,スパンキング,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
-8989,sparkle,光エフェクト,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
+8989,sparkle,きらめき,光・演出,演出効果,,[],verified,0,verified,verified
 8990,sparkle (honkai: star rail),花火（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-8991,sparkle background,キラキラ背景,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
-8992,sparkle hair ornament,輝く髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-8993,sparkle print,スパークルプリント,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
+8991,sparkle background,きらめく背景,光・演出,演出効果,,[],verified,0,verified,verified
+8992,sparkle hair ornament,きらめく髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+8993,sparkle print,スパークルプリント,光・演出,演出効果,,[],needs-review,,unreviewed,unreviewed
 8994,sparkler,手持ち花火,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8995,sparkling aura,きらめくオーラ,光・演出,演出効果,,[],verified,,unreviewed,verified
-8996,sparkling eyes,キラキラした目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
+8996,sparkling eyes,輝く瞳,顔・表情,目,,[],verified,0,verified,verified
 8997,sparks,火花,光・演出,演出効果,,[],verified,,unreviewed,verified
 8998,sparrow,スズメ,生物・動植物,動物,,[],verified,,unreviewed,verified
-8999,sparse chest hair,まばらな胸毛,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9000,sparse navel hair,まばらなへそ毛,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9001,sparse stubble,まばらな無精ひげ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9002,spatula,ヘラ,家具・設備・物品,道具,,[],unreviewed,,unreviewed,unreviewed
-9003,speaker,スピーカー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9004,speaking tube headset,スピーキングチューブヘッドセット,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-9005,spear,槍,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
+8999,sparse chest hair,まばらな胸毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9000,sparse navel hair,まばらなへそ毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9001,sparse stubble,まばらな無精ひげ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9002,spatula,へら,家具・設備・物品,道具,,[],verified,0,verified,verified
+9003,speaker,スピーカー,家具・設備・物品,日用品,,[],verified,0,verified,needs-review
+9004,speaking tube headset,スピーキングチューブヘッドセット,家具・設備・物品,機械・装置,,[],needs-review,,unreviewed,unreviewed
+9005,spear,槍,家具・設備・物品,武器,,[],verified,0,verified,verified
 9006,spear the gungnir,グングニルの槍,家具・設備・物品,武器,,[],needs-review,,unreviewed,verified
 9007,special week (umamusume),スペシャルウィーク（ウマ娘）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9008,specter (arknights),スペクター（arknights）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9009,speech bubble,吹き出し,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9010,speed lines,スピードライン,光・演出,演出効果,,[],unreviewed,,unreviewed,verified
-9011,spell card,スペルカード,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9012,sperm cell,精子細胞,生物・動植物,種族,,[],unreviewed,,unreviewed,unreviewed
-9013,sphere earrings,球体のイヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9014,spice and wolf,狼と香辛料,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9015,spider,クモ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9016,spider girl,蜘蛛女,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
-9017,spider lily,スパイダーリリー,生物・動植物,植物,,[],unreviewed,,unreviewed,unreviewed
-9018,spider web,クモの網,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,unreviewed
-9019,spider web print,蜘蛛の巣柄,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9020,spider-man (series),スパイダーマン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9021,spider-verse,蜘蛛宇宙,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9022,spiked armlet,スパイクアームレット,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9023,spiked bracelet,スパイクブレスレット,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9024,spiked choker,スパイクチョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9008,specter (arknights),スペクター（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9009,speech bubble,吹き出し,文字・記号,文字,,[],verified,0,verified,needs-review
+9010,speed lines,スピード線,光・演出,演出効果,,[],verified,0,verified,verified
+9011,spell card,スペルカード（東方Project）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9012,sperm cell,精子,生物・動植物,種族,,[],verified,3,verified,verified
+9013,sphere earrings,球形のイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+9014,spice and wolf,狼と香辛料,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9015,spider,クモ,生物・動植物,動物,,[],verified,0,verified,verified
+9016,spider girl,蜘蛛娘,生物・動植物,種族,,[],verified,0,verified,verified
+9017,spider lily,スパイダーリリー,生物・動植物,植物,,[],needs-review,,unreviewed,unreviewed
+9018,spider web,クモの巣,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+9019,spider web print,クモの巣柄,服装・装飾,衣服,,[],verified,0,verified,verified
+9020,spider-man (series),スパイダーマン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9021,spider-verse,スパイダーバース,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9022,spiked armlet,トゲ付きアームレット,服装・装飾,装飾品,,[],verified,0,verified,verified
+9023,spiked bracelet,トゲ付きブレスレット,服装・装飾,装飾品,,[],verified,0,verified,verified
+9024,spiked choker,トゲ付きチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
 9025,spiked club,トゲ付きの棍棒,家具・設備・物品,武器,,[],needs-review,,unreviewed,unreviewed
 9026,spiked collar,トゲ付きの首輪,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9027,spiked ear piercing,トゲ型の耳ピアス,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 9028,spiked hair,逆立った髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
-9029,spiked hairband,スパイクヘアバンド,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9030,spiked halo,コンパスローズハロー,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9031,spiked shell,スパイクシェル,背景・場所,自然・風景,,[],unreviewed,0,verified,needs-review
-9032,spiked tail,スパイクされた尾,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+9029,spiked hairband,トゲ付きヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
+9030,spiked halo,トゲ付き光輪,服装・装飾,装飾品,,[],verified,0,verified,verified
+9031,spiked shell,スパイクシェル,背景・場所,自然・風景,,[],needs-review,0,verified,needs-review
+9032,spiked tail,トゲ付きの尾,生物・動植物,動物,,[],verified,0,verified,verified
 9033,spikes,トゲ,生物・動植物,植物,,[],needs-review,,unreviewed,unreviewed
-9034,spill,こぼれる,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9035,spilling,こぼれる,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9036,spine,脊椎,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9034,spill,こぼれる,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
+9035,spilling,こぼれる,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
+9036,spine,背骨,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9037,spinning,回転,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-9038,spiral,螺旋,構図・カメラ,構図・配置,,[],unreviewed,,unreviewed,unreviewed
-9039,spirit,精神,生物・動植物,種族,,[],unreviewed,,unreviewed,unreviewed
+9038,spiral,螺旋,文字・記号,記号・図形,,[],verified,0,verified,verified
+9039,spirit,精神,生物・動植物,種族,,[],needs-review,,unreviewed,unreviewed
 9040,spit take,飲み物を吹き出す,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
-9041,spitroast,串刺しセックス,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
+9041,spitroast,串刺し（性的体位）,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 9042,spitting,唾を吐く,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-9043,splash art,スプラッシュアート,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
+9043,splash art,スプラッシュアート,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,unreviewed
 9044,splash page,扉絵,画風・描写,描画技法,,[],needs-review,,unreviewed,unreviewed
-9045,splashing,水しぶき,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9046,splatoon (series),スプラトゥーン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9047,splatoon 1,スプラトゥーン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9048,splatoon 2,スプラトゥーン2,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9049,splatoon 3,スプラトゥーン3,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9050,splatter,スプラッタ,画風・描写,描画技法,,[],unreviewed,,unreviewed,unreviewed
-9051,splattershot (splatoon),スプラシューター,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+9045,splashing,水しぶき,光・演出,演出効果,,[],verified,0,verified,verified
+9046,splatoon (series),スプラトゥーン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9047,splatoon 1,スプラトゥーン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9048,splatoon 2,スプラトゥーン2,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9049,splatoon 3,スプラトゥーン3,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9050,splatter,スプラッタ,画風・描写,描画技法,,[],needs-review,,unreviewed,unreviewed
+9051,splattershot (splatoon),スプラシューター（スプラトゥーン）,家具・設備・物品,武器,,[],verified,0,verified,verified
 9052,split,開脚,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,unreviewed
 9053,split mouth,裂けた口,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
 9054,split ponytail,二股のポニーテール,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 9055,split screen,画面分割,構図・カメラ,構図・配置,,[],needs-review,,unreviewed,verified
-9056,split theme,分割テーマ,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,unreviewed
-9057,split-color hair,スプリットカラーの髪,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+9056,split theme,分割テーマ,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,unreviewed
+9057,split-color hair,ツートンカラーの髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 9058,spoiler (automobile),リアスポイラー,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
 9059,spoken anger vein,吹き出し内の怒りマーク,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
-9060,spoken blush,話しかけられた赤面,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-9061,spoken character,喋っているキャラクター,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9060,spoken blush,話しながら赤面,顔・表情,顔・表情,,[],verified,0,verified,verified
+9061,spoken character,喋っているキャラクター,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
 9062,spoken ellipsis,吹き出し内の三点リーダー,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
 9063,spoken exclamation mark,吹き出し内の感嘆符,文字・記号,記号・図形,,[],needs-review,,unreviewed,verified
-9064,spoken expression,話し言葉,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-9065,spoken food,話された食べ物,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
+9064,spoken expression,発話中の表情,顔・表情,顔・表情,,[],verified,0,verified,verified
+9065,spoken food,話された食べ物,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
 9066,spoken heart,吹き出し内のハートマーク,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
 9067,spoken interrobang,吹き出し内の感嘆疑問符,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
 9068,spoken musical note,吹き出し内の音符,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
@@ -9073,46 +9073,46 @@
 9071,spoken squiggle,吹き出し内の波線,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
 9072,spoken sweatdrop,吹き出し内の汗マーク,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
 9073,spoken zzz,吹き出し内のZZZマーク,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
-9074,sponge,スポンジ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9075,spoon,スプーン,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+9074,sponge,スポンジ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9075,spoon,スプーン,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9076,spooning,スプーニング（後ろから抱きかかえて横向きに寝る姿勢）,ポーズ・姿勢,対人配置,,[],needs-review,,unreviewed,unreviewed
-9077,sports bikini,スポーツビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9078,sports bra,スポーツブラ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9079,sports bra lift,スポーツブラジャーリフト,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9080,sports car,スポーツカー,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,unreviewed
-9081,sportswear,スポーツウェア,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9077,sports bikini,スポーツビキニ,服装・装飾,水着,,[],verified,1,verified,verified
+9078,sports bra,スポーツブラ,服装・装飾,下着,,[],verified,1,verified,verified
+9079,sports bra lift,スポーツブラを持ち上げる,動作・接触,衣服への接触,,[],verified,2,verified,verified
+9080,sports car,スポーツカー,乗り物,陸上の乗り物,,[],verified,0,verified,verified
+9081,sportswear,スポーツウェア,服装・装飾,衣服,,[],verified,0,verified,verified
 9082,spot color,スポットカラー,画風・描写,描画技法,,[],needs-review,,unreviewed,unreviewed
-9083,spotlight,スポットライト,光・演出,照明・光源,,[],unreviewed,,unreviewed,verified
-9084,spray can,スプレー缶,家具・設備・物品,道具,,[],unreviewed,,unreviewed,unreviewed
+9083,spotlight,スポットライト,光・演出,照明・光源,,[],verified,0,verified,verified
+9084,spray can,スプレー缶,家具・設備・物品,道具,,[],verified,0,verified,verified
 9085,spread arms,両腕を広げる,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,verified
 9086,spread fingers,指を広げる,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,verified
-9087,spread legs,開脚,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,unreviewed
+9087,spread legs,開脚,ポーズ・姿勢,手足の配置,,[],verified,2,verified,verified
 9088,spread toes,足指を広げる,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,unreviewed
-9089,spread wings,翼を広げる,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+9089,spread wings,翼を広げる,動作・接触,身体動作,,[],verified,0,verified,verified
 9090,spreader bar,拘束用バー,家具・設備・物品,道具,,[],needs-review,,unreviewed,unreviewed
-9091,sprigatito,ニャオハ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9092,spring (season),春（季節）,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
+9091,sprigatito,ニャオハ,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+9092,spring (season),春,背景・場所,天候・時間帯,,[],verified,0,verified,verified
 9093,spring onion,青ねぎ,生物・動植物,植物,,[],needs-review,,unreviewed,unreviewed
 9094,sprinkles,カラースプレー（菓子のトッピング）,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
 9095,spy x family,SPY×FAMILY,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9096,squall leonhart,スコール・レオンハート,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9097,square,四角形,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9098,square 4koma,正方形4koma,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9099,square neckline,正方形のネックライン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9100,square-end necktie,四角い先端のネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9096,squall leonhart,スコール・レオンハート（ファイナルファンタジーVIII）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9097,square,正方形,文字・記号,記号・図形,,[],verified,0,verified,verified
+9098,square 4koma,正方形4koma,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
+9099,square neckline,スクエアネック,服装・装飾,衣服,,[],verified,0,verified,verified
+9100,square-end necktie,先端が四角いネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 9101,squatting,しゃがむ,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 9102,squatting cowgirl position,しゃがみ騎乗位,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-9103,squeans,むにゃむにゃ,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-9104,squeezing,絞る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9105,squid,イカ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9106,squidbeak splatoon,カラストンビ隊（スプラトゥーン）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9103,squeans,むにゃむにゃ,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
+9104,squeezing,絞る,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
+9105,squid,イカ,生物・動植物,動物,,[],verified,0,verified,verified
+9106,squidbeak splatoon,カラストンビ隊（スプラトゥーン）,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
 9107,squiggle,波線,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
-9108,squinting,目を細める,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-9109,squirrel,リス,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9110,squirrel ears,リス耳,髪・頭部,頭部の特徴,,[],unreviewed,,unreviewed,unreviewed
-9111,squirrel girl,リス耳の少女,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
-9112,squirrel tail,リスのしっぽ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9113,squirtle,ゼニガメ,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
+9108,squinting,目を細める,顔・表情,目,,[],verified,0,verified,verified
+9109,squirrel,リス,生物・動植物,動物,,[],verified,0,verified,verified
+9110,squirrel ears,リス耳,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+9111,squirrel girl,リス娘,生物・動植物,種族,,[],verified,0,verified,verified
+9112,squirrel tail,リスの尻尾,生物・動植物,動物,,[],verified,0,verified,verified
+9113,squirtle,ゼニガメ,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
 9114,ssss.gridman,SSSS.GRIDMAN,キャラクター・作品,タイトル（作品名）,,"[""グリッドマン""]",needs-review,,unreviewed,unreviewed
 9115,st. chronica academy school uniform,聖クロニカ学園の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9116,st. louis (azur lane),セントルイス（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
