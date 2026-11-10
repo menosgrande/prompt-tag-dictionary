@@ -113,6 +113,31 @@ test("updates classification status, review evidence, and candidate index togeth
   assert.equal("translation" in classificationOnly.data.tags[0][6], false);
 });
 
+test("updates expression level and its independent review metadata", () => {
+  const data = fixture();
+  const result = applyPatchData(data, {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{
+      tag: "metadata tag",
+      set: {
+        expressionLevel: 2,
+        expressionLevelReviewStatus: "verified",
+        expressionLevelReviewReason: "タグ単体の意味に基づいて判定。",
+        expressionLevelReviewedAt: "2026-11-10"
+      }
+    }]
+  });
+  assert.equal(result.data.tags[1][6].expressionLevel, 2);
+  assert.equal(result.data.tags[1][6].expressionLevelReview.status, "verified");
+  assert.equal(result.data.tags[1][6].expressionLevelReview.reason, "タグ単体の意味に基づいて判定。");
+  assert.equal(result.data.tags[1][6].expressionLevelReview.reviewedAt, "2026-11-10");
+  assert.equal(result.data.tags[1][6].translation.status, "verified");
+  assert.throws(() => applyPatchData(fixture(), {
+    schema: "prompt-tag-dictionary-patch-v1",
+    operations: [{ tag: "metadata tag", set: { expressionLevel: 5 } }]
+  }), /expressionLevel must be null or an integer from 0 to 4/);
+});
+
 test("rejects unknown fields, malformed operations, and invalid values", () => {
   const data = fixture();
   const base = { schema: "prompt-tag-dictionary-patch-v1", operations: [] };
