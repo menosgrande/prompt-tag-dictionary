@@ -2813,48 +2813,48 @@
 2811,excalibur (fate/stay night),エクスカリバー（Fate/stay night）,家具・設備・物品,武器,,[],verified,0,verified,verified
 2812,excalibur morgan (fate),エクスカリバー・モルガン（Fate）,家具・設備・物品,武器,,[],verified,0,verified,verified
 2813,excited,興奮した様子,顔・表情,顔・表情,,[],verified,0,verified,verified
-2814,exercise ball,エクササイズボール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
-2815,exercising,運動する,動作・接触,身体動作,,[],verified,,unreviewed,verified
-2816,exhausted,疲れ果てた様子,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2817,exhibitionism,露出狂,状態・状況,状況・関係性,,[],verified,,unreviewed,unreviewed
-2818,exoskeleton,外骨格,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
-2819,exploding clothes,爆発する衣服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2820,explosion,爆発,光・演出,演出効果,,[],verified,,unreviewed,verified
+2814,exercise ball,エクササイズボール,家具・設備・物品,道具,,[],verified,0,verified,verified
+2815,exercising,運動する,動作・接触,身体動作,,[],verified,0,verified,verified
+2816,exhausted,疲れ果てた様子,顔・表情,顔・表情,,[],verified,0,verified,verified
+2817,exhibitionism,露出狂,状態・状況,状況・関係性,,[],verified,3,verified,verified
+2818,exoskeleton,外骨格,服装・装飾,装備・防具,,[],verified,0,verified,verified
+2819,exploding clothes,爆発する衣服,服装・装飾,衣服,,[],verified,0,verified,verified
+2820,explosion,爆発,光・演出,演出効果,,[],verified,0,verified,verified
 2821,explosive,爆発物・爆発性の,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
-2822,exposed pocket,露出したポケット,服装・装飾,衣服の状態,,[],verified,,unreviewed,verified
-2823,expression chart,表情一覧,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2824,expressionless,無表情,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2825,expressions,表情,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2826,expressive clothes,表情豊かな服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2827,expressive hair,表現力豊かな髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2828,extra arms,余分な腕,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2829,extra ears,余分な耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2830,extra eyes,余分な目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2831,extra faces,余分な顔,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2832,extra limbs,余分な四肢,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
-2833,extra mouth,余分な口,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2834,extremely detailed,非常に精細な描写,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
-2835,exusiai (arknights),エクシア（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2836,eye black,アイブラック,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2837,eye contact,視線を合わせる,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2838,eye focus,目を強調した構図,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2839,eye mask,目元を覆うマスク,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2840,eye of horus,ホルスの目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2841,eye reflection,瞳の反射,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2842,eye trail,眼光,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2843,eyeball,眼球,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-2844,eyebrow cut,眉の切れ込み,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2845,eyebrow piercing,眉ピアス,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2846,eyebrows hidden by hair,髪で隠れた眉,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2847,eyelash ornament,まつ毛の飾り,顔・表情,化粧・メイク,,[],verified,,unreviewed,verified
-2848,eyelashes,まつ毛,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2849,eyelid pull,まぶたを引っ張る仕草,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2850,eyeliner,アイライナー,顔・表情,化粧・メイク,,[],verified,,unreviewed,verified
-2851,eyepatch,アイパッチ,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2852,eyepatch bikini,眼帯ビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2853,eyes in shadow,影に隠れた目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2854,eyes visible through hair,髪越しに見える目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2855,eyeshadow,アイシャドウ,顔・表情,化粧・メイク,,[],verified,,unreviewed,verified
+2822,exposed pocket,露出したポケット,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+2823,expression chart,表情一覧,顔・表情,顔・表情,,[],verified,0,verified,verified
+2824,expressionless,無表情,顔・表情,顔・表情,,[],verified,0,verified,verified
+2825,expressions,表情,顔・表情,顔・表情,,[],verified,0,verified,verified
+2826,expressive clothes,表情豊かな服,服装・装飾,衣服,,[],verified,0,verified,verified
+2827,expressive hair,表現力豊かな髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2828,extra arms,余分な腕,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2829,extra ears,余分な耳,人物の特徴,人物属性,,[],verified,0,verified,verified
+2830,extra eyes,余分な目,顔・表情,目,,[],verified,0,verified,verified
+2831,extra faces,余分な顔,顔・表情,顔・表情,,[],verified,0,verified,verified
+2832,extra limbs,余分な四肢,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2833,extra mouth,余分な口,顔・表情,顔・表情,,[],verified,0,verified,verified
+2834,extremely detailed,非常に精細な描写,品質・ネガティブ,高品質・傑作,,[],verified,0,verified,verified
+2835,exusiai (arknights),エクシア（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2836,eye black,アイブラック,顔・表情,目,,[],verified,0,verified,verified
+2837,eye contact,視線を合わせる,顔・表情,目,,[],verified,0,verified,verified
+2838,eye focus,目を強調した構図,顔・表情,目,,[],verified,0,verified,verified
+2839,eye mask,目元を覆うマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
+2840,eye of horus,ホルスの目,文字・記号,記号・図形,,[],verified,0,verified,verified
+2841,eye reflection,瞳の反射,顔・表情,目,,[],verified,0,verified,verified
+2842,eye trail,眼光,顔・表情,目,,[],verified,0,verified,verified
+2843,eyeball,眼球,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2844,eyebrow cut,眉の切れ込み,顔・表情,目,,[],verified,0,verified,verified
+2845,eyebrow piercing,眉ピアス,服装・装飾,装飾品,,[],verified,0,verified,verified
+2846,eyebrows hidden by hair,髪で隠れた眉,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2847,eyelash ornament,まつ毛の飾り,顔・表情,化粧・メイク,,[],verified,0,verified,verified
+2848,eyelashes,まつ毛,顔・表情,目,,[],verified,0,verified,verified
+2849,eyelid pull,まぶたを引っ張る仕草,動作・接触,身体への接触,,[],verified,0,verified,verified
+2850,eyeliner,アイライナー,顔・表情,化粧・メイク,,[],verified,0,verified,verified
+2851,eyepatch,アイパッチ,服装・装飾,装飾品,,[],verified,0,verified,verified
+2852,eyepatch bikini,眼帯ビキニ,服装・装飾,衣服,,[],verified,1,verified,verified
+2853,eyes in shadow,影に隠れた目,顔・表情,目,,[],verified,0,verified,verified
+2854,eyes visible through hair,髪越しに見える目,顔・表情,目,,[],verified,0,verified,verified
+2855,eyeshadow,アイシャドウ,顔・表情,化粧・メイク,,[],verified,0,verified,verified
 2856,eyewear hang,眼鏡をぶら下げる,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2857,eyewear on head,頭に載せた眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 2858,eyewear on headwear,帽子に載せた眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
