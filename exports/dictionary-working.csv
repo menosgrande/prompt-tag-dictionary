@@ -1653,100 +1653,100 @@
 1651,cat lingerie,猫のランジェリー,服装・装飾,下着,,[],verified,3,verified,verified
 1652,cat mask,猫マスク,生物・動植物,動物,,[],verified,0,verified,verified
 1653,cat on head,頭に猫,生物・動植物,動物,,[],verified,0,verified,verified
-1654,cat on lap,膝の上の猫,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-1655,cat on shoulder,肩の上の猫,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-1656,cat paws,猫の前足,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+1654,cat on lap,膝の上の猫,生物・動植物,動物,,[],verified,0,verified,verified
+1655,cat on shoulder,肩の上の猫,生物・動植物,動物,,[],verified,0,verified,verified
+1656,cat paws,猫の前足,生物・動植物,動物,,[],verified,0,verified,verified
 1657,cat print,猫柄,生物・動植物,動物,,[],verified,0,verified,verified
-1658,cat tail,猫の尻尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-1659,cat teaser,猫じゃらし,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
+1658,cat tail,猫の尻尾,生物・動植物,動物,,[],verified,0,verified,verified
+1659,cat teaser,猫じゃらし,家具・設備・物品,道具,,[],verified,0,verified,verified
 1660,catchphrase,キャッチフレーズ,文字・記号,記号・図形,,[],verified,0,verified,verified
-1661,caterpillar tracks,履帯,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+1661,caterpillar tracks,履帯,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 1662,cato (monocatienus),カトー（モノカティエヌス）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1663,catstudioinc (punepuni),catstudioinc（punepuni）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
 1664,catsuit,キャットスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
-1665,caught,捕まった状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
+1665,caught,捕まった状態,状態・状況,状態・変化,,[],verified,0,verified,verified
 1666,cauldron,大釜,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1667,caustics,コースティクス（光の集光模様）,光・演出,照明・光源,,[],verified,,unreviewed,verified
+1667,caustics,コースティクス（光の集光模様）,光・演出,照明・光源,,[],verified,0,verified,verified
 1668,caution tape,注意テープ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1669,cave,洞窟,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
+1669,cave,洞窟,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1670,cd,CD（コンパクトディスク）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1671,ceiling,天井,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1672,ceiling light,シーリングライト,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1673,cello,チェロ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1674,cellphone,携帯電話,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1675,cellphone charm,携帯電話のストラップチャーム,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1676,cellphone photo,携帯電話で撮影した写真,構図・カメラ,撮影距離,,[],verified,,unreviewed,unreviewed
+1675,cellphone charm,携帯電話のストラップチャーム,服装・装飾,装飾品,,[],verified,0,verified,verified
+1676,cellphone photo,携帯電話で撮影した写真,画風・描写,媒体,,[],verified,0,verified,verified
 1677,censored,検閲済み,状態・状況,状態・変化,,[],verified,0,verified,verified
-1678,censored identity,身元を隠す検閲,光・演出,演出効果,,[],needs-review,,unreviewed,verified
+1678,censored identity,身元を隠すための検閲,光・演出,演出効果,,[],verified,0,verified,verified
 1679,censored nipples,検閲された乳首,服装・装飾,肌の露出,,[],verified,1,verified,verified
-1680,censored text,検閲されたテキスト,光・演出,演出効果,,[],verified,,unreviewed,verified
+1680,censored text,検閲されたテキスト,光・演出,演出効果,,[],verified,0,verified,verified
 1681,centaur,ケンタウロス,人物の特徴,人物属性,,[],verified,0,verified,verified
-1682,centauroid,ケンタウロス型の人型生物,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
+1682,centauroid,ケンタウロス型の人型生物,人物の特徴,人物属性,,[],verified,0,verified,verified
 1683,center frills,センターフリル,服装・装飾,衣服,,[],verified,0,verified,verified
-1684,center opening,中央の開口部,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1685,center-flap bangs,中央に割れ目のある前髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
+1684,center opening,中央の開口部,服装・装飾,衣服,,[],verified,1,verified,verified
+1685,center-flap bangs,中央に割れ目のある前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1686,centered,中央構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1687,centipede,ムカデ,生物・動植物,動物,,[],verified,0,verified,verified
 1688,cephalopod eyes,頭足類の目,顔・表情,目,,[],verified,0,verified,verified
 1689,ceres fauna (Hololive),セレス・ファウナ（ホロライブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
+1690,cerise bouquet (Love Live! Hasunosora Girls' High School Idol Club),スリーズブーケ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1691,cervix,子宮頸部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],verified,,unreviewed,verified
+1692,cetacean tail,クジラ類の尾,生物・動植物,動物,,[],verified,0,verified,verified
 1693,cevio,CeVIO,キャラクター・作品,タイトル（作品名）,,"[""チェビオ""]",verified,0,verified,verified
 1694,chain,鎖,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1695,chain headband,チェーンのヘッドバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
 1696,chain leash,チェーンリーシュ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1697,chain necklace,チェーンネックレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1698,chain-link fence,金網フェンス,背景・場所,建築・構造物,,[],verified,0,verified,verified
-1699,chained,鎖につながれた状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-1700,chained wrists,鎖でつながれた手首,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
+1699,chained,鎖につながれた状態,状態・状況,状態・変化,,[],verified,0,verified,verified
+1700,chained wrists,鎖でつながれた手首,状態・状況,状態・変化,,[],verified,0,verified,verified
 1701,chainmail,チェーンメール,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1702,chainsaw,チェーンソー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1703,chainsaw man,チェンソーマン（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1704,chair,椅子,家具・設備・物品,家具,,[],verified,0,verified,verified
 1705,chakram,チャクラム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1706,chaldea logo,Chaldeaロゴ,文字・記号,記号・図形,,[],verified,0,verified,verified
-1707,chaldea uniform,カルデアのユニフォーム,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,0,verified,verified
+1707,chaldea uniform,カルデアの制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 1708,chalice,チャリス,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1709,chalk,チョーク,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1710,chalkboard,黒板,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1711,champagne,シャンパン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1712,champagne flute,シャンパンフルートグラス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1713,champion uniform,チャンピオンのユニフォーム,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1714,chan co,ちゃんこ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+1712,champagne flute,シャンパンフルートグラス,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1713,champion uniform,チャンピオンのユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
+1714,chan co,ちゃんこ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 1715,chandelier,シャンデリア,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1716,chando (ado),チャンド,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-1717,changli (wuthering waves),長離（鳴潮）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1717,changli (wuthering waves),長離（鳴潮）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1718,changpao,長袍,服装・装飾,衣服,,[],verified,0,verified,verified
 1719,chanta (ayatakaoisii),チャンタ（ayatakaoisii）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1720,chaps,チャップス,服装・装飾,衣服,,[],verified,0,verified,verified
 1721,character age,キャラクターの年齢,人物の特徴,人物属性,,[],verified,0,verified,verified
-1722,character censor,キャラクター部分の検閲,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
+1722,character censor,キャラクター部分の検閲,光・演出,演出効果,,[],verified,0,verified,verified
 1723,character charm,キャラクターチャーム,服装・装飾,装飾品,,[],verified,0,verified,verified
-1724,character doll,キャラクタードール,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-1725,character hair ornament,キャラクターを模した髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1726,character name,キャラクター名,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
+1724,character doll,キャラクタードール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1725,character hair ornament,キャラクターを模した髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+1726,character name,キャラクター名,文字・記号,文字,,[],verified,0,verified,verified
 1727,character print,キャラクタープリント,服装・装飾,衣服,,[],verified,0,verified,verified
-1728,character profile,キャラクター紹介欄,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-1729,character signature,キャラクターの署名,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-1730,charizard (Pokémon),リザードン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-1731,charlotte (madoka magica),シャルロッテ（お菓子の魔女／魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-1732,charlotte e. yeager (Strike Witches),シャーロット・E・イェーガー（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-1733,charm (object),お守り・チャーム,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+1728,character profile,キャラクター紹介欄,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+1729,character signature,キャラクターの署名,文字・記号,文字,,[],verified,0,verified,verified
+1730,charizard (Pokémon),リザードン,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1731,charlotte (madoka magica),シャルロッテ（お菓子の魔女／魔法少女まどか☆マギカ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1732,charlotte e. yeager (Strike Witches),シャーロット・E・イェーガー（ストライクウィッチーズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1733,charm (object),お守り・チャーム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1734,chart,図表,文字・記号,記号・図形,,[],verified,0,verified,verified
-1735,chasing,追いかける,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
+1735,chasing,追いかける,動作・接触,身体動作,,[],verified,0,verified,verified
 1736,chastity cage,貞操ケージ,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-1737,chat log,チャットログ,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-1738,cheating (relationship),浮気,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
+1737,chat log,チャットログ,文字・記号,文字,,[],verified,0,verified,verified
+1738,cheating (relationship),浮気,状態・状況,状況・関係性,,[],verified,0,verified,verified
 1739,checkerboard cookie,チェッカーボードクッキー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1740,checkered background,チェック柄の背景,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
-1741,checkered bow,チェック柄のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+1740,checkered background,チェック柄の背景,背景・場所,場所・室内外,,[],verified,0,verified,verified
+1741,checkered bow,チェック柄のリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1742,checkered clothes,市松模様の服,服装・装飾,衣服,,[],verified,0,verified,verified
-1743,checkered dress,チェック柄のドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+1743,checkered dress,チェック柄のドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1744,checkered flag,チェッカーフラグ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1745,checkered floor,チェック柄の床,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
+1745,checkered floor,チェック柄の床,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1746,checkered kimono,市松模様の着物,服装・装飾,衣服,,[],verified,0,verified,verified
-1747,checkered necktie,チェック柄のネクタイ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1747,checkered necktie,チェック柄のネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1748,checkered sash,チェック柄のサッシュ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
 1749,checkered scarf,チェック柄マフラー,服装・装飾,衣服,,[],verified,0,verified,verified
 1750,checkered shirt,チェック柄のシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
