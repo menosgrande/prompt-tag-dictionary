@@ -1477,11 +1477,11 @@
 1475,bucket hat,バケットハット,服装・装飾,衣服,,[],verified,0,verified,verified
 1476,buckle,バックル,服装・装飾,装飾品,,[],verified,0,verified,verified
 1477,bud,芽,背景・場所,自然・風景,,[],verified,0,verified,verified
-1478,budget sarashi,露出の多いさらし,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1478,budget sarashi,露出の多いさらし,服装・装飾,衣服,,[],verified,2,verified,verified
 1479,bug,昆虫,生物・動植物,動物,,[],verified,0,verified,verified
 1480,building,建物,背景・場所,建築・構造物,,[],verified,0,verified,verified
 1481,bulbasaur (Pokémon),フシギダネ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-1482,bulge,膨らみ,人物の特徴,身体部位・身体状態,,[],verified,2,verified,unreviewed
+1482,bulge,膨らみ,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 1483,bulging eyes,眼球突出,顔・表情,目,,[],verified,0,verified,verified
 1484,bullet,弾丸,家具・設備・物品,武器,,[],verified,0,verified,verified
 1485,bullet hole,弾痕,背景・場所,空間・環境表現,,[],verified,0,verified,verified
@@ -1715,7 +1715,7 @@
 1713,champion uniform,チャンピオンのユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
 1714,chan co,ちゃんこ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 1715,chandelier,シャンデリア,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1716,chando (ado),チャンド,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
+1716,chando (ado),チャンド（Ado）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1717,changli (wuthering waves),長離（鳴潮）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1718,changpao,長袍,服装・装飾,衣服,,[],verified,0,verified,verified
 1719,chanta (ayatakaoisii),チャンタ（ayatakaoisii）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
@@ -1867,7 +1867,7 @@
 1865,cityscape,街並み,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1866,clannad,CLANNAD,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1867,clapping,拍手,動作・接触,身体動作,,[],verified,0,verified,verified
-1868,clarent (fate),クラレント（Fate）,家具・設備・物品,武器,,[],needs-review,0,verified,verified
+1868,clarent (fate),クラレント（Fate）,家具・設備・物品,武器,,[],verified,0,verified,verified
 1869,classroom,教室,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1870,claw (weapon),爪（武器）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1871,claw pose,爪を立てたポーズ,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
@@ -1906,11 +1906,11 @@
 1904,closet,クローゼット,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1905,cloth,布,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1906,clothed animal,服を着た動物,生物・動植物,動物,,[],verified,0,verified,verified
-1907,clothed female nude female,着衣の女性と裸の女性,人数・人物構成,人数・人物構成,,[],verified,2,verified,unreviewed
-1908,clothed female nude male,着衣の女性と裸の男性,人数・人物構成,人数・人物構成,,[],verified,2,verified,unreviewed
-1909,clothed male nude female,着衣の男性と裸の女性,人数・人物構成,人数・人物構成,,[],verified,2,verified,unreviewed
-1910,clothed male nude male,着衣の男性と裸の男性,人数・人物構成,人数・人物構成,,[],verified,2,verified,unreviewed
-1911,clothed pokemon,服を着たポケモン,服装・装飾,衣服,,[],needs-review,0,verified,verified
+1907,clothed female nude female,着衣の女性と裸の女性,人数・人物構成,人数・人物構成,,[],verified,2,verified,verified
+1908,clothed female nude male,着衣の女性と裸の男性,人数・人物構成,人数・人物構成,,[],verified,2,verified,verified
+1909,clothed male nude female,着衣の男性と裸の女性,人数・人物構成,人数・人物構成,,[],verified,2,verified,verified
+1910,clothed male nude male,着衣の男性と裸の男性,人数・人物構成,人数・人物構成,,[],verified,2,verified,verified
+1911,clothed pokemon,服を着たポケモン,服装・装飾,衣服,,[],verified,0,verified,verified
 1912,clothed sex,着衣での性行為,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 1913,clothes,服,服装・装飾,衣服,,[],verified,0,verified,verified
 1914,clothes around waist,腰に巻いた服,服装・装飾,衣服の状態,,[],verified,0,verified,verified
