@@ -257,7 +257,7 @@ async function copyBatchPrompt(){
  const task=$("#batch-task").value;
  const names={translation:"日本語訳と翻訳確認状態",classification:"大分類・小分類・詳細分類と分類確認状態",expressionLevel:"表現レベルと確認状態",all:"翻訳・分類・表現レベル"};
  const fields={translation:"ja, translation_status",classification:"major, minor, detail, classification_review_status",expressionLevel:"expression_level, expression_level_review_status",all:"ja, major, minor, detail, aliases_json, translation_status, expression_level, expression_level_review_status, classification_review_status"};
- const prompt="添付CSVのタグデータを「"+names[task]+"」について整備してください。\n\n厳守事項:\n- CSVのヘッダー11列、行数、行順、index、tagを絶対に変更しない。\n- 編集してよい列は次だけ: "+fields[task]+"。他の列は元の値を完全に維持する。\n- 英文tagは識別子なので変更しない。行の追加・削除・並べ替え・重複作成をしない。\n- 意味・作品名・媒体・分類を確実に判断できない場合は推測せず、該当する確認状態を needs-review にする。\n- 正しい日本語訳・分類は無理に変更しない。既存の値を尊重する。\n- 翻訳・分類・表現レベルの確認状態を混同しない。対象外の確認状態を変更しない。\n- expression_level は確認できた場合のみ0〜4。未判定は空欄のままにし、0を代入しない。\n- CSVの引用符・カンマ・改行を正しくエスケープする。\n- 返答は編集済みCSVファイルのみ。Markdownコードフェンスや説明文をCSVに混ぜない。\n\n現在のバッチID: "+(activeBatch?.batchId||"未作成")+"。CSVの行をすべて保持して返してください。";
+ const prompt="添付CSVのタグデータを「"+names[task]+"」について整備してください。\n\n厳守事項:\n- CSVのヘッダー11列、行数、行順、index、tagを絶対に変更しない。\n- 編集してよい列は次だけ: "+fields[task]+"。他の列は元の値を完全に維持する。\n- 英文tagは識別子なので変更しない。行の追加・削除・並べ替え・重複作成をしない。\n- 意味・作品名・媒体・分類を確実に判断できない場合は推測せず、該当する確認状態を needs-review にする。既存値がある場合は消さずに保持する。\n- 正しい日本語訳・分類は無理に変更しない。既存の値を尊重する。\n- 翻訳・分類・表現レベルの確認状態を混同しない。対象外の確認状態を変更しない。\n- expression_level は確認できた場合のみ0〜4。未判定は空欄のままにし、0を代入しない。\n- CSVの引用符・カンマ・改行を正しくエスケープする。\n- 返答は編集済みCSVファイルのみ。Markdownコードフェンスや説明文をCSVに混ぜない。\n\n現在のバッチID: "+(activeBatch?.batchId||"未作成")+"。CSVの行をすべて保持して返してください。";
  try{await navigator.clipboard.writeText(prompt);$("#batch-status").textContent="AI向け指示をコピーしました。CSVファイルと一緒にChatGPTへ渡してください。";}
  catch(e){$("#batch-status").textContent="クリップボードへコピーできません。ブラウザの権限を確認してください。";}
 }
@@ -274,9 +274,25 @@ async function importBatchFile(){
   for(let n=1;n<records.length;n++){
    const cells=records[n];if(cells.length!==CSV_HEADERS.length)throw new Error("CSV "+(n+1)+"行目の列数が11列ではありません。");
    const index=Number(cells[0]),tag=cells[1],entry=map.get(tag);
-   if(!Number.isInteger(index)||!entry||entry.index!==index||state.tags[index]?.[0]!==tag||seen.has(tag))throw new Error("index/tagの不一致、対象外タグ、または重複があります: "+tag);
+   if(!entry||cells[0]!==String(entry.index)||entry.index!==index||state.tags[index]?.[0]!==tag||seen.has(tag))throw new Error("index/tagの不一致、対象外タグ、または重複があります: "+tag);
    if(activeBatch.completedTags.includes(tag))throw new Error("すでに取り込み済みのタグが含まれています。未処理分CSVを出力してください: "+tag);
    if(JSON.stringify(csvRowFor(index,state.tags[index]))!==JSON.stringify(entry.snapshot))throw new Error("バッチ作成後に辞書側が変更されています。競合を解消してから再出力してください: "+tag);
+   if(activeBatch.task==="translation"||activeBatch.task==="all"){
+    if(!cells[2].trim()&&entry.snapshot[2])throw new Error("既存の日本語訳が空欄にされています: "+tag);
+    if(cells[7]&&!["verified","needs-review","unreviewed","machine-translation","not-applicable"].includes(cells[7]))throw new Error("翻訳状態が不正です: "+tag);
+    if(cells[7]==="verified"&&!cells[2].trim())throw new Error("日本語訳が空欄のまま確認済みにできません: "+tag);
+   }
+   if(activeBatch.task==="classification"||activeBatch.task==="all"){
+    if(!cells[3].trim()||!cells[4].trim())throw new Error("大分類・小分類は空欄にできません: "+tag);
+    if(cells[10]&&!["verified","needs-review","provisional","unreviewed","not-applicable"].includes(cells[10]))throw new Error("分類状態が不正です: "+tag);
+    if(cells[10]==="verified")classificationIds(cells[3],cells[4],tag);
+   }
+   if(activeBatch.task==="expressionLevel"||activeBatch.task==="all"){
+    const level=cells[8]===""?entry.snapshot[8]:cells[8];
+    if(level!==""&&level!=="__CLEAR__"&&!/^[0-4]$/.test(level))throw new Error("表現レベルは0〜4または未設定です: "+tag);
+    if(cells[9]&&!["verified","needs-review","provisional","unreviewed","not-applicable"].includes(cells[9]))throw new Error("表現レベル確認状態が不正です: "+tag);
+    if(cells[9]==="verified"&&(level===""||level==="__CLEAR__"))throw new Error("表現レベルが未設定のまま確認済みにできません: "+tag);
+   }
    for(let col=0;col<cells.length;col++)if(col!==0&&col!==1&&!editable.has(col)&&cells[col]!==entry.snapshot[col])throw new Error("作業対象外の列が変更されています: "+tag+" / "+CSV_HEADERS[col]);
    seen.add(tag);parsed.push({entry,cells});
   }
