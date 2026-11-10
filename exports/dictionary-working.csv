@@ -2235,56 +2235,56 @@
 2233,crying,泣く,顔・表情,顔・表情,,[],verified,0,verified,verified
 2234,crying with eyes open,目を開けたまま泣く,顔・表情,目,,[],verified,0,verified,verified
 2235,crystal,水晶,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-2236,crystal ball,水晶玉,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2237,crystal earrings,水晶のイヤリング,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2238,crystal hair,結晶のような髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2239,crystal wings,水晶の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2240,cu chulainn (fate),クー・フーリン（Fate）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2241,cu chulainn (fate/stay night),クー・フーリン（Fate/stay night）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2242,cube,立方体,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2243,cube hair ornament,立方体の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2244,cucumber,キュウリ,背景・場所,自然・風景,,[],verified,,unreviewed,unreviewed
-2245,cuddling,抱き寄せる,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2246,cuff links,カフリンクス,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2247,cuffs,カフス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2248,cuirass,キュイラス,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
+2236,crystal ball,水晶玉,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2237,crystal earrings,水晶のイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+2238,crystal hair,結晶のような髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2239,crystal wings,水晶の翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2240,cu chulainn (fate),クー・フーリン（Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2241,cu chulainn (fate/stay night),クー・フーリン（Fate/stay night）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2242,cube,立方体,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2243,cube hair ornament,立方体の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+2244,cucumber,キュウリ,生物・動植物,植物,,[],verified,0,verified,verified
+2245,cuddling,抱き寄せる,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
+2246,cuff links,カフリンクス,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
+2247,cuffs,カフス,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+2248,cuirass,キュイラス,服装・装飾,装備・防具,,[],verified,0,verified,unreviewed
 2249,cumdrip,精液が垂れる表現,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 2250,cumdump,肉便器,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-2251,cumulonimbus cloud,積乱雲,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2252,cup,カップ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2253,cup ramen,カップ麺,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2254,cupboard,食器棚,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
-2255,cupcake,カップケーキ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2256,cupless bra,カップレスブラ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2257,cupping hands,両手で包み込む,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
-2258,cure peace (Smile Precure!),キュアピース,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2259,curled fingers,曲げた指,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
-2260,curled horns,巻いた角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2261,curled up,丸まった姿勢,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2262,curly eyebrows,巻き眉,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2263,curly hair,巻き髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2264,curren chan (umamusume),カレンチャン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2265,curry,カレー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2266,curry rice,カレーライス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2267,cursive,筆記体,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2268,cursor,カーソル,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2269,curtain grab,カーテンをつかむ,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-2270,curtained hair,カーテンヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2271,curtains,カーテン,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
-2272,curtsey,カーテシー（お辞儀）,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2273,curvy,曲線的な体つき,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
-2274,cushion,クッション,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2275,cut bangs,前髪を切る,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2276,cute,かわいい,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
+2251,cumulonimbus cloud,積乱雲,背景・場所,自然・風景,,[],verified,0,verified,verified
+2252,cup,カップ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2253,cup ramen,カップ麺,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2254,cupboard,食器棚,家具・設備・物品,家具,,[],verified,0,verified,verified
+2255,cupcake,カップケーキ,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2256,cupless bra,カップレスブラ,服装・装飾,下着,,[],verified,2,verified,verified
+2257,cupping hands,両手で包み込む,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+2258,cure peace (Smile Precure!),キュアピース,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2259,curled fingers,曲げた指,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+2260,curled horns,巻いた角,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2261,curled up,丸まった姿勢,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,unreviewed
+2262,curly eyebrows,巻き眉,顔・表情,顔の特徴,,[],verified,0,verified,verified
+2263,curly hair,巻き髪,髪・頭部,髪・頭部,,[],verified,0,verified,unreviewed
+2264,curren chan (umamusume),カレンチャン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2265,curry,カレー,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2266,curry rice,カレーライス,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2267,cursive,筆記体,文字・記号,文字,,[],verified,0,verified,verified
+2268,cursor,カーソル,文字・記号,記号・図形,,[],verified,0,verified,unreviewed
+2269,curtain grab,カーテンをつかむ,動作・接触,物への接触,,[],verified,0,verified,verified
+2270,curtained hair,カーテン状に分かれた前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2271,curtains,カーテン,背景・場所,建築・構造物,,[],verified,0,verified,unreviewed
+2272,curtsey,カーテシー（お辞儀）,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,unreviewed
+2273,curvy,曲線的な体つき,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
+2274,cushion,クッション,家具・設備・物品,家具,,[],verified,0,verified,verified
+2275,cut bangs,前髪を切る,動作・接触,日常動作,,[],verified,0,verified,verified
+2276,cute,かわいい,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2277,cute & girly (idolmaster),キュート＆ガーリー（アイドルマスター）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2278,cutesexyrobutts,Cutesexyrobutts（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2279,cutoffs,カットオフ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2280,cutout above navel,へそ上のカットアウト,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2281,cuts,切り傷,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2282,cutting,切る,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-2283,cutting board,まな板,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2284,cutting hair,髪を切る,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2285,cyber fashion,サイバーファッション,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
+2278,cutesexyrobutts,Cutesexyrobutts（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2279,cutoffs,カットオフ,服装・装飾,衣服,,[],verified,0,verified,verified
+2280,cutout above navel,へそ上のカットアウト,服装・装飾,肌の露出,,[],verified,1,verified,verified
+2281,cuts,切り傷,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2282,cutting,切る,動作・接触,物への接触,,[],verified,0,verified,verified
+2283,cutting board,まな板,家具・設備・物品,道具,,[],verified,0,verified,verified
+2284,cutting hair,髪を切る,動作・接触,日常動作,,[],verified,0,verified,verified
+2285,cyber fashion,サイバーファッション,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
 2286,cyberpunk,サイバーパンク,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 2287,cyberpunk (series),サイバーパンク（シリーズ）,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
 2288,cyberpunk edgerunners,サイバーパンク: エッジランナーズ,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
