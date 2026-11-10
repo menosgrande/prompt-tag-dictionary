@@ -2855,47 +2855,47 @@
 2853,eyes in shadow,影に隠れた目,顔・表情,目,,[],verified,0,verified,verified
 2854,eyes visible through hair,髪越しに見える目,顔・表情,目,,[],verified,0,verified,verified
 2855,eyeshadow,アイシャドウ,顔・表情,化粧・メイク,,[],verified,0,verified,verified
-2856,eyewear hang,眼鏡をぶら下げる,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2857,eyewear on head,頭に載せた眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2858,eyewear on headwear,帽子に載せた眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2859,eyewear strap,眼鏡ストラップ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2860,eyjafjalla (arknights),エイヤフィヤトラ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2861,ezo red fox (kemono friends),キタキツネ（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2862,face between breasts,胸の間に挟まれた顔,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2863,face down,うつ伏せ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2864,face focus,顔を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2865,face in pillow,枕に埋めた顔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2866,face to breasts,胸に顔を寄せる,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2867,face-to-face,向かい合う,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2868,facebook logo,Facebookのロゴ,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2869,facebook username,Facebookのユーザー名,文字・記号,文字,,[],verified,,unreviewed,unreviewed
-2870,faceless,顔のない人物,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2871,faceless female,顔のない女性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2872,faceless male,顔のない男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2873,facepaint,フェイスペイント,顔・表情,顔の特徴,,[],verified,,unreviewed,unreviewed
-2874,facepalm,顔を手で覆う仕草,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2875,facial,顔射,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2876,facial hair,顔ひげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2877,facial mark,顔の印・模様,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2878,facial tattoo,顔のタトゥー,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2879,facing ahead,正面を向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2880,facing another,相手の方を向く,構図・カメラ,カメラアングル,,[],verified,,unreviewed,unreviewed
-2881,facing away,後ろを向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2882,facing down,下を向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2883,facing to the side,横を向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2884,facing up,上を向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2885,facing viewer,こちらを向く,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2886,fading,薄れて消える表現,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-2887,failure,失敗,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-2888,fairy,妖精,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2889,fairy (kancolle),妖精（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2890,fairy tail,フェアリーテイル,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2891,fairy wings,妖精の翼,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2892,fake animal ears,付け耳（動物耳）,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2893,fake antlers,作り物の枝角,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-2894,fake cover,偽の表紙,文字・記号,文字,,[],verified,,unreviewed,unreviewed
-2895,fake facial hair,付けひげ,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2896,fake halo,偽の光輪,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
+2856,eyewear hang,眼鏡をぶら下げる,服装・装飾,装飾品,,[],verified,0,verified,verified
+2857,eyewear on head,頭に載せた眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
+2858,eyewear on headwear,帽子に載せた眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
+2859,eyewear strap,眼鏡ストラップ,服装・装飾,装飾品,,[],verified,0,verified,verified
+2860,eyjafjalla (arknights),エイヤフィヤトラ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2861,ezo red fox (kemono friends),キタキツネ（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2862,face between breasts,胸の間に挟まれた顔,動作・接触,対人接触・動作,,[],verified,2,verified,verified
+2863,face down,うつ伏せ,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2864,face focus,顔を強調した構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2865,face in pillow,枕に埋めた顔,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2866,face to breasts,胸に顔を寄せる,動作・接触,対人接触・動作,,[],verified,2,verified,verified
+2867,face-to-face,向かい合う,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
+2868,facebook logo,Facebookのロゴ,文字・記号,記号・図形,,[],verified,0,verified,verified
+2869,facebook username,Facebookのユーザー名,文字・記号,文字,,[],verified,0,verified,verified
+2870,faceless,顔のない人物,顔・表情,顔・表情,,[],verified,0,verified,verified
+2871,faceless female,顔のない女性,人物の特徴,人物属性,,[],verified,0,verified,verified
+2872,faceless male,顔のない男性,人物の特徴,人物属性,,[],verified,0,verified,verified
+2873,facepaint,フェイスペイント,顔・表情,化粧・メイク,,[],verified,0,verified,verified
+2874,facepalm,顔を手で覆う仕草,動作・接触,手の動作,,[],verified,0,verified,verified
+2875,facial,顔射,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+2876,facial hair,顔ひげ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2877,facial mark,顔の印・模様,顔・表情,顔・表情,,[],verified,0,verified,verified
+2878,facial tattoo,顔のタトゥー,顔・表情,顔・表情,,[],verified,0,verified,verified
+2879,facing ahead,正面を向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2880,facing another,相手の方を向く,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
+2881,facing away,後ろを向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2882,facing down,下を向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2883,facing to the side,横を向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2884,facing up,上を向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2885,facing viewer,こちらを向く,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2886,fading,薄れて消える表現,光・演出,演出効果,,[],verified,0,verified,verified
+2887,failure,失敗,状態・状況,状態・変化,,[],verified,0,verified,verified
+2888,fairy,妖精,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+2889,fairy (kancolle),妖精（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2890,fairy tail,フェアリーテイル,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2891,fairy wings,妖精の翼,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+2892,fake animal ears,付け耳（動物耳）,人物の特徴,人物属性,,[],verified,0,verified,verified
+2893,fake antlers,作り物の枝角,服装・装飾,装飾品,,[],verified,0,verified,verified
+2894,fake cover,偽の表紙,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2895,fake facial hair,付けひげ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2896,fake halo,偽の光輪,服装・装飾,装飾品,,[],verified,0,verified,verified
 2897,fake horns,作り物の角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2898,fake magazine cover,架空の雑誌表紙,文字・記号,文字,,[],verified,,unreviewed,unreviewed
 2899,fake mustache,付けひげ,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
