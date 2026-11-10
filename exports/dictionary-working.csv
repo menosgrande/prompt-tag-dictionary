@@ -1923,7 +1923,7 @@
 1921,clothes lift,服を持ち上げる,動作・接触,衣服への接触,,[],verified,2,verified,verified
 1922,clothes pin,洗濯ばさみ,家具・設備・物品,道具,,[],verified,0,verified,verified
 1923,clothes pull,服を引っ張る,動作・接触,衣服への接触,,[],verified,0,verified,verified
-1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
+1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,0,verified,verified
 1925,clothes tug,服を引っ張る仕草,動作・接触,衣服への接触,,[],verified,0,verified,verified
 1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,0,verified,verified
 1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,0,verified,verified
@@ -1973,7 +1973,7 @@
 1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1972,cold,寒さ,状態・状況,状態・変化,,[],verified,0,verified,verified
 1973,collage,コラージュ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-1974,collar,首輪,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
+1974,collar,首輪,服装・装飾,衣服,,[],needs-review,0,verified,verified
 1975,collarbone,鎖骨,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1976,collared cape,襟付きケープ,服装・装飾,衣服,,[],verified,0,verified,verified
 1977,collared capelet,襟付きケープレット,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -2034,11 +2034,11 @@
 2032,confession,告白,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 2033,confetti,紙吹雪,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2034,confused,困惑した表情,顔・表情,顔・表情,,[],verified,0,verified,verified
-2035,congratulations,お祝い,背景・場所,空間・環境表現,,[],needs-review,,unreviewed,verified
+2035,congratulations,お祝い,背景・場所,空間・環境表現,,[],needs-review,0,verified,verified
 2036,constellation,星座,背景・場所,自然・風景,,[],verified,0,verified,verified
 2037,constellation print,星座柄,服装・装飾,衣服,,[],verified,0,verified,verified
 2038,constricted pupils,収縮した瞳孔,顔・表情,目,,[],verified,0,verified,verified
-2039,contemporary,現代的な,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2039,contemporary,現代的な,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2040,content rating,コンテンツ評価,文字・記号,文字,,[],verified,0,verified,verified
 2041,contrail,飛行機雲,背景・場所,自然・風景,,[],verified,0,verified,verified
 2042,contrapposto,コントラポスト,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
@@ -2046,7 +2046,7 @@
 2044,controller,コントローラ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 2045,convenience store,コンビニ,背景・場所,建築・構造物,,[],verified,0,verified,verified
 2046,convenient arm,都合よく配置された腕,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
-2047,convenient censoring,都合のよい隠し方,光・演出,演出効果,,[],verified,0,verified,unreviewed
+2047,convenient censoring,都合のよい隠し方,光・演出,演出効果,,[],verified,0,verified,verified
 2048,convenient leg,都合よく配置された脚,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
 2049,converse,コンバース,服装・装飾,靴・履物,,[],verified,0,verified,verified
 2050,cookie,クッキー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -2056,12 +2056,12 @@
 2054,cooking pot,調理鍋,家具・設備・物品,道具,,[],verified,0,verified,verified
 2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,0,verified,verified
 2056,cooler,クーラー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-2057,copy ability,コピー能力,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
+2057,copy ability,コピー能力,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
 2058,copyright name,著作権者名,文字・記号,文字,,[],verified,0,verified,verified
 2059,copyright notice,著作権表示,文字・記号,文字,,[],verified,0,verified,verified
 2060,coral,サンゴ,生物・動植物,動物,,[],verified,0,verified,verified
 2061,corded phone,有線電話,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
-2062,core crystal (xenoblade),コアクリスタル（ゼノブレイド）,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2062,core crystal (xenoblade),コアクリスタル（ゼノブレイド）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2063,cork,コルク,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2064,corn,トウモロコシ,生物・動植物,植物,,[],verified,0,verified,verified
 2065,corpse,死体,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
