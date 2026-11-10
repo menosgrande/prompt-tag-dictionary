@@ -1,4 +1,4 @@
-﻿index,tag,ja,major,minor,detail,aliases_json,translation_status,expression_level,expression_level_review_status,classification_review_status
+﻿﻿index,tag,ja,major,minor,detail,aliases_json,translation_status,expression_level,expression_level_review_status,classification_review_status
 0,!,感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 1,!!,二重感嘆符,文字・記号,記号・図形,,[],verified,0,verified,verified
 2,!?,感嘆符と疑問符,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -28,7 +28,7 @@
 26,2girls,女の子2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 27,2koma,2コマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 28,2others,その他の人物2人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
-29,3:,（3番目）,文字・記号,記号・図形,,[],needs-review,0,verified,verified
+29,3:,3字口（不機嫌な表情）,顔・表情,顔・表情,,[],verified,0,verified,verified
 30,3boys,男の子3人,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
 31,3d,3Dモデル,画風・描写,媒体,,[],verified,0,verified,verified
 32,3d background,3D背景,画風・描写,レンダリング,,[],verified,0,verified,verified
@@ -52,7 +52,7 @@
 50,7th dragon (series),セブンスドラゴン（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 51,8k,8K解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 52,9s (nier:automata),ヨルハ九号S型（ニーア オートマタ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-53,a certain high school uniform,特定の高校の制服,服装・装飾,衣服,,[],needs-review,0,verified,verified
+53,a certain high school uniform,とある高校の制服,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 54,a.i. voice,A.I.VOICE,文字・記号,ロゴ・ブランド表記,,"[""エーアイボイス"",""アイボス""]",verified,0,verified,verified
 55,a1 (initial-g),A1（Initial-G）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 56,aaaa (quad-a),AAAA（Quad-A）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
@@ -83,7 +83,7 @@
 81,ad,広告,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 82,adachi rei (utau),足立レイ（UTAU）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 83,adapted costume,アレンジ衣装,服装・装飾,衣服,,[],verified,0,verified,verified
-84,adapted turret,改造された砲塔（文脈要確認）,家具・設備・物品,機械・装置,,[],verified,0,verified,needs-review
+84,adapted turret,改造砲塔型の砲,家具・設備・物品,武器,,[],verified,0,verified,verified
 85,adapted uniform,アレンジされた制服,服装・装飾,衣服,,[],verified,0,verified,verified
 86,adidas,アディダス,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
 87,adjusting clothes,服を整える,動作・接触,衣服への接触,,[],verified,0,verified,verified
@@ -692,7 +692,7 @@
 690,bandaid on neck,首の絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 691,bandaid on nose,鼻の絆創膏,顔・表情,顔・表情,,[],verified,0,verified,verified
 692,bandaid on thigh,太ももの絆創膏,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-693,bandaids on nipples,乳首に貼った絆創膏,服装・装飾,装飾品,,[],verified,3,verified,needs-review
+693,bandaids on nipples,乳首に貼った絆創膏,服装・装飾,装飾品,,[],verified,3,verified,verified
 694,bandana,バンダナ,服装・装飾,衣服,,[],verified,0,verified,verified
 695,bandana around neck,首に巻いたバンダナ,服装・装飾,装飾品,,[],verified,0,verified,verified
 696,bandeau,バンドゥトップ,服装・装飾,衣服,,[],verified,1,verified,verified
@@ -708,7 +708,7 @@
 706,bar (place),バー（場所）,背景・場所,建築・構造物,,[],verified,0,verified,verified
 707,bar censor,棒状の検閲線,光・演出,演出効果,,[],verified,0,verified,verified
 708,bar stool,バースツール,家具・設備・物品,家具,,[],verified,0,verified,verified
-709,bara,男性同士の恋愛・男性向け作品（薔薇）,画風・描写,画風・表現様式,,[],verified,0,verified,needs-review
+709,bara,男性同士の恋愛・男性向け作品（薔薇）,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 710,barbara (genshin impact),バーバラ（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 711,barbed wire,有刺鉄線,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 712,barbell piercing,バーベル型ピアス,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1148,7 +1148,7 @@
 1146,blue nails,青い爪,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1147,blue neckerchief,青いネッカチーフ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1148,blue necktie,青いネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
-1149,blue oak,ブルーオーク,生物・動植物,植物,,[],needs-review,0,verified,verified
+1149,blue oak,グリーン（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1150,blue one-piece swimsuit,青いワンピース水着,服装・装飾,水着,,[],verified,1,verified,verified
 1151,blue outline,青いアウトライン,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 1152,blue overalls,青いオーバーオール,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1183,10 +1183,10 @@
 1181,blue tabard,青いタバード,服装・装飾,衣服,,[],verified,0,verified,verified
 1182,blue tail,青い尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1183,blue tank top,ブルータンクトップ,服装・装飾,衣服,,[],verified,0,verified,verified
-1184,blue theme,青を基調とした配色,背景・場所,空間・環境表現,,[],verified,0,verified,unreviewed
+1184,blue theme,青を基調とした配色,光・演出,色調・色彩,,[],verified,0,verified,verified
 1185,blue thighhighs,青いサイハイソックス,服装・装飾,靴・履物,,[],verified,0,verified,verified
 1186,blue tongue,青い舌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1187,blue trim,青い縁取り,背景・場所,空間・環境表現,,[],verified,0,verified,unreviewed
+1187,blue trim,青い縁取り,光・演出,色調・色彩,,[],verified,0,verified,verified
 1188,blue tunic,青いチュニック,服装・装飾,衣服,,[],verified,0,verified,verified
 1189,blue umbrella,青い傘,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1190,blue veil,青いベール,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1258,9 +1258,9 @@
 1256,bored,退屈した表情,顔・表情,顔・表情,,[],verified,0,verified,verified
 1257,boris (noborhys),ボリス（ノボリズ）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,0,verified,verified
-1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1260,borrowed design,他の作者が考案した非公式デザイン,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],verified,0,verified,verified
+1260,borrowed design,他の作者が考案した非公式デザインのファンアート,状態・状況,状況・関係性,,[],verified,0,verified,verified
+1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1262,bottle,瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1263,bottomless,下半身裸,服装・装飾,裸体・露出,,[],verified,0,verified,verified
 1264,bouncing breasts,胸が揺れる,動作・接触,身体動作,,[],verified,,unreviewed,verified
@@ -1268,37 +1268,37 @@
 1266,bound ankles,縛られた足首,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1267,bound arms,腕を縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 1268,bound legs,拘束された脚,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-1269,bound together,複数人が一緒に縛られた状態,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
+1269,bound together,複数人が一緒に縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 1270,bound torso,胴体を縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-1271,bound wrists,手首を縛られた状態,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
+1271,bound wrists,手首を縛られた状態,状態・状況,状態・変化,,[],verified,,unreviewed,verified
 1272,bouquet,花束,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1273,bow,リボン結び,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
+1273,bow,リボン結び,服装・装飾,装飾品,,[],verified,0,verified,verified
 1274,bow (bhp),弓（BHP）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1275,bow (music),弓（弦楽器用）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
 1276,bow (weapon),弓（武器）,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1277,bow bikini,リボン付きビキニ,服装・装飾,水着,,[],verified,,unreviewed,verified
 1278,bow bra,リボン付きブラジャー,服装・装飾,下着,,[],verified,,unreviewed,verified
-1279,bow choker,リボン付きチョーカー,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1280,bow earrings,リボン型イヤリング,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1281,bow hairband,リボン付きヘアバンド,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1282,bow legwear,リボン付きレッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+1279,bow choker,リボン付きチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
+1280,bow earrings,リボン型イヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+1281,bow hairband,リボン付きヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
+1282,bow legwear,リボン付きレッグウェア,服装・装飾,衣服,,[],verified,0,verified,unreviewed
 1283,bow panties,リボン付きパンティー,服装・装飾,下着,,[],verified,,unreviewed,verified
-1284,bow skirt,リボン付きスカート,服装・装飾,衣服,,[],verified,,unreviewed,verified
+1284,bow skirt,リボン付きスカート,服装・装飾,衣服,,[],verified,0,verified,verified
 1285,bow tie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1286,bow-shaped hair,弓形の髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,verified
 1287,bowing,お辞儀,動作・接触,身体動作,,[],verified,0,verified,verified
-1288,bowl,ボウル,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1289,bowl cut,おかっぱ,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-1290,bowl hat,ボウル型の帽子,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1291,bowlegged pose,O脚のポーズ,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
-1292,bowler hat,山高帽,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1293,bowser (Super Mario),クッパ,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
-1295,bowtie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1288,bowl,ボウル,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1289,bowl cut,おかっぱ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+1290,bowl hat,ボウル型の帽子,服装・装飾,衣服,,[],verified,0,verified,verified
+1291,bowlegged pose,O脚のポーズ,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+1292,bowler hat,山高帽,服装・装飾,衣服,,[],verified,0,verified,verified
+1293,bowser (Super Mario),クッパ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1295,bowtie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1296,box,箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1297,box art,パッケージイラスト,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
+1297,box art,パッケージイラスト,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
 1298,box of chocolates,チョコレートの箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1299,boxcutter,カッターナイフ,家具・設備・物品,道具,,[],verified,,unreviewed,verified
+1299,boxcutter,カッターナイフ,家具・設備・物品,道具,,[],verified,0,verified,verified
 1300,boxer briefs,ボクサーブリーフ,服装・装飾,下着,,[],verified,,unreviewed,verified
 1301,boxers,ボクサーパンツ,服装・装飾,下着,,[],verified,,unreviewed,verified
 1302,boxing gloves,ボクシンググローブ,服装・装飾,衣服,,[],verified,0,verified,verified
