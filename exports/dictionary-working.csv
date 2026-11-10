@@ -9636,141 +9636,141 @@
 9634,temari ball,手まり,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9635,temple,寺院,背景・場所,建築・構造物,,[],verified,0,verified,verified
 9636,tempura,天ぷら,家具・設備・物品,日用品,,[],verified,0,verified,verified
-9637,tengen toppa gurren lagann,天元突破グレンラガン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9638,tengu,てんぐ,生物・動植物,架空生物・モンスター,,[],unreviewed,,unreviewed,unreviewed
-9639,tengu mask,天狗の面,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9637,tengen toppa gurren lagann,天元突破グレンラガン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9638,tengu,天狗,生物・動植物,架空生物・モンスター,,[],verified,0,verified,needs-review
+9639,tengu mask,天狗の面,服装・装飾,装飾品,,[],verified,0,verified,verified
 9640,tengu-geta,天狗下駄,服装・装飾,靴・履物,,[],needs-review,,unreviewed,unreviewed
-9641,tenka hyakken,天華百剣,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9641,tenka hyakken,天華百剣,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9642,tenma tsukasa,天馬司,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9643,tennis ball,テニスボール,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9644,tennis racket,テニスラケット,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9645,tennis uniform,テニスユニフォーム,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9643,tennis ball,テニスボール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9644,tennis racket,テニスラケット,家具・設備・物品,道具,,[],verified,0,verified,verified
+9645,tennis uniform,テニスユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
 9646,tennoji rina,天王寺璃奈,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9647,tenryuu (kancolle),天龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9648,tensei shitara slime datta ken,転生したらスライムだった件,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9649,tent,テント,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9650,tented shirt,乳テント,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9651,tera online,TERA,キャラクター・作品,タイトル（作品名）,,"[""テラ""]",unreviewed,,unreviewed,unreviewed
-9652,terra branford,ティナ・ブランフォード,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9653,teruterubouzu,てるてる坊主,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9654,teruzuki (kancolle),照月（艦これ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9655,test plugsuit,プラグスーツをテストします,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9656,test tube,試験管,家具・設備・物品,道具,,[],unreviewed,,unreviewed,unreviewed
-9657,testicle grab,玉揉み,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9658,testicle sucking,test丸吸引,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9659,testicles,睾丸,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9660,texas (arknights),テキサス（arknights）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9661,text,文字,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9662,text background,背景テキスト,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9663,text focus,文字へのフォーカス,構図・カメラ,構図・配置,,[],unreviewed,,unreviewed,unreviewed
-9664,text messaging,テキストメッセージング,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9665,text-only page,テキストのみのページ,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9666,tf cafe,TFカフェ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9667,thai text,タイ語,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9668,thank you,ありがとう,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
+9647,tenryuu (kancolle),天龍（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9648,tensei shitara slime datta ken,転生したらスライムだった件,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9649,tent,テント,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9650,tented shirt,テント状に張り出したシャツ,服装・装飾,衣服,,[],verified,1,verified,verified
+9651,tera online,TERA（ゲームタイトル）,キャラクター・作品,タイトル（作品名）,,"[""テラ""]",verified,0,verified,verified
+9652,terra branford,ティナ・ブランフォード（ファイナルファンタジーVI）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9653,teruterubouzu,てるてる坊主,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9654,teruzuki (kancolle),照月（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9655,test plugsuit,テスト用プラグスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
+9656,test tube,試験管,家具・設備・物品,道具,,[],verified,0,verified,verified
+9657,testicle grab,睾丸をつかむ,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9658,testicle sucking,睾丸を吸う,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9659,testicles,睾丸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9660,texas (arknights),テキサス（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9661,text,文字,文字・記号,文字,,[],verified,0,verified,verified
+9662,text background,文字入りの背景,文字・記号,文字,,[],verified,0,verified,needs-review
+9663,text focus,文字を強調した構図,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+9664,text messaging,テキストメッセージのやり取り,文字・記号,文字,,[],verified,0,verified,needs-review
+9665,text-only page,文字だけのページ,文字・記号,文字,,[],verified,0,verified,verified
+9666,tf cafe,TF Cafe,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+9667,thai text,タイ語のテキスト,文字・記号,文字,,[],verified,0,verified,verified
+9668,thank you,ありがとう,文字・記号,文字,,[],verified,0,verified,verified
 9669,the king of fighters,ザ・キング・オブ・ファイターズ,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9670,the legend of zelda,ゼルダの伝説,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9671,the legend of zelda: breath of the wild,ゼルダの伝説 ブレス オブ ザ ワイルド,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9670,the legend of zelda,ゼルダの伝説,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9671,the legend of zelda: breath of the wild,ゼルダの伝説 ブレス オブ ザ ワイルド,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9672,the legend of zelda: ocarina of time,ゼルダの伝説 時のオカリナ,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9673,the legend of zelda: skyward sword,ゼルダの伝説 スカイウォードソード,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9673,the legend of zelda: skyward sword,ゼルダの伝説 スカイウォードソード,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9674,the legend of zelda: tears of the kingdom,ゼルダの伝説 ティアーズ オブ ザ キングダム,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9675,the legend of zelda: twilight princess,ゼルダの伝説 トワイライトプリンセス,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9676,the moon studio,ムーンスタジオ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9677,the pose,うつ伏せで足を上げたポーズ,ポーズ・姿勢,基本姿勢,,[],unreviewed,,unreviewed,unreviewed
-9678,theft,盗難,動作・接触,日常動作,,[],unreviewed,,unreviewed,unreviewed
+9675,the legend of zelda: twilight princess,ゼルダの伝説 トワイライトプリンセス,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9676,the moon studio,The Moon Studio,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+9677,the pose,うつ伏せで足を上げたポーズ,ポーズ・姿勢,基本姿勢,,[],verified,1,verified,verified
+9678,theft,盗み,動作・接触,日常動作,,[],verified,0,verified,verified
 9679,themed object,テーマに沿った小物,家具・設備・物品,その他の物品,,[],needs-review,,unreviewed,unreviewed
 9680,theresa apocalypse,テレサ・アポカリプス,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9681,thermometer,温度計,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-9682,thermos,魔法瓶,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-9683,they had lots of sex afterwards (meme),彼らはその後たくさんのセックスをしました（ミーム）,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9684,thick arm hair,濃い腕毛,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9681,thermometer,温度計,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+9682,thermos,魔法瓶,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9683,they had lots of sex afterwards (meme),彼らはその後たくさんのセックスをしました（ミーム）,動作・接触,性的行為・接触,,[],needs-review,,unreviewed,unreviewed
+9684,thick arm hair,濃い腕毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9685,thick arms,太い腕,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-9686,thick beard,濃いひげ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9687,thick chest hair,濃い胸毛,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9686,thick beard,濃いひげ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9687,thick chest hair,濃い胸毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9688,thick eyebrows,太い眉,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 9689,thick eyelashes,濃いまつげ,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
-9690,thick lips,厚い唇,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-9691,thick mustache,濃い口ひげ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-9692,thick navel hair,濃いへそ毛,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9690,thick lips,厚い唇,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9691,thick mustache,濃い口ひげ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9692,thick navel hair,濃いへそ毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9693,thick thighs,太い太もも,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-9694,thigh belt,太ももベルト,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9695,thigh boots,サイハイブーツ,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,unreviewed
-9696,thigh cutout,太もも部分のカットアウト,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
+9694,thigh belt,太ももベルト,服装・装飾,装飾品,,[],verified,0,verified,verified
+9695,thigh boots,サイハイブーツ,服装・装飾,靴・履物,,[],verified,1,verified,verified
+9696,thigh cutout,太もも部分が開いた服,服装・装飾,衣服,,[],verified,1,verified,verified
 9697,thigh gap,太ももの隙間,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 9698,thigh grab,太ももをつかむ,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
-9699,thigh holster,太もものホルスター,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,unreviewed
-9700,thigh pouch,太ももポーチ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9701,thigh ribbon,太ももリボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9702,thigh sex,太もものセックス,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9703,thigh strap,太ももストラップ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9699,thigh holster,太もものホルスター,服装・装飾,装備・防具,,[],verified,0,verified,verified
+9700,thigh pouch,太ももポーチ,服装・装飾,装飾品,,[],verified,0,verified,verified
+9701,thigh ribbon,太もものリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
+9702,thigh sex,太ももを使った性行為,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9703,thigh strap,太ももストラップ,服装・装飾,装飾品,,[],verified,0,verified,verified
 9704,thighband pantyhose,太ももバンド付きパンスト,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9705,thighhighs,ニーソックス,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+9705,thighhighs,ニーハイソックス,服装・装飾,靴・履物,,[],verified,1,verified,verified
 9706,thighhighs over pantyhose,パンストの上にニーハイ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9707,thighhighs pull,ニーハイを引っ張る,服装・装飾,靴・履物,,[],needs-review,,unreviewed,unreviewed
 9708,thighhighs under boots,ブーツの下に履いたニーハイ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9709,thighlet,サイレット（太もも用レッグウェア）,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9710,thighs,太もも,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
-9711,thinking,考え込む,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9712,third eye,第三の目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
+9709,thighlet,太ももリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+9710,thighs,太もも,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9711,thinking,考え込む,人物の特徴,人物属性,,[],verified,0,verified,verified
+9712,third eye,第三の目,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
 9713,thong,Tバック,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
 9714,thong aside,Tバックを脇にずらす,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
 9715,thong bikini,Tバックビキニ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9716,thong leotard,Tバックレオタード,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
-9717,thorns,茨,生物・動植物,植物,,[],unreviewed,,unreviewed,unreviewed
+9717,thorns,茨,生物・動植物,植物,,[],verified,0,verified,verified
 9718,thought bubble,思考の吹き出し,文字・記号,吹き出し,,[],needs-review,,unreviewed,unreviewed
-9719,thread,糸,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9720,three quarter view,斜め3/4の視点,構図・カメラ,構図・配置,,[],unreviewed,,unreviewed,unreviewed
-9721,three-dimensional maneuver gear,3次元操作ギア,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,unreviewed
-9722,throat microphone,喉元に装着するマイク,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
+9719,thread,糸,家具・設備・物品,道具,,[],verified,0,verified,verified
+9720,three quarter view,斜め3/4の視点,構図・カメラ,カメラアングル,,[],verified,0,verified,verified
+9721,three-dimensional maneuver gear,立体機動装置（進撃の巨人）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9722,throat microphone,スロートマイク,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 9723,throne,玉座,家具・設備・物品,家具,,[],needs-review,,unreviewed,unreviewed
-9724,through clothes,服を通して,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9725,through medium,打破次元壁,構図・カメラ,フレーミング,,[],unreviewed,,unreviewed,unreviewed
-9726,through screen,画面を通して,構図・カメラ,フレーミング,,[],unreviewed,,unreviewed,unreviewed
-9727,through wall,壁を通して,構図・カメラ,フレーミング,,[],unreviewed,,unreviewed,unreviewed
+9724,through clothes,服越しに,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+9725,through medium,媒体を通り抜ける,構図・カメラ,フレーミング,,[],verified,0,verified,needs-review
+9726,through screen,画面を通り抜ける,構図・カメラ,フレーミング,,[],verified,0,verified,needs-review
+9727,through wall,壁を通り抜ける,構図・カメラ,フレーミング,,[],verified,0,verified,needs-review
 9728,throwing,投げる,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-9729,throwing knife,ナイフを投げる,動作・接触,手の動作,,[],unreviewed,,unreviewed,unreviewed
-9730,thrusters,スラスタ,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-9731,thumb ring,親指のリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9729,throwing knife,ナイフを投げる,動作・接触,手の動作,,[],verified,0,verified,needs-review
+9730,thrusters,スラスター,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+9731,thumb ring,親指の指輪,服装・装飾,装飾品,,[],verified,0,verified,verified
 9732,thumbs down,親指を下に向けるジェスチャー,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,unreviewed
-9733,thumbs up,親指を立てるジェスチャー,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,unreviewed
-9734,thunderstorm,雷雨,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
-9735,tiara,ティアラ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9736,ticket,チケット,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9737,tickling,くすぐり,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,unreviewed
+9733,thumbs up,親指を立てる,ポーズ・姿勢,手足の配置,,[],verified,0,verified,needs-review
+9734,thunderstorm,雷雨,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+9735,tiara,ティアラ,服装・装飾,装飾品,,[],verified,0,verified,verified
+9736,ticket,チケット,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9737,tickling,くすぐる,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 9738,tickling armpits,脇をくすぐる,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,unreviewed
 9739,tickling feet,足裏をくすぐる,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-9740,tie,ネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9741,tie clip,ネクタイピン,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9742,tied jacket,縛られたジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9743,tied shirt,縛られたシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9740,tie,ネクタイ,服装・装飾,衣服,,[],verified,0,verified,verified
+9741,tie clip,ネクタイピン,服装・装飾,装飾品,,[],verified,0,verified,verified
+9742,tied jacket,裾を結んだジャケット,服装・装飾,衣服の状態,,[],verified,1,verified,verified
+9743,tied shirt,裾を結んだシャツ,服装・装飾,衣服の状態,,[],verified,1,verified,verified
 9744,tied up (nonsexual),拘束されている（非性的）,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 9745,tiered tray,段付きトレイ,家具・設備・物品,家具,,[],needs-review,,unreviewed,unreviewed
-9746,tifa lockhart,ティファ・ロックハート,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9747,tiger,トラ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9748,tiger & bunny,TIGER & BUNNY,キャラクター・作品,タイトル（作品名）,,"[""タイガー＆バニー""]",unreviewed,,unreviewed,unreviewed
-9749,tiger boy,虎の特徴を持つ少年,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9750,tiger ears,虎の耳,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9751,tiger girl,虎の特徴を持つ少女,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+9746,tifa lockhart,ティファ・ロックハート（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9747,tiger,トラ,生物・動植物,動物,,[],verified,0,verified,verified
+9748,tiger & bunny,TIGER & BUNNY,キャラクター・作品,タイトル（作品名）,,"[""タイガー＆バニー""]",verified,0,verified,verified
+9749,tiger boy,虎の特徴を持つ少年,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
+9750,tiger ears,虎耳,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+9751,tiger girl,虎の特徴を持つ少女,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
 9752,tiger print,虎柄,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9753,tiger stripes,虎縞,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9754,tiger tail,虎しっぽ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9755,tighnari (genshin impact),ティナリ（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+9753,tiger stripes,虎縞,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9754,tiger tail,虎の尻尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9755,tighnari (genshin impact),ティナリ（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 9756,tight clothes,体にぴったりした服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9757,tight dress,体にぴったりしたドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9758,tight pants,タイトなズボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9759,tight shirt,タイトなシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9758,tight pants,タイトなズボン,服装・装飾,衣服,,[],verified,0,verified,verified
+9759,tight shirt,体にぴったりしたシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
 9760,tiki (fire emblem),チキ（ファイアーエムブレム）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-9761,tile floor,タイル張りの床,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9762,tile wall,タイル張りの壁,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9763,tiles,タイル,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9764,tilted headwear,傾斜した帽子,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9765,tima,ティマ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9766,time paradox,時間パラドックス,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9767,timestamp,タイムスタンプ,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9768,tinted eyewear,着色アイウェア,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9761,tile floor,タイル張りの床,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9762,tile wall,タイル張りの壁,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9763,tiles,タイル,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9764,tilted headwear,傾いた帽子,服装・装飾,装飾品,,[],verified,0,verified,needs-review
+9765,tima,ちぃま（作者）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+9766,time paradox,時間のパラドックス,状態・状況,状況・関係性,,[],verified,0,verified,needs-review
+9767,timestamp,タイムスタンプ,文字・記号,文字,,[],verified,0,verified,verified
+9768,tinted eyewear,色付きレンズの眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
 9769,tippy (gochiusa),ティッピー（ご注文はうさぎですか？）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9770,tiptoes,つま先,ポーズ・姿勢,手足の配置,,[],unreviewed,,unreviewed,unreviewed
-9771,tissue,組織,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+9770,tiptoes,つま先立ち,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+9771,tissue,ティッシュ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9772,tissue box,ティッシュボックス,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
 9773,title,タイトル,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
 9774,title parody,タイトルパロディ,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
