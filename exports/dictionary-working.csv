@@ -68,7 +68,7 @@
 66,absurdres,超高解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 67,abubu,あぶぶ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 68,abukuma (kancolle),阿武隈（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-69,abuse,虐待,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
+69,abuse,虐待,状態・状況,状態・変化,,[],verified,0,verified,needs-review
 70,abyssal ship,深海棲艦,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 72,accident,事故,状態・状況,状況・関係性,,[],verified,0,verified,verified
@@ -1296,13 +1296,13 @@
 1294,bowsette (Super Mario),クッパ姫,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1295,bowtie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1296,box,箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1297,box art,パッケージイラスト,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+1297,box art,パッケージイラスト,画風・描写,媒体,,[],verified,0,verified,verified
 1298,box of chocolates,チョコレートの箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1299,boxcutter,カッターナイフ,家具・設備・物品,道具,,[],verified,0,verified,verified
 1300,boxer briefs,ボクサーブリーフ,服装・装飾,下着,,[],verified,0,verified,verified
 1301,boxers,ボクサーパンツ,服装・装飾,下着,,[],verified,0,verified,verified
 1302,boxing gloves,ボクシンググローブ,服装・装飾,衣服,,[],verified,0,verified,verified
-1303,boy on top,男性が相手の上にいる状態,ポーズ・姿勢,対人配置,,[],verified,,unreviewed,verified
+1303,boy on top,男性が相手の上にいる状態,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
 1304,boy sandwich,少年サンドイッチ,動作・接触,性的行為・接触,,[],needs-review,4,verified,verified
 1305,bra,ブラジャー,服装・装飾,下着,,[],verified,3,verified,verified
 1306,bra lift,ブラジャーをたくし上げる,動作・接触,衣服への接触,,[],verified,3,verified,verified
@@ -1642,7 +1642,7 @@
 1640,cat cutout,猫型の切り抜き,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1641,cat day,猫の日,生物・動植物,動物,,[],verified,0,verified,verified
 1642,cat ear hairband,猫耳カチューシャ,服装・装飾,装飾品,,[],verified,0,verified,verified
-1643,cat ear headphones,猫耳ヘッドホン,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
+1643,cat ear headphones,猫耳ヘッドホン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1644,cat ear legwear,猫耳付きレッグウェア,服装・装飾,衣服,,[],verified,0,verified,verified
 1645,cat ear panties,猫耳付きパンティー,服装・装飾,下着,,[],verified,1,verified,verified
 1646,cat ears,猫耳,人物の特徴,人物属性,,[],verified,0,verified,verified
