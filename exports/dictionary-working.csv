@@ -1922,57 +1922,57 @@
 1920,clothes in mouth,口にくわえた服,動作・接触,身体への接触,,[],verified,1,verified,verified
 1921,clothes lift,服を持ち上げる,動作・接触,衣服への接触,,[],verified,2,verified,verified
 1922,clothes pin,洗濯ばさみ,家具・設備・物品,道具,,[],verified,0,verified,verified
-1923,clothes pull,服を引っ張る,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+1923,clothes pull,服を引っ張る,動作・接触,衣服への接触,,[],verified,0,verified,verified
 1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
-1925,clothes tug,服を引っ張る仕草,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1928,clothing aside,ずらされた衣服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,,unreviewed,verified
-1930,cloud,雲,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
-1931,cloud print,雲柄,背景・場所,自然・風景,,[],verified,0,verified,needs-review
-1932,cloud strife,クラウド・ストライフ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-1933,clouds,雲,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
-1934,cloudy,曇り,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
-1935,cloudy sky,曇り空,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
-1936,clover,クローバー,生物・動植物,植物,,[],verified,,unreviewed,verified
-1937,clover hair ornament,クローバーの髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1938,clover print,クローバープリント,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1939,clown,道化師,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-1940,clown nose,ピエロの付け鼻,顔・表情,顔・表情,,[],verified,,unreviewed,verified
-1941,clownfish,クマノミ,生物・動植物,動物,,[],verified,,unreviewed,verified
-1942,clownpiece (Touhou Project),クラウンピース,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
-1943,club (shape),クラブ形（トランプのスート）,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-1944,club (weapon),棍棒,家具・設備・物品,武器,,[],needs-review,,unreviewed,verified
-1945,clueless,何が起きているか分からない様子,動作・接触,対人接触・動作,,[],needs-review,,unreviewed,verified
-1946,coat,コート,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1947,coat dress,コートドレス,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1948,coat on shoulders,肩に掛けたコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1949,coat partially removed,片側を脱ぎかけたコート,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1950,coattails,コートの裾,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1951,cobblestone,石畳,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-1952,coca-cola,コカコーラ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-1953,cockpit,操縦席,背景・場所,場所・室内外,,[],verified,,unreviewed,verified
-1954,cockroach,ゴキブリ,生物・動植物,動物,,[],verified,,unreviewed,verified
-1955,cocktail,カクテル,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-1956,cocktail dress,カクテルドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1957,cocktail glass,カクテルグラス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-1958,coconut,ココナッツ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1959,coconut tree,ココナッツの木,生物・動植物,植物,,[],verified,,unreviewed,verified
-1960,code geass,コードギアス 反逆のルルーシュ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-1961,coffee,コーヒー,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1962,coffee mug,コーヒーマグカップ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1963,coffee pot,コーヒーポット,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1964,coffin,棺桶,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1965,coif,コイフ（頭巾）,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1966,coin,コイン,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-1967,coin hair ornament,コイン型の髪飾り,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1968,coin on string,紐に通したコイン,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-1969,coin purse,小銭入れ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1970,coke-bottle glasses,瓶底眼鏡,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-1972,cold,寒さ,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-1973,collage,コラージュ,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
+1925,clothes tug,服を引っ張る仕草,動作・接触,衣服への接触,,[],verified,0,verified,verified
+1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1928,clothing aside,ずらされた衣服,服装・装飾,衣服の状態,,[],verified,2,verified,verified
+1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,2,verified,verified
+1930,cloud,雲,背景・場所,場所・室内外,,[],verified,0,verified,verified
+1931,cloud print,雲柄,服装・装飾,衣服,,[],verified,0,verified,verified
+1932,cloud strife,クラウド・ストライフ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1933,clouds,雲,背景・場所,場所・室内外,,[],verified,0,verified,verified
+1934,cloudy,曇り,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+1935,cloudy sky,曇り空,背景・場所,場所・室内外,,[],verified,0,verified,verified
+1936,clover,クローバー,生物・動植物,植物,,[],verified,0,verified,verified
+1937,clover hair ornament,クローバーの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+1938,clover print,クローバープリント,服装・装飾,衣服,,[],verified,0,verified,verified
+1939,clown,道化師,人物の特徴,人物属性,,[],verified,0,verified,verified
+1940,clown nose,ピエロの付け鼻,顔・表情,顔・表情,,[],verified,0,verified,verified
+1941,clownfish,クマノミ,生物・動植物,動物,,[],verified,0,verified,verified
+1942,clownpiece (Touhou Project),クラウンピース（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+1943,club (shape),クラブ形（トランプのスート）,文字・記号,記号・図形,,[],verified,0,verified,verified
+1944,club (weapon),棍棒,家具・設備・物品,武器,,[],verified,0,verified,verified
+1945,clueless,状況が理解できていない様子,状態・状況,状態・変化,,[],verified,0,verified,verified
+1946,coat,コート,服装・装飾,衣服,,[],verified,0,verified,verified
+1947,coat dress,コートドレス,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1948,coat on shoulders,肩に掛けたコート,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+1949,coat partially removed,片側を脱ぎかけたコート,服装・装飾,衣服の状態,,[],verified,2,verified,verified
+1950,coattails,コートの裾,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1951,cobblestone,石畳,背景・場所,自然・風景,,[],verified,0,verified,verified
+1952,coca-cola,コカコーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1953,cockpit,操縦席,背景・場所,場所・室内外,,[],verified,0,verified,verified
+1954,cockroach,ゴキブリ,生物・動植物,動物,,[],verified,0,verified,verified
+1955,cocktail,カクテル,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1956,cocktail dress,カクテルドレス,服装・装飾,衣服,,[],verified,0,verified,verified
+1957,cocktail glass,カクテルグラス,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1958,coconut,ココナッツ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1959,coconut tree,ココナッツの木,生物・動植物,植物,,[],verified,0,verified,verified
+1960,code geass,コードギアス 反逆のルルーシュ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+1961,coffee,コーヒー,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1962,coffee mug,コーヒーマグカップ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1963,coffee pot,コーヒーポット,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1964,coffin,棺桶,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1965,coif,コイフ（頭巾）,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1966,coin,コイン,家具・設備・物品,日用品,,[],verified,0,verified,verified
+1967,coin hair ornament,コイン型の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+1968,coin on string,紐に通したコイン,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
+1969,coin purse,小銭入れ,服装・装飾,装飾品,,[],verified,0,verified,verified
+1970,coke-bottle glasses,瓶底眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
+1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+1972,cold,寒さ,状態・状況,状態・変化,,[],verified,0,verified,verified
+1973,collage,コラージュ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 1974,collar,首輪,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
 1975,collarbone,鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 1976,collared cape,襟付きケープ,服装・装飾,衣服,,[],verified,,unreviewed,verified
