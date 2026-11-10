@@ -68,7 +68,7 @@
 66,absurdres,超高解像度,品質・ネガティブ,解像度・精細度,,[],verified,0,verified,verified
 67,abubu,アブブ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 68,abukuma (kancolle),阿武隈（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-69,abuse,乱用,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
+69,abuse,虐待,状態・状況,状態・変化,,[],needs-review,0,verified,needs-review
 70,abyssal ship,深海棲艦,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 71,accelerator (toaru majutsu no index),アクセラレータ（とある魔術の禁書目録）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 72,accident,事故,状態・状況,状況・関係性,,[],verified,0,verified,verified
@@ -106,7 +106,7 @@
 104,aegyo sal,涙袋,顔・表情,目,,[],verified,0,verified,verified
 105,aerial fireworks,打ち上げ花火,光・演出,演出効果,,[],verified,0,verified,verified
 106,aerith gainsborough (Final Fantasy VII),エアリス・ゲインズブール（ファイナルファンタジーVII）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-107,aestus estus,Aestus Estus（固有名詞・表記要確認）,家具・設備・物品,その他の物品,,[],verified,0,verified,needs-review
+107,aestus estus,原初の火（Fate/EXTRA）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 108,aether (genshin impact),空（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 109,affectionate,愛情深い,状態・状況,状況・関係性,,[],verified,0,verified,verified
 110,afloat,浮かんでいる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
@@ -409,7 +409,7 @@
 407,arcade cabinet,アーケードゲーム筐体,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 408,arcane: league of legends,アーケイン（リーグ・オブ・レジェンド／アニメシリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 409,arch,アーチ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-410,arch bishop (ragnarok online),アークビショップ（ラグナロクオンライン）,キャラクター・作品,キャラクター,,[],verified,0,verified,needs-review
+410,arch bishop (ragnarok online),アークビショップ（ラグナロクオンライン）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 411,arched back,背中を反らす,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 412,arched bangs,カーブした前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 413,arched crown,アーチ状の王冠,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1042,7 +1042,7 @@
 1040,blade (galaxist),ブレード（Galaxist）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1041,blade (honkai: star rail),刃（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1042,blake belladonna (RWBY),ブレイク・ベラドンナ（RWBY）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-1043,blake bloom (wuthering waves),ブラント（鳴潮）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,needs-review
+1043,blake bloom (wuthering waves),黒花（鳴潮）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 1044,blank censor,無地の検閲帯,光・演出,演出効果,,[],verified,0,verified,verified
 1045,blank eyes,虚ろな目,顔・表情,目,,[],verified,0,verified,verified
 1046,blank speech bubble,空白の吹き出し,文字・記号,記号・図形,,[],verified,0,verified,verified
@@ -1166,8 +1166,8 @@
 1164,blue sash,青い帯,服装・装飾,装飾品,,[],verified,0,verified,verified
 1165,blue scarf,青いスカーフ,服装・装飾,衣服,,[],verified,0,verified,verified
 1166,blue sclera,青い強膜,顔・表情,目,,[],verified,0,verified,verified
-1167,blue scrunchie,青いシュシュ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-1168,blue serafuku,青いセーラー服,服装・装飾,衣服,,[],verified,,unreviewed,verified
+1167,blue scrunchie,青いシュシュ,服装・装飾,装飾品,,[],verified,0,verified,verified
+1168,blue serafuku,青いセーラー服,服装・装飾,衣服,,[],verified,0,verified,verified
 1169,blue shawl,ブルーショール,服装・装飾,衣服,,[],verified,0,verified,verified
 1170,blue shirt,青いシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1171,blue shorts,青いショートパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1183,10 +1183,10 @@
 1181,blue tabard,青いタバード,服装・装飾,衣服,,[],verified,0,verified,verified
 1182,blue tail,青い尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1183,blue tank top,ブルータンクトップ,服装・装飾,衣服,,[],verified,0,verified,verified
-1184,blue theme,青を基調とした配色,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
-1185,blue thighhighs,青いサイハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
+1184,blue theme,青を基調とした配色,背景・場所,空間・環境表現,,[],verified,0,verified,unreviewed
+1185,blue thighhighs,青いサイハイソックス,服装・装飾,靴・履物,,[],verified,0,verified,verified
 1186,blue tongue,青い舌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1187,blue trim,青い縁取り,背景・場所,空間・環境表現,,[],verified,,unreviewed,unreviewed
+1187,blue trim,青い縁取り,背景・場所,空間・環境表現,,[],verified,0,verified,unreviewed
 1188,blue tunic,青いチュニック,服装・装飾,衣服,,[],verified,0,verified,verified
 1189,blue umbrella,青い傘,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1190,blue veil,青いベール,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1195,43 +1195,43 @@
 1193,blue wings,青い翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1194,blue wrist cuffs,青い手首カフス,服装・装飾,装飾品,,[],verified,0,verified,verified
 1195,blue-framed eyewear,青いフレームの眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
-1196,blue-tinted eyewear,青みがかったレンズの眼鏡,服装・装飾,装飾品,,[],verified,,unreviewed,verified
+1196,blue-tinted eyewear,青みがかったレンズの眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
 1197,blueberry,ブルーベリー,生物・動植物,植物,,[],verified,0,verified,verified
 1198,blunt bangs,ぱっつん,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1199,blunt ends,毛先が一直線に切りそろえられた髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-1200,blunt tresses,毛先を切りそろえた髪,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+1199,blunt ends,毛先が一直線に切りそろえられた髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+1200,blunt tresses,毛先を切りそろえた髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1201,blur censor,ぼかし検閲,光・演出,演出効果,,[],verified,0,verified,verified
-1202,blurry,ぼやけた描写,品質・ネガティブ,低品質・ノイズ,,[],verified,,unreviewed,verified
-1203,blurry background,ぼけた背景,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
-1204,blurry foreground,ぼけた前景,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+1202,blurry,ぼやけた描写,品質・ネガティブ,低品質・ノイズ,,[],verified,0,verified,verified
+1203,blurry background,ぼけた背景,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+1204,blurry foreground,ぼけた前景,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1205,blush,赤面,顔・表情,顔・表情,,[],verified,0,verified,verified
-1206,blush stickers,頬の赤面マーク,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+1206,blush stickers,頬の赤面マーク,顔・表情,顔・表情,,[],verified,0,verified,verified
 1207,blushing,照れ,顔・表情,顔・表情,,[],verified,0,verified,verified
 1208,bo staff,棒術,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1209,boar,イノシシ,生物・動植物,動物,,[],verified,0,verified,verified
 1210,board game,ボードゲーム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1211,boat,ボート,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1212,boater hat,カンカン帽,服装・装飾,衣服,,[],verified,0,verified,verified
-1213,bob cut,ボブカット,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
+1213,bob cut,ボブカット,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1214,bobby socks,ボビーソックス,服装・装飾,衣服,,[],verified,0,verified,verified
-1215,bocchi the rock!,ぼっち・ざ・ろっく！,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+1215,bocchi the rock!,ぼっち・ざ・ろっく！,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1216,bodice,ボディス,服装・装飾,衣服,,[],verified,0,verified,verified
 1217,body armor,ボディアーマー,服装・装飾,衣服,,[],verified,0,verified,verified
-1218,body blush,身体の赤面表現,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1219,body freckles,身体のそばかす,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1220,body fur,体毛,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+1218,body blush,身体の赤面表現,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1219,body freckles,身体のそばかす,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1220,body fur,体毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1221,body hair,体毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-1222,body horror,ボディホラー,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-1223,body markings,身体の模様,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1224,body switch,身体の入れ替わり,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-1225,body writing,身体に書かれた文字,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-1226,bodypaint,ボディペイント,人物の特徴,人物属性,,[],verified,,unreviewed,verified
+1222,body horror,ボディホラー,画風・描写,画風・表現様式,,[],verified,0,verified,verified
+1223,body markings,身体の模様,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1224,body switch,身体の入れ替わり,状態・状況,状態・変化,,[],verified,0,verified,verified
+1225,body writing,身体に書かれた文字,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1226,bodypaint,ボディペイント,人物の特徴,人物属性,,[],verified,0,verified,verified
 1227,bodystocking,全身タイツ,服装・装飾,衣服,,[],verified,0,verified,verified
-1228,bodysuit,ボディスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
+1228,bodysuit,ボディスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1229,bodysuit under clothes,服の下にボディスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1230,bokeh,玉ボケ,光・演出,照明・光源,,[],verified,0,verified,verified
-1231,bokken,木刀,家具・設備・物品,武器,,[],verified,,unreviewed,verified
-1232,boko (girls und panzer),ボコ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,verified
+1231,bokken,木刀,家具・設備・物品,武器,,[],verified,0,verified,verified
+1232,boko (girls und panzer),ボコ（ガールズ＆パンツァー）,キャラクター・作品,キャラクター,,[],needs-review,0,verified,verified
 1233,boku no hero academia,僕のヒーローアカデミア,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 1234,boku wa tomodachi ga sukunai,僕は友達が少ない,キャラクター・作品,タイトル（作品名）,,[],needs-review,0,verified,verified
 1235,bolo tie,ボロタイ,服装・装飾,衣服,,[],verified,0,verified,verified
@@ -1244,8 +1244,8 @@
 1242,boned meat,骨付き肉,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1243,bonnet,ボンネット,服装・装飾,衣服,,[],verified,0,verified,verified
 1244,bonsai,盆栽,生物・動植物,植物,,[],verified,0,verified,verified
-1245,boo tao (genshin impact),胡桃（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-1246,boobplate,胸部装甲,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
+1245,boo tao (genshin impact),胡桃（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
+1246,boobplate,胸部装甲,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1247,book,本,家具・設備・物品,家具,,[],verified,0,verified,verified
 1248,book cover,書籍カバー,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 1249,book stack,本の山,家具・設備・物品,家具,,[],verified,0,verified,verified
@@ -1254,10 +1254,10 @@
 1252,booth seating,ブース席,背景・場所,建築・構造物,,[],verified,0,verified,verified
 1253,boots,ブーツ,服装・装飾,靴・履物,,[],verified,0,verified,verified
 1254,border,枠線,構図・カメラ,構図・配置,,[],verified,0,verified,verified
-1255,borderless panels,枠線のないコマ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-1256,bored,退屈した表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+1255,borderless panels,枠線のないコマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+1256,bored,退屈した表情,顔・表情,顔・表情,,[],verified,0,verified,verified
 1257,boris (noborhys),ボリス（ノボリズ）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
+1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,0,verified,verified
 1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],verified,,unreviewed,verified
 1260,borrowed design,他の作者が考案した非公式デザイン,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 1261,boruto: naruto next generations,BORUTO-ボルト- NARUTO NEXT GENERATIONS,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
