@@ -8712,38 +8712,38 @@
 8710,simple background,シンプルな背景,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 8711,simple bird,シンプルな鳥,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8712,simplified chinese text,簡体字のテキスト,文字・記号,文字,,[],verified,0,verified,verified
-8713,sinclair (project moon),シンクレア,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
+8713,sinclair (project moon),シンクレア,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 8714,sincos,シンコス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8715,singing,歌う,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-8716,single arm warmer,シングルアームウォーマー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-8717,single bare foot,片足だけ裸足,服装・装飾,肌の露出,,[],unreviewed,,unreviewed,verified
+8716,single arm warmer,片腕のアームウォーマー,服装・装飾,装飾品,,[],verified,0,verified,verified
+8717,single bare foot,片足だけ裸足,服装・装飾,肌の露出,,[],verified,1,verified,verified
 8718,single bare leg,片脚だけ露出した状態,服装・装飾,肌の露出,,[],needs-review,,unreviewed,verified
 8719,single bare shoulder,片肩だけ露出した状態,服装・装飾,肌の露出,,[],needs-review,,unreviewed,verified
 8720,single boot,片足だけのブーツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 8721,single braid,一本の三つ編み,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 8722,single bridal gauntlet,片腕だけのブライダルガントレット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 8723,single detached sleeve,片側だけの取り外し可能な袖,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8724,single ear cover,片耳カバー,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8725,single ear down,片耳が垂れている,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+8724,single ear cover,片耳カバー,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
+8725,single ear down,片耳が垂れている,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
 8726,single earring,片耳イヤリング,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-8727,single elbow glove,シングルエルボグローブ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8727,single elbow glove,片腕だけの肘丈グローブ,服装・装飾,装飾品,,[],verified,0,verified,verified
 8728,single epaulette,片側だけの肩章,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8729,single fingerless glove,片手だけの指なし手袋,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8730,single fishnet legwear,片足だけの網タイツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-8731,single garter strap,シングルガーターストラップ,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
+8731,single garter strap,片側のガーターストラップ,服装・装飾,下着,,[],verified,1,verified,verified
 8732,single gauntlet,片腕だけのガントレット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
 8733,single glove,片手だけの手袋,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-8734,single hair bun,お団子頭,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-8735,single hair intake,単一の髪の摂取,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+8734,single hair bun,お団子ヘア（1つ）,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+8735,single hair intake,単一の髪の摂取,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 8736,single hair ring,一本のヘアリング,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-8737,single hair tube,シングルヘアチューブ,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+8737,single hair tube,シングルヘアチューブ,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
 8738,single head wing,片側だけの頭部の翼,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 8739,single horizontal stripe,一本の横縞,画風・描写,描画技法,,[],verified,,unreviewed,verified
 8740,single horn,一本角,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-8741,single knee pad,シングル膝パッド,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,unreviewed
+8741,single knee pad,片膝のニーパッド,服装・装飾,装備・防具,,[],verified,0,verified,verified
 8742,single kneehigh,片足だけのニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-8743,single leg pantyhose,片脚パンティホース,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8744,single mechanical arm,片方だけ機械の腕,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,verified
+8743,single leg pantyhose,片脚だけのパンティストッキング,服装・装飾,下着,,[],verified,1,verified,verified
+8744,single mechanical arm,片腕が機械化している,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 8745,single off shoulder,片側だけ肩を出した服装,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
 8746,single pantsleg,片脚だけのズボン,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8747,single pauldron,片側だけの肩当て,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
@@ -8766,24 +8766,24 @@
 8764,sink,流し台,家具・設備・物品,設備,,[],verified,,unreviewed,verified
 8765,sinoalice,シノアリス,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
 8766,sinon,シノン,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
-8767,sirius (azur lane),シリウス（アズールレーン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8768,sirius symboli (umamusume),シリウスシンボリ（ウマ娘）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8767,sirius (azur lane),シリアス（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8768,sirius symboli (umamusume),シリウスシンボリ（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8769,sisters,姉妹,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
 8770,sitting,座る,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-8771,sitting backwards,後ろに座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8772,sitting in tree,木に座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8773,sitting on face,顔に座っています,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8774,sitting on lap,膝の上に座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8775,sitting on object,オブジェクトの上に座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8776,sitting on person,人に座っている,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8777,sitting on shoulder,肩に座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8778,sitting on stairs,階段に座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8779,sitting on table,テーブルに座っています,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8780,sitting on throne,玉座に座る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+8771,sitting backwards,後ろ向きに座る,ポーズ・姿勢,身体の向き,,[],verified,0,verified,verified
+8772,sitting in tree,木の上に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+8773,sitting on face,顔に座る,動作・接触,性的行為・接触,,[],verified,3,verified,verified
+8774,sitting on lap,膝の上に座る,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
+8775,sitting on object,物の上に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+8776,sitting on person,人の上に座る,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
+8777,sitting on shoulder,肩の上に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+8778,sitting on stairs,階段に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+8779,sitting on table,テーブルの上に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
+8780,sitting on throne,玉座に座る,ポーズ・姿勢,身体の配置,,[],verified,0,verified,verified
 8781,sitting sideways,横向きに座る,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
 8782,size difference,体格差,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-8783,skadi (arknights),スカディ（arknights）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8784,skadi the corrupting heart (arknights),腐敗した心（arknights）のスカディ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8783,skadi (arknights),スカジ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+8784,skadi the corrupting heart (arknights),濁心スカジ（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8785,skateboard,スケートボード,乗り物,陸上の乗り物,,[],verified,,unreviewed,verified
 8786,skates,スケート靴,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
 8787,skating,スケートをする,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
@@ -8793,147 +8793,147 @@
 8791,sketchbook,スケッチブック,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8792,skewer,串,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8793,ski goggles,スキーゴーグル,服装・装飾,装飾品,,[],verified,,unreviewed,unreviewed
-8794,skin fang,皮の牙,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
-8795,skin fangs,皮の牙,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+8794,skin fang,皮の牙,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
+8795,skin fangs,皮の牙,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 8796,skin tight,ぴったりした服,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
 8797,skin-covered horns,皮膚に覆われた角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 8798,skindentation,皮膚に食い込んだ跡,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 8799,skinny,痩せ型,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
-8800,skirt,スカート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8801,skirt around one leg,片足の周りのスカート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8802,skirt basket,スカートバスケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8800,skirt,スカート,服装・装飾,衣服,,[],verified,0,verified,verified
+8801,skirt around one leg,片足の周りのスカート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8802,skirt basket,スカートバスケット,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8803,skirt flip,スカートめくり,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8804,skirt hold,スカートを押さえる,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8805,skirt lift,スカートのたくしあげ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8806,skirt pull,スカートプル,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8807,skirt set,スカートセット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8808,skirt suit,スカートスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8805,skirt lift,スカートをたくし上げる,動作・接触,衣服への接触,,[],verified,1,verified,verified
+8806,skirt pull,スカートを引っ張る,動作・接触,衣服への接触,,[],verified,1,verified,verified
+8807,skirt set,スカートセット,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+8808,skirt suit,スカートスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 8809,skirt tug,スカートを引っ張る,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8810,skirt under dress,ドレスの下のスカート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8810,skirt under dress,ドレスの下に重ねたスカート,服装・装飾,衣服,,[],verified,0,verified,verified
 8811,skull,頭蓋骨,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 8812,skull and crossbones,ドクロと交差した骨,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-8813,skull earrings,頭蓋骨イヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-8814,skull hair ornament,ドクロの髪飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-8815,skull mask,頭蓋骨マスク,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-8816,skull necklace,頭蓋骨のネックレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8813,skull earrings,ドクロのイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+8814,skull hair ornament,ドクロの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+8815,skull mask,ドクロのマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
+8816,skull necklace,ドクロのネックレス,服装・装飾,装飾品,,[],verified,0,verified,verified
 8817,skull on head,頭上のドクロ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8818,skull ornament,頭蓋骨の飾り,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8819,skull print,頭蓋骨柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8820,skullgirls,スカルガールズ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-8821,sky,空,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-8822,sky lantern,スカイランタン,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8823,sky print,スカイプリント,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8824,sky-freedom,空の端,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8825,skyla (pokemon),スカイラ（ポケモン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+8821,sky,空,背景・場所,自然・風景,,[],verified,0,verified,verified
+8822,sky lantern,スカイランタン,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+8823,sky print,スカイプリント,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
+8824,sky-freedom,空の端,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
+8825,skyla (pokemon),フウロ（ポケットモンスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 8826,skyline,都市のスカイライン,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
 8827,skyscraper,高層ビル群,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-8828,slam dunk (series),スラムダンク（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+8828,slam dunk (series),SLAM DUNK（漫画タイトル）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 8829,slap mark,平手打ちの跡,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 8830,slapping,平手打ち,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 8831,slashing,斬りつける,動作・接触,身体への接触,,[],verified,,unreviewed,verified
 8832,slave,奴隷,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-8833,sleep mask,スリープマスク,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+8833,sleep mask,アイマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
 8834,sleep molestation,睡眠中の痴漢,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
-8835,sleeping,眠る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8836,sleeping on person,人に寄りかかって眠る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8837,sleeping upright,直立して眠る,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+8835,sleeping,眠っている,動作・接触,日常動作,,[],verified,0,verified,verified
+8836,sleeping on person,人にもたれて眠る,ポーズ・姿勢,対人配置,,[],verified,0,verified,verified
+8837,sleeping upright,直立したまま眠る,動作・接触,日常動作,,[],verified,0,verified,verified
 8838,sleepwear,寝間着,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8839,sleepy,眠そうな表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8840,sleeve bow,袖のリボン,服装・装飾,装飾品,,[],verified,,unreviewed,verified
 8841,sleeve cuffs,袖口,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8842,sleeve garter,スリーブガーター,服装・装飾,下着,,[],unreviewed,,unreviewed,verified
+8842,sleeve garter,スリーブガーター,服装・装飾,装飾品,,[],verified,1,verified,verified
 8843,sleeve grab,袖をつかむ,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-8844,sleeve ribbon,スリーブリボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8845,sleeved leotard,袖付きレオタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8844,sleeve ribbon,袖のリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
+8845,sleeved leotard,袖付きレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
 8846,sleeveless,袖なし,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8847,sleeveless bodysuit,ノースリーブのボディスーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-8848,sleeveless coat,ノースリーブコート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8849,sleeveless dress,ノースリーブドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8850,sleeveless hoodie,ノースリーブパーカー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8851,sleeveless jacket,ノースリーブジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8852,sleeveless kimono,ノースリーブの着物,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8853,sleeveless shirt,ノースリーブシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-8854,sleeveless sweater,ノースリーブセーター,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8847,sleeveless bodysuit,ノースリーブのボディスーツ,服装・装飾,衣服,,[],verified,1,verified,verified
+8848,sleeveless coat,ノースリーブコート,服装・装飾,衣服,,[],verified,0,verified,verified
+8849,sleeveless dress,ノースリーブドレス,服装・装飾,衣服,,[],verified,1,verified,verified
+8850,sleeveless hoodie,ノースリーブパーカー,服装・装飾,衣服,,[],verified,0,verified,verified
+8851,sleeveless jacket,ノースリーブジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+8852,sleeveless kimono,袖なしの着物,服装・装飾,衣服,,[],verified,0,verified,verified
+8853,sleeveless shirt,ノースリーブシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
+8854,sleeveless sweater,ノースリーブセーター,服装・装飾,衣服,,[],verified,0,verified,verified
 8855,sleeveless turtleneck,ノースリーブのタートルネック,服装・装飾,衣服,,[],verified,,unreviewed,verified
-8856,sleeveless turtleneck leotard,ノースリーブのタートルネックレオタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8856,sleeveless turtleneck leotard,ノースリーブのタートルネックレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
 8857,sleeves past elbows,肘を越えて伸びる袖,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8858,sleeves past fingers,指先まで覆う袖,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8859,sleeves past wrists,袖余り,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8859,sleeves past wrists,手首より長い袖,服装・装飾,衣服の状態,,[],verified,0,verified,verified
 8860,sleeves pushed up,まくり上げた袖,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8861,sleeves rolled up,まくった袖,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8862,sliding doors,引き戸,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-8863,slim legs,スリムな脚,人物の特徴,体型・身体的特徴,,[],unreviewed,,unreviewed,unreviewed
-8864,slime (creature),スライム（クリーチャー）,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8865,slime (genshin impact),スライム（原神）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-8866,slime (substance),スライム（物質）,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-8867,slime girl,スライム娘,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
-8868,sling bikini top,襷ブラ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8863,slim legs,細い脚,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
+8864,slime (creature),スライム（生物）,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
+8865,slime (genshin impact),スライム（原神）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+8866,slime (substance),スライム状の物質,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+8867,slime girl,スライム娘,生物・動植物,種族,,[],verified,0,verified,verified
+8868,sling bikini top,スリングビキニトップ,服装・装飾,水着,,[],verified,1,verified,verified
 8869,slingshot swimsuit,スリングショット水着,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8870,slippers,スリッパ,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
+8870,slippers,スリッパ,服装・装飾,靴・履物,,[],verified,0,verified,verified
 8871,slit pupils,縦長の瞳孔,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 8872,slugbox,スラッグボックス,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 8873,small breasts,小さな胸,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,unreviewed
-8874,small horns,小さな角,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8875,small sweatdrop,小さな汗マーク,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+8874,small horns,小さな角,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+8875,small sweatdrop,小さな汗マーク,顔・表情,顔・表情,,[],verified,0,verified,verified
 8876,smartphone,スマートフォン,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
 8877,smartphone case,スマートフォンケース,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8878,smell,匂い,人物の特徴,身体部位・身体状態,,[],verified,0,verified,needs-review
 8879,smelling,匂いを嗅ぐ,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8880,smelling clothes,服の匂いを嗅ぐ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-8881,smile,笑顔,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
+8881,smile,笑顔,顔・表情,顔・表情,,[],verified,0,verified,verified
 8882,smile precure!,スマイルプリキュア！,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-8883,smiley face,スマイルマーク,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8884,smiling,笑顔,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8885,smirk,にやにや笑い,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
+8883,smiley face,スマイルマーク,文字・記号,記号・図形,,[],verified,0,verified,verified
+8884,smiling,笑っている表情,顔・表情,顔・表情,,[],verified,0,verified,verified
+8885,smirk,にやりとした笑み,顔・表情,顔・表情,,[],verified,0,verified,verified
 8886,smoke,煙,光・演出,演出効果,,[],verified,,unreviewed,verified
 8887,smoke trail,煙の軌跡,光・演出,演出効果,,[],verified,,unreviewed,verified
 8888,smokestack,煙突,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-8889,smokestack hair ornament,スモークスタックの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-8890,smoking,喫煙,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8891,smoking barrel,硝煙,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-8892,smoking pipe,喫煙用パイプ,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
+8889,smokestack hair ornament,煙突型の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+8890,smoking,喫煙,動作・接触,日常動作,,[],verified,0,verified,verified
+8891,smoking barrel,硝煙,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
+8892,smoking pipe,喫煙用パイプ,家具・設備・物品,道具,,[],verified,0,verified,verified
 8893,smug,得意げな表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
 8894,snack,軽食,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8895,snail,カタツムリ,生物・動植物,動物,,[],verified,,unreviewed,verified
-8896,snake,ヘビ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8897,snake earrings,ヘビイヤリング,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-8898,snake hair,ヘビの髪,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-8899,snake hair ornament,ヘビの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-8900,snake tail,蛇の尻尾,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+8896,snake,ヘビ,生物・動植物,動物,,[],verified,0,verified,verified
+8897,snake earrings,ヘビ型イヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+8898,snake hair,ヘビの髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
+8899,snake hair ornament,ヘビの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+8900,snake tail,蛇の尾,生物・動植物,動物,,[],verified,0,verified,verified
 8901,snap-fit buckle,スナップ式バックル,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-8902,sneakers,スニーカー,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,unreviewed
-8903,sneezing,くしゃみ,動作・接触,身体動作,,[],unreviewed,,unreviewed,verified
-8904,sniper rifle,スナイパーライフル,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
+8902,sneakers,スニーカー,服装・装飾,靴・履物,,[],verified,0,verified,verified
+8903,sneezing,くしゃみ,動作・接触,身体動作,,[],verified,0,verified,verified
+8904,sniper rifle,スナイパーライフル,家具・設備・物品,武器,,[],verified,0,verified,verified
 8905,snivy,ツタージャ,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
 8906,snk,SNK（エス・エヌ・ケイ）,キャラクター・作品,タイトル（作品名）,,"[""SNK"",""エスエヌケイ""]",verified,0,verified,needs-review
 8907,snorkel,シュノーケル,家具・設備・物品,道具,,[],verified,,unreviewed,verified
 8908,snot,鼻水,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
 8909,snout,口吻,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-8910,snow,雪,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-8911,snow leopard ears,ユキヒョウの耳,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-8912,snow leopard tail,ユキヒョウのしっぽ,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
-8913,snow rabbit,雪うさぎ,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
+8910,snow,雪,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+8911,snow leopard ears,ユキヒョウの耳,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+8912,snow leopard tail,ユキヒョウの尻尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+8913,snow rabbit,雪うさぎ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 8914,snowball,雪玉,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 8915,snowflake background,雪の結晶の背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
-8916,snowflake hair ornament,スノーフレークの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+8916,snowflake hair ornament,雪の結晶の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 8917,snowflake print,雪の結晶柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8918,snowflakes,雪の結晶,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
 8919,snowing,降雪,背景・場所,天候・時間帯,,[],verified,,unreviewed,verified
 8920,snowman,雪だるま,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-8921,soaking feet,足を浸す,動作・接触,日常動作,,[],unreviewed,,unreviewed,verified
+8921,soaking feet,足を浸す,動作・接触,日常動作,,[],verified,0,verified,verified
 8922,soap,石鹸,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-8923,soap bottle,石鹸ボトル,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+8923,soap bottle,石鹸ボトル,家具・設備・物品,日用品,,[],verified,0,verified,verified
 8924,soap bubbles,シャボン玉,光・演出,演出効果,,[],verified,,unreviewed,verified
 8925,soap censor,石鹸による検閲,光・演出,演出効果,,[],verified,,unreviewed,verified
-8926,sobble,ソブル,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,verified
+8926,sobble,メッソン,生物・動植物,架空生物・モンスター,,[],verified,0,verified,verified
 8927,sobu high school uniform,総武高校の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 8928,soccer,サッカー,動作・接触,身体動作,,[],verified,,unreviewed,verified
 8929,soccer ball,サッカーボール,家具・設備・物品,道具,,[],verified,,unreviewed,verified
-8930,soccer uniform,サッカーユニフォーム,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8930,soccer uniform,サッカーユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
 8931,sock pull,靴下を引っ張る,動作・接触,衣服への接触,,[],verified,,unreviewed,verified
-8932,socks,靴下,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+8932,socks,靴下,服装・装飾,衣服,,[],verified,0,verified,verified
 8933,soda,ソーダ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-8934,soda bottle,ソーダボトル,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+8934,soda bottle,炭酸飲料のボトル,家具・設備・物品,日用品,,[],verified,0,verified,verified
 8935,soda can,ソーダ缶,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
 8936,sode,袖,服装・装飾,衣服,,[],verified,,unreviewed,verified
 8937,sofra,ソフラ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
