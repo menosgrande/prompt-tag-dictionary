@@ -221,14 +221,25 @@ function applyBatchRow(entry,cells,task){
    if(meta.classification){if((row[2]==="未分類"&&row[3]==="未分類")||(row[2]==="要確認"&&row[3]==="要確認"))delete meta.classification;else Object.assign(meta.classification,classificationIds(row[2],row[3],row[0]));}
   }
   const entries=state.dictionary.classificationCandidates?.entries;
-  if(Array.isArray(entries)){
-   const idx=entries.findIndex(x=>x.tag===row[0]);
-   if(status==="verified"||status==="not-applicable"){if(idx>=0)entries.splice(idx,1);delete meta.classification;}
-   else if(status==="needs-review"||status==="provisional"){
-    const c={...(meta.classification||{}),status};
-    if(row[2]!=="未分類"&&row[3]!=="未分類")Object.assign(c,classificationIds(row[2],row[3],row[0]));
-    meta.classification=c;const item={tag:row[0],...c};if(idx>=0)entries[idx]=item;else entries.push(item);
-   }
+  const idx=Array.isArray(entries)?entries.findIndex(x=>x.tag===row[0]):-1;
+  let classification=meta.classification&&typeof meta.classification==="object"?{...meta.classification}:idx>=0?(()=>{const {tag:ignored,...rest}=entries[idx];return {...rest};})():null;
+  const classificationChanged=oldMajor!==row[2]||oldMinor!==row[3];
+  if(classificationChanged&&classification){
+   if((row[2]==="未分類"&&row[3]==="未分類")||(row[2]==="要確認"&&row[3]==="要確認"))classification=null;
+   else Object.assign(classification,classificationIds(row[2],row[3],row[0]));
+  }
+  if(status==="verified"||status==="not-applicable"){
+   if(idx>=0)entries.splice(idx,1);
+   delete meta.classification;
+  }else if(status==="needs-review"||status==="provisional"){
+   classification=classification||{};
+   classification.status=status;
+   if(row[2]!=="未分類"&&row[3]!=="未分類")Object.assign(classification,classificationIds(row[2],row[3],row[0]));
+   meta.classification=classification;
+   if(Array.isArray(entries)){const item={tag:row[0],...classification};if(idx>=0)entries[idx]=item;else entries.push(item);}
+  }else if(classificationChanged&&classification){
+   meta.classification=classification;
+   if(Array.isArray(entries)&&idx>=0)entries[idx]={tag:row[0],...classification};
   }
  }
  if(task==="expressionLevel"||task==="all"){
