@@ -2301,7 +2301,7 @@
 2299,dagasi,駄菓子,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2300,dagger,短剣,家具・設備・物品,武器,,[],verified,0,verified,verified
 2301,daidouji tomoyo (Cardcaptor Sakura),大道寺知世（カードキャプターさくら）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-2302,dairi,内裏,家具・設備・物品,日用品,,[],verified,0,verified,unreviewed
+2302,dairi,ダイリ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 2303,dairoku ryouhei,第六猟兵,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2304,daisy,デイジー,生物・動植物,植物,,[],verified,0,verified,verified
 2305,daitaku helios (umamusume),ダイタクヘリオス（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
@@ -2456,7 +2456,7 @@
 2454,dimples of venus,ヴィーナスのえくぼ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2455,dinosaur,恐竜,生物・動植物,動物,,[],verified,0,verified,verified
 2456,dio brando (JoJo's Bizarre Adventure),ディオ・ブランドー,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-2457,diorama,ジオラマ,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2457,diorama,ジオラマ,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 2458,dirndl,ディアンドル（アルプス地方の民族衣装）,服装・装飾,衣服,,[],verified,0,verified,unreviewed
 2459,dirt,泥,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
 2460,dirty,汚れた状態,状態・状況,状態・変化,,[],verified,0,verified,verified
@@ -2493,48 +2493,48 @@
 2491,doctor,医師,人物の特徴,人物属性,,[],verified,0,verified,verified
 2492,doctor (arknights),ドクター（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2493,dodging,回避する動作,動作・接触,身体動作,,[],verified,0,verified,verified
-2494,dodoco (genshin impact),ドドコ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2495,dog,犬,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2496,dog boy,犬の少年,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2497,dog days,DOG DAYS（作品）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2498,dog ears,犬耳,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2499,dog girl,犬耳の少女,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2500,dog tags,ドッグタグ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2501,dog tail,犬の尻尾,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2502,dogeza,土下座,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,unreviewed
-2503,doggystyle,後背位,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-2504,doily,ドイリー,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2505,doitsuken,ドイツ犬,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2506,doki doki literature club,ドキドキ文芸部！,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2507,dokidoki! precure,ドキドキ！プリキュア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2508,dokomon,ドコモン,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2509,doll,人形,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2510,doll joints,球体関節,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2511,dollar sign,ドル記号,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2512,dolphin,イルカ,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2513,dolphin shorts,ドルフィンショーツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2514,dominatrix,女王様（支配的な女性）,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2515,domino mask,ドミノマスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2516,don quixote (project moon),ドンキホーテ（Project Moon）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2517,don-chan (usada pekora),ドンちゃん（兎田ぺこら）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2518,donation box,募金箱,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2519,doodle inset,落書きの挿入カット,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2520,doodle sensei (blue archive),ドゥードゥー先生（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2521,door,ドア,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2522,doorway,出入口,背景・場所,建築・構造物,,[],verified,,unreviewed,unreviewed
-2523,doraemon (Doraemon),ドラえもん,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2524,doremy sweet (Touhou Project),ドレミー・スイート,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2525,dorohedoro,ドロヘドロ,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2526,dorsal fin,背びれ,生物・動植物,動物,,[],verified,,unreviewed,verified
-2527,dorsiflexion,足首の背屈,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-2528,dot mouth,点のような口,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2529,dot nose,点のような鼻,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2530,dotted background,ドット柄の背景,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
-2531,dotted line,点線,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2532,double amputee,両肢切断,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
-2533,double bun,ツインお団子,髪・頭部,髪・頭部,,[],verified,,unreviewed,verified
-2534,double fox shadow puppet,二匹のキツネの影絵,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
-2535,double horizontal stripe,二本の横縞,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
+2494,dodoco (genshin impact),ドドコ（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2495,dog,犬,生物・動植物,動物,,[],verified,0,verified,verified
+2496,dog boy,犬の少年,生物・動植物,動物,,[],verified,0,verified,unreviewed
+2497,dog days,DOG DAYS（作品）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2498,dog ears,犬耳,人物の特徴,人物属性,,[],verified,0,verified,verified
+2499,dog girl,犬耳の少女,生物・動植物,動物,,[],verified,0,verified,unreviewed
+2500,dog tags,ドッグタグ,服装・装飾,装飾品,,[],verified,0,verified,verified
+2501,dog tail,犬の尻尾,生物・動植物,動物,,[],verified,0,verified,unreviewed
+2502,dogeza,土下座,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2503,doggystyle,後背位,ポーズ・姿勢,身体の配置,,[],verified,4,verified,verified
+2504,doily,ドイリー,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2505,doitsuken,ドイツ犬,生物・動植物,動物,,[],verified,0,verified,unreviewed
+2506,doki doki literature club,ドキドキ文芸部！,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2507,dokidoki! precure,ドキドキ！プリキュア,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2508,dokomon,ドコモン,キャラクター・作品,作者・配信者,,[],verified,0,verified,unreviewed
+2509,doll,人形,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2510,doll joints,球体関節,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2511,dollar sign,ドル記号,文字・記号,記号・図形,,[],verified,0,verified,verified
+2512,dolphin,イルカ,生物・動植物,動物,,[],verified,0,verified,verified
+2513,dolphin shorts,ドルフィンショーツ,服装・装飾,衣服,,[],verified,0,verified,verified
+2514,dominatrix,女王様（支配的な女性）,人物の特徴,人物属性,,[],verified,2,verified,verified
+2515,domino mask,ドミノマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
+2516,don quixote (project moon),ドンキホーテ（Project Moon）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2517,don-chan (usada pekora),ドンちゃん（兎田ぺこら）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2518,donation box,募金箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2519,doodle inset,落書きの挿入カット,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2520,doodle sensei (blue archive),ドゥードゥー先生（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2521,door,ドア,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2522,doorway,出入口,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2523,doraemon (Doraemon),ドラえもん,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2524,doremy sweet (Touhou Project),ドレミー・スイート,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2525,dorohedoro,ドロヘドロ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2526,dorsal fin,背びれ,生物・動植物,動物,,[],verified,0,verified,verified
+2527,dorsiflexion,足首の背屈,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+2528,dot mouth,点のような口,顔・表情,顔・表情,,[],verified,0,verified,verified
+2529,dot nose,点のような鼻,顔・表情,顔・表情,,[],verified,0,verified,verified
+2530,dotted background,ドット柄の背景,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+2531,dotted line,点線,文字・記号,記号・図形,,[],verified,0,verified,verified
+2532,double amputee,両肢切断,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
+2533,double bun,ツインお団子,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2534,double fox shadow puppet,二匹のキツネの影絵,光・演出,影・陰影,,[],verified,0,verified,verified
+2535,double horizontal stripe,二本の横縞,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2536,double penetration,二重挿入,動作・接触,性的行為・接触,,[],verified,4,verified,verified
 2537,double v,ダブルピース,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
 2538,double vertical stripe,二本の縦縞,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
