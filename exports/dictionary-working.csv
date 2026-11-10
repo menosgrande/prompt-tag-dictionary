@@ -1974,58 +1974,58 @@
 1972,cold,寒さ,状態・状況,状態・変化,,[],verified,0,verified,verified
 1973,collage,コラージュ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 1974,collar,首輪,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
-1975,collarbone,鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1976,collared cape,襟付きケープ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1977,collared capelet,襟付きケープレット,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1978,collared coat,襟付きコート,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1979,collared dress,襟付きドレス,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1980,collared jacket,襟付きジャケット,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1981,collared shirt,襟付きシャツ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-1982,collared vest,襟付きベスト,服装・装飾,衣服,,[],verified,,unreviewed,verified
-1983,colonel aki,Colonel Aki（コロネル・アキ）,キャラクター・作品,作者・配信者,,"[""Colonel Aki"",""コロネルアキ""]",verified,,unreviewed,unreviewed
-1984,color connection,色による関連付け,光・演出,色調・色彩,,[],verified,,unreviewed,unreviewed
-1985,color guide,カラーガイド,画風・描写,描画技法,,[],verified,,unreviewed,verified
-1986,color trace,色トレス,画風・描写,描画技法,,[],verified,,unreviewed,verified
-1987,colored extremities,手足の先端に色を付けた表現,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,unreviewed
-1988,colored eyelashes,まつげ,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1989,colored inner animal ears,色付きの動物耳の内側,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1990,colored inner hair,インナーカラー,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-1991,colored nipples,色付きの乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1992,colored sclera,強膜に色を付けた表現,顔・表情,目,,[],verified,,unreviewed,unreviewed
-1993,colored shadow,色付きの影,光・演出,照明・光源,,[],verified,,unreviewed,unreviewed
-1994,colored shoe soles,靴底,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-1995,colored skin,色付きの肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1996,colored speech bubble,色付きの吹き出し,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-1997,colored tips,毛先の色,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-1998,colored tongue,色付きの舌,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-1999,colorful,カラフルな配色,光・演出,色調・色彩,,[],needs-review,,unreviewed,verified
-2000,column,柱,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-2001,column lineup,縦列配置,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2002,comb,櫛,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2003,combat boots,コンバットブーツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-2004,combat helmet,戦闘用ヘルメット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
-2005,combat knife,コンバットナイフ,家具・設備・物品,武器,,[],verified,,unreviewed,verified
-2006,come hither,手招き,動作・接触,手の動作,,[],verified,,unreviewed,unreviewed
-2007,comet,彗星,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2008,comforting,慰める,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2009,comic,コミック,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-2010,command spell,令呪,文字・記号,記号・図形,,[],needs-review,,unreviewed,verified
-2011,commander (azur lane),指揮官（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2012,commissioner name,依頼者名,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2013,common raccoon (kemono friends),アライグマ（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2014,company connection,企業間の関係,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2015,company name,会社名,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2016,comparison,比較,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-2017,compass,方位磁針,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2018,competition school swimsuit,競泳用スクール水着,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2019,competition swimsuit,競泳水着,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
+1975,collarbone,鎖骨,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1976,collared cape,襟付きケープ,服装・装飾,衣服,,[],verified,0,verified,verified
+1977,collared capelet,襟付きケープレット,服装・装飾,衣服,,[],verified,0,verified,verified
+1978,collared coat,襟付きコート,服装・装飾,衣服,,[],verified,0,verified,verified
+1979,collared dress,襟付きドレス,服装・装飾,衣服,,[],verified,0,verified,verified
+1980,collared jacket,襟付きジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+1981,collared shirt,襟付きシャツ,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1982,collared vest,襟付きベスト,服装・装飾,衣服,,[],verified,0,verified,verified
+1983,colonel aki,Colonel Aki（コロネル・アキ）,キャラクター・作品,作者・配信者,,"[""Colonel Aki"",""コロネルアキ""]",verified,0,verified,verified
+1984,color connection,色による関連付け,光・演出,色調・色彩,,[],verified,0,verified,verified
+1985,color guide,カラーガイド,画風・描写,描画技法,,[],verified,0,verified,verified
+1986,color trace,色トレス,画風・描写,描画技法,,[],verified,0,verified,verified
+1987,colored extremities,手足の先端に色を付けた表現,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1988,colored eyelashes,まつげ,顔・表情,目,,[],verified,0,verified,verified
+1989,colored inner animal ears,色付きの動物耳の内側,人物の特徴,人物属性,,[],verified,0,verified,verified
+1990,colored inner hair,インナーカラー,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+1991,colored nipples,色付きの乳首,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+1992,colored sclera,強膜に色を付けた表現,顔・表情,目,,[],verified,0,verified,verified
+1993,colored shadow,色付きの影,光・演出,照明・光源,,[],verified,0,verified,verified
+1994,colored shoe soles,靴底,服装・装飾,靴・履物,,[],verified,0,verified,verified
+1995,colored skin,色付きの肌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1996,colored speech bubble,色付きの吹き出し,文字・記号,吹き出し,,[],verified,0,verified,verified
+1997,colored tips,毛先の色,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+1998,colored tongue,色付きの舌,顔・表情,顔の特徴,,[],verified,0,verified,verified
+1999,colorful,カラフルな配色,光・演出,色調・色彩,,[],verified,0,verified,verified
+2000,column,柱,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2001,column lineup,縦列配置,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2002,comb,櫛,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2003,combat boots,コンバットブーツ,服装・装飾,靴・履物,,[],verified,0,verified,verified
+2004,combat helmet,戦闘用ヘルメット,服装・装飾,装備・防具,,[],verified,0,verified,verified
+2005,combat knife,コンバットナイフ,家具・設備・物品,武器,,[],verified,0,verified,verified
+2006,come hither,手招き,動作・接触,手の動作,,[],verified,0,verified,verified
+2007,comet,彗星,背景・場所,自然・風景,,[],verified,0,verified,verified
+2008,comforting,慰める,動作・接触,対人接触・動作,,[],verified,0,verified,verified
+2009,comic,コミック,画風・描写,画風・表現様式,,[],verified,0,verified,verified
+2010,command spell,令呪,文字・記号,記号・図形,,[],verified,0,verified,verified
+2011,commander (azur lane),指揮官（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
+2012,commissioner name,依頼者名,文字・記号,文字,,[],verified,0,verified,verified
+2013,common raccoon (kemono friends),アライグマ（けものフレンズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
+2014,company connection,企業間の関係,状態・状況,状況・関係性,,[],verified,0,verified,verified
+2015,company name,会社名,文字・記号,文字,,[],verified,0,verified,verified
+2016,comparison,比較,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2017,compass,方位磁針,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2018,competition school swimsuit,競泳用スクール水着,服装・装飾,水着,,[],verified,1,verified,verified
+2019,competition swimsuit,競泳水着,服装・装飾,水着,,[],verified,1,verified,verified
 2020,completely nude,完全な裸体,服装・装飾,裸体・露出,,[],verified,3,verified,verified
-2021,compound eyes,複眼,顔・表情,目,,[],verified,,unreviewed,verified
-2022,computer,コンピューター,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2023,computer keyboard,キーボード,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2024,computer mouse,コンピューターマウス,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2025,concept art,コンセプトアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-2026,concert,コンサート,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
+2021,compound eyes,複眼,顔・表情,目,,[],verified,0,verified,verified
+2022,computer,コンピューター,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2023,computer keyboard,キーボード,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2024,computer mouse,コンピューターマウス,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2025,concept art,コンセプトアート,画風・描写,画風・表現様式,,[],verified,0,verified,verified
+2026,concert,コンサート,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 2027,concrete,コンクリート,背景・場所,自然・風景,,[],needs-review,,unreviewed,verified
 2028,condensation,結露,背景・場所,天候・時間帯,,[],needs-review,,unreviewed,verified
 2029,conductor baton,指揮棒,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
