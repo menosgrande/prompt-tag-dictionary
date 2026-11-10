@@ -2080,59 +2080,59 @@
 2078,countdown,秒読み,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 2079,counter,カウンター,家具・設備・物品,家具,,[],verified,0,verified,verified
 2080,counter:side,カウンター：サイド,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-2081,country connection,国家間の関係,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2082,couple,カップル,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
-2083,cousins,いとこ同士,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
-2084,couter,肘当て（甲冑の肘部防具）,服装・装飾,装備・防具,,[],verified,,unreviewed,unreviewed
-2085,cover,覆い・カバー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2086,cover art,カバーアート,画風・描写,画風・表現様式,,[],verified,,unreviewed,verified
-2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
+2081,country connection,国家間の関係,状態・状況,状況・関係性,,[],verified,0,verified,verified
+2082,couple,カップル,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
+2083,cousins,いとこ同士,状態・状況,状況・関係性,,[],verified,0,verified,verified
+2084,couter,肘当て（甲冑の肘部防具）,服装・装飾,装備・防具,,[],verified,0,verified,unreviewed
+2085,cover,覆い・カバー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2086,cover art,カバーアート,画風・描写,媒体,,[],verified,0,verified,verified
+2087,cover image,カバー画像,構図・カメラ,構図・配置,,[],verified,0,verified,verified
+2088,cover page,表紙ページ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 2089,covered abs,腹筋が隠れた状態,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-2090,covered collarbone,覆われた鎖骨,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2091,covered eyes,覆われた目,顔・表情,目,,[],verified,,unreviewed,verified
-2092,covered face,顔を覆われた状態,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2093,covered mouth,覆われた口,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+2090,covered collarbone,覆われた鎖骨,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2091,covered eyes,覆われた目,顔・表情,目,,[],verified,0,verified,verified
+2092,covered face,顔を覆われた状態,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2093,covered mouth,覆われた口,顔・表情,顔・表情,,[],verified,0,verified,verified
 2094,covered navel,へそが隠れた状態,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-2095,covered nipples,覆われた乳首,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2096,covered penetration,覆われた挿入,状態・状況,状態・変化,,[],needs-review,,unreviewed,verified
-2097,covered testicles,覆われた睾丸,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2098,covering breasts,胸を覆う,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-2099,covering crotch,股間を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
-2100,covering face,顔を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
-2101,covering nipples,乳首を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-2102,covering one breast,片方の胸を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-2103,covering one eye,片目を覆う,顔・表情,目,,[],verified,,unreviewed,verified
-2104,covering own ears,耳を塞ぐ,動作・接触,手の動作,,[],verified,,unreviewed,verified
-2105,covering own eyes,自分の目を覆う,動作・接触,手の動作,,[],verified,,unreviewed,verified
-2106,covering own mouth,自分の口を覆う,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,,unreviewed,unreviewed
-2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,,unreviewed,verified
-2109,cow,牛,生物・動植物,動物,,[],verified,,unreviewed,verified
-2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2111,cow ears,牛の耳,人物の特徴,人物属性,,[],needs-review,,unreviewed,verified
-2112,cow girl,牛の特徴を持つ女性,人物の特徴,人物属性,,[],verified,,unreviewed,verified
-2113,cow horns,牛の角,生物・動植物,動物,,[],verified,,unreviewed,verified
-2114,cow print,牛柄,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2115,cow print bikini,牛柄のビキニ,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2116,cow print gloves,牛柄の手袋,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2117,cow print thighhighs,牛柄のニーハイソックス,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-2118,cow tail,牛の尻尾,生物・動植物,動物,,[],verified,,unreviewed,verified
-2119,cowbell,カウベル,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2120,cowboy boots,カウボーイブーツ,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-2121,cowboy hat,カウボーイハット,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2122,cowboy shot,腰から上を写した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,unreviewed
-2123,cowboy western,西部劇風,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,,unreviewed,verified
-2125,cowlick,アホ毛,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2126,crab,カニ,生物・動植物,動物,,[],verified,,unreviewed,verified
-2127,crack,ひび割れ,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-2128,cracked floor,ひび割れた床,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
-2129,cracked glass,ひび割れたガラス,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2130,cracked skin,ひび割れた肌,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2131,cracked wall,ひび割れた壁,背景・場所,場所・室内外,,[],verified,,unreviewed,unreviewed
-2132,crane (animal),ツル,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2133,crane (machine),クレーン車,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
+2095,covered nipples,覆われた乳首,人物の特徴,身体部位・身体状態,,[],verified,1,verified,verified
+2096,covered penetration,覆われた挿入,状態・状況,状態・変化,,[],needs-review,4,verified,verified
+2097,covered testicles,覆われた睾丸,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+2098,covering breasts,胸を覆う,動作・接触,身体への接触,,[],verified,1,verified,verified
+2099,covering crotch,股間を覆う,動作・接触,手の動作,,[],verified,1,verified,verified
+2100,covering face,顔を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
+2101,covering nipples,乳首を隠す,動作・接触,身体への接触,,[],verified,1,verified,verified
+2102,covering one breast,片方の胸を隠す,動作・接触,身体への接触,,[],verified,1,verified,verified
+2103,covering one eye,片目を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
+2104,covering own ears,耳を塞ぐ,動作・接触,手の動作,,[],verified,0,verified,verified
+2105,covering own eyes,自分の目を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
+2106,covering own mouth,自分の口を覆う,動作・接触,手の動作,,[],verified,0,verified,verified
+2107,covering privates,局部を隠す,動作・接触,身体への接触,,[],verified,1,verified,unreviewed
+2108,covering with blanket,毛布を掛ける,動作・接触,物への接触,,[],verified,0,verified,verified
+2109,cow,牛,生物・動植物,動物,,[],verified,0,verified,verified
+2110,cow boy,牛の特徴を持つ男性,人物の特徴,人物属性,,[],verified,0,verified,verified
+2111,cow ears,牛耳,人物の特徴,人物属性,,[],verified,0,verified,verified
+2112,cow girl,牛の特徴を持つ女性,人物の特徴,人物属性,,[],verified,0,verified,verified
+2113,cow horns,牛の角,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2114,cow print,牛柄,服装・装飾,衣服,,[],verified,0,verified,verified
+2115,cow print bikini,牛柄のビキニ,服装・装飾,水着,,[],verified,1,verified,verified
+2116,cow print gloves,牛柄の手袋,服装・装飾,衣服,,[],verified,0,verified,verified
+2117,cow print thighhighs,牛柄のニーハイソックス,服装・装飾,靴・履物,,[],verified,0,verified,verified
+2118,cow tail,牛の尻尾,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2119,cowbell,カウベル,服装・装飾,装飾品,,[],verified,0,verified,verified
+2120,cowboy boots,カウボーイブーツ,服装・装飾,靴・履物,,[],verified,0,verified,verified
+2121,cowboy hat,カウボーイハット,服装・装飾,衣服,,[],verified,0,verified,verified
+2122,cowboy shot,腰から上を写した構図,構図・カメラ,構図・配置,,[],verified,0,verified,unreviewed
+2123,cowboy western,西部劇風,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2124,cowgirl position,騎乗位（女性上位）,ポーズ・姿勢,身体の配置,,[],verified,4,verified,verified
+2125,cowlick,アホ毛,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2126,crab,カニ,生物・動植物,動物,,[],verified,0,verified,verified
+2127,crack,ひび割れ,状態・状況,状態・変化,,[],verified,0,verified,verified
+2128,cracked floor,ひび割れた床,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2129,cracked glass,ひび割れたガラス,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2130,cracked skin,ひび割れた肌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2131,cracked wall,ひび割れた壁,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2132,crane (animal),ツル,生物・動植物,動物,,[],verified,0,verified,verified
+2133,crane (machine),クレーン車,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 2134,crane game,クレーンゲーム,家具・設備・物品,機械・装置,,[],verified,,unreviewed,verified
 2135,crate,クレート,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
 2136,crawling,這う,動作・接触,身体動作,,[],verified,,unreviewed,verified
