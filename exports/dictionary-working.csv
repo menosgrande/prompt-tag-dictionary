@@ -9898,128 +9898,128 @@
 9896,torpedo tubes,魚雷発射管,家具・設備・物品,武器,,[],verified,0,verified,verified
 9897,torso grab,胴体をつかむ,動作・接触,身体への接触,,[],verified,0,verified,verified
 9898,torture,拷問,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-9899,toshinou kyouko,歳納京子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9900,touhoku kiritan,東北きりたん,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9901,touhou,東方Project,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9902,touhou (pc-98),東方旧作,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9903,touhou lostword,東方LostWord,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9904,touhou tag dream,夢の東方タッグ編,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9899,toshinou kyouko,歳納京子（ゆるゆり）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9900,touhoku kiritan,東北きりたん,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9901,touhou,東方Project,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9902,touhou (pc-98),東方旧作,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9903,touhou lostword,東方LostWord,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9904,touhou tag dream,夢の東方タッグ編,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9905,touken ranbu,刀剣乱舞,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9906,touqi guaitan,偷琪怪談,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9906,touqi guaitan,偷琪怪談,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,needs-review
 9907,toutetsu yuuma,饕餮尤魔,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9908,towel,タオル,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9909,towel around neck,首の周りのタオル,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9910,towel on head,頭にタオル,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9911,tower,タワー,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9912,town,街,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,unreviewed
+9908,towel,タオル,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9909,towel around neck,首に掛けたタオル,服装・装飾,装飾品,,[],verified,0,verified,verified
+9910,towel on head,頭に巻いたタオル,服装・装飾,装飾品,,[],verified,0,verified,verified
+9911,tower,塔,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9912,town,町並み,背景・場所,場所・室内外,,[],verified,0,verified,verified
 9913,toy,おもちゃ,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
-9914,toyosatomimi no miko,豊聡耳神子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9915,toyota,トヨタ,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+9914,toyosatomimi no miko,豊聡耳神子（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9915,toyota,トヨタ（自動車メーカー）,乗り物,陸上の乗り物,,[],verified,0,verified,verified
 9916,tracen school uniform,トレセン学園制服,キャラクター・作品,作品固有の衣装・要素,,[],needs-review,,unreviewed,unreviewed
 9917,tracen swimsuit,トレセン学園水着,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9918,tracen training uniform,トレセン学園トレーニングウェア,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9919,tracer (overwatch),トレーサー（オーバーウォッチ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9920,track and field,陸上競技,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9921,track jacket,トラックジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9918,tracen training uniform,トレセン学園のトレーニングウェア（ウマ娘）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9919,tracer (overwatch),トレーサー（オーバーウォッチ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9920,track and field,陸上競技,動作・接触,身体動作,,[],verified,0,verified,verified
+9921,track jacket,トラックジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
 9922,track pants,トラックパンツ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9923,track suit,ジャージ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9924,track uniform,陸上ユニフォーム,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9925,trading card,トレーディングカード,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9926,traditional bowtie,伝統的なボウタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9923,track suit,ジャージ,服装・装飾,衣服,,[],verified,0,verified,verified
+9924,track uniform,陸上競技のユニフォーム,服装・装飾,衣服,,[],verified,0,verified,verified
+9925,trading card,トレーディングカード,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9926,traditional bowtie,伝統的な蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
 9927,traditional chinese text,繁体字中国語,文字・記号,文字,,[],needs-review,,unreviewed,unreviewed
-9928,traditional halo,伝統的な光輪,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
-9929,traditional nun,伝統的な修道女,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9930,traditional youkai,伝統的なYoukai,生物・動植物,種族,,[],unreviewed,,unreviewed,verified
+9928,traditional halo,伝統的な天使の輪,光・演出,演出効果,,[],verified,0,verified,verified
+9929,traditional nun,伝統的な修道女の服装,服装・装飾,衣服,,[],verified,0,verified,verified
+9930,traditional youkai,伝統的な妖怪,生物・動植物,種族,,[],verified,0,verified,verified
 9931,trafalgar law,トラファルガー・ロー,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9932,traffic cone,カラーコーン,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9933,traffic light,信号機,家具・設備・物品,設備,,[],unreviewed,,unreviewed,unreviewed
-9934,trailblazer (honkai: star rail),開拓者（スターレイル）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9935,train,列車,乗り物,鉄道,,[],unreviewed,,unreviewed,unreviewed
-9936,train interior,列車内,背景・場所,場所・室内外,,[],unreviewed,,unreviewed,unreviewed
-9937,train station,駅,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9938,trainer (umamusume),トレーナー（ウマ娘プリティーダービー）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9939,training bra,トレーニングブラジャー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9940,training corps (emblem),トレーニング隊（エンブレム）,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
-9941,trait connection,特性接続,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+9932,traffic cone,カラーコーン,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9933,traffic light,信号機,家具・設備・物品,設備,,[],verified,0,verified,verified
+9934,trailblazer (honkai: star rail),開拓者（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9935,train,列車,乗り物,鉄道,,[],verified,0,verified,verified
+9936,train interior,列車内,背景・場所,場所・室内外,,[],verified,0,verified,verified
+9937,train station,駅,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9938,trainer (umamusume),トレーナー（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9939,training bra,ジュニアブラ,服装・装飾,下着,,[],verified,0,verified,verified
+9940,training corps (emblem),訓練兵団の紋章（進撃の巨人）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9941,trait connection,共通の特徴を持つキャラクターの組み合わせ,状態・状況,状況・関係性,,[],verified,0,verified,verified
 9942,transformation,変身,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
 9943,transformers,トランスフォーマー,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
 9944,transformers: generation 1,戦え！超ロボット生命体トランスフォーマー,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9945,translucent,半透明,画風・描写,レンダリング,,[],unreviewed,,unreviewed,unreviewed
-9946,translucent bunnysuit,半透明のバニースーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9947,transparent,透明,画風・描写,レンダリング,,[],unreviewed,,unreviewed,unreviewed
-9948,transparent background,透過背景,画風・描写,レンダリング,,[],unreviewed,,unreviewed,unreviewed
+9945,translucent,半透明,画風・描写,レンダリング,,[],verified,0,verified,verified
+9946,translucent bunnysuit,半透明のバニースーツ,服装・装飾,衣服,,[],verified,2,verified,verified
+9947,transparent,透明,画風・描写,レンダリング,,[],verified,0,verified,verified
+9948,transparent background,透過背景,画風・描写,レンダリング,,[],verified,0,verified,verified
 9949,transparent censoring,透明な検閲,画風・描写,レンダリング,,[],needs-review,,unreviewed,unreviewed
-9950,transparent umbrella,透明な傘,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-9951,transparent wings,透明な翼,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9952,trash,ごみ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9953,trash bag,ごみ袋,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9954,trash can,ごみ箱,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9955,travel attendant,旅行アテンダント,人物の特徴,人物属性,,[],unreviewed,,unreviewed,verified
-9956,tray,お盆,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9957,treasure chest,宝箱,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,verified
-9958,treble clef,ト音記号,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9959,tree,木,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9960,tree shade,木陰,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9961,tree stump,木の切り株,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9962,trefoil,トレフォイル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9963,trembling,震え,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9964,trench coat,トレンチコート,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9965,tress ribbon,トレスリボン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9950,transparent umbrella,透明な傘,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9951,transparent wings,透明な翼,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9952,trash,ごみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9953,trash bag,ごみ袋,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9954,trash can,ごみ箱,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9955,travel attendant,添乗員,人物の特徴,人物属性,,[],verified,0,verified,verified
+9956,tray,お盆,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9957,treasure chest,宝箱,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9958,treble clef,ト音記号,文字・記号,記号・図形,,[],verified,0,verified,verified
+9959,tree,木,背景・場所,自然・風景,,[],verified,0,verified,verified
+9960,tree shade,木陰,背景・場所,自然・風景,,[],verified,0,verified,verified
+9961,tree stump,木の切り株,背景・場所,自然・風景,,[],verified,0,verified,verified
+9962,trefoil,三つ葉形,文字・記号,記号・図形,,[],verified,0,verified,verified
+9963,trembling,震えている,動作・接触,身体動作,,[],verified,0,verified,verified
+9964,trench coat,トレンチコート,服装・装飾,衣服,,[],verified,0,verified,verified
+9965,tress ribbon,一房の髪に結んだリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
 9966,tri braids,三つ編み,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
-9967,tri tails,トライテール,生物・動植物,種族,,[],unreviewed,,unreviewed,unreviewed
-9968,triangle,三角形,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9969,triangle earrings,三角イヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9970,triangle hair ornament,三角髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9971,triangle mouth,三角形の口,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
-9972,triangle print,三角形印刷,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9973,triangular eyewear,三角形のアイウェア,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9974,triangular headpiece,三角形のヘッドピース,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9975,tribadism,シザーリング,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9976,tribal,部族,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9977,tribal tattoo,トライバルタトゥー,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9978,trick or treat,トリック・オア・トリート,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9979,tricorne,トリコーン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9980,trident,三叉槍,家具・設備・物品,武器,,[],unreviewed,,unreviewed,unreviewed
-9981,triforce,トライフォース,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
+9967,tri tails,トリテール（三つ結び）,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+9968,triangle,三角形,文字・記号,記号・図形,,[],verified,0,verified,verified
+9969,triangle earrings,三角形のイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
+9970,triangle hair ornament,三角形の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9971,triangle mouth,三角形の口,顔・表情,顔・表情,,[],verified,0,verified,verified
+9972,triangle print,三角形柄,服装・装飾,衣服,,[],verified,0,verified,verified
+9973,triangular eyewear,三角形の眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
+9974,triangular headpiece,三角形のヘッドピース,服装・装飾,装飾品,,[],verified,0,verified,verified
+9975,tribadism,トリバディズム（女性同士の性器接触）,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9976,tribal,部族,状態・状況,状況・関係性,,[],needs-review,,unreviewed,needs-review
+9977,tribal tattoo,トライバルタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9978,trick or treat,トリック・オア・トリート,文字・記号,文字,,[],verified,0,verified,verified
+9979,tricorne,トリコーン（三角帽子）,服装・装飾,衣服,,[],verified,0,verified,verified
+9980,trident,三叉槍,家具・設備・物品,武器,,[],verified,0,verified,verified
+9981,triforce,トライフォース（ゼルダの伝説）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 9982,trigger discipline,引き金に指をかけない銃の扱い方,家具・設備・物品,武器,,[],needs-review,,unreviewed,unreviewed
-9983,trigram,卦象,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9984,trigun,トライガン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9985,triple penetration,トリプル浸透,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9986,triplets,三つ子,人数・人物構成,人数・人物構成,,[],unreviewed,,unreviewed,unreviewed
-9987,tripod,三脚,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9988,tripping,躓く,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9989,troll face,ドヤ顔,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9990,trophy,トロフィー,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-9991,tropical drink,トロピカルドリンク,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,verified
-9992,tropical fish,熱帯魚,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+9983,trigram,八卦,文字・記号,記号・図形,,[],verified,0,verified,verified
+9984,trigun,トライガン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9985,triple penetration,三重挿入,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9986,triplets,三つ子,人数・人物構成,人数・人物構成,,[],verified,0,verified,verified
+9987,tripod,三脚,家具・設備・物品,道具,,[],verified,0,verified,verified
+9988,tripping,つまずく,動作・接触,身体動作,,[],verified,0,verified,verified
+9989,troll face,トロールフェイス,文字・記号,記号・図形,,[],verified,0,verified,verified
+9990,trophy,トロフィー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9991,tropical drink,トロピカルドリンク,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9992,tropical fish,熱帯魚,生物・動植物,動物,,[],verified,0,verified,verified
 9993,tropical-rouge! precure,トロピカル〜ジュ！プリキュア,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9994,truck,トラック,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,unreviewed
-9995,trumpet,トランペット,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9996,truth,真実,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9997,tsab ground military uniform,TSABグラウンド軍服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9994,truck,トラック,乗り物,陸上の乗り物,,[],verified,0,verified,verified
+9995,trumpet,トランペット,家具・設備・物品,道具,,[],verified,0,verified,verified
+9996,truth,真実,状態・状況,状況・関係性,,[],verified,0,verified,verified
+9997,tsab ground military uniform,時空管理局地上部隊の制服（魔法少女リリカルなのは）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 9998,tsubaki (blue archive),ツバキ（ブルーアーカイブ）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9999,tsuda nanafushi,ツダ・ナナフシ,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10000,tsugu (vtuber),鳩羽つぐ,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10001,tsukihime,月姫,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10002,tsukihime (remake),月姫リメイク,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-10003,tsukino mito,月ノ美兎,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10004,tsukino usagi,月野うさぎ,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+9999,tsuda nanafushi,津田七節,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+10000,tsugu (vtuber),鳩羽つぐ,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10001,tsukihime,月姫,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10002,tsukihime (remake),月姫 -A piece of blue glass moon-,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+10003,tsukino mito,月ノ美兎,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10004,tsukino usagi,月野うさぎ（美少女戦士セーラームーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 10005,tsukinomori school uniform,月ノ森女子学園の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 10006,tsukioka kogane,月岡恋鐘,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 10007,tsukishiro saika,ツキシロ・サイカ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
-10008,tsukudani (coke-buta),ツクダニ（コークブタ）,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10009,tsukumo benben,九十九弁々,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10010,tsukumo sana,九十九佐命,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10011,tsumiki mikan,ツミキ・ミカン,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-10012,tsunako,津波,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10013,tsundere,ツンデレ,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-10014,tsunomaki watame,角巻わため,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-10015,tsurime,ツリ目,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
+10008,tsukudani (coke-buta),tsukudani（coke-buta）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+10009,tsukumo benben,九十九弁々（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10010,tsukumo sana,九十九佐命,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10011,tsumiki mikan,罪木蜜柑（ダンガンロンパ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10012,tsunako,つなこ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+10013,tsundere,ツンデレ,人物の特徴,人物属性,,[],verified,0,verified,verified
+10014,tsunomaki watame,角巻わため,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+10015,tsurime,つり目,顔・表情,目,,[],verified,0,verified,verified
 10016,tsuruse,ツルセ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
 10017,tsushima yoshiko,津島善子,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
 10018,tuanshan,団扇,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
-10019,tube,チューブ,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-10020,tube dress,チューブドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+10019,tube,チューブ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+10020,tube dress,チューブトップドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 10021,tube top,チューブトップ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
 10022,tucking hair,髪かきあげて,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
 10023,tukiwani,ツキワニ,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
