@@ -8,7 +8,8 @@
         "translationStatus": "verified",
         "translationReviewNote": "ジョジョ公式ポータルの日本語表記「シーザー・Ａ・ツェペリ」に合わせて修正。",
         "translationReviewedAt": "2026-11-10",
-        "translationSource": "https://jojo-portal.com/en/about/bt/"
+        "translationSource": "https://jojo-portal.com/en/about/bt/",
+        "candidateJa": "シーザー・A・ツェペリ"
       }
     },
     {
@@ -18,7 +19,8 @@
         "translationStatus": "verified",
         "translationReviewNote": "本人のプロフィールで表示名「Cait Aron」を確認。日本語の公式表記は確認できないため原表記を維持。",
         "translationReviewedAt": "2026-11-10",
-        "translationSource": "https://www.patreon.com/cw/caitaron"
+        "translationSource": "https://www.patreon.com/cw/caitaron",
+        "candidateJa": "Cait Aron"
       }
     },
     {
