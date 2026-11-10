@@ -245,7 +245,7 @@ async function copyBatchPrompt(){
  const task=$("#batch-task").value;
  const names={translation:"日本語訳と翻訳確認状態",classification:"大分類・小分類・詳細分類と分類確認状態",expressionLevel:"表現レベルと確認状態",all:"翻訳・分類・表現レベル"};
  const fields={translation:"ja, translation_status",classification:"major, minor, detail, classification_review_status",expressionLevel:"expression_level, expression_level_review_status",all:"ja, major, minor, detail, aliases_json, translation_status, expression_level, expression_level_review_status, classification_review_status"};
- const prompt="添付CSVのタグデータを「"+names[task]+"」について整備してください。\\n\\n厳守事項:\\n- CSVのヘッダー11列、行数、行順、index、tagを絶対に変更しない。\\n- 編集してよい列は次だけ: "+fields[task]+"。他の列は元の値を完全に維持する。\\n- 英文tagは識別子なので変更しない。行の追加・削除・並べ替え・重複作成をしない。\\n- 意味・作品名・媒体・分類を確実に判断できない場合は推測せず、該当する確認状態を needs-review にする。\\n- 正しい日本語訳・分類は無理に変更しない。既存の値を尊重する。\\n- 翻訳・分類・表現レベルの確認状態を混同しない。対象外の確認状態を変更しない。\\n- expression_level は確認できた場合のみ0〜4。未判定は空欄のままにし、0を代入しない。\\n- CSVの引用符・カンマ・改行を正しくエスケープする。\\n- 返答は編集済みCSVファイルのみ。Markdownコードフェンスや説明文をCSVに混ぜない。\\n\\n現在のバッチID: "+(activeBatch?.batchId||"未作成")+"。CSVの行をすべて保持して返してください。";
+ const prompt="添付CSVのタグデータを「"+names[task]+"」について整備してください。\n\n厳守事項:\n- CSVのヘッダー11列、行数、行順、index、tagを絶対に変更しない。\n- 編集してよい列は次だけ: "+fields[task]+"。他の列は元の値を完全に維持する。\n- 英文tagは識別子なので変更しない。行の追加・削除・並べ替え・重複作成をしない。\n- 意味・作品名・媒体・分類を確実に判断できない場合は推測せず、該当する確認状態を needs-review にする。\n- 正しい日本語訳・分類は無理に変更しない。既存の値を尊重する。\n- 翻訳・分類・表現レベルの確認状態を混同しない。対象外の確認状態を変更しない。\n- expression_level は確認できた場合のみ0〜4。未判定は空欄のままにし、0を代入しない。\n- CSVの引用符・カンマ・改行を正しくエスケープする。\n- 返答は編集済みCSVファイルのみ。Markdownコードフェンスや説明文をCSVに混ぜない。\n\n現在のバッチID: "+(activeBatch?.batchId||"未作成")+"。CSVの行をすべて保持して返してください。";
  try{await navigator.clipboard.writeText(prompt);$("#batch-status").textContent="AI向け指示をコピーしました。CSVファイルと一緒にChatGPTへ渡してください。";}
  catch(e){$("#batch-status").textContent="クリップボードへコピーできません。ブラウザの権限を確認してください。";}
 }
@@ -263,6 +263,8 @@ async function importBatchFile(){
    const cells=records[n];if(cells.length!==CSV_HEADERS.length)throw new Error("CSV "+(n+1)+"行目の列数が11列ではありません。");
    const index=Number(cells[0]),tag=cells[1],entry=map.get(tag);
    if(!Number.isInteger(index)||!entry||entry.index!==index||state.tags[index]?.[0]!==tag||seen.has(tag))throw new Error("index/tagの不一致、対象外タグ、または重複があります: "+tag);
+   if(activeBatch.completedTags.includes(tag))throw new Error("すでに取り込み済みのタグが含まれています。未処理分CSVを出力してください: "+tag);
+   if(JSON.stringify(csvRowFor(index,state.tags[index]))!==JSON.stringify(entry.snapshot))throw new Error("バッチ作成後に辞書側が変更されています。競合を解消してから再出力してください: "+tag);
    for(let col=0;col<cells.length;col++)if(col!==0&&col!==1&&!editable.has(col)&&cells[col]!==entry.snapshot[col])throw new Error("作業対象外の列が変更されています: "+tag+" / "+CSV_HEADERS[col]);
    seen.add(tag);parsed.push({entry,cells});
   }
@@ -271,8 +273,11 @@ async function importBatchFile(){
   state.tags=structuredClone(state.tags);state.dictionary.tags=state.tags;state.dictionary.classificationCandidates=structuredClone(oldCandidates||{entries:[]});
   try{for(const {entry,cells} of parsed)applyBatchRow(entry,cells,activeBatch.task);}
   catch(error){state.tags=oldTags;state.dictionary.tags=oldTags;state.dictionary.classificationCandidates=oldCandidates;throw error;}
+  const completedBefore=activeBatch.completedTags.slice();
   activeBatch.completedTags=[...new Set([...activeBatch.completedTags,...parsed.map(x=>x.entry.tag)])];
-  state.dictionary.tags=state.tags;persist();await batchStore("put",activeBatch);
+  try{await batchStore("put",activeBatch);}
+  catch(error){state.tags=oldTags;state.dictionary.tags=oldTags;state.dictionary.classificationCandidates=oldCandidates;activeBatch.completedTags=completedBefore;throw new Error("作業進捗の保存に失敗したため、今回の取り込みを取り消しました: "+error.message);}
+  state.dictionary.tags=state.tags;persist();
   renderList();if(state.selected)selectTag(state.selected);
   $("#batch-status").textContent=parsed.length+"件を検証して取り込みました。全件CSVを出力し、exports/dictionary-working.csvへ反映してください。";
   $("#batch-file").value="";$("#batch-import").disabled=true;updateBatchProgress();
