@@ -9116,144 +9116,144 @@
 9114,ssss.gridman,SSSS.GRIDMAN,キャラクター・作品,タイトル（作品名）,,"[""グリッドマン""]",needs-review,,unreviewed,unreviewed
 9115,st. chronica academy school uniform,聖クロニカ学園の制服,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9116,st. louis (azur lane),セントルイス（アズールレーン）,キャラクター・作品,キャラクター,,[],needs-review,,unreviewed,unreviewed
-9117,stab,刺す,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9118,stadium,スタジアム,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9119,staff,杖,家具・設備・物品,武器,,[],unreviewed,,unreviewed,unreviewed
+9117,stab,刺す,動作・接触,身体への接触,,[],verified,0,verified,verified
+9118,stadium,スタジアム,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9119,staff,杖,家具・設備・物品,武器,,[],verified,0,verified,verified
 9120,staff (music),五線譜,文字・記号,記号・図形,,[],needs-review,,unreviewed,unreviewed
-9121,stage,舞台,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9122,stage lights,ステージ照明,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
+9121,stage,舞台,背景・場所,場所・室内外,,[],verified,0,verified,verified
+9122,stage lights,ステージ照明,光・演出,照明・光源,,[],verified,0,verified,verified
 9123,stain,染み,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
-9124,stained clothes,汚れた服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9125,stained glass,ステンドグラス,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-9126,stained panties,汚れたパンティー,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
+9124,stained clothes,汚れた服,服装・装飾,衣服の状態,,[],verified,0,verified,verified
+9125,stained glass,ステンドグラス,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9126,stained panties,汚れたパンティー,服装・装飾,下着,,[],verified,2,verified,verified
 9127,stained sheets,汚れたシーツ,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
-9128,stairs,階段,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9129,stakes of purgatory,煉獄の杭,家具・設備・物品,武器,,[],unreviewed,,unreviewed,unreviewed
+9128,stairs,階段,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9129,stakes of purgatory,煉獄の杭,家具・設備・物品,武器,,[],needs-review,,unreviewed,unreviewed
 9130,stalk in mouth,口にくわえた茎,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-9131,stand (jojo),スタンド（ジョジョの奇妙な冒険）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9131,stand (jojo),スタンド（ジョジョの奇妙な冒険）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 9132,standard bearer,旗手,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
-9133,standing,立つ,ポーズ・姿勢,基本姿勢,,[],unreviewed,,unreviewed,unreviewed
+9133,standing,立っている,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 9134,standing on liquid,液体の上に立つ,ポーズ・姿勢,基本姿勢,,[],needs-review,,unreviewed,unreviewed
 9135,standing on one leg,片足立ち,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,unreviewed
-9136,standing sex,立ちバック,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9137,standing split,Y字バランス,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9138,star (sky),星空,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9139,star (symbol),星,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
-9140,star brooch,スターブローチ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9141,star choker,星のチョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9142,star earrings,星のイヤリング,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9136,standing sex,立位での性行為,動作・接触,性的行為・接触,,[],verified,4,verified,verified
+9137,standing split,Y字バランス,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
+9138,star (sky),星（夜空）,背景・場所,自然・風景,,[],verified,0,verified,verified
+9139,star (symbol),星形の記号,文字・記号,記号・図形,,[],verified,0,verified,verified
+9140,star brooch,星形のブローチ,服装・装飾,装飾品,,[],verified,0,verified,verified
+9141,star choker,星のチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
+9142,star earrings,星のイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
 9143,star facial mark,星形の顔のマーク,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
-9144,star guardian (league of legends),スターガーディアン（リーグオブレジェンド）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9145,star hair ornament,星の髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9146,star halo,スターハロー,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
-9147,star hat ornament,スターハット飾り,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9148,star in eye,目のスター,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-9149,star necklace,星のネックレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9150,star ocean,スターオーシャン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9151,star of david,ダビデの星,文字・記号,記号・図形,,[],unreviewed,,unreviewed,unreviewed
-9152,star ornament,星の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
+9144,star guardian (league of legends),スターガーディアン（リーグ・オブ・レジェンド）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9145,star hair ornament,星の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9146,star halo,星形の光輪,服装・装飾,装飾品,,[],verified,0,verified,verified
+9147,star hat ornament,帽子の星飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9148,star in eye,瞳の中の星,顔・表情,目,,[],verified,0,verified,verified
+9149,star necklace,星のネックレス,服装・装飾,装飾品,,[],verified,0,verified,verified
+9150,star ocean,スターオーシャン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9151,star of david,ダビデの星,文字・記号,記号・図形,,[],verified,0,verified,verified
+9152,star ornament,星の飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 9153,star pasties,星形ニプレス,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
-9154,star print,星柄パンツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9155,star sapphire,スターサファイア,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9156,star sticker,スターステッカー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9157,star symbol background,星形記号の背景,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
-9158,star tattoo,スタータトゥー,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+9154,star print,星柄,服装・装飾,衣服,,[],verified,0,verified,verified
+9155,star sapphire,スターサファイア（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9156,star sticker,星形ステッカー,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9157,star symbol background,星形記号の背景,文字・記号,記号・図形,,[],verified,0,verified,verified
+9158,star tattoo,星形のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9159,star twinkle precure,スター☆トゥインクルプリキュア,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9160,star wand,スターワンド,家具・設備・物品,武器,,[],unreviewed,,unreviewed,unreviewed
-9161,star wars,スター・ウォーズ,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9162,star-shaped eyewear,星型のアイウェア,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
+9160,star wand,星形の杖,家具・設備・物品,道具,,[],verified,0,verified,verified
+9161,star wars,スター・ウォーズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9162,star-shaped eyewear,星形の眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
 9163,star-shaped pupils,星形の瞳孔,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
-9164,stardust crusaders,スターダストクルセイダース,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9165,starfish,ヒトデ,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9166,starfish hair ornament,ヒトデの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9167,staring,凝視する,顔・表情,目,,[],unreviewed,,unreviewed,unreviewed
-9168,stark (sousou no frieren),シュタルク（葬送のフリーレン）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
+9164,stardust crusaders,スターダストクルセイダース（ジョジョの奇妙な冒険）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9165,starfish,ヒトデ,生物・動植物,動物,,[],verified,0,verified,verified
+9166,starfish hair ornament,ヒトデの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9167,staring,凝視,顔・表情,目,,[],verified,0,verified,verified
+9168,stark (sousou no frieren),シュタルク（葬送のフリーレン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 9169,starry hair,星空のような髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
-9170,starry sky,星空,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-9171,starry sky print,星空柄,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9170,starry sky,星空,背景・場所,自然・風景,,[],verified,0,verified,verified
+9171,starry sky print,星空柄,服装・装飾,衣服,,[],verified,0,verified,verified
 9172,starter pokemon trio,ポケモンの御三家,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9173,station,駅,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
+9173,station,駅,背景・場所,建築・構造物,,[],verified,0,verified,verified
 9174,stationary restraints,固定式拘束具,背景・場所,空間・環境表現,,[],needs-review,,unreviewed,unreviewed
-9175,stats,統計,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
-9176,statue,像,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
-9177,steak,ステーキ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+9175,stats,統計データ,文字・記号,文字,,[],verified,0,verified,verified
+9176,statue,像,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9177,steak,ステーキ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9178,stealth sex,人目を忍んだ性行為,動作・接触,性的行為・接触,,[],needs-review,,unreviewed,unreviewed
-9179,steam,蒸気,光・演出,演出効果,,[],unreviewed,,unreviewed,unreviewed
-9180,steam censor,スチーム検閲,品質・ネガティブ,ネガティブ・除外指定,,[],unreviewed,,unreviewed,unreviewed
+9179,steam,蒸気,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+9180,steam censor,スチーム検閲,品質・ネガティブ,ネガティブ・除外指定,,[],needs-review,,unreviewed,unreviewed
 9181,steaming body,湯気の立つ体,光・演出,演出効果,,[],needs-review,,unreviewed,verified
-9182,steampunk,スチームパンク,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
-9183,steel ball run,スティール・ボール・ラン,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
+9182,steampunk,スチームパンク,画風・描写,画風・表現様式,,[],verified,0,verified,verified
+9183,steel ball run,スティール・ボール・ラン（ジョジョの奇妙な冒険）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9184,steepled fingers,指先を合わせた手,ポーズ・姿勢,手足の配置,,[],needs-review,,unreviewed,verified
-9185,steering wheel,ハンドル,乗り物,陸上の乗り物,,[],unreviewed,,unreviewed,unreviewed
-9186,steins;gate,シュタインズ・ゲート,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9187,stelle (honkai: star rail),星（スターレイル）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9188,step-siblings,義理のきょうだい,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,verified
+9185,steering wheel,ハンドル,乗り物,陸上の乗り物,,[],verified,0,verified,verified
+9186,steins;gate,シュタインズ・ゲート,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9187,stelle (honkai: star rail),星（崩壊：スターレイル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9188,step-siblings,義理のきょうだい,状態・状況,状況・関係性,,[],verified,0,verified,verified
 9189,stepped on,踏まれている,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
-9190,stethoscope,聴診器,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
+9190,stethoscope,聴診器,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 9191,stick,棒,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
-9192,sticker,ステッカー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9193,sticker on face,顔にステッカー,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9194,sticky note,付箋,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9195,stiletto (weapon),スティレット（武器）,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
+9192,sticker,ステッカー,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9193,sticker on face,顔にステッカー,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
+9194,sticky note,付箋,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9195,stiletto (weapon),スティレット（短剣）,家具・設備・物品,武器,,[],verified,0,verified,verified
 9196,stiletto heels,ピンヒール,服装・装飾,靴・履物,,[],needs-review,,unreviewed,verified
-9197,still life,静物,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
+9197,still life,静物画,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 9198,stirrup footwear,あぶみ付きの靴,服装・装飾,靴・履物,,[],needs-review,,unreviewed,verified
 9199,stirrup legwear,トレンカ,服装・装飾,靴・履物,,[],needs-review,,unreviewed,unreviewed
 9200,stitched arm,縫い合わされた腕,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,verified
 9201,stitched face,縫い目のある顔,人物の特徴,人物属性,,[],needs-review,,unreviewed,unreviewed
 9202,stitched mouth,縫い合わされた口,顔・表情,顔・表情,,[],needs-review,,unreviewed,unreviewed
 9203,stitched torso,縫い合わされた胴体,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,verified
-9204,stitches,縫い目,服装・装飾,衣服の状態,,[],unreviewed,,unreviewed,unreviewed
-9205,stocking (psg),ストッキング（PSG）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9206,stockings,ストッキング,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-9207,stole,ストール,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9204,stitches,縫い目,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
+9205,stocking (psg),ストッキング（Panty & Stocking with Garterbelt）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9206,stockings,ストッキング,服装・装飾,下着,,[],verified,1,verified,verified
+9207,stole,ストール,服装・装飾,衣服,,[],verified,0,verified,verified
 9208,stomach,腹部,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 9209,stomach bulge,腹部の膨らみ,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-9210,stomach cutout,腹部のカットアウト,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9210,stomach cutout,腹部開きの服,服装・装飾,衣服,,[],verified,1,verified,verified
 9211,stomach tattoo,腹部のタトゥー,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-9212,stomping,踏みつけ,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9213,stone floor,石の床,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9214,stone lantern,石灯籠,家具・設備・物品,その他の物品,,[],unreviewed,,unreviewed,unreviewed
+9212,stomping,踏みつける,動作・接触,身体動作,,[],verified,0,verified,verified
+9213,stone floor,石張りの床,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9214,stone lantern,石灯籠,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 9215,stone ocean,ストーンオーシャン,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
-9216,stone stairs,石の階段,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
+9216,stone stairs,石段,背景・場所,建築・構造物,,[],verified,0,verified,verified
 9217,stone wall,石壁,背景・場所,建築・構造物,,[],needs-review,,unreviewed,unreviewed
-9218,stool,スツール,家具・設備・物品,家具,,[],unreviewed,,unreviewed,unreviewed
-9219,stop motion,コマ撮り,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
-9220,stopwatch,ストップウォッチ,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
-9221,storefront,店先,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9222,storm,嵐,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
-9223,stove,ストーブ,家具・設備・物品,機械・装置,,[],unreviewed,,unreviewed,unreviewed
+9218,stool,スツール,家具・設備・物品,家具,,[],verified,0,verified,verified
+9219,stop motion,ストップモーション,画風・描写,描画技法,,[],verified,0,verified,verified
+9220,stopwatch,ストップウォッチ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+9221,storefront,店舗の正面,背景・場所,建築・構造物,,[],verified,0,verified,verified
+9222,storm,嵐,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+9223,stove,ストーブ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 9224,straddling,またがる,ポーズ・姿勢,身体の配置,,[],needs-review,,unreviewed,unreviewed
 9225,straight hair,直毛,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,unreviewed
-9226,straight-on,正面,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9227,straitjacket,拘束衣,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9228,strangling,絞殺,動作・接触,対人接触・動作,,[],unreviewed,,unreviewed,unreviewed
+9226,straight-on,正面からの視点,構図・カメラ,カメラアングル,,[],verified,0,verified,verified
+9227,straitjacket,拘束衣,服装・装飾,衣服,,[],verified,0,verified,verified
+9228,strangling,首を絞める,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 9229,strap,ストラップ,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-9230,strap between breasts,胸の間のストラップ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9231,strap gap,ストラップギャップ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9232,strap lift,肩紐ずらし,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9233,strap pull,肩紐ずらし,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9230,strap between breasts,胸の間を通るストラップ,服装・装飾,衣服,,[],verified,1,verified,verified
+9231,strap gap,ストラップギャップ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+9232,strap lift,肩紐ずらし,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
+9233,strap pull,肩紐を引っ張る,動作・接触,衣服への接触,,[],verified,1,verified,verified
 9234,strap slip,肩紐がずり落ちる,服装・装飾,衣服の状態,,[],needs-review,,unreviewed,unreviewed
-9235,strap-on,ストラップオン器具,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,unreviewed
-9236,strapless,ストラップレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9237,strapless bikini,ストラップレスビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9238,strapless bottom,ストラップレスの底,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-9239,strapless bra,ストラップレスブラ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9240,strapless dress,ストラップレスドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9241,strapless leotard,ストラップレスレオタード,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9242,strapless one-piece swimsuit,ストラップレスのワンピース水着,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9243,strapless shirt,ストラップレスシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9244,strappy heels,ストラップヒール,服装・装飾,靴・履物,,[],unreviewed,,unreviewed,verified
-9245,straw hat,麦わら帽子,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9246,strawberry,いちご,生物・動植物,植物,,[],unreviewed,,unreviewed,unreviewed
-9247,strawberry hair ornament,イチゴの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9248,strawberry panties,イチゴのパンティー,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-9249,strawberry print,イチゴ柄,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9235,strap-on,ストラップオン器具,服装・装飾,装備・防具,,[],needs-review,,unreviewed,unreviewed
+9236,strapless,ストラップレス,服装・装飾,衣服,,[],verified,0,verified,verified
+9237,strapless bikini,ストラップレスビキニ,服装・装飾,水着,,[],verified,1,verified,verified
+9238,strapless bottom,ストラップレスの底,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
+9239,strapless bra,ストラップレスブラ,服装・装飾,下着,,[],verified,1,verified,verified
+9240,strapless dress,ストラップレスドレス,服装・装飾,衣服,,[],verified,1,verified,verified
+9241,strapless leotard,ストラップレスレオタード,服装・装飾,衣服,,[],verified,1,verified,verified
+9242,strapless one-piece swimsuit,ストラップレスのワンピース水着,服装・装飾,水着,,[],verified,1,verified,verified
+9243,strapless shirt,ストラップレスシャツ,服装・装飾,衣服,,[],verified,1,verified,verified
+9244,strappy heels,ストラップ付きハイヒール,服装・装飾,靴・履物,,[],verified,0,verified,verified
+9245,straw hat,麦わら帽子,服装・装飾,衣服,,[],verified,0,verified,verified
+9246,strawberry,イチゴ,生物・動植物,植物,,[],verified,0,verified,verified
+9247,strawberry hair ornament,イチゴの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9248,strawberry panties,イチゴ柄のパンティー,服装・装飾,下着,,[],verified,1,verified,verified
+9249,strawberry print,イチゴ柄,服装・装飾,衣服,,[],verified,0,verified,verified
 9250,strawberry shortcake,いちごのショートケーキ,生物・動植物,植物,,[],needs-review,,unreviewed,unreviewed
-9251,streaked hair,メッシュ,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
+9251,streaked hair,メッシュ入りの髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 9252,stream,水の流れ,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 9253,streamers,飾りひも,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
-9254,streaming tears,涙を流す,顔・表情,顔・表情,,[],unreviewed,,unreviewed,unreviewed
+9254,streaming tears,涙を流す,顔・表情,顔・表情,,[],verified,0,verified,verified
 9255,street,街,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
 9256,street fighter,ストリートファイター,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
 9257,street fighter 6,ストリートファイター6,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
