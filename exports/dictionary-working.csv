@@ -2026,60 +2026,60 @@
 2024,computer mouse,コンピューターマウス,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 2025,concept art,コンセプトアート,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2026,concert,コンサート,背景・場所,空間・環境表現,,[],verified,0,verified,verified
-2027,concrete,コンクリート,背景・場所,自然・風景,,[],needs-review,,unreviewed,verified
-2028,condensation,結露,背景・場所,天候・時間帯,,[],needs-review,,unreviewed,verified
-2029,conductor baton,指揮棒,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2030,cone hair bun,円錐形のお団子ヘア,髪・頭部,髪・頭部,,[],verified,,unreviewed,unreviewed
-2031,cone horns,円錐形の角,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
-2032,confession,告白,動作・接触,対人接触・動作,,[],verified,,unreviewed,verified
-2033,confetti,紙吹雪,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2034,confused,困惑した表情,顔・表情,顔・表情,,[],verified,,unreviewed,verified
+2027,concrete,コンクリート,背景・場所,自然・風景,,[],verified,0,verified,verified
+2028,condensation,結露,状態・状況,状態・変化,,[],verified,0,verified,verified
+2029,conductor baton,指揮棒,家具・設備・物品,道具,,[],verified,0,verified,verified
+2030,cone hair bun,円錐形のお団子ヘア,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+2031,cone horns,円錐形の角,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2032,confession,告白,動作・接触,対人接触・動作,,[],verified,0,verified,verified
+2033,confetti,紙吹雪,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2034,confused,困惑した表情,顔・表情,顔・表情,,[],verified,0,verified,verified
 2035,congratulations,お祝い,背景・場所,空間・環境表現,,[],needs-review,,unreviewed,verified
-2036,constellation,星座,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2037,constellation print,星座柄,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2038,constricted pupils,収縮した瞳孔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2039,contemporary,現代的な,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2040,content rating,コンテンツ評価,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2041,contrail,飛行機雲,背景・場所,自然・風景,,[],verified,,unreviewed,verified
-2042,contrapposto,コントラポスト,ポーズ・姿勢,基本姿勢,,[],verified,,unreviewed,verified
-2043,contrast,コントラスト,光・演出,影・陰影,,[],verified,,unreviewed,verified
-2044,controller,コントローラ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2045,convenience store,コンビニ,背景・場所,建築・構造物,,[],verified,,unreviewed,verified
-2046,convenient arm,都合よく配置された腕,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
-2047,convenient censoring,都合のよい隠し方,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-2048,convenient leg,都合よく配置された脚,ポーズ・姿勢,手足の配置,,[],verified,,unreviewed,verified
-2049,converse,コンバース,服装・装飾,靴・履物,,[],verified,,unreviewed,verified
-2050,cookie,クッキー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+2036,constellation,星座,背景・場所,自然・風景,,[],verified,0,verified,verified
+2037,constellation print,星座柄,服装・装飾,衣服,,[],verified,0,verified,verified
+2038,constricted pupils,収縮した瞳孔,顔・表情,目,,[],verified,0,verified,verified
+2039,contemporary,現代的な,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2040,content rating,コンテンツ評価,文字・記号,文字,,[],verified,0,verified,verified
+2041,contrail,飛行機雲,背景・場所,自然・風景,,[],verified,0,verified,verified
+2042,contrapposto,コントラポスト,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
+2043,contrast,コントラスト,光・演出,影・陰影,,[],verified,0,verified,verified
+2044,controller,コントローラ,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2045,convenience store,コンビニ,背景・場所,建築・構造物,,[],verified,0,verified,verified
+2046,convenient arm,都合よく配置された腕,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+2047,convenient censoring,都合のよい隠し方,光・演出,演出効果,,[],verified,0,verified,unreviewed
+2048,convenient leg,都合よく配置された脚,ポーズ・姿勢,手足の配置,,[],verified,0,verified,verified
+2049,converse,コンバース,服装・装飾,靴・履物,,[],verified,0,verified,verified
+2050,cookie,クッキー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2051,cookie (touhou),クッキー☆（東方Project二次創作）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-2052,cookie run,クッキーラン,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
-2053,cooking,料理,動作・接触,身体動作,,[],verified,,unreviewed,verified
-2054,cooking pot,調理鍋,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,,unreviewed,verified
-2056,cooler,クーラー,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
+2052,cookie run,クッキーラン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2053,cooking,料理,動作・接触,身体動作,,[],verified,0,verified,verified
+2054,cooking pot,調理鍋,家具・設備・物品,道具,,[],verified,0,verified,verified
+2055,cool colors,寒色系,光・演出,色調・色彩,,[],verified,0,verified,verified
+2056,cooler,クーラー,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2057,copy ability,コピー能力,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
-2058,copyright name,著作権者名,文字・記号,記号・図形,,[],verified,,unreviewed,verified
-2059,copyright notice,著作権表示,文字・記号,記号・図形,,[],verified,,unreviewed,unreviewed
-2060,coral,サンゴ,生物・動植物,動物,,[],verified,,unreviewed,verified
-2061,corded phone,有線電話,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2062,core crystal (xenoblade),コアクリスタル（ゼノブレイド）,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2063,cork,コルク,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2064,corn,トウモロコシ,生物・動植物,植物,,[],verified,,unreviewed,verified
-2065,corpse,死体,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+2058,copyright name,著作権者名,文字・記号,文字,,[],verified,0,verified,verified
+2059,copyright notice,著作権表示,文字・記号,文字,,[],verified,0,verified,verified
+2060,coral,サンゴ,生物・動植物,動物,,[],verified,0,verified,verified
+2061,corded phone,有線電話,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
+2062,core crystal (xenoblade),コアクリスタル（ゼノブレイド）,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2063,cork,コルク,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2064,corn,トウモロコシ,生物・動植物,植物,,[],verified,0,verified,verified
+2065,corpse,死体,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2066,corrin (female) (fire emblem),カムイ（女性・ファイアーエムブレムif）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2067,corrin (fire emblem),カムイ（ファイアーエムブレムif）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-2068,corruption,堕落,状態・状況,状態・変化,,[],verified,,unreviewed,verified
-2069,corsage,コサージュ,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2070,corset,コルセット,服装・装飾,下着,,[],verified,,unreviewed,verified
-2071,cosmetics,化粧品,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2072,cosplay,コスプレ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2073,costume,コスチューム,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2074,costume switch,衣装チェンジ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2075,cotton candy,綿菓子,家具・設備・物品,その他の物品,,[],verified,,unreviewed,verified
-2076,couch,ソファ,家具・設備・物品,家具,,[],verified,,unreviewed,verified
+2068,corruption,堕落,状態・状況,状態・変化,,[],verified,0,verified,verified
+2069,corsage,コサージュ,服装・装飾,装飾品,,[],verified,0,verified,verified
+2070,corset,コルセット,服装・装飾,下着,,[],verified,1,verified,verified
+2071,cosmetics,化粧品,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2072,cosplay,コスプレ,服装・装飾,衣服,,[],verified,0,verified,verified
+2073,costume,コスチューム,服装・装飾,衣服,,[],verified,0,verified,verified
+2074,costume switch,衣装チェンジ,服装・装飾,衣服,,[],verified,0,verified,verified
+2075,cotton candy,綿菓子,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+2076,couch,ソファ,家具・設備・物品,家具,,[],verified,0,verified,verified
 2077,cougar (cougar1404),クーガー（cougar1404）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
-2078,countdown,秒読み,背景・場所,空間・環境表現,,[],verified,,unreviewed,verified
-2079,counter,カウンター,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2080,counter:side,カウンター：サイド,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,verified
+2078,countdown,秒読み,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+2079,counter,カウンター,家具・設備・物品,家具,,[],verified,0,verified,verified
+2080,counter:side,カウンター：サイド,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2081,country connection,国家間の関係,動作・接触,対人接触・動作,,[],verified,,unreviewed,unreviewed
 2082,couple,カップル,人数・人物構成,人数・人物構成,,[],verified,,unreviewed,verified
 2083,cousins,いとこ同士,状態・状況,状況・関係性,,[],verified,,unreviewed,verified
