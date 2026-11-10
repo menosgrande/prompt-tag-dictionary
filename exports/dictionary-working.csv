@@ -1333,7 +1333,7 @@
 1331,bread slice,食パンの一切れ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1332,breaker gorgon (Fate),ブレーカー・ゴルゴーン（Fate）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 1333,breaking,破壊する動作,動作・接触,物への接触,,[],verified,0,verified,verified
-1334,breast conscious,胸元を気にする仕草,動作・接触,性的行為・接触,,[],verified,,unreviewed,unreviewed
+1334,breast conscious,胸元を気にする仕草,状態・状況,状態・変化,,[],verified,0,verified,verified
 1335,breast curtain,胸を覆う布,服装・装飾,衣服,,[],verified,0,verified,verified
 1336,breast curtains,胸を覆う布,服装・装飾,衣服,,[],verified,0,verified,verified
 1337,breast cutout,胸元のカットアウト,服装・装飾,衣服,,[],verified,2,verified,verified
@@ -1662,7 +1662,7 @@
 1660,catchphrase,キャッチフレーズ,文字・記号,記号・図形,,[],verified,0,verified,verified
 1661,caterpillar tracks,履帯,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 1662,cato (monocatienus),Cato（Monocatienus）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
-1663,catstudioinc (punepuni),catstudioinc（punepuni）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,verified
+1663,catstudioinc (punepuni),catstudioinc（punepuni）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 1664,catsuit,キャットスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 1665,caught,捕まった状態,状態・状況,状態・変化,,[],verified,0,verified,verified
 1666,cauldron,大釜,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
@@ -1774,7 +1774,7 @@
 1772,chess,チェス,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1773,chess piece,チェスの駒,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1774,chessboard,チェス盤,家具・設備・物品,日用品,,[],verified,0,verified,verified
-1775,chest belt,胸部ベルト,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1775,chest belt,胸部ベルト,服装・装飾,衣服,,[],verified,0,verified,verified
 1776,chest hair,胸毛,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1777,chest harness,チェストハーネス,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1778,chest jewel,胸元の宝石,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -1783,8 +1783,8 @@
 1781,chest strap,胸部ストラップ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1782,chest tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1783,chest tuft,胸元の毛束,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1784,chestnut mouth,栗形の口,顔・表情,顔・表情,,[],verified,0,verified,unreviewed
-1785,cheval grand (umamusume),シュヴァルグラン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
+1784,chestnut mouth,栗形の口,顔・表情,顔・表情,,[],verified,0,verified,verified
+1785,cheval grand (umamusume),シュヴァルグラン（ウマ娘）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1786,chewing,噛む,動作・接触,身体動作,,[],verified,0,verified,verified
 1787,chewing gum,風船ガム,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1788,chi-chi (dragon ball),チチ（ドラゴンボール）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
@@ -1825,8 +1825,8 @@
 1823,chocolate cake,チョコケーキ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1824,chocolate making,チョコレート作り,動作・接触,日常動作,,[],verified,0,verified,verified
 1825,chocolate on body,身体に付いたチョコレート,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1826,chocolate on breasts,胸に付いたチョコレート,動作・接触,身体への接触,,[],verified,2,verified,unreviewed
-1827,choke hold,チョークホールド,動作・接触,対人接触・動作,,[],verified,0,verified,unreviewed
+1826,chocolate on breasts,胸に付いたチョコレート,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
+1827,choke hold,チョークホールド,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 1828,choker,チョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
 1829,choko (cup),猪口（酒器）,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1830,chongyun (genshin impact),重雲（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
