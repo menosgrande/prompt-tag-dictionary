@@ -1338,49 +1338,49 @@
 1336,breast curtains,胸を覆う布,服装・装飾,衣服,,[],verified,0,verified,verified
 1337,breast cutout,胸元のカットアウト,服装・装飾,衣服,,[],verified,2,verified,verified
 1338,breast envy,他人の胸を羨む,状態・状況,状態・変化,,[],verified,0,verified,verified
-1339,breast expansion,胸の増大,人物の特徴,体型・身体的特徴,,[],verified,,unreviewed,verified
-1340,breast focus,胸を強調した構図,構図・カメラ,構図・配置,,[],verified,,unreviewed,verified
-1341,breast lift,胸を持ち上げる,動作・接触,身体への接触,,[],verified,,unreviewed,verified
+1339,breast expansion,胸の増大,人物の特徴,体型・身体的特徴,,[],verified,2,verified,verified
+1340,breast focus,胸を強調した構図,構図・カメラ,構図・配置,,[],verified,2,verified,verified
+1341,breast lift,胸を持ち上げる,動作・接触,身体への接触,,[],verified,2,verified,verified
 1342,breast milk,母乳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1343,breast padding,胸パッド,服装・装飾,下着,,[],verified,,unreviewed,verified
+1343,breast padding,胸パッド,服装・装飾,下着,,[],verified,0,verified,verified
 1344,breast pocket,胸ポケット,服装・装飾,衣服,,[],verified,0,verified,verified
-1345,breast poke,胸を指で突く,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1346,breast press,胸を押し付ける,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1347,breast rest,胸の休息,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
-1348,breast slip,胸が衣服からずれる・こぼれる,服装・装飾,衣服の状態,,[],verified,,unreviewed,verified
-1349,breast smother,胸で顔を覆う,動作・接触,性的行為・接触,,[],verified,,unreviewed,verified
+1345,breast poke,胸を指で突く,動作・接触,身体への接触,,[],verified,2,verified,verified
+1346,breast press,胸を押し付ける,動作・接触,身体への接触,,[],verified,2,verified,verified
+1347,breast rest,胸を何かに載せて休める状態,動作・接触,身体への接触,,[],verified,2,verified,verified
+1348,breast slip,胸が衣服からずれる・こぼれる,服装・装飾,衣服の状態,,[],verified,2,verified,verified
+1349,breast smother,胸で顔を覆う,動作・接触,性的行為・接触,,[],verified,3,verified,verified
 1350,breast strap,胸を支えるストラップ,服装・装飾,下着,,[],needs-review,,unreviewed,verified
 1351,breast sucking,胸を吸う,動作・接触,性的行為・接触,,[],verified,4,verified,verified
-1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
+1352,breast suppress,胸を押さえて目立たなくする,動作・接触,身体への接触,,[],verified,0,verified,verified
+1353,breast tattoo,胸のタトゥー,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1354,breastfeeding,授乳,動作・接触,対人接触・動作,,[],verified,0,verified,verified
-1355,breastless clothes,胸を覆わない服,服装・装飾,衣服,,[],verified,,unreviewed,verified
+1355,breastless clothes,胸部分を覆わない衣服,服装・装飾,衣服,,[],verified,3,verified,verified
 1356,breastplate,胸当て,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1357,breasts,胸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1358,breasts apart,離れ乳,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-1359,breasts on glass,ガラス面に押し付けられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1360,breasts on head,頭に載せられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1361,breasts on table,テーブルに載せられた胸,動作・接触,身体への接触,,[],verified,,unreviewed,verified
-1362,breasts out,胸を露出した状態,服装・装飾,裸体・露出,,[],verified,,unreviewed,verified
+1358,breasts apart,離れ乳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+1359,breasts on glass,ガラス面に押し付けられた胸,動作・接触,身体への接触,,[],verified,2,verified,verified
+1360,breasts on head,頭に載せられた胸,動作・接触,身体への接触,,[],verified,3,verified,verified
+1361,breasts on table,テーブルに載せられた胸,動作・接触,身体への接触,,[],verified,2,verified,verified
+1362,breasts out,胸を露出した状態,服装・装飾,裸体・露出,,[],verified,3,verified,verified
 1363,breasts squeezed together,寄せ乳,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 1364,breath,呼吸,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1365,breath of fire,火を吐く息,動作・接触,身体動作,,[],verified,,unreviewed,verified
+1365,breath of fire,火を吐く息,動作・接触,身体動作,,[],verified,0,verified,verified
 1366,breath weapon,ブレス攻撃,動作・接触,身体動作,,[],verified,0,verified,verified
-1367,breathing fire,火を吐く,動作・接触,身体動作,,[],verified,,unreviewed,verified
+1367,breathing fire,火を吐く,動作・接触,身体動作,,[],verified,0,verified,verified
 1368,bremerton (azur lane),ブレマートン（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,verified
+1369,bremerton (scorching-hot training) (azur lane),ブレマートン〔熱々トレーニング〕（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1370,brendan (pokemon),ユウキ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1371,brick,レンガ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1372,brick floor,レンガの床,背景・場所,場所・室内外,,[],verified,0,verified,verified
 1373,brick wall,れんが壁,背景・場所,場所・室内外,,[],verified,0,verified,verified
-1374,bridal garter,ブライダルガーター,服装・装飾,下着,,[],verified,,unreviewed,verified
-1375,bridal gauntlets,花嫁用ガントレット,服装・装飾,装備・防具,,[],verified,,unreviewed,verified
-1376,bridal legwear,花嫁用レッグウェア,服装・装飾,衣服,,[],verified,,unreviewed,verified
+1374,bridal garter,ブライダルガーター,服装・装飾,下着,,[],verified,0,verified,verified
+1375,bridal gauntlets,花嫁用ガントレット,服装・装飾,装備・防具,,[],verified,0,verified,verified
+1376,bridal legwear,花嫁用レッグウェア,服装・装飾,衣服,,[],verified,0,verified,verified
 1377,bridal lingerie,ブライダルランジェリー,服装・装飾,下着,,[],verified,3,verified,verified
 1378,bridal veil,ブライダルベール,服装・装飾,衣服,,[],verified,0,verified,verified
 1379,bride,花嫁,人物の特徴,人物属性,,[],verified,0,verified,verified
 1380,bridge,橋,背景・場所,建築・構造物,,[],verified,0,verified,verified
-1381,bridget (guilty gear),ブリジット（GUILTY GEAR）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+1381,bridget (guilty gear),ブリジット（GUILTY GEAR）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 1382,bridle,頭絡,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
 1383,briefcase,ブリーフケース,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1384,briefs,ブリーフ,服装・装飾,下着,,[],verified,,unreviewed,verified
