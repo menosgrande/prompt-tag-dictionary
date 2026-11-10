@@ -1,6 +1,7 @@
 name: Apply dictionary patch
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -41,24 +42,34 @@ jobs:
           fi
           echo "patch_file=${files[0]}" >> "$GITHUB_OUTPUT"
           node .github/scripts/apply-dictionary-patch.mjs "${files[0]}"
+        if: steps.patch.outputs.skip != 'true'
       - name: Validate dictionary
         run: node scripts/build-dictionary-data.mjs --check
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit tag structure and categories
         run: node scripts/audit-tags.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit taxonomy structure
         run: node scripts/audit-taxonomy.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit consolidated review metadata
         run: node scripts/audit-tag-management.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit translation candidates
         run: node scripts/audit-translations.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit prompt output order
         run: node scripts/audit-prompt-order.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Audit tag groups
         run: node scripts/audit-tag-groups.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Run all Node tests
         run: node --test
+        if: steps.patch.outputs.skip != 'true'
       - name: Export working CSV from canonical dictionary
         run: node scripts/export-dictionary-csv.mjs
+        if: steps.patch.outputs.skip != 'true'
       - name: Commit updated dictionary
         env:
           PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
