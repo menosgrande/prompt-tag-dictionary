@@ -228,6 +228,7 @@ function applyBatchRow(entry,cells,task){
    if((row[2]==="未分類"&&row[3]==="未分類")||(row[2]==="要確認"&&row[3]==="要確認"))classification=null;
    else Object.assign(classification,classificationIds(row[2],row[3],row[0]));
   }
+  if(classificationChanged&&!classification){delete meta.classification;if(idx>=0)entries.splice(idx,1);}
   if(status==="verified"||status==="not-applicable"){
    if(idx>=0)entries.splice(idx,1);
    delete meta.classification;
