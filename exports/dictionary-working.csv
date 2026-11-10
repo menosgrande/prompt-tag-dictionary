@@ -9254,131 +9254,131 @@
 9252,stream,水の流れ,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 9253,streamers,飾りひも,背景・場所,自然・風景,,[],needs-review,,unreviewed,unreviewed
 9254,streaming tears,涙を流す,顔・表情,顔・表情,,[],verified,0,verified,verified
-9255,street,街,背景・場所,建築・構造物,,[],unreviewed,,unreviewed,unreviewed
-9256,street fighter,ストリートファイター,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9257,street fighter 6,ストリートファイター6,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9258,street fighter iii (series),ストリートファイターIII（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9259,street fighter iv (series),ストリートファイターIV（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9260,street fighter v,ストリートファイターV,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9261,street fighter zero (series),ストリートファイターZERO（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9262,streetwear,ストリート系,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9263,stretching,伸びをする,動作・接触,身体動作,,[],unreviewed,,unreviewed,unreviewed
-9264,strike witches,ストライクウィッチーズ,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9265,striker unit,ストライカーユニット,服装・装飾,装備・防具,,[],unreviewed,,unreviewed,unreviewed
+9255,street,街,背景・場所,自然・風景,,[],verified,0,verified,verified
+9256,street fighter,ストリートファイター,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9257,street fighter 6,ストリートファイター6,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9258,street fighter iii (series),ストリートファイターIII（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9259,street fighter iv (series),ストリートファイターIV（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9260,street fighter v,ストリートファイターV,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9261,street fighter zero (series),ストリートファイターZERO（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9262,streetwear,ストリートファッション,服装・装飾,衣服,,[],verified,0,verified,verified
+9263,stretching,ストレッチをする,動作・接触,身体動作,,[],verified,0,verified,verified
+9264,strike witches,ストライクウィッチーズ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9265,striker unit,ストライカーユニット（ストライクウィッチーズ）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
 9266,string,紐,服装・装飾,装飾品,,[],needs-review,,unreviewed,unreviewed
-9267,string bikini,紐ビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9268,string bra,细绳胸罩,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9269,string of fate,運命の赤い糸,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+9267,string bikini,紐ビキニ,服装・装飾,水着,,[],verified,1,verified,verified
+9268,string bra,紐ブラ,服装・装飾,下着,,[],verified,1,verified,verified
+9269,string of fate,運命の赤い糸,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
 9270,string of flags,旗の連なり,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
 9271,string panties,紐パンツ,服装・装飾,下着,,[],needs-review,,unreviewed,unreviewed
-9272,striped background,縞模様の背景,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,unreviewed
-9273,striped bikini,縞模様のビキニ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9272,striped background,縞模様の背景,背景・場所,空間・環境表現,,[],verified,0,verified,verified
+9273,striped bikini,縞模様のビキニ,服装・装飾,水着,,[],verified,1,verified,verified
 9274,striped bow,縞模様のリボン,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
-9275,striped bowtie,縞模様の蝶ネクタイ,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9276,striped bra,縞模様のブラジャー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9277,striped clothes,縞模様の服,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9275,striped bowtie,縞模様の蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
+9276,striped bra,縞模様のブラジャー,服装・装飾,下着,,[],verified,1,verified,verified
+9277,striped clothes,縞模様の服,服装・装飾,衣服,,[],verified,0,verified,verified
 9278,striped coat,縞模様のコート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9279,striped dress,縞模様のドレス,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9280,striped fur,縞模様の毛皮,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9281,striped gloves,縞模様の手袋,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9282,striped hair,縞模様の髪,髪・頭部,髪・頭部,,[],unreviewed,,unreviewed,unreviewed
-9283,striped hairband,縞模様のヘアバンド,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9284,striped headwear,縞模様の帽子,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9285,striped hoodie,縞模様のパーカー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9286,striped horns,縞模様の角,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9287,striped jacket,ストライプジャケット,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9288,striped kimono,縞模様の着物,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9280,striped fur,縞模様の毛皮,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+9281,striped gloves,縞模様の手袋,服装・装飾,装飾品,,[],verified,0,verified,verified
+9282,striped hair,縞の入った髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
+9283,striped hairband,縞模様のヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
+9284,striped headwear,縞模様の帽子,服装・装飾,装飾品,,[],verified,0,verified,verified
+9285,striped hoodie,縞模様のパーカー,服装・装飾,衣服,,[],verified,0,verified,verified
+9286,striped horns,縞模様の角,髪・頭部,頭部の特徴,,[],verified,0,verified,verified
+9287,striped jacket,ストライプ柄のジャケット,服装・装飾,衣服,,[],verified,0,verified,verified
+9288,striped kimono,縞模様の着物,服装・装飾,衣服,,[],verified,0,verified,verified
 9289,striped necktie,縞模様のネクタイ,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
 9290,striped one-piece swimsuit,縞模様のワンピース水着,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9291,striped panties,縞パン,服装・装飾,下着,,[],unreviewed,,unreviewed,unreviewed
-9292,striped pants,縞模様のパンツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9293,striped pantyhose,縞模様のパンスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9291,striped panties,縞パン,服装・装飾,下着,,[],verified,1,verified,verified
+9292,striped pants,縞模様のパンツ,服装・装飾,衣服,,[],verified,0,verified,verified
+9293,striped pantyhose,縞模様のパンティストッキング,服装・装飾,下着,,[],verified,1,verified,verified
 9294,striped ribbon,縞模様のリボン,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9295,striped scarf,縞模様のスカーフ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9296,striped shirt,ストライプシャツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9295,striped scarf,縞模様のスカーフ,服装・装飾,衣服,,[],verified,0,verified,verified
+9296,striped shirt,ストライプシャツ,服装・装飾,衣服,,[],verified,0,verified,verified
 9297,striped shorts,縞模様のショートパンツ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 9298,striped skirt,縞模様のスカート,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9299,striped sleeves,縞模様の袖,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9300,striped socks,縞模様の靴下,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9301,striped sweater,縞模様のセーター,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9302,striped tail,縞模様のしっぽ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+9299,striped sleeves,縞模様の袖,服装・装飾,衣服,,[],verified,0,verified,verified
+9300,striped socks,縞模様の靴下,服装・装飾,衣服,,[],verified,0,verified,verified
+9301,striped sweater,縞模様のセーター,服装・装飾,衣服,,[],verified,0,verified,verified
+9302,striped tail,縞模様の尻尾,生物・動植物,動物,,[],verified,0,verified,verified
 9303,striped thighhighs,縞模様のニーハイソックス,服装・装飾,靴・履物,,[],needs-review,,unreviewed,verified
-9304,striped vest,ストライプベスト,服装・装飾,衣服,,[],unreviewed,,unreviewed,verified
-9305,stripper,ストリッパー,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
-9306,stripper pole,ストリッパーポール,家具・設備・物品,家具,,[],unreviewed,,unreviewed,unreviewed
-9307,stroking own chin,自分のあごをなでる,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
+9304,striped vest,ストライプ柄のベスト,服装・装飾,衣服,,[],verified,0,verified,verified
+9305,stripper,ストリッパー,人物の特徴,人物属性,,[],verified,1,verified,verified
+9306,stripper pole,ポールダンス用ポール,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
+9307,stroking own chin,自分の顎を撫でる,動作・接触,身体動作,,[],verified,0,verified,verified
 9308,strongman waist,たくましい腰,人物の特徴,身体部位・身体状態,,[],needs-review,,unreviewed,unreviewed
 9309,struggling,もがく,動作・接触,身体動作,,[],needs-review,,unreviewed,unreviewed
-9310,stubble,無精ひげ,人物の特徴,身体部位・身体状態,,[],unreviewed,,unreviewed,unreviewed
+9310,stubble,無精ひげ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 9311,stuck,身動きが取れない,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
 9312,stud earrings,スタッドピアス,服装・装飾,装飾品,,[],needs-review,,unreviewed,verified
-9313,studded belt,スタッズベルト,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9314,studded bracelet,スタッドブレスレット,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9315,studded choker,スタッドチョーカー,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9316,studded collar,スタッドカラー,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9317,student,学生,人物の特徴,人物属性,,[],unreviewed,,unreviewed,unreviewed
+9313,studded belt,スタッズベルト,服装・装飾,装飾品,,[],verified,0,verified,verified
+9314,studded bracelet,スタッズ付きブレスレット,服装・装飾,装飾品,,[],verified,0,verified,verified
+9315,studded choker,スタッズ付きチョーカー,服装・装飾,装飾品,,[],verified,0,verified,verified
+9316,studded collar,スタッズ付き首輪,服装・装飾,装飾品,,[],verified,0,verified,verified
+9317,student,学生,人物の特徴,人物属性,,[],verified,0,verified,verified
 9318,studio ghibli,スタジオジブリ,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,unreviewed
-9319,stuffed animal,動物のぬいぐるみ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9320,stuffed cat,猫のぬいぐるみ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+9319,stuffed animal,動物のぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9320,stuffed cat,猫のぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9321,stuffed dog,犬のぬいぐるみ,生物・動植物,動物,,[],needs-review,,unreviewed,unreviewed
-9322,stuffed panda,ぬいぐるみパンダ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
+9322,stuffed panda,パンダのぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9323,stuffed penguin,ペンギンのぬいぐるみ,家具・設備・物品,日用品,,[],needs-review,,unreviewed,unreviewed
-9324,stuffed rabbit,兎のぬいぐるみ,生物・動植物,動物,,[],unreviewed,,unreviewed,unreviewed
-9325,stuffed shark,ぬいぐるみサメ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9326,stuffed toy,ぬいぐるみ,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
+9324,stuffed rabbit,ウサギのぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9325,stuffed shark,サメのぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9326,stuffed toy,ぬいぐるみ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9327,stuffed winged unicorn,翼のあるユニコーンのぬいぐるみ,家具・設備・物品,日用品,,[],needs-review,,unreviewed,verified
 9328,style parody,作風パロディ,画風・描写,画風・表現様式,,[],needs-review,,unreviewed,unreviewed
-9329,stylus,スタイラス,家具・設備・物品,道具,,[],unreviewed,,unreviewed,unreviewed
-9330,submachine gun,小型機関銃,家具・設備・物品,武器,,[],unreviewed,,unreviewed,verified
+9329,stylus,スタイラスペン,家具・設備・物品,道具,,[],verified,0,verified,verified
+9330,submachine gun,サブマシンガン,家具・設備・物品,武器,,[],verified,0,verified,verified
 9331,submerged,水中に沈んだ,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
-9332,subtitled,字幕,文字・記号,文字,,[],unreviewed,,unreviewed,unreviewed
+9332,subtitled,字幕付き,文字・記号,文字,,[],verified,0,verified,verified
 9333,suction cups,吸盤,家具・設備・物品,道具,,[],needs-review,,unreviewed,unreviewed
-9334,sugar cube,角砂糖,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9335,sugar lyric,砂糖叙情詩,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9336,suggestive fluid,示唆的な液体,動作・接触,性的行為・接触,,[],unreviewed,,unreviewed,unreviewed
-9337,suicide,自殺,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
-9338,suigintou,水銀燈,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9339,suiseiseki,翠星石,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9340,suit,スーツ,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
+9334,sugar cube,角砂糖,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9335,sugar lyric,砂糖叙情詩,状態・状況,状況・関係性,,[],needs-review,,unreviewed,unreviewed
+9336,suggestive fluid,示唆的な液体,動作・接触,性的行為・接触,,[],needs-review,,unreviewed,unreviewed
+9337,suicide,自殺,状態・状況,状況・関係性,,[],verified,0,verified,verified
+9338,suigintou,水銀燈（ローゼンメイデン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9339,suiseiseki,翠星石（ローゼンメイデン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9340,suit,スーツ,服装・装飾,衣服,,[],verified,0,verified,verified
 9341,suit jacket,スーツのジャケット,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
-9342,suitcase,スーツケース,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,verified
+9342,suitcase,スーツケース,家具・設備・物品,日用品,,[],verified,0,verified,verified
 9343,suite precure,スイートプリキュア♪,キャラクター・作品,タイトル（作品名）,,[],needs-review,,unreviewed,unreviewed
-9344,sukajan,スカジャン,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9345,sukuna shinmyoumaru,少名針妙丸,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9346,sukusuku hakutaku,すくすく白沢,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9347,suletta mercury,スレッタ・マーキュリー,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9348,sumi-e,墨絵,画風・描写,画風・表現様式,,[],unreviewed,,unreviewed,unreviewed
-9349,sumiyao (amam),スミヤオ（アマム）,キャラクター・作品,作者・配信者,,[],unreviewed,,unreviewed,unreviewed
-9350,summer,夏,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-9351,summer festival,夏祭り,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9352,summer pockets,Summer Pockets（サマーポケッツ）,キャラクター・作品,タイトル（作品名）,,"[""Summer Pockets"",""サマーポケッツ""]",unreviewed,,unreviewed,unreviewed
-9353,summer uniform,夏のユニフォーム,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9354,summon night,召喚夜,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
-9355,sun,太陽,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9356,sun hat,日よけ帽,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9357,sun symbol,太陽のシンボル,文字・記号,記号・図形,,[],unreviewed,,unreviewed,verified
-9358,sunazuka akira,砂塚あきら,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9359,sunbeam,天使の梯子,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,unreviewed
-9360,sunburst,サンバースト,画風・描写,描画技法,,[],unreviewed,,unreviewed,unreviewed
-9361,sunburst background,サンバーストの背景,画風・描写,描画技法,,[],unreviewed,,unreviewed,unreviewed
-9362,sundae,サンデー,家具・設備・物品,日用品,,[],unreviewed,,unreviewed,unreviewed
-9363,sundress,サンドレス,服装・装飾,衣服,,[],unreviewed,,unreviewed,unreviewed
-9364,sunflower,ひまわり,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9365,sunflower field,向日葵畑,背景・場所,自然・風景,,[],unreviewed,,unreviewed,unreviewed
-9366,sunflower hair ornament,ひまわりの髪の飾り,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9367,sunglasses,サングラス,服装・装飾,装飾品,,[],unreviewed,,unreviewed,unreviewed
-9368,sunlight,日光,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
-9369,sunny (omori),サニー（オモリ）,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9370,sunny milk,サニーミルク,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9371,sunrise,日の出,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-9372,sunscreen,日焼け止め,背景・場所,空間・環境表現,,[],unreviewed,,unreviewed,unreviewed
-9373,sunset,夕日,背景・場所,天候・時間帯,,[],unreviewed,,unreviewed,unreviewed
-9374,sunset glow,夕焼け,光・演出,照明・光源,,[],unreviewed,,unreviewed,unreviewed
-9375,suou momoko,周防桃子,キャラクター・作品,キャラクター,,[],unreviewed,,unreviewed,unreviewed
-9376,super crown,スーパークラウン,服装・装飾,装飾品,,[],unreviewed,,unreviewed,verified
-9377,super mario galaxy,スーパーマリオギャラクシー,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,unreviewed
-9378,super robot,スーパーロボット,人物の特徴,人物属性,,[],unreviewed,0,verified,needs-review
-9379,super robot wars,スーパーロボット大戦,キャラクター・作品,タイトル（作品名）,,[],unreviewed,,unreviewed,verified
+9344,sukajan,スカジャン,服装・装飾,衣服,,[],verified,0,verified,verified
+9345,sukuna shinmyoumaru,少名針妙丸（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9346,sukusuku hakutaku,すくすく白沢（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9347,suletta mercury,スレッタ・マーキュリー（水星の魔女）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9348,sumi-e,墨絵,画風・描写,画風・表現様式,,[],verified,0,verified,verified
+9349,sumiyao (amam),スミヤオ（アマム）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,unreviewed
+9350,summer,夏,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+9351,summer festival,夏祭り,背景・場所,場所・室内外,,[],verified,0,verified,verified
+9352,summer pockets,Summer Pockets（サマーポケッツ）,キャラクター・作品,タイトル（作品名）,,"[""Summer Pockets"",""サマーポケッツ""]",verified,0,verified,verified
+9353,summer uniform,夏服,服装・装飾,衣服,,[],verified,0,verified,verified
+9354,summon night,サモンナイト,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9355,sun,太陽,背景・場所,自然・風景,,[],verified,0,verified,verified
+9356,sun hat,日よけ帽子,服装・装飾,衣服,,[],verified,0,verified,verified
+9357,sun symbol,太陽のシンボル,文字・記号,記号・図形,,[],verified,0,verified,verified
+9358,sunazuka akira,砂塚あきら（アイドルマスター シンデレラガールズ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9359,sunbeam,日差しの光線,光・演出,照明・光源,,[],verified,0,verified,verified
+9360,sunburst,放射状の光,光・演出,演出効果,,[],verified,0,verified,verified
+9361,sunburst background,放射状の背景,光・演出,演出効果,,[],verified,0,verified,verified
+9362,sundae,サンデー（アイスクリームデザート）,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9363,sundress,サンドレス,服装・装飾,衣服,,[],verified,0,verified,verified
+9364,sunflower,ヒマワリ,生物・動植物,植物,,[],verified,0,verified,verified
+9365,sunflower field,ヒマワリ畑,背景・場所,自然・風景,,[],verified,0,verified,verified
+9366,sunflower hair ornament,ヒマワリの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
+9367,sunglasses,サングラス,服装・装飾,装飾品,,[],verified,0,verified,verified
+9368,sunlight,日光,光・演出,照明・光源,,[],verified,0,verified,verified
+9369,sunny (omori),サニー（OMORI）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9370,sunny milk,サニーミルク（東方Project）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9371,sunrise,日の出,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+9372,sunscreen,日焼け止め,家具・設備・物品,日用品,,[],verified,0,verified,verified
+9373,sunset,日没,背景・場所,天候・時間帯,,[],verified,0,verified,verified
+9374,sunset glow,夕焼けの光,光・演出,照明・光源,,[],verified,0,verified,verified
+9375,suou momoko,周防桃子（アイドルマスター ミリオンライブ！）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+9376,super crown,スーパークラウン（スーパーマリオ）,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
+9377,super mario galaxy,スーパーマリオギャラクシー,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+9378,super robot,スーパーロボット,人物の特徴,人物属性,,[],needs-review,0,verified,needs-review
+9379,super robot wars,スーパーロボット大戦,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 9380,super saiyan,スーパーサイヤ人,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
 9381,super saiyan 1,スーパーサイヤ人1,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
 9382,super saiyan 4,スーパーサイヤ人4,状態・状況,状況・関係性,,[],unreviewed,,unreviewed,unreviewed
