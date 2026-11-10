@@ -115,6 +115,156 @@ function save(){
 }
 function persist(){try{state.dictionary.tags=state.tags;state.dictionary.promptOrder=state.promptOrder;const draft={schema:state.dictionary.schema,tags:state.tags,promptOrder:state.promptOrder,classificationCandidates:state.dictionary.classificationCandidates};localStorage.setItem(DRAFT_KEY,JSON.stringify({sourceFingerprint:state.sourceFingerprint,dictionary:draft}));}catch(e){$("#status").textContent="保存に失敗しました。ブラウザの保存容量を確認してください。";}}
 function download(name,data){const blob=new Blob([JSON.stringify(data,null,2)+"\n"],{type:"application/json;charset=utf-8"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url);}
-async function init(){try{const bundleRes=await fetch("./data/dictionary-data.json");if(!bundleRes.ok)throw new Error("dictionary-data.json を読み込めません");const bundle=await bundleRes.json();if(bundle.schema!=="prompt-tag-dictionary-runtime-v1"||!Array.isArray(bundle.tags)||!bundle.promptOrder||!Array.isArray(bundle.promptOrder.categories))throw new Error("正本辞書データの形式が不正です");state.dictionary=bundle;state.tags=bundle.tags;state.promptOrder=bundle.promptOrder;initialPromptOrder=JSON.parse(JSON.stringify(bundle.promptOrder));state.sourceFingerprint=fingerprintSource(bundle);state.promptOrder.categories.sort((a,b)=>(a.order||999)-(b.order||999));const raw=localStorage.getItem(DRAFT_KEY);if(raw){const d=JSON.parse(raw);if(d.dictionary?.schema===bundle.schema&&Array.isArray(d.dictionary.tags)&&d.sourceFingerprint===state.sourceFingerprint){state.dictionary={...bundle,...d.dictionary};state.tags=d.dictionary.tags;state.promptOrder=d.dictionary.promptOrder;state.promptOrder.categories.sort((a,b)=>(a.order||999)-(b.order||999));$("#status").textContent="前回のローカル編集を復元しました。";}else{try{localStorage.setItem("ptd.admin.stale-draft.v1",raw);}catch(_){}$("#status").textContent="古いローカル編集は最新データと一致しないため復元しませんでした。旧データはこの端末に退避しています。";}}initResizer();const fillOptions=(id,values,blank=false)=>{const el=$("#"+id),opts=[...new Set(values.map(v=>String(v||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ja")).map(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;return o;});el.replaceChildren();if(blank){const o=document.createElement("option");o.value="";o.textContent="（なし）";el.append(o);}el.append(...opts);const custom=document.createElement("option");custom.value="__new__";custom.textContent="＋ 新しい分類を入力…";el.append(custom);};fillOptions("major-select",state.tags.map(r=>r[2]));fillOptions("minor-select",state.tags.map(r=>r[3]));fillOptions("detail-select",state.tags.map(r=>r[4]),true);["major-select","minor-select","detail-select"].forEach(id=>$("#"+id).addEventListener("change",e=>{if(e.target.value!=="__new__")return;const value=prompt("追加する分類名を入力してください。");if(value&&value.trim()){const v=value.trim(),el=e.target;ensureCategoryOption(id,v);el.value=v;markDirty();}else{const previous=Array.from(e.target.options).find(o=>o.value!=="__new__");e.target.value=previous?previous.value:"";}}));$("#search").addEventListener("input",e=>{state.query=e.target.value;state.page=0;renderList();});$("#filter").addEventListener("change",e=>{state.filter=e.target.value;state.page=0;renderList();});$("#sort").addEventListener("change",e=>{state.sort=e.target.value;state.page=0;renderList();});$("#prev").addEventListener("click",()=>{state.page=Math.max(0,state.page-1);renderList();});$("#next").addEventListener("click",()=>{state.page++;renderList();});["tag","ja","aliases","reason","source","expression-level-reason"].forEach(id=>$("#"+id).addEventListener("input",markDirty));["major-select","minor-select","detail-select","translation-status","classification-status","expression-level"].forEach(id=>$("#"+id).addEventListener("change",markDirty));$("#save").addEventListener("click",save);$("#reset").addEventListener("click",()=>{if(state.selected)selectTag(state.selected);});$("#export-dictionary").addEventListener("click",exportDictionary);$("#prompt-order-reset").addEventListener("click",resetPromptOrder);$("#discard").addEventListener("click",()=>{if(!confirm("この端末に保存された管理画面の編集をすべて破棄しますか？出力済みファイルは削除されません。"))return;localStorage.removeItem(DRAFT_KEY);localStorage.removeItem("ptd.admin.stale-draft.v1");location.reload();});renderList();renderPromptOrder();}catch(e){$("#count").textContent="読み込み失敗";$("#results").textContent=e.message+"。GitHub Pages上またはローカルサーバーから開いてください。";}}
+async function init(){try{const bundleRes=await fetch("./data/dictionary-data.json");if(!bundleRes.ok)throw new Error("dictionary-data.json を読み込めません");const bundle=await bundleRes.json();if(bundle.schema!=="prompt-tag-dictionary-runtime-v1"||!Array.isArray(bundle.tags)||!bundle.promptOrder||!Array.isArray(bundle.promptOrder.categories))throw new Error("正本辞書データの形式が不正です");state.dictionary=bundle;state.tags=bundle.tags;state.promptOrder=bundle.promptOrder;initialPromptOrder=JSON.parse(JSON.stringify(bundle.promptOrder));state.sourceFingerprint=fingerprintSource(bundle);state.promptOrder.categories.sort((a,b)=>(a.order||999)-(b.order||999));const raw=localStorage.getItem(DRAFT_KEY);if(raw){const d=JSON.parse(raw);if(d.dictionary?.schema===bundle.schema&&Array.isArray(d.dictionary.tags)&&d.sourceFingerprint===state.sourceFingerprint){state.dictionary={...bundle,...d.dictionary};state.tags=d.dictionary.tags;state.promptOrder=d.dictionary.promptOrder;state.promptOrder.categories.sort((a,b)=>(a.order||999)-(b.order||999));$("#status").textContent="前回のローカル編集を復元しました。";}else{try{localStorage.setItem("ptd.admin.stale-draft.v1",raw);}catch(_){}$("#status").textContent="古いローカル編集は最新データと一致しないため復元しませんでした。旧データはこの端末に退避しています。";}}initResizer();const fillOptions=(id,values,blank=false)=>{const el=$("#"+id),opts=[...new Set(values.map(v=>String(v||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"ja")).map(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;return o;});el.replaceChildren();if(blank){const o=document.createElement("option");o.value="";o.textContent="（なし）";el.append(o);}el.append(...opts);const custom=document.createElement("option");custom.value="__new__";custom.textContent="＋ 新しい分類を入力…";el.append(custom);};fillOptions("major-select",state.tags.map(r=>r[2]));fillOptions("minor-select",state.tags.map(r=>r[3]));fillOptions("detail-select",state.tags.map(r=>r[4]),true);["major-select","minor-select","detail-select"].forEach(id=>$("#"+id).addEventListener("change",e=>{if(e.target.value!=="__new__")return;const value=prompt("追加する分類名を入力してください。");if(value&&value.trim()){const v=value.trim(),el=e.target;ensureCategoryOption(id,v);el.value=v;markDirty();}else{const previous=Array.from(e.target.options).find(o=>o.value!=="__new__");e.target.value=previous?previous.value:"";}}));$("#search").addEventListener("input",e=>{state.query=e.target.value;state.page=0;renderList();});$("#filter").addEventListener("change",e=>{state.filter=e.target.value;state.page=0;renderList();});$("#sort").addEventListener("change",e=>{state.sort=e.target.value;state.page=0;renderList();});$("#prev").addEventListener("click",()=>{state.page=Math.max(0,state.page-1);renderList();});$("#next").addEventListener("click",()=>{state.page++;renderList();});["tag","ja","aliases","reason","source","expression-level-reason"].forEach(id=>$("#"+id).addEventListener("input",markDirty));["major-select","minor-select","detail-select","translation-status","classification-status","expression-level"].forEach(id=>$("#"+id).addEventListener("change",markDirty));$("#save").addEventListener("click",save);$("#reset").addEventListener("click",()=>{if(state.selected)selectTag(state.selected);});$("#export-dictionary").addEventListener("click",exportDictionary);$("#prompt-order-reset").addEventListener("click",resetPromptOrder);$("#discard").addEventListener("click",()=>{if(!confirm("この端末に保存された管理画面の編集をすべて破棄しますか？出力済みファイルは削除されません。"))return;localStorage.removeItem(DRAFT_KEY);localStorage.removeItem("ptd.admin.stale-draft.v1");location.reload();});initBatchTools();renderList();renderPromptOrder();}catch(e){$("#count").textContent="読み込み失敗";$("#results").textContent=e.message+"。GitHub Pages上またはローカルサーバーから開いてください。";}}
+
+const CSV_HEADERS=["index","tag","ja","major","minor","detail","aliases_json","translation_status","expression_level","expression_level_review_status","classification_review_status"];
+const BATCH_DB="ptd-admin-batch-v1";
+let activeBatch=null;
+function csvCell(value){const text=value===null||value===undefined?"":String(value);return /[",\r\n]/.test(text)?'"'+text.replace(/"/g,'""')+'"':text;}
+function csvText(rows){return "\uFEFF"+rows.map(row=>row.map(csvCell).join(",")).join("\r\n")+"\r\n";}
+function csvParse(source){
+ const text=source.replace(/^\uFEFF/,""),rows=[];let row=[],cell="",quoted=false,afterQuote=false;
+ for(let i=0;i<text.length;i++){const ch=text[i];if(quoted){if(ch==='"'){if(text[i+1]==='"'){cell+='"';i++;}else{quoted=false;afterQuote=true;}}else cell+=ch;continue;}
+ if(afterQuote&&ch!==","&&ch!=="\n"&&ch!=="\r")throw new Error("閉じ引用符の後に不正な文字があります。");
+ if(ch==='"'){if(cell!==""||afterQuote)throw new Error("CSVの引用符が不正です。");quoted=true;}
+ else if(ch===","){row.push(cell);cell="";afterQuote=false;}
+ else if(ch==="\n"){row.push(cell);rows.push(row);row=[];cell="";afterQuote=false;}
+ else if(ch==="\r"){if(text[i+1]==="\n")continue;row.push(cell);rows.push(row);row=[];cell="";afterQuote=false;}
+ else cell+=ch;
+ }
+ if(quoted)throw new Error("CSVの引用符が閉じられていません。");
+ if(cell!==""||row.length||afterQuote){row.push(cell);rows.push(row);}
+ if(rows.length&&rows.at(-1).every(v=>v===""))rows.pop();return rows;
+}
+function csvRowFor(index,row){
+ const meta=row[6]||{};
+ return [String(index),row[0],row[1],row[2],row[3],row[4]??"",row[5]==null?"":JSON.stringify(row[5]),meta.translation?.status??"",meta.expressionLevel??"",meta.expressionLevelReview?.status??"",meta.classificationReview?.status??""];
+}
+function downloadCsv(name,rows){const blob=new Blob(["\uFEFF"+rows.map(row=>row.map(csvCell).join(",")).join("\r\n")+"\r\n"],{type:"text/csv;charset=utf-8"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function openBatchDb(){return new Promise((resolve,reject)=>{if(!("indexedDB"in window)){reject(new Error("このブラウザはIndexedDBに対応していません。"));return;}const req=indexedDB.open("ptd-admin-workspace",1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains("state"))req.result.createObjectStore("state");};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error||new Error("作業領域を開けません"));});}
+async function batchStore(mode,value){const db=await openBatchDb();try{return await new Promise((resolve,reject)=>{const tx=db.transaction("state",mode==="get"?"readonly":"readwrite"),store=tx.objectStore("state"),req=mode==="get"?store.get(BATCH_DB):mode==="delete"?store.delete(BATCH_DB):store.put(value,BATCH_DB);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error||new Error("作業状態を保存できません"));tx.onerror=()=>reject(tx.error||new Error("作業状態の保存に失敗しました"));});}finally{db.close();}}
+function statusOf(tag,task){
+ const meta=metadataFor(tag),tr=meta.translation?.status||"unreviewed",cl=meta.classificationReview?.status||meta.classification?.status||"unreviewed",ex=meta.expressionLevelReview?.status||"unreviewed";
+ const done=s=>s==="verified"||s==="not-applicable";
+ if(task==="translation")return tr;
+ if(task==="classification")return cl;
+ if(task==="expressionLevel")return ex;
+ return [tr,cl,ex].every(done)?"verified":[tr,cl,ex].includes("needs-review")?"needs-review":"unreviewed";
+}
+function batchTarget(tag,task,scope){
+ const statuses=task==="all"?["translation","classification","expressionLevel"].map(t=>statusOf(tag,t)):[statusOf(tag,task)];
+ if(scope==="all")return true;
+ if(scope==="needs-review")return statuses.includes("needs-review");
+ return statuses.some(s=>s!=="verified"&&s!=="not-applicable");
+}
+function updateBatchProgress(){
+ const counts={translation:0,classification:0,expressionLevel:0,all:0};
+ for(const row of state.tags)for(const task of Object.keys(counts))if(batchTarget(row[0],task,"pending"))counts[task]++;
+ $("#batch-total").textContent=state.tags.length.toLocaleString("ja-JP")+"タグ";
+ const done=activeBatch?.completedTags?.length||0,total=activeBatch?.entries?.length||0;
+ $("#batch-progress").textContent=activeBatch
+  ?"進行中："+activeBatch.batchId+" / "+activeBatch.task+" / 取り込み "+done+"件 / 対象 "+total+"件 / 残り "+(total-done)+"件"
+  :"未完了：翻訳 "+counts.translation+"件・分類 "+counts.classification+"件・表現レベル "+counts.expressionLevel+"件・総合 "+counts.all+"件。";
+}
+async function initBatchTools(){
+ $("#batch-export").addEventListener("click",exportNextBatch);
+ $("#batch-import").addEventListener("click",importBatchFile);
+ $("#batch-file").addEventListener("change",e=>{$("#batch-import").disabled=!e.target.files?.length;});
+ $("#batch-clear").addEventListener("click",async()=>{if(activeBatch&&!confirm("現在のバッチ進捗を解除しますか？取り込み済みの辞書編集は残ります。"))return;activeBatch=null;await batchStore("delete");updateBatchProgress();$("#batch-status").textContent="現在のバッチを解除しました。";});
+ $("#csv-export-all").addEventListener("click",()=>{if(state.dirty){$("#batch-status").textContent="未保存の編集があります。先に変更を保存してください。";return;}const rows=[CSV_HEADERS,...state.tags.map((row,index)=>csvRowFor(index,row))];downloadCsv("dictionary-working.csv",rows);$("#batch-status").textContent="全件CSVを出力しました。GitHubの exports/dictionary-working.csv と置き換えてください。";});
+ try{activeBatch=await batchStore("get")||null;}catch(e){$("#batch-status").textContent="作業状態を読み込めません: "+e.message;}
+ updateBatchProgress();
+}
+function createBatch(){
+ const task=$("#batch-task").value,scope=$("#batch-scope").value,size=Number($("#batch-size").value);
+ const picked=state.tags.map((row,index)=>({row,index})).filter(x=>batchTarget(x.row[0],task,scope)).slice(0,size);
+ if(!picked.length)throw new Error("条件に合うタグはありません。");
+ const batchId="csv-"+Date.now().toString(36)+"-"+Math.random().toString(36).slice(2,7);
+ return {schema:"ptd-csv-batch-v1",batchId,sourceFingerprint:state.sourceFingerprint,task,scope,createdAt:new Date().toISOString(),completedTags:[],entries:picked.map(({row,index})=>({index,tag:row[0],snapshot:csvRowFor(index,row)}))};
+}
+async function exportNextBatch(){
+ try{
+  if(state.dirty)throw new Error("編集中の入力を先に保存または破棄してください。");
+  if(activeBatch&&activeBatch.completedTags.length<activeBatch.entries.length){
+   const remaining=activeBatch.entries.filter(e=>!activeBatch.completedTags.includes(e.tag));
+   const rows=[CSV_HEADERS,...remaining.map(e=>e.snapshot)];
+   downloadCsv("dictionary-"+activeBatch.batchId+"-remaining.csv",rows);
+   $("#batch-status").textContent="未取り込みの "+remaining.length+" 件を再出力しました。";
+   return;
+  }
+  activeBatch=createBatch();await batchStore("put",activeBatch);
+  downloadCsv("dictionary-"+activeBatch.batchId+".csv",[CSV_HEADERS,...activeBatch.entries.map(e=>e.snapshot)]);
+  $("#batch-status").textContent=activeBatch.entries.length+"件のCSVバッチを出力しました。編集後のCSVを戻してください。";
+  updateBatchProgress();
+ }catch(e){$("#batch-status").textContent="出力できません: "+e.message;}
+}
+function classificationIds(major,minor,tag){
+ const category=state.dictionary.taxonomy?.semanticCategories?.find(x=>x.name===major);
+ const sub=category?.subcategories?.find(x=>x.name===minor);
+ if(!category||!sub)throw new Error("分類がtaxonomyにありません: "+tag+" ("+major+" / "+minor+")");
+ return {categoryId:category.id,subcategoryId:sub.id};
+}
+function applyBatchRow(entry,cells,task){
+ const row=state.tags[entry.index],meta=row[6]&&typeof row[6]==="object"?row[6]:(row[6]={}),oldMajor=row[2],oldMinor=row[3];
+ if(task==="translation"||task==="all"){
+  row[1]=cells[2];
+  const status=cells[7];if(status&&!["verified","needs-review","unreviewed","machine-translation","not-applicable"].includes(status))throw new Error("翻訳状態が不正です: "+row[0]);
+  meta.translation={...(meta.translation||{})};if(status)meta.translation.status=status;else delete meta.translation.status;meta.translation.candidateJa=row[1];
+ }
+ if(task==="classification"||task==="all"){
+  row[2]=cells[3];row[3]=cells[4];
+  if(cells[5]==="__CLEAR__")row[4]=null;else if(cells[5]!=="")row[4]=cells[5];
+  if(cells[6]!==""){let aliases;try{aliases=JSON.parse(cells[6]);}catch{throw new Error("aliases_jsonのJSONが不正です: "+row[0]);}if(!Array.isArray(aliases)||aliases.some(x=>typeof x!=="string"))throw new Error("aliases_jsonは文字列配列で指定してください: "+row[0]);row[5]=aliases;}
+  const status=cells[10];if(status&&!["verified","needs-review","provisional","unreviewed","not-applicable"].includes(status))throw new Error("分類状態が不正です: "+row[0]);
+  meta.classificationReview={...(meta.classificationReview||{})};if(status)meta.classificationReview.status=status;else delete meta.classificationReview.status;
+  if(oldMajor!==row[2]||oldMinor!==row[3]){
+   if(meta.classification){if((row[2]==="未分類"&&row[3]==="未分類")||(row[2]==="要確認"&&row[3]==="要確認"))delete meta.classification;else Object.assign(meta.classification,classificationIds(row[2],row[3],row[0]));}
+  }
+  const entries=state.dictionary.classificationCandidates?.entries;
+  if(Array.isArray(entries)){
+   const idx=entries.findIndex(x=>x.tag===row[0]);
+   if(status==="verified"||status==="not-applicable"){if(idx>=0)entries.splice(idx,1);delete meta.classification;}
+   else if(status==="needs-review"||status==="provisional"){
+    const c={...(meta.classification||{}),status};
+    if(row[2]!=="未分類"&&row[3]!=="未分類")Object.assign(c,classificationIds(row[2],row[3],row[0]));
+    meta.classification=c;const item={tag:row[0],...c};if(idx>=0)entries[idx]=item;else entries.push(item);
+   }
+  }
+ }
+ if(task==="expressionLevel"||task==="all"){
+  if(cells[8]==="__CLEAR__"){delete meta.expressionLevel;}else if(cells[8]!==""){if(!/^[0-4]$/.test(cells[8]))throw new Error("expression_levelは0〜4です: "+row[0]);meta.expressionLevel=Number(cells[8]);}
+  const status=cells[9];if(status&&!["verified","needs-review","provisional","unreviewed","not-applicable"].includes(status))throw new Error("表現レベル状態が不正です: "+row[0]);
+  meta.expressionLevelReview={...(meta.expressionLevelReview||{})};if(status)meta.expressionLevelReview.status=status;else delete meta.expressionLevelReview.status;
+ }
+ if(!Object.keys(meta.translation||{}).length)delete meta.translation;
+ if(!Object.keys(meta.classificationReview||{}).length)delete meta.classificationReview;
+ if(!Object.keys(meta.expressionLevelReview||{}).length)delete meta.expressionLevelReview;
+}
+async function importBatchFile(){
+ const file=$("#batch-file").files?.[0];if(!file)return;
+ try{
+  if(!activeBatch)throw new Error("有効なバッチがありません。先にCSVを出力してください。");
+  if(activeBatch.sourceFingerprint!==state.sourceFingerprint)throw new Error("正本データがバッチ作成時から変わっています。最新データでバッチを作り直してください。");
+  const records=csvParse(await file.text());
+  if(!records.length||JSON.stringify(records[0])!==JSON.stringify(CSV_HEADERS))throw new Error("CSVヘッダーが現行11列と一致しません。");
+  const map=new Map(activeBatch.entries.map(e=>[e.tag,e])),seen=new Set(),parsed=[];
+  const editable=activeBatch.task==="translation"?new Set([2,7]):activeBatch.task==="classification"?new Set([3,4,5,6,10]):activeBatch.task==="expressionLevel"?new Set([8,9]):new Set([2,3,4,5,6,7,8,9,10]);
+  for(let n=1;n<records.length;n++){
+   const cells=records[n];if(cells.length!==CSV_HEADERS.length)throw new Error("CSV "+(n+1)+"行目の列数が11列ではありません。");
+   const index=Number(cells[0]),tag=cells[1],entry=map.get(tag);
+   if(!Number.isInteger(index)||!entry||entry.index!==index||state.tags[index]?.[0]!==tag||seen.has(tag))throw new Error("index/tagの不一致、対象外タグ、または重複があります: "+tag);
+   for(let col=0;col<cells.length;col++)if(col!==0&&col!==1&&!editable.has(col)&&cells[col]!==entry.snapshot[col])throw new Error("作業対象外の列が変更されています: "+tag+" / "+CSV_HEADERS[col]);
+   seen.add(tag);parsed.push({entry,cells});
+  }
+  if(!parsed.length)throw new Error("取り込めるデータ行がありません。");
+  for(const {entry,cells} of parsed)applyBatchRow(entry,cells,activeBatch.task);
+  activeBatch.completedTags=[...new Set([...activeBatch.completedTags,...parsed.map(x=>x.entry.tag)])];
+  state.dictionary.tags=state.tags;persist();await batchStore("put",activeBatch);
+  renderList();if(state.selected)selectTag(state.selected);
+  $("#batch-status").textContent=parsed.length+"件を検証して取り込みました。全件CSVを出力し、exports/dictionary-working.csvへ反映してください。";
+  $("#batch-file").value="";$("#batch-import").disabled=true;updateBatchProgress();
+ }catch(e){$("#batch-status").textContent="取り込みを中止しました。辞書データは変更していません。理由: "+e.message;}
+}
+
 init();
 })();
