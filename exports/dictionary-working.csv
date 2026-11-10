@@ -2270,7 +2270,7 @@
 2268,cursor,カーソル,文字・記号,記号・図形,,[],verified,0,verified,verified
 2269,curtain grab,カーテンをつかむ,動作・接触,物への接触,,[],verified,0,verified,verified
 2270,curtained hair,カーテン状に分かれた前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
-2271,curtains,カーテン,背景・場所,建築・構造物,,[],verified,0,verified,unreviewed
+2271,curtains,カーテン,家具・設備・物品,家具,,[],verified,0,verified,verified
 2272,curtsey,カーテシー（お辞儀）,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 2273,curvy,曲線的な体つき,人物の特徴,体型・身体的特徴,,[],verified,0,verified,verified
 2274,cushion,クッション,家具・設備・物品,家具,,[],verified,0,verified,verified
@@ -2337,7 +2337,7 @@
 2335,dark fantasy,ダークファンタジー,画風・描写,画風・表現様式,,[],verified,0,verified,verified
 2336,dark halo,暗い光輪,光・演出,演出効果,,[],verified,0,verified,verified
 2337,dark magician girl,ブラック・マジシャン・ガール,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-2338,dark nipples,暗い色の乳首,人物の特徴,身体部位・身体状態,,[],verified,2,verified,unreviewed
+2338,dark nipples,暗い色の乳首,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 2339,dark persona,ダークペルソナ,状態・状況,状況・関係性,,[],verified,0,verified,verified
 2340,dark skin,褐色肌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2341,dark souls (series),ダークソウル（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
@@ -2345,24 +2345,24 @@
 2343,dark souls iii,ダークソウルIII,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2344,dark-skinned female,褐色肌の女性,人物の特徴,人物属性,,[],verified,0,verified,verified
 2345,dark-skinned male,褐色肌の男性,人物の特徴,人物属性,,[],verified,0,verified,verified
-2346,darker than black,DARKER THAN BLACK,キャラクター・作品,タイトル（作品名）,,"[""ダーカーザンブラック""]",verified,0,verified,unreviewed
+2346,darker than black,DARKER THAN BLACK,キャラクター・作品,タイトル（作品名）,,"[""ダーカーザンブラック""]",verified,0,verified,verified
 2347,darkness,暗闇,光・演出,演出効果,,[],verified,0,verified,verified
 2348,darkness (konosuba),ダクネス（この素晴らしい世界に祝福を！）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2349,darkstalkers,ヴァンパイア（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
-2350,darling in the franxx,ダーリン・イン・ザ・フランキス,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2350,darling in the franxx,ダーリン・イン・ザ・フランキス,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2351,daruma doll,だるま,家具・設備・物品,日用品,,[],verified,0,verified,verified
 2352,dashed eyes,破線状の目,顔・表情,目,,[],verified,0,verified,verified
-2353,date a live,デート・ア・ライブ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2353,date a live,デート・ア・ライブ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2354,dated,時代遅れの,状態・状況,状態・変化,,[],verified,0,verified,verified
 2355,dating,デートする,動作・接触,対人接触・動作,,[],verified,0,verified,verified
 2356,dawn,夜明け,背景・場所,天候・時間帯,,[],verified,0,verified,verified
-2357,dawn (pokemon),ヒカリ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
+2357,dawn (pokemon),ヒカリ（ポケモン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2358,day,昼,背景・場所,天候・時間帯,,[],verified,0,verified,verified
-2359,dc comics,DCコミックス,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2359,dc comics,DCコミックス,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2360,dd (ijigendd),DD（異次元DD）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
-2361,dead or alive,デッド オア アライブ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
-2362,deadpool (Marvel),デッドプール（マーベル）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
-2363,deadpool (series),デッドプール（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2361,dead or alive,デッド オア アライブ,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2362,deadpool (Marvel),デッドプール（マーベル）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2363,deadpool (series),デッドプール（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2364,death,死,状態・状況,状態・変化,,[],verified,0,verified,verified
 2365,death note,DEATH NOTE（デスノート）,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
 2366,debris,破片,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
