@@ -1285,7 +1285,7 @@
 1283,bow panties,リボン付きパンティー,服装・装飾,下着,,[],verified,1,verified,verified
 1284,bow skirt,リボン付きスカート,服装・装飾,衣服,,[],verified,0,verified,verified
 1285,bow tie,蝶ネクタイ,服装・装飾,装飾品,,[],verified,0,verified,verified
-1286,bow-shaped hair,弓形の髪,髪・頭部,髪・頭部,,[],needs-review,,unreviewed,verified
+1286,bow-shaped hair,リボン形の髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 1287,bowing,お辞儀,動作・接触,身体動作,,[],verified,0,verified,verified
 1288,bowl,ボウル,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1289,bowl cut,おかっぱ,髪・頭部,髪・頭部,,[],verified,0,verified,verified
@@ -1322,7 +1322,7 @@
 1320,braiding hair,髪を編んでいる,動作・接触,身体動作,,[],verified,0,verified,verified
 1321,braids,三つ編み,人物の特徴,人物属性,,[],verified,0,verified,verified
 1322,brain,脳,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
-1323,bralines,浮きブラ,服装・装飾,衣服の状態,,[],needs-review,1,verified,verified
+1323,bralines,ブラのラインが服に浮き出る,服装・装飾,衣服の状態,,[],verified,1,verified,verified
 1324,branch,枝,生物・動植物,植物,,[],verified,0,verified,verified
 1325,brand name imitation,ブランド名の模倣,文字・記号,ロゴ・ブランド表記,,[],verified,0,verified,verified
 1326,brass knuckles,メリケンサック,家具・設備・物品,武器,,[],verified,0,verified,verified
@@ -1925,7 +1925,7 @@
 1923,clothes pull,服を引っ張る,動作・接触,衣服への接触,,[],verified,0,verified,verified
 1924,clothes theft,服の盗難,服装・装飾,衣服,,[],needs-review,,unreviewed,verified
 1925,clothes tug,服を引っ張る仕草,動作・接触,衣服への接触,,[],verified,0,verified,verified
-1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1926,clothes writing,服に書かれた文字,服装・装飾,衣服,,[],verified,0,verified,verified
 1927,clothesline,物干しロープ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1928,clothing aside,ずらされた衣服,服装・装飾,衣服の状態,,[],verified,2,verified,verified
 1929,clothing cutout,服のカットアウト,服装・装飾,肌の露出,,[],verified,2,verified,verified
@@ -1946,10 +1946,10 @@
 1944,club (weapon),棍棒,家具・設備・物品,武器,,[],verified,0,verified,verified
 1945,clueless,状況が理解できていない様子,状態・状況,状態・変化,,[],verified,0,verified,verified
 1946,coat,コート,服装・装飾,衣服,,[],verified,0,verified,verified
-1947,coat dress,コートドレス,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1947,coat dress,コートドレス,服装・装飾,衣服,,[],verified,0,verified,verified
 1948,coat on shoulders,肩に掛けたコート,服装・装飾,衣服の状態,,[],verified,0,verified,verified
 1949,coat partially removed,片側を脱ぎかけたコート,服装・装飾,衣服の状態,,[],verified,2,verified,verified
-1950,coattails,コートの裾,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1950,coattails,コートの裾,服装・装飾,衣服,,[],verified,0,verified,verified
 1951,cobblestone,石畳,背景・場所,自然・風景,,[],verified,0,verified,verified
 1952,coca-cola,コカコーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1953,cockpit,操縦席,背景・場所,場所・室内外,,[],verified,0,verified,verified
@@ -1964,10 +1964,10 @@
 1962,coffee mug,コーヒーマグカップ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1963,coffee pot,コーヒーポット,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1964,coffin,棺桶,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
-1965,coif,コイフ（頭巾）,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+1965,coif,コイフ（頭巾）,服装・装飾,衣服,,[],verified,0,verified,verified
 1966,coin,コイン,家具・設備・物品,日用品,,[],verified,0,verified,verified
 1967,coin hair ornament,コイン型の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
-1968,coin on string,紐に通したコイン,服装・装飾,装飾品,,[],verified,0,verified,unreviewed
+1968,coin on string,紐に通したコイン,服装・装飾,装飾品,,[],verified,0,verified,verified
 1969,coin purse,小銭入れ,服装・装飾,装飾品,,[],verified,0,verified,verified
 1970,coke-bottle glasses,瓶底眼鏡,服装・装飾,装飾品,,[],verified,0,verified,verified
 1971,cola,コーラ,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
