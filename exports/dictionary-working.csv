@@ -118,14 +118,14 @@
 116,after vaginal,膣性交後,状態・状況,時間・前後関係,,[],verified,4,verified,verified
 117,afterglow,残光,光・演出,演出効果,,[],verified,0,verified,verified
 118,afterimage,残像,光・演出,演出効果,,[],verified,0,verified,verified
-119,agahari,アガハリ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+119,agahari,アガハリ,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 120,against fourth wall,4番目の壁に対して,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 121,against glass,ガラスにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 122,against railing,手すりにもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 123,against tree,木にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 124,against wall,壁にもたれる,ポーズ・姿勢,基本姿勢,,[],verified,0,verified,verified
 125,agano (kancolle),阿賀野（艦隊これくしょん）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-126,agawa ryou,アガワ・リョウ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+126,agawa ryou,阿川椋,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 127,age comparison,年齢比較,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 128,age difference,年齢差,状態・状況,状況・関係性,,[],verified,0,verified,verified
 129,age progression,加齢・成長後の姿,状態・状況,状態・変化,,[],verified,0,verified,verified
@@ -585,7 +585,7 @@
 583,aviator cap,飛行帽,服装・装飾,衣服,,[],verified,0,verified,verified
 584,aviator sunglasses,アビエーターサングラス,服装・装飾,衣服,,[],verified,0,verified,verified
 585,avogado6,アボガド6,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
-586,awa,Awa（固有名詞・意味要確認）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+586,awa,Awa,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 587,awa subaru (Girls Band Cry),安和すばる,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 588,award winning,受賞歴のある作品,品質・ネガティブ,高品質・傑作,,[],verified,0,verified,verified
 589,axe,斧,家具・設備・物品,武器,,[],verified,0,verified,verified
@@ -824,7 +824,7 @@
 822,beidou (genshin impact),北斗（原神）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 823,beige,ベージュ,光・演出,色調・色彩,,[],verified,0,verified,verified
 824,belfast (azur lane),ベルファスト（アズールレーン）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-825,belko,Belko（固有名詞・表記要確認）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+825,belko,Belko,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 826,bell,ベル,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 827,belle (zenless zone zero),リン（ゼンレスゾーンゼロ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 828,belly,腹部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
@@ -1256,7 +1256,7 @@
 1254,border,枠線,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1255,borderless panels,枠線のないコマ,構図・カメラ,構図・配置,,[],verified,0,verified,verified
 1256,bored,退屈した表情,顔・表情,顔・表情,,[],verified,0,verified,verified
-1257,boris (noborhys),ボリス（ノボリズ）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
+1257,boris (noborhys),ボリス（ノボリス）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 1258,borrowed character,他の作者のオリジナルキャラクターを描く,状態・状況,状況・関係性,,[],verified,0,verified,verified
 1259,borrowed clothes,借りた服,服装・装飾,衣服,,[],verified,0,verified,verified
 1260,borrowed design,他の作者が考案した非公式デザインのファンアート,状態・状況,状況・関係性,,[],verified,0,verified,verified
@@ -1511,7 +1511,7 @@
 1509,bust cup,バストカップ,服装・装飾,衣服,,[],needs-review,,unreviewed,unreviewed
 1510,buster sword,バスターソード,家具・設備・物品,武器,,[],verified,0,verified,verified
 1511,bustier,ビスチェ,服装・装飾,下着,,[],verified,1,verified,verified
-1512,butcha-u,ブッチャーU,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,unreviewed
+1512,butcha-u,ブッチャーU,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1513,butler,執事,人物の特徴,人物属性,,[],verified,0,verified,verified
 1514,butt crack,臀裂,人物の特徴,身体部位・身体状態,,[],verified,2,verified,verified
 1515,butt plug,アナルプラグ,家具・設備・物品,道具,,[],verified,4,verified,verified
@@ -1875,7 +1875,7 @@
 1873,clawed gauntlets,爪付きガントレット,服装・装飾,装備・防具,,[],verified,0,verified,verified
 1874,claws,爪,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 1875,claymation,クレイアニメ,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-1876,cle masahiro,クレサヒロ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,unreviewed
+1876,cle masahiro,クレサヒロ,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 1877,cleaning,掃除,動作・接触,身体動作,,[],verified,0,verified,verified
 1878,cleaning rag,ぞうきん,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 1879,clear sky,晴天,背景・場所,天候・時間帯,,[],verified,0,verified,verified
@@ -2076,7 +2076,7 @@
 2074,costume switch,衣装チェンジ,服装・装飾,衣服,,[],verified,0,verified,verified
 2075,cotton candy,綿菓子,家具・設備・物品,その他の物品,,[],verified,0,verified,verified
 2076,couch,ソファ,家具・設備・物品,家具,,[],verified,0,verified,verified
-2077,cougar (cougar1404),クーガー（cougar1404）,キャラクター・作品,作者・配信者,,[],needs-review,,unreviewed,verified
+2077,cougar (cougar1404),クーガー（cougar1404）,キャラクター・作品,作者・配信者,,[],needs-review,0,verified,verified
 2078,countdown,秒読み,背景・場所,空間・環境表現,,[],verified,0,verified,verified
 2079,counter,カウンター,家具・設備・物品,家具,,[],verified,0,verified,verified
 2080,counter:side,カウンター：サイド,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
@@ -2276,7 +2276,7 @@
 2274,cushion,クッション,家具・設備・物品,家具,,[],verified,0,verified,verified
 2275,cut bangs,前髪を切る,動作・接触,日常動作,,[],verified,0,verified,verified
 2276,cute,かわいい,画風・描写,画風・表現様式,,[],verified,0,verified,verified
-2277,cute & girly (idolmaster),キュート＆ガーリー（アイドルマスター）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
+2277,cute & girly (idolmaster),キュート＆ガーリー（アイドルマスター）,キャラクター・作品,キャラクター,,[],verified,0,verified,unreviewed
 2278,cutesexyrobutts,Cutesexyrobutts（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 2279,cutoffs,カットオフ,服装・装飾,衣服,,[],verified,0,verified,verified
 2280,cutout above navel,へそ上のカットアウト,服装・装飾,肌の露出,,[],verified,1,verified,verified
@@ -2416,8 +2416,8 @@
 2414,determined,決意した,顔・表情,顔・表情,,[],verified,0,verified,verified
 2415,deviantart username,DeviantArtのユーザー名,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
 2416,devil fruit power,悪魔の実の能力,キャラクター・作品,作品固有の衣装・要素,,[],verified,0,verified,verified
-2417,devil may cry (series),デビル メイ クライ（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
-2418,di gi charat,デ・ジ・キャラット,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2417,devil may cry (series),デビル メイ クライ（シリーズ）,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2418,di gi charat,デ・ジ・キャラット,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2419,diadem,ディアデム,服装・装飾,装飾品,,[],verified,0,verified,verified
 2420,diagonal bangs,斜め前髪,髪・頭部,髪・頭部,,[],verified,0,verified,verified
 2421,diagonal-striped bow,斜め縞のリボン,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -2432,9 +2432,9 @@
 2430,diamond earrings,ダイヤモンドのイヤリング,服装・装飾,装飾品,,[],verified,0,verified,verified
 2431,diamond hair ornament,ダイヤモンドの髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
 2432,diamond hairband,ダイヤモンドのヘアバンド,服装・装飾,装飾品,,[],verified,0,verified,verified
-2433,diamond wa kudakenai,ダイヤモンドは砕けない,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2433,diamond wa kudakenai,ダイヤモンドは砕けない,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2434,diamond-shaped pupils,ひし形の瞳孔,顔・表情,目,,[],verified,0,verified,verified
-2435,diaper,おむつ,服装・装飾,下着,,[],verified,1,verified,unreviewed
+2435,diaper,おむつ,服装・装飾,下着,,[],verified,1,verified,verified
 2436,diarmuid ua duibhne (lancer) (fate),ディルムッド・オディナ（ランサー／Fate）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
 2437,dice,サイコロ,家具・設備・物品,日用品,,[],verified,0,verified,verified
 2438,dice hair ornament,サイコロ型の髪飾り,服装・装飾,装飾品,,[],verified,0,verified,verified
@@ -2443,7 +2443,7 @@
 2441,diffraction spikes,回折スパイク,光・演出,演出効果,,[],verified,0,verified,verified
 2442,digimon,デジモン,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2443,digimon (creature),デジモン（種族）,生物・動植物,動物,,[],verified,0,verified,verified
-2444,digimon adventure,デジモンアドベンチャー,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2444,digimon adventure,デジモンアドベンチャー,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
 2445,digital clock,デジタル時計,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
 2446,digital dissolve,デジタル状に崩れる表現,光・演出,演出効果,,[],verified,0,verified,verified
 2447,digital media player,デジタルメディアプレーヤー,家具・設備・物品,機械・装置,,[],verified,0,verified,verified
@@ -2456,43 +2456,43 @@
 2454,dimples of venus,ヴィーナスのえくぼ,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
 2455,dinosaur,恐竜,生物・動植物,動物,,[],verified,0,verified,verified
 2456,dio brando (JoJo's Bizarre Adventure),ディオ・ブランドー,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
-2457,diorama,ジオラマ,画風・描写,画風・表現様式,,[],verified,,unreviewed,unreviewed
-2458,dirndl,ディアンドル（アルプス地方の民族衣装）,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2459,dirt,泥,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2460,dirty,汚れた状態,状態・状況,状態・変化,,[],verified,,unreviewed,unreviewed
-2461,dirty clothes,汚れた服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2462,dirty face,汚れた顔,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2463,dirty feet,汚れた足,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2464,disembodied eye,身体から分離した目,顔・表情,目,,[],verified,,unreviewed,unreviewed
-2465,disembodied hand,身体から分離した手,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2466,disembodied head,身体から切り離された頭部,人物の特徴,身体部位・身体状態,,[],verified,,unreviewed,verified
-2467,disfigured,変形した容貌,品質・ネガティブ,高品質・傑作,,[],verified,,unreviewed,unreviewed
-2468,disgaea,ディスガイア,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2469,disguise,変装,状態・状況,状況・関係性,,[],verified,,unreviewed,unreviewed
-2470,disgust,嫌悪の表情,顔・表情,顔・表情,,[],verified,,unreviewed,unreviewed
-2471,dishwasher1910,Dishwasher1910（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2472,disney,ディズニー作品,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2473,disposable coffee cup,使い捨てコーヒーカップ,家具・設備・物品,その他の物品,,[],verified,,unreviewed,unreviewed
-2474,disposable cup,使い捨てカップ,家具・設備・物品,日用品,,[],verified,,unreviewed,verified
-2475,dissidia final fantasy,ディシディア ファイナルファンタジー,キャラクター・作品,タイトル（作品名）,,[],verified,,unreviewed,unreviewed
-2476,dissolving,溶けて消える表現,光・演出,演出効果,,[],verified,,unreviewed,unreviewed
-2477,dissolving clothes,溶けて消えかけた服,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2478,distortion,歪み,画風・描写,描画技法,,[],verified,,unreviewed,verified
-2479,dithering,ディザリング,画風・描写,描画技法,,[],verified,,unreviewed,verified
-2480,diva (hyxpk),歌姫（hyxpk）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2481,diver,ダイバー,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2482,diving,潜水,動作・接触,身体動作,,[],verified,,unreviewed,unreviewed
-2483,diving mask,ダイビングマスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2484,diving mask on head,頭に載せたダイビングマスク,服装・装飾,装飾品,,[],verified,,unreviewed,verified
-2485,diving suit,ダイビングスーツ,服装・装飾,衣服,,[],verified,,unreviewed,verified
-2486,dixie cup hat,ディキシーカップ型帽子,服装・装飾,衣服,,[],verified,,unreviewed,unreviewed
-2487,dizzy (guilty gear),ディズィー（ギルティギア）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2488,djeeta (granblue fantasy),ジータ（グランブルーファンタジー）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2489,do m kaeru,Do M Kaeru（作者名）,キャラクター・作品,作者・配信者,,[],verified,,unreviewed,unreviewed
-2490,dock,ドック,家具・設備・物品,日用品,,[],verified,,unreviewed,unreviewed
-2491,doctor,医師,人物の特徴,人物属性,,[],verified,,unreviewed,unreviewed
-2492,doctor (arknights),ドクター（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
-2493,dodging,回避する動作,動作・接触,身体動作,,[],verified,,unreviewed,verified
+2457,diorama,ジオラマ,画風・描写,画風・表現様式,,[],verified,0,verified,unreviewed
+2458,dirndl,ディアンドル（アルプス地方の民族衣装）,服装・装飾,衣服,,[],verified,0,verified,unreviewed
+2459,dirt,泥,家具・設備・物品,その他の物品,,[],verified,0,verified,unreviewed
+2460,dirty,汚れた状態,状態・状況,状態・変化,,[],verified,0,verified,verified
+2461,dirty clothes,汚れた服,服装・装飾,衣服,,[],verified,0,verified,verified
+2462,dirty face,汚れた顔,人物の特徴,人物属性,,[],verified,0,verified,verified
+2463,dirty feet,汚れた足,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2464,disembodied eye,身体から分離した目,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2465,disembodied hand,身体から分離した手,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2466,disembodied head,身体から切り離された頭部,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2467,disfigured,変形した容貌,人物の特徴,身体部位・身体状態,,[],verified,0,verified,verified
+2468,disgaea,ディスガイア,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,unreviewed
+2469,disguise,変装,状態・状況,状況・関係性,,[],verified,0,verified,verified
+2470,disgust,嫌悪の表情,顔・表情,顔・表情,,[],verified,0,verified,verified
+2471,dishwasher1910,Dishwasher1910（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2472,disney,ディズニー作品,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2473,disposable coffee cup,使い捨てコーヒーカップ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2474,disposable cup,使い捨てカップ,家具・設備・物品,日用品,,[],verified,0,verified,verified
+2475,dissidia final fantasy,ディシディア ファイナルファンタジー,キャラクター・作品,タイトル（作品名）,,[],verified,0,verified,verified
+2476,dissolving,溶けて消える表現,光・演出,演出効果,,[],verified,0,verified,verified
+2477,dissolving clothes,溶けて消えかけた服,服装・装飾,衣服,,[],verified,0,verified,verified
+2478,distortion,歪み,画風・描写,描画技法,,[],verified,0,verified,verified
+2479,dithering,ディザリング,画風・描写,描画技法,,[],verified,0,verified,verified
+2480,diva (hyxpk),歌姫（hyxpk）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2481,diver,ダイバー,人物の特徴,人物属性,,[],verified,0,verified,verified
+2482,diving,潜水,動作・接触,身体動作,,[],verified,0,verified,verified
+2483,diving mask,ダイビングマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
+2484,diving mask on head,頭に載せたダイビングマスク,服装・装飾,装飾品,,[],verified,0,verified,verified
+2485,diving suit,ダイビングスーツ,服装・装飾,衣服,,[],verified,0,verified,verified
+2486,dixie cup hat,ディキシーカップ型帽子,服装・装飾,衣服,,[],verified,0,verified,verified
+2487,dizzy (guilty gear),ディズィー（ギルティギア）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2488,djeeta (granblue fantasy),ジータ（グランブルーファンタジー）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2489,do m kaeru,Do M Kaeru（作者名）,キャラクター・作品,作者・配信者,,[],verified,0,verified,verified
+2490,dock,ドック,家具・設備・物品,日用品,,[],verified,0,verified,unreviewed
+2491,doctor,医師,人物の特徴,人物属性,,[],verified,0,verified,verified
+2492,doctor (arknights),ドクター（アークナイツ）,キャラクター・作品,キャラクター,,[],verified,0,verified,verified
+2493,dodging,回避する動作,動作・接触,身体動作,,[],verified,0,verified,verified
 2494,dodoco (genshin impact),ドドコ（原神）,キャラクター・作品,キャラクター,,[],verified,,unreviewed,unreviewed
 2495,dog,犬,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
 2496,dog boy,犬の少年,生物・動植物,動物,,[],verified,,unreviewed,unreviewed
