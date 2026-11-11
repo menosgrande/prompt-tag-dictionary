@@ -30,7 +30,7 @@ jobs:
         shell: bash
         run: |
           shopt -s nullglob
-          files=(.github/patches/*.json)
+          files=(.github/patches/add-tags-10994-11036.json)
           if [[ ${#files[@]} -eq 0 ]]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
             echo "No patch files remain; nothing to apply."
