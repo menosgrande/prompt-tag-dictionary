@@ -1,0 +1,435 @@
+{
+  "schema": "prompt-tag-dictionary-patch-v1",
+  "operations": [
+    {
+      "tag": "lpip",
+      "set": {
+        "ja": "lpip",
+        "translationStatus": "verified",
+        "expressionLevel": 0,
+        "expressionLevelReviewStatus": "verified",
+        "classificationReviewStatus": "verified"
+      }
+    },
+    {
+      "tag": "sobbing",
+      "add": {
+        "ja": "すすり泣く・号泣する",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "yelling",
+      "add": {
+        "ja": "大声で叫ぶ",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "sulking",
+      "add": {
+        "ja": "ふてくされる",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "despair",
+      "add": {
+        "ja": "絶望した顔",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "tired",
+      "add": {
+        "ja": "疲れた顔",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "dazed",
+      "add": {
+        "ja": "放心した顔",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "gasp",
+      "add": {
+        "ja": "はっと息をのむ",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "lip biting",
+      "add": {
+        "ja": "唇を噛む",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "crying with eyes closed",
+      "add": {
+        "ja": "目を閉じて泣く",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":d",
+      "add": {
+        "ja": "笑顔の顔文字（:D）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":o",
+      "add": {
+        "ja": "驚きの顔文字（:O）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":p",
+      "add": {
+        "ja": "舌を出す顔文字（:P）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":q",
+      "add": {
+        "ja": "舌を出す顔文字（:Q）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":t",
+      "add": {
+        "ja": "不満顔の顔文字（:T）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":<",
+      "add": {
+        "ja": "悲しい顔文字（:<）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":>",
+      "add": {
+        "ja": "にやけ顔の顔文字（:>）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":/",
+      "add": {
+        "ja": "困り顔の顔文字（:/）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ":|",
+      "add": {
+        "ja": "無表情の顔文字（:|）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ";)",
+      "add": {
+        "ja": "ウインクの顔文字（;)）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ";d",
+      "add": {
+        "ja": "ウインク笑顔の顔文字（;D）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ";p",
+      "add": {
+        "ja": "ウインク舌出しの顔文字（;P）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ";o",
+      "add": {
+        "ja": "ウインク驚きの顔文字（;O）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ">:)",
+      "add": {
+        "ja": "悪い笑顔の顔文字（>:)）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": ">:(",
+      "add": {
+        "ja": "怒り顔の顔文字（>:(）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "^ ^",
+      "add": {
+        "ja": "笑い目の顔文字（^ ^）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "> <",
+      "add": {
+        "ja": "目をぎゅっと閉じた顔文字（> <）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "- -",
+      "add": {
+        "ja": "ジト目の顔文字（- -）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "; ;",
+      "add": {
+        "ja": "涙目の顔文字（; ;）",
+        "major": "顔・表情",
+        "minor": "顔・表情",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "eyebrows visible through hair",
+      "add": {
+        "ja": "髪越しに見える眉",
+        "major": "顔・表情",
+        "minor": "顔の特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "double chin",
+      "add": {
+        "ja": "二重あご",
+        "major": "顔・表情",
+        "minor": "顔の特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "chin",
+      "add": {
+        "ja": "あご",
+        "major": "顔・表情",
+        "minor": "顔の特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "dimples",
+      "add": {
+        "ja": "えくぼ",
+        "major": "顔・表情",
+        "minor": "顔の特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "dilated pupils",
+      "add": {
+        "ja": "瞳孔が開いている",
+        "major": "顔・表情",
+        "minor": "目",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "swirling eyes",
+      "add": {
+        "ja": "ぐるぐる目",
+        "major": "顔・表情",
+        "minor": "目",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "chubby",
+      "add": {
+        "ja": "ぽっちゃり体型",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "bubble butt",
+      "add": {
+        "ja": "丸く盛り上がったお尻",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 1
+      }
+    },
+    {
+      "tag": "huge ass",
+      "add": {
+        "ja": "大きなお尻",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 1
+      }
+    },
+    {
+      "tag": "large feet",
+      "add": {
+        "ja": "大きな足",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "saggy breasts",
+      "add": {
+        "ja": "垂れた胸",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 2
+      }
+    },
+    {
+      "tag": "asymmetrical breasts",
+      "add": {
+        "ja": "左右非対称の胸",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 2
+      }
+    },
+    {
+      "tag": "bodybuilder",
+      "add": {
+        "ja": "ボディビルダー体型",
+        "major": "人物の特徴",
+        "minor": "体型・身体的特徴",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    },
+    {
+      "tag": "adam's apple",
+      "add": {
+        "ja": "喉仏",
+        "major": "人物の特徴",
+        "minor": "身体部位・身体状態",
+        "aliases": [],
+        "expressionLevel": 0
+      }
+    }
+  ]
+}
