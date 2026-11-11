@@ -30,7 +30,7 @@ function validateCanonicalTags(data) {
   return byTag;
 }
 
-function validatePatch(patch, byTag) {
+function validatePatch(patch, byTag, data) {
   if (!isRecord(patch) || patch.schema !== "prompt-tag-dictionary-patch-v1" ||
       !Array.isArray(patch.operations)) {
     throw new Error("Invalid patch. Expected schema and operations.");
@@ -54,8 +54,8 @@ function validatePatch(patch, byTag) {
   }
 
   const seenOperations = new Set();
-  const prepared = patch.operations.map((operation, index) => {
-    if (!isRecord(operation) || Object.keys(operation).some(key => !["tag", "set"].includes(key)) ||
+  const operations = patch.operations.map((operation, index) => {
+    if (!isRecord(operation) || Object.keys(operation).some(key => !["tag", "set", "add"].includes(key)) ||
         typeof operation.tag !== "string" || !operation.tag.trim()) {
       throw new Error("Invalid operation at index " + index + ".");
     }
@@ -66,12 +66,33 @@ function validatePatch(patch, byTag) {
     seenOperations.add(key);
 
     const row = byTag.get(key);
+    const hasSet = isRecord(operation.set);
+    const hasAdd = isRecord(operation.add);
+    if (hasSet === hasAdd) {
+      throw new Error("Each operation must contain exactly one of set or add: " + operation.tag);
+    }
+    if (hasAdd) {
+      if (row) throw new Error("Cannot add an existing tag: " + operation.tag);
+      const values = operation.add;
+      const allowed = ["ja", "major", "minor", "aliases", "expressionLevel"];
+      if (Object.keys(values).some(field => !allowed.includes(field)) ||
+          !["ja", "major", "minor", "aliases", "expressionLevel"].every(field => Object.prototype.hasOwnProperty.call(values, field))) {
+        throw new Error("Invalid add fields: " + operation.tag);
+      }
+      if ([values.ja, values.major, values.minor].some(value => typeof value !== "string") ||
+          !Array.isArray(values.aliases) || values.aliases.some(value => typeof value !== "string") ||
+          !Number.isInteger(values.expressionLevel) || values.expressionLevel < 0 || values.expressionLevel > 4) {
+        throw new Error("Invalid add values: " + operation.tag);
+      }
+      const category = data.taxonomy?.semanticCategories?.find(item => item.name === values.major);
+      if (!category?.subcategories?.some(item => item.name === values.minor)) {
+        throw new Error("Unknown taxonomy for new tag: " + operation.tag);
+      }
+      return { addition: { tag: operation.tag, ...values } };
+    }
     if (!row) throw new Error("Tag not found: " + operation.tag);
 
     const values = operation.set;
-    if (!isRecord(values)) {
-      throw new Error("Each operation needs a set object: " + operation.tag);
-    }
     const fields = Object.keys(values);
     if (!fields.length || fields.some(field => !["ja", "major", "minor", "candidateJa", "translationStatus", "translationReviewNote", "translationReviewedAt", "translationSource", "classificationStatus", "classificationReviewStatus", "classificationReviewReason", "classificationReviewedAt", "classificationReviewSource", "expressionLevel", "expressionLevelReviewStatus", "expressionLevelReviewReason", "expressionLevelReviewedAt"].includes(field))) {
       throw new Error("Unsupported patch fields in dictionary patch: " + operation.tag);
@@ -125,7 +146,9 @@ function validatePatch(patch, byTag) {
     return { row, tag: operation.tag, values };
   });
 
-  return { prepared, cleanup };
+  const prepared = operations.filter(item => item.row);
+  const additions = operations.filter(item => item.addition).map(item => item.addition);
+  return { prepared, additions, cleanup };
 }
 
 function mergePackedReview(data) {
@@ -220,7 +243,7 @@ function removeArchivedCandidates(data) {
 export function applyPatchData(inputData, patch) {
   const data = structuredClone(inputData);
   const byTag = validateCanonicalTags(data);
-  const { prepared, cleanup } = validatePatch(patch, byTag);
+  const { prepared, additions, cleanup } = validatePatch(patch, byTag, data);
 
   // Validate all requested cleanup inputs before mutating the cloned dictionary.
   if (cleanup.mergePackedReviewIntoTagMetadata === true) {
@@ -289,6 +312,23 @@ export function applyPatchData(inputData, patch) {
     }
   }
 
+  for (const item of additions) {
+    data.tags.push([
+      item.tag,
+      item.ja,
+      item.major,
+      item.minor,
+      null,
+      item.aliases,
+      {
+        translation: { status: "verified" },
+        expressionLevel: item.expressionLevel,
+        expressionLevelReview: { status: "verified" },
+        classificationReview: { status: "verified" }
+      }
+    ]);
+  }
+
   const classificationUpdates = prepared.filter(item => Object.prototype.hasOwnProperty.call(item.values, "classificationStatus"));
   if (classificationUpdates.length) {
     const candidates = data.classificationCandidates?.entries;
@@ -310,6 +350,7 @@ export function applyPatchData(inputData, patch) {
   return {
     data,
     updated: prepared.length,
+    added: additions.length,
     packedReviewMerged,
     packedReviewConflicts,
     removedArchivedClassificationCandidates
@@ -353,6 +394,7 @@ async function main() {
   await writeAtomically(dataPath, JSON.stringify(result.data) + "\n");
 
   console.log("Updated tag entries: " + result.updated);
+  console.log("Added tag entries: " + result.added);
   console.log("Canonical tags: " + result.data.tags.length);
   if (patch.cleanup?.removeArchivedClassificationCandidates === true) {
     console.log("Removed archived classification candidates: " + result.removedArchivedClassificationCandidates);
