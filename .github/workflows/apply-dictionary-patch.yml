@@ -30,7 +30,61 @@ jobs:
         shell: bash
         run: |
           shopt -s nullglob
-          files=(.github/patches/add-tags-10994-11036.json)
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            mapfile -t files < <(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" | grep '^\.github/patches/.*\.json
+          if [[ ${#files[@]} -eq 0 ]]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "No patch files remain; nothing to apply."
+            exit 0
+          fi
+          if [[ ${#files[@]} -ne 1 ]]; then
+            echo "Expected one patch file; found ${#files[@]}."
+            exit 1
+          fi
+          echo "patch_file=${files[0]}" >> "$GITHUB_OUTPUT"
+          node .github/scripts/apply-dictionary-patch.mjs "${files[0]}"
+      - name: Validate dictionary
+        run: node scripts/build-dictionary-data.mjs --check
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit tag structure and categories
+        run: node scripts/audit-tags.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit taxonomy structure
+        run: node scripts/audit-taxonomy.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit consolidated review metadata
+        run: node scripts/audit-tag-management.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit translation candidates
+        run: node scripts/audit-translations.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit prompt output order
+        run: node scripts/audit-prompt-order.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Audit tag groups
+        run: node scripts/audit-tag-groups.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Run all Node tests
+        run: node --test
+        if: steps.patch.outputs.skip != 'true'
+      - name: Export working CSV from canonical dictionary
+        run: node scripts/export-dictionary-csv.mjs
+        if: steps.patch.outputs.skip != 'true'
+      - name: Commit updated dictionary
+        env:
+          PATCH_FILE: ${{ steps.patch.outputs.patch_file }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm "$PATCH_FILE"
+          git add data/dictionary-data.json exports/dictionary-working.csv
+          git commit -m "Update canonical dictionary"
+          git push
+ || true)
+          else
+            shopt -s nullglob
+            files=(.github/patches/*.json)
+          fi
           if [[ ${#files[@]} -eq 0 ]]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
             echo "No patch files remain; nothing to apply."
