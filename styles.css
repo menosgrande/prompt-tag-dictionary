@@ -1160,3 +1160,40 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .table-scroll-shell .tag-group-row>.tag-names{grid-column:1;min-width:0}
   .table-scroll-shell .tag-group-row>.tag-category{grid-column:2/4;min-width:0;white-space:normal;overflow-wrap:anywhere}
 }
+
+
+/* Prevent mobile viewport overflow in the dictionary table. */
+@media(max-width:720px){
+  html,body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+  .app-shell,
+  .workspace,
+  .results-panel,
+  .table-scroll-shell{
+    width:100%;
+    min-width:0;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+  .table-scroll-shell{
+    overflow-x:hidden!important;
+  }
+  .table-scroll-shell .table-head,
+  .table-scroll-shell .tag-results,
+  .table-scroll-shell .tag-row,
+  .table-scroll-shell .tag-group-row{
+    box-sizing:border-box;
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+  .table-scroll-shell .tag-row>*,
+  .table-scroll-shell .table-head-cell{
+    min-width:0!important;
+    max-width:100%;
+    box-sizing:border-box;
+  }
+}
