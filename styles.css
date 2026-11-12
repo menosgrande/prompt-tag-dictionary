@@ -1048,16 +1048,16 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 .panel-heading{padding:5px 8px 4px}
 .panel-heading h2{line-height:1.2}
 .result-heading{padding-top:6px;padding-bottom:5px}
-.work-group-card{margin:2px 5px}
-.work-group-summary{min-height:27px;padding:3px 7px;gap:5px}
-.work-group-options{padding:3px 7px 4px;gap:1px 5px}
-.work-group-option{padding:2px 4px;gap:1px 5px}
+.work-group-card{margin:1px 4px}
+.work-group-summary{min-height:22px;padding:2px 6px;gap:4px}
+.work-group-options{padding:2px 6px 3px;gap:1px 4px}
+.work-group-option{padding:1px 3px;gap:1px 4px}
 .work-group-option.is-title-tag{padding-bottom:3px;margin-bottom:1px}
 @media(max-width:720px){
   .panel-heading{padding:4px 7px 3px}
   .result-heading{padding-top:5px;padding-bottom:4px}
-  .work-group-card{margin:2px 4px}
-  .work-group-summary{min-height:24px;padding:2px 6px}
-  .work-group-options{padding:3px 5px;gap:1px 3px}
-  .work-group-option{padding:2px 3px}
+  .work-group-card{margin:1px 3px}
+  .work-group-summary{min-height:20px;padding:1px 5px}
+  .work-group-options{padding:2px 4px;gap:1px 3px}
+  .work-group-option{padding:1px 2px}
 }
