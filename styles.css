@@ -1197,3 +1197,36 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
     box-sizing:border-box;
   }
 }
+
+/* Final mobile width correction: three readable columns, no intrinsic-width overflow. */
+@media(max-width:720px){
+  html,body,#dictionary-screen,.app-shell,.workspace,.results-panel,#results-panel,.table-scroll-shell{
+    width:100%;min-width:0;max-width:100%;box-sizing:border-box;
+  }
+  .workspace{display:flex;flex-direction:column;}
+  .table-scroll-shell{display:block;overflow-x:hidden!important;}
+  .table-scroll-shell .table-head,
+  .table-scroll-shell .tag-row{
+    display:grid!important;
+    grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr) minmax(0,.85fr)!important;
+    width:100%!important;min-width:0!important;max-width:100%!important;
+    box-sizing:border-box;gap:3px;
+  }
+  .table-scroll-shell .table-head-cell:nth-child(1),
+  .table-scroll-shell .tag-row>.tag-check,
+  .table-scroll-shell .tag-row>*:nth-child(n+5){display:none!important;}
+  .table-scroll-shell .table-head-cell:nth-child(2),
+  .table-scroll-shell .table-head-cell:nth-child(3),
+  .table-scroll-shell .table-head-cell:nth-child(4),
+  .table-scroll-shell .tag-row>.tag-label-wrap,
+  .table-scroll-shell .tag-row>.tag-japanese,
+  .table-scroll-shell .tag-row>.tag-major{
+    grid-column:auto!important;min-width:0!important;max-width:100%;
+    width:auto!important;box-sizing:border-box;overflow:hidden;
+  }
+  .table-scroll-shell .tag-label-wrap,.table-scroll-shell .tag-english,
+  .table-scroll-shell .tag-japanese,.table-scroll-shell .tag-major{
+    white-space:normal!important;overflow-wrap:anywhere;word-break:normal;
+    text-overflow:clip;min-width:0!important;max-width:100%;
+  }
+}
