@@ -1079,6 +1079,7 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
     grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,.95fr)!important;
   }
   .table-scroll-shell .table-head-cell:nth-child(1),
+  .table-scroll-shell .table-head-cell:nth-child(n+5),
   .table-scroll-shell .tag-row>.tag-check,
   .table-scroll-shell .tag-row>*:nth-child(n+5){
     display:none!important;
