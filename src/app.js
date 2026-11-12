@@ -852,15 +852,16 @@
       root.append(wrap);
     });
   }
-  function workGroupTagCount(group) {
-    const available = new Set(state.tags.map(tag => norm(tag.tag)));
+  function workGroupTagCount(group, available = null) {
+    const availableTags = available || new Set(state.tags.map(tag => norm(tag.tag)));
     const names = [...(group.members || []), group.titleTag].filter(Boolean);
-    return new Set(names.map(norm).filter(name => available.has(name))).size;
+    return new Set(names.map(norm).filter(name => availableTags.has(name))).size;
   }
   function matchingTags() {
     const q = norm(state.query), queryTerms = q.split(/\s+/).filter(Boolean);
     const level = $("#level-filter").value, reviewFilter = $("#review-filter").value;
     const workBrowse = state.category?.[0] === "キャラクター・作品" && state.category?.[1] === "作品・シリーズ";
+    const availableWorkTags = new Set(state.tags.map(tag => norm(tag.tag)));
     let list = state.tags.filter(t => {
       if (workBrowse) return false;
       if (state.category?.[0] === "__outputTarget") { if (promptTargetOf(t) !== state.category[1]) return false; }
@@ -923,7 +924,7 @@
     });
     list.push(...combinedGroups.map(group => ({ ...group, tag: group.id, ja: group.ja || "統合グループ" })));
     if (sort === "work-count" && workBrowse) list.sort((a,b) =>
-      workGroupTagCount(b) - workGroupTagCount(a) ||
+      workGroupTagCount(b, availableWorkTags) - workGroupTagCount(a, availableWorkTags) ||
       String(a.label || a.id).localeCompare(String(b.label || b.id), "en")
     );
     else if (sort === "english") list.sort(englishCompare);
@@ -979,6 +980,8 @@
   }
 
   function renderResults() {
+    const workBrowse = state.category?.[0] === "キャラクター・作品" && state.category?.[1] === "作品・シリーズ";
+    const availableWorkTags = new Set(state.tags.map(tag => norm(tag.tag)));
     const all = matchingTags(), size = pageSize(all.length), pageCount = Math.max(1, Math.ceil(all.length / size));
     state.page = Math.min(Math.max(0, state.page), pageCount - 1);
     const start = state.page * size, items = all.slice(start, start + size), root = $("#tag-results");
@@ -1035,7 +1038,7 @@
     $("#results-title").textContent = state.query ? "検索結果" : activeCategoryLabel || "タグ一覧";
     const workGroups = all.filter(item => item.isWorkGroup);
     $("#result-count").textContent = workBrowse
-      ? workGroups.length.toLocaleString("ja-JP") + "作品 · " + workGroups.reduce((sum, group) => sum + workGroupTagCount(group), 0).toLocaleString("ja-JP") + "タグ"
+      ? workGroups.length.toLocaleString("ja-JP") + "作品 · " + workGroups.reduce((sum, group) => sum + workGroupTagCount(group, availableWorkTags), 0).toLocaleString("ja-JP") + "タグ"
       : all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
@@ -1049,7 +1052,7 @@
         const summary = document.createElement("summary"); summary.className = "work-group-summary";
         const title = document.createElement("span"); title.className = "work-group-title"; title.textContent = t.label || t.id;
         const subtitle = document.createElement("span"); subtitle.className = "work-group-subtitle"; subtitle.textContent = t.ja || "作品タイトル";
-        const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = workGroupTagCount(t).toLocaleString("ja-JP") + "タグ";
+        const count = document.createElement("span"); count.className = "work-group-count"; count.textContent = workGroupTagCount(t, availableWorkTags).toLocaleString("ja-JP") + "タグ";
         summary.append(title, subtitle, count); details.append(summary);
         const options = document.createElement("div"); options.className = "work-group-options";
         const renderedWorkTags = new Set();
