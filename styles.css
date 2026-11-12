@@ -1061,3 +1061,101 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .work-group-options{padding:2px 4px;gap:1px 3px}
   .work-group-option{padding:1px 2px}
 }
+
+
+/* Mobile dictionary: keep the three essential fields visible without horizontal scrolling. */
+@media(max-width:720px){
+  .table-scroll-shell{
+    overflow-x:hidden;
+    scrollbar-gutter:auto;
+  }
+  .table-scroll-shell .table-head,
+  .table-scroll-shell .tag-results,
+  .table-scroll-shell .tag-row,
+  .table-scroll-shell .tag-group-row{
+    width:100%;
+    min-width:0;
+    max-width:100%;
+    grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,.95fr)!important;
+  }
+  .table-scroll-shell .table-head-cell:nth-child(1),
+  .table-scroll-shell .tag-row>.tag-check,
+  .table-scroll-shell .tag-row>*:nth-child(n+5){
+    display:none!important;
+  }
+  .table-scroll-shell .table-head-cell{
+    min-width:0;
+    min-height:29px;
+    padding:0 5px;
+    overflow:hidden;
+    font-size:10px;
+  }
+  .table-scroll-shell .table-head-cell>button,
+  .table-scroll-shell .table-head-cell>span:not(.column-resize){
+    min-width:0;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-size:10px;
+  }
+  .table-scroll-shell .column-resize{display:none}
+  .table-scroll-shell .tag-results{
+    overflow-x:hidden;
+    overflow-y:auto;
+    max-height:65vh;
+  }
+  .table-scroll-shell .tag-row{
+    height:auto;
+    min-height:28px;
+    align-items:stretch;
+  }
+  .table-scroll-shell .tag-row>*{
+    min-width:0;
+    padding:4px 5px;
+    overflow:hidden;
+  }
+  .table-scroll-shell .tag-row .tag-label-wrap,
+  .table-scroll-shell .tag-row .tag-japanese,
+  .table-scroll-shell .tag-row .tag-major{
+    min-width:0;
+    white-space:normal;
+    overflow-wrap:anywhere;
+    text-overflow:clip;
+    line-height:1.25;
+    font-size:10px;
+  }
+  .table-scroll-shell .tag-row .tag-label-wrap{
+    gap:2px;
+  }
+  .table-scroll-shell .tag-row .tag-label-wrap>.tag-english{
+    min-width:0;
+    white-space:normal;
+    overflow-wrap:anywhere;
+    text-overflow:clip;
+    line-height:1.25;
+    font-size:10px;
+  }
+  .table-scroll-shell .tag-row .vote-inline-cell{
+    flex-wrap:wrap;
+    gap:2px;
+  }
+  .table-scroll-shell .tag-row .vote-inline-cell>.vote-group{
+    margin-left:0;
+  }
+  .table-scroll-shell .tag-row .vote-inline-cell .vote-button{
+    width:12px;
+    min-width:12px;
+    height:13px;
+    min-height:13px;
+    font-size:8px;
+  }
+  .table-scroll-shell .tag-group-row{
+    grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,.95fr)!important;
+  }
+  .table-scroll-shell .tag-group-row>.tag-group-marker,
+  .table-scroll-shell .tag-group-row>.tag-group-select{
+    display:none!important;
+  }
+  .table-scroll-shell .tag-group-row>.tag-names{grid-column:1;min-width:0}
+  .table-scroll-shell .tag-group-row>.tag-category{grid-column:2/4;min-width:0;white-space:normal;overflow-wrap:anywhere}
+}
