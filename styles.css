@@ -1203,9 +1203,9 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .table-scroll-shell{overflow-x:auto!important;}
   .table-scroll-shell .table-head,
   .table-scroll-shell .tag-row{
-    grid-template-columns:minmax(105px,1fr) minmax(88px,.85fr) minmax(78px,.85fr)!important;
-    width:max-content!important;
-    min-width:100%!important;
+    grid-template-columns:minmax(90px,1fr) minmax(78px,.85fr) minmax(76px,.85fr)!important;
+    width:100%!important;
+    min-width:260px!important;
     gap:1px!important;
   }
   .table-scroll-shell .tag-row>.tag-label-wrap{
