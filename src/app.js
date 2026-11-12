@@ -1037,8 +1037,11 @@
       : state.category.filter(Boolean).join(" › ");
     $("#results-title").textContent = state.query ? "検索結果" : activeCategoryLabel || "タグ一覧";
     const workGroups = all.filter(item => item.isWorkGroup);
+    const totalWorkTags = new Set(workGroups.flatMap(group =>
+      [...(group.members || []), group.titleTag].filter(Boolean).map(norm).filter(name => availableWorkTags.has(name))
+    )).size;
     $("#result-count").textContent = workBrowse
-      ? workGroups.length.toLocaleString("ja-JP") + "作品 · " + workGroups.reduce((sum, group) => sum + workGroupTagCount(group, availableWorkTags), 0).toLocaleString("ja-JP") + "タグ"
+      ? workGroups.length.toLocaleString("ja-JP") + "作品 · " + totalWorkTags.toLocaleString("ja-JP") + "タグ"
       : all.length.toLocaleString("ja-JP") + "件";
     $("#empty-state").hidden = all.length !== 0; root.hidden = all.length === 0;
     items.forEach((t, index) => {
