@@ -1029,3 +1029,17 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
 @media(max-width:720px){
   .table-scroll-shell .tag-results{max-height:65vh}
 }
+
+/* Reduce vertical whitespace in the dictionary table. */
+.table-scroll-shell .table-head,
+.table-scroll-shell .table-head-cell{min-height:32px}
+.tag-row{min-height:23px;height:23px}
+.tag-row>*{padding-top:0;padding-bottom:0}
+.tag-row .tag-english{line-height:1.05}
+.tag-row .tag-japanese{line-height:1.05}
+.tag-cell{line-height:1.05}
+@media(max-width:720px){
+  .table-scroll-shell .table-head,
+  .table-scroll-shell .table-head-cell{min-height:29px}
+  .tag-row{min-height:21px;height:21px}
+}
