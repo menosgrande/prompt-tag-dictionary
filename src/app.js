@@ -11,7 +11,10 @@
   let dictionaryData = null;
   let classificationCandidates = new Map();
   const PAGE_SIZE = 100;
-  function pageSize() { return PAGE_SIZE; }
+  const MOBILE_PAGE_SIZE = 200;
+  function pageSize() {
+    return window.matchMedia("(max-width: 720px)").matches ? MOBILE_PAGE_SIZE : PAGE_SIZE;
+  }
   const CATEGORIES = [
     ["人物","People","人数","性別・体形","年齢","頭髪","顔・表情","目","胸","身体・部位","種族・役割"],
     ["作品・キャラクター","Works & Characters","作品名・シリーズ","キャラクター","作者・配信者"],
