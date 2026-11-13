@@ -710,7 +710,7 @@
       expander.setAttribute("aria-label",category.name+"の小分類を展開");
       expander.setAttribute("aria-expanded",String(state.expandedMajor===category.name));
       heading.append(expander);wrap.append(heading);
-      if(state.expandedMajor===category.name){
+      if (state.expandedMajor === category.name || !window.matchMedia("(max-width: 720px)").matches) {
         const minors=document.createElement("div");minors.className="category-minors";
         (category.subcategories||[]).forEach(sub=>{
           if (sub.hidden || sub.deprecated) return;
@@ -803,7 +803,7 @@
       expander.setAttribute("aria-label", major + "の小分類を展開");
       expander.setAttribute("aria-expanded", String(state.expandedMajor === major));
       heading.append(btn, expander); wrap.append(heading);
-      if (state.expandedMajor === major) {
+      if (state.expandedMajor === major || !window.matchMedia("(max-width: 720px)").matches) {
         const known = defaultMinor[major] || [];
         const minors = [...new Set([...known, ...entry.minors.keys()])].filter(m => !(major === "画風・品質" && m === "品質"));
         if (major !== "人物" && major !== "未分類") minors.splice(0, minors.length, ...minors.filter(m => entry.minors.has(m)));
@@ -855,6 +855,13 @@
       root.append(wrap);
     });
   }
+  if (window.matchMedia) {
+    const categoryLayoutQuery = window.matchMedia("(max-width: 720px)");
+    const rerenderCategoryLayout = () => renderCategories();
+    if (categoryLayoutQuery.addEventListener) categoryLayoutQuery.addEventListener("change", rerenderCategoryLayout);
+    else if (categoryLayoutQuery.addListener) categoryLayoutQuery.addListener(rerenderCategoryLayout);
+  }
+
   function workGroupTagCount(group, available = null) {
     const availableTags = available || new Set(state.tags.map(tag => norm(tag.tag)));
     const names = [...(group.members || []), group.titleTag].filter(Boolean);

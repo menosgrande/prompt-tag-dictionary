@@ -1228,3 +1228,75 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
     padding-left:3px!important;padding-right:3px!important;
   }
 }
+
+
+/* Responsive width utilization: reclaim page margins and give the dictionary the available space. */
+.app-shell{
+  width:100%;
+  max-width:none;
+  box-sizing:border-box;
+  padding:clamp(10px,1.1vw,18px) clamp(8px,1vw,16px) 16px;
+}
+.workspace{
+  grid-template-columns:minmax(210px,min(17vw,260px)) minmax(0,1fr) minmax(300px,min(25vw,360px));
+  gap:10px;
+}
+.workspace>.panel{min-width:0}
+.categories-panel,.results-panel,.builder-panel{min-width:0}
+.category-tree{max-height: min(68vh, 680px)}
+.category-major-heading{min-width:0}
+.category-major-button{min-width:0}
+.category-major-button>span:first-child{min-width:0;overflow-wrap:anywhere}
+
+/* Tablet: keep category navigation and results side by side; builder moves below. */
+@media(max-width:1100px){
+  .app-shell{padding-left:10px;padding-right:10px}
+  .workspace{grid-template-columns:minmax(190px,220px) minmax(0,1fr);gap:8px}
+  .category-tree{max-height:52vh}
+}
+
+/* Smartphone: compact outer spacing, single-column accordion categories, no table side-scroll. */
+@media(max-width:720px){
+  .app-shell{padding:8px 6px 12px}
+  .topbar{padding:8px 8px;gap:6px}
+  .workspace{gap:7px}
+  .category-tree{
+    display:block;
+    grid-template-columns:none;
+    max-height:38vh;
+    padding:4px 6px;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+  .category-major{margin:1px 0 2px}
+  .category-major-heading{gap:4px}
+  .category-major-button{padding:7px 8px}
+  .category-minors{padding-left:12px}
+  .category-minor{padding:6px 8px}
+  .panel-note{padding:6px 8px;font-size:10px}
+  .search-row{gap:5px;margin-bottom:7px}
+  .searchbox{padding-left:9px;padding-right:9px}
+  .table-scroll-shell{
+    overflow-x:hidden!important;
+    scrollbar-gutter:auto;
+  }
+  .table-scroll-shell .table-head,
+  .table-scroll-shell .tag-results,
+  .table-scroll-shell .tag-row,
+  .table-scroll-shell .tag-group-row{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+    box-sizing:border-box;
+    grid-template-columns:minmax(0,1.1fr) minmax(0,.95fr) minmax(0,.9fr)!important;
+  }
+  .table-scroll-shell .tag-results{overflow-x:hidden!important}
+  .table-scroll-shell .tag-row>*,
+  .table-scroll-shell .table-head-cell{min-width:0!important;max-width:100%;box-sizing:border-box}
+  .table-scroll-shell .tag-row .tag-label-wrap,
+  .table-scroll-shell .tag-row .tag-japanese,
+  .table-scroll-shell .tag-row .tag-major{
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+}
