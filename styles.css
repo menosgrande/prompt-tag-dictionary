@@ -1360,3 +1360,26 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
     min-height:13px;
   }
 }
+
+
+/* Extra-compact tag rows: minimize vertical chrome while retaining legibility. */
+.table-scroll-shell .tag-row{min-height:17px;height:auto}
+.table-scroll-shell .tag-row>*{padding-top:0!important;padding-bottom:0!important}
+.table-scroll-shell .tag-row .tag-label-wrap,
+.table-scroll-shell .tag-row .tag-japanese,
+.table-scroll-shell .tag-row .tag-major{line-height:1;font-size:10px}
+.table-scroll-shell .tag-row .tag-label-wrap>.tag-english{font-size:10px;line-height:1}
+.table-scroll-shell .tag-row .tag-info-button{width:13px;height:13px;min-height:13px;font-size:9px;border-radius:3px}
+.table-scroll-shell .tag-row .tag-edit-button{min-height:13px;padding:0 3px;font-size:8px;line-height:1}
+.table-scroll-shell .tag-row .vote-inline-cell{gap:2px}
+.table-scroll-shell .tag-row .vote-inline-cell .vote-button{width:11px;min-width:11px;height:12px;min-height:12px;font-size:8px}
+@media(max-width:720px){
+  .table-scroll-shell .tag-row{min-height:16px}
+  .table-scroll-shell .tag-row .tag-label-wrap,
+  .table-scroll-shell .tag-row .tag-japanese,
+  .table-scroll-shell .tag-row .tag-major{font-size:9px;line-height:1.05}
+  .table-scroll-shell .tag-row .tag-label-wrap>.tag-english{font-size:9px;line-height:1.05}
+  .table-scroll-shell .tag-row .tag-info-button{width:12px;height:12px;min-height:12px;font-size:8px}
+  .table-scroll-shell .tag-row .tag-edit-button{min-height:12px;font-size:8px}
+  .table-scroll-shell .tag-row .vote-inline-cell .vote-button{width:10px;min-width:10px;height:11px;min-height:11px;font-size:7px}
+}
