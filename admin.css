@@ -23,3 +23,25 @@
 
 .batch-work-card{padding-bottom:12px}.batch-help{margin:10px 16px;color:var(--muted);font-size:12px}.batch-controls{display:grid;grid-template-columns:repeat(3,minmax(130px,1fr)) auto;gap:10px;align-items:end;padding:0 14px 12px}.batch-controls label,.batch-import-row label{display:block;color:var(--muted);font-size:12px}.batch-controls button{min-height:38px}.batch-progress{margin:0 14px 12px;padding:10px;border:1px solid var(--line);border-radius:8px;background:#191c21;font-size:12px}.batch-import-row,.batch-final-row{display:flex;align-items:end;gap:10px;flex-wrap:wrap;padding:0 14px 8px}.batch-import-row label{flex:1;min-width:220px}.batch-final-row{padding-top:4px}.batch-final-row button{background:var(--accent);color:#111b2a;border-color:var(--accent);font-weight:700}@media(max-width:850px){.batch-controls{grid-template-columns:1fr 1fr}.batch-controls button{grid-column:1/-1}.batch-import-row button{flex:1}.batch-final-row button{width:100%}}
 .batch-import-row #batch-copy-prompt{white-space:nowrap}@media(max-width:850px){.batch-import-row #batch-copy-prompt{flex:1}}
+/* Tag dictionary management: three-column cards with a persistent editor pane. */
+.layout{grid-template-columns:minmax(0,1fr) minmax(320px,380px);gap:14px;align-items:start}
+.layout>.tag-list-card{margin:0;min-width:0}
+.layout>.editor{margin:0;min-width:0;position:sticky;top:14px;max-height:calc(100vh - 28px);overflow:auto}
+.layout>.list-resizer{display:none}
+.results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;padding:10px;height:auto;min-height:300px;max-height:75vh;overflow:auto;resize:vertical;align-content:start}
+.tag-item{position:relative;display:flex;flex-direction:column;align-items:stretch;gap:7px;min-width:0;min-height:112px;padding:12px;border:1px solid var(--line);border-radius:10px;background:#191c21;text-align:left;white-space:normal}
+.tag-item:hover,.tag-item.active{background:#29313d;border-color:#7186a6}
+.tag-item strong{display:block;overflow-wrap:anywhere;white-space:normal;font-size:13px;line-height:1.4;color:var(--text)}
+.tag-item small{display:block;overflow-wrap:anywhere;white-space:normal;font-size:11px;line-height:1.45;color:var(--muted)}
+.tag-item em{align-self:flex-start;white-space:normal;font-size:10px;color:var(--muted);font-style:normal}
+.tag-card-actions{display:flex;align-items:center;gap:6px;margin-top:auto;padding-top:4px}
+.tag-card-actions button{min-height:30px;padding:4px 9px;border-radius:7px;font-size:11px}
+.tag-pn{min-width:34px;font-weight:800}
+.tag-pn.positive{color:#9be2b0;border-color:#477b59;background:#1d3326}
+.tag-pn.negative{color:#ffaaa3;border-color:#8a4b4b;background:#3b2426}
+.tag-pn.unset{color:var(--muted);background:transparent}
+.tag-favorite{margin-left:auto;color:#e9c66a}
+.toolbar label{min-width:145px}
+@media(max-width:1100px){.results{grid-template-columns:repeat(2,minmax(0,1fr))}.layout{grid-template-columns:minmax(0,1fr) minmax(300px,340px)}}
+@media(max-width:850px){.layout{grid-template-columns:minmax(0,1fr)}.layout>.editor{position:static;max-height:none}.results{grid-template-columns:repeat(2,minmax(0,1fr));max-height:60vh}}
+@media(max-width:520px){.results{grid-template-columns:minmax(0,1fr)}.tag-item{min-height:0}.toolbar label{min-width:calc(50% - 8px)}}
