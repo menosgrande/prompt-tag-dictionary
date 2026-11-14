@@ -20,7 +20,7 @@
   </nav>
   <section id="dictionary-screen" class="app-screen">
   <section class="intro"><div><p class="eyebrow">PROMPT TAG DICTIONARY</p><h1>タグを選んでプロンプト作成</h1><p class="intro-copy">検索・分類からタグを選択。</p></div>
-    <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div><div><strong id="stat-selected">0</strong><span>選択中</span></div></div>
+    <div class="stats"><div><strong id="stat-total">—</strong><span>登録タグ</span></div></div>
   </section>
   <section class="search-row" aria-label="タグ検索">
     <label class="searchbox"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="日本語・英語で検索（例：笑顔 / smile / grimace）" autocomplete="off"><kbd>Enter</kbd></label>
@@ -79,16 +79,6 @@
       </div>
     </aside>
   </section>
-  <aside id="selected-dock" class="selected-dock" aria-label="選択中のタグ" hidden>
-    <div class="selected-dock-content">
-      <strong id="selected-dock-count">選択中 0件</strong>
-      <div id="selected-dock-tags" class="selected-dock-tags"></div>
-    </div>
-    <div class="selected-dock-actions">
-      <button id="selected-dock-copy" class="button button-primary" type="button" disabled>ポジティブをコピー</button>
-      <button id="selected-dock-editor" class="button button-quiet" type="button">編集へ</button>
-    </div>
-  </aside>
   <footer class="footer"><span>Prompt Tag Dictionary</span><button id="show-data-note" class="text-button">データについて</button></footer>
 </main>
 <dialog id="import-dialog" class="modal"><form method="dialog" class="modal-close-row"><button class="icon-button" aria-label="閉じる">×</button></form>
