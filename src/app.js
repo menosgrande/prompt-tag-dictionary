@@ -569,8 +569,8 @@
     const panel = $("#results-panel");
     const head = panel?.querySelector(".table-head");
     if (!panel || !head) return;
-    const key = "ptd.tagColumns.v3";
-    const defaults = [36, 190, 160, 120, 120, 120, 34, 58, 42];
+    const key = "ptd.tagColumns.v2";
+    const defaults = [36, 190, 160, 120, 120, 120, 76, 58, 42];
     let widths = defaults.slice();
     try {
       const saved = JSON.parse(localStorage.getItem(key) || "null");
@@ -582,7 +582,7 @@
       panel.style.setProperty("--tag-list-columns", template);
       head.querySelectorAll(".column-resize").forEach(handle => {
         const index = Number(handle.dataset.columnIndex);
-        handle.setAttribute("aria-valuemin", String(index === 0 || index === 6 ? 30 : 48));
+        handle.setAttribute("aria-valuemin", String(index === 0 ? 30 : index >= 7 ? 48 : 48));
         handle.setAttribute("aria-valuemax", "520");
         handle.setAttribute("aria-valuenow", String(Math.round(widths[index])));
       });
@@ -590,7 +590,7 @@
     apply();
     head.querySelectorAll(".column-resize").forEach(handle => {
       const index = Number(handle.dataset.columnIndex);
-      const min = index === 0 || index === 6 ? 30 : index >= 7 && index <= 9 ? 56 : 48;
+      const min = index === 0 ? 30 : index >= 7 && index <= 9 ? 56 : 48;
       const resizeTo = value => {
         widths[index] = Math.max(min, Math.min(520, value));
         apply(); save();
@@ -1162,7 +1162,7 @@
       else if (classification?.status === "needs-review") majorCell.title = "分類要確認";
 
       const expression = expressionLevelInfoOf(t);
-      const ratingText = expression.level === null ? "—" : String(expression.level);
+      const ratingText = expression.level === null ? "未判定" : "レベル" + expression.level + "・" + expression.label;
       const ratingTitle = expression.level === null ? "未判定" : "レベル" + expression.level + "（" + expression.label + "）" + (expression.status === "verified" ? "・確認済み" : "・未確認");
       const ratingCell = makeCell("tag-cell tag-rating", ratingText, ratingTitle);
       if (expression.status !== "verified" && expression.level !== null) ratingCell.classList.add("is-provisional");
