@@ -739,14 +739,14 @@
             state.category=activeSub?[category.name,null,null]:[category.name,sub.name,null];
             if (isWorkGroupView) $("#sort-order").value = activeSub ? "relevance" : "work-count";
             state.page=0;renderAll();
-          },"category-minor"));
+          },"category-minor",[category.name,sub.name,null]));
         });
         if (category.id === "quality" && negativeCount) {
           const activeNegative = state.category?.[0] === "__outputTarget" && state.category?.[1] === "negative";
           minors.append(addFilterButton("ネガティブ・除外指定",negativeCount,activeNegative,()=>{
             state.category = activeNegative ? [category.name,null,null] : ["__outputTarget","negative",null];
             state.expandedMajor = category.name; state.page = 0; renderAll();
-          },"category-minor"));
+          },"category-minor",[category.name,sub.name,null]));
         }
         wrap.append(minors);
       }
@@ -1748,18 +1748,3 @@
           state.tags = mergeTags(retained, seed, false, { seedRefresh: true });
         } else state.tags = seed;
         saveData();
-      } else state.tags = seed;
-    } catch (e) {
-      try {
-        const parsed = saved ? JSON.parse(saved) : null;
-        state.tags = Array.isArray(parsed) ? parsed : [];
-      } catch { state.tags = []; }
-      if (!state.tags.length) state.tags = await seedTags().catch(() => []);
-    }
-    try { state.selected = new Set(JSON.parse(localStorage.getItem(SELECTED_KEY) || "[]")); } catch {}
-    try { state.excludedCategories = new Set(JSON.parse(localStorage.getItem(CATEGORY_EXCLUDE_KEY) || "[]")); } catch { state.excludedCategories = new Set(); }
-    try { reviewRatings = JSON.parse(localStorage.getItem(REVIEW_KEY) || "{}") || {}; } catch { reviewRatings = {}; }
-    normalizeRecords(); renderAll();
-  }
-  init();
-})();
