@@ -5,7 +5,7 @@
   <meta name="theme-color" content="#202329">
   <meta name="description" content="画像生成タグを日本語・英語で探し、分類してプロンプトを組み立てるタグ辞典。">
   <title>Prompt Tag Dictionary</title>
-  <link rel="stylesheet" href="./styles.css?v=category-exclusion-20261115"><script src="./src/app.js?v=bubble-editor-20261115" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=bubble-editor-20261115"><script src="./src/app.js?v=bubble-editor-20261115b" defer></script>
 </head>
 <body>
 <header class="topbar">
@@ -71,9 +71,9 @@
         <div class="category-includes" id="output-categories"></div>
       </div>
       <div class="output-stack">
-        <div class="output-header"><label for="prompt-output">ポジティブプロンプト（編集可）</label><span id="output-count">0 tags</span><div class="edit-history"><button id="output-undo" class="button button-quiet" type="button" disabled title="元に戻す (Ctrl+Z)">↶ Undo</button><button id="output-redo" class="button button-quiet" type="button" disabled title="やり直す (Ctrl+Y)">↷ Redo</button></div></div><textarea id="prompt-output" spellcheck="false" placeholder="品質・スコアと通常タグがここに表示されます。"></textarea>
+        <div class="output-header"><label for="prompt-output">ポジティブプロンプト</label><span id="output-count">0 tags</span><div class="edit-history"><button id="output-undo" class="button button-quiet" type="button" disabled title="元に戻す (Ctrl+Z)">↶ Undo</button><button id="output-redo" class="button button-quiet" type="button" disabled title="やり直す (Ctrl+Y)">↷ Redo</button></div></div><section class="prompt-bubble-editor" id="positive-bubble-editor" data-bubble-target="prompt-output"><div class="bubble-toolbar"><input id="positive-bubble-add" type="search" list="bubble-tag-suggestions" placeholder="タグを検索して追加" autocomplete="off"><button class="button button-quiet" type="button" data-bubble-add="prompt-output">＋追加</button><button class="button button-quiet" type="button" data-text-mode="prompt-output">テキスト編集</button></div><div id="positive-bubbles" class="prompt-bubbles" aria-live="polite"></div></section><textarea id="prompt-output" spellcheck="false" placeholder="品質・スコアと通常タグがここに表示されます。" hidden></textarea>
         <div class="output-actions"><button id="copy-output" class="button button-primary" disabled>ポジティブをコピー</button><button id="download-output" class="button button-quiet" disabled>TXT保存</button></div>
-        <div class="output-header negative-output-header"><label for="negative-output">ネガティブプロンプト（編集可）</label></div><textarea id="negative-output" spellcheck="false" placeholder="除外・抑制したいタグがここに表示されます。"></textarea>
+        <div class="output-header negative-output-header"><label for="negative-output">ネガティブプロンプト</label></div><section class="prompt-bubble-editor" id="negative-bubble-editor" data-bubble-target="negative-output"><div class="bubble-toolbar"><input id="negative-bubble-add" type="search" list="bubble-tag-suggestions" placeholder="タグを検索して追加" autocomplete="off"><button class="button button-quiet" type="button" data-bubble-add="negative-output">＋追加</button><button class="button button-quiet" type="button" data-text-mode="negative-output">テキスト編集</button></div><div id="negative-bubbles" class="prompt-bubbles" aria-live="polite"></div></section><textarea id="negative-output" spellcheck="false" placeholder="除外・抑制したいタグがここに表示されます。" hidden></textarea><datalist id="bubble-tag-suggestions"></datalist>
         <div class="output-actions negative-output-actions"><button id="copy-negative-output" class="button button-primary" disabled>ネガティブをコピー</button><button id="download-negative-output" class="button button-quiet" disabled>TXT保存</button></div>
         <p id="copy-status" class="status-text" aria-live="polite"></p>
       </div>
