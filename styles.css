@@ -1383,3 +1383,6 @@ body:not(.admin-mode) .tag-edit-button{display:none!important}
   .table-scroll-shell .tag-row .tag-edit-button{min-height:12px;font-size:8px}
   .table-scroll-shell .tag-row .vote-inline-cell .vote-button{width:10px;min-width:10px;height:11px;min-height:11px;font-size:7px}
 }
+
+/* Category exclusion filters */
+.category-filter-row{display:flex;align-items:center;gap:6px;min-width:0}.category-exclude-check{flex:0 0 auto;width:15px;height:15px;margin:0;accent-color:var(--accent-strong);cursor:pointer}.category-major-heading>.category-exclude-check{margin-inline-end:2px}.category-minor-row>.category-exclude-check{margin-inline-start:2px}.category-details .category-filter-row{padding-inline-start:8px}
