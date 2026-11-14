@@ -5,6 +5,9 @@
   const SELECTED_KEY = "ptd.selected.v1";
   const REVIEW_KEY = "ptd.review.v1";
   const CATEGORY_EXCLUDE_KEY = "ptd.category-exclusions.v1";
+  const BUILDER_KEY = "ptd-builder-state-v1";
+  let hasRestoredBuilderDraft = false;
+  let builderModes = { positive: "bubble", negative: "bubble" };
   let reviewRatings = {};
   let promptOrderOverrides = new Map();
   let promptTargetOverrides = new Map();
@@ -1233,8 +1236,21 @@
     $("#page-next").disabled = state.page >= pageCount - 1;
   }
   function toggleSelected(t) {
-    const key = norm(t.tag);
-    if (state.selected.has(key)) state.selected.delete(key); else state.selected.add(key);
+    const key = norm(t.tag), wasSelected = state.selected.has(key);
+    if (wasSelected) state.selected.delete(key); else state.selected.add(key);
+    const target = promptTargetOf(t) === "negative" ? "negative-output" : "prompt-output";
+    if (hasRestoredBuilderDraft) {
+      const current = parsePromptTokens($("#" + target).value);
+      if (wasSelected) {
+        for (const id of ["prompt-output","negative-output"]) {
+          const area=$("#"+id), kept=parsePromptTokens(area.value).filter(item=>norm(item.tag)!==key);
+          area.value=serializePromptTokens(kept);
+        }
+      } else if (!current.some(item=>norm(item.tag)===key)) {
+        current.push({tag:t.tag,weight:""}); $("#"+target).value=serializePromptTokens(current);
+      }
+      saveBuilderState(); renderPromptBubbles("prompt-output"); renderPromptBubbles("negative-output");
+    }
     saveSelected(); renderResults(); renderStats(); renderOutputCategories(); renderOutput();
   }
   function renderSelected() {
@@ -1283,6 +1299,105 @@
     return { positive: $("#prompt-output").value, negative: $("#negative-output").value };
   }
   function sameOutput(a, b) { return a?.positive === b?.positive && a?.negative === b?.negative; }
+
+  function parsePromptTokens(value) {
+    return String(value || "").split(/[\\n,]+/).map(part => part.trim()).filter(Boolean).map(raw => {
+      const weighted = raw.match(/^\\((.+):([0-9]+(?:\\.[0-9]+)?)\\)$/);
+      return weighted ? { raw, tag: weighted[1], weight: weighted[2] } : { raw, tag: raw, weight: "" };
+    });
+  }
+  function serializePromptTokens(tokens) {
+    return tokens.map(item => item.weight ? "(" + item.tag + ":" + item.weight + ")" : item.tag).join(", ");
+  }
+  function saveBuilderState() {
+    try {
+      localStorage.setItem(BUILDER_KEY, JSON.stringify({
+        schemaVersion: 1,
+        positive: $("#prompt-output").value,
+        negative: $("#negative-output").value,
+        modes: builderModes
+      }));
+    } catch {}
+  }
+  function setPromptMode(target, mode) {
+    const positive = target === "prompt-output";
+    const editor = $(positive ? "#positive-bubble-editor" : "#negative-bubble-editor");
+    const textarea = $("#" + target);
+    builderModes[positive ? "positive" : "negative"] = mode;
+    editor.hidden = mode !== "bubble";
+    textarea.hidden = mode !== "text";
+    const button = document.querySelector('[data-text-mode="' + target + '"]');
+    if (button) button.textContent = mode === "text" ? "バブル編集に戻る" : "テキスト編集";
+    saveBuilderState();
+  }
+  function updateBubbleSuggestions(input) {
+    const list = $("#bubble-tag-suggestions"), q = norm(input.value);
+    list.replaceChildren();
+    if (!q) return;
+    const candidates = state.tags.map(t => {
+      const fields = [t.tag, t.ja, ...(t.aliases || [])].map(norm);
+      let score = fields.some(value => value === q) ? 0 : fields.some(value => value.startsWith(q)) ? 1 : fields.some(value => value.includes(q)) ? 2 : 9;
+      return { tag: t, score };
+    }).filter(item => item.score < 9).sort((a,b) => a.score-b.score || a.tag.tag.localeCompare(b.tag.tag,"en")).slice(0,12);
+    candidates.forEach(({tag}) => {
+      const option = document.createElement("option");
+      option.value = tag.tag; option.label = tag.ja || categoryText(tag); list.append(option);
+    });
+  }
+  function renderPromptBubbles(target) {
+    const root = $(target === "prompt-output" ? "#positive-bubbles" : "#negative-bubbles");
+    if (!root) return;
+    const tokens = parsePromptTokens($("#" + target).value);
+    root.replaceChildren();
+    tokens.forEach((item,index) => {
+      const chip = document.createElement("div"); chip.className = "prompt-bubble"; chip.draggable = true;
+      chip.dataset.index = String(index);
+      const label = document.createElement("span"); label.className = "prompt-bubble-label"; label.textContent = item.tag; label.title = item.raw;
+      const weight = document.createElement("input"); weight.type = "number"; weight.className = "prompt-bubble-weight";
+      weight.min = "0.1"; weight.max = "2"; weight.step = "0.01"; weight.value = item.weight; weight.placeholder = "重み"; weight.setAttribute("aria-label", item.tag + "の重み");
+      weight.addEventListener("change", () => {
+        const value = weight.value.trim();
+        if (value && (!Number.isFinite(Number(value)) || Number(value) < 0.1 || Number(value) > 2)) { weight.value = item.weight; return; }
+        tokens[index] = { ...item, weight: value ? String(Number(value)) : "" };
+        writePromptTokens(target,tokens);
+      });
+      const action = (text,title,fn) => { const b=makeButton(text,"prompt-bubble-action",fn); b.title=title; b.setAttribute("aria-label",title); return b; };
+      chip.append(label,weight,
+        action("↑","上へ移動",()=>{if(index>0){[tokens[index-1],tokens[index]]=[tokens[index],tokens[index-1]];writePromptTokens(target,tokens);}}),
+        action("↓","下へ移動",()=>{if(index<tokens.length-1){[tokens[index+1],tokens[index]]=[tokens[index],tokens[index+1]];writePromptTokens(target,tokens);}}),
+        action("編集","タグを編集",()=>{const next=window.prompt("タグ名を編集",item.tag);if(next!==null&&next.trim()){tokens[index]={...item,tag:next.trim()};writePromptTokens(target,tokens);}}),
+        action(target==="prompt-output"?"−N":"+P",target==="prompt-output"?"ネガティブへ移動":"ポジティブへ移動",()=>movePromptToken(target,index,tokens)),
+        action("×","削除",()=>{tokens.splice(index,1);writePromptTokens(target,tokens);}));
+      chip.addEventListener("dragstart",event=>{event.dataTransfer.setData("text/plain",String(index));event.dataTransfer.effectAllowed="move";});
+      chip.addEventListener("dragover",event=>{event.preventDefault();event.dataTransfer.dropEffect="move";});
+      chip.addEventListener("drop",event=>{event.preventDefault();const from=Number(event.dataTransfer.getData("text/plain"));if(Number.isInteger(from)&&from!==index&&tokens[from]){const [moved]=tokens.splice(from,1);tokens.splice(index,0,moved);writePromptTokens(target,tokens);}});
+      root.append(chip);
+    });
+    if (!tokens.length) { const empty=document.createElement("p");empty.className="prompt-bubble-empty";empty.textContent="タグを選択するか、上の欄から追加してください。";root.append(empty); }
+  }
+  function writePromptTokens(target,tokens) {
+    $("#" + target).value = serializePromptTokens(tokens);
+    syncSelectionFromPreview();
+    renderPromptBubbles("prompt-output"); renderPromptBubbles("negative-output");
+    saveBuilderState();
+  }
+  function movePromptToken(target,index,tokens) {
+    const source = $("#" + target), destinationTarget = target === "prompt-output" ? "negative-output" : "prompt-output";
+    const destination = $("#" + destinationTarget), item = tokens.splice(index,1)[0];
+    const other = parsePromptTokens(destination.value);
+    other.push(item); source.value=serializePromptTokens(tokens); destination.value=serializePromptTokens(other);
+    syncSelectionFromPreview(); renderPromptBubbles("prompt-output"); renderPromptBubbles("negative-output"); saveBuilderState();
+  }
+  function addBubbleToken(target) {
+    const input = $("#" + (target === "prompt-output" ? "positive-bubble-add" : "negative-bubble-add"));
+    const raw = input.value.trim(); if (!raw) return;
+    const found = state.tags.find(t => norm(t.tag) === norm(raw) || norm(t.ja) === norm(raw) || (t.aliases||[]).some(alias=>norm(alias)===norm(raw)));
+    const value = found ? found.tag : raw;
+    const tokens = parsePromptTokens($("#" + target).value);
+    if (!tokens.some(item=>norm(item.tag)===norm(value))) tokens.push({tag:value,weight:""});
+    input.value = ""; updateBubbleSuggestions(input); writePromptTokens(target,tokens);
+  }
+
   function renderOutput() {
     const selected = state.tags.filter(t => state.selected.has(norm(t.tag)));
     const group = $("#group-by-category").checked, comments = $("#include-comments").checked;
@@ -1316,8 +1431,10 @@
     }
     const positive = buildSection(included.filter(t => promptTargetOf(t) !== "negative"));
     const negative = buildSection(included.filter(t => promptTargetOf(t) === "negative"));
-    $("#prompt-output").value = positive.value; $("#negative-output").value = negative.value;
-    outputHistory.last = outputSnapshot(); outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons();
+    if (!hasRestoredBuilderDraft) { $("#prompt-output").value = positive.value; $("#negative-output").value = negative.value; }
+    renderPromptBubbles("prompt-output"); renderPromptBubbles("negative-output");
+    if (!hasRestoredBuilderDraft) { outputHistory.last = outputSnapshot(); outputHistory.undo.length = 0; outputHistory.redo.length = 0; updateOutputHistoryButtons(); }
+    saveBuilderState();
     $("#output-count").textContent = (positive.count + negative.count) + " tags";
     $("#copy-output").disabled = !positive.value.trim(); $("#download-output").disabled = !positive.value.trim();
     $("#copy-negative-output").disabled = !negative.value.trim(); $("#download-negative-output").disabled = !negative.value.trim();
@@ -1342,7 +1459,7 @@
       const item = byName.get(norm(token.replace(/\*\/$/, "").trim()));
       if (item) next.add(norm(item.tag));
     });
-    state.selected = next; saveSelected(); renderStats(); renderResults(); renderOutputCategories();
+    state.selected = next; saveSelected(); saveBuilderState(); renderPromptBubbles("prompt-output"); renderPromptBubbles("negative-output"); renderStats(); renderResults(); renderOutputCategories();
     $("#output-count").textContent = next.size + " tags";
     $("#copy-output").disabled = !current.positive.trim(); $("#download-output").disabled = !current.positive.trim();
     $("#copy-negative-output").disabled = !current.negative.trim(); $("#download-negative-output").disabled = !current.negative.trim();
@@ -1691,7 +1808,18 @@
     $("#preview-add").addEventListener("change", addPreviewTag);
     $("#preview-add").addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); addPreviewTag(); } });
     $("#preview-add-button").addEventListener("click", addPreviewTag);
-    ["prompt-output", "negative-output"].forEach(id => $("#" + id).addEventListener("input", () => syncSelectionFromPreview()));
+    ["prompt-output", "negative-output"].forEach(id => $("#" + id).addEventListener("input", () => {
+      hasRestoredBuilderDraft = true; syncSelectionFromPreview(); renderPromptBubbles(id); saveBuilderState();
+    }));
+    document.querySelectorAll("[data-text-mode]").forEach(button => button.addEventListener("click",()=>{
+      const target=button.dataset.textMode, positive=target==="prompt-output";
+      setPromptMode(target,builderModes[positive?"positive":"negative"]==="text"?"bubble":"text");
+    }));
+    document.querySelectorAll("[data-bubble-add]").forEach(button=>button.addEventListener("click",()=>addBubbleToken(button.dataset.bubbleAdd)));
+    ["positive-bubble-add","negative-bubble-add"].forEach(id=>{
+      const input=$("#"+id);input.addEventListener("input",()=>updateBubbleSuggestions(input));
+      input.addEventListener("keydown",event=>{if(event.key==="Enter"){event.preventDefault();addBubbleToken(id==="positive-bubble-add"?"prompt-output":"negative-output");}});
+    });
     ["prompt-output", "negative-output"].forEach(id => $("#" + id).addEventListener("keydown", e => {
       if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z") { e.preventDefault(); undoOutput(); }
       else if ((e.ctrlKey || e.metaKey) && (e.key.toLowerCase() === "y" || (e.shiftKey && e.key.toLowerCase() === "z"))) { e.preventDefault(); redoOutput(); }
